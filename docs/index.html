@@ -1,0 +1,1192 @@
+<!DOCTYPE HTML>
+<!--
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html lang="ja">
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+
+	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" >
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    	<script type="text/javascript"  src="assets/js/top.js"></script>
+		<title>防災INSIGHT</title>
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+
+	<body onload="ini()">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="logo">
+							<span class="icon fa-diamond"></span>
+						</div>
+						<div class="content">
+							<div class="inner">
+								<h1>防災INSIGHT</h1>
+								<p>"その時" どうする？</p>
+							</div>
+						</div>
+						<nav>
+							<ul>
+								<li><a href="#intro">Intro</a></li>
+								<li><a href="#type"><span onclick="eq()">Type</span></a></li>
+								<li><a href="#where"><span onclick="def()">Where</span></a></li>
+								<li><a href="#need">Need</a></li>
+							</ul>
+						</nav>
+						<nav>
+							<ul>
+								<li><a href="#tokei">Statis</a></li>
+								<li><a href="#bibliography">Biblio</a></li>
+								<li><a href="#rule">Rule</a></li>
+								<li><a href="#update">Update</a></li>
+							</ul>
+						</nav>
+
+<div class="content">
+	<div class="inner">
+		<div class="sns">
+<a href="https://twitter.com/share" class="twitter-share-button" data-lang="ja">ツイート</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+<div class="fb-like" data-href="http://handbook.webcrow.jp/index.html" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div><br>
+		</div>
+	</div>
+</div>
+
+					</header>
+
+
+
+				<!-- Main -->
+					<div id="main">
+						<!-- Intro -->
+							<article id="intro">
+								<h2 class="major">はじめに</h2>
+								<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
+								<p>地震大国と言われる日本。<br><br><br>
+								国土特有の地形において、全国で頻繁に地震による被害が発生しています。<br><br><br>
+								地震のみではなく、台風や津波、竜巻、土砂災害、大雪、雪崩...<br><br><br>
+								災害はある日、突然やってきます。<br><br><br>
+								"その時"あなたはどこにいるでしょうか？<br><br><br>
+								職場？デパート？電車や地下鉄？はたまた、旅先の旅館？<br><br><br>
+								"その時"あなたは何を考え、どう行動すれば良いのでしょうか？<br><br><br>
+								"守るべきもの"がある人は大勢いらっしゃいます。<br><br><br>
+								災害について "知る"ことで "守る" ことに繋げる必要があります。<br><br><br>
+								そして、次の世代に"語り継ぐ" ・ "受け継ぐ"必要もあると思います。<br><br><br>
+								このアプリは、国や地方公共団体のオープンデータを用いて、いざという時の"ツール"になるべく、開発しました。<br><br><br>
+								スマートフォンが普及した現在、本アプリをハンドブック的な位置づけとして使用していただければと思います。<br><br><br>
+								ご家族と防災について話したり、ご友人と情報共有したり、使い方は人ぞれぞれだと思います。<br><br><br>
+								そして、日本という国で暮らしていく中で、大きな課題があります。<br><br><br>
+								私たちは、この台地・自然とどのように向き合って生きていけば良いのでしょうか？<br><br><br>
+								少しでも皆さんのヒントとなり、お役に立てられれば幸いにございます。<br><br><br>
+								by 仁志.
+							</article>
+
+						<!-- Work -->
+							<article id="type">
+								<h2 class="major">災害の種類</h2>
+								<p>災害にはどのようなものがあるでしょうか？<br>
+								災害について "知る" ことが "守る" ことに繋がります。</p>
+								
+										<div class="field">
+											<label for="demo-category">Category</label>
+											<div class="select-wrapper">
+												<select name="type-category" id="type-category" onChange= "ty()">
+													<option>災害の種類</option>
+													<option value="1">地震</option>
+													<option value="2">津波</option>
+													<option value="3">風水害</option>
+													<option value="4">自然災害</option>
+												</select>
+											</div>
+										</div><br>
+								
+								<div id="eq">
+								<h2>地　震</h2>
+								<p>
+								<img src ="images/eq1.jpg" width="100%">
+								<br>（写真提供：神戸市）</p>
+								
+								<h3>☆メカニズム</h3>
+								<blockquote>
+								・プレート境界型<br>
+								海底にあるプレートとよばれる板のような岩盤が、地球の運動によりひずみ、ずれることによって起こる。<br><br>
+								・活断層型<br>
+								内陸にある活断層とよばれる地面の裂け目が動いて起こる。
+								</blockquote>
+								
+								<h3>☆震度とマグニチュード</h3>
+								<blockquote>
+								・震度<br>
+								その場所での地震の揺れを表す。日本で使われる言い方で、10階級に分かれる。<br><br>
+								・マグニチュード<br>
+								震源での地震エネルギーの規模を表す。マグニチュードが１増えるとエネルギーは32倍になる。
+								</blockquote>
+								
+								<h3>☆余震</h3>
+								<blockquote>
+								大地震が発生した後は、余震が続くことが多い。
+								</blockquote>
+								
+								<h3>☆気象庁震度階級関連解説表</h3>
+								<p>
+								<img src ="images/ek.jpg" width="100%">
+								<br>（出典「防災マニュアル」消防庁、気象庁HP）</p>
+								
+								<h3>☆地震防災INSIGHT</h3>
+								家にいる時
+								<blockquote>
+								<img src ="images/school.jpg" width="100%"><br>
+								・机やテーブルの下にもぐる等して頭を守る！<br>
+								学校の避難訓練を思い出そう。<br><br>
+								<img src ="images/nabe.jpg" width="100%"><br>
+								・地震の次は火災に注意！<br>
+								揺れがおさまったら、火の始末を忘れずに！<br><br>
+								<img src ="images/soto.jpg" width="100%">
+								<br>（写真提供：神戸市）<br>
+								・慌てて外に飛び出さない！<br>
+								瓦や看板が落ちてくる、ガラス等の破片が刺さる危険がある。<br><br>
+								<img src ="images/br.jpg" width="100%"><br>
+								・避難する時は、電気のブレーカーを一旦切る！<br>
+								電気が復旧した時に火災が起こる危険性がある。<br><br>
+								・正しい情報を入手する。<br>
+								テレビ、スマホのニュース、ラジオなどから発表される信頼できる情報を頼りに、落ち着いて行動する。
+								</blockquote>
+								
+								外にいる時
+								<blockquote>
+								<img src ="images/ra.jpg" width="100%"><br>
+								（写真提供：神戸市）<br>
+								・落下物に注意！<br>
+								瓦が落ちてきたり、ブロック塀が壊れたり、ビルの看板が落ちてくる可能性がある。<br><br>
+								<img src ="images/yo.jpg" width="100%"><br>
+								（写真提供：神戸市）<br>
+								・余震に注意！<br>
+								大地震の後は、余震が続く傾向にある。余震といえ、強い地震が発生する場合があるので、倒れかけた建物には近づかない。<br><br>
+								
+								・電車に乗っている時、デパート・映画館等では係員の指示に従い行動する！
+								
+								</blockquote>
+								</div><!-- eq -->
+								
+								<div id="tn">
+								<h2>津　波</h2>
+								<p>
+								<img src ="images/tn1.jpg" width="100%">
+								<br>（出典「災害写真データベース」、東日本大震災、津波で破壊された防波堤）</p>
+								
+								<h3>☆メカニズム</h3>
+								<blockquote>
+								津波は、多くが海底でプレート型地震が起きた時に海底が持ち上がったり、沈み込んだりすることで起こる。
+								</blockquote>
+								
+								<h3>☆特　徴</h3>
+								<blockquote>
+								・スピードの速さ<br>
+								津波警報等が発表される前にやってくることがある。<br><br>
+								・低い津波でも要注意<br>
+								50cmの津波とはいえ、立っていられるのがやっとなほどの威力で押し寄せてくる。
+								</blockquote>
+								
+								<p>避難する場合は、とにかくすぐに高い所で逃げることが大切です。</p>
+								
+								<h3>☆津波防災INSIGHT</h3>
+								<blockquote>・小さい震度でも発生することがある！<br><br>
+								・何度もやってくる！<br>
+								警報や避難勧告・指示が解除されるまで戻ってはいけない。<br><br>
+								・見物は危険！<br>
+								珍しいからといって近づくのは危険である。
+								</blockquote>
+								</div><!-- tn -->
+								
+								<div id="th">
+								<h2>風 水 害</h2>
+								<h2>台　風</h2>
+								<img src="images/th.png" width="100%"><br>
+								（出典：気象庁HPより）<br><br>
+								<h3>☆定　義</h3>
+								<blockquote>
+								熱帯の海上で発生する低気圧を「熱帯低気圧」と呼ぶが、このうち北西太平洋（赤道より北で東経180度より西の領域）または南シナ海に存在し、なおかつ低気圧域内の最大風速（10分間平均）がおよそ17m/s（34ノット、風力８）以上のものを「台風」と呼ぶ。（気象庁HPより抜粋）
+								</blockquote>
+
+								<h2>洪　水</h2>
+								<img src="images/kz.jpg" width="100%"><br><br>
+								<h3>☆メカニズム</h3>
+								<blockquote>
+								台風・集中豪雨等により河川が増水し、堤防を越えた水が沿岸に被害を与える。
+								</blockquote>
+								
+								<h2>土砂災害</h2>
+								<img src="images/ds.jpg"  width="100%"><br>
+								（出典：気象庁HPより）<br><br>
+								<h3>☆メカニズム</h3>
+								<blockquote>
+								大雨によって地盤が軟らかくなり、がけ崩れや地すべり、土石流をともなう。
+								</blockquote>
+								
+								<h3>☆前触れ</h3>
+								<blockquote>
+								・がけ崩れ<br>
+								<img src="images/syamen.jpg"  width="100%"><br>
+								（出典：国土地理院HPより）<br><br>
+								がけからの水が濁る。<br>
+								がけにひび割れが入る。<br>
+								小石がパラパラと落ちてくる。<br><br>
+								・地すべり<br>
+								<img src="images/jisuberi.jpg"  width="100%"><br>
+								（出典：国土地理院HPより）<br><br>
+								地面にひび割れができる。<br>
+								沢や井戸の水が濁る。<br>
+								斜面から水がふき出す。<br><br>
+								・土石流<br>
+								山鳴りがする。<br>
+								雨が降り続いているのに川の水位が下がる。<br>
+								川の流れが濁ったり流木がまざり始める。								
+								</blockquote>								
+								
+								<h2>高　潮</h2>
+								<img src="images/ts.jpg" width="100%"><br>
+								（1953年、北海南岸での高潮、オランダ南部ゼーラント州、Wikipedia：パブリック・ドメイン）<br><br>
+								<h3>☆メカニズム</h3>
+								<blockquote>
+								台風や低気圧の接近により、海面が上昇し、大波が沿岸部に押し寄せる。
+								</blockquote>
+								
+								
+								<h2>竜　巻</h2>
+								<img src="images/tm.jpg"  width="100%"><br>
+								（出典「災害写真データベース」、北海道佐呂間町の竜巻による災害（2006年））<br><br>
+								<h3>☆現　象</h3>
+								<blockquote>
+								発達した積乱雲によって作られる大気中の激しいうずまきのこと。
+								</blockquote>
+								
+								<h3>☆特　徴</h3>
+								<blockquote>
+								・速さと威力<br>
+								秒速100ｍを超える猛烈な風で、周りのあらゆるものを吹き飛ばす。<br><br>
+								・年中発生<br>
+								年間を通じて、いつでもどこでも発生する。<br><br>
+								・日中に注意<br>
+								夜間よりも日中の方が多い。
+								</blockquote>
+								
+								<img src="images/harik.jpg"  width="100%"><br><br>
+								
+								<h3>☆発生したら…</h3>
+								<blockquote>
+								・屋内<br>
+								窓ガラスが割れる危険があるので、窓から離れる。<br><br>
+								
+								・屋外<br>
+								頑丈な建物に避難する。<br>
+								頑丈な構造物に頭を抱えてうずくまる。<br><br>
+								
+								・車内<br>
+								車も飛ばされる危険があるので、車内でも頭を抱えてうずくまる。
+								
+
+								</blockquote>
+								
+								<h3>☆風水害防災INSIGHT</h3>
+								風水害は地震などの予想が難しい災害とは異なり、事前に情報収集ができていれば、余裕を持って行動できる。<br><br>
+								<blockquote>
+								・まずは天気予報の確認から！<br>
+								日頃から天気予報を確認する習慣をつける。<br><br>
+								・危険な時は中止の決断を！<br>
+								旅行で山や海に行くなどの計画がある時は、天気予報を確認し、危険な場合は中止にする。<br><br>
+								・家の周りの危険個所をチェック！<br>
+								自治体の「ハザードマップ」から、家の周りの危険個所をチェックする。
+								</blockquote>
+								
+								</div><!-- th -->
+								
+								<div id="ds">
+								<h2>自然災害</h2>
+								<h2>火山災害</h2>
+								<img src="images/kazan.jpg"  width="100%"><br><br>
+								<h3>☆種　類</h3>
+								<blockquote>
+								・火砕流、火山灰や噴石<br><br>
+								・溶岩流<br><br>
+								・土石流<br><br>
+								・地震（噴火活動に伴って発生）<br><br>
+								・火山ガス
+								</blockquote>
+								
+								<p>日本は「環太平洋造山帯」という火山ベルトに位置しており、活火山（噴火活動が盛んな火山のこと。）は110を数えます。</p>
+
+								<h3>☆火山災害防災INSIGHT</h3>
+								<blockquote>
+								山に出かける時は火山情報をチェックする。<br><br>
+								噴石からは岩陰や丈夫な建物に避難する。<br><br>
+								行政機関の避難指示に従って行動する。<br><br>
+								火山ガス（有毒性）にも注意する。
+								</blockquote>
+
+								<h2>雪　崩</h2>
+								<img src="images/snow.jpg" width="100%"><br>
+								（雪崩の瞬間、Wikipedia：パブリック・ドメイン）<br><br>
+								<h3>☆現　象</h3>
+								<blockquote>
+								山に積もった雪が崩れ落ちる。
+								</blockquote>
+								
+								<p>雪崩被害の多くは「表層雪崩」によるものです。</p>
+								<h3>☆表層雪崩</h3>
+								<blockquote>
+								気温の低い状況で、積雪面の上に数10cm以上の大雪が降った場合に、新積雪層が滑り落ちる。<br><br>
+								降雪中・降雪後・昼夜関係なく、大規模に動き出す。
+								</blockquote>
+
+								<h3>☆雪崩防災INSIGHT</h3>
+								<blockquote>								
+								・立ち入り禁止場所には入らない。<br><br>
+								・春先は雪崩がおきやすい季節なので、注意する！<br><br>
+								・時速100kmをこえるスピードなため、逃げ切ることは不可能！<br><br>
+								・巻き込まれても、あきらめない！<br>
+								呼吸器官の確保、岩や樹木にしがみつく。<br><br>
+								・大声を出して、仲間に知らせる。
+								</blockquote>
+
+								<h2>落　雷</h2>
+								<img src="images/sander.jpg" width="100%"><br><br>
+								<h3>☆現　象</h3>
+								<blockquote>
+								雷は雷雲の位置しだいで、平野、海面、山岳など、ところかまわず落ちる。
+								</blockquote>
+								
+								<h3>☆落雷防災INSIGHT</h3>
+								外にいる時
+								<blockquote>
+								・高い木下は危険！<br>
+								葉先から2m以上は離れる。<br><br>
+								・軒先での雨宿りは危険！<br>
+								建物の中に避難する。<br><br>
+								・テニスラケットや釣竿（金属性、カーボンファイバー性）は手放して避難する<br><br>							
+								・乗り物の中は安全！
+								</blockquote>
+								
+								家にいる時
+								<blockquote>
+								・テレビ等電化製品から距離を置く！<br><br>
+								・落雷によりパソコン等が壊れる可能性があるので、注意する！
+								</blockquote>
+								
+								</div><!-- ds -->
+								<hr />
+								以下の資料をもとに仁志が加工・編集して作成しました。<br>
+								・わたしの防災サバイバル手帳、消防庁、<a href="https://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a>
+							</article>
+
+						<!-- About -->
+							<article id="where">
+								<h2 class="major">どこにいる？</h2>
+									
+								<p>地震が発生した時、あなたはどこにいるでしょうか？<br><br>
+								"その時" どう行動したら良いのでしょうか？<br><br>
+								参考文献を基に様々なシーンを想定し、再構成してみました。<br><br>
+								皆で考えてみましょう！
+								</p>
+									
+										<div class="field">
+											<label for="demo-category">Category</label>
+											<div class="select-wrapper">
+												<select name="demo-category" id="demo-category" onChange= "sel()">
+													<option>どこにいる？</option>
+													<option value="1">屋内編</option>
+													<option value="2">屋外編</option>
+													<option value="3">乗り物編</option>
+													<option value="4">揺れが収まったら</option>
+												</select>
+											</div>
+										</div>
+								<br>
+								
+								<div id ="home">
+								<h2>屋内編</h2>
+								
+								<h3>☆一般住宅</h3>
+								日常生活中
+								<blockquote>
+								・机やテーブルの下にもぐり、自分の身を守る。<br><br>
+								
+								・動く時は、スリッパ等を履く。ガラス片等で足を怪我する可能性がある。<br><br>
+								
+								・戸を開けて出入り口を確保する。
+								
+								</blockquote>
+
+								トイレ・お風呂
+								<blockquote>
+								・風呂場では、タイルや鏡、トイレでは水洗タンクが落ちてくることがあるので、注意する。<br><br>
+								
+								・入浴中は、鏡やガラスの破損による怪我に注意する。<br><br>
+								
+								・浴槽の中では、風呂のふた等をかぶり、頭を守る。<br><br>
+								
+								・揺れがおさまってから、避難する。
+								
+								</blockquote>
+								
+								台所
+								<blockquote>
+								・テーブルの下にもぐり、身の安全を確保する。<br><br>
+								
+								・慌てて火を消そうとすると、やけどする危険があるので、揺れがおさまるのを待ってから火を消す。<br><br>
+								
+								・食器棚や冷蔵庫が倒れてくるだけではなく、中身が飛び出してくる事があるので、注意する。
+								
+								</blockquote>
+								
+								寝ている時
+								<blockquote>
+								・揺れで目が覚めたら、寝具にもぐりこむか、ベッドの中にうずくまる。<br><br>
+								
+								・枕元にはスリッパ、懐中電灯、ラジオやスマートフォンを置いておく。<br><br>
+								
+								・寝室にタンス等を置く場合は、天井と固定しておき、倒れないようにする。
+								</blockquote>
+								
+								<h3>☆マンション</h3>
+								<blockquote>
+								・机の下にもぐり、揺れがおさまるのを待つ。<br><br>
+								
+								・高層階では、揺れの幅が大きくなる。<br><br>
+								
+								・非常口の確認をしておく。
+								
+								</blockquote>
+								
+								<h3>☆職場・オフィス</h3>
+								<blockquote>
+								・窓ガラスが割れることがあるので、窓辺から離れる。<br><br>
+								
+								・OA機器の落下に注意する。<br><br>
+								
+								・日頃から整理整頓を行い、職場環境を綺麗に心がける。<br><br>
+								
+								・避難時はエレベーターを使用しないようにする。
+								
+								</blockquote>
+								
+								</div>
+								
+								<div id ="okugai">
+								<h2>屋外編</h2>
+								<h3>☆住宅地</h3>
+								<blockquote>
+								・住宅地の路地にあるブロック塀や石塀は、強い揺れで倒れる危険がある。揺れを感じたら塀から離れる。<br><br>
+								
+								・電柱や自動販売機も倒れてくることがあるので、そばから離れる。<br><br>
+								
+								・屋根瓦や二階建て以上の住宅のベランダに置かれているエアコンの室外機、ガーデニング用のプランターなどが落下してくることがある。頭の上も注意する。<br><br>
+								・強い揺れが起きると、耐震性能の低い住宅が倒壊する場合もある。これにより瓦礫や窓ガラスが道路内に散乱する可能性もあるので、揺れを感じたら周辺の状況に注意する。
+								
+								</blockquote>
+								
+								<h3>☆オフィス街・中華街</h3>
+								<blockquote>
+								・何はともあれ、頭上を保護する！<br><br>
+								
+								・オフィスビルの窓ガラスが割れて落下すると、時速40～60kmで広範囲に拡散する。<br><br>
+								
+								・ビルの外壁や張られているタイル、外壁に取り付けられている看板などが剥がれ落ちることもある。<br><br>
+
+								・繁華街では、オフィス街には少ない、店の看板やネオンサインなどの落下・転倒物が加わる。<br><br>
+								
+								・鞄などで頭を保護し、できるだけ建物から離れる。<br><br>
+								
+								</blockquote>
+								
+								<h3>☆海　岸</h3>
+								<blockquote>
+								・一番恐ろしいのは津波。とにかく高い所に避難する！<br><br>
+								
+								・津波は繰り返し襲って来て、第一波の後にさらに高い波が来ることもある。いったん波が引いても絶対に戻ってはいけない。<br><br>
+								
+								・避難標識が整備されている場合には避難する際の目安になる。<br><br>
+
+								・水浴中の場合は、監視員やライフセーバーがいる海水浴場では指示に従って避難する。
+								
+								</blockquote>
+								
+								<h3>☆川べり</h3>
+								<blockquote>
+								・津波は水を湛えている川を遡る！<br><br>
+								
+								・流れに沿って上流側へ避難しても津波は追いかけてくる。<br><br>
+								
+								・流れに対して直角方向に素早く避難する。
+								
+								</blockquote>
+								
+								<h3>☆山・丘陵地</h3>
+								<blockquote>
+								・落石に注意し、急傾斜地など危険な場所から遠ざかる！<br><br>
+								
+								・登山やハイキングで山にいる時に強い揺れに襲われた場合には、まず落石から身を守る。<br><br>
+
+								・地震で地盤がゆるみ、崩れやすくなっている可能性があるため、崖や急傾斜地など危険な場所には近づかない。
+								
+								</blockquote>
+								
+								</div>
+								
+								<div id ="norimono">
+								<h2>乗り物編</h2>
+								<h3>☆運転中</h3>
+								<blockquote>
+								・揺れを感じたら<br>
+								①急ブレーキは禁物！ハンドルをしっかり握り、前後の車に注意しながら徐々にスピードを落とし、道路の左側に停車する。<br><br>
+								②エンジンを切り、揺れがおさまるまでは車外に出ず、カーラジオやスマートフォンから情報を入手する。<br><br>
+								③避難の必要がある場合は、車のキーはつけたままにし、ドアをロックしないで、窓を閉める。<br><br>
+								④連絡先を見えるところに書き、車検証などの貴重品を持ち、徒歩で避難する。<br><br>
+
+								・車での避難は、緊急自動車などの妨げになる。<br><br>
+
+								・高速道路では、普通の道路を走行中の対処に加え、以下の点にも留意する。<br><br>
+								①高速走行しているのでハザードランプを点灯させ、前後の車に注意を喚起する。<br><br>
+								②高速道路では約１ｋｍごとに非常口を設けているので、徒歩で地上に脱出することができる。
+								</blockquote>
+								
+								<h3>☆鉄　道</h3>
+								<blockquote>
+								・強い揺れを感知すると電車は緊急停車する！<br><br>
+								
+								・座席に座っている場合には、低い姿勢をとって頭部を鞄などで保護し、立っている場合には手すりやつり革をしっかり握って転倒しないようにする。<br><br>
+
+								・停車後は、乗務員の指示に従う。
+								</blockquote>
+								
+								<h3>☆新幹線</h3>
+								<blockquote>
+								・新幹線は早期地震検知警戒システム（ユレダス）が作動して緊急停車する！<br><br>
+								
+								・高速走行しているので、座席に座っている場合には、前に飛び出さないように座席の間に体を隠し、立っている場合には手すりをしっかり握って転倒しないようにする。<br><br>
+
+								・停車後は、乗務員の指示に従う。
+
+								</blockquote>
+								
+								<h3>☆地下鉄</h3>
+								<blockquote>
+								・震度５弱程度の揺れを観測した場合に運転を停止し、線路途中なら安全を確認し、低速で最寄りの駅に向かう！<br><br>
+								
+								・座席に座っている場合には、低い姿勢をとって頭部を鞄などで保護し、立っている場合には手すりやつり革をしっかり握って転倒しないようにする。<br><br>
+
+								・停電になっても非常灯が1時間程度は点灯するので、慌てずに行動する。<br><br>
+
+								・地下鉄によっては高圧電線が線路脇に設置されているので、勝手に線路に飛び降りると危険！<br><br>
+
+								・停車後は、乗務員の指示に従う。
+								
+								</blockquote>
+								
+								<h3>☆バ　ス</h3>
+								<blockquote>
+								・強い揺れを感じた場合に、危険を回避するために急ブレーキが踏まれることがある！<br><br>
+
+								・座席に座っている場合には、低い姿勢をとって頭部を鞄などで保護し、立っている場合には手すりやつり革をしっかり握って転倒しないようにする。<br><br>
+
+								・停車後は、乗務員の指示に従う。
+								
+								</blockquote>
+								
+								</div>
+								
+								<div id ="yure">
+								<h2>揺れが収まったら</h2>
+								<h3>☆身の安全の確保</h3>
+								<blockquote>
+								・まずは、状況を確認し身の安全の確保を最優先します。慌てて行動すると思わぬ怪我をする恐れがあるので、冷静になることを心がけてください。
+								<br><br>
+								・揺れが収まったら、戸や窓を開ける等し、出口の確保に努めましょう！
+								</blockquote>
+								
+								
+								<h3>☆避難の判断</h3>
+								
+								<h3>☆避難の行動</h3>
+								
+								<h3>☆帰宅困難者</h3>
+								
+								<h3>☆救出・援護</h3>
+								
+								</div>
+								
+								<p>
+								<hr />
+								以下の資料をもとに仁志が加工・編集して作成しました。<br>
+								・防災マニュアル、消防庁、<a href="https://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a>
+	
+								</p>
+							</article>
+
+						<!-- Contact -->
+							<article id="contact">
+								<h2 class="major">Contact</h2>
+								<form method="post" action="#">
+									<div class="field half first">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field half">
+										<label for="email">Email</label>
+										<input type="text" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="4"></textarea>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="special" /></li>
+										<li><input type="reset" value="Reset" /></li>
+									</ul>
+								</form>
+								<ul class="icons">
+									<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</article>
+
+						<!-- Elements -->
+							<article id="need">
+								<h2 class="major">何が必要？</h2>
+								１．自分の地域の避難所等の情報を入手する。<br><br>
+								
+										<div class="field">
+											<div class="select-wrapper">
+												<select name="to-category" id="to-category" onChange= "h_map()">
+			<option>都道府県選択</option>
+			<option value="hokkaido">北海道</option>
+			<option value="aomori">青森県</option>
+			<option value="akita">秋田県</option>
+			<option value="iwate">岩手県</option>
+			<option value="yamagata">山形県</option>
+			<option value="miyagi">宮城県</option>
+			<option value="fukushima">福島県</option>
+			<option value="nigata">新潟県</option>
+			<option value="tiba">千葉県</option>
+			<option value="tochigi">栃木県</option>
+			<option value="gunma">群馬県</option>
+			<option value="saitama">埼玉県</option>
+			<option value="ibaragi">茨城県</option>
+			<option value="tokyo">東京都</option>
+			<option value="kanagawa">神奈川県</option>
+			<option value="yamanashi">山梨県</option>
+			<option value="nagano">長野県</option>
+			<option value="shizuoka">静岡県</option>
+			<option value="toyama">富山県</option>
+			<option value="ishikawa">石川県</option>
+			<option value="gifu">岐阜県</option>
+			<option value="aichi">愛知県</option>
+			<option value="mie">三重県</option>
+			<option value="fukui">福井県</option>
+			<option value="shiga">滋賀県</option>
+			<option value="kyoto">京都府</option>
+			<option value="nara">奈良県</option>
+			<option value="osaka">大阪府</option>
+			<option value="wakayama">和歌山県</option>
+			<option value="hyogo">兵庫県</option>
+			<option value="tottori">鳥取県</option>
+			<option value="okayama">岡山県</option>
+			<option value="shimane">島根県</option>
+			<option value="hiroshima">広島県</option>
+			<option value="yamaguchi">山口県</option>
+			<option value="kagawa">香川県</option>
+			<option value="tokushima">徳島県</option>
+			<option value="ehime">愛媛県</option>
+			<option value="kochi">高知県</option>
+			<option value="fukuoka">福岡県</option>
+			<option value="saga">佐賀県</option>
+			<option value="nagasaki">長崎県</option>
+			<option value="oita">大分県</option>
+			<option value="kumamoto">熊本県</option>
+			<option value="miyazaki">宮埼県</option>
+			<option value="kagoshima">鹿児島県</option>
+			<option value="okinawa">沖縄県</option>
+												</select>
+											</div>
+										</div><br>
+										
+								<div id = "h_map"></div>
+
+								２．防災グッズを入手する。
+								
+								<section>
+									<h3 class="major">Text</h3>
+									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+									<hr />
+									<h2>Heading Level 2</h2>
+									<h3>Heading Level 3</h3>
+									<h4>Heading Level 4</h4>
+									<h5>Heading Level 5</h5>
+									<h6>Heading Level 6</h6>
+									<hr />
+									<h4>Blockquote</h4>
+									<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+									<h4>Preformatted</h4>
+									<pre><code>i = 0;
+
+while (!deck.isInOrder()) {
+    print 'Iteration ' + i;
+    deck.shuffle();
+    i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+								</section>
+
+								<section>
+									<h3 class="major">Lists</h3>
+
+									<h4>Unordered</h4>
+									<ul>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Sagittis adipiscing.</li>
+										<li>Felis enim feugiat.</li>
+									</ul>
+
+									<h4>Alternate</h4>
+									<ul class="alt">
+										<li>Dolor pulvinar etiam.</li>
+										<li>Sagittis adipiscing.</li>
+										<li>Felis enim feugiat.</li>
+									</ul>
+
+									<h4>Ordered</h4>
+									<ol>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Etiam vel felis viverra.</li>
+										<li>Felis enim feugiat.</li>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Etiam vel felis lorem.</li>
+										<li>Felis enim et feugiat.</li>
+									</ol>
+									<h4>Icons</h4>
+									<ul class="icons">
+										<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+										<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
+									</ul>
+
+									<h4>Actions</h4>
+									<ul class="actions">
+										<li><a href="#" class="button special">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions vertical">
+										<li><a href="#" class="button special">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+								</section>
+
+								<section>
+									<h3 class="major">Table</h3>
+									<h4>Default</h4>
+									<div class="table-wrapper">
+										<table>
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+
+									<h4>Alternate</h4>
+									<div class="table-wrapper">
+										<table class="alt">
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+								</section>
+
+								<section>
+									<h3 class="major">Buttons</h3>
+									<ul class="actions">
+										<li><a href="#" class="button special">Special</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button">Default</a></li>
+										<li><a href="#" class="button small">Small</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button special icon fa-download">Icon</a></li>
+										<li><a href="#" class="button icon fa-download">Icon</a></li>
+									</ul>
+									<ul class="actions">
+										<li><span class="button special disabled">Disabled</span></li>
+										<li><span class="button disabled">Disabled</span></li>
+									</ul>
+								</section>
+
+								<section>
+									<h3 class="major">Form</h3>
+									<form method="post" action="#">
+										<div class="field half first">
+											<label for="demo-name">Name</label>
+											<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
+										</div>
+										<div class="field half">
+											<label for="demo-email">Email</label>
+											<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
+										</div>
+										<div class="field">
+											<label for="demo-category">Category</label>
+											<div class="select-wrapper">
+												<select name="demo-category" id="demo-category">
+													<option value="">－場所選択－</option>
+													<option value="1">Manufacturing</option>
+													<option value="1">Shipping</option>
+													<option value="1">Administration</option>
+													<option value="1">Human Resources</option>
+												</select>
+											</div>
+										</div>
+										<div class="field half first">
+											<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+											<label for="demo-priority-low">Low</label>
+										</div>
+										<div class="field half">
+											<input type="radio" id="demo-priority-high" name="demo-priority">
+											<label for="demo-priority-high">High</label>
+										</div>
+										<div class="field half first">
+											<input type="checkbox" id="demo-copy" name="demo-copy">
+											<label for="demo-copy">Email me a copy</label>
+										</div>
+										<div class="field half">
+											<input type="checkbox" id="demo-human" name="demo-human" checked>
+											<label for="demo-human">Not a robot</label>
+										</div>
+										<div class="field">
+											<label for="demo-message">Message</label>
+											<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+										</div>
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" class="special" /></li>
+											<li><input type="reset" value="Reset" /></li>
+										</ul>
+									</form>
+								</section>
+
+							</article>
+							
+							<article id="tokei">
+								<h2 class="major">統計・資料</h2>
+								<h3>☆自助・共助・公助</h3>
+								<img src="images/kyojo.png" width="100%"><br>
+								・自助…自分の身は自分で守る<br><br>
+								・公助…行政機関が援助する<br><br>
+								・共助…地域住民一体となって助け合う<br><br>
+								
+								
+								<img src="images/gurahu.png" width="100%">
+								<br>阪神・淡路大震災における救助の主体と救出者数
+								<br>（出典「平成26年度防災白書」）
+								<br><br>この図を見れば分かるとおり、80％近くの方々が共助により助けられていることが分かります。
+								<br><br>
+								東日本大震災では、市役所等が被災に会い、行政機関が麻痺してしまいました（公助の限界）。<br><br>
+								地域住民同士で助け合うことがいかに大事なことかが分かると思います。<br><br>
+								
+								<h3>☆過去の大地震</h3>
+								<div class="table-wrapper">
+										<table class="alt">
+											<thead>
+												<tr>
+													<th></th>
+													<th>阪神・淡路大震災</th>
+													<th>東日本大震災</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>発生日時</td>
+													<td>平成7年1月17日 5時46分</td>
+													<td>平成23年3月11日 14時46分</td>
+												</tr>
+												<tr>
+													<td>マグニチュード</td>
+													<td>7.3</td>
+													<td>9.0</td>
+												</tr>
+												<tr>
+													<td>地震型</td>
+													<td>内陸型</td>
+													<td>海溝型</td>
+												</tr>
+												<tr>
+													<td>被災地</td>
+													<td>都市部中心</td>
+													<td>農林水産地域中心</td>
+												</tr>
+												<tr>
+													<td>震度6弱以上県数</td>
+													<td>1県（兵庫）</td>
+													<td>8県（宮城、福島、茨城、栃木、岩手、群馬、埼玉、千葉）</td>
+												</tr>
+												<tr>
+													<td>津波</td>
+													<td>数十ｃｍ（被害無し）</td>
+													<td>各地で大津波観測（相馬9.3ｍ以上、宮古8.5ｍ以上、大船渡8.0ｍ以上）</td>
+												</tr>
+												<tr>
+													<td>被害の特徴</td>
+													<td>建築物の倒壊</td>
+													<td>大津波による甚大な被害</td>
+												</tr>
+												<tr>
+													<td>死者・行方不明者</td>
+													<td>死者 6,437名、行方不明者 3名（平成18年5月19日）</td>
+													<td>死者 19,418名、行方不明者 2,592名（平成28年3月1日現在）</td>
+												</tr>
+												<tr>
+													<td>住家被害（全壊）</td>
+													<td>104,906</td>
+													<td>121,809</td>
+												</tr>
+											</tbody>
+										</table>
+										（出典「平成28年度防災白書」」）<br><br>
+										阪神・淡路大震災と東日本大震災の被害を表に示したものです。<br><br>
+										阪神・淡路大震災では、内陸型地震であり、『建物』による被害が甚大であること、対して、東日本大震災は海溝型地震であり、『津波』による被害が甚大であること及び被害が『広範囲』に及んでいることが分かります。
+									</div>
+								<br>
+								<h3>☆人口統計</h3>
+								<img src="images/korei.png" width="100%"><br>
+								東日本大震災では、亡くなられた方々のうち、60歳以上の高齢者は66.1％を占めています。（高齢社会白書_平成25年版）<br><br>
+								高齢社会となっている日本において、高齢者の方々の命をいかに守るかが重要です。<br><br>
+								以下のマップは各都道府県の高齢化率を地図とグラフで表しました。<br><br>
+								
+								
+								
+								<h3>☆南海トラフの巨大地震モデル</h3>
+								
+								<iframe src="map.html" width="100%" height="400px" frameborder="yes" scrolling="yes"></iframe>
+								<br><a href="map.html" target="_blank">拡大地図を見る</a><br>
+								（出典「内閣府南海トラフの巨大地震モデル検討会」）<br><br>
+								
+								<hr />
+								以下の資料をもとに仁志が加工・編集して作成しました。<br>
+								・平成26年度防災白書、<a href="https://creativecommons.org/licenses/by/4.0/legalcode.ja">クリエイティブ・コモンズ・ライセンス 表示4.0 国際</a><br>
+								・平成28年度防災白書、<a href="https://creativecommons.org/licenses/by/4.0/legalcode.ja">クリエイティブ・コモンズ・ライセンス 表示4.0 国際</a><br>
+                                ・G空間情報、<a href="https://www.geospatial.jp/ckan/dataset/1201">強震断層モデル(1)データセットA</a>
+								・高齢社会白書_平成25年版、<a href="https://creativecommons.org/licenses/by/4.0/legalcode.ja">クリエイティブ・コモンズ・ライセンス 表示4.0 国際</a>
+							</article>
+							
+							<article id="bibliography">
+							<h2 class="major">参考文献</h2>
+							<img src="images/orora.jpg"  width="100%"><br><br>
+							本アプリ開発にあたり、以下の情報を参考に加工・編集し作成しました。<br><br>
+							
+							<h3>☆オープンデータ</h3>
+							<blockquote><p>
+							・<a href="http://www.data.go.jp/data/dataset/soumu_20140909_0183">わたしの防災サバイバル手帳</a>、消防庁
+							</p>
+							<p>・防災マニュアル、消防庁</p>
+							<p>・<a href="http://kobe117shinsai.jp/">阪神・淡路大震災「1.17の記録」</a>、神戸市</p>
+							<p>・<a href="http://www.data.go.jp/data/dataset/cao_20150903_0051">平成26年度防災白書</p>
+							<p>・<a href="http://www.data.go.jp/data/dataset/cao_20161206_0008">平成28年度防災白書</p>
+							<p>・<a href="http://www.data.go.jp/data/dataset/cao_20140904_0347">高齢社会白書_平成25年版</p>
+							</blockquote>
+							
+							<h3>☆文献</h3>
+							<blockquote><p>
+							・<a href="http://www.jma.go.jp/jma/index.html"><img src="images/kisyou.gif"></a><br>
+							気象情報を参考にさせていただきました。<br><br>
+							・<a href="https://www.pakutaso.com/" >ぱくたそ</a><br>
+							写真素材を使用させていただきました。<br><br>
+							・<a href="http://www.saigaichousa-db-isad.jp/drsdb_photo/photoSearch.do">災害写真データベース</a>「一般財団法人消防防災科学センター」<br>
+							災害写真を使用させていただきました。<br><br>
+							・<a href="https://www.photo-ac.com/">photo AC</a><br>
+							写真素材を使用させていただきました。<br><br>
+							・<a href="https://www.ac-illust.com/">イラストAC</a><br>
+							イラスト素材を使用させていただきました。
+							</p></blockquote>
+							
+							この場をお借りして感謝申し上げます。ありがとうございました。仁志.
+							</article>
+							
+							<article id="rule">
+							<h2 class="major">利用規約</h2>
+							この利用規約（以下，「本規約」といいます。）は，利用者の皆様がこの「防災INSIGHT」アプリ（以下、「本アプリ」といいます。）を利用する上での利用条件を定めるものです。利用者の皆様には，本規約に従って，本アプリをご利用いただきます。<br><br>
+
+第1条（適用）<br>
+
+本規約は，本アプリを利用する全ての利用者の皆様に適用されるものとします。本アプリを利用する全ての利用者の皆様は、この規約に同意されたものとみなします。<br><br>
+
+第2条（本アプリの利用について）<br>
+
+（1）利用料金<br>
+利用者の皆様は、本アプリを無料で利用できます。ただし、インターネットを利用しているので、インターネット通信料は利用者の皆様のご負担となります。<br><br>
+
+（2）アクセス解析<br>
+管理人「仁志」は利用者数を把握するため、アクセス解析を行っています。これは、ユーザの利用状況及びサーバの負荷状態を把握するために使用するものとし、それ以外の用途では用いません。<br><br>
+
+第3条（禁止事項）<br>
+
+本アプリの利用にあたり，以下の行為をしてはなりません。<br><br>
+
+（1）法令または公序良俗に違反する行為<br>
+（2）犯罪行為に関連する行為<br>
+（3）本アプリの運営を妨害するおそれのある行為<br>
+（4）他の利用者の皆様に関する個人情報等を収集または蓄積する行為<br>
+（5）他の利用者の皆様に成りすます行為<br>
+（6）本アプリを無断で転載、複製する行為<br>
+（7）反社会的勢力に対して直接または間接に利益を供与する行為<br>
+（8）その他，管理人「仁志」が不適切と判断する行為<br><br>
+
+第4条（本アプリの提供の停止等）<br>
+
+管理人「仁志」は，以下のいずれかの事由があると判断した場合，事前に通知することなく本アプリの全部または一部の提供を停止または中断することができるものとします。<br>
+
+（1）本アプリの更新を行う場合<br>
+（2）コンピュータまたは通信回線等が事故により停止した場合<br>
+（3）その他，管理人「仁志」が本アプリの提供が困難と判断した場合<br>
+
+管理人「仁志」は，本アプリの提供の停止または中断により，利用者の皆様または第三者が被ったいかなる不利益または損害について，理由を問わず一切の責任を負わないものとします。<br><br>
+
+第5条（免責事項）<br>
+
+本アプリにより生じた、いかなる損害も保障しません。利用者様の責任のもと、ご利用ください。<br><br>
+
+第6条（本アプリの変更等）<br>
+
+管理人「仁志」は，利用者の皆様に通知することなく，本アプリの内容を変更しまたは本アプリの提供を中止することができるものとし，これによってユーザーに生じた損害について一切の責任を負いません。<br><br>
+
+第7条（利用規約の変更）<br>
+
+管理人「仁志」は，必要と判断した場合には，利用者の皆様に通知することなくいつでも本規約を変更することができるものとします。<br><br>
+
+第8条（準拠法）<br>
+
+本規約の解釈にあたっては，日本法を準拠法とします。<br><br>
+
+附則<br>
+
+2017年2月??日　利用規約制定
+							</article>
+
+							<article id="update">
+							<h2 class="major">更新情報</h2>
+							<p>2016.07.XX アプリ公開</p>
+							</article>
+						
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p class="copyright">&copy; 仁志. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+					</footer>
+
+			</div>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.6";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+	</body>
+</html>
