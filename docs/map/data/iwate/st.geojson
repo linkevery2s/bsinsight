@@ -1,0 +1,9287 @@
+var st={
+"type": "FeatureCollection",
+"features": [
+{
+"type": "Feature",
+"properties": {
+"Name": "羽場小学校",
+"Jusho": "岩手県盛岡市羽場17地割55番地2",
+"Capacity": "8615",
+"la": "39.65420700000",
+"ln": "141.11235600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.112356,
+39.654207
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "永井小学校",
+"Jusho": "岩手県盛岡市永井10地割16番地",
+"Capacity": "6565",
+"la": "39.65338300000",
+"ln": "141.14150400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.141504,
+39.653383
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "乙部運動広場（乙部小学校跡）",
+"Jusho": "岩手県盛岡市乙部28地割34番地2",
+"Capacity": "3121",
+"la": "39.60651162910",
+"ln": "141.20007965200"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.200079652,
+39.6065116291
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "河北小学校",
+"Jusho": "岩手県盛岡市長田町16番1号",
+"Capacity": "4383",
+"la": "39.71003500000",
+"ln": "141.13953800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.139538,
+39.710035
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "外山小学校",
+"Jusho": "岩手県盛岡市玉山区薮川字外山27-7",
+"Capacity": "1695",
+"la": "39.77980700000",
+"ln": "141.32043800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.320438,
+39.779807
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "巻堀小学校",
+"Jusho": "岩手県盛岡市玉山区巻堀字巻堀12－",
+"Capacity": "6060",
+"la": "39.89294100000",
+"ln": "141.19578700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.195787,
+39.892941
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "岩手大学附属小学校",
+"Jusho": "岩手県盛岡市加賀野二丁目6番1号",
+"Capacity": "2250",
+"la": "39.70586900000",
+"ln": "141.16536900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.165369,
+39.705869
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "玉山小学校",
+"Jusho": "岩手県盛岡市玉山区日戸字市の坪53",
+"Capacity": "6238",
+"la": "39.79829100000",
+"ln": "141.19769400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.197694,
+39.798291
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "見前小学校",
+"Jusho": "岩手県盛岡市西見前18地割17番地2",
+"Capacity": "4993",
+"la": "39.64800200000",
+"ln": "141.16244900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.162449,
+39.648002
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "見前南小学校",
+"Jusho": "岩手県盛岡市西見前13地割167番地",
+"Capacity": "6756",
+"la": "39.63893200000",
+"ln": "141.16430500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.164305,
+39.638932
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "好摩小学校",
+"Jusho": "岩手県盛岡市玉山区好摩字夏間木70-60",
+"Capacity": "4150",
+"la": "39.87336700000",
+"ln": "141.16888600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.168886,
+39.873367
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "高松小学校",
+"Jusho": "岩手県盛岡市上田堤二丁目31番12号",
+"Capacity": "6742",
+"la": "39.73003300000",
+"ln": "141.15509100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.155091,
+39.730033
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "根田茂小学校跡",
+"Jusho": "岩手県盛岡市根田茂第5地割35番地2",
+"Capacity": "3059",
+"la": "39.63533765460",
+"ln": "141.29290856400"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.292908564,
+39.6353376546
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "砂子沢小学校跡",
+"Jusho": "岩手県盛岡市砂子沢第10地割65番地1",
+"Capacity": "2337",
+"la": "39.60198093800",
+"ln": "141.32011201300"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.320112013,
+39.601980938
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "桜城小学校",
+"Jusho": "岩手県盛岡市大通り三丁目8番1号",
+"Capacity": "4894",
+"la": "39.70420200000",
+"ln": "141.14092600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.140926,
+39.704202
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "山王小学校",
+"Jusho": "岩手県盛岡市小杉山3番1号",
+"Capacity": "4935",
+"la": "39.69670400000",
+"ln": "141.16981300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.169813,
+39.696704
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "山岸小学校",
+"Jusho": "岩手県盛岡市山岸二丁目13番1号",
+"Capacity": "5163",
+"la": "39.71420200000",
+"ln": "141.16925700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.169257,
+39.714202
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "手代森小学校",
+"Jusho": "岩手県盛岡市手代森22地割47番地",
+"Capacity": "6409",
+"la": "39.63980000000",
+"ln": "141.18739800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.187398,
+39.6398
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "渋民小学校",
+"Jusho": "岩手県盛岡市玉山区渋民字鶴塚3",
+"Capacity": "5185",
+"la": "39.84776300000",
+"ln": "141.16756900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.167569,
+39.847763
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "松園小学校",
+"Jusho": "岩手県盛岡市松園三丁目12番1号",
+"Capacity": "9859",
+"la": "39.75114200000",
+"ln": "141.16231200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.162312,
+39.751142
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "上田小学校",
+"Jusho": "岩手県盛岡市上田三丁目16番45号",
+"Capacity": "6105",
+"la": "39.71920000000",
+"ln": "141.13870400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.138704,
+39.7192
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "城内小学校",
+"Jusho": "岩手県盛岡市玉山区玉山字田畑19－",
+"Capacity": "1947",
+"la": "39.81664800000",
+"ln": "141.20423897100"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.204238971,
+39.816648
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "城南小学校",
+"Jusho": "岩手県盛岡市若園町9番20号",
+"Capacity": "3971",
+"la": "39.70364700000",
+"ln": "141.16148000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.16148,
+39.703647
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "城北小学校",
+"Jusho": "岩手県盛岡市みたけ三丁目12番1号",
+"Capacity": "6391",
+"la": "39.73919700000",
+"ln": "141.11426100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.114261,
+39.739197
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "仁王小学校",
+"Jusho": "岩手県盛岡市本町通二丁目18番1号",
+"Capacity": "6263",
+"la": "39.71003500000",
+"ln": "141.14842600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.148426,
+39.710035
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "厨川小学校",
+"Jusho": "岩手県盛岡市前九年一丁目2番1号",
+"Capacity": "4650",
+"la": "39.71336700000",
+"ln": "141.12898300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.128983,
+39.713367
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "生出小学校",
+"Jusho": "岩手県盛岡市玉山区下田字仲平59-36",
+"Capacity": "4176",
+"la": "39.85952200000",
+"ln": "141.12484800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.124848,
+39.859522
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "青山小学校",
+"Jusho": "岩手県盛岡市青山二丁目7番2号",
+"Capacity": "7773",
+"la": "39.72447700000",
+"ln": "141.11426200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.114262,
+39.724477
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "仙北小学校",
+"Jusho": "岩手県盛岡市仙北二丁目19番1号",
+"Capacity": "5086",
+"la": "39.68670399910",
+"ln": "141.15231500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.152315,
+39.6867039991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "川目小学校",
+"Jusho": "岩手県盛岡市川目第7地割12番地",
+"Capacity": "2646",
+"la": "39.67300100000",
+"ln": "141.19882200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.198822,
+39.673001
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "浅岸小学校",
+"Jusho": "岩手県盛岡市浅岸字上大葛1番地",
+"Capacity": "2559",
+"la": "39.71114900000",
+"ln": "141.23147300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.231473,
+39.711149
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "太田小学校",
+"Jusho": "岩手県盛岡市上太田上吉本1番地1",
+"Capacity": "3646",
+"la": "39.68836900000",
+"ln": "141.08093200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.080932,
+39.688369
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "太田東小学校",
+"Jusho": "岩手県盛岡市上太田上野屋敷8番地1",
+"Capacity": "5734",
+"la": "39.69364600000",
+"ln": "141.09676400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.096764,
+39.693646
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大慈寺小学校",
+"Jusho": "岩手県盛岡市大慈寺町6番47号",
+"Capacity": "4311",
+"la": "39.69281500000",
+"ln": "141.15814700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.158147,
+39.692815
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大新小学校",
+"Jusho": "岩手県盛岡市南青山町6番10号",
+"Capacity": "5687",
+"la": "39.71808900000",
+"ln": "141.11426200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.114262,
+39.718089
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "中野小学校",
+"Jusho": "岩手県盛岡市中野二丁目12番1号",
+"Capacity": "5838",
+"la": "39.69059300000",
+"ln": "141.16675800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.166758,
+39.690593
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "津志田小学校",
+"Jusho": "岩手県盛岡市津志田一丁目8番40号",
+"Capacity": "190",
+"la": "39.66345200000",
+"ln": "141.15532000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.15532,
+39.663452
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "津志田小学校及び津志田近隣公園",
+"Jusho": "岩手県盛岡市津志田中央一丁目8番40号",
+"Capacity": "13347",
+"la": "39.66304323750",
+"ln": "141.15507188400"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.155071884,
+39.6630432375
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "杜陵小学校",
+"Jusho": "岩手県盛岡市肴町1番6号",
+"Capacity": "249",
+"la": "39.69864800000",
+"ln": "141.15231400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.152314,
+39.698648
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "都南東小学校",
+"Jusho": "岩手県盛岡市乙部12地割16番地1",
+"Capacity": "5079",
+"la": "39.61402299910",
+"ln": "141.20126500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.201265,
+39.6140229991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "土淵小学校",
+"Jusho": "岩手県盛岡市土淵字幅2番地3",
+"Capacity": "5221",
+"la": "39.71281099910",
+"ln": "141.09148600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.091486,
+39.7128109991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "東松園小学校",
+"Jusho": "岩手県盛岡市東松園二丁目5番1号",
+"Capacity": "9178",
+"la": "39.75725200000",
+"ln": "141.16481200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.164812,
+39.757252
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "飯岡小学校",
+"Jusho": "岩手県盛岡市下飯岡8地割48番地",
+"Capacity": "7274",
+"la": "39.66781700000",
+"ln": "141.12481800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.124818,
+39.667817
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "姫神ふるさと学習センター（姫神小学校跡）",
+"Jusho": "岩手県盛岡市玉山区馬場字葛巻100",
+"Capacity": "1709",
+"la": "39.89047788180",
+"ln": "141.25679495600"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.256794956,
+39.8904778818
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "米内小学校",
+"Jusho": "岩手県盛岡市上米内字米内沢50番地",
+"Capacity": "3392",
+"la": "39.75502300000",
+"ln": "141.20106400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.201064,
+39.755023
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "北松園小学校",
+"Jusho": "岩手県盛岡市北松園二丁目12番1号",
+"Capacity": "8595",
+"la": "39.75975200000",
+"ln": "141.17258800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.172588,
+39.759752
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "北厨川小学校",
+"Jusho": "岩手県盛岡市厨川三丁目5番1号",
+"Capacity": "6923",
+"la": "39.75114100000",
+"ln": "141.13481500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.134815,
+39.751141
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "本宮小学校",
+"Jusho": "岩手県盛岡市本宮二丁目25番1号",
+"Capacity": "5838",
+"la": "39.68837100000",
+"ln": "141.14037100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.140371,
+39.688371
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "薮川小学校",
+"Jusho": "岩手県盛岡市玉山区薮川字町村98-2",
+"Capacity": "3081",
+"la": "39.84891599910",
+"ln": "141.45172800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.451728,
+39.8489159991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "緑が丘小学校",
+"Jusho": "岩手県盛岡市黒石野一丁目6番1号",
+"Capacity": "3880",
+"la": "39.73947600000",
+"ln": "141.14842500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.148425,
+39.739476
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "愛宕小学校",
+"Jusho": "岩手県宮古市愛宕1-4-6",
+"Capacity": "－",
+"la": "39.64395300000",
+"ln": "141.96280000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.9628,
+39.643953
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "磯鶏小学校",
+"Jusho": "岩手県宮古市上村2-4－",
+"Capacity": "－",
+"la": "39.62756600000",
+"ln": "141.95446800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.954468,
+39.627566
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "鵜磯小学校",
+"Jusho": "岩手県宮古市大字重茂26字鵜磯25-6",
+"Capacity": "－",
+"la": "39.61673500000",
+"ln": "142.01918400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+142.019184,
+39.616735
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "花輪小学校",
+"Jusho": "岩手県宮古市大字花輪4-26",
+"Capacity": "－",
+"la": "39.60887700000",
+"ln": "141.89925000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.89925,
+39.608877
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "刈屋小学校",
+"Jusho": "岩手県宮古市刈屋第11-48-3",
+"Capacity": "－",
+"la": "39.64519900000",
+"ln": "141.75360700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.753607,
+39.645199
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "亀岳小学校",
+"Jusho": "岩手県宮古市大字田代16－41",
+"Capacity": "－",
+"la": "39.70882200000",
+"ln": "141.88855500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.888555,
+39.708822
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "宮古小学校",
+"Jusho": "岩手県宮古市横町5－",
+"Capacity": "－",
+"la": "39.64423000000",
+"ln": "141.94974600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.949746,
+39.64423
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "鍬ヶ崎小学校",
+"Jusho": "岩手県宮古市熊野町6-33",
+"Capacity": "－",
+"la": "39.64978500000",
+"ln": "141.96585500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.965855,
+39.649785
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "高浜小学校",
+"Jusho": "岩手県宮古市高浜4-7-22",
+"Capacity": "－",
+"la": "39.59902700000",
+"ln": "141.94426600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.944266,
+39.599027
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "崎山小学校",
+"Jusho": "岩手県宮古市崎山3字トロノ木2",
+"Capacity": "－",
+"la": "39.67894800000",
+"ln": "141.96002200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.960022,
+39.678948
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "山口小学校",
+"Jusho": "岩手県宮古市鴨崎町3-25",
+"Capacity": "－",
+"la": "39.64506300000",
+"ln": "141.94169100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.941691,
+39.645063
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "重茂小学校",
+"Jusho": "岩手県宮古市大字重茂2字舘12",
+"Capacity": "－",
+"la": "39.58522900000",
+"ln": "142.02204300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+142.022043,
+39.585229
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "赤前小学校",
+"Jusho": "岩手県宮古市大字赤前第11八枚田49-2",
+"Capacity": "－",
+"la": "39.58201600000",
+"ln": "141.95669200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.956692,
+39.582016
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "千鶏小学校",
+"Jusho": "岩手県宮古市大字重茂11千鶏上野39-2",
+"Capacity": "－",
+"la": "39.53098100000",
+"ln": "142.03381300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+142.033813,
+39.530981
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "千徳小学校",
+"Jusho": "岩手県宮古市西ヶ丘1-2－",
+"Capacity": "－",
+"la": "39.64006300000",
+"ln": "141.91641500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.916415,
+39.640063
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "津軽石小学校",
+"Jusho": "岩手県宮古市大字津軽石第4-82",
+"Capacity": "－",
+"la": "39.58106000000",
+"ln": "141.93401300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.934013,
+39.58106
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "田老第一小学校",
+"Jusho": "岩手県宮古市田老字館が森155-2",
+"Capacity": "－",
+"la": "39.73599000000",
+"ln": "141.96652600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.966526,
+39.73599
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "藤原小学校",
+"Jusho": "岩手県宮古市藤原上町1-37",
+"Capacity": "－",
+"la": "39.63645400000",
+"ln": "141.95641200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.956412,
+39.636454
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "茂市小学校",
+"Jusho": "岩手県宮古市茂市第3-80－",
+"Capacity": "－",
+"la": "39.62198100000",
+"ln": "141.79501100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.795011,
+39.621981
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "和井内小学校",
+"Jusho": "岩手県宮古市和井内11-2",
+"Capacity": "－",
+"la": "39.69041800000",
+"ln": "141.71156900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.711569,
+39.690418
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "蟇目小学校",
+"Jusho": "岩手県宮古市蟇目第6－33",
+"Capacity": "－",
+"la": "39.63422000000",
+"ln": "141.83358200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.833582,
+39.63422
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "盛小学校",
+"Jusho": "岩手県大船渡市盛町字沢川30",
+"Capacity": "－",
+"la": "39.08179000000",
+"ln": "141.70478900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.704789,
+39.08179
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大船渡北小学校",
+"Jusho": "岩手県大船渡市大船渡町字山馬越68-2",
+"Capacity": "－",
+"la": "39.06540300000",
+"ln": "141.71312200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.713122,
+39.065403
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "蛸の浦小学校",
+"Jusho": "岩手県大船渡市赤崎町字鳥沢10-2",
+"Capacity": "－",
+"la": "39.03457400000",
+"ln": "141.74173100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.741731,
+39.034574
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "猪川小学校",
+"Jusho": "岩手県大船渡市猪川町字轆轤石23",
+"Capacity": "－",
+"la": "39.09401100000",
+"ln": "141.71117600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.711176,
+39.094011
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "末崎小学校",
+"Jusho": "岩手県大船渡市末崎町字山岸122",
+"Capacity": "－",
+"la": "39.00457700000",
+"ln": "141.71729000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.71729,
+39.004577
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "立根小学校",
+"Jusho": "岩手県大船渡市立根町字上ノ台19-2",
+"Capacity": "－",
+"la": "39.11428600000",
+"ln": "141.72117400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.721174,
+39.114286
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "花巻小学校",
+"Jusho": "岩手県花巻市花城町5－3",
+"Capacity": "－",
+"la": "39.39090600000",
+"ln": "141.11843900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.118439,
+39.390906
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "外川目小学校",
+"Jusho": "岩手県花巻市大迫町外川目27-86",
+"Capacity": "－",
+"la": "39.45440900000",
+"ln": "141.29862500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.298625,
+39.454409
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "亀ヶ森小学校",
+"Jusho": "岩手県花巻市大迫町亀ヶ森7－2",
+"Capacity": "－",
+"la": "39.47845000000",
+"ln": "141.24316100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.243161,
+39.47845
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "宮野目小学校",
+"Jusho": "岩手県花巻市西宮野目6-353－",
+"Capacity": "－",
+"la": "39.42467800000",
+"ln": "141.12784000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.12784,
+39.424678
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "桜台小学校",
+"Jusho": "岩手県花巻市下幅292",
+"Capacity": "－",
+"la": "39.39923800000",
+"ln": "141.11066200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.110662,
+39.399238
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "笹間第一小学校",
+"Jusho": "岩手県花巻市中笹間15－",
+"Capacity": "－",
+"la": "39.34669100000",
+"ln": "141.04787000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.04787,
+39.346691
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "笹間第二小学校",
+"Jusho": "岩手県花巻市横志田6－42-8",
+"Capacity": "－",
+"la": "39.35463100000",
+"ln": "140.98879300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+140.988793,
+39.354631
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "若葉小学校",
+"Jusho": "岩手県花巻市若葉町二丁目17-30",
+"Capacity": "－",
+"la": "39.38701700000",
+"ln": "141.10177500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.101775,
+39.387017
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "小山田小学校",
+"Jusho": "岩手県花巻市東和町北川目3－02",
+"Capacity": "－",
+"la": "39.41513300000",
+"ln": "141.23618100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.236181,
+39.415133
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "新堀小学校",
+"Jusho": "岩手県花巻市石鳥谷町新堀46-2－",
+"Capacity": "－",
+"la": "39.48244100000",
+"ln": "141.16987500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.169875,
+39.482441
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "成島小学校",
+"Jusho": "岩手県花巻市東和町北成島5-78－",
+"Capacity": "－",
+"la": "39.36561500000",
+"ln": "141.21225900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.212259,
+39.365615
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "石鳥谷小学校",
+"Jusho": "岩手県花巻市石鳥谷町好地7-34－",
+"Capacity": "－",
+"la": "39.49155400000",
+"ln": "141.14370500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.143705,
+39.491554
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "前田小学校",
+"Jusho": "岩手県花巻市下シ沢字牛角86",
+"Capacity": "－",
+"la": "39.44506300000",
+"ln": "141.00622600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.006226,
+39.445063
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "太田小学校",
+"Jusho": "岩手県花巻市太田32－56",
+"Capacity": "－",
+"la": "39.37372700000",
+"ln": "141.05211700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.052117,
+39.373727
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大迫小学校",
+"Jusho": "岩手県花巻市大迫町大迫18-3",
+"Capacity": "－",
+"la": "39.46517100000",
+"ln": "141.28344100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.283441,
+39.465171
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "谷内小学校（谷内振興センター）",
+"Jusho": "岩手県花巻市東和町舘迫5-22",
+"Capacity": "－",
+"la": "39.36079899910",
+"ln": "141.25737300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.257373,
+39.3607989991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "田瀬小学校",
+"Jusho": "岩手県花巻市東和町田瀬14－37",
+"Capacity": "－",
+"la": "39.31484200000",
+"ln": "141.31264300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.312643,
+39.314842
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "土沢小学校",
+"Jusho": "岩手県花巻市東和町土沢10－11",
+"Capacity": "－",
+"la": "39.38123900000",
+"ln": "141.24316400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.243164,
+39.381239
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "湯口小学校",
+"Jusho": "岩手県花巻市円万寺字法船96-6",
+"Capacity": "－",
+"la": "39.39034900000",
+"ln": "141.05650100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.056501,
+39.390349
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "湯本小学校",
+"Jusho": "岩手県花巻市大畑3-331－",
+"Capacity": "－",
+"la": "39.44589800000",
+"ln": "141.08458200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.084582,
+39.445898
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "内川目小学校",
+"Jusho": "岩手県花巻市大迫町内川目19-60",
+"Capacity": "－",
+"la": "39.50262500000",
+"ln": "141.32674600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.326746,
+39.502625
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "南城小学校",
+"Jusho": "岩手県花巻市南城110－",
+"Capacity": "－",
+"la": "39.37118600000",
+"ln": "141.12149500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.121495,
+39.371186
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "八重畑小学校",
+"Jusho": "岩手県花巻市石鳥谷町猪鼻7-38－",
+"Capacity": "－",
+"la": "39.44828700000",
+"ln": "141.17295300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.172953,
+39.448287
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "八幡小学校",
+"Jusho": "岩手県花巻市石鳥谷町八幡1－25－",
+"Capacity": "－",
+"la": "39.46855300000",
+"ln": "141.14302300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.143023,
+39.468553
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "浮田小学校",
+"Jusho": "岩手県花巻市東和町下浮田1－36",
+"Capacity": "－",
+"la": "39.33510700000",
+"ln": "141.23774700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.237747,
+39.335107
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "矢沢小学校",
+"Jusho": "岩手県花巻市高木20-81－",
+"Capacity": "－",
+"la": "39.38523000000",
+"ln": "141.14908000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.14908,
+39.38523
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "いわさき小学校",
+"Jusho": "岩手県北上市和賀町岩崎18地割53番地3",
+"Capacity": "610",
+"la": "39.28183000000",
+"ln": "141.04116600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.041166,
+39.28183
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "笠松小学校",
+"Jusho": "岩手県北上市和賀町横川目33地割8番地1",
+"Capacity": "250",
+"la": "39.31285500000",
+"ln": "140.98873100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+140.988731,
+39.312855
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "鬼柳小学校",
+"Jusho": "岩手県北上市鬼柳町都鳥35番地",
+"Capacity": "700",
+"la": "39.27591800000",
+"ln": "141.09650100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.096501,
+39.275918
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "口内小学校",
+"Jusho": "岩手県北上市口内町新町161番地",
+"Capacity": "450",
+"la": "39.29341800000",
+"ln": "141.20260200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.202602,
+39.293418
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "更木小学校",
+"Jusho": "岩手県北上市更木12地割61番地",
+"Capacity": "400",
+"la": "39.34343800000",
+"ln": "141.14898400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.148984,
+39.343438
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "江釣子小学校",
+"Jusho": "岩手県北上市上江釣子16地割200番地",
+"Capacity": "900",
+"la": "39.29960400000",
+"ln": "141.07233200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.072332,
+39.299604
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "黒岩小学校",
+"Jusho": "岩手県北上市黒岩7地割47番地1",
+"Capacity": "450",
+"la": "39.31340700000",
+"ln": "141.16050800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.160508,
+39.313407
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "黒沢尻西小学校",
+"Jusho": "岩手県北上市本石町一丁目6番71号",
+"Capacity": "900",
+"la": "39.29091600000",
+"ln": "141.11399900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.113999,
+39.290916
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "黒沢尻東小学校",
+"Jusho": "岩手県北上市中野町一丁目8番1号",
+"Capacity": "900",
+"la": "39.28925000000",
+"ln": "141.12483100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.124831,
+39.28925
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "黒沢尻北小学校",
+"Jusho": "岩手県北上市常盤台一丁目22番33号",
+"Capacity": "850",
+"la": "39.30341500000",
+"ln": "141.11788700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.117887,
+39.303415
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "照岡小学校",
+"Jusho": "岩手県北上市稲瀬町地蔵堂15番地",
+"Capacity": "400",
+"la": "39.23731200000",
+"ln": "141.12066700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.120667,
+39.237312
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "南小学校",
+"Jusho": "岩手県北上市相去町葛西壇12番地2号",
+"Capacity": "900",
+"la": "39.26369700000",
+"ln": "141.09483500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.094835,
+39.263697
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "二子小学校",
+"Jusho": "岩手県北上市二子町鳥喰22番地2",
+"Capacity": "650",
+"la": "39.32230300000",
+"ln": "141.13871800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.138718,
+39.322303
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "飯豊小学校",
+"Jusho": "岩手県北上市村崎野11地割101番地",
+"Capacity": "800",
+"la": "39.34126700000",
+"ln": "141.09532700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.095327,
+39.341267
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "和賀西小学校",
+"Jusho": "岩手県北上市和賀町横川目7地割134番地3",
+"Capacity": "700",
+"la": "39.31209900000",
+"ln": "140.97141200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+140.971412,
+39.312099
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "和賀東小学校",
+"Jusho": "岩手県北上市和賀町藤根17地割100番地2",
+"Capacity": "700",
+"la": "39.30324800000",
+"ln": "141.02970800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.029708,
+39.303248
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "宇部小学校",
+"Jusho": "岩手県久慈市宇部町5－32-8",
+"Capacity": "－",
+"la": "40.13361200000",
+"ln": "141.78918900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.789189,
+40.133612
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "夏井小学校",
+"Jusho": "岩手県久慈市夏井町夏井3-57－",
+"Capacity": "－",
+"la": "40.22471100000",
+"ln": "141.75224400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.752244,
+40.224711
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "荷軽部小学校",
+"Jusho": "岩手県久慈市山形町荷軽部5－－",
+"Capacity": "－",
+"la": "40.15008000000",
+"ln": "141.50595600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.505956,
+40.15008
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "久喜小学校",
+"Jusho": "岩手県久慈市宇部町19－92－",
+"Capacity": "－",
+"la": "40.14277800000",
+"ln": "141.84446100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.844461,
+40.142778
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "久慈小学校",
+"Jusho": "岩手県久慈市栄町31－49",
+"Capacity": "－",
+"la": "40.19582600000",
+"ln": "141.75391100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.753911,
+40.195826
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "久慈湊小学校",
+"Jusho": "岩手県久慈市湊町15－0－",
+"Capacity": "－",
+"la": "40.19665900000",
+"ln": "141.78557600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.785576,
+40.196659
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "元繋小学校",
+"Jusho": "岩手県久慈市山形町繋20-36－",
+"Capacity": "－",
+"la": "40.14313999910",
+"ln": "141.65701700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.657017,
+40.1431399991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "元日野沢小学校",
+"Jusho": "岩手県久慈市山形町日野沢4-69-3",
+"Capacity": "－",
+"la": "40.17672699910",
+"ln": "141.55048200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.550482,
+40.1767269991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "戸呂町小学校",
+"Jusho": "岩手県久慈市山形町戸呂町4-50-64",
+"Capacity": "－",
+"la": "40.20181100000",
+"ln": "141.59017400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.590174,
+40.201811
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "山形小学校",
+"Jusho": "岩手県久慈市山形町川井10－3－",
+"Capacity": "－",
+"la": "40.14743400000",
+"ln": "141.56791300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.567913,
+40.147434
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "山根小学校",
+"Jusho": "岩手県久慈市山根町下戸鎖5-41－",
+"Capacity": "－",
+"la": "40.08639500000",
+"ln": "141.71142000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.71142,
+40.086395
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "侍浜小学校",
+"Jusho": "岩手県久慈市侍浜町保土沢8-27－",
+"Capacity": "－",
+"la": "40.26443000000",
+"ln": "141.80029300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.800293,
+40.26443
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "侍浜小学校・角柄分校",
+"Jusho": "岩手県久慈市侍浜町角柄11-89－",
+"Capacity": "－",
+"la": "40.24665299910",
+"ln": "141.72974400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.729744,
+40.2466529991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "小久慈小学校",
+"Jusho": "岩手県久慈市小久慈町24-51",
+"Capacity": "－",
+"la": "40.17082800000",
+"ln": "141.74807900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.748079,
+40.170828
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "小国小学校",
+"Jusho": "岩手県久慈市山形町小国9－1-4",
+"Capacity": "－",
+"la": "40.08090700000",
+"ln": "141.62259900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.622599,
+40.080907
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "小袖小学校",
+"Jusho": "岩手県久慈市宇部町23－28-3",
+"Capacity": "－",
+"la": "40.16037177540",
+"ln": "141.84794546600"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.847945466,
+40.1603717754
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "霜畑小学校",
+"Jusho": "岩手県久慈市山形町霜畑7-44",
+"Capacity": "－",
+"la": "40.09956700000",
+"ln": "141.59906400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.599064,
+40.099567
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大川目小学校",
+"Jusho": "岩手県久慈市大川目町14-45－",
+"Capacity": "－",
+"la": "40.18360400000",
+"ln": "141.71641500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.716415,
+40.183604
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "長内小学校",
+"Jusho": "岩手県久慈市長内町25-41",
+"Capacity": "－",
+"la": "40.18860500000",
+"ln": "141.77918800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.779188,
+40.188605
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "平山小学校",
+"Jusho": "岩手県久慈市夏井町早坂14-51-7",
+"Capacity": "－",
+"la": "40.21804600000",
+"ln": "141.78168600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.781686,
+40.218046
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "来内小学校",
+"Jusho": "岩手県久慈市山形町来内22-49－",
+"Capacity": "－",
+"la": "40.11115200000",
+"ln": "141.50224700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.502247,
+40.111152
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "綾織小学校",
+"Jusho": "岩手県遠野市綾織町下綾織13-5-2",
+"Capacity": "730",
+"la": "39.33145072160",
+"ln": "141.46720647600"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.467206476,
+39.3314507216
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "遠野小学校",
+"Jusho": "岩手県遠野市東館町11-28",
+"Capacity": "420",
+"la": "39.32703500000",
+"ln": "141.53618300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.536183,
+39.327035
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "遠野北小学校",
+"Jusho": "岩手県遠野市松崎町白岩字薬研淵43",
+"Capacity": "450",
+"la": "39.34397700000",
+"ln": "141.53423800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.534238,
+39.343977
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "小友小学校",
+"Jusho": "岩手県遠野市小友町16－33",
+"Capacity": "400",
+"la": "39.27097837670",
+"ln": "141.42445639600"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.424456396,
+39.2709783767
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "土淵小学校",
+"Jusho": "岩手県遠野市土淵町土淵6－",
+"Capacity": "310",
+"la": "39.35724900000",
+"ln": "141.56745300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.567453,
+39.357249
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "附馬牛小学校",
+"Jusho": "岩手県遠野市附馬牛下附馬牛11-31－",
+"Capacity": "1238",
+"la": "39.41424600000",
+"ln": "141.52923600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.529236,
+39.414246
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "（旧）丑石小学校",
+"Jusho": "岩手県一関市大東町鳥海字上野105-3",
+"Capacity": "574",
+"la": "39.08010196150",
+"ln": "141.35687336700"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.356873367,
+39.0801019615
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "（旧）中川小学校（体育館）",
+"Jusho": "岩手県一関市大東町中川字中大畑98",
+"Capacity": "325",
+"la": "39.06621676430",
+"ln": "141.38152770100"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.381527701,
+39.0662167643
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "（旧）津谷川小学校",
+"Jusho": "岩手県一関市室根町津谷川字上川原19",
+"Capacity": "566",
+"la": "38.84844999910",
+"ln": "141.42651700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.426517,
+38.8484499991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "（旧）天狗田小学校（体育館）",
+"Jusho": "岩手県一関市大東町沖田字峰岸14",
+"Capacity": "342",
+"la": "39.04187023280",
+"ln": "141.34495990200"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.344959902,
+39.0418702328
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "一関市立一関小学校",
+"Jusho": "岩手県一関市字鳴神33－",
+"Capacity": "10279",
+"la": "38.92901300000",
+"ln": "141.14401000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.14401,
+38.929013
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "一関市立厳美小学校",
+"Jusho": "岩手県一関市厳美町字上ノ台55-2",
+"Capacity": "4126",
+"la": "38.94317500000",
+"ln": "141.04266100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.042661,
+38.943175
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "一関市立山目小学校",
+"Jusho": "岩手県一関市幸町2-47",
+"Capacity": "18036",
+"la": "38.92984600000",
+"ln": "141.12206700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.122067,
+38.929846
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "一関市立室根西小学校",
+"Jusho": "岩手県一関市室根町矢越字千刈田79-2",
+"Capacity": "552",
+"la": "38.93241511630",
+"ln": "141.42414897200"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.424148972,
+38.9324151163
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "一関市立赤荻小学校",
+"Jusho": "岩手県一関市赤荻字桜町181",
+"Capacity": "6832",
+"la": "38.93809900000",
+"ln": "141.09436600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.094366,
+38.938099
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "一関市立滝沢小学校",
+"Jusho": "岩手県一関市滝沢字寺下46",
+"Capacity": "13958",
+"la": "38.90651700000",
+"ln": "141.18456300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.184563,
+38.906517
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "一関市立達古袋小学校",
+"Jusho": "岩手県一関市萩荘字八幡153－",
+"Capacity": "5122",
+"la": "38.93610000000",
+"ln": "141.01473500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.014735,
+38.9361
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "一関市立南小学校",
+"Jusho": "岩手県一関市南町3-3",
+"Capacity": "10392",
+"la": "38.91568100000",
+"ln": "141.13095600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.130956,
+38.915681
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "一関市立萩荘小学校",
+"Jusho": "岩手県一関市萩荘字境ノ神253",
+"Capacity": "6644",
+"la": "38.92291000000",
+"ln": "141.09358500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.093585,
+38.92291
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "一関市立舞川小学校",
+"Jusho": "岩手県一関市舞川字館ノ越20-4",
+"Capacity": "8479",
+"la": "38.96956599910",
+"ln": "141.17372800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.173728,
+38.9695659991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "一関市立本寺小学校",
+"Jusho": "岩手県一関市厳美町字岡山16-6",
+"Capacity": "7553",
+"la": "38.97246599910",
+"ln": "140.94003300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+140.940033,
+38.9724659991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "一関市立弥栄小学校",
+"Jusho": "岩手県一関市弥栄字大奈良33-4",
+"Capacity": "7596",
+"la": "38.89670300000",
+"ln": "141.23707900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.237079,
+38.896703
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "永井小学校",
+"Jusho": "岩手県一関市花泉町永井字岫前148",
+"Capacity": "1418",
+"la": "38.77805300000",
+"ln": "141.23439700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.234397,
+38.778053
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "奥玉小学校",
+"Jusho": "岩手県一関市千厩町奥玉字宿下94－",
+"Capacity": "14747",
+"la": "38.95533700000",
+"ln": "141.37500300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.375003,
+38.955337
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "黄海小学校校舎",
+"Jusho": "岩手県一関市藤沢町黄海字天堤11－",
+"Capacity": "3277",
+"la": "38.85180500000",
+"ln": "141.28983300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.289833,
+38.851805
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "花泉小学校",
+"Jusho": "岩手県一関市花泉町花泉字天王沢沖90",
+"Capacity": "1429",
+"la": "38.84536000000",
+"ln": "141.15950000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.1595,
+38.84536
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "旧大籠小学校校舎",
+"Jusho": "岩手県一関市藤沢町大籠字大白1-3",
+"Capacity": "7464",
+"la": "38.80101500000",
+"ln": "141.38667900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.386679,
+38.801015
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "旧藤沢小学校校舎",
+"Jusho": "岩手県一関市藤沢町藤沢字柳平66",
+"Capacity": "5390",
+"la": "38.86041700000",
+"ln": "141.34316100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.343161,
+38.860417
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "旧保呂羽小学校グランド",
+"Jusho": "岩手県一関市藤沢町保呂羽字宇和田",
+"Capacity": "6650",
+"la": "38.84209851800",
+"ln": "141.37476358500"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.374763585,
+38.842098518
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "興田小学校",
+"Jusho": "岩手県一関市大東町鳥海字鞭柳104－",
+"Capacity": "806",
+"la": "39.04916300000",
+"ln": "141.36406200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.364062,
+39.049163
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "金沢小学校",
+"Jusho": "岩手県一関市花泉町金沢字下寺袋1",
+"Capacity": "715",
+"la": "38.84905000000",
+"ln": "141.17570900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.175709,
+38.84905
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "室根東小学校",
+"Jusho": "岩手県一関市室根町折壁字中谷地82",
+"Capacity": "996",
+"la": "38.91878369580",
+"ln": "141.46672403800"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.466724038,
+38.9187836958
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "小梨小学校",
+"Jusho": "岩手県一関市千厩町小梨字時ノ沢109-3",
+"Capacity": "111",
+"la": "38.90000499910",
+"ln": "141.38276900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.382769,
+38.9000049991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "松川小学校",
+"Jusho": "岩手県一関市東山町松川字中通42",
+"Capacity": "768",
+"la": "38.95511700000",
+"ln": "141.25904700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.259047,
+38.955117
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "新沼小学校校舎",
+"Jusho": "岩手県一関市藤沢町新沼字関田51-2",
+"Capacity": "3957",
+"la": "38.88902500000",
+"ln": "141.34316000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.34316,
+38.889025
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "清田小学校",
+"Jusho": "岩手県一関市千厩町小梨字境171-2",
+"Capacity": "9038",
+"la": "38.93068700000",
+"ln": "141.38052100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.380521,
+38.930687
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "千厩小学校",
+"Jusho": "岩手県一関市千厩町千厩字北方105－",
+"Capacity": "23482",
+"la": "38.92157200000",
+"ln": "141.32959900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.329599,
+38.921572
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大原小学校",
+"Jusho": "岩手県一関市大東町大原字七切63－",
+"Capacity": "1387",
+"la": "39.01462527670",
+"ln": "141.40520828900"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.405208289,
+39.0146252767
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "長坂小学校",
+"Jusho": "岩手県一関市東山町長坂字東本町12",
+"Capacity": "445",
+"la": "39.00333200000",
+"ln": "141.26519700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.265197,
+39.003332
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "田河津小学校",
+"Jusho": "岩手県一関市東山町田河津字石ノ森16-8",
+"Capacity": "565",
+"la": "39.01444100000",
+"ln": "141.23526800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.235268,
+39.014441
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "藤沢小学校校舎",
+"Jusho": "岩手県一関市藤沢町藤沢字仁郷50－",
+"Capacity": "11194",
+"la": "38.86622800000",
+"ln": "141.35174400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.351744,
+38.866228
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "日形小学校",
+"Jusho": "岩手県一関市花泉町日形字町裏131",
+"Capacity": "627",
+"la": "38.83165000000",
+"ln": "141.25509700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.255097,
+38.83165
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "薄衣小学校校舎",
+"Jusho": "岩手県一関市川崎町薄衣字泉台50",
+"Capacity": "780",
+"la": "38.90156500000",
+"ln": "141.28219200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.282192,
+38.901565
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "磐清水小学校",
+"Jusho": "岩手県一関市千厩町磐清水字蒲沢72-2",
+"Capacity": "2368",
+"la": "38.94170900000",
+"ln": "141.32012600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.320126,
+38.941709
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "門崎小学校校舎",
+"Jusho": "岩手県一関市川崎町門崎字宮畑5",
+"Capacity": "917",
+"la": "38.93246300000",
+"ln": "141.25709500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.257095,
+38.932463
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "油島小学校",
+"Jusho": "岩手県一関市花泉町油島字上築道34－",
+"Capacity": "1605",
+"la": "38.81090300000",
+"ln": "141.17624800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.176248,
+38.810903
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "涌津小学校",
+"Jusho": "岩手県一関市花泉町涌津字松ノ坊26－",
+"Capacity": "817",
+"la": "38.81515700000",
+"ln": "141.19606900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.196069,
+38.815157
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "老松小学校",
+"Jusho": "岩手県一関市花泉町老松字藤田215",
+"Capacity": "558",
+"la": "38.82674400000",
+"ln": "141.20300200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.203002,
+38.826744
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "広田小学校",
+"Jusho": "岩手県陸前高田市広田町字大久保9",
+"Capacity": "－",
+"la": "38.96541300000",
+"ln": "141.69507100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.695071,
+38.965413
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "長部小学校・長部保育所・高台コミュニティセンター",
+"Jusho": "岩手県陸前高田市気仙町字牧田17",
+"Capacity": "－",
+"la": "38.98929699910",
+"ln": "141.61646600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.616466,
+38.9892969991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "米崎小学校",
+"Jusho": "岩手県陸前高田市米崎町字川内1",
+"Capacity": "－",
+"la": "39.01679599910",
+"ln": "141.66257200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.662572,
+39.0167959991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "仮設鵜住居小学校",
+"Jusho": "岩手県釜石市鵜住居町18-5－",
+"Capacity": "－",
+"la": "39.32679100000",
+"ln": "141.89193600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.891936,
+39.326791
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "釜石小学校",
+"Jusho": "岩手県釜石市大渡町3－4-8",
+"Capacity": "－",
+"la": "39.27445299910",
+"ln": "141.87655800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.876558,
+39.2744529991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "旧釜石小学校校庭",
+"Jusho": "岩手県釜石市",
+"Capacity": "－",
+"la": "39.27784476460",
+"ln": "141.88486934100"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.884869341,
+39.2778447646
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "旧橋野小学校校庭",
+"Jusho": "岩手県釜石市橋野町34-35",
+"Capacity": "－",
+"la": "39.35898900000",
+"ln": "141.77021700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.770217,
+39.358989
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "旧大松小学校校庭",
+"Jusho": "岩手県釜石市甲子町3-225",
+"Capacity": "－",
+"la": "39.25075500000",
+"ln": "141.74634700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.746347,
+39.250755
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "旧白浜小学校",
+"Jusho": "岩手県釜石市箱崎町1－-5",
+"Capacity": "－",
+"la": "39.32666199910",
+"ln": "141.94061300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.940613,
+39.3266619991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "旧箱崎小学校校庭",
+"Jusho": "岩手県釜石市箱崎町8－2",
+"Capacity": "－",
+"la": "39.32132400000",
+"ln": "141.91512700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.915127,
+39.321324
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "旧尾崎小学校",
+"Jusho": "岩手県釜石市大字平田7-96-2",
+"Capacity": "－",
+"la": "39.23422400000",
+"ln": "141.92050100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.920501,
+39.234224
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "栗林小学校体育館",
+"Jusho": "岩手県釜石市栗林町16-46",
+"Capacity": "－",
+"la": "39.35096200000",
+"ln": "141.82773200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.827732,
+39.350962
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "甲子小学校体育館",
+"Jusho": "岩手県釜石市甲子町9-87",
+"Capacity": "－",
+"la": "39.25587700000",
+"ln": "141.79741600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.797416,
+39.255877
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "小佐野小学校体育館",
+"Jusho": "岩手県釜石市小佐野町3-5-37",
+"Capacity": "－",
+"la": "39.26288300000",
+"ln": "141.84032300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.840323,
+39.262883
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "双葉小学校体育館",
+"Jusho": "岩手県釜石市新町1-58",
+"Capacity": "－",
+"la": "39.26566000000",
+"ln": "141.84754500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.847545,
+39.26566
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "双葉小学校地域連携施設",
+"Jusho": "岩手県釜石市",
+"Capacity": "－",
+"la": "39.26552676800",
+"ln": "141.84755403100"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.847554031,
+39.265526768
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "白山小学校校庭",
+"Jusho": "岩手県釜石市嬉石町3-6－",
+"Capacity": "－",
+"la": "39.26343899910",
+"ln": "141.89143000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.89143,
+39.2634389991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "平田小学校校庭",
+"Jusho": "岩手県釜石市大字平田4-2",
+"Capacity": "－",
+"la": "39.24550700000",
+"ln": "141.88720200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.887202,
+39.245507
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "旧坂本小学校",
+"Jusho": "岩手県二戸市",
+"Capacity": "－",
+"la": "40.25281809800",
+"ln": "141.32813004500"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.328130045,
+40.252818098
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "金田一小学校",
+"Jusho": "岩手県二戸市金田一字野月19-2",
+"Capacity": "－",
+"la": "40.31635700000",
+"ln": "141.30311500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.303115,
+40.316357
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "御返地小学校",
+"Jusho": "岩手県二戸市安比字上大簗平7-2",
+"Capacity": "－",
+"la": "40.23500100000",
+"ln": "141.22004300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.220043,
+40.235001
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "浄法寺小学校",
+"Jusho": "岩手県二戸市",
+"Capacity": "－",
+"la": "40.18225693130",
+"ln": "141.15846490000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.1584649,
+40.1822569313
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "石切所小学校",
+"Jusho": "岩手県二戸市石切所字田尻平4",
+"Capacity": "－",
+"la": "40.25775300000",
+"ln": "141.28811800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.288118,
+40.257753
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "中央小学校",
+"Jusho": "岩手県二戸市堀野字下タ川原71－",
+"Capacity": "－",
+"la": "40.29050900000",
+"ln": "141.29352000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.29352,
+40.290509
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "二戸西小学校",
+"Jusho": "岩手県二戸市上斗米字梅木9－",
+"Capacity": "－",
+"la": "40.27358100000",
+"ln": "141.21229200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.212292,
+40.273581
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "福岡小学校",
+"Jusho": "岩手県二戸市福岡字下川又15",
+"Capacity": "－",
+"la": "40.27219600000",
+"ln": "141.30367200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.303672,
+40.272196
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "安代小学校",
+"Jusho": "岩手県八幡平市清水210",
+"Capacity": "1000",
+"la": "40.10437000000",
+"ln": "141.04848100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.048481,
+40.10437
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "寄木小学校",
+"Jusho": "岩手県八幡平市松尾寄木27－03",
+"Capacity": "500",
+"la": "39.92826200000",
+"ln": "141.04985300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.049853,
+39.928262
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "寺田小学校",
+"Jusho": "岩手県八幡平市西根寺田15-30",
+"Capacity": "780",
+"la": "39.97968900000",
+"ln": "141.10785300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.107853,
+39.979689
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "渋川小学校",
+"Jusho": "岩手県八幡平市大更39－39",
+"Capacity": "620",
+"la": "39.92913200000",
+"ln": "141.12821500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.128215,
+39.929132
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "松野小学校",
+"Jusho": "岩手県八幡平市野駄11－57",
+"Capacity": "500",
+"la": "39.95590700000",
+"ln": "141.06342500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.063425,
+39.955907
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大更小学校",
+"Jusho": "岩手県八幡平市大更21-70",
+"Capacity": "1400",
+"la": "39.90882100000",
+"ln": "141.10136300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.101363,
+39.908821
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "田山小学校",
+"Jusho": "岩手県八幡平市下川原20",
+"Capacity": "1000",
+"la": "40.14081300000",
+"ln": "140.95148700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+140.951487,
+40.140813
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "田頭小学校",
+"Jusho": "岩手県八幡平市田頭19-43",
+"Capacity": "760",
+"la": "39.91954000000",
+"ln": "141.08183300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.081833,
+39.91954
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "東大更小学校",
+"Jusho": "岩手県八幡平市大更9－16",
+"Capacity": "660",
+"la": "39.91001100000",
+"ln": "141.14258700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.142587,
+39.910011
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "柏台小学校",
+"Jusho": "岩手県八幡平市柏台2-7－0",
+"Capacity": "300",
+"la": "39.91695200000",
+"ln": "140.98121200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+140.981212,
+39.916952
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "平笠小学校",
+"Jusho": "岩手県八幡平市平笠12－6",
+"Capacity": "890",
+"la": "39.90821300000",
+"ln": "141.07577900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.075779,
+39.908213
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "平舘小学校",
+"Jusho": "岩手県八幡平市平舘9-35－",
+"Capacity": "780",
+"la": "39.95065600000",
+"ln": "141.09223100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.092231,
+39.950656
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "伊手小学校",
+"Jusho": "岩手県奥州市伊手字西風102",
+"Capacity": "330",
+"la": "39.17857300000",
+"ln": "141.30078300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.300783,
+39.178573
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "衣川小学校",
+"Jusho": "岩手県奥州市古戸414－",
+"Capacity": "1490",
+"la": "39.04138600000",
+"ln": "141.06750900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.067509,
+39.041386
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "衣里小学校",
+"Jusho": "岩手県奥州市衣川区堰下7-2",
+"Capacity": "1219",
+"la": "39.01981800000",
+"ln": "141.09489900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.094899,
+39.019818
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "稲瀬小学校",
+"Jusho": "岩手県奥州市江刺区稲瀬字下台12",
+"Capacity": "382",
+"la": "39.21602200000",
+"ln": "141.15680000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.1568,
+39.216022
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "羽田小学校",
+"Jusho": "岩手県奥州市水沢区羽田町字洗田362",
+"Capacity": "1366",
+"la": "39.13517200000",
+"ln": "141.19015000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.19015,
+39.135172
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "岩谷堂小学校",
+"Jusho": "岩手県奥州市江刺区館山1-8",
+"Capacity": "400",
+"la": "39.19297800000",
+"ln": "141.17970000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.1797,
+39.192978
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "玉里小学校",
+"Jusho": "岩手県奥州市玉里字大松沢110",
+"Capacity": "319",
+"la": "39.22891300000",
+"ln": "141.24136200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.241362,
+39.228913
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "古城小学校",
+"Jusho": "岩手県奥州市前沢区古城字東見寺下15",
+"Capacity": "298",
+"la": "39.07940400000",
+"ln": "141.13766600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.137666,
+39.079404
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "広瀬小学校",
+"Jusho": "岩手県奥州市広瀬字柿ノ木421-3",
+"Capacity": "295",
+"la": "39.25447400000",
+"ln": "141.21074900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.210749,
+39.254474
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "江刺愛宕小学校",
+"Jusho": "岩手県奥州市江刺区愛宕字西下川原8",
+"Capacity": "297",
+"la": "39.17704200000",
+"ln": "141.15122200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.151222,
+39.177042
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "黒石小学校",
+"Jusho": "岩手県奥州市水沢区黒石町字長根2－5",
+"Capacity": "2089",
+"la": "39.09034200000",
+"ln": "141.19674300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.196743,
+39.090342
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "佐倉河小学校",
+"Jusho": "岩手県奥州市水沢区佐倉河字曾根7",
+"Capacity": "1825",
+"la": "39.16489800000",
+"ln": "141.12833800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.128338,
+39.164898
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "姉体小学校",
+"Jusho": "岩手県奥州市姉体町字島田40",
+"Capacity": "173",
+"la": "39.10665900000",
+"ln": "141.16691100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.166911,
+39.106659
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "若柳小学校",
+"Jusho": "岩手県奥州市若柳字箸塚181",
+"Capacity": "1875",
+"la": "39.12970000000",
+"ln": "141.05817900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.058179,
+39.1297
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "上野原小学校",
+"Jusho": "岩手県奥州市前沢区字養ヶ森44-2",
+"Capacity": "289",
+"la": "39.06143700000",
+"ln": "141.10842200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.108422,
+39.061437
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "常盤小学校",
+"Jusho": "岩手県奥州市水沢区神明町一丁目1-5",
+"Capacity": "3578",
+"la": "39.13916400000",
+"ln": "141.15734000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.15734,
+39.139164
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "真城小学校",
+"Jusho": "岩手県奥州市水沢区真城字高田44－",
+"Capacity": "2320",
+"la": "39.11416600000",
+"ln": "141.14542800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.145428,
+39.114166
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "人首小学校",
+"Jusho": "岩手県奥州市米里字荒田表85－",
+"Capacity": "435",
+"la": "39.23542400000",
+"ln": "141.31108300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.311083,
+39.235424
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "水沢小学校",
+"Jusho": "岩手県奥州市字堀ノ内4-2",
+"Capacity": "561",
+"la": "39.14576000000",
+"ln": "141.13322100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.133221,
+39.14576
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "水沢南小学校",
+"Jusho": "岩手県奥州市福吉町3-24",
+"Capacity": "522",
+"la": "39.13130800000",
+"ln": "141.13170800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.131708,
+39.131308
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "赤生津小学校",
+"Jusho": "岩手県奥州市前沢区生母字田谷49-2",
+"Capacity": "325",
+"la": "39.03327300000",
+"ln": "141.14923900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.149239,
+39.033273
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "前沢小学校",
+"Jusho": "岩手県奥州市前沢区字下小路52",
+"Capacity": "356",
+"la": "39.04694200000",
+"ln": "141.12018900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.120189,
+39.046942
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大田代小学校",
+"Jusho": "岩手県奥州市田原字大平42",
+"Capacity": "240",
+"la": "39.12033200000",
+"ln": "141.25391400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.253914,
+39.120332
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "胆沢愛宕小学校",
+"Jusho": "岩手県奥州市若柳字愛宕350",
+"Capacity": "1516",
+"la": "39.12676500000",
+"ln": "140.98762700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+140.987627,
+39.126765
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "胆沢第一小学校",
+"Jusho": "岩手県奥州市小山字道場30",
+"Capacity": "2698",
+"la": "39.09632800000",
+"ln": "141.07995600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.079956,
+39.096328
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "田原小学校",
+"Jusho": "岩手県奥州市江刺区田原字駒場103",
+"Capacity": "354",
+"la": "39.15439800000",
+"ln": "141.21080200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.210802,
+39.154398
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "藤里小学校",
+"Jusho": "岩手県奥州市江刺区藤里字上長沢38",
+"Capacity": "412",
+"la": "39.18260800000",
+"ln": "141.24683200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.246832,
+39.182608
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "南都田小学校",
+"Jusho": "岩手県奥州市南都田字塚田126",
+"Capacity": "2382",
+"la": "39.13890200000",
+"ln": "141.08727800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.087278,
+39.138902
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "白山小学校",
+"Jusho": "岩手県奥州市前沢区白山字古宿40",
+"Capacity": "215",
+"la": "39.07024800000",
+"ln": "141.16134600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.161346,
+39.070248
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "白鳥小学校",
+"Jusho": "岩手県奥州市前沢区字合ノ沢105",
+"Capacity": "302",
+"la": "39.04090900000",
+"ln": "141.11184000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.11184,
+39.040909
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "母体小学校",
+"Jusho": "岩手県奥州市前沢区生母字北羽毛33",
+"Capacity": "304",
+"la": "39.05679500000",
+"ln": "141.17833700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.178337,
+39.056795
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "木細工小学校",
+"Jusho": "岩手県奥州市米里字向木細工228",
+"Capacity": "194",
+"la": "39.19675800000",
+"ln": "141.34897200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.348972,
+39.196758
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "梁川小学校",
+"Jusho": "岩手県奥州市梁川字日ノ神112",
+"Capacity": "288",
+"la": "39.28042700000",
+"ln": "141.26465000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.26465,
+39.280427
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "安庭小学校",
+"Jusho": "岩手県岩手郡雫石町西安庭第41地割152番地1",
+"Capacity": "－",
+"la": "39.66198000000",
+"ln": "140.97316600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+140.973166,
+39.66198
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "下長山小学校",
+"Jusho": "岩手県岩手郡雫石町長山羽上81番地",
+"Capacity": "－",
+"la": "39.71600100000",
+"ln": "140.97354700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+140.973547,
+39.716001
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "橋場小学校",
+"Jusho": "岩手県岩手郡雫石町橋場安栖63番地2",
+"Capacity": "－",
+"la": "39.69447400000",
+"ln": "140.88962200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+140.889622,
+39.694474
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "御明神小学校",
+"Jusho": "岩手県岩手郡雫石町上野上屋敷26番地",
+"Capacity": "－",
+"la": "39.69486600000",
+"ln": "140.94571900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+140.945719,
+39.694866
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "雫石小学校",
+"Jusho": "岩手県岩手郡雫石町源大堂50番地",
+"Capacity": "－",
+"la": "39.69204600000",
+"ln": "140.97257200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+140.972572,
+39.692046
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "七ツ森小学校",
+"Jusho": "岩手県岩手郡雫石町七ツ森16番地240",
+"Capacity": "－",
+"la": "39.70197600000",
+"ln": "141.01177100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.011771,
+39.701976
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "上長山小学校",
+"Jusho": "岩手県岩手郡雫石町長山早坂260番地",
+"Capacity": "－",
+"la": "39.75724600000",
+"ln": "140.96260700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+140.962607,
+39.757246
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "西根小学校",
+"Jusho": "岩手県岩手郡雫石町西根上駒木野320番地2",
+"Capacity": "－",
+"la": "39.74017300000",
+"ln": "140.95221100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+140.952211,
+39.740173
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大村小学校",
+"Jusho": "岩手県岩手郡雫石町南畑第14地割2番地",
+"Capacity": "－",
+"la": "39.59934600000",
+"ln": "140.92424000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+140.92424,
+39.599346
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "南畑小学校",
+"Jusho": "岩手県岩手郡雫石町南畑第32地割15番地26",
+"Capacity": "－",
+"la": "39.64439400000",
+"ln": "140.94318300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+140.943183,
+39.644394
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "葛巻小学校",
+"Jusho": "岩手県岩手郡葛巻町葛巻12-49",
+"Capacity": "－",
+"la": "40.04032500000",
+"ln": "141.43999700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.439997,
+40.040325
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "吉ケ沢小学校",
+"Jusho": "岩手県岩手郡葛巻町葛巻43-34－",
+"Capacity": "－",
+"la": "40.03949700000",
+"ln": "141.30558600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.305586,
+40.039497
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "旧葛巻小学校江刈川分校",
+"Jusho": "岩手県岩手郡葛巻町",
+"Capacity": "－",
+"la": "40.05855963620",
+"ln": "141.49724071100"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.497240711,
+40.0585596362
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "旧小田小学校",
+"Jusho": "岩手県岩手郡葛巻町",
+"Capacity": "－",
+"la": "40.07784738350",
+"ln": "141.41372621800"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.413726218,
+40.0778473835
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "旧田野小学校",
+"Jusho": "岩手県岩手郡葛巻町",
+"Capacity": "－",
+"la": "40.09259996620",
+"ln": "141.39498213900"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.394982139,
+40.0925999662
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "旧馬淵小学校",
+"Jusho": "岩手県岩手郡葛巻町",
+"Capacity": "－",
+"la": "39.94001900000",
+"ln": "141.54977200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.549772,
+39.940019
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "五日市小学校",
+"Jusho": "岩手県岩手郡葛巻町江刈25-54-6",
+"Capacity": "－",
+"la": "39.97562200000",
+"ln": "141.50586500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.505865,
+39.975622
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "江刈小学校",
+"Jusho": "岩手県岩手郡葛巻町江刈10-206－2",
+"Capacity": "－",
+"la": "40.01359300000",
+"ln": "141.46685200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.466852,
+40.013593
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "小屋瀬小学校",
+"Jusho": "岩手県岩手郡葛巻町葛巻28-22-5",
+"Capacity": "－",
+"la": "39.98212800000",
+"ln": "141.40919200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.409192,
+39.982128
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "一方井小学校",
+"Jusho": "岩手県岩手郡岩手町大字一方井15-45－",
+"Capacity": "－",
+"la": "39.97218300000",
+"ln": "141.16990900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.169909,
+39.972183
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "岩瀬張小学校",
+"Jusho": "岩手県岩手郡岩手町大字大坊5-8－",
+"Capacity": "－",
+"la": "39.96633000000",
+"ln": "141.33190500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.331905,
+39.96633
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "久保小学校",
+"Jusho": "岩手県岩手郡岩手町大字久保10-57-2",
+"Capacity": "－",
+"la": "39.94806400000",
+"ln": "141.19008100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.190081,
+39.948064
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "沼宮内小学校",
+"Jusho": "岩手県岩手郡岩手町沼宮内9-57-2",
+"Capacity": "－",
+"la": "39.97500600000",
+"ln": "141.22702000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.22702,
+39.975006
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "水堀小学校",
+"Jusho": "岩手県岩手郡岩手町大字沼宮内20－5－",
+"Capacity": "－",
+"la": "40.00668700000",
+"ln": "141.23899200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.238992,
+40.006687
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "川口小学校",
+"Jusho": "岩手県岩手郡岩手町大字川口15-91-2",
+"Capacity": "－",
+"la": "39.92509900000",
+"ln": "141.20574600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.205746,
+39.925099
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "南山形小学校",
+"Jusho": "岩手県岩手郡岩手町大字川口26-52-2",
+"Capacity": "－",
+"la": "39.89823900000",
+"ln": "141.30168600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.301686,
+39.898239
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "浮島小学校",
+"Jusho": "岩手県岩手郡岩手町大字土川1－31－",
+"Capacity": "－",
+"la": "39.94293300000",
+"ln": "141.16161000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.16161,
+39.942933
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "北山形小学校",
+"Jusho": "岩手県岩手郡岩手町大字川口41－45-2",
+"Capacity": "－",
+"la": "39.94254800000",
+"ln": "141.32682800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.326828,
+39.942548
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "一本木小学校",
+"Jusho": "岩手県岩手郡滝沢村滝沢字柳原22",
+"Capacity": "－",
+"la": "39.83002000000",
+"ln": "141.10648200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.106482,
+39.83002
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "鵜飼小学校",
+"Jusho": "岩手県岩手郡滝沢村鵜飼字洞畑87－",
+"Capacity": "－",
+"la": "39.74169700000",
+"ln": "141.08370800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.083708,
+39.741697
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "月ケ丘小学校",
+"Jusho": "岩手県岩手郡滝沢村滝沢字穴口328",
+"Capacity": "4776",
+"la": "39.73475300000",
+"ln": "141.10342900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.103429,
+39.734753
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "篠木小学校",
+"Jusho": "岩手県岩手郡滝沢村篠木字中屋敷60",
+"Capacity": "－",
+"la": "39.71614300000",
+"ln": "141.06621000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.06621,
+39.716143
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "滝沢小学校",
+"Jusho": "岩手県岩手郡滝沢村滝沢字外山86－9",
+"Capacity": "－",
+"la": "39.75780700000",
+"ln": "141.09287300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.092873,
+39.757807
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "滝沢第二小学校",
+"Jusho": "岩手県岩手郡滝沢村滝沢字巣子156-8",
+"Capacity": "－",
+"la": "39.79030400000",
+"ln": "141.13481300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.134813,
+39.790304
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "滝沢東小学校",
+"Jusho": "岩手県岩手郡滝沢村滝沢字狼久保795－",
+"Capacity": "－",
+"la": "39.79502500000",
+"ln": "141.14370100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.143701,
+39.795025
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "古館小学校",
+"Jusho": "岩手県紫波郡紫波町高水寺字土手81",
+"Capacity": "－",
+"la": "39.57310699910",
+"ln": "141.16454000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.16454,
+39.5731069991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "佐比内小学校",
+"Jusho": "岩手県紫波郡紫波町佐比内字芳沢1",
+"Capacity": "－",
+"la": "39.50450600000",
+"ln": "141.24425700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.244257,
+39.504506
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "上平沢小学校",
+"Jusho": "岩手県紫波郡紫波町稲藤字牡丹野30",
+"Capacity": "－",
+"la": "39.54977500000",
+"ln": "141.11482400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.114824,
+39.549775
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "水分小学校",
+"Jusho": "岩手県紫波郡紫波町吉水字小深田57",
+"Capacity": "－",
+"la": "39.56921600000",
+"ln": "141.10426900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.104269,
+39.569216
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "星山小学校",
+"Jusho": "岩手県紫波郡紫波町星山字樋ノ口80",
+"Capacity": "－",
+"la": "39.55255400000",
+"ln": "141.18148400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.181484,
+39.552554
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "赤石小学校",
+"Jusho": "岩手県紫波郡紫波町南日詰字箱清水128",
+"Capacity": "－",
+"la": "39.53561100000",
+"ln": "141.16370800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.163708,
+39.535611
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "赤沢小学校",
+"Jusho": "岩手県紫波郡紫波町遠山字中松原71－",
+"Capacity": "－",
+"la": "39.55200000000",
+"ln": "141.21703600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.217036,
+39.552
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "長岡小学校",
+"Jusho": "岩手県紫波郡紫波町東長岡字竹洞42",
+"Capacity": "－",
+"la": "39.58400438580",
+"ln": "141.20057971400"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.200579714,
+39.5840043858
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "日詰小学校",
+"Jusho": "岩手県紫波郡紫波町日詰字朝日田228－",
+"Capacity": "－",
+"la": "39.55838600000",
+"ln": "141.16620700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.166207,
+39.558386
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "彦部小学校",
+"Jusho": "岩手県紫波郡紫波町彦部字暮坪180",
+"Capacity": "－",
+"la": "39.52894600000",
+"ln": "141.19203900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.192039,
+39.528946
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "片寄小学校",
+"Jusho": "岩手県紫波郡紫波町片寄字野崎109",
+"Capacity": "－",
+"la": "39.52588900000",
+"ln": "141.12204600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.122046,
+39.525889
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "煙山小学校",
+"Jusho": "岩手県紫波郡矢巾町北矢幅1-2",
+"Capacity": "－",
+"la": "39.62157200000",
+"ln": "141.13984500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.139845,
+39.621572
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "徳田小学校",
+"Jusho": "岩手県紫波郡矢巾町西徳田6-53",
+"Capacity": "－",
+"la": "39.60820700000",
+"ln": "141.17260600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.172606,
+39.608207
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "不動小学校",
+"Jusho": "岩手県紫波郡矢巾町室岡12-50",
+"Capacity": "－",
+"la": "39.59421400000",
+"ln": "141.12454400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.124544,
+39.594214
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "矢巾東小学校",
+"Jusho": "岩手県紫波郡矢巾町藤沢2－1",
+"Capacity": "－",
+"la": "39.61966400000",
+"ln": "141.16376800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.163768,
+39.619664
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "永岡小学校",
+"Jusho": "岩手県胆沢郡金ヶ崎町永沢堀切後下5",
+"Capacity": "－",
+"la": "39.17426200000",
+"ln": "141.06067400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.060674,
+39.174262
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "金ケ崎小学校",
+"Jusho": "岩手県胆沢郡金ヶ崎町西根大谷120",
+"Capacity": "－",
+"la": "39.19926000000",
+"ln": "141.10483600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.104836,
+39.19926
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "三ケ尻小学校",
+"Jusho": "岩手県胆沢郡金ヶ崎町三ケ尻十三本塚16-2",
+"Capacity": "－",
+"la": "39.21870300000",
+"ln": "141.11094600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.110946,
+39.218703
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "西小学校",
+"Jusho": "岩手県胆沢郡金ヶ崎町西根高谷野原23",
+"Capacity": "－",
+"la": "39.19731500000",
+"ln": "141.06761700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.067617,
+39.197315
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "第一小学校",
+"Jusho": "岩手県胆沢郡金ヶ崎町西根二ツ堤45-25",
+"Capacity": "－",
+"la": "39.22592300000",
+"ln": "141.06539400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.065394,
+39.225923
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "長島小学校",
+"Jusho": "岩手県西磐井郡平泉町長島字砂子沢33",
+"Capacity": "300",
+"la": "38.99539499910",
+"ln": "141.14928500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.149285,
+38.9953949991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "平泉小学校",
+"Jusho": "岩手県西磐井郡平泉町平泉字倉町155",
+"Capacity": "300",
+"la": "38.98595100000",
+"ln": "141.10928900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.109289,
+38.985951
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "旧五葉小学校体育館",
+"Jusho": "岩手県気仙郡住田町",
+"Capacity": "－",
+"la": "39.20182596960",
+"ln": "141.65043074000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.65043074,
+39.2018259696
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "旧大股小学校体育館",
+"Jusho": "岩手県気仙郡住田町世田米字下大股66－",
+"Capacity": "－",
+"la": "39.14607266090",
+"ln": "141.49137880100"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.491378801,
+39.1460726609
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "世田米小学校",
+"Jusho": "岩手県気仙郡住田町世田米字川向55－",
+"Capacity": "－",
+"la": "39.14539000000",
+"ln": "141.57396300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.573963,
+39.14539
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "有住小学校体育館",
+"Jusho": "岩手県気仙郡住田町",
+"Capacity": "－",
+"la": "39.19732900000",
+"ln": "141.58923900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.589239,
+39.197329
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "安渡小学校",
+"Jusho": "岩手県上閉伊郡大槌町安渡2－1－",
+"Capacity": "－",
+"la": "39.36176100000",
+"ln": "141.91725800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.917258,
+39.361761
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "吉里吉里小学校",
+"Jusho": "岩手県上閉伊郡大槌町吉里吉里2-4－",
+"Capacity": "－",
+"la": "39.37203800000",
+"ln": "141.94058900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.940589,
+39.372038
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "荒川小学校",
+"Jusho": "岩手県下閉伊郡山田町荒川4-77－",
+"Capacity": "44",
+"la": "39.53670700000",
+"ln": "141.90467300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.904673,
+39.536707
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "轟木小学校",
+"Jusho": "岩手県下閉伊郡山田町織笠20-22",
+"Capacity": "16",
+"la": "39.43862800000",
+"ln": "141.93065000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.93065,
+39.438628
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "山田南小学校",
+"Jusho": "岩手県下閉伊郡山田町飯岡7-28-2",
+"Capacity": "84",
+"la": "39.46206300000",
+"ln": "141.94285600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.942856,
+39.462063
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "山田北小学校",
+"Jusho": "岩手県下閉伊郡山田町山田14-21",
+"Capacity": "84",
+"la": "39.47846800000",
+"ln": "141.94930000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.9493,
+39.478468
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "織笠小学校",
+"Jusho": "岩手県下閉伊郡山田町織笠11-80",
+"Capacity": "84",
+"la": "39.45143100000",
+"ln": "141.95740500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.957405,
+39.451431
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大浦小学校",
+"Jusho": "岩手県下閉伊郡山田町船越20－0",
+"Capacity": "48",
+"la": "39.44237068850",
+"ln": "142.00980956200"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+142.009809562,
+39.4423706885
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大沢小学校",
+"Jusho": "岩手県下閉伊郡山田町大沢6-51",
+"Capacity": "84",
+"la": "39.48684400000",
+"ln": "141.97229500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.972295,
+39.486844
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "豊間根小学校",
+"Jusho": "岩手県下閉伊郡山田町豊間根7-58－",
+"Capacity": "84",
+"la": "39.52603200000",
+"ln": "141.92918300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.929183,
+39.526032
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "釜津田小学校",
+"Jusho": "岩手県下閉伊郡岩泉町釜津田字沢口37番地",
+"Capacity": "－",
+"la": "39.78448200000",
+"ln": "141.55838800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.558388,
+39.784482
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "岩泉小学校",
+"Jusho": "岩手県下閉伊郡岩泉町岩泉字和川原4番地2",
+"Capacity": "－",
+"la": "39.84892400000",
+"ln": "141.79003100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.790031,
+39.848924
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "国見小学校",
+"Jusho": "岩手県下閉伊郡岩泉町門字雷峠44番地25",
+"Capacity": "－",
+"la": "39.90262900000",
+"ln": "141.59336000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.59336,
+39.902629
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "小川小学校",
+"Jusho": "岩手県下閉伊郡岩泉町袰綿字関屋57番地1",
+"Capacity": "－",
+"la": "39.85780900000",
+"ln": "141.68198600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.681986,
+39.857809
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "小本小学校・小本小学校大牛内分校小本中学校",
+"Jusho": "岩手県下閉伊郡岩泉町小本字大牛内318番地1",
+"Capacity": "－",
+"la": "39.86982799910",
+"ln": "141.95001900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.950019,
+39.8698279991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "浅内小学校",
+"Jusho": "岩手県下閉伊郡岩泉町浅内字上野82番地",
+"Capacity": "－",
+"la": "39.81976000000",
+"ln": "141.72420500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.724205,
+39.81976
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大川小学校",
+"Jusho": "岩手県下閉伊郡岩泉町大川字下町112番地",
+"Capacity": "－",
+"la": "39.80226000000",
+"ln": "141.65421200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.654212,
+39.80226
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "中沢小学校",
+"Jusho": "岩手県下閉伊郡岩泉町門字横道53番地2",
+"Capacity": "－",
+"la": "39.89724800000",
+"ln": "141.62476600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.624766,
+39.897248
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "二升石小学校",
+"Jusho": "岩手県下閉伊郡岩泉町二升石字大根13番地",
+"Capacity": "－",
+"la": "39.84114600000",
+"ln": "141.74614600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.746146,
+39.841146
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "門小学校",
+"Jusho": "岩手県下閉伊郡岩泉町門字町32番地3",
+"Capacity": "－",
+"la": "39.87641700000",
+"ln": "141.64948700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.649487,
+39.876417
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "堀内小学校",
+"Jusho": "岩手県下閉伊郡普代村20字馬場野43-2",
+"Capacity": "－",
+"la": "40.05011692030",
+"ln": "141.86232713200"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.862327132,
+40.0501169203
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "軽米小学校屋内運動場",
+"Jusho": "岩手県九戸郡軽米町大字軽米5-34-2",
+"Capacity": "－",
+"la": "40.32184600000",
+"ln": "141.46435200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.464352,
+40.321846
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "小軽米小学校屋内運動場",
+"Jusho": "岩手県九戸郡軽米町大字小軽米7-25－",
+"Capacity": "－",
+"la": "40.30153799910",
+"ln": "141.52933700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.529337,
+40.3015379991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "野田小学校",
+"Jusho": "岩手県九戸郡野田村大字野田12-61",
+"Capacity": "－",
+"la": "40.10278400000",
+"ln": "141.81779900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.817799,
+40.102784
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "伊保内小学校体育館",
+"Jusho": "岩手県九戸郡九戸村大字伊保内7－0－",
+"Capacity": "－",
+"la": "40.20914100000",
+"ln": "141.42178200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.421782,
+40.209141
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "宇堂口小学校体育館",
+"Jusho": "岩手県九戸郡九戸村大字戸田3-70",
+"Capacity": "－",
+"la": "40.11969900000",
+"ln": "141.43843300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.438433,
+40.119699
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "戸田小学校体育館",
+"Jusho": "岩手県九戸郡九戸村",
+"Capacity": "－",
+"la": "40.16166400000",
+"ln": "141.42832600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.428326,
+40.161664
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "江刺家小学校体育館",
+"Jusho": "岩手県九戸郡九戸村",
+"Capacity": "－",
+"la": "40.25444900000",
+"ln": "141.40977000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.40977,
+40.254449
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "山根小学校体育館",
+"Jusho": "岩手県九戸郡九戸村",
+"Capacity": "－",
+"la": "40.18809300000",
+"ln": "141.42666500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.426665,
+40.188093
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "長興寺小学校体育館",
+"Jusho": "岩手県九戸郡九戸村",
+"Capacity": "－",
+"la": "40.22715099910",
+"ln": "141.41738700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.417387,
+40.2271509991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "角浜小学校",
+"Jusho": "岩手県九戸郡洋野町種市43－01－0",
+"Capacity": "－",
+"la": "40.43578854220",
+"ln": "141.67760745000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.67760745,
+40.4357885422
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "旧小子内小学校",
+"Jusho": "岩手県九戸郡洋野町小子内6-6",
+"Capacity": "－",
+"la": "40.33358900000",
+"ln": "141.76779200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.767792,
+40.333589
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "旧平内小学校",
+"Jusho": "岩手県九戸郡洋野町種市35-2",
+"Capacity": "－",
+"la": "40.42366199910",
+"ln": "141.70040800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.700408,
+40.4236619991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "向田小学校",
+"Jusho": "岩手県九戸郡洋野町上舘55-49－4",
+"Capacity": "－",
+"la": "40.32809900000",
+"ln": "141.60486600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.604866,
+40.328099
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "種市小学校",
+"Jusho": "岩手県九戸郡洋野町種市20-33-3",
+"Capacity": "－",
+"la": "40.40478500000",
+"ln": "141.71432400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.714324,
+40.404785
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "宿戸小学校",
+"Jusho": "岩手県九戸郡洋野町種市7－17",
+"Capacity": "－",
+"la": "40.36542500000",
+"ln": "141.74571900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.745719,
+40.365425
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "城内小学校",
+"Jusho": "岩手県九戸郡洋野町種市56-80",
+"Capacity": "－",
+"la": "40.39783900000",
+"ln": "141.64226200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.642262,
+40.397839
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "帯島小学校",
+"Jusho": "岩手県九戸郡洋野町帯島5-22－",
+"Capacity": "－",
+"la": "40.25441200000",
+"ln": "141.69592500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.695925,
+40.254412
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大野小学校",
+"Jusho": "岩手県九戸郡洋野町大野9－－",
+"Capacity": "－",
+"la": "40.28556900000",
+"ln": "141.62542300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.625423,
+40.285569
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "中野小学校",
+"Jusho": "岩手県九戸郡洋野町中野1-95",
+"Capacity": "－",
+"la": "40.31182900000",
+"ln": "141.76964600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.769646,
+40.311829
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "林郷小学校",
+"Jusho": "岩手県九戸郡洋野町大野47-9",
+"Capacity": "－",
+"la": "40.30353800000",
+"ln": "141.67395300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.673953,
+40.303538
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "一戸小学校",
+"Jusho": "岩手県二戸郡一戸町一戸字砂森149－3",
+"Capacity": "－",
+"la": "40.21081400000",
+"ln": "141.30117400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.301174,
+40.210814
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "奥中山小学校",
+"Jusho": "岩手県二戸郡一戸町奥中山西田375-4",
+"Capacity": "－",
+"la": "40.06501300000",
+"ln": "141.22536900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.225369,
+40.065013
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "元一戸小学校",
+"Jusho": "岩手県二戸郡一戸町",
+"Capacity": "－",
+"la": "40.21827897780",
+"ln": "141.30280253200"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.302802532,
+40.2182789778
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "元宇別小学校",
+"Jusho": "岩手県二戸郡一戸町",
+"Capacity": "－",
+"la": "40.05299111420",
+"ln": "141.28802213900"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.288022139,
+40.0529911142
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "元姉帯小学校",
+"Jusho": "岩手県二戸郡一戸町",
+"Capacity": "－",
+"la": "40.16289636700",
+"ln": "141.34072072700"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.340720727,
+40.162896367
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "元小繋小学校",
+"Jusho": "岩手県二戸郡一戸町",
+"Capacity": "－",
+"la": "40.12266736940",
+"ln": "141.26122486900"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.261224869,
+40.1226673694
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "元小友小学校",
+"Jusho": "岩手県二戸郡一戸町",
+"Capacity": "－",
+"la": "40.14086887700",
+"ln": "141.23887193000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.23887193,
+40.140868877
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "元上小友小学校",
+"Jusho": "岩手県二戸郡一戸町",
+"Capacity": "－",
+"la": "40.12913633390",
+"ln": "141.22927073100"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.229270731,
+40.1291363339
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "元摺糠小学校",
+"Jusho": "岩手県二戸郡一戸町平糠字東30-2",
+"Capacity": "－",
+"la": "40.06164309050",
+"ln": "141.25802318000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.25802318,
+40.0616430905
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "元鳥海小学校",
+"Jusho": "岩手県二戸郡一戸町中里字中前田15",
+"Capacity": "－",
+"la": "40.19623529840",
+"ln": "141.26374056700"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.263740567,
+40.1962352984
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "元楢山小学校",
+"Jusho": "岩手県二戸郡一戸町",
+"Capacity": "－",
+"la": "40.22894677060",
+"ln": "141.31481656400"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.314816564,
+40.2289467706
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "元平糠小学校",
+"Jusho": "岩手県二戸郡一戸町平糠字東30-2",
+"Capacity": "－",
+"la": "40.11110300000",
+"ln": "141.31672900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.316729,
+40.111103
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "元面岸小学校",
+"Jusho": "岩手県二戸郡一戸町",
+"Capacity": "－",
+"la": "40.16070945270",
+"ln": "141.37399350700"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.373993507,
+40.1607094527
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "小鳥谷小学校",
+"Jusho": "岩手県二戸郡一戸町小鳥谷字仁昌寺43-2",
+"Capacity": "－",
+"la": "40.16600100000",
+"ln": "141.30450800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.304508,
+40.166001
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "鳥越小学校体育館",
+"Jusho": "岩手県二戸郡一戸町鳥越字中野平14－",
+"Capacity": "－",
+"la": "40.23886600000",
+"ln": "141.28006400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.280064,
+40.238866
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "鳥海小学校",
+"Jusho": "岩手県二戸郡一戸町中里字中前田15",
+"Capacity": "－",
+"la": "40.19525900000",
+"ln": "141.26340000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.2634,
+40.195259
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "鱒沢小学校",
+"Jusho": "岩手県遠野市宮守町下鱒沢17-5",
+"Capacity": "500",
+"la": "39.30095700000",
+"ln": "141.40033100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.400331,
+39.300957
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "乙部中学校",
+"Jusho": "岩手県盛岡市黒川21地割51番1号",
+"Capacity": "1926",
+"la": "39.62109599910",
+"ln": "141.18764300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.187643,
+39.6210959991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "下橋中学校",
+"Jusho": "岩手県盛岡市馬場町1番1号",
+"Capacity": "4493",
+"la": "39.69809200000",
+"ln": "141.14675900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.146759,
+39.698092
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "下小路中学校",
+"Jusho": "岩手県盛岡市愛宕町1番1号",
+"Capacity": "13142",
+"la": "39.70836900000",
+"ln": "141.15648100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.156481,
+39.708369
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "河南中学校",
+"Jusho": "岩手県盛岡市茶畑二丁目17番1号",
+"Capacity": "6542",
+"la": "39.69114900000",
+"ln": "141.16286900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.162869,
+39.691149
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "巻堀中学校",
+"Jusho": "岩手県盛岡市玉山区好摩字夏間木70－",
+"Capacity": "11859",
+"la": "39.87419200000",
+"ln": "141.16761700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.167617,
+39.874192
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "岩手大学附属中学校",
+"Jusho": "岩手県盛岡市加賀野三丁目9番1号",
+"Capacity": "5400",
+"la": "39.70606014430",
+"ln": "141.16893388800"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.168933888,
+39.7060601443
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "玉山中学校",
+"Jusho": "岩手県盛岡市玉山区日戸字鷹高39-2",
+"Capacity": "3353",
+"la": "39.79529600000",
+"ln": "141.18949200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.189492,
+39.795296
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "繋小・中学校",
+"Jusho": "岩手県盛岡市繋字舘市114番地1",
+"Capacity": "3088",
+"la": "39.67452627340",
+"ln": "141.01833447900"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.018334479,
+39.6745262734
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "見前中学校",
+"Jusho": "岩手県盛岡市津志田14地割34番地",
+"Capacity": "7411",
+"la": "39.65468500000",
+"ln": "141.15937300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.159373,
+39.654685
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "見前南中学校",
+"Jusho": "岩手県盛岡市西見前16地割73番地",
+"Capacity": "7021",
+"la": "39.64288100000",
+"ln": "141.16088700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.160887,
+39.642881
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "黒石野中学校",
+"Jusho": "岩手県盛岡市黒石野三丁目15番1号",
+"Capacity": "7346",
+"la": "39.74114199910",
+"ln": "141.14175900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.141759,
+39.7411419991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "渋民中学校",
+"Jusho": "岩手県盛岡市玉山区下田字下田106",
+"Capacity": "7105",
+"la": "39.85015000000",
+"ln": "141.16361400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.163614,
+39.85015
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "松園中学校",
+"Jusho": "岩手県盛岡市東松園二丁目14番1号",
+"Capacity": "15773",
+"la": "39.75558600000",
+"ln": "141.16758900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.167589,
+39.755586
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "上田中学校",
+"Jusho": "岩手県盛岡市上田二丁目1番1号",
+"Capacity": "6553",
+"la": "39.71503400000",
+"ln": "141.14787000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.14787,
+39.715034
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "城西中学校",
+"Jusho": "岩手県盛岡市城西町4番1号",
+"Capacity": "4762",
+"la": "39.70420200000",
+"ln": "141.12759400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.127594,
+39.704202
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "城東中学校",
+"Jusho": "岩手県盛岡市東新庄一丁目30番1号",
+"Capacity": "4809",
+"la": "39.70198100000",
+"ln": "141.17286800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.172868,
+39.701981
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "厨川中学校",
+"Jusho": "岩手県盛岡市青山二丁目7番1号",
+"Capacity": "8242",
+"la": "39.72281100000",
+"ln": "141.11620600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.116206,
+39.722811
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "仙北中学校",
+"Jusho": "岩手県盛岡市仙北三丁目18番1号",
+"Capacity": "4967",
+"la": "39.68337100000",
+"ln": "141.15342600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.153426,
+39.683371
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大宮中学校",
+"Jusho": "岩手県盛岡市大宮字大宮5番地1",
+"Capacity": "10817",
+"la": "39.68392600000",
+"ln": "141.11259600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.112596,
+39.683926
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "飯岡中学校",
+"Jusho": "岩手県盛岡市下飯岡6地割51番地1",
+"Capacity": "9731",
+"la": "39.66444899910",
+"ln": "141.11831200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.118312,
+39.6644489991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "米内中学校",
+"Jusho": "岩手県盛岡市桜台二丁目19番1号",
+"Capacity": "7057",
+"la": "39.74919799910",
+"ln": "141.19758600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.197586,
+39.7491979991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "北松園中学校",
+"Jusho": "岩手県盛岡市北松園四丁目34番1号",
+"Capacity": "5072",
+"la": "39.75951050910",
+"ln": "141.17558502900"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.175585029,
+39.7595105091
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "薮川中学校",
+"Jusho": "岩手県盛岡市玉山区薮川字外山28-6",
+"Capacity": "4446",
+"la": "39.77876600000",
+"ln": "141.31921700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.319217,
+39.778766
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "河南中学校",
+"Jusho": "岩手県宮古市河南1－－",
+"Capacity": "－",
+"la": "39.62256600000",
+"ln": "141.95419000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.95419,
+39.622566
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "花輪中学校",
+"Jusho": "岩手県宮古市大字花輪5字程久保132",
+"Capacity": "－",
+"la": "39.61334700000",
+"ln": "141.89851774300"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.898517743,
+39.613347
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "宮古西中学校",
+"Jusho": "岩手県宮古市西ヶ丘2－－",
+"Capacity": "－",
+"la": "39.64061800000",
+"ln": "141.91308200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.913082,
+39.640618
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "旧蟇目中学校",
+"Jusho": "岩手県宮古市",
+"Capacity": "－",
+"la": "39.63455619900",
+"ln": "141.83279115700"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.832791157,
+39.634556199
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "崎山中学校",
+"Jusho": "岩手県宮古市大字崎山3字トロノ木1－",
+"Capacity": "－",
+"la": "39.67922600000",
+"ln": "141.96141100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.961411,
+39.679226
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "重茂中学校",
+"Jusho": "岩手県宮古市大字重茂2字舘1",
+"Capacity": "－",
+"la": "39.58744200000",
+"ln": "142.01960200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+142.019602,
+39.587442
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "新里中学校",
+"Jusho": "岩手県宮古市刈屋15－33",
+"Capacity": "－",
+"la": "39.64133700000",
+"ln": "141.77391800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.773918,
+39.641337
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "第一中学校",
+"Jusho": "岩手県宮古市宮町2-5-7",
+"Capacity": "－",
+"la": "39.63784200000",
+"ln": "141.94502400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.945024,
+39.637842
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "第二中学校",
+"Jusho": "岩手県宮古市日の出町7－",
+"Capacity": "－",
+"la": "39.65339600000",
+"ln": "141.95530100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.955301,
+39.653396
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "津軽石中学校",
+"Jusho": "岩手県宮古市大字津軽石11-57",
+"Capacity": "－",
+"la": "39.57203400000",
+"ln": "141.93894500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.938945,
+39.572034
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "田老第一中学校",
+"Jusho": "岩手県宮古市田老字館が森3",
+"Capacity": "－",
+"la": "39.73859400000",
+"ln": "141.96974800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.969748,
+39.738594
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "田老第三小中学校",
+"Jusho": "岩手県宮古市田老字星山54",
+"Capacity": "－",
+"la": "39.81323800000",
+"ln": "141.96408200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.964082,
+39.813238
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大船渡中学校",
+"Jusho": "岩手県大船渡市大船渡町字永沢94－",
+"Capacity": "－",
+"la": "39.05290500000",
+"ln": "141.71756600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.717566,
+39.052905
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "末崎中学校",
+"Jusho": "岩手県大船渡市末崎町字平林72－3",
+"Capacity": "－",
+"la": "39.00457700000",
+"ln": "141.71090100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.710901,
+39.004577
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "花巻中学校",
+"Jusho": "岩手県花巻市若葉町二丁目16-22",
+"Capacity": "－",
+"la": "39.38923900000",
+"ln": "141.10205200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.102052,
+39.389239
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "花巻北中学校",
+"Jusho": "岩手県花巻市天下田182",
+"Capacity": "－",
+"la": "39.41118100000",
+"ln": "141.11093900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.110939,
+39.411181
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "宮野目中学校",
+"Jusho": "岩手県花巻市西宮野目6－56-2",
+"Capacity": "－",
+"la": "39.42550200000",
+"ln": "141.12520400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.125204,
+39.425502
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "西南中学校",
+"Jusho": "岩手県花巻市轟木7－2",
+"Capacity": "－",
+"la": "39.36283500000",
+"ln": "141.05353300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.053533,
+39.362835
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大迫中学校",
+"Jusho": "岩手県花巻市大迫町外川目27-22－",
+"Capacity": "－",
+"la": "39.46122300000",
+"ln": "141.29335200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.293352,
+39.461223
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "田瀬中学校（田瀬振興センター）",
+"Jusho": "岩手県花巻市東和町田瀬14－37",
+"Capacity": "－",
+"la": "39.31505900000",
+"ln": "141.31366800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.313668,
+39.315059
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "東和中学校",
+"Jusho": "岩手県花巻市東和町土沢5-20",
+"Capacity": "－",
+"la": "39.38848600000",
+"ln": "141.23164100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.231641,
+39.388486
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "湯口中学校",
+"Jusho": "岩手県花巻市円万寺字法船23",
+"Capacity": "－",
+"la": "39.39118200000",
+"ln": "141.05372400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.053724,
+39.391182
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "湯本中学校",
+"Jusho": "岩手県花巻市湯本4－",
+"Capacity": "－",
+"la": "39.44568100000",
+"ln": "141.08736500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.087365,
+39.445681
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "南城中学校",
+"Jusho": "岩手県花巻市南城251",
+"Capacity": "－",
+"la": "39.36643800000",
+"ln": "141.11900600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.119006,
+39.366438
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "矢沢中学校",
+"Jusho": "岩手県花巻市高松5-42",
+"Capacity": "－",
+"la": "39.38970000000",
+"ln": "141.15542700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.155427,
+39.3897
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "江釣子中学校",
+"Jusho": "岩手県北上市上江釣子17地割172番地1",
+"Capacity": "850",
+"la": "39.29665300000",
+"ln": "141.07672600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.076726,
+39.296653
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "上野中学校",
+"Jusho": "岩手県北上市上野町四丁目10番8号",
+"Capacity": "800",
+"la": "39.30286000000",
+"ln": "141.12705300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.127053,
+39.30286
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "東陵中学校",
+"Jusho": "岩手県北上市立花1地割8番地",
+"Capacity": "750",
+"la": "39.28971100000",
+"ln": "141.14405500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.144055,
+39.289711
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "南中学校",
+"Jusho": "岩手県北上市相去町滝の沢7番地2",
+"Capacity": "950",
+"la": "39.26425200000",
+"ln": "141.09039100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.090391,
+39.264252
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "飯豊中学校",
+"Jusho": "岩手県北上市村崎野11地割200番地",
+"Capacity": "300",
+"la": "39.33944400000",
+"ln": "141.09835400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.098354,
+39.339444
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "北上中学校",
+"Jusho": "岩手県北上市黒沢尻一丁目1番1号",
+"Capacity": "1000",
+"la": "39.28869500000",
+"ln": "141.13122000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.13122,
+39.288695
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "北上北中学校",
+"Jusho": "岩手県北上市二子町秋子沢13番地",
+"Capacity": "600",
+"la": "39.32702400000",
+"ln": "141.13566300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.135663,
+39.327024
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "和賀西中学校",
+"Jusho": "岩手県北上市和賀町横川目13地割64番地1",
+"Capacity": "650",
+"la": "39.31175200000",
+"ln": "140.97741800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+140.977418,
+39.311752
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "和賀東中学校",
+"Jusho": "岩手県北上市和賀町長沼6地割1番地",
+"Capacity": "800",
+"la": "39.29725900000",
+"ln": "141.02936700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.029367,
+39.297259
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "宇部中学校",
+"Jusho": "岩手県久慈市宇部町6－33－3",
+"Capacity": "－",
+"la": "40.12639100000",
+"ln": "141.78419000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.78419,
+40.126391
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "夏井中学校",
+"Jusho": "岩手県久慈市夏井町早坂3-20",
+"Capacity": "－",
+"la": "40.21832300000",
+"ln": "141.76391000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.76391,
+40.218323
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "久慈中学校",
+"Jusho": "岩手県久慈市栄町32-88-5",
+"Capacity": "－",
+"la": "40.19527000000",
+"ln": "141.75863300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.758633,
+40.19527
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "元麦生小中学校跡地前広場",
+"Jusho": "岩手県久慈市侍浜町麦生3-36－",
+"Capacity": "－",
+"la": "40.22582299910",
+"ln": "141.82362700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.823627,
+40.2258229991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "三崎中学校",
+"Jusho": "岩手県久慈市宇部町22-961",
+"Capacity": "－",
+"la": "40.14916600000",
+"ln": "141.85112700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.851127,
+40.149166
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "山形中学校",
+"Jusho": "岩手県久慈市山形町川井10-87－1",
+"Capacity": "－",
+"la": "40.15051500000",
+"ln": "141.56903600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.569036,
+40.150515
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "山根中学校",
+"Jusho": "岩手県久慈市山根町下戸鎖4-38－",
+"Capacity": "－",
+"la": "40.08445000000",
+"ln": "141.70725300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.707253,
+40.08445
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "侍浜中学校",
+"Jusho": "岩手県久慈市侍浜町本町9－52",
+"Capacity": "－",
+"la": "40.26887400000",
+"ln": "141.78362800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.783628,
+40.268874
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大川目中学校",
+"Jusho": "岩手県久慈市大川目町13－05",
+"Capacity": "－",
+"la": "40.18082700000",
+"ln": "141.71419300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.714193,
+40.180827
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "長内中学校",
+"Jusho": "岩手県久慈市小久慈町39-2-2",
+"Capacity": "－",
+"la": "40.17269500000",
+"ln": "141.75954600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.759546,
+40.172695
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "綾織中学校",
+"Jusho": "岩手県遠野市綾織町下綾織13-5-2",
+"Capacity": "400",
+"la": "39.33175400000",
+"ln": "141.46757800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.467578,
+39.331754
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "遠野中学校",
+"Jusho": "岩手県遠野市松崎町白岩11-30",
+"Capacity": "600",
+"la": "39.33925500000",
+"ln": "141.53535000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.53535,
+39.339255
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "小友中学校",
+"Jusho": "岩手県遠野市小友町16－29",
+"Capacity": "1295",
+"la": "39.27148099910",
+"ln": "141.42536100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.425361,
+39.2714809991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "土淵中学校",
+"Jusho": "岩手県遠野市土淵町土淵4-21-6",
+"Capacity": "450",
+"la": "39.35790000000",
+"ln": "141.57731500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.577315,
+39.3579
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "附馬牛中学校",
+"Jusho": "岩手県遠野市附馬牛下附馬牛11-43－",
+"Capacity": "430",
+"la": "39.41301400000",
+"ln": "141.52931900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.529319,
+39.413014
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "一関市立一関中学校",
+"Jusho": "岩手県一関市真柴字中田18",
+"Capacity": "13911",
+"la": "38.91179300000",
+"ln": "141.13484500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.134845,
+38.911793
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "一関市立一関東中学校",
+"Jusho": "岩手県一関市滝沢字水口81-2",
+"Capacity": "10422",
+"la": "38.91056700000",
+"ln": "141.17099400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.170994,
+38.910567
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "一関市立厳美中学校",
+"Jusho": "岩手県一関市厳美町字上ノ台45－",
+"Capacity": "9168",
+"la": "38.94317500000",
+"ln": "141.04096300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.040963,
+38.943175
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "一関市立桜町中学校",
+"Jusho": "岩手県一関市三関字桜町39-2",
+"Capacity": "7873",
+"la": "38.93040300000",
+"ln": "141.15262000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.15262,
+38.930403
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "一関市立山目中学校",
+"Jusho": "岩手県一関市山目字舘46－",
+"Capacity": "16786",
+"la": "38.93888200000",
+"ln": "141.12385500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.123855,
+38.938882
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "一関市立室根中学校",
+"Jusho": "岩手県一関市室根町矢越字五反田73",
+"Capacity": "943",
+"la": "38.93407399910",
+"ln": "141.43447200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.434472,
+38.9340739991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "一関市立萩荘中学校",
+"Jusho": "岩手県一関市萩荘字境ノ神240",
+"Capacity": "9159",
+"la": "38.92123500000",
+"ln": "141.09290400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.092904,
+38.921235
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "一関市立舞川中学校",
+"Jusho": "岩手県一関市舞川字中入92-8",
+"Capacity": "6769",
+"la": "38.96901100000",
+"ln": "141.19594800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.195948,
+38.969011
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "一関市立本寺中学校",
+"Jusho": "岩手県一関市厳美町字岡山16",
+"Capacity": "7715",
+"la": "38.97203200000",
+"ln": "140.93861700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+140.938617,
+38.972032
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "猿沢中学校",
+"Jusho": "岩手県一関市大東町猿沢字上ノ洞22",
+"Capacity": "1203",
+"la": "39.03839800000",
+"ln": "141.29644300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.296443,
+39.038398
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "花泉中学校",
+"Jusho": "岩手県一関市花泉町涌津字古川8",
+"Capacity": "1583",
+"la": "38.83064900000",
+"ln": "141.18747600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.187476,
+38.830649
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "千厩中学校",
+"Jusho": "岩手県一関市千厩町千厩字上駒場195-5",
+"Capacity": "20443",
+"la": "38.92973200000",
+"ln": "141.35806200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.358062,
+38.929732
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "川崎中学校校舎",
+"Jusho": "岩手県一関市川崎町薄衣字上段1",
+"Capacity": "1283",
+"la": "38.90590399910",
+"ln": "141.26188100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.261881,
+38.9059039991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大原中学校",
+"Jusho": "岩手県一関市大東町大原字大明神25",
+"Capacity": "423",
+"la": "39.01625615590",
+"ln": "141.39305295400"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.393052954,
+39.0162561559
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大東中学校",
+"Jusho": "岩手県一関市大東町摺沢字上堺ノ沢21－",
+"Capacity": "1113",
+"la": "39.00587915950",
+"ln": "141.32689898100"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.326898981,
+39.0058791595
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "東山中学校",
+"Jusho": "岩手県一関市東山町長坂字北山谷60",
+"Capacity": "3724",
+"la": "38.99690900000",
+"ln": "141.24845100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.248451,
+38.996909
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "藤沢中学校校舎",
+"Jusho": "岩手県一関市藤沢町藤沢字狩野40-3",
+"Capacity": "806",
+"la": "38.85690411200",
+"ln": "141.34674898300"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.346748983,
+38.856904112
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "陸前高田市立第一中学校",
+"Jusho": "岩手県陸前高田市高田町字鳴石5－",
+"Capacity": "－",
+"la": "39.02207200000",
+"ln": "141.62535300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.625353,
+39.022072
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "仮設釜石東中学校校庭（旧紀州造林）",
+"Jusho": "岩手県釜石市鵜住居町19-28-3",
+"Capacity": "－",
+"la": "39.32761600000",
+"ln": "141.89403500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.894035,
+39.327616
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "釜石中学校体育館",
+"Jusho": "岩手県釜石市",
+"Capacity": "－",
+"la": "39.27302100000",
+"ln": "141.86230100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.862301,
+39.273021
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "旧釜石第一中学校校庭",
+"Jusho": "岩手県釜石市",
+"Capacity": "－",
+"la": "39.27721717560",
+"ln": "141.88433420300"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.884334203,
+39.2772171756
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "甲子中学校体育館",
+"Jusho": "岩手県釜石市甲子町9－56",
+"Capacity": "－",
+"la": "39.25392400000",
+"ln": "141.79731800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.797318,
+39.253924
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大平中学校校庭",
+"Jusho": "岩手県釜石市大平町3-6－",
+"Capacity": "－",
+"la": "39.26010600000",
+"ln": "141.89642900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.896429,
+39.260106
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "唐丹中学校校庭",
+"Jusho": "岩手県釜石市唐丹町字小白浜314",
+"Capacity": "－",
+"la": "39.20844599910",
+"ln": "141.86532300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.865323,
+39.2084459991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "金田一中学校",
+"Jusho": "岩手県二戸市金田一字野月55",
+"Capacity": "－",
+"la": "40.31385700000",
+"ln": "141.30200400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.302004,
+40.313857
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "御返地中学校",
+"Jusho": "岩手県二戸市安比字上大簗平4-2",
+"Capacity": "－",
+"la": "40.23383000000",
+"ln": "141.22092200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.220922,
+40.23383
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "浄法寺中学校",
+"Jusho": "岩手県二戸市浄法寺町小池50",
+"Capacity": "－",
+"la": "40.18682900000",
+"ln": "141.16038300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.160383,
+40.186829
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "仁左平小中学校",
+"Jusho": "岩手県二戸市仁左平字下構55",
+"Capacity": "－",
+"la": "40.30469200000",
+"ln": "141.31644700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.316447,
+40.304692
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "福岡中学校",
+"Jusho": "岩手県二戸市福岡字下川又22－",
+"Capacity": "－",
+"la": "40.27275200000",
+"ln": "141.30450500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.304505,
+40.272752
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "安代中学校",
+"Jusho": "岩手県八幡平市清水50",
+"Capacity": "1500",
+"la": "40.10637500000",
+"ln": "141.04731300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.047313,
+40.106375
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "松尾中学校",
+"Jusho": "岩手県八幡平市野駄14-57",
+"Capacity": "600",
+"la": "39.94084800000",
+"ln": "141.05346500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.053465,
+39.940848
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "西根第一中学校",
+"Jusho": "岩手県八幡平市堀切12-40",
+"Capacity": "860",
+"la": "39.95937900000",
+"ln": "141.10145800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.101458,
+39.959379
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "西根中学校",
+"Jusho": "岩手県八幡平市大更24-25",
+"Capacity": "1240",
+"la": "39.91528700000",
+"ln": "141.09174400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.091744,
+39.915287
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "田山中学校",
+"Jusho": "岩手県八幡平市下川原30",
+"Capacity": "1500",
+"la": "40.13886800000",
+"ln": "140.94926400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+140.949264,
+40.138868
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "衣川中学校",
+"Jusho": "岩手県奥州市古戸403－",
+"Capacity": "1922",
+"la": "39.04169000000",
+"ln": "141.06672700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.066727,
+39.04169
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "旧東水沢中学校グランド",
+"Jusho": "岩手県奥州市水沢区東中通り一丁目",
+"Capacity": "－",
+"la": "39.13620151110",
+"ln": "141.15711344800"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.157113448,
+39.1362015111
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "江刺第一中学校",
+"Jusho": "岩手県奥州市岩谷堂字小境1",
+"Capacity": "－",
+"la": "39.19158900000",
+"ln": "141.16949600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.169496,
+39.191589
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "江刺東中学校",
+"Jusho": "岩手県奥州市玉里字後沢76－",
+"Capacity": "515",
+"la": "39.23572700000",
+"ln": "141.24595200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.245952,
+39.235727
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "江刺南中学校",
+"Jusho": "岩手県奥州市藤里字外ノ沢875",
+"Capacity": "400",
+"la": "39.17970100000",
+"ln": "141.27280700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.272807,
+39.179701
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "若柳中学校",
+"Jusho": "岩手県奥州市若柳字土橋30",
+"Capacity": "2180",
+"la": "39.12766000000",
+"ln": "141.02986200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.029862,
+39.12766
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "小山中学校",
+"Jusho": "岩手県奥州市小山字道場66",
+"Capacity": "2396",
+"la": "39.09789000000",
+"ln": "141.08147000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.08147,
+39.09789
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "水沢中学校",
+"Jusho": "岩手県奥州市字南丑沢10－",
+"Capacity": "591",
+"la": "39.15253000000",
+"ln": "141.13693200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.136932,
+39.15253
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "水沢南中学校",
+"Jusho": "岩手県奥州市水沢区真城字大檀39－",
+"Capacity": "3755",
+"la": "39.11763800000",
+"ln": "141.14264500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.142645,
+39.117638
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "前沢中学校",
+"Jusho": "岩手県奥州市前沢区字久田31",
+"Capacity": "1015",
+"la": "39.05744500000",
+"ln": "141.13815500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.138155,
+39.057445
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "田原中学校",
+"Jusho": "岩手県奥州市田原字大平42",
+"Capacity": "426",
+"la": "39.12106900000",
+"ln": "141.25362100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.253621,
+39.121069
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "東水沢中学校",
+"Jusho": "岩手県奥州市佐倉河字瀬ノ上2-5",
+"Capacity": "663",
+"la": "39.13964200000",
+"ln": "141.16642100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.166421,
+39.139642
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "南都田中学校",
+"Jusho": "岩手県奥州市南都田字塚田126",
+"Capacity": "1941",
+"la": "39.13911900000",
+"ln": "141.08849900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.088499,
+39.139119
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "雫石中学校",
+"Jusho": "岩手県岩手郡雫石町柿木74番地1",
+"Capacity": "－",
+"la": "39.69695000000",
+"ln": "140.96764100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+140.967641,
+39.69695
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "葛巻中学校",
+"Jusho": "岩手県岩手郡葛巻町葛巻20-91",
+"Capacity": "－",
+"la": "40.04340600000",
+"ln": "141.43125700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.431257,
+40.043406
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "江刈中学校",
+"Jusho": "岩手県岩手郡葛巻町江刈16-54-2",
+"Capacity": "－",
+"la": "40.00356900000",
+"ln": "141.48755500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.487555,
+40.003569
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "小屋瀬中学校",
+"Jusho": "岩手県岩手郡葛巻町葛巻28-76-70",
+"Capacity": "－",
+"la": "39.98820400000",
+"ln": "141.39835300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.398353,
+39.988204
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "一方井中学校",
+"Jusho": "岩手県岩手郡岩手町大字一方井15-79",
+"Capacity": "－",
+"la": "39.97448400000",
+"ln": "141.17098300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.170983,
+39.974484
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "沼宮内中学校",
+"Jusho": "岩手県岩手郡岩手町大字五日市8-30-2",
+"Capacity": "－",
+"la": "39.97999700000",
+"ln": "141.22424800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.224248,
+39.979997
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "川口中学校",
+"Jusho": "岩手県岩手郡岩手町大字川口17-24－3",
+"Capacity": "－",
+"la": "39.92813600000",
+"ln": "141.20364700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.203647,
+39.928136
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "東部中学校",
+"Jusho": "岩手県岩手郡岩手町大字川口41－45-2",
+"Capacity": "－",
+"la": "39.94233100000",
+"ln": "141.32546100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.325461,
+39.942331
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "一本木中学校",
+"Jusho": "岩手県岩手郡滝沢村滝沢字巣子148",
+"Capacity": "－",
+"la": "39.82085500000",
+"ln": "141.10259300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.102593,
+39.820855
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "姥屋敷小中学校",
+"Jusho": "岩手県岩手郡滝沢村鵜飼字安達117－9",
+"Capacity": "－",
+"la": "39.77113600000",
+"ln": "141.02898900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.028989,
+39.771136
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "滝沢第二中学校",
+"Jusho": "岩手県岩手郡滝沢村滝沢字巣子152-91",
+"Capacity": "－",
+"la": "39.79919100000",
+"ln": "141.13814600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.138146,
+39.799191
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "滝沢中学校",
+"Jusho": "岩手県岩手郡滝沢村滝沢字外山86-20",
+"Capacity": "－",
+"la": "39.75947300000",
+"ln": "141.08981800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.089818,
+39.759473
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "滝沢南中学校",
+"Jusho": "岩手県岩手郡滝沢村鵜飼字滝向11－",
+"Capacity": "－",
+"la": "39.72836400000",
+"ln": "141.07704200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.077042,
+39.728364
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "北陵中学校",
+"Jusho": "岩手県岩手郡滝沢村滝沢字穴口419",
+"Capacity": "8301",
+"la": "39.74919600000",
+"ln": "141.11509400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.115094,
+39.749196
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "柳沢小中学校",
+"Jusho": "岩手県岩手郡滝沢村滝沢字柳沢1171",
+"Capacity": "－",
+"la": "39.81446600000",
+"ln": "141.07537400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.075374,
+39.814466
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "紫波第一中学校",
+"Jusho": "岩手県紫波郡紫波町平沢字松田41",
+"Capacity": "－",
+"la": "39.54894300000",
+"ln": "141.15731900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.157319,
+39.548943
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "紫波第三中学校",
+"Jusho": "岩手県紫波郡紫波町稲藤字牡丹野5－",
+"Capacity": "－",
+"la": "39.55088600000",
+"ln": "141.11426800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.114268,
+39.550886
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "紫波第二中学校",
+"Jusho": "岩手県紫波郡紫波町犬吠森字間木沢70",
+"Capacity": "－",
+"la": "39.55922000000",
+"ln": "141.17815000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.17815,
+39.55922
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "矢巾中学校",
+"Jusho": "岩手県紫波郡矢巾町白沢5-220",
+"Capacity": "－",
+"la": "39.59812269610",
+"ln": "141.14451206700"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.144512067,
+39.5981226961
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "矢巾北中学校",
+"Jusho": "岩手県紫波郡矢巾町上矢次7－15",
+"Capacity": "－",
+"la": "39.62599900000",
+"ln": "141.14287200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.142872,
+39.625999
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "金ケ崎中学校",
+"Jusho": "岩手県胆沢郡金ヶ崎町西根菖蒲沢27－",
+"Capacity": "－",
+"la": "39.20648100000",
+"ln": "141.09233700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.092337,
+39.206481
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "平泉中学校",
+"Jusho": "岩手県西磐井郡平泉町平泉字倉町23",
+"Capacity": "300",
+"la": "38.98474800000",
+"ln": "141.11201100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.112011,
+38.984748
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "世田米中学校",
+"Jusho": "岩手県気仙郡住田町世田米字大崎72－",
+"Capacity": "－",
+"la": "39.13955800000",
+"ln": "141.58312900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.583129,
+39.139558
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "有住中学校体育館",
+"Jusho": "岩手県気仙郡住田町",
+"Capacity": "－",
+"la": "39.19576600000",
+"ln": "141.58752600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.587526,
+39.195766
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "吉里吉里中学校",
+"Jusho": "岩手県上閉伊郡大槌町吉里吉里1-215",
+"Capacity": "－",
+"la": "39.36592800000",
+"ln": "141.94308900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.943089,
+39.365928
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "山田中学校",
+"Jusho": "岩手県下閉伊郡山田町",
+"Capacity": "220",
+"la": "39.45590100000",
+"ln": "141.95266900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.952669,
+39.455901
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "山田中学校北側線",
+"Jusho": "岩手県下閉伊郡山田町",
+"Capacity": "－",
+"la": "39.45766255460",
+"ln": "141.95243026600"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.952430266,
+39.4576625546
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "豊間根中学校",
+"Jusho": "岩手県下閉伊郡山田町豊間根3－81-3",
+"Capacity": "100",
+"la": "39.52980700000",
+"ln": "141.92503300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.925033,
+39.529807
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "安家小中学校",
+"Jusho": "岩手県下閉伊郡岩泉町安家字松林166番地",
+"Capacity": "－",
+"la": "39.98598252290",
+"ln": "141.73750676800"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.737506768,
+39.9859825229
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "釜津田中学校",
+"Jusho": "岩手県下閉伊郡岩泉町釜津田字上種倉27番地6",
+"Capacity": "－",
+"la": "39.79309300000",
+"ln": "141.59255200000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.592552,
+39.793093
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "岩泉中学校",
+"Jusho": "岩手県下閉伊郡岩泉町岩泉字一ツ石4番地",
+"Capacity": "－",
+"la": "39.84964500000",
+"ln": "141.80398700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.803987,
+39.849645
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "旧大平小中学校",
+"Jusho": "岩手県下閉伊郡岩泉町安家字大平115番地2",
+"Capacity": "－",
+"la": "39.97085100000",
+"ln": "141.66226100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.662261,
+39.970851
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "小川中学校",
+"Jusho": "岩手県下閉伊郡岩泉町門字町向39番地",
+"Capacity": "－",
+"la": "39.87472500000",
+"ln": "141.65336500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.653365,
+39.874725
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大川中学校",
+"Jusho": "岩手県下閉伊郡岩泉町大川字下町98番地",
+"Capacity": "－",
+"la": "39.80253800000",
+"ln": "141.65643400000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.656434,
+39.802538
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "有芸小中学校",
+"Jusho": "岩手県下閉伊郡岩泉町上有芸字運名根27番地21",
+"Capacity": "－",
+"la": "39.77198999910",
+"ln": "141.81031000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.81031,
+39.7719899991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "普代中学校裏",
+"Jusho": "岩手県下閉伊郡普代村14字宇留部45",
+"Capacity": "－",
+"la": "40.01163072280",
+"ln": "141.89105059000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.89105059,
+40.0116307228
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "軽米中学校屋内運動場",
+"Jusho": "岩手県九戸郡軽米町大字軽米6－7－",
+"Capacity": "－",
+"la": "40.32201999910",
+"ln": "141.46157000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.46157,
+40.3220199991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "笹渡小中学校屋内運動場",
+"Jusho": "岩手県九戸郡軽米町大字上舘58－08-31",
+"Capacity": "－",
+"la": "40.34814700000",
+"ln": "141.56844300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.568443,
+40.348147
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "小軽米中学校屋内運動場",
+"Jusho": "岩手県九戸郡軽米町大字小軽米10-3-5",
+"Capacity": "－",
+"la": "40.29993199910",
+"ln": "141.52963000000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.52963,
+40.2999319991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "晴山中学校屋内運動場",
+"Jusho": "岩手県九戸郡軽米町大字山内13-53－",
+"Capacity": "－",
+"la": "40.31993399910",
+"ln": "141.38208500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.382085,
+40.3199339991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "野田中学校",
+"Jusho": "岩手県九戸郡野田村大字野田22－14－3",
+"Capacity": "－",
+"la": "40.10239300000",
+"ln": "141.80427300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.804273,
+40.102393
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "旧大野第二中学校",
+"Jusho": "岩手県九戸郡洋野町帯島7-50－61",
+"Capacity": "－",
+"la": "40.24282400000",
+"ln": "141.68738100000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.687381,
+40.242824
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "種市中学校",
+"Jusho": "岩手県九戸郡洋野町種市25-29",
+"Capacity": "－",
+"la": "40.41233500000",
+"ln": "141.70597500000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.705975,
+40.412335
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "宿戸中学校",
+"Jusho": "岩手県九戸郡洋野町種市7－16-21",
+"Capacity": "－",
+"la": "40.36798500000",
+"ln": "141.74762300000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.747623,
+40.367985
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "大野中学校",
+"Jusho": "岩手県九戸郡洋野町大野9-39－",
+"Capacity": "－",
+"la": "40.28478799910",
+"ln": "141.62351800000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.623518,
+40.2847879991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "中野中学校",
+"Jusho": "岩手県九戸郡洋野町中野2-45-7",
+"Capacity": "－",
+"la": "40.30935600000",
+"ln": "141.77491900000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.774919,
+40.309356
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "一戸中学校",
+"Jusho": "岩手県二戸郡一戸町一戸字砂森12",
+"Capacity": "－",
+"la": "40.20470300000",
+"ln": "141.30089600000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.300896,
+40.204703
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "奥中山中学校",
+"Jusho": "岩手県二戸郡一戸町中山字軽井沢76-2",
+"Capacity": "－",
+"la": "40.06610700000",
+"ln": "141.23451700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.234517,
+40.066107
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"Name": "小鳥谷中学校",
+"Jusho": "岩手県二戸郡一戸町小鳥谷字野里5-3",
+"Capacity": "－",
+"la": "40.17498400000",
+"ln": "141.30700700000"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+141.307007,
+40.174984
+]
+}
+}
+]
+};

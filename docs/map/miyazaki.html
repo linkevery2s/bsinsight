@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" >
+	<link rel="stylesheet" href="css/map.css" />
+	<link rel="stylesheet" href="css/leaflet.css" />
+	<link rel="stylesheet" href="../assets/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="../assets/css/font-awesome.css" />
+    <title>宮崎県避難マップ</title>
+    <script src="js/jquery-1.12.0.min.js"></script>
+    <script src="data/miyazaki/st.geojson"></script>
+    <script src="data/miyazaki/k.geojson"></script>
+    <script src="data/miyazaki/o.geojson"></script>
+    <script type="text/javascript" src="js/leaflet.js"></script>
+    <script type="text/javascript"  src="js/map.js"></script>
+    <script type="text/javascript"  src="js/top.js"></script>
+  </head>
+
+  <body onLoad="mz_ini()">  
+
+		<div class="comment">
+		<i class="fa fa-folder-open" aria-hidden="true"></i> 避難所一覧
+		<form class="ch">
+		<label><input type="checkbox" id="st" onclick="st_checked();"><span id = "ln">小・中学校</span></label><br>
+		<label><input type="checkbox" id="k" onclick="k_checked();"><span id = "ln">公　　　園</span></label><br>
+		<label><input type="checkbox" id="o" onclick="o_checked();"><span id = "ln">その他避難所</span></label><br>
+		</form>
+		</div>
+
+  	<!--
+		<div class="comment">
+		<div><i class="fa fa-cogs" aria-hidden="true"></i> 操作機能</div>
+		・現在地表示 <span value="現在地取得" onclick="GPS()"><i class="fa fa-bullseye" id ="mln"></i></span><br>
+		</div>
+		-->
+		<div id="map">
+		</div>
+  </body>
+</html>
