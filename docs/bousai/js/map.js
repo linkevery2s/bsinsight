@@ -13,7 +13,18 @@ var map = L.map('map_canvas', {center: [34.791, 135.893], zoom: 8,layers: [tiri]
 var drawnItems = new L.FeatureGroup().addTo(map);
 
 var drawControl = new L.Control.Draw({
-  edit: {
+    draw: {
+    polyline: {
+      shapeOptions:{
+        color: '#C3415D',
+        opacity: 0.8
+      }
+    }
+    ,polygon: false
+    ,rectangle: false
+    ,circle: false
+  }
+  ,edit: {
     featureGroup: drawnItems
   }
   ,position: 'topright'
