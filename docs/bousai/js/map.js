@@ -17,7 +17,7 @@ var drawControl = new L.Control.Draw({
     polyline: {
       shapeOptions:{
         color: '#ff0000',
-        opacity: 0
+        opacity: 0.8
       }
     }
     ,polygon: false
