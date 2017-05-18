@@ -4,4 +4,8 @@ h1{
 
 @media print{
 	h1{display:inline;}
+	
+	#com {
+  	display:none;
+	}
 }
