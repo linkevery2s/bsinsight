@@ -1,0 +1,7 @@
+h1{
+	display:none;
+}
+
+@media print{
+	h1{display:inline;}
+}
