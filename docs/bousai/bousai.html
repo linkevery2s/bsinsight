@@ -1,0 +1,35 @@
+<html>
+	<head><title>作ろう！防災ガイド</title>
+	<script type="text/javascript">
+	var rememberPositionedInCookie = true;
+	var rememberPosition_cookieName = '防災ガイド';
+	</script>	
+	<script type="text/javascript" src="js/dragable-content.js"></script>
+	</head>
+<body>
+	<h1>作ろう！防災ガイド</h1>
+	
+	<div id="com">
+	<button type="button" onclick="print(); return false;"><i class="fa fa-print" aria-hidden="true"></i>  印　刷</button>
+	</div>
+	
+	<div id="leftMenu" class="dragableElement">
+		<h2>Menu</h2>
+		<ul>
+			<li><a href="#">Ajax</a></li>
+			<li><a href="#">DHTML</a></li>
+			<li><a href="#">Calendar scripts</a></li>
+			<li><a href="#">Menu scripts</a></li>
+			<li><a href="#">Misc scripts</a></li>
+		</ul>
+	</div>
+
+	<iframe src="guide.html" width="500px" height="400px" class="dragableElement"></iframe>
+
+
+
+<script type="text/javascript">
+initdragableElements();
+</script>
+</body>
+</html>
