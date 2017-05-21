@@ -1,15 +1,12 @@
 <html>
-  <head>
-	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" >
-    <link href="css/mapstyle.css" rel="stylesheet">
+	<head><title>作ろう！防災ガイド</title>
     <link href="css/leaflet.css" rel="stylesheet">
     <link href="../assets/css/font-awesome.min.css" rel="stylesheet">
-    <title>みんなで作ろう！防災マップ</title>
     <link href="css/main.css" rel="stylesheet">
-<!--（ここから）=================================================!-->
     <script src="libs/leaflet-src.js"></script>
     <link rel="stylesheet" href="libs/leaflet.css"/>
-<script type ="text/javascript" src="js/map.js"></script>
+	<script type ="text/javascript" src="js/map.js"></script>
+	<script type ="text/javascript" src="js/leaflet.js"></script>
     <script src="src/Leaflet.draw.js"></script>
     <script src="src/Leaflet.Draw.Event.js"></script>
     <link rel="stylesheet" href="src/leaflet.draw.css"/>
@@ -38,22 +35,187 @@
     <script src="src/edit/handler/Edit.Circle.js"></script>
     <script src="src/edit/handler/Edit.Rectangle.js"></script>
     <script src="src/edit/handler/Edit.Marker.js"></script>
+	<script type="text/javascript">
+	var rememberPositionedInCookie = true;
+	var rememberPosition_cookieName = '防災ガイド';
+	</script>	
+	<style>
+	.drag-and-drop {
+    	cursor: move;
+    	position: absolute;
+    	z-index: 1000;
+	}
 
-  </head>
+	.drag {
+	    z-index: 1001;
+	}
 
+#map_canvas{
+
+width:700px;
+
+height:500px;
+
+min-height:100%;
+
+margin: 0;
+
+overflow: hidden;
+
+}
+
+@media (max-width: 767px) {		
+		#map, #map_canvas {
+			width: 100% !important;
+			height: 450px !important;
+			margin: 0;
+			padding: 0;
+		}
+}
+
+@media print{
+
+.leaflet-bar .leaflet-control-draw-measure {
+  display:none;
+}
+.noprint{
+  display:none;
+}
+
+.comment {
+  display:none;
+}
+.leaflet-control-zoomhome {
+  display:none;
+}
+
+.leaflet-control-zoom {
+  display:none;
+}
+
+.leaflet-draw-toolbar {
+  display:none;
+}
+#export {
+  display:none;
+}
+.leaflet-bookmarks-control {
+  display:none;
+}
+.leaflet-control-filelayer {
+  display:none;
+}
+.leaflet-control-layers {
+  display:none;
+}
+
+}
+	</style>
+	</head>
   <body onload="map_ini()">
+  
+	<h1><textarea style="font-size:0.8em; border:0;" name="title" cols="30" rows="1">タイトルを入力</textarea></h1>
+	
+	<div class="comment">
+	<button type="button" onclick="print(); return false;"><i class="fa fa-print" aria-hidden="true"></i>  印　刷</button>
+	</div>
+	
+	<div id="leftMenu" class="drag-and-drop">
+		<h2>Menu</h2>
+		<ul>
+			<li><a href="#">Ajax</a></li>
+			<li><a href="#">DHTML</a></li>
+		</ul>
+	</div>
+	<br><br><br><br><br>
+	<div class="drag-and-drop" id = "map">
+	避難所までのルート
+	<div id ="map_canvas"></div>
+	</div>
 
-		<div class="comment">
-		
-		<a href="javascript:void(0);" onclick="print(); return false;"><i class="fa fa-print" aria-hidden="true"></i> 印刷</a>
-		
-		</div>
 
-	<div id ="map_canvas" style="width:100%; height:100%;"></div>
+<script type="text/javascript">
+(function(){
 
+    //要素の取得
+    var elements = document.getElementsByClassName("drag-and-drop");
 
-</div>
+    //要素内のクリックされた位置を取得するグローバル（のような）変数
+    var x;
+    var y;
 
+    //マウスが要素内で押されたとき、又はタッチされたとき発火
+    for(var i = 0; i < elements.length; i++) {
+        elements[i].addEventListener("mousedown", mdown, false);
+        elements[i].addEventListener("touchstart", mdown, false);
+    }
 
-  </body>
+    //マウスが押された際の関数
+    function mdown(e) {
+
+        //クラス名に .drag を追加
+        this.classList.add("drag");
+
+        //タッチデイベントとマウスのイベントの差異を吸収
+        if(e.type === "mousedown") {
+            var event = e;
+        } else {
+            var event = e.changedTouches[0];
+        }
+
+        //要素内の相対座標を取得
+        x = event.pageX - this.offsetLeft;
+        y = event.pageY - this.offsetTop;
+
+        //ムーブイベントにコールバック
+        document.body.addEventListener("mousemove", mmove, false);
+        document.body.addEventListener("touchmove", mmove, false);
+    }
+
+    //マウスカーソルが動いたときに発火
+    function mmove(e) {
+
+        //ドラッグしている要素を取得
+        var drag = document.getElementsByClassName("drag")[0];
+
+        //同様にマウスとタッチの差異を吸収
+        if(e.type === "mousemove") {
+            var event = e;
+        } else {
+            var event = e.changedTouches[0];
+        }
+
+        //フリックしたときに画面を動かさないようにデフォルト動作を抑制
+        e.preventDefault();
+
+        //マウスが動いた場所に要素を動かす
+        drag.style.top = event.pageY - y + "px";
+        drag.style.left = event.pageX - x + "px";
+
+        //マウスボタンが離されたとき、またはカーソルが外れたとき発火
+        drag.addEventListener("mouseup", mup, false);
+        document.body.addEventListener("mouseleave", mup, false);
+        drag.addEventListener("touchend", mup, false);
+        document.body.addEventListener("touchleave", mup, false);
+
+    }
+
+    //マウスボタンが上がったら発火
+    function mup(e) {
+        var drag = document.getElementsByClassName("drag")[0];
+
+        //ムーブベントハンドラの消去
+        document.body.removeEventListener("mousemove", mmove, false);
+        drag.removeEventListener("mouseup", mup, false);
+        document.body.removeEventListener("touchmove", mmove, false);
+        drag.removeEventListener("touchend", mup, false);
+
+        //クラス名 .drag も消す
+        drag.classList.remove("drag");
+    }
+
+})()
+</script>
+
+</body>
 </html>
