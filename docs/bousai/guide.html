@@ -36,6 +36,21 @@
     <script src="src/edit/handler/Edit.Circle.js"></script>
     <script src="src/edit/handler/Edit.Rectangle.js"></script>
     <script src="src/edit/handler/Edit.Marker.js"></script>
+<script>
+var num = 1;
+function add(){
+	num++;
+	
+var limit = 20;
+if(num > limit){ 
+return false;
+}
+    var div_element = document.createElement("div");
+    div_element.innerHTML = '<textarea name="contents" rows="5" cols="100"></textarea><br>';
+    var parent_object = document.getElementById("piyo");
+    parent_object.appendChild(div_element);
+}
+</script>
 	<script type="text/javascript">
 	var rememberPositionedInCookie = true;
 	var rememberPosition_cookieName = '防災ガイド';
@@ -73,9 +88,11 @@ overflow: hidden;
   display:none;
 }
 
-.comment {
+.comment .text_button {
   display:none;
 }
+
+
 .leaflet-control-zoomhome {
   display:none;
 }
@@ -123,6 +140,13 @@ overflow: hidden;
 	避難所までのルート
 	<div id ="map_canvas"></div>
 	</div>
+
+<div>
+<button onclick="add();" class="text_button">項目追加</button>
+</div>
+ 
+<div id="piyo">
+</div>
 
 
 <script type="text/javascript">
