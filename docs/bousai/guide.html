@@ -46,7 +46,7 @@ if(num > limit){
 return false;
 }
     var div_element = document.createElement("div");
-    div_element.innerHTML = '<textarea name="contents" rows="3" style="border:0; "></textarea><br>';
+    div_element.innerHTML = '<textarea name="contents" rows="2" style="border:0; width:100%; font-size: 120%;">・</textarea><br>';
     var parent_object = document.getElementById("piyo");
     parent_object.appendChild(div_element);
 }
@@ -68,9 +68,9 @@ return false;
 
 #map_canvas{
 
-width:500px;
+width:100%;
 
-height:500px;
+height:100%;
 
 min-height:100%;
 
@@ -78,6 +78,11 @@ margin: 0;
 
 overflow: hidden;
 
+}
+
+#hinan{
+	width: 370px;
+	height: 400px;
 }
 
 @media print{
@@ -121,22 +126,28 @@ overflow: hidden;
 	</style>
 	</head>
   <body onload="map_ini()">
-  
-	<h1><textarea style="font-size:0.8em; border:0; width: 80%;" name="title" rows="1">タイトルを入力</textarea></h1>
-	
+  <div id ="keitai">
+	<h1><textarea style="font-size:0.8em; border:0; width: 90%;" name="title" rows="1">タイトルを入力</textarea></h1>
 	<div class="comment">
 	<button type="button" onclick="print(); return false;"><i class="fa fa-print" aria-hidden="true"></i>  印　刷</button>
+		<button onclick="add();" class="text_button"><i class="fa fa-list-ul" aria-hidden="true"></i>  リスト追加</button>
 	</div>
-
-	<div class="drag-and-drop">
+	
+	<div class="drag-and-drop" id="hinan">
 	避難所までのルート
 	<div id ="map_canvas"></div>
 	</div>
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	<div class="drag-and-drop" style="width: 90%;">
+	<textarea style="font-size:120%; border:0; width: 100%;" name="bikou" rows="10">備考：</textarea>
+	</div>
 
-<div id="piyo" class="drag-and-drop" style="width: 90%;">
-	<button onclick="add();" class="text_button">項目追加</button><br>
+	<br><br><br><br><br>
+	<div id="piyo" class="drag-and-drop" style="width: 90%;">
 	非常時持ち出しリスト
-</div>
+	</div>
+
+	</div>
 
 
 <script type="text/javascript">
