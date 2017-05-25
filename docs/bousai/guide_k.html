@@ -85,10 +85,18 @@ overflow: hidden;
 	height: 500px;
 }
 
+#bikou, #piyo{
+	width: 600px;
+}
+
 @media (max-width: 767px) {
 #hinan{
 	width: 370px;
 	height: 400px;
+}
+
+#bikou, #piyo{
+	width: 90%;
 }
 
 }
@@ -146,12 +154,12 @@ overflow: hidden;
 	<div id ="map_canvas"></div>
 	</div>
 	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-	<div class="drag-and-drop" style="width: 90%;">
+	<div class="drag-and-drop" id="bikou">
 	<textarea style="font-size:120%; border:0; width: 100%;" name="bikou" rows="10">備考：</textarea>
 	</div>
 
 	<br><br><br><br><br>
-	<div id="piyo" class="drag-and-drop" style="width: 90%;">
+	<div id="piyo" class="drag-and-drop">
 	非常時持ち出しリスト
 	</div>
 
