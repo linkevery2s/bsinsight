@@ -35,7 +35,8 @@
                     fontColor : "areaColor",
                     fontShadowColor : "black",
                     onSelect:function(data){
-                        alert(data.name);
+                        $("#text").html(data.area.name + "　" + data.name);
+                        $("#text").css("background", data.area.color);
                     },
                     onHover:function(data){
                         $("#text").html(data.area.name + "　" + data.name);
