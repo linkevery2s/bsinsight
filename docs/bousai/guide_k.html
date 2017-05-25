@@ -38,7 +38,7 @@
     <script src="src/edit/handler/Edit.Marker.js"></script>
 <script>
 var num = 1;
-function add1(){
+function add(){
 	num++;
 	
 var limit = 20;
@@ -47,23 +47,9 @@ return false;
 }
     var div_element = document.createElement("div");
     div_element.innerHTML = '<textarea name="contents" rows="2" style="border:0; width:100%; font-size: 120%;">・</textarea><br>';
-    var parent_object = document.getElementById("piyo1");
+    var parent_object = document.getElementById("piyo");
     parent_object.appendChild(div_element);
 }
-
-function add2(){
-	num++;
-	
-var limit = 20;
-if(num > limit){ 
-return false;
-}
-    var div_element = document.createElement("div");
-    div_element.innerHTML = '<textarea name="contents" rows="2" style="border:0; width:100%; font-size: 120%;">・</textarea><br>';
-    var parent_object = document.getElementById("piyo2");
-    parent_object.appendChild(div_element);
-}
-
 </script>
 	<script type="text/javascript">
 	var rememberPositionedInCookie = true;
@@ -92,6 +78,11 @@ margin: 0;
 
 overflow: hidden;
 
+}
+
+#hinan{
+	width: 370px;
+	height: 400px;
 }
 
 @media print{
@@ -132,18 +123,17 @@ overflow: hidden;
 }
 
 }
-
 	</style>
 	</head>
   <body onload="map_ini()">
-
+  <div id ="keitai">
 	<h1><textarea style="font-size:0.8em; border:0; width: 90%;" name="title" rows="1">タイトルを入力</textarea></h1>
 	<div class="comment">
 	<button type="button" onclick="print(); return false;"><i class="fa fa-print" aria-hidden="true"></i>  印　刷</button>
-		<button onclick="add1();" class="text_button"><i class="fa fa-list-ul" aria-hidden="true"></i>  リスト追加</button>
+		<button onclick="add();" class="text_button"><i class="fa fa-list-ul" aria-hidden="true"></i>  リスト追加</button>
 	</div>
 	
-	<div class="drag-and-drop" style="width: 370px; height: 400px;">
+	<div class="drag-and-drop" id="hinan">
 	避難所までのルート
 	<div id ="map_canvas"></div>
 	</div>
@@ -153,10 +143,11 @@ overflow: hidden;
 	</div>
 
 	<br><br><br><br><br>
-	<div id="piyo1" class="drag-and-drop" style="width: 90%;">
+	<div id="piyo" class="drag-and-drop" style="width: 90%;">
 	非常時持ち出しリスト
 	</div>
 
+	</div>
 
 
 <script type="text/javascript">
