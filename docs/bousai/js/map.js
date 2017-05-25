@@ -1,3 +1,6 @@
+//version 5.
+var map;var basemaps; var p;var zoom;var hash;var url;var number;var marker; var markers = [];
+
 function map_ini(){
 
 var tiri = L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
@@ -7,7 +10,7 @@ var tiri = L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.pn
 //地図を生成（初期表示の中心座標，ズームレベル，レイヤなどをオプションで設定）
 var map = L.map('map_canvas', {center: [34.791, 135.893], zoom: 8,layers: [tiri]});
 
-var drawnItems1 = new L.FeatureGroup().addTo(map1);
+var drawnItems = new L.FeatureGroup().addTo(map);
 
 var drawControl = new L.Control.Draw({
     draw: {
@@ -17,7 +20,7 @@ var drawControl = new L.Control.Draw({
         opacity: 0.8
       }
     }
-    ,polygon: false
+    //,polygon: false
     ,rectangle: false
     ,circle: false
   }
@@ -28,7 +31,9 @@ var drawControl = new L.Control.Draw({
 }).addTo(map);
 
 map.on('draw:created', function(e) {
-  drawnItems1.addLayer(e.layer);
+  drawnItems.addLayer(e.layer);
 });
+
+init();
 
 }
