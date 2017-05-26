@@ -1604,3 +1604,18 @@ h3{
 	background-color: #2E64FE;
 	text-indent: 1em;
 }
+
+    #myContent, #myContent blink{
+        width:100%;
+        height:100px;
+        background:black;
+        color: #00FF00;
+        font-family:courier;
+    }    
+    blink{
+        display:inline;
+
+    }
+    #ads{
+    	margin-top:20px;
+    }
