@@ -15,6 +15,7 @@ function sel(){
 		$("#norimono").hide();
 		$("#yure").hide();
 		$("#home").show();
+		start();
 	}
 	else if(document.getElementById("demo-category").value == "2"){
 		$("#home").hide();

@@ -23,6 +23,7 @@
 	<link rel="stylesheet" href="assets/css/main.css" />
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
     	<script type="text/javascript"  src="assets/js/top.js"></script>
+    	<script type="text/javascript"  src="assets/js/dhtml.js"></script>
 		<title>防災INSIGHT</title>
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
@@ -426,7 +427,7 @@
 											<div class="select-wrapper">
 												<select name="demo-category" id="demo-category" onChange= "sel()">
 													<option>どこにいる？</option>
-													<option value="1">屋内編</option>
+													<option value="1">一般住宅「日常生活中」</option>
 													<option value="2">屋外編</option>
 													<option value="3">乗り物編</option>
 													<option value="4">揺れが収まったら</option>
@@ -435,9 +436,18 @@
 										</div>
 								<br>
 								
-								<div id ="home">
-								<h2>屋内編</h2>
+
 								
+								<div id ="home">
+								
+								<div id="myContent"></div>
+								<div id="contentToWrite" style="display:none">
+									mission1<br>
+									一般住宅<br>
+									日常生活中…<br>
+								</div>
+								
+								<br>
 								<h3>☆一般住宅</h3>
 								日常生活中
 								<blockquote>
