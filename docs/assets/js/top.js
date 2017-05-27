@@ -16,6 +16,62 @@ function the2(){
 	$("#theory2").show();
 }
 
+function the3(){
+	$("#theory3").show();
+}
+
+function the4(){
+	$("#theory4").show();
+}
+
+function the5(){
+	$("#theory5").show();
+}
+
+function the6(){
+	$("#theory6").show();
+}
+
+function the7(){
+	$("#theory7").show();
+}
+
+function the8(){
+	$("#theory8").show();
+}
+
+function the9(){
+	$("#theory9").show();
+}
+
+function the10(){
+	$("#theory10").show();
+}
+
+function the11(){
+	$("#theory11").show();
+}
+
+function the12(){
+	$("#theory12").show();
+}
+
+function the13(){
+	$("#theory13").show();
+}
+
+function the14(){
+	$("#theory14").show();
+}
+
+function the15(){
+	$("#theory15").show();
+}
+
+function the16(){
+	$("#theory16").show();
+}
+
 function sel(){
 
 	if(document.getElementById("demo-category").value == "1"){

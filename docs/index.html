@@ -440,19 +440,26 @@
 								<ul class="actions">
 										<li><a href="#day" class="button" onclick="start1();">日常生活中</a></li>
 										<li><a href="#kit" class="button" onclick="start3();">台所</a></li>
-										<li><a href="#" class="button">お風呂・トイレ</a></li>
-										<li><a href="#day" class="button">寝ている時</a></li>
-										<li><a href="#day" class="button">マンション</a></li>
-										<li><a href="#" class="button">職場・オフィス</a></li>
-										<li><a href="#" class="button">スーパー・デパート</a></li>
-										<li><a href="#day" class="button">映画館・劇場</a></li>
-										<li><a href="#day" class="button">地下街</a></li>
-										<li><a href="#" class="button">学校</a></li>
-										<li><a href="#" class="button">エレベーター</a></li>
+										<li><a href="#toil" class="button" onclick="start5();">お風呂・トイレ</a></li>
+										<li><a href="#bed" class="button" onclick="start7();">寝ている時</a></li>
+										<li><a href="#man" class="button" onclick="start9();">マンション</a></li>
+										<li><a href="#offi" class="button" onclick="start11();">職場・オフィス</a></li>
+										<li><a href="#sup" class="button" onclick="start13();">スーパー・デパート</a></li>
+										<li><a href="#eiga" class="button" onclick="start15();">映画館・劇場</a></li>
+										<li><a href="#tika" class="button" onclick="start17();">地下街</a></li>
+										<li><a href="#gakko" class="button" onclick="start19();">学校</a></li>
+										<li><a href="#ele" class="button" onclick="start21();">エレベーター</a></li>
 								</ul>
 								</div>
 								
 								<div id ="okugai">
+								<ul class="actions">
+										<li><a href="#jt" class="button" onclick="start23();">住宅地</a></li>
+										<li><a href="#ot" class="button" onclick="start25();">オフィス街・中華街</a></li>
+										<li><a href="#sea" class="button" onclick="start27();">海　岸</a></li>
+										<li><a href="#riv" class="button" onclick="start29();">川べり</a></li>
+										<li><a href="#mount" class="button" onclick="start31();">山・丘陵地</a></li>
+								</ul>
 								</div>
 								
 								<div id ="norimono">
@@ -504,7 +511,7 @@
 								
 								・動く時は、スリッパ等を履く。ガラス片等で足を怪我する可能性がある。<br><br>
 								
-								・戸を開けて出入り口を確保する。家の中に閉じ込められる恐れがある。
+								・戸を開けて出入り口を確保する。家の中に閉じ込められる恐れがある。<br><br>
 								</div>
 								</article>
 
@@ -543,9 +550,562 @@
 								
 								・慌てて火を消そうとすると、やけどする危険があるので、揺れがおさまるのを待ってから火を消す。<br><br>
 								
-								・食器棚や冷蔵庫が倒れてくるだけではなく、中身が飛び出してくる事があるので、注意する。
+								・食器棚や冷蔵庫が倒れてくるだけではなく、中身が飛び出してくる事があるので、注意する。<br><br>
 								</div>
 								</article>
+
+								<article id="toil">
+								<div id="myContent5"></div>
+								<div id="contentToWrite5" style="display:none">
+									屋内編 Mission3…<br>
+									お風呂・トイレ…<br>
+									Please Press「START」
+								</div>
+								<br>
+								<div>
+								<ul class="actions">
+									<li><a href="#toil_s" class="button special" onclick="start6();">START</a></li>
+								</ul>
+								</div>
+								</article>
+
+								<article id="toil_s">
+								<img src="images/bath.jpg" width="100%"><br>
+								<div id="myContent6"></div>
+								<div id="contentToWrite6" style="display:none">
+									入浴中やトイレに入っている時に、地震にあったら…<br>
+									どう行動しますか？<br>
+									………<br>
+									次のように対応しましょう！<br>
+									Please Press「THEORY」
+								</div>
+								<br>
+								<ul class="actions">
+									<li><a href="javascript:void(0);" class="button special" onclick="the3(); return false;">THEORY</a></li>
+								</ul>
+								<div id="theory3" style="display:none;">
+								・風呂場では、タイルや鏡、トイレでは水洗タンクが落ちてくることがあるので、注意する。<br><br>
+								
+								・入浴中は、鏡やガラスの破損による怪我に注意する。<br><br>
+								
+								・浴槽の中では、風呂のふた等をかぶり、頭を守る。<br><br>
+								
+								・揺れがおさまってから、避難する。<br><br>
+								</div>
+								</article>
+
+								<article id="bed">
+								<div id="myContent7"></div>
+								<div id="contentToWrite7" style="display:none">
+									屋内編 Mission4…<br>
+									寝ている時…<br>
+									Please Press「START」
+								</div>
+								<br>
+								<div>
+								<ul class="actions">
+									<li><a href="#bed_s" class="button special" onclick="start8();">START</a></li>
+								</ul>
+								</div>
+								</article>
+
+								<article id="bed_s">
+								<img src="images/bed.jpg" width="100%"><br>
+								<div id="myContent8"></div>
+								<div id="contentToWrite8" style="display:none">
+									寝ている時に、地震にあったら…<br>
+									どう行動しますか？<br>
+									………<br>
+									次のように対応しましょう！<br>
+									Please Press「THEORY」
+								</div>
+								<br>
+								<ul class="actions">
+									<li><a href="javascript:void(0);" class="button special" onclick="the4(); return false;">THEORY</a></li>
+								</ul>
+								<div id="theory4" style="display:none;">
+								・揺れで目が覚めたら、寝具にもぐりこむか、ベッドの中にうずくまる。<br><br>
+								
+								・枕元にはスリッパ、懐中電灯、ラジオやスマートフォンを置いておく。<br><br>
+								
+								・寝室にタンス等を置く場合は、天井と固定しておき、倒れないようにする。<br><br>
+								</div>
+								</article>
+
+								<article id="man">
+								<div id="myContent9"></div>
+								<div id="contentToWrite9" style="display:none">
+									屋内編 Mission5…<br>
+									マンション…<br>
+									Please Press「START」
+								</div>
+								<br>
+								<div>
+								<ul class="actions">
+									<li><a href="#man_s" class="button special" onclick="start10();">START</a></li>
+								</ul>
+								</div>
+								</article>
+
+								<article id="man_s">
+								<img src="images/mans.jpg" width="100%"><br>
+								<div id="myContent10"></div>
+								<div id="contentToWrite10" style="display:none">
+									マンションにいる時に、地震にあったら…<br>
+									どう行動しますか？<br>
+									………<br>
+									次のように対応しましょう！<br>
+									Please Press「THEORY」
+								</div>
+								<br>
+								<ul class="actions">
+									<li><a href="javascript:void(0);" class="button special" onclick="the5(); return false;">THEORY</a></li>
+								</ul>
+								<div id="theory5" style="display:none;">
+								・机の下にもぐり、揺れがおさまるのを待つ。<br><br>
+								
+								・高層階では、揺れの幅が大きくなる。<br><br>
+								
+								・非常口の確認をしておく。<br><br>
+								</div>
+								</article>
+
+								<article id="offi">
+								<div id="myContent11"></div>
+								<div id="contentToWrite11" style="display:none">
+									屋内編 Mission6…<br>
+									職場・オフィス…<br>
+									Please Press「START」
+								</div>
+								<br>
+								<div>
+								<ul class="actions">
+									<li><a href="#offi_s" class="button special" onclick="start12();">START</a></li>
+								</ul>
+								</div>
+								</article>
+
+								<article id="offi_s">
+								<img src="images/office.jpg" width="100%"><br>
+								<div id="myContent12"></div>
+								<div id="contentToWrite12" style="display:none">
+									職場やオフィスで働いている時に、地震にあったら…<br>
+									どう行動しますか？<br>
+									………<br>
+									次のように対応しましょう！<br>
+									Please Press「THEORY」
+								</div>
+								<br>
+								<ul class="actions">
+									<li><a href="javascript:void(0);" class="button special" onclick="the6(); return false;">THEORY</a></li>
+								</ul>
+								<div id="theory6" style="display:none;">
+								・窓ガラスが割れることがあるので、窓辺から離れる。<br><br>
+								
+								・OA機器の落下に注意する。<br><br>
+								
+								・日頃から整理整頓を行い、職場環境を綺麗に心がける。<br><br>
+								
+								・避難時はエレベーターを使用しないようにする。<br><br>
+								</div>
+								</article>
+
+								<article id="sup">
+								<div id="myContent13"></div>
+								<div id="contentToWrite13" style="display:none">
+									屋内編 Mission7…<br>
+									職場・オフィス…<br>
+									Please Press「START」
+								</div>
+								<br>
+								<div>
+								<ul class="actions">
+									<li><a href="#sup_s" class="button special" onclick="start14();">START</a></li>
+								</ul>
+								</div>
+								</article>
+
+								<article id="sup_s">
+								<img src="images/depart.jpg" width="100%"><br>
+								<div id="myContent14"></div>
+								<div id="contentToWrite14" style="display:none">
+									スーパーやデパートで買い物中に、地震にあったら…<br>
+									どう行動しますか？<br>
+									………<br>
+									次のように対応しましょう！<br>
+									Please Press「THEORY」
+								</div>
+								<br>
+								<ul class="actions">
+									<li><a href="javascript:void(0);" class="button special" onclick="the7(); return false;">THEORY</a></li>
+								</ul>
+								<div id="theory7" style="display:none;">
+								・バックや買い物かごなどで頭を保護し、ショーケースなど倒れやすいものから離れる。<br><br>
+								
+								・ガラス製品や瀬戸物、その他、陳列棚の商品などの落下・転倒に注意する。<br><br>
+								
+								・エレベーターによる避難はしない。<br><br>
+								</div>
+								</article>
+
+								<article id="eiga">
+								<div id="myContent15"></div>
+								<div id="contentToWrite15" style="display:none">
+									屋内編 Mission8…<br>
+									映画館・劇場…<br>
+									Please Press「START」
+								</div>
+								<br>
+								<div>
+								<ul class="actions">
+									<li><a href="#eiga_s" class="button special" onclick="start16();">START</a></li>
+								</ul>
+								</div>
+								</article>
+
+								<article id="eiga_s">
+								<img src="images/eiga.jpg" width="100%"><br>
+								<div id="myContent16"></div>
+								<div id="contentToWrite16" style="display:none">
+									映画館や劇場で鑑賞中に、地震にあったら…<br>
+									どう行動しますか？<br>
+									………<br>
+									次のように対応しましょう！<br>
+									Please Press「THEORY」
+								</div>
+								<br>
+								<ul class="actions">
+									<li><a href="javascript:void(0);" class="button special" onclick="the8(); return false;">THEORY</a></li>
+								</ul>
+								<div id="theory8" style="display:none;">
+								・バックなどで頭を保護し、座席の間に身を隠して、揺れが収まるのを待つ。<br><br>
+								
+								・天井からの落下物や窓ガラス等に注意しながら、安全な場所に避難する。<br><br>
+								
+								・停電しても誘導灯や非常灯がつくので、慌てずに、係員の指示に従う。<br><br>
+								
+								・事前に避難口を確認しておく。<br><br>
+								</div>
+								</article>
+
+								<article id="tika">
+								<div id="myContent17"></div>
+								<div id="contentToWrite17" style="display:none">
+									屋内編 Mission9…<br>
+									地下街…<br>
+									Please Press「START」
+								</div>
+								<br>
+								<div>
+								<ul class="actions">
+									<li><a href="#tika_s" class="button special" onclick="start18();">START</a></li>
+								</ul>
+								</div>
+								</article>
+
+								<article id="tika_s">
+								<img src="images/tika.jpg" width="100%"><br>
+								<div id="myContent18"></div>
+								<div id="contentToWrite18" style="display:none">
+									地下街にいる時に、地震にあったら…<br>
+									どう行動しますか？<br>
+									………<br>
+									次のように対応しましょう！<br>
+									Please Press「THEORY」
+								</div>
+								<br>
+								<ul class="actions">
+									<li><a href="javascript:void(0);" class="button special" onclick="the9(); return false;">THEORY</a></li>
+								</ul>
+								<div id="theory9" style="display:none;">
+								・停電になっても、非常照明がつくまでむやみに動かないようにする。<br><br>
+								
+								・地下街では６０ｍごとに非常口が設置されているため、一つの非常口に殺到せずに地上に落ち着いて脱出する。<br><br>
+								
+								・脱出するときは、壁づたいに歩いて避難する。<br><br>
+								</div>
+								</article>
+
+								<article id="gakko">
+								<div id="myContent19"></div>
+								<div id="contentToWrite19" style="display:none">
+									屋内編 Mission10…<br>
+									学校…<br>
+									Please Press「START」
+								</div>
+								<br>
+								<div>
+								<ul class="actions">
+									<li><a href="#gakko_s" class="button special" onclick="start20();">START</a></li>
+								</ul>
+								</div>
+								</article>
+
+								<article id="gakko_s">
+								<img src="images/school.jpg" width="100%"><br>
+								<div id="myContent20"></div>
+								<div id="contentToWrite20" style="display:none">
+									学校にいる時に、地震にあったら…<br>
+									どう行動しますか？<br>
+									………<br>
+									次のように対応しましょう！<br>
+									Please Press「THEORY」
+								</div>
+								<br>
+								<ul class="actions">
+									<li><a href="javascript:void(0);" class="button special" onclick="the10(); return false;">THEORY</a></li>
+								</ul>
+								<div id="theory10" style="display:none;">
+								・教室内では、机の下に潜って落下物などから身を守り、慌てて外に飛び出すなど勝手な行動はせずに、教職員の指示に従う。<br><br>
+								
+								・廊下、運動場、体育館などでは、中央部に集まってしゃがむ。<br><br>
+								<img src="images/rika.jpg" width="100%"><br>
+								・実験室などでは、薬品や火気に注意する。<br><br>
+								
+								・通学路が危険なこともあるので、勝手に帰宅しない。<br><br>
+								</div>
+								</article>
+
+								<article id="ele">
+								<div id="myContent21"></div>
+								<div id="contentToWrite21" style="display:none">
+									屋内編 Mission11…<br>
+									エレベーター…<br>
+									Please Press「START」
+								</div>
+								<br>
+								<div>
+								<ul class="actions">
+									<li><a href="#ele_s" class="button special" onclick="start22();">START</a></li>
+								</ul>
+								</div>
+								</article>
+
+								<article id="ele_s">
+								<img src="images/ele.jpg" width="100%"><br>
+								<div id="myContent22"></div>
+								<div id="contentToWrite22" style="display:none">
+									エレベーターの中で、地震にあったら…<br>
+									どう行動しますか？<br>
+									………<br>
+									次のように対応しましょう！<br>
+									Please Press「THEORY」
+								</div>
+								<br>
+								<ul class="actions">
+									<li><a href="javascript:void(0);" class="button special" onclick="the11(); return false;">THEORY</a></li>
+								</ul>
+								<div id="theory11" style="display:none;">
+								・全ての階のボタンを押し、最初に停止した階でおりるのが原則！<br><br>
+								
+								・ただし、停止した階で慌てておりるのではなく、階の状況を見極めるのも大切！<br><br>
+								
+								・エレベーターに閉じこめられても、焦らず冷静になって「非常用呼び出しボタン」等での連絡を取る。<br><br>
+							</div>
+								</article>
+
+								<article id="jt">
+								<div id="myContent23"></div>
+								<div id="contentToWrite23" style="display:none">
+									屋外編 Mission1…<br>
+									住宅地…<br>
+									Please Press「START」
+								</div>
+								<br>
+								<div>
+								<ul class="actions">
+									<li><a href="#jt_s" class="button special" onclick="start24();">START</a></li>
+								</ul>
+								</div>
+								</article>
+
+								<article id="jt_s">
+								<img src="images/jut.jpg" width="100%"><br>
+								<div id="myContent24"></div>
+								<div id="contentToWrite24" style="display:none">
+									あなたは、住宅地を歩いています。<br>
+									突然、「地震」に襲われました。<br>
+									どう行動しますか？<br>
+									………<br>
+									次のように対応しましょう！<br>
+									Please Press「THEORY」
+								</div>
+								<br>
+								<ul class="actions">
+									<li><a href="javascript:void(0);" class="button special" onclick="the12(); return false;">THEORY</a></li>
+								</ul>
+								<div id="theory12" style="display:none;">
+								・住宅地の路地にあるブロック塀や石塀は、強い揺れで倒れる危険がある。揺れを感じたら塀から離れる。<br><br>
+								
+								・電柱や自動販売機も倒れてくることがあるので、そばから離れる。<br><br>
+								
+								・屋根瓦や二階建て以上の住宅のベランダに置かれているエアコンの室外機、ガーデニング用のプランターなどが落下してくることがある。頭の上も注意する。<br><br>
+								・強い揺れが起きると、耐震性能の低い住宅が倒壊する場合もある。これにより瓦礫や窓ガラスが道路内に散乱する可能性もあるので、揺れを感じたら周辺の状況に注意する。<br><br>
+								</div>
+								</article>
+
+								<article id="ot">
+								<div id="myContent25"></div>
+								<div id="contentToWrite25" style="display:none">
+									屋外編 Mission2…<br>
+									オフィス街・中華街…<br>
+									Please Press「START」
+								</div>
+								<br>
+								<div>
+								<ul class="actions">
+									<li><a href="#ot_s" class="button special" onclick="start26();">START</a></li>
+								</ul>
+								</div>
+								</article>
+
+								<article id="ot_s">
+								<img src="images/tokai.jpg" width="100%"><br>
+								<div id="myContent26"></div>
+								<div id="contentToWrite26" style="display:none">
+									あなたは、オフィス街を歩いています。<br>
+									突然、「地震」に襲われました。<br>
+									どう行動しますか？<br>
+									………<br>
+									次のように対応しましょう！<br>
+									Please Press「THEORY」
+								</div>
+								<br>
+								<ul class="actions">
+									<li><a href="javascript:void(0);" class="button special" onclick="the13(); return false;">THEORY</a></li>
+								</ul>
+								<div id="theory13" style="display:none;">
+								・何はともあれ、頭上を保護する！<br><br>
+								
+								・オフィスビルの窓ガラスが割れて落下すると、時速40～60kmで広範囲に拡散する。<br><br>
+								
+								・ビルの外壁や張られているタイル、外壁に取り付けられている看板などが剥がれ落ちることもある。<br><br>
+
+								・繁華街では、オフィス街には少ない店の看板やネオンサインなどの落下・転倒物が加わる。<br><br>
+								
+								・鞄などで頭を保護し、できるだけ建物から離れる。<br><br>
+								</div>
+								</article>
+
+								<article id="sea">
+								<div id="myContent27"></div>
+								<div id="contentToWrite27" style="display:none">
+									屋外編 Mission3…<br>
+									海岸…<br>
+									Please Press「START」
+								</div>
+								<br>
+								<div>
+								<ul class="actions">
+									<li><a href="#sea_s" class="button special" onclick="start28();">START</a></li>
+								</ul>
+								</div>
+								</article>
+
+								<article id="sea_s">
+								<img src="images/sea.jpg" width="100%"><br>
+								<div id="myContent28"></div>
+								<div id="contentToWrite28" style="display:none">
+									あなたは、海岸に来ています。<br>
+									突然、「地震」に襲われました。<br>
+									どう行動しますか？<br>
+									………<br>
+									次のように対応しましょう！<br>
+									Please Press「THEORY」
+								</div>
+								<br>
+								<ul class="actions">
+									<li><a href="javascript:void(0);" class="button special" onclick="the14(); return false;">THEORY</a></li>
+								</ul>
+								<div id="theory14" style="display:none;">
+								・一番恐ろしいのは津波。とにかく高い所に避難する！<br><br>
+								
+								・津波は繰り返し襲って来て、第一波の後にさらに高い波が来ることもある。いったん波が引いても絶対に戻ってはいけない。<br><br>
+								
+								・避難標識が整備されている場合には避難する際の目安になる。<br><br>
+
+								・水浴中の場合は、監視員やライフセーバーがいる海水浴場では指示に従って避難する。<br><br>
+								</div>
+								</article>
+
+								<article id="riv">
+								<div id="myContent29"></div>
+								<div id="contentToWrite29" style="display:none">
+									屋外編 Mission4…<br>
+									川べり…<br>
+									Please Press「START」
+								</div>
+								<br>
+								<div>
+								<ul class="actions">
+									<li><a href="#riv_s" class="button special" onclick="start30();">START</a></li>
+								</ul>
+								</div>
+								</article>
+
+								<article id="riv_s">
+								<img src="images/river.jpg" width="100%"><br>
+								<div id="myContent30"></div>
+								<div id="contentToWrite30" style="display:none">
+									あなたは、川べりに来ています。<br>
+									突然、「地震」に襲われました。<br>
+									どう行動しますか？<br>
+									………<br>
+									次のように対応しましょう！<br>
+									Please Press「THEORY」
+								</div>
+								<br>
+								<ul class="actions">
+									<li><a href="javascript:void(0);" class="button special" onclick="the15(); return false;">THEORY</a></li>
+								</ul>
+								<div id="theory15" style="display:none;">
+								・津波は水を湛えている川を遡る！<br><br>
+								
+								・流れに沿って上流側へ避難しても津波は追いかけてくる。<br><br>
+								
+								・流れに対して直角方向に素早く避難する。<br><br>
+								</div>
+								</article>
+
+								<article id="mount">
+								<div id="myContent31"></div>
+								<div id="contentToWrite31" style="display:none">
+									屋外編 Mission5…<br>
+									山・丘陵地…<br>
+									Please Press「START」
+								</div>
+								<br>
+								<div>
+								<ul class="actions">
+									<li><a href="#mount_s" class="button special" onclick="start32();">START</a></li>
+								</ul>
+								</div>
+								</article>
+
+								<article id="mount_s">
+								<img src="images/yama.jpg" width="100%"><br>
+								<div id="myContent32"></div>
+								<div id="contentToWrite32" style="display:none">
+									あなたは、山登りをしています。<br>
+									突然、「地震」に襲われました。<br>
+									どう行動しますか？<br>
+									………<br>
+									次のように対応しましょう！<br>
+									Please Press「THEORY」
+								</div>
+								<br>
+								<ul class="actions">
+									<li><a href="javascript:void(0);" class="button special" onclick="the16(); return false;">THEORY</a></li>
+								</ul>
+								<div id="theory16" style="display:none;">
+								・落石に注意し、急傾斜地など危険な場所から遠ざかる！<br><br>
+								
+								・登山やハイキングで山にいる時に強い揺れに襲われた場合には、まず落石から身を守る。<br><br>
+
+								・地震で地盤がゆるみ、崩れやすくなっている可能性があるため、崖や急傾斜地など危険な場所には近づかない。<br><br>
+								</div>
+								</article>
+
 
 							<article id="need">
 								<h2 class="major">何が必要？</h2>
