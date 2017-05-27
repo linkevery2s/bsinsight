@@ -1710,3 +1710,533 @@ function start31(){
 function start32(){
 	writeContent32(true);
 }
+
+   var charIndex33 = -1;
+    var stringLength33 = 0;
+    var inputText33;
+    function writeContent33(init){
+    	if(init){
+    		inputText33 = document.getElementById('contentToWrite33').innerHTML;
+    	}
+        if(charIndex33==-1){
+            charIndex33 = 0;
+            stringLength33 = inputText33.length;
+        }
+        var initString33 = document.getElementById('myContent33').innerHTML;
+		initString33 = initString33.replace(/<SPAN.*$/gi,"");
+        
+        var theChar33 = inputText33.charAt(charIndex33);
+       	var nextFourChars33 = inputText33.substr(charIndex33,4);
+       	if(nextFourChars33=='<BR>' || nextFourChars33=='<br>'){
+       		theChar33  = '<BR>';
+       		charIndex33+=3;
+       	}
+        initString33 = initString33 + theChar33 + "<SPAN id='blink33'>_</SPAN>";
+        document.getElementById('myContent33').innerHTML = initString33;
+
+        charIndex33 = charIndex33/1 +1;
+		if(charIndex33%2==1){
+             document.getElementById('blink33').style.display='none';
+        }else{
+             document.getElementById('blink33').style.display='inline';
+        }
+                
+        if(charIndex33<=stringLength33){
+            setTimeout('writeContent33(false)',150);
+        }else{
+        	blinkSpan33();
+        }  
+    }
+    
+    var currentStyle33 = 'inline';
+    function blinkSpan33(){
+    	if(currentStyle33=='inline'){
+    		currentStyle33='none';
+    	}else{
+    		currentStyle33='inline';
+    	}
+    	document.getElementById('blink33').style.display = currentStyle33;
+    	setTimeout('blinkSpan33()',500);
+    	
+    }
+
+function start33(){
+	writeContent33(true);
+}
+
+   var charIndex34 = -1;
+    var stringLength34 = 0;
+    var inputText34;
+    function writeContent34(init){
+    	if(init){
+    		inputText34 = document.getElementById('contentToWrite34').innerHTML;
+    	}
+        if(charIndex34==-1){
+            charIndex34 = 0;
+            stringLength34 = inputText34.length;
+        }
+        var initString34 = document.getElementById('myContent34').innerHTML;
+		initString34 = initString34.replace(/<SPAN.*$/gi,"");
+        
+        var theChar34 = inputText34.charAt(charIndex34);
+       	var nextFourChars34 = inputText34.substr(charIndex34,4);
+       	if(nextFourChars34=='<BR>' || nextFourChars34=='<br>'){
+       		theChar34  = '<BR>';
+       		charIndex34+=3;
+       	}
+        initString34 = initString34 + theChar34 + "<SPAN id='blink34'>_</SPAN>";
+        document.getElementById('myContent34').innerHTML = initString34;
+
+        charIndex34 = charIndex34/1 +1;
+		if(charIndex34%2==1){
+             document.getElementById('blink34').style.display='none';
+        }else{
+             document.getElementById('blink34').style.display='inline';
+        }
+                
+        if(charIndex34<=stringLength34){
+            setTimeout('writeContent34(false)',150);
+        }else{
+        	blinkSpan34();
+        }  
+    }
+    
+    var currentStyle34 = 'inline';
+    function blinkSpan34(){
+    	if(currentStyle34=='inline'){
+    		currentStyle34='none';
+    	}else{
+    		currentStyle34='inline';
+    	}
+    	document.getElementById('blink34').style.display = currentStyle34;
+    	setTimeout('blinkSpan34()',500);
+    	
+    }
+
+function start34(){
+	writeContent34(true);
+}
+
+   var charIndex35 = -1;
+    var stringLength35 = 0;
+    var inputText35;
+    function writeContent35(init){
+    	if(init){
+    		inputText35 = document.getElementById('contentToWrite35').innerHTML;
+    	}
+        if(charIndex35==-1){
+            charIndex35 = 0;
+            stringLength35 = inputText35.length;
+        }
+        var initString35 = document.getElementById('myContent35').innerHTML;
+		initString35 = initString35.replace(/<SPAN.*$/gi,"");
+        
+        var theChar35 = inputText35.charAt(charIndex35);
+       	var nextFourChars35 = inputText35.substr(charIndex35,4);
+       	if(nextFourChars35=='<BR>' || nextFourChars35=='<br>'){
+       		theChar35  = '<BR>';
+       		charIndex35+=3;
+       	}
+        initString35 = initString35 + theChar35 + "<SPAN id='blink35'>_</SPAN>";
+        document.getElementById('myContent35').innerHTML = initString35;
+
+        charIndex35 = charIndex35/1 +1;
+		if(charIndex35%2==1){
+             document.getElementById('blink35').style.display='none';
+        }else{
+             document.getElementById('blink35').style.display='inline';
+        }
+                
+        if(charIndex35<=stringLength35){
+            setTimeout('writeContent35(false)',150);
+        }else{
+        	blinkSpan35();
+        }  
+    }
+    
+    var currentStyle35 = 'inline';
+    function blinkSpan35(){
+    	if(currentStyle35=='inline'){
+    		currentStyle35='none';
+    	}else{
+    		currentStyle35='inline';
+    	}
+    	document.getElementById('blink35').style.display = currentStyle35;
+    	setTimeout('blinkSpan35()',500);
+    	
+    }
+
+function start35(){
+	writeContent35(true);
+}
+
+   var charIndex36 = -1;
+    var stringLength36 = 0;
+    var inputText36;
+    function writeContent36(init){
+    	if(init){
+    		inputText36 = document.getElementById('contentToWrite36').innerHTML;
+    	}
+        if(charIndex36==-1){
+            charIndex36 = 0;
+            stringLength36 = inputText36.length;
+        }
+        var initString36 = document.getElementById('myContent36').innerHTML;
+		initString36 = initString36.replace(/<SPAN.*$/gi,"");
+        
+        var theChar36 = inputText36.charAt(charIndex36);
+       	var nextFourChars36 = inputText36.substr(charIndex36,4);
+       	if(nextFourChars36=='<BR>' || nextFourChars36=='<br>'){
+       		theChar36  = '<BR>';
+       		charIndex36+=3;
+       	}
+        initString36 = initString36 + theChar36 + "<SPAN id='blink36'>_</SPAN>";
+        document.getElementById('myContent36').innerHTML = initString36;
+
+        charIndex36 = charIndex36/1 +1;
+		if(charIndex36%2==1){
+             document.getElementById('blink36').style.display='none';
+        }else{
+             document.getElementById('blink36').style.display='inline';
+        }
+                
+        if(charIndex36<=stringLength36){
+            setTimeout('writeContent36(false)',150);
+        }else{
+        	blinkSpan36();
+        }  
+    }
+    
+    var currentStyle36 = 'inline';
+    function blinkSpan36(){
+    	if(currentStyle36=='inline'){
+    		currentStyle36='none';
+    	}else{
+    		currentStyle36='inline';
+    	}
+    	document.getElementById('blink36').style.display = currentStyle36;
+    	setTimeout('blinkSpan36()',500);
+    	
+    }
+
+function start36(){
+	writeContent36(true);
+}
+
+   var charIndex37 = -1;
+    var stringLength37 = 0;
+    var inputText37;
+    function writeContent37(init){
+    	if(init){
+    		inputText37 = document.getElementById('contentToWrite37').innerHTML;
+    	}
+        if(charIndex37==-1){
+            charIndex37 = 0;
+            stringLength37 = inputText37.length;
+        }
+        var initString37 = document.getElementById('myContent37').innerHTML;
+		initString37 = initString37.replace(/<SPAN.*$/gi,"");
+        
+        var theChar37 = inputText37.charAt(charIndex37);
+       	var nextFourChars37 = inputText37.substr(charIndex37,4);
+       	if(nextFourChars37=='<BR>' || nextFourChars37=='<br>'){
+       		theChar37  = '<BR>';
+       		charIndex37+=3;
+       	}
+        initString37 = initString37 + theChar37 + "<SPAN id='blink37'>_</SPAN>";
+        document.getElementById('myContent37').innerHTML = initString37;
+
+        charIndex37 = charIndex37/1 +1;
+		if(charIndex37%2==1){
+             document.getElementById('blink37').style.display='none';
+        }else{
+             document.getElementById('blink37').style.display='inline';
+        }
+                
+        if(charIndex37<=stringLength37){
+            setTimeout('writeContent37(false)',150);
+        }else{
+        	blinkSpan37();
+        }  
+    }
+    
+    var currentStyle37 = 'inline';
+    function blinkSpan37(){
+    	if(currentStyle37=='inline'){
+    		currentStyle37='none';
+    	}else{
+    		currentStyle37='inline';
+    	}
+    	document.getElementById('blink37').style.display = currentStyle37;
+    	setTimeout('blinkSpan37()',500);
+    	
+    }
+
+function start37(){
+	writeContent37(true);
+}
+
+   var charIndex38 = -1;
+    var stringLength38 = 0;
+    var inputText38;
+    function writeContent38(init){
+    	if(init){
+    		inputText38 = document.getElementById('contentToWrite38').innerHTML;
+    	}
+        if(charIndex38==-1){
+            charIndex38 = 0;
+            stringLength38 = inputText38.length;
+        }
+        var initString38 = document.getElementById('myContent38').innerHTML;
+		initString38 = initString38.replace(/<SPAN.*$/gi,"");
+        
+        var theChar38 = inputText38.charAt(charIndex38);
+       	var nextFourChars38 = inputText38.substr(charIndex38,4);
+       	if(nextFourChars38=='<BR>' || nextFourChars38=='<br>'){
+       		theChar38  = '<BR>';
+       		charIndex38+=3;
+       	}
+        initString38 = initString38 + theChar38 + "<SPAN id='blink38'>_</SPAN>";
+        document.getElementById('myContent38').innerHTML = initString38;
+
+        charIndex38 = charIndex38/1 +1;
+		if(charIndex38%2==1){
+             document.getElementById('blink38').style.display='none';
+        }else{
+             document.getElementById('blink38').style.display='inline';
+        }
+                
+        if(charIndex38<=stringLength38){
+            setTimeout('writeContent38(false)',150);
+        }else{
+        	blinkSpan38();
+        }  
+    }
+    
+    var currentStyle38 = 'inline';
+    function blinkSpan38(){
+    	if(currentStyle38=='inline'){
+    		currentStyle38='none';
+    	}else{
+    		currentStyle38='inline';
+    	}
+    	document.getElementById('blink38').style.display = currentStyle38;
+    	setTimeout('blinkSpan38()',500);
+    	
+    }
+
+function start38(){
+	writeContent38(true);
+}
+
+   var charIndex39 = -1;
+    var stringLength39 = 0;
+    var inputText39;
+    function writeContent39(init){
+    	if(init){
+    		inputText39 = document.getElementById('contentToWrite39').innerHTML;
+    	}
+        if(charIndex39==-1){
+            charIndex39 = 0;
+            stringLength39 = inputText39.length;
+        }
+        var initString39 = document.getElementById('myContent39').innerHTML;
+		initString39 = initString39.replace(/<SPAN.*$/gi,"");
+        
+        var theChar39 = inputText39.charAt(charIndex39);
+       	var nextFourChars39 = inputText39.substr(charIndex39,4);
+       	if(nextFourChars39=='<BR>' || nextFourChars39=='<br>'){
+       		theChar39  = '<BR>';
+       		charIndex39+=3;
+       	}
+        initString39 = initString39 + theChar39 + "<SPAN id='blink39'>_</SPAN>";
+        document.getElementById('myContent39').innerHTML = initString39;
+
+        charIndex39 = charIndex39/1 +1;
+		if(charIndex39%2==1){
+             document.getElementById('blink39').style.display='none';
+        }else{
+             document.getElementById('blink39').style.display='inline';
+        }
+                
+        if(charIndex39<=stringLength39){
+            setTimeout('writeContent39(false)',150);
+        }else{
+        	blinkSpan39();
+        }  
+    }
+    
+    var currentStyle39 = 'inline';
+    function blinkSpan39(){
+    	if(currentStyle39=='inline'){
+    		currentStyle39='none';
+    	}else{
+    		currentStyle39='inline';
+    	}
+    	document.getElementById('blink39').style.display = currentStyle39;
+    	setTimeout('blinkSpan39()',500);
+    	
+    }
+
+function start39(){
+	writeContent39(true);
+}
+
+   var charIndex40 = -1;
+    var stringLength40 = 0;
+    var inputText40;
+    function writeContent40(init){
+    	if(init){
+    		inputText40 = document.getElementById('contentToWrite40').innerHTML;
+    	}
+        if(charIndex40==-1){
+            charIndex40 = 0;
+            stringLength40 = inputText40.length;
+        }
+        var initString40 = document.getElementById('myContent40').innerHTML;
+		initString40 = initString40.replace(/<SPAN.*$/gi,"");
+        
+        var theChar40 = inputText40.charAt(charIndex40);
+       	var nextFourChars40 = inputText40.substr(charIndex40,4);
+       	if(nextFourChars40=='<BR>' || nextFourChars40=='<br>'){
+       		theChar40  = '<BR>';
+       		charIndex40+=3;
+       	}
+        initString40 = initString40 + theChar40 + "<SPAN id='blink40'>_</SPAN>";
+        document.getElementById('myContent40').innerHTML = initString40;
+
+        charIndex40 = charIndex40/1 +1;
+		if(charIndex40%2==1){
+             document.getElementById('blink40').style.display='none';
+        }else{
+             document.getElementById('blink40').style.display='inline';
+        }
+                
+        if(charIndex40<=stringLength40){
+            setTimeout('writeContent40(false)',150);
+        }else{
+        	blinkSpan40();
+        }  
+    }
+    
+    var currentStyle40 = 'inline';
+    function blinkSpan40(){
+    	if(currentStyle40=='inline'){
+    		currentStyle40='none';
+    	}else{
+    		currentStyle40='inline';
+    	}
+    	document.getElementById('blink40').style.display = currentStyle40;
+    	setTimeout('blinkSpan40()',500);
+    	
+    }
+
+function start40(){
+	writeContent40(true);
+}
+
+   var charIndex41 = -1;
+    var stringLength41 = 0;
+    var inputText41;
+    function writeContent41(init){
+    	if(init){
+    		inputText41 = document.getElementById('contentToWrite41').innerHTML;
+    	}
+        if(charIndex41==-1){
+            charIndex41 = 0;
+            stringLength41 = inputText41.length;
+        }
+        var initString41 = document.getElementById('myContent41').innerHTML;
+		initString41 = initString41.replace(/<SPAN.*$/gi,"");
+        
+        var theChar41 = inputText41.charAt(charIndex41);
+       	var nextFourChars41 = inputText41.substr(charIndex41,4);
+       	if(nextFourChars41=='<BR>' || nextFourChars41=='<br>'){
+       		theChar41  = '<BR>';
+       		charIndex41+=3;
+       	}
+        initString41 = initString41 + theChar41 + "<SPAN id='blink41'>_</SPAN>";
+        document.getElementById('myContent41').innerHTML = initString41;
+
+        charIndex41 = charIndex41/1 +1;
+		if(charIndex41%2==1){
+             document.getElementById('blink41').style.display='none';
+        }else{
+             document.getElementById('blink41').style.display='inline';
+        }
+                
+        if(charIndex41<=stringLength41){
+            setTimeout('writeContent41(false)',150);
+        }else{
+        	blinkSpan41();
+        }  
+    }
+    
+    var currentStyle41 = 'inline';
+    function blinkSpan41(){
+    	if(currentStyle41=='inline'){
+    		currentStyle41='none';
+    	}else{
+    		currentStyle41='inline';
+    	}
+    	document.getElementById('blink41').style.display = currentStyle41;
+    	setTimeout('blinkSpan41()',500);
+    	
+    }
+
+function start41(){
+	writeContent41(true);
+}
+
+   var charIndex42 = -1;
+    var stringLength42 = 0;
+    var inputText42;
+    function writeContent42(init){
+    	if(init){
+    		inputText42 = document.getElementById('contentToWrite42').innerHTML;
+    	}
+        if(charIndex42==-1){
+            charIndex42 = 0;
+            stringLength42 = inputText42.length;
+        }
+        var initString42 = document.getElementById('myContent42').innerHTML;
+		initString42 = initString42.replace(/<SPAN.*$/gi,"");
+        
+        var theChar42 = inputText42.charAt(charIndex42);
+       	var nextFourChars42 = inputText42.substr(charIndex42,4);
+       	if(nextFourChars42=='<BR>' || nextFourChars42=='<br>'){
+       		theChar42  = '<BR>';
+       		charIndex42+=3;
+       	}
+        initString42 = initString42 + theChar42 + "<SPAN id='blink42'>_</SPAN>";
+        document.getElementById('myContent42').innerHTML = initString42;
+
+        charIndex42 = charIndex42/1 +1;
+		if(charIndex42%2==1){
+             document.getElementById('blink42').style.display='none';
+        }else{
+             document.getElementById('blink42').style.display='inline';
+        }
+                
+        if(charIndex42<=stringLength42){
+            setTimeout('writeContent42(false)',150);
+        }else{
+        	blinkSpan42();
+        }  
+    }
+    
+    var currentStyle42 = 'inline';
+    function blinkSpan42(){
+    	if(currentStyle42=='inline'){
+    		currentStyle42='none';
+    	}else{
+    		currentStyle42='inline';
+    	}
+    	document.getElementById('blink42').style.display = currentStyle42;
+    	setTimeout('blinkSpan42()',500);
+    	
+    }
+
+function start42(){
+	writeContent42(true);
+}

@@ -72,6 +72,26 @@ function the16(){
 	$("#theory16").show();
 }
 
+function the17(){
+	$("#theory17").show();
+}
+
+function the18(){
+	$("#theory18").show();
+}
+
+function the19(){
+	$("#theory19").show();
+}
+
+function the20(){
+	$("#theory20").show();
+}
+
+function the21(){
+	$("#theory21").show();
+}
+
 function sel(){
 
 	if(document.getElementById("demo-category").value == "1"){

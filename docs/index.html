@@ -439,15 +439,19 @@
 								<div id ="home">
 								<ul class="actions">
 										<li><a href="#day" class="button" onclick="start1();">日常生活中</a></li>
-										<li><a href="#kit" class="button" onclick="start3();">台所</a></li>
+										<li><a href="#kit" class="button" onclick="start3();">台　所</a></li>
 										<li><a href="#toil" class="button" onclick="start5();">お風呂・トイレ</a></li>
 										<li><a href="#bed" class="button" onclick="start7();">寝ている時</a></li>
+								</ul>
+								<ul class="actions">
 										<li><a href="#man" class="button" onclick="start9();">マンション</a></li>
 										<li><a href="#offi" class="button" onclick="start11();">職場・オフィス</a></li>
 										<li><a href="#sup" class="button" onclick="start13();">スーパー・デパート</a></li>
+								</ul>
+								<ul class="actions">
 										<li><a href="#eiga" class="button" onclick="start15();">映画館・劇場</a></li>
 										<li><a href="#tika" class="button" onclick="start17();">地下街</a></li>
-										<li><a href="#gakko" class="button" onclick="start19();">学校</a></li>
+										<li><a href="#gakko" class="button" onclick="start19();">学　校</a></li>
 										<li><a href="#ele" class="button" onclick="start21();">エレベーター</a></li>
 								</ul>
 								</div>
@@ -458,11 +462,22 @@
 										<li><a href="#ot" class="button" onclick="start25();">オフィス街・中華街</a></li>
 										<li><a href="#sea" class="button" onclick="start27();">海　岸</a></li>
 										<li><a href="#riv" class="button" onclick="start29();">川べり</a></li>
+								</ul>
+								<ul class="actions">
 										<li><a href="#mount" class="button" onclick="start31();">山・丘陵地</a></li>
 								</ul>
 								</div>
 								
 								<div id ="norimono">
+								<ul class="actions">
+										<li><a href="#car" class="button" onclick="start33();">運転中</a></li>
+										<li><a href="#tetu" class="button" onclick="start35();">鉄　道</a></li>
+										<li><a href="#sink" class="button" onclick="start37();">新幹線</a></li>
+										<li><a href="#tikat" class="button" onclick="start39();">地下鉄</a></li>
+								</ul>
+								<ul class="actions">
+										<li><a href="#bus" class="button" onclick="start41();">バ　ス</a></li>
+								</ul>
 								</div>
 								
 								<div id ="yure">
@@ -1106,6 +1121,210 @@
 								</div>
 								</article>
 
+								<article id="car">
+								<div id="myContent33"></div>
+								<div id="contentToWrite33" style="display:none">
+									乗り物編 Mission1…<br>
+									運転中…<br>
+									Please Press「START」
+								</div>
+								<br>
+								<div>
+								<ul class="actions">
+									<li><a href="#car_s" class="button special" onclick="start34();">START</a></li>
+								</ul>
+								</div>
+								</article>
+
+								<article id="car_s">
+								<img src="images/car.jpg" width="100%"><br>
+								<div id="myContent34"></div>
+								<div id="contentToWrite34" style="display:none">
+									あなたは、車を運転しています。<br>
+									突然、「地震」に襲われました。<br>
+									どう行動しますか？<br>
+									………<br>
+									次のように対応しましょう！<br>
+									Please Press「THEORY」
+								</div>
+								<br>
+								<ul class="actions">
+									<li><a href="javascript:void(0);" class="button special" onclick="the17(); return false;">THEORY</a></li>
+								</ul>
+								<div id="theory17" style="display:none;">
+								・揺れを感じたら<br>
+								①急ブレーキは禁物！ハンドルをしっかり握り、前後の車に注意しながら徐々にスピードを落とし、道路の左側に停車する。<br><br>
+								②エンジンを切り、揺れがおさまるまでは車外に出ず、カーラジオやスマートフォンから情報を入手する。<br><br>
+								③避難の必要がある場合は、車のキーはつけたままにし、ドアをロックしないで、窓を閉める。<br><br>
+								④連絡先を見えるところに書き、車検証などの貴重品を持ち、徒歩で避難する。<br><br>
+
+								・車での避難は、緊急自動車などの妨げになる。<br><br>
+								<img src="images/douro.jpg" width="100%"><br>
+								・高速道路では、普通の道路を走行中の対処に加え、以下の点にも留意する。<br><br>
+								①高速走行しているのでハザードランプを点灯させ、前後の車に注意を喚起する。<br><br>
+								②高速道路では約１ｋｍごとに非常口を設けているので、徒歩で地上に脱出することができる。<br><br>
+								</div>
+								</article>
+
+								<article id="tetu">
+								<div id="myContent35"></div>
+								<div id="contentToWrite35" style="display:none">
+									乗り物編 Mission2…<br>
+									鉄道…<br>
+									Please Press「START」
+								</div>
+								<br>
+								<div>
+								<ul class="actions">
+									<li><a href="#tetu_s" class="button special" onclick="start36();">START</a></li>
+								</ul>
+								</div>
+								</article>
+
+								<article id="tetu_s">
+								<img src="images/tetu.jpg" width="100%"><br>
+								<div id="myContent36"></div>
+								<div id="contentToWrite36" style="display:none">
+									あなたは、電車に乗っています。<br>
+									突然、「地震」に襲われました。<br>
+									どう行動しますか？<br>
+									………<br>
+									次のように対応しましょう！<br>
+									Please Press「THEORY」
+								</div>
+								<br>
+								<ul class="actions">
+									<li><a href="javascript:void(0);" class="button special" onclick="the18(); return false;">THEORY</a></li>
+								</ul>
+								<div id="theory18" style="display:none;">
+								・強い揺れを感知すると電車は緊急停車する！<br><br>
+								
+								・座席に座っている場合には、低い姿勢をとって頭部を鞄などで保護し、立っている場合には手すりやつり革をしっかり握って転倒しないようにする。<br><br>
+
+								・停車後は、乗務員の指示に従う。<br><br>
+								</div>
+								</article>
+
+								<article id="sink">
+								<div id="myContent37"></div>
+								<div id="contentToWrite37" style="display:none">
+									乗り物編 Mission3…<br>
+									新幹線…<br>
+									Please Press「START」
+								</div>
+								<br>
+								<div>
+								<ul class="actions">
+									<li><a href="#sink_s" class="button special" onclick="start38();">START</a></li>
+								</ul>
+								</div>
+								</article>
+
+								<article id="sink_s">
+								<img src="images/sink.jpg" width="100%"><br>
+								<div id="myContent38"></div>
+								<div id="contentToWrite38" style="display:none">
+									あなたは、新幹線に乗っています。<br>
+									突然、「地震」に襲われました。<br>
+									どう行動しますか？<br>
+									………<br>
+									次のように対応しましょう！<br>
+									Please Press「THEORY」
+								</div>
+								<br>
+								<ul class="actions">
+									<li><a href="javascript:void(0);" class="button special" onclick="the19(); return false;">THEORY</a></li>
+								</ul>
+								<div id="theory19" style="display:none;">
+								・新幹線は早期地震検知警戒システム（ユレダス）が作動して緊急停車する！<br><br>
+								
+								・高速走行しているので、座席に座っている場合には、前に飛び出さないように座席の間に体を隠し、立っている場合には手すりをしっかり握って転倒しないようにする。<br><br>
+
+								・停車後は、乗務員の指示に従う。<br><br>
+								</div>
+								</article>
+
+								<article id="tikat">
+								<div id="myContent39"></div>
+								<div id="contentToWrite39" style="display:none">
+									乗り物編 Mission4…<br>
+									地下鉄…<br>
+									Please Press「START」
+								</div>
+								<br>
+								<div>
+								<ul class="actions">
+									<li><a href="#tikat_s" class="button special" onclick="start40();">START</a></li>
+								</ul>
+								</div>
+								</article>
+
+								<article id="tikat_s">
+								<img src="images/tikat.jpg" width="100%"><br>
+								<div id="myContent40"></div>
+								<div id="contentToWrite40" style="display:none">
+									あなたは、地下鉄に乗っています。<br>
+									突然、「地震」に襲われました。<br>
+									どう行動しますか？<br>
+									………<br>
+									次のように対応しましょう！<br>
+									Please Press「THEORY」
+								</div>
+								<br>
+								<ul class="actions">
+									<li><a href="javascript:void(0);" class="button special" onclick="the20(); return false;">THEORY</a></li>
+								</ul>
+								<div id="theory20" style="display:none;">
+								・震度５弱程度の揺れを観測した場合に運転を停止し、線路途中なら安全を確認し、低速で最寄りの駅に向かう！<br><br>
+								
+								・座席に座っている場合には、低い姿勢をとって頭部を鞄などで保護し、立っている場合には手すりやつり革をしっかり握って転倒しないようにする。<br><br>
+
+								・停電になっても非常灯が1時間程度は点灯するので、慌てずに行動する。<br><br>
+
+								・地下鉄によっては高圧電線が線路脇に設置されているので、勝手に線路に飛び降りると危険！<br><br>
+
+								・停車後は、乗務員の指示に従う。<br><br>
+								</div>
+								</article>
+
+								<article id="bus">
+								<img src="images/bus.jpg" width="100%"><br>
+								<div id="myContent41"></div>
+								<div id="contentToWrite41" style="display:none">
+									乗り物編 Mission5…<br>
+									バス…<br>
+									Please Press「START」
+								</div>
+								<br>
+								<div>
+								<ul class="actions">
+									<li><a href="#bus_s" class="button special" onclick="start42();">START</a></li>
+								</ul>
+								</div>
+								</article>
+
+								<article id="bus_s">
+								<div id="myContent42"></div>
+								<div id="contentToWrite42" style="display:none">
+									あなたは、バスに乗っています。<br>
+									突然、「地震」に襲われました。<br>
+									どう行動しますか？<br>
+									………<br>
+									次のように対応しましょう！<br>
+									Please Press「THEORY」
+								</div>
+								<br>
+								<ul class="actions">
+									<li><a href="javascript:void(0);" class="button special" onclick="the21(); return false;">THEORY</a></li>
+								</ul>
+								<div id="theory21" style="display:none;">
+								・強い揺れを感じた場合に、危険を回避するために急ブレーキが踏まれることがある！<br><br>
+
+								・座席に座っている場合には、低い姿勢をとって頭部を鞄などで保護し、立っている場合には手すりやつり革をしっかり握って転倒しないようにする。<br><br>
+
+								・停車後は、乗務員の指示に従う。<br><br>
+								</div>
+								</article>
 
 							<article id="need">
 								<h2 class="major">何が必要？</h2>
