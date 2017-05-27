@@ -2298,3 +2298,10 @@ h3{
 
 #bus .close{display:none !important;}
 #bus_s .close{display:none !important;}
+
+.link{
+	position: absolute;
+	top: 0;
+	right: 0;
+	text-decoration: none;
+}
