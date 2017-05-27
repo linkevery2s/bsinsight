@@ -1619,3 +1619,5 @@ h3{
     #ads{
     	margin-top:20px;
     }
+
+#day .close{display:none !important;}
