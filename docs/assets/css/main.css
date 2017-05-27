@@ -1605,14 +1605,59 @@ h3{
 	text-indent: 1em;
 }
 
-    #myContent, #myContent blink{
+    #myContent1, #myContent1 blink1{
         width:100%;
         height:100px;
         background:black;
         color: #00FF00;
         font-family:courier;
     }    
-    blink{
+    blink1{
+        display:inline;
+
+    }
+    #ads{
+    	margin-top:20px;
+    }
+
+    #myContent2, #myContent2 blink2{
+        width:100%;
+        height:170px;
+        background:black;
+        color: #00FF00;
+        font-family:courier;
+    }    
+    blink2{
+        display:inline;
+
+    }
+    #ads{
+    	margin-top:20px;
+    }
+
+    #myContent3, #myContent3 blink3{
+        width:100%;
+        height:100px;
+        background:black;
+        color: #00FF00;
+        font-family:courier;
+    }    
+    blink3{
+        display:inline;
+
+    }
+    #ads{
+    	margin-top:20px;
+    }
+
+    #myContent4, #myContent4 blink4{
+        width:100%;
+        height:170px;
+        background:black;
+        color: #00FF00;
+        font-family:courier;
+    }    
+    blink4{
         display:inline;
 
     }
@@ -1621,3 +1666,7 @@ h3{
     }
 
 #day .close{display:none !important;}
+#day_s .close{display:none !important;}
+
+#kit .close{display:none !important;}
+#kit_s .close{display:none !important;}

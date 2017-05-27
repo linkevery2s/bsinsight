@@ -437,12 +437,10 @@
 								<br>
 								
 								<div id ="home">
-								
 								<ul class="actions">
-										<li><a href="#day" class="button">日常生活中</a></li>
-										<li><a href="#day" class="button">台所</a></li>
-										<li><a href="#" class="button">入浴中</a></li>
-										<li><a href="#" class="button">トイレ</a></li>
+										<li><a href="#day" class="button" onclick="start1();">日常生活中</a></li>
+										<li><a href="#kit" class="button" onclick="start3();">台所</a></li>
+										<li><a href="#" class="button">お風呂・トイレ</a></li>
 										<li><a href="#day" class="button">寝ている時</a></li>
 										<li><a href="#day" class="button">マンション</a></li>
 										<li><a href="#" class="button">職場・オフィス</a></li>
@@ -452,7 +450,15 @@
 										<li><a href="#" class="button">学校</a></li>
 										<li><a href="#" class="button">エレベーター</a></li>
 								</ul>
+								</div>
 								
+								<div id ="okugai">
+								</div>
+								
+								<div id ="norimono">
+								</div>
+								
+								<div id ="yure">
 								</div>
 								
 								<p>
@@ -464,20 +470,82 @@
 							</article>
 
 								<article id="day">
-								<div id="myContent"></div>
-								<div id="contentToWrite" style="display:none">
-									屋内編 MISSION1<br>
+								<div id="myContent1"></div>
+								<div id="contentToWrite1" style="display:none">
+									屋内編 Mission1…<br>
 									日常生活中…<br>
-									Please Press「START」.
+									Please Press「START」
 								</div>
 								<br>
 								<div>
 								<ul class="actions">
-										<li><a href="#day_s" class="button special">START</a></li>
+									<li><a href="#day_s" class="button special" onclick="start2();">START</a></li>
 								</ul>
 								</div>
 								</article>
 
+								<article id="day_s">
+								<img src="images/table.jpg" width="100%"><br>
+								<div id="myContent2"></div>
+								<div id="contentToWrite2" style="display:none">
+									あなたは、リビングで日常生活を送っています。<br>
+									突然、「地震」に襲われました。<br>
+									どう行動しますか？<br>
+									………<br>
+									次のように対応しましょう！<br>
+									Please Press「THEORY」
+								</div>
+								<br>
+								<ul class="actions">
+									<li><a href="javascript:void(0);" class="button special" onclick="the1(); return false;">THEORY</a></li>
+								</ul>
+								<div id="theory1" style="display:none;">
+								・机やテーブルの下にもぐり、自分の身を守る。<br><br>
+								
+								・動く時は、スリッパ等を履く。ガラス片等で足を怪我する可能性がある。<br><br>
+								
+								・戸を開けて出入り口を確保する。家の中に閉じ込められる恐れがある。
+								</div>
+								</article>
+
+								<article id="kit">
+								<div id="myContent3"></div>
+								<div id="contentToWrite3" style="display:none">
+									屋内編 Mission2…<br>
+									台所…<br>
+									Please Press「START」
+								</div>
+								<br>
+								<div>
+								<ul class="actions">
+									<li><a href="#kit_s" class="button special" onclick="start4();">START</a></li>
+								</ul>
+								</div>
+								</article>
+
+								<article id="kit_s">
+								<img src="images/kit.jpg" width="100%"><br>
+								<div id="myContent4"></div>
+								<div id="contentToWrite4" style="display:none">
+									あなたは、台所で料理をしています。<br>
+									突然、「地震」に襲われました。<br>
+									どう行動しますか？<br>
+									………<br>
+									次のように対応しましょう！<br>
+									Please Press「THEORY」
+								</div>
+								<br>
+								<ul class="actions">
+									<li><a href="javascript:void(0);" class="button special" onclick="the2(); return false;">THEORY</a></li>
+								</ul>
+								<div id="theory2" style="display:none;">
+								・テーブルの下にもぐり、身の安全を確保する。<br><br>
+								
+								・慌てて火を消そうとすると、やけどする危険があるので、揺れがおさまるのを待ってから火を消す。<br><br>
+								
+								・食器棚や冷蔵庫が倒れてくるだけではなく、中身が飛び出してくる事があるので、注意する。
+								</div>
+								</article>
 
 							<article id="need">
 								<h2 class="major">何が必要？</h2>

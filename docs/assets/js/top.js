@@ -8,6 +8,14 @@ function mail(){
 	location.href =  "mailto:?body=Appli URL " + url;
 }
 
+function the1(){
+	$("#theory1").show();
+}
+
+function the2(){
+	$("#theory2").show();
+}
+
 function sel(){
 
 	if(document.getElementById("demo-category").value == "1"){
@@ -15,7 +23,6 @@ function sel(){
 		$("#norimono").hide();
 		$("#yure").hide();
 		$("#home").show();
-		start();
 	}
 	else if(document.getElementById("demo-category").value == "2"){
 		$("#home").hide();
