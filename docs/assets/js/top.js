@@ -92,6 +92,26 @@ function the21(){
 	$("#theory21").show();
 }
 
+function the22(){
+	$("#theory22").show();
+}
+
+function the23(){
+	$("#theory23").show();
+}
+
+function the24(){
+	$("#theory24").show();
+}
+
+function the25(){
+	$("#theory25").show();
+}
+
+function the26(){
+	$("#theory26").show();
+}
+
 function sel(){
 
 	if(document.getElementById("demo-category").value == "1"){

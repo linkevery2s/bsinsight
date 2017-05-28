@@ -2235,6 +2235,80 @@ h3{
     	margin-top:20px;
     }
 
+    #myContent43, #myContent43 blink43{
+        width:100%;
+        height:100px;
+        background:black;
+        color: #00FF00;
+        font-family:courier;
+    }    
+    blink43{
+        display:inline;
+
+    }
+    #ads{
+    	margin-top:20px;
+    }
+
+    #myContent44, #myContent44 blink44{
+        width:100%;
+        height:100px;
+        background:black;
+        color: #00FF00;
+        font-family:courier;
+    }    
+    blink44{
+        display:inline;
+
+    }
+    #ads{
+    	margin-top:20px;
+    }
+
+    #myContent45, #myContent45 blink45{
+        width:100%;
+        height:100px;
+        background:black;
+        color: #00FF00;
+        font-family:courier;
+    }    
+    blink45{
+        display:inline;
+
+    }
+    #ads{
+    	margin-top:20px;
+    }
+
+    #myContent46, #myContent46 blink46{
+        width:100%;
+        height:100px;
+        background:black;
+        color: #00FF00;
+        font-family:courier;
+    }    
+    blink46{
+        display:inline;
+
+    }
+    #ads{
+    	margin-top:20px;
+    }
+
+    #myContent47, #myContent47 blink47{
+        width:100%;
+        height:100px;
+        background:black;
+        color: #00FF00;
+        font-family:courier;
+    }    
+    blink47{
+        display:inline;
+
+    }
+    #ads{
+    	margin-top:20px;
+    }
 
 #day .close{display:none !important;}
 #day_s .close{display:none !important;}
@@ -2298,6 +2372,21 @@ h3{
 
 #bus .close{display:none !important;}
 #bus_s .close{display:none !important;}
+
+#mi .close{display:none !important;}
+#mi_s .close{display:none !important;}
+
+#hh .close{display:none !important;}
+#hh_s .close{display:none !important;}
+
+#hk .close{display:none !important;}
+#hk_s .close{display:none !important;}
+
+#kk .close{display:none !important;}
+#kk_s .close{display:none !important;}
+
+#ke .close{display:none !important;}
+#ke_s .close{display:none !important;}
 
 .link{
 				display: block;
