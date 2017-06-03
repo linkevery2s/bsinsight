@@ -1,7 +1,7 @@
 function init() {
     // リサイズ適用
     $("#targetImgDiv1").resizable({});
- 
+
     // 移動適用
     $("#targetImgDiv1").draggable({});
 

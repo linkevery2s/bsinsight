@@ -3,12 +3,12 @@ var map;var basemaps; var p;var zoom;var hash;var url;var number;var marker; var
 
 function map_ini(){
 
-var tiri = L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
-		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
+var tiri = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+		attribution: '&copy; <a href="http://osm.org/copyright" target="_blank">OpenStreetMap</a> contributors'
 	});
 
 //地図を生成（初期表示の中心座標，ズームレベル，レイヤなどをオプションで設定）
-var map = L.map('map_canvas', {center: [34.791, 135.893], zoom: 8,layers: [tiri]});
+var map = L.map('map_canvas', {center: [37.791, 136.893], zoom: 5,layers: [tiri]});
 
 var drawnItems = new L.FeatureGroup().addTo(map);
 
