@@ -2402,6 +2402,8 @@ h3{
 				border-bottom: none !important;
 }
 
+.sns a{border-bottom: none !important;}
+
 				.link:before {
 					-moz-transition: background-color 0.2s ease-in-out;
 					-webkit-transition: background-color 0.2s ease-in-out;
