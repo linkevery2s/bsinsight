@@ -8,6 +8,11 @@ function mail(){
 	location.href =  "mailto:?body=Appli URL " + url;
 }
 
+function tw(){
+	var url = window.location.href;
+	location.href = "https://twitter.com/share?url=" + url;
+}
+
 function the1(){
 	$("#theory1").show();
 }
