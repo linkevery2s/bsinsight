@@ -413,7 +413,21 @@ $("#tn").hide();
 $("#th").hide();
 $("#ds").hide();
 $("#eq").hide();
+
 def();
+
+var os, ua = navigator.userAgent;
+
+if (ua.match(/iPhone|iPad/)) {
+	$("#pc").hide();
+}
+else if (ua.match(/Android ([\.\d]+)/)) {
+	$("#pc").hide();
+}
+else {
+	$("#keitai").hide();
+}
+
 }
 
 function eq(){
