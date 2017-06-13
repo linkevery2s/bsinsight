@@ -1601,7 +1601,7 @@
 
 h3{
 	background-color: #2E64FE;
-	text-indent: 1em;
+	text-indent: 0.5em;
 }
 
     #myContent1, #myContent1 blink1{
@@ -2441,3 +2441,8 @@ h3{
 				}
 
 		}
+
+.fa-book{
+	color: #58FA82;
+}
+		
