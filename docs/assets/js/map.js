@@ -12,6 +12,6 @@ var test = new L.tileLayer('https://tile.geospatial.jp/nankaitrough/sindobunpu/{
     });
 
 //地図を生成（初期表示の中心座標，ズームレベル，レイヤなどをオプションで設定）
-var map = L.map('map_canvas', {center: [34.791, 135.893], zoom: 3,layers: [tiri, test]});
+var map = L.map('map_canvas', {center: [34.791, 135.893], zoom: 5,layers: [tiri, test]});
 
 }
