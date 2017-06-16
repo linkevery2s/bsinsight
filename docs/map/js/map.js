@@ -547,7 +547,9 @@ function gps_get(position) {
     var ido = position.coords.latitude;
     var keido = position.coords.longitude;
     map.setView([ido, keido], 15);
-    L.marker([ido, keido]).addTo(map);
+		var pulsingIcon = L.icon.pulse({iconSize:[12,12],color:'blue'});
+		var marker = L.marker([ido, keido] ,{icon: pulsingIcon}).addTo(map);
+
 }
 
 function gps_error(error) {

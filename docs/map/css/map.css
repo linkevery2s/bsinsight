@@ -57,8 +57,12 @@ a {
 }
 
 #mln{
+	position: fixed;
+	z-index: 11;
 	margin: 0;
-	padding: 2px 5px 2px 5px;
+	padding: 3px 5px 3px 5px;
+	right: 5px;
+	top: 5px;
 	cursor: pointer;
 	color: #fff;
 	border-radius: 5px;
@@ -71,12 +75,3 @@ a {
 }
 
 .mlc{cursor: pointer;}
-
-/*スマホサイトでの仕様
-@media (max-width: 767px) {	
-		
-		.comment{width: 40% !important;}
-		
-		#ln{width: auto; !important;}
-}*/
-
