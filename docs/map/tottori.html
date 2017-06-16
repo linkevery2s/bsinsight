@@ -14,6 +14,8 @@
     <script type="text/javascript" src="js/leaflet.js"></script>
     <script type="text/javascript"  src="js/map.js"></script>
     <script type="text/javascript"  src="js/top.js"></script>
+	<link href="icon/L.Icon.Pulse.css" rel="stylesheet">
+	<script type ="text/javascript" src="icon/L.Icon.Pulse.js"></script>
   </head>
 
   <body onLoad="tt_ini()">  
@@ -27,12 +29,9 @@
 		</form>
 		</div>
 
-  	<!--
-		<div class="comment">
-		<div><i class="fa fa-cogs" aria-hidden="true"></i> 操作機能</div>
-		・現在地表示 <span value="現在地取得" onclick="GPS()"><i class="fa fa-bullseye" id ="mln"></i></span><br>
+		<div id ="mln">
+		<span value="現在地取得" onclick="GPS()"><i class="fa fa-bullseye" ></i></span><br>
 		</div>
-		-->
 		<div id="map">
 		</div>
   </body>
