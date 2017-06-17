@@ -32,6 +32,14 @@
 
 	<body onload="ini()">
 
+<div id="loader-bg">
+  <div id="loader">
+    <img src="images/tokei.gif" width="80" height="80" alt="Now Loading..." />
+    <p>Now Loading...</p>
+  </div>
+</div>
+<div id="wrap">
+
 		<!-- Wrapper -->
 			<div id="wrapper">
 
@@ -338,7 +346,7 @@
 								・火砕流、火山灰や噴石<br>
 								火砕流は高温の火山ガス・溶岩片・火山灰などが一団となって、斜面を流れ下る現象のことをいう。<br><br>
 								火山灰は噴火の大きさや風の強さにより、1,000km以上も遠くまで飛ぶことがある。<br><br>
-								また、加工から大きな岩や医師が放出されることがあり、これを噴石といい、あたると人や家屋に大きな被害をもたらすことがある。<br><br>
+								また、火口から大きな岩や医師が放出されることがあり、これを噴石といい、あたると人や家屋に大きな被害をもたらすことがある。<br><br>
 								
 								・溶岩流<br>
 								火口からあふれ出した溶岩流は、約600～1,100℃と高温であり、田畑や家屋などが焼きつくされ、埋まってしまう。<br><br>
@@ -1937,11 +1945,39 @@
 		<!-- BG -->
 			<div id="bg"></div>
 
+
+</div>
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
+<script>
+$(function() {
+  var h = $(window).height();
+ 
+  $('#wrap').css('display','none');
+  $('#loader-bg ,#loader').height(h).css('display','block');
+});
+ 
+$(window).load(function () { //全ての読み込みが完了したら実行
+  $('#loader-bg').delay(900).fadeOut(800);
+  $('#loader').delay(600).fadeOut(300);
+  $('#wrap').css('display', 'block');
+});
+ 
+//10秒たったら強制的にロード画面を非表示
+$(function(){
+  setTimeout('stopload()',10000);
+});
+ 
+function stopload(){
+  $('#wrap').css('display','block');
+  $('#loader-bg').delay(900).fadeOut(800);
+  $('#loader').delay(600).fadeOut(300);
+}
+</script>
 
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
@@ -1955,5 +1991,6 @@
 
     	<script src="assets/js/top.js"></script>
     	<script src="assets/js/dhtml.js"></script>
+
 	</body>
 </html>
