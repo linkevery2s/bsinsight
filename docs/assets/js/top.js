@@ -10,14 +10,14 @@ function mail(){
 
 function tw(){
 	var url = window.location.href;
-	var hash = location.hash;
-	location.href = "https://twitter.com/share?url=" + url + hash;
+	var hash = url.split("#",2)
+	location.href = "https://twitter.com/share?url=" + url + "%23" + hash[1];
 }
 
 function fbt(){
 	var url = window.location.href;
-	var hash = location.hash;
-	location.href = "https://www.facebook.com/sharer/sharer.php?u=" + url + hash;
+	var hash = url.split("#",2)
+	location.href = "https://www.facebook.com/sharer/sharer.php?u=" + url + "%23" + hash[1];
 }
 
 function the1(){
