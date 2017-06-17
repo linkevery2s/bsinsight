@@ -10,13 +10,13 @@ function mail(){
 
 function tw(){
 	var url = window.location.href;
-	var hash = url.split("#",2)
+	var hash = url.split("#",2);
 	location.href = "https://twitter.com/share?url=" + url + "%23" + hash[1];
 }
 
 function fbt(){
 	var url = window.location.href;
-	var hash = url.split("#",2)
+	var hash = url.split("#",2);
 	location.href = "https://www.facebook.com/sharer/sharer.php?u=" + url + "%23" + hash[1];
 }
 
