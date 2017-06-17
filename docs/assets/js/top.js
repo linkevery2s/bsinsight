@@ -5,12 +5,17 @@ function line(){
 
 function mail(){
 	var url = window.location.href;
-	location.href =  "mailto:?body=Appli URL " + url;
+	location.href =  "mailto:?body=" + url;
 }
 
 function tw(){
 	var url = window.location.href;
 	location.href = "https://twitter.com/share?url=" + url;
+}
+
+function fbt(){
+	var url = window.location.href;
+	location.href = "https://www.facebook.com/sharer/sharer.php?u=" + url;
 }
 
 function the1(){
