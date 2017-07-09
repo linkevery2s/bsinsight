@@ -45,7 +45,7 @@ a {
 #ln{width: 100px;display: inline-block;}
 
 /*PCでの仕様*/
-.comment{
+/*.comment{
 	margin: 0;
 	padding-right: 5px;
 	bottom: 0px;
@@ -54,7 +54,9 @@ a {
 	position: fixed;
 	z-index: 11;
 	background-color: #fff;
-}
+}*/
+
+.comment{display:none;}
 
 #mln{
 	position: fixed;
