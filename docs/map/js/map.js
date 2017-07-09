@@ -35,9 +35,7 @@ function ao_ini() {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
    map.setView([40.8232, 140.7541], 9);
-   Geost();
    Geok();
-   Geoo();
 }
 
 function iw_ini() {
