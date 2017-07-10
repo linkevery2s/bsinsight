@@ -44,9 +44,8 @@ function iw_ini() {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
    map.setView([39.4966, 141.3391], 9);
-   Geost();
    Geok();
-   Geoo();}
+}
 
 function ak_ini() {
     map = new L.Map('map');                       
