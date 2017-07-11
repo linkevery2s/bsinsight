@@ -37,7 +37,7 @@ var rainmap = new L.YimgTileLayer('http://weather.map.c.yimg.jp/weather?x={x}&y=
 });
 
 //地図を生成（初期表示の中心座標，ズームレベル，レイヤなどをオプションで設定）
-var map = L.map('map', {center: [35.067, 137.189], zoom: 9 ,layers: [tiri, rainmap]});
+	map = L.map('map', {center: [35.067, 137.189], zoom: 9 ,layers: [tiri, rainmap]});
 
 
     /*map = new L.Map('map');                       
