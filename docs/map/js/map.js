@@ -1,3 +1,46 @@
+function ame_ini() {
+
+var tiri = L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
+		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
+	});
+
+L.YimgTileLayer = L.TileLayer.extend({
+    getTileUrl: function (coords) {
+        var now = new Date();
+        var year = now.getFullYear();
+        var month = now.getMonth() + 1;
+        var day = now.getDate();
+        var hours = now.getHours();
+        var minutes = now.getMinutes();
+
+        if (month < 10) month = '0' + month;
+        if (day < 10) day = '0' + day;
+        if (hours < 10) hours = '0' + hours;
+        minutes *= 0.1;
+        minutes = Math.floor(minutes);
+        minutes *= 10;
+        if (minutes < 10) minutes = '0' + minutes;
+        date = "" + year + month + day + hours + minutes;
+        return L.Util.template(this._url, L.extend({
+            d: date,
+            x: coords.x,
+            y: Math.pow(2, this._getZoomForUrl() - 1) - 1 - coords.y,
+            z: this._getZoomForUrl() + 1
+        }, this.options));
+    }
+});
+
+var rainmap = new L.YimgTileLayer('http://weather.map.c.yimg.jp/weather?x={x}&y={y}&z={z}&size=256&date={d}', {
+    attribution: '雨雲マップ',
+    maxZoom: 18,
+    opacity: 0.3
+});
+
+//地図を生成（初期表示の中心座標，ズームレベル，レイヤなどをオプションで設定）
+	map = L.map('map', {center: [35.067, 137.189], zoom: 5 ,layers: [tiri, rainmap]});
+
+}
+
 function ai_ini() {
 
 var tiri = L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
@@ -31,7 +74,7 @@ L.YimgTileLayer = L.TileLayer.extend({
 });
 
 var rainmap = new L.YimgTileLayer('http://weather.map.c.yimg.jp/weather?x={x}&y={y}&z={z}&size=256&date={d}', {
-    attribution: 'Rain map',
+    attribution: '雨雲マップ',
     maxZoom: 18,
     opacity: 0.3
 });

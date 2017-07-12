@@ -326,3 +326,9 @@ function ty(){
 	else{
 	}
 }
+
+function ame(){
+
+	document.getElementById("h_map").innerHTML = '<iframe src="map/ame.html" width="100%" height="400px" frameborder="yes" scrolling="yes"></iframe>';
+
+}
