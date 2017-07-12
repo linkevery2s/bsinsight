@@ -33,7 +33,7 @@ L.YimgTileLayer = L.TileLayer.extend({
 var rainmap = new L.YimgTileLayer('http://weather.map.c.yimg.jp/weather?x={x}&y={y}&z={z}&size=256&date={d}', {
     attribution: '雨雲マップ',
     maxZoom: 18,
-    opacity: 0.3
+    opacity: 0.5
 });
 
 //地図を生成（初期表示の中心座標，ズームレベル，レイヤなどをオプションで設定）
@@ -76,7 +76,7 @@ L.YimgTileLayer = L.TileLayer.extend({
 var rainmap = new L.YimgTileLayer('http://weather.map.c.yimg.jp/weather?x={x}&y={y}&z={z}&size=256&date={d}', {
     attribution: '雨雲マップ',
     maxZoom: 18,
-    opacity: 0.3
+    opacity: 0.5
 });
 
 //地図を生成（初期表示の中心座標，ズームレベル，レイヤなどをオプションで設定）
