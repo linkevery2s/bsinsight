@@ -29,6 +29,13 @@ window.onload = function(){
 	ymap.addControl(control);
     
     ymap.setConfigure('weatherOverlay', true);
+    
+    //天気データを更新
+    weather.UpdateWeather();
+    //5分間毎に自動更新するように設定
+    weather.setAutoUpdateInterval(5);
+    //自動更新スタート
+    weather.startAutoUpdate();
 }
 
 function GPS(){
