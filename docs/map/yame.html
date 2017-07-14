@@ -8,35 +8,37 @@
 	<link rel="stylesheet" href="../assets/css/font-awesome.css" />
     <title>雨雲マップ</title>
     <script src="js/jquery-1.12.0.min.js"></script>
-    <script type="text/javascript"  src="js/map.js"></script>
     <script type="text/javascript"  src="js/top.js"></script>
 
 <script type="text/javascript" charset="utf-8" src="https://map.yahooapis.jp/js/V1/jsapi?appid=dj0zaiZpPWFGR05lM2M4eUZNbCZzPWNvbnN1bWVyc2VjcmV0Jng9OWQ-"></script>
 <script type="text/javascript">
-var ymap;
-window.onload = function(){
+var map;
 
-    ymap = new Y.Map("map", {
+    function ini() {
+
+    map = new Y.Map("map", {
     configure : {
         doubleClickZoom : true,
-        scrollWheelZoom : true
+        scrollWheelZoom : true,
+        weatherOverlay: true
     }
 	});
+	
+    //天気レイヤ作成
+    var weather = new Y.WeatherMapLayer();
+    
+    //天気レイヤを重ねる地図レイヤを作成(今回のサンプルでは通常地図を設定)
+    var maplayer = new Y.NormalLayer();
+    //地図 + 天気レイヤを追加
+    map.addLayerSet("weather", new Y.LayerSet("地図+天気", [maplayer, weather]));
 
-    ymap.drawMap(new Y.LatLng(35.067, 137.189), 5, Y.LayerSetId.NORMAL);
-    
-    var control = new Y.SliderZoomControlVertical();
-	ymap.addControl(control);
-    
-    ymap.setConfigure('weatherOverlay', true);
-    
+    map.addControl(new Y.SliderZoomControlVertical());
+    //地図を描画
+    map.drawMap(new Y.LatLng(35.665627,139.730738), 6, "weather");
     //天気データを更新
     weather.UpdateWeather();
-    //5分間毎に自動更新するように設定
-    weather.setAutoUpdateInterval(5);
-    //自動更新スタート
-    weather.startAutoUpdate();
-}
+    
+	}
 
 function GPS(){
 
@@ -76,24 +78,31 @@ function gps_error(error) {
 //GPS成功の場合
 function gps_ini(x,y){
 
-		link();
-
         var map_center = new Y.LatLng(x,y);
-	
-    ymap = new Y.Map("map", {
+        
+        //マップオプション設定
+
+    map = new Y.Map("map", {
     configure : {
         doubleClickZoom : true,
-        scrollWheelZoom : true
+        scrollWheelZoom : true,
+        weatherOverlay: true
     }
 	});
-
-    ymap.drawMap(map_center, 10, Y.LayerSetId.NORMAL);
+	
+    //天気レイヤ作成
+    var weather = new Y.WeatherMapLayer();
     
-    var control = new Y.SliderZoomControlVertical();
-	ymap.addControl(control);
-    
-    ymap.setConfigure('weatherOverlay', true);
+    //天気レイヤを重ねる地図レイヤを作成(今回のサンプルでは通常地図を設定)
+    var maplayer = new Y.NormalLayer();
+    //地図 + 天気レイヤを追加
+    map.addLayerSet("weather", new Y.LayerSet("地図+天気", [maplayer, weather]));
 
+    map.addControl(new Y.SliderZoomControlVertical());
+    //地図を描画
+    map.drawMap(map_center, 18, "weather");
+    //天気データを更新
+    weather.UpdateWeather();
 
 }
 
@@ -101,7 +110,7 @@ function gps_ini(x,y){
 
   </head>
 
-  <body>  
+  <body onload="ini()">  
 
 		<div id ="mln">
 		<span value="現在地取得" onclick="GPS()"><i class="fa fa-bullseye" ></i></span><br>
