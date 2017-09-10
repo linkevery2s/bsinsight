@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" >
+	<link rel="stylesheet" href="css/map.css" />
+	<link rel="stylesheet" href="css/leaflet.css" />
+	<link rel="stylesheet" href="../assets/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="../assets/css/font-awesome.css" />
+    <title>雨雲マップ</title>
+    <script src="js/jquery-1.12.0.min.js"></script>
+    <script type="text/javascript"  src="js/top.js"></script>
+
+<script type="text/javascript" charset="utf-8" src="https://map.yahooapis.jp/js/V1/jsapi?appid=dj0zaiZpPWFGR05lM2M4eUZNbCZzPWNvbnN1bWVyc2VjcmV0Jng9OWQ-"></script>
+<script type="text/javascript">
+var map;
+
+    function ini() {
+
+    map = new Y.Map("map", {
+    configure : {
+        doubleClickZoom : true,
+        scrollWheelZoom : true,
+        weatherOverlay: true
+    }
+	});
+	
+    //天気レイヤ作成
+    var weather = new Y.WeatherMapLayer();
+    
+    //天気レイヤを重ねる地図レイヤを作成(今回のサンプルでは通常地図を設定)
+    var maplayer = new Y.NormalLayer();
+    //地図 + 天気レイヤを追加
+    map.addLayerSet("weather", new Y.LayerSet("地図+天気", [maplayer, weather]));
+
+    map.addControl(new Y.SliderZoomControlVertical());
+    //地図を描画
+    map.drawMap(new Y.LatLng(35.665627,139.730738), 6, "weather");
+    //天気データを更新
+    weather.UpdateWeather();
+    
+	}
+
+function GPS(){
+
+	if (navigator.geolocation) {
+
+	   //geolocationの利用
+       navigator.geolocation.getCurrentPosition(gps_get,gps_error);
+       
+     } else {
+   
+       alert("エラーが発生したので、現在地を取得できませんでした。");
+
+      
+     }
+   
+}
+ 
+function gps_get(position) {
+
+    //成功したら…
+    var ido = position.coords.latitude;
+    var keido = position.coords.longitude;
+    
+    //位置情報取得後、Google Map表示
+    gps_ini(ido,keido);
+    
+}
+
+function gps_error(error) {
+
+   		//失敗したら…
+       alert("エラーが発生したので、現在地を取得できませんでした。");
+
+
+}
+
+//GPS成功の場合
+function gps_ini(x,y){
+
+        var map_center = new Y.LatLng(x,y);
+        
+        //マップオプション設定
+
+    map = new Y.Map("map", {
+    configure : {
+        doubleClickZoom : true,
+        scrollWheelZoom : true,
+        weatherOverlay: true
+    }
+	});
+	
+    //天気レイヤ作成
+    var weather = new Y.WeatherMapLayer();
+    
+    //天気レイヤを重ねる地図レイヤを作成(今回のサンプルでは通常地図を設定)
+    var maplayer = new Y.NormalLayer();
+    //地図 + 天気レイヤを追加
+    map.addLayerSet("weather", new Y.LayerSet("地図+天気", [maplayer, weather]));
+
+    map.addControl(new Y.SliderZoomControlVertical());
+    //地図を描画
+    map.drawMap(map_center, 18, "weather");
+    //天気データを更新
+    weather.UpdateWeather();
+
+}
+
+</script>
+
+  </head>
+
+  <body onload="ini()">  
+
+		<div id ="mln">
+		<span value="現在地取得" onclick="GPS()"><i class="fa fa-bullseye" ></i></span><br>
+		</div>
+		
+		<div id="map">
+		</div>
+  </body>
+</html>
