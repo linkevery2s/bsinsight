@@ -25,9 +25,11 @@ var map;
 	});
 	
     //天気レイヤ作成
-    var weather = new Y.WeatherMapLayer();
+    var weather = new Y.WeatherMapLayer({
+        "opacity": 0.6,
+    });
     
-    //天気レイヤを重ねる地図レイヤを作成(今回のサンプルでは通常地図を設定)
+    //天気レイヤを重ねる地図レイヤを作成
     var maplayer = new Y.NormalLayer();
     //地図 + 天気レイヤを追加
     map.addLayerSet("weather", new Y.LayerSet("地図+天気", [maplayer, weather]));
@@ -91,7 +93,9 @@ function gps_ini(x,y){
 	});
 	
     //天気レイヤ作成
-    var weather = new Y.WeatherMapLayer();
+    var weather = new Y.WeatherMapLayer({
+        "opacity": 0.6,
+    });
     
     //天気レイヤを重ねる地図レイヤを作成(今回のサンプルでは通常地図を設定)
     var maplayer = new Y.NormalLayer();
@@ -100,7 +104,7 @@ function gps_ini(x,y){
 
     map.addControl(new Y.SliderZoomControlVertical());
     //地図を描画
-    map.drawMap(map_center, 18, "weather");
+    map.drawMap(map_center, 10, "weather");
     //天気データを更新
     weather.UpdateWeather();
 
