@@ -21,6 +21,7 @@
 	<meta name="keywords" content="防災INSIGHT、防災、災害対策">
 	<link rel="stylesheet" href="assets/css/font-awesome.min.css" />
 	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="assets/css/maplist.css" />
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
     <link rel="shortcut icon" href="images/apple-touch-icon.png">
 
@@ -1625,61 +1626,104 @@
 									ご自身の地域の避難所・避難場所について、調べてみましょう！<br><br>
 								<hr>
 
-										<div class="field">
-											<div class="select-wrapper">
-												<select name="to-category" id="to-category" onChange= "h_map()">
-															<option>都道府県選択</option>
-															<option value="hokkaido">北海道</option>
-															<option value="aomori">青森県</option>
-															<option value="akita">秋田県</option>
-															<option value="iwate">岩手県</option>
-															<option value="yamagata">山形県</option>
-															<option value="miyagi">宮城県</option>
-															<option value="fukushima">福島県</option>
-															<option value="nigata">新潟県</option>
-															<option value="tiba">千葉県</option>
-															<option value="tochigi">栃木県</option>
-															<option value="gunma">群馬県</option>
-															<option value="saitama">埼玉県</option>
-															<option value="ibaragi">茨城県</option>
-															v<option value="tokyo">東京都</option>
-															<option value="kanagawa">神奈川県</option>
-															<option value="yamanashi">山梨県</option>
-															<option value="nagano">長野県</option>
-															<option value="shizuoka">静岡県</option>
-															<option value="toyama">富山県</option>
-															<option value="ishikawa">石川県</option>
-															<option value="gifu">岐阜県</option>
-															<option value="aichi">愛知県</option>
-															<option value="mie">三重県</option>
-															<option value="fukui">福井県</option>
-															<option value="shiga">滋賀県</option>
-															<option value="kyoto">京都府</option>
-															<option value="nara">奈良県</option>
-															<option value="osaka">大阪府</option>
-															<option value="wakayama">和歌山県</option>
-															<option value="hyogo">兵庫県</option>
-															<option value="tottori">鳥取県</option>
-															<option value="okayama">岡山県</option>
-															<option value="shimane">島根県</option>
-															<option value="hiroshima">広島県</option>
-															<option value="yamaguchi">山口県</option>
-															<option value="kagawa">香川県</option>
-															<option value="tokushima">徳島県</option>
-															<option value="ehime">愛媛県</option>
-															<option value="kochi">高知県</option>
-															<option value="fukuoka">福岡県</option>
-															<option value="saga">佐賀県</option>
-															<option value="nagasaki">長崎県</option>
-															<option value="oita">大分県</option>
-															<option value="kumamoto">熊本県</option>
-															<option value="miyazaki">宮埼県</option>
-															<option value="kagoshima">鹿児島県</option>
-															<option value="okinawa">沖縄県</option>
-												</select>
-											</div>
-										</div><br>
-										
+<ul class="jp_map">
+      <li>
+        <a href="javascript:void(0);" onclick="hok(); return false;">北海道</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="ao(); return false;">青森県</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="iw(); return false;">岩手県</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="my(); return false;">宮城県</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="ak(); return false;">秋田県</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="yg(); return false;">山形県</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="fs(); return false;">福島県</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="ib(); return false;">茨城県</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="to(); return false;">栃木県</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="gu(); return false;">群馬県</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="si(); return false;">埼玉県</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="tb(); return false;">千葉県</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="tk(); return false;">東京都</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="kg(); return false;">神奈川県</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="ni(); return false;">新潟県</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="ty(); return false;">富山県</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="is(); return false;">石川県</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="fukui(); return false;">福井県</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="yam(); return false;">山梨県</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="ng(); return false;">長野県</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="gif(); return false;">岐阜県</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="sz(); return false;">静岡県</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="aic(); return false;">愛知県</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="mie(); return false;">三重県</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="siga(); return false;">滋賀県</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="kyot(); return false;">京都府</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="os(); return false;">大阪府</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="hg(); return false;">兵庫県</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="nr(); return false;">奈良県</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="waky(); return false;">和歌山県</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="tt(); return false;">鳥取県</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="smn(); return false;">島根県</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="oky(); return false;">岡山県</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="hiro(); return false;">広島県</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="yag(); return false;">山口県</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="tok(); return false;">徳島県</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="kagawa(); return false;">香川県</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="ehi(); return false;">愛媛県</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="kochi(); return false;">高知県</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="fukuoka(); return false;">福岡県</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="saga(); return false;">佐賀県</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="nags(); return false;">長崎県</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="kuma(); return false;">熊本県</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="oita(); return false;">大分県</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="miyz(); return false;">宮崎県</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="kagos(); return false;">鹿児島県</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="okina(); return false;">沖縄県</a></li>
+    </ul>
+
+										<br>
 								<div id = "h_map"></div>
 
 <hr />
@@ -2061,7 +2105,7 @@ function stopload(){
 
     	<script src="assets/js/top.js"></script>
     	<script src="assets/js/dhtml.js"></script>
-
+		<script src="assets/js/maplist.js"></script>
 
 	</body>
 </html>
