@@ -591,7 +591,7 @@ function geo_st(feature, layer) {
     
 	//popup += '<br><br><div id = "rt"></div>';
 
-	popup += '<iframe width="100%" height="350" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/directions?key=AIzaSyDjVsh3kIgbxo0GpbLSq9v0VNnw6q611Mk&origin=35.35581,136.77187&destination=' + feature.properties.la + "," + feature.properties.ln + '&maptype=roadmap" allowfullscreen></iframe>';
+	popup += '<span id="routeif" style="display:none"><iframe width="100%" height="350" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/directions?key=AIzaSyDjVsh3kIgbxo0GpbLSq9v0VNnw6q611Mk&origin=35.35581,136.77187&destination=' + feature.properties.la + "," + feature.properties.ln + '&maptype=roadmap" allowfullscreen></iframe></span>';
 
     layer.bindPopup(popup);
 
@@ -600,9 +600,11 @@ function geo_st(feature, layer) {
 
 function route(){
 
+$("#routeif").show();
+
 //document.getElementById("rt").innerHTML = '<iframe width="100%" height="350" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/directions?key=AIzaSyDjVsh3kIgbxo0GpbLSq9v0VNnw6q611Mk&origin=35.35581,136.77187&destination=' + feature.properties.la + "," + feature.properties.ln + '&maptype=roadmap" allowfullscreen></iframe>';
 
-document.getElementById("rt").innerHTML = '<iframe width="100%" height="350" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/directions?key=AIzaSyDjVsh3kIgbxo0GpbLSq9v0VNnw6q611Mk&origin=35.35581,136.77187&destination=35.25581,136.77187&maptype=roadmap" allowfullscreen></iframe>';
+//document.getElementById("rt").innerHTML = '<iframe width="100%" height="350" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/directions?key=AIzaSyDjVsh3kIgbxo0GpbLSq9v0VNnw6q611Mk&origin=35.35581,136.77187&destination=35.25581,136.77187&maptype=roadmap" allowfullscreen></iframe>';
 
 }
 
@@ -651,7 +653,7 @@ function geo_k(feature, layer) {
 
 	//popup += '<br><br><div id = "rt"></div>';
 
-	popup += '<iframe width="100%" height="350" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/directions?key=AIzaSyDjVsh3kIgbxo0GpbLSq9v0VNnw6q611Mk&origin=35.35581,136.77187&destination=' + feature.properties.la + "," + feature.properties.ln + '&maptype=roadmap" allowfullscreen></iframe>';
+	popup += '<span id="routeif" style="display:none"><iframe width="100%" height="350" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/directions?key=AIzaSyDjVsh3kIgbxo0GpbLSq9v0VNnw6q611Mk&origin=35.35581,136.77187&destination=' + feature.properties.la + "," + feature.properties.ln + '&maptype=roadmap" allowfullscreen></iframe></span>';
 
     layer.bindPopup(popup);
 }
@@ -700,7 +702,7 @@ function geo_o(feature, layer) {
 
 	//popup += '<br><br><div id = "rt"></div>';
 
-	popup += '<iframe width="100%" height="350" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/directions?key=AIzaSyDjVsh3kIgbxo0GpbLSq9v0VNnw6q611Mk&origin=35.35581,136.77187&destination=' + feature.properties.la + "," + feature.properties.ln + '&maptype=roadmap" allowfullscreen></iframe>';
+	popup += '<span id="routeif" style="display:none"><iframe width="100%" height="350" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/directions?key=AIzaSyDjVsh3kIgbxo0GpbLSq9v0VNnw6q611Mk&origin=35.35581,136.77187&destination=' + feature.properties.la + "," + feature.properties.ln + '&maptype=roadmap" allowfullscreen></iframe></span>';
 
     layer.bindPopup(popup);
 }
