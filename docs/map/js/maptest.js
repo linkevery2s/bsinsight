@@ -543,7 +543,10 @@ function o_checked(){
 	}
 }
 
+var ido, keido;
+
 function Geost(){
+
 		geost = L.geoJson(st, {
 
 			style: function (feature) {
@@ -568,10 +571,10 @@ function Geost(){
 
 }
 
-var rtla;
-
 function geo_st(feature, layer) {
-    var popup;
+
+	var popup;
+	
     if (feature.properties && feature.properties.Name) {
         popup = "名称：" + feature.properties.Name;
     }
@@ -583,28 +586,8 @@ function geo_st(feature, layer) {
     if (feature.properties && feature.properties.Capacity){
     	popup += '<br>収容人数：' + feature.properties.Capacity;
     }
-    
-	//popup += '<br><a href="https://maps.google.co.jp/maps?ll=' + feature.properties.la + "," + feature.properties.ln + "&q=" + feature.properties.la + "," + feature.properties.ln + '" target="_blank">Google マップで見る</a>'
-	//popup += '<br><a href="https://maps.google.co.jp/maps?daddr=' + feature.properties.la + "," + feature.properties.ln + '" target="_blank">Google マップでルート検索</a>';
-
-	popup += '<br><a href="javascript:void(0);" onclick="route(); return false;">ルート検索</a>';
-    
-	//popup += '<br><br><div id = "rt"></div>';
-
-	popup += '<span id="routeif" style="display:none"><iframe width="100%" height="350" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/directions?key=AIzaSyDjVsh3kIgbxo0GpbLSq9v0VNnw6q611Mk&origin=35.35581,136.77187&destination=' + feature.properties.la + "," + feature.properties.ln + '&maptype=roadmap" allowfullscreen></iframe></span>';
 
     layer.bindPopup(popup);
-
-
-}
-
-function route(){
-
-$("#routeif").show();
-
-//document.getElementById("rt").innerHTML = '<iframe width="100%" height="350" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/directions?key=AIzaSyDjVsh3kIgbxo0GpbLSq9v0VNnw6q611Mk&origin=35.35581,136.77187&destination=' + feature.properties.la + "," + feature.properties.ln + '&maptype=roadmap" allowfullscreen></iframe>';
-
-//document.getElementById("rt").innerHTML = '<iframe width="100%" height="350" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/directions?key=AIzaSyDjVsh3kIgbxo0GpbLSq9v0VNnw6q611Mk&origin=35.35581,136.77187&destination=35.25581,136.77187&maptype=roadmap" allowfullscreen></iframe>';
 
 }
 
@@ -646,14 +629,6 @@ function geo_k(feature, layer) {
     if (feature.properties && feature.properties.Capacity){
     	popup += '<br>収容人数：' + feature.properties.Capacity;
     }
-    
-	//popup += '<br><a href="https://maps.google.co.jp/maps?daddr=' + feature.properties.la + "," + feature.properties.ln + '" target="_blank">Google マップでルート検索</a>'
-    
-	popup += '<br><a href="javascript:void(0);" onclick="route(); return false;">ルート検索</a>';
-
-	//popup += '<br><br><div id = "rt"></div>';
-
-	popup += '<span id="routeif" style="display:none"><iframe width="100%" height="350" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/directions?key=AIzaSyDjVsh3kIgbxo0GpbLSq9v0VNnw6q611Mk&origin=35.35581,136.77187&destination=' + feature.properties.la + "," + feature.properties.ln + '&maptype=roadmap" allowfullscreen></iframe></span>';
 
     layer.bindPopup(popup);
 }
@@ -683,6 +658,7 @@ function Geoo(){
 }
 
 function geo_o(feature, layer) {
+	
     var popup;
     if (feature.properties && feature.properties.Name) {
         popup = "名称：" + feature.properties.Name;
@@ -695,35 +671,221 @@ function geo_o(feature, layer) {
     if (feature.properties && feature.properties.Capacity){
     	popup += '<br>収容人数：' + feature.properties.Capacity;
     }
-    
-	//popup += '<br><a href="https://maps.google.co.jp/maps?daddr=' + feature.properties.la + "," + feature.properties.ln + '" target="_blank">Google マップでルート検索</a>'
-
-	popup += '<br><a href="javascript:void(0);" onclick="route(); return false;">ルート検索</a>';
-
-	//popup += '<br><br><div id = "rt"></div>';
-
-	popup += '<span id="routeif" style="display:none"><iframe width="100%" height="350" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/directions?key=AIzaSyDjVsh3kIgbxo0GpbLSq9v0VNnw6q611Mk&origin=35.35581,136.77187&destination=' + feature.properties.la + "," + feature.properties.ln + '&maptype=roadmap" allowfullscreen></iframe></span>';
 
     layer.bindPopup(popup);
 }
 
 function GPS(){
+
+if( navigator.geolocation )
+{
+	// 現在地を取得
+	navigator.geolocation.getCurrentPosition(
+
+		function( position )
+		{
+			// 緯度、経度取得
+			var data = position.coords ;
+			var ido = data.latitude ;
+			var keido = data.longitude ;
+
+			//中心位置マーカー
+    		map.setView([ido, keido], 15);
+			var pulsingIcon = L.icon.pulse({iconSize:[12,12],color:'blue'});
+			var marker = L.marker([ido, keido] ,{icon: pulsingIcon}).addTo(map);
+
+				geost = L.geoJson(st, {
+
+					style: function (feature) {
+						return feature.properties && feature.properties.style;
+					},
+
+					onEachFeature: function geo_st(feature, layer) {
+
+					var popup;
+	
+    				if (feature.properties && feature.properties.Name) {
+        				popup = "名称：" + feature.properties.Name;
+    				}
+    
+    				if (feature.properties && feature.properties.Jusho){
+    					popup += '<br>住所：' + feature.properties.Jusho;
+    				}
+    
+    				if (feature.properties && feature.properties.Capacity){
+    					popup += '<br>収容人数：' + feature.properties.Capacity;
+    				}
+
+						popup += '<span id ="rt_car"><iframe width="100%" height="350" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/directions?key=AIzaSyDjVsh3kIgbxo0GpbLSq9v0VNnw6q611Mk&origin=' + ido + "," + keido + '&destination=' + feature.properties.la + ',' + feature.properties.ln + '&maptype=roadmap" allowfullscreen></iframe></span>';
+
+    					layer.bindPopup(popup);
+
+					},
+
+			pointToLayer: function (feature, latlng) {
+				return L.circleMarker(latlng, {
+					radius: 10,
+					fillColor: "#2EFE2E",
+					color: "#000",
+					weight: 1,
+					opacity: 1,
+					fillOpacity: 0.8
+				});
+			}
+		});
+		
+		map.addLayer(geost);
+
+		geok = L.geoJson(k, {
+
+			style: function (feature) {
+				return feature.properties && feature.properties.style;
+			},
+
+			onEachFeature: function geo_k(feature, layer) {
+
+					var popup;
+	
+    				if (feature.properties && feature.properties.Name) {
+        				popup = "名称：" + feature.properties.Name;
+    				}
+    
+    				if (feature.properties && feature.properties.Jusho){
+    					popup += '<br>住所：' + feature.properties.Jusho;
+    				}
+    
+    				if (feature.properties && feature.properties.Capacity){
+    					popup += '<br>収容人数：' + feature.properties.Capacity;
+    				}
+
+						popup += '<span id ="rt_car"><iframe width="100%" height="350" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/directions?key=AIzaSyDjVsh3kIgbxo0GpbLSq9v0VNnw6q611Mk&origin=' + ido + "," + keido + '&destination=' + feature.properties.la + ',' + feature.properties.ln + '&maptype=roadmap" allowfullscreen></iframe></span>';
+
+    					layer.bindPopup(popup);
+
+					},
+
+			pointToLayer: function (feature, latlng) {
+				return L.circleMarker(latlng, {
+					radius: 10,
+					fillColor: "#2EFE2E",
+					color: "#000",
+					weight: 1,
+					opacity: 1,
+					fillOpacity: 0.8
+				});
+			}
+		});
+		
+		map.addLayer(geok);
+
+		geoo = L.geoJson(o, {
+
+			style: function (feature) {
+				return feature.properties && feature.properties.style;
+			},
+
+			onEachFeature: function geo_o(feature, layer) {
+
+					var popup;
+	
+    				if (feature.properties && feature.properties.Name) {
+        				popup = "名称：" + feature.properties.Name;
+    				}
+    
+    				if (feature.properties && feature.properties.Jusho){
+    					popup += '<br>住所：' + feature.properties.Jusho;
+    				}
+    
+    				if (feature.properties && feature.properties.Capacity){
+    					popup += '<br>収容人数：' + feature.properties.Capacity;
+    				}
+
+						popup += '<span id ="rt_car"><iframe width="100%" height="350" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/directions?key=AIzaSyDjVsh3kIgbxo0GpbLSq9v0VNnw6q611Mk&origin=' + ido + "," + keido + '&destination=' + feature.properties.la + ',' + feature.properties.ln + '&maptype=roadmap" allowfullscreen></iframe></span>';
+
+    					layer.bindPopup(popup);
+
+					},
+
+			pointToLayer: function (feature, latlng) {
+				return L.circleMarker(latlng, {
+					radius: 10,
+					fillColor: "#2EFE2E",
+					color: "#000",
+					weight: 1,
+					opacity: 1,
+					fillOpacity: 0.8
+				});
+			}
+		});
+		
+		map.addLayer(geoo);
+
+
+		},
+
+		// [第2引数] 取得に失敗した場合の関数
+		function( error )
+		{
+			// エラー番号に対応したメッセージ
+			var errorInfo = [
+				"原因不明のエラーが発生しました…。" ,
+				"位置情報の取得が許可されませんでした…。" ,
+				"電波状況などで位置情報が取得できませんでした…。" ,
+				"位置情報の取得に時間がかかり過ぎてタイムアウトしました…。"
+			] ;
+
+			// エラー番号
+			var errorNo = error.code ;
+
+			// エラーメッセージ
+			var errorMessage = "[エラー番号: " + errorNo + "]\n" + errorInfo[ errorNo ] ;
+
+			// アラート表示
+			alert( errorMessage ) ;
+
+		} 
+
+	) ;
+}
+
+// 対応していない場合
+else
+{
+	// エラーメッセージ
+	var errorMessage = "お使いの端末は、GeoLacation APIに対応していません。" ;
+
+	// アラート表示
+	alert( errorMessage ) ;
+
+	// HTMLに書き出し
+	document.getElementById( 'result' ).innerHTML = errorMessage ;
+}
+
+
+
+
+}
+ 
+
+ 
+
+
+function GPS2(){
 	if (navigator.geolocation) {
-       navigator.geolocation.getCurrentPosition(gps_get,gps_error);
+       navigator.geolocation.getCurrentPosition(gps_get2,gps_error2);
      } else {
-       alert("エラーが発生したので、現在地を取得できませんでした。");      
+       alert("エラーが発生したので、現在地を取得できませんでした。");
      }
 }
  
-function gps_get(position) {
-    var ido = position.coords.latitude;
-    var keido = position.coords.longitude;
-    map.setView([ido, keido], 15);
-		var pulsingIcon = L.icon.pulse({iconSize:[12,12],color:'blue'});
-		var marker = L.marker([ido, keido] ,{icon: pulsingIcon}).addTo(map);
+function gps_get2(position) {
+
+    ido = position.coords.latitude;
+    keido = position.coords.longitude;
+
 
 }
 
-function gps_error(error) {
+function gps_error2(error) {
        alert("エラーが発生したので、現在地を取得できませんでした。");
 }
