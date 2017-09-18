@@ -87,7 +87,7 @@ function sz(){
 }
 
 function aic(){
-	document.getElementById("h_map").innerHTML = '<iframe src="map/aichi_test.html" width="100%" height="500px" frameborder="yes" scrolling="yes"></iframe>';
+	document.getElementById("h_map").innerHTML = '<iframe src="map/aichi.html" width="100%" height="500px" frameborder="yes" scrolling="yes"></iframe>';
 }
 
 function mie(){
