@@ -826,7 +826,7 @@ if( navigator.geolocation )
 		// [第2引数] 取得に失敗した場合の関数
 		function( error )
 		{
-			// エラー番号に対応したメッセージ
+			// メッセージ
 			var errorInfo = [
 				"原因不明のエラーが発生しました…。" ,
 				"位置情報の取得が許可されませんでした…。" ,
@@ -834,13 +834,10 @@ if( navigator.geolocation )
 				"位置情報の取得に時間がかかり過ぎてタイムアウトしました…。"
 			] ;
 
-			// エラー番号
 			var errorNo = error.code ;
 
-			// エラーメッセージ
 			var errorMessage = "[エラー番号: " + errorNo + "]\n" + errorInfo[ errorNo ] ;
 
-			// アラート表示
 			alert( errorMessage ) ;
 
 		} 
@@ -848,44 +845,12 @@ if( navigator.geolocation )
 	) ;
 }
 
-// 対応していない場合
 else
 {
 	// エラーメッセージ
 	var errorMessage = "お使いの端末は、GeoLacation APIに対応していません。" ;
-
-	// アラート表示
 	alert( errorMessage ) ;
 
-	// HTMLに書き出し
-	document.getElementById( 'result' ).innerHTML = errorMessage ;
 }
 
-
-
-
-}
- 
-
- 
-
-
-function GPS2(){
-	if (navigator.geolocation) {
-       navigator.geolocation.getCurrentPosition(gps_get2,gps_error2);
-     } else {
-       alert("エラーが発生したので、現在地を取得できませんでした。");
-     }
-}
- 
-function gps_get2(position) {
-
-    ido = position.coords.latitude;
-    keido = position.coords.longitude;
-
-
-}
-
-function gps_error2(error) {
-       alert("エラーが発生したので、現在地を取得できませんでした。");
 }
