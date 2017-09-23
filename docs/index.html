@@ -21,6 +21,7 @@
 	<meta name="keywords" content="防災INSIGHT、防災、災害対策">
 	<link rel="stylesheet" href="assets/css/font-awesome.min.css" />
 	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="assets/css/maplist.css" />
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
     <link rel="shortcut icon" href="images/apple-touch-icon.png">
 
@@ -67,7 +68,7 @@
 								<li><a href="#refuge">Refuge</a></li>
 								<li><a href="#tokei">Statis</a></li>
 								<li><a href="#guide">Guide</a></li>
-								<li><a href="#bibliography">Biblio</a></li>
+								<li><a href="#profile">Profile</a></li>
 							</ul>
 						</nav>
 
@@ -119,7 +120,7 @@
 								<p>災害にはどのようなものがあるでしょうか？<br>
 								災害について "知る" ことが "守る" ことに繋がります。</p>
 								
-										<div class="field">
+										<!--<div class="field">
 											<label for="demo-category">Category</label>
 											<div class="select-wrapper">
 												<select name="type-category" id="type-category" onChange= "ty()">
@@ -130,7 +131,16 @@
 													<option value="4">自然災害</option>
 												</select>
 											</div>
-										</div><br>
+										</div>-->
+								
+								<ul class="actions">
+										<li><a href="javascript:void(0);" class="button" onclick="eq();">地　　震</a></li>
+										<li><a href="javascript:void(0);" class="button" onclick="tn();">津　　波</a></li>
+										<li><a href="javascript:void(0);" class="button" onclick="th();">風 水 害</a></li>
+										<li><a href="javascript:void(0);" class="button" onclick="ds();">自然災害</a></li>
+								</ul>
+								
+								<br>
 								
 								<div id="eq">
 								<h2>地　震</h2>
@@ -1642,7 +1652,7 @@
 															<option value="gunma">群馬県</option>
 															<option value="saitama">埼玉県</option>
 															<option value="ibaragi">茨城県</option>
-															v<option value="tokyo">東京都</option>
+															<option value="tokyo">東京都</option>
 															<option value="kanagawa">神奈川県</option>
 															<option value="yamanashi">山梨県</option>
 															<option value="nagano">長野県</option>
@@ -1679,16 +1689,115 @@
 												</select>
 											</div>
 										</div><br>
-										
-								<div id = "h_map"></div>
 
+<ul class="jp_map">
+      <li>
+        <a href="javascript:void(0);" onclick="hok(); return false;">北海道</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="ao(); return false;">青森</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="iw(); return false;">岩手</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="my(); return false;">宮城</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="ak(); return false;">秋田</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="yg(); return false;">山形</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="fs(); return false;">福島</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="ib(); return false;">茨城</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="to(); return false;">栃木</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="gu(); return false;">群馬</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="si(); return false;">埼玉</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="tb(); return false;">千葉</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="tk(); return false;">東京</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="kg(); return false;">神奈川</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="ni(); return false;">新潟</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="toyama(); return false;">富山</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="is(); return false;">石川</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="fukui(); return false;">福井</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="yam(); return false;">山梨</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="ng(); return false;">長野</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="gif(); return false;">岐阜</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="sz(); return false;">静岡</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="aic(); return false;">愛知</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="mie(); return false;">三重</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="siga(); return false;">滋賀</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="kyot(); return false;">京都</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="os(); return false;">大阪</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="hg(); return false;">兵庫</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="nr(); return false;">奈良</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="waky(); return false;">和歌山</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="tt(); return false;">鳥取</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="smn(); return false;">島根</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="oky(); return false;">岡山</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="hiro(); return false;">広島</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="yag(); return false;">山口</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="tok(); return false;">徳島</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="kagawa(); return false;">香川</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="ehi(); return false;">愛媛</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="kochi(); return false;">高知</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="fukuoka(); return false;">福岡</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="saga(); return false;">佐賀</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="nags(); return false;">長崎</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="kuma(); return false;">熊本</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="oita(); return false;">大分</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="miyz(); return false;">宮崎</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="kagos(); return false;">鹿児島</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="okina(); return false;">沖縄</a></li>
+    </ul>
+
+										<br>
+								<div id = "h_map"></div>
+								<!--<br>※◎マークを押して、GPSによる現在地を表示するとルート検索が可能となります。-->
 <hr />
 
 <h3><i class="fa fa-cube" aria-hidden="true"></i>雨雲レーダー</h3>
 避難する時に、大気の状態を把握することも大切です。<br><br>
 最近ではゲリラ豪雨と呼ばれる局所的に降る大雨の現象もよく見られます。<br><br>
 「雨雲レーダー」では、大気の状態を調べることができます。<br><br>
-<iframe src="map/ame.html" width="100%" height="400px" frameborder="yes" scrolling="yes"></iframe>
+<iframe src="map/yame.html" width = "100%" height="500px" frameborder="yes" scrolling="yes"></iframe>
+
 
 <!-- Begin Yahoo! JAPAN Web Services Attribution Snippet -->
 <span id="y_li">
@@ -1880,7 +1989,28 @@
 
 							</article>
 
-							<article id="bibliography">
+							<article id="profile">
+
+			<h2 class="major">開発者プロフィール</h2>
+			<span class="image main"><img src="images/me.jpg" width="100%"></span>
+			<i class="fa fa-flag-o" aria-hidden="true"></i> 斎藤　仁志<br><br>
+			<i class="fa fa-flag-o" aria-hidden="true"></i> 名古屋大学理学部物理学科卒業<br><br>
+			<i class="fa fa-flag-o" aria-hidden="true"></i> 愛知県在住<br><br>
+			ＩＴを用いて皆の暮らしのお役に立ちたい！自分に出来ることは何か…毎日奮闘中！<br><br>
+
+								<ul class="icons">
+									<li><a href="https://twitter.com/hitoshi2s" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="https://www.facebook.com/hitoshi.saito.900" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+									<li><a href="https://www.instagram.com/hitoshi2s/?hl=ja" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="http://ameblo.jp/hitoshi51l/" class="icon fa-globe"><span class="label">Blog</span></a></li>
+								</ul>
+
+							<ul class="actions">
+								<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSf-WMoBJRTdA1bmN_SmQ-bsNGeLs1l737d3c9BUNuErjH-KBw/viewform?usp=sf_link" target="_blank" class="button">お問い合わせ</a></li>
+							</ul>	
+
+							<hr>
+
 							<h2 class="major">参考文献</h2>
 							<span class="image main"><img src="images/biblio.jpg" alt="" /></span>
 		
@@ -1965,35 +2095,29 @@
 2017年6月17日　利用規約制定
 							</article>
 
-		<article id="hitoshi">
-			<h2 class="major">開発者プロフィール</h2>
-			<i class="fa fa-flag-o" aria-hidden="true"></i> 斎藤　仁志<br><br>
-			<i class="fa fa-flag-o" aria-hidden="true"></i> 名古屋大学理学部物理学科卒業<br><br>
-			ＩＴを用いて皆の暮らしのお役に立ちたい！自分に出来ることは何か…毎日奮闘中！<br><br>
-
-								<ul class="icons">
-									<li><a href="https://twitter.com/hitoshi2s" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="https://www.facebook.com/hitoshi.saito.900" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-									<li><a href="https://www.instagram.com/hitoshi2s/?hl=ja" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="http://ameblo.jp/hitoshi51l/" class="icon fa-globe"><span class="label">Blog</span></a></li>
-								</ul>
-
-		</article>
-
 	<article id="manual">
 <h2 class="major">使い方</h2>
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/EuygWqEgvHGPui" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px;" allowfullscreen=""> </iframe>
 
 	</article>
+
+	<article id="rss">
+<h2 class="major">更新情報</h2>
+2017.07.23 都道府県マップ搭載<br><br>
+2017.07.17 雨雲レーダー搭載<br><br>
+2017.06.17 アプリ公開
+
+	</article>
+
 					</div>
 							
 				<!-- Footer -->
 					<footer id="footer">
-		更新情報<br>
+		<span id="rss_li">更新情報 <a href= "#rss"><i class="fa fa-rss-square" aria-hidden="true" style="color:#FF4000;"></i></a></span><br>
 		<iframe src="update.html" width="60%" height="50px" frameborder="yes" scrolling="yes"></iframe>
 		<br>
 
-		<p class="copyright"><i class="fa fa-copyright" aria-hidden="true"></i> <a href="#hitoshi">仁志</a>. Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a>. <a href="#manual">使い方</a> <a href="#rule">利用規約</a></p>
+		<p class="copyright"><i class="fa fa-copyright" aria-hidden="true"></i> 仁志. Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a>. <a href="#manual">使い方</a> <a href="#rule">利用規約</a></p>
 					</footer>
 
 	</div>
@@ -2047,6 +2171,7 @@ function stopload(){
 
     	<script src="assets/js/top.js"></script>
     	<script src="assets/js/dhtml.js"></script>
+		<script src="assets/js/maplist.js"></script>
 
 	</body>
 </html>
