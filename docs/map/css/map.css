@@ -63,6 +63,24 @@ a {
 	z-index: 11;
 	margin: 0;
 	padding: 3px 5px 3px 5px;
+	left: 10px;
+	bottom: 10px;
+	cursor: pointer;
+	color: #fff;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	background: -moz-linear-gradient(#0000cd, #000080);
+	background: -webkit-linear-gradient(#0000cd, #000080);
+	background: linear-gradient(#0000cd, #000080);
+}
+
+#mln2{
+	position: fixed;
+	z-index: 11;
+	margin: 0;
+	padding: 3px 3.5px 3px 3.5px;
 	right: 5px;
 	top: 5px;
 	cursor: pointer;

@@ -691,3 +691,7 @@ function gps_get(position) {
 function gps_error(error) {
        alert("エラーが発生したので、現在地を取得できませんでした。");
 }
+
+function rn(){
+		location.href = "../index.html#refuge";
+}
