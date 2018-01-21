@@ -161,7 +161,7 @@ function def(){
 		$("#home").hide();
 }
 
-function h_map(){
+/*function h_map(){
 
 	if(document.getElementById("to-category").value == "hokkaido"){
 		document.getElementById("h_map").innerHTML = '<iframe src="map/hokkaido.html" width="100%" height="500px" frameborder="yes" scrolling="yes"></iframe>';
@@ -303,6 +303,154 @@ function h_map(){
 	}
 	else if(document.getElementById("to-category").value == "okinawa"){
 		document.getElementById("h_map").innerHTML = '<iframe src="map/okinawa.html" width="100%" height="500px" frameborder="yes" scrolling="yes"></iframe>';
+	}
+	else{
+	}
+}*/
+
+
+function h_map(){
+
+	if(document.getElementById("to-category").value == "hokkaido"){
+		location.href="map/hokkaido.html";
+	}
+	else if(document.getElementById("to-category").value == "aomori"){
+		location.href="map/aomori.html";
+	}
+	else if(document.getElementById("to-category").value == "akita"){
+		location.href="map/akita.html";
+	}
+	else if(document.getElementById("to-category").value == "iwate"){
+		location.href="map/iwate.html";
+	}
+	else if(document.getElementById("to-category").value == "yamagata"){
+		location.href="map/yamagata.html";
+	}
+	else if(document.getElementById("to-category").value == "miyagi"){
+		location.href="map/miyagi.html";
+	}
+	else if(document.getElementById("to-category").value == "fukushima"){
+		location.href="map/fukushima.html";
+	}
+	else if(document.getElementById("to-category").value == "nigata"){
+		location.href="map/nigata.html";
+	}
+	else if(document.getElementById("to-category").value == "tiba"){
+		location.href="map/tiba.html";
+	}
+	else if(document.getElementById("to-category").value == "tochigi"){
+		location.href="map/tochigi.html";
+	}
+	else if(document.getElementById("to-category").value == "gunma"){
+		location.href="map/gunma.html";
+	}
+	else if(document.getElementById("to-category").value == "saitama"){
+		location.href="map/saitama.html";
+	}
+	else if(document.getElementById("to-category").value == "ibaragi"){
+		location.href="map/ibaragi.html";
+	}
+	else if(document.getElementById("to-category").value == "tokyo"){
+		location.href="map/tokyo.html";
+	}
+	else if(document.getElementById("to-category").value == "kanagawa"){
+		location.href="map/kanagawa.html";
+	}
+	else if(document.getElementById("to-category").value == "yamanashi"){
+		location.href="map/yamanashi.html";
+	}
+	else if(document.getElementById("to-category").value == "nagano"){
+		location.href="map/nagano.html";
+	}
+	else if(document.getElementById("to-category").value == "shizuoka"){
+		location.href="map/shizuoka.html";
+	}
+	else if(document.getElementById("to-category").value == "toyama"){
+		location.href="map/toyama.html";
+	}
+	else if(document.getElementById("to-category").value == "ishikawa"){
+		location.href="map/ishikawa.html";
+	}
+	else if(document.getElementById("to-category").value == "gifu"){
+		location.href="map/gifu.html";
+	}
+	else if(document.getElementById("to-category").value == "aichi"){
+		location.href="map/aichi.html";
+	}
+	else if(document.getElementById("to-category").value == "mie"){
+		location.href="map/mie.html";
+	}
+	else if(document.getElementById("to-category").value == "fukui"){
+		location.href="map/fukui.html";
+	}
+	else if(document.getElementById("to-category").value == "shiga"){
+		location.href="map/shiga.html";
+	}
+	else if(document.getElementById("to-category").value == "kyoto"){
+		location.href="map/kyoto.html";
+	}
+	else if(document.getElementById("to-category").value == "nara"){
+		location.href="map/nara.html";
+	}
+	else if(document.getElementById("to-category").value == "osaka"){
+		location.href="map/osaka.html";
+	}
+	else if(document.getElementById("to-category").value == "wakayama"){
+		location.href="map/wakayama.html";
+	}
+	else if(document.getElementById("to-category").value == "hyogo"){
+		location.href="map/hyogo.html";
+	}
+	else if(document.getElementById("to-category").value == "tottori"){
+		location.href="map/tottori.html";
+	}
+	else if(document.getElementById("to-category").value == "okayama"){
+		location.href="map/okayama.html";
+	}
+	else if(document.getElementById("to-category").value == "shimane"){
+		location.href="map/shimane.html";
+	}
+	else if(document.getElementById("to-category").value == "hiroshima"){
+		location.href="map/hiroshima.html";
+	}
+	else if(document.getElementById("to-category").value == "yamaguchi"){
+		location.href="map/yamaguchi.html";
+	}
+	else if(document.getElementById("to-category").value == "kagawa"){
+		location.href="map/kagawa.html";
+	}
+	else if(document.getElementById("to-category").value == "tokushima"){
+		location.href="map/tokushima.html";
+	}
+	else if(document.getElementById("to-category").value == "ehime"){
+		location.href="map/ehime.html";
+	}
+	else if(document.getElementById("to-category").value == "kochi"){
+		location.href="map/kochi.html";
+	}
+	else if(document.getElementById("to-category").value == "fukuoka"){
+		location.href="map/fukuoka.html";
+	}
+	else if(document.getElementById("to-category").value == "saga"){
+		location.href="map/saga.html";
+	}
+	else if(document.getElementById("to-category").value == "nagasaki"){
+		location.href="map/nagasaki.html";
+	}
+	else if(document.getElementById("to-category").value == "oita"){
+		location.href="map/oita.html";
+	}
+	else if(document.getElementById("to-category").value == "kumamoto"){
+		location.href="map/kumamoto.html";
+	}
+	else if(document.getElementById("to-category").value == "miyazaki"){
+		location.href="map/miyazaki.html";
+	}
+	else if(document.getElementById("to-category").value == "kagoshima"){
+		location.href="map/kagoshima.html";
+	}
+	else if(document.getElementById("to-category").value == "okinawa"){
+		location.href="map/okinawa.html";
 	}
 	else{
 	}

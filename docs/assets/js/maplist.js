@@ -1,3 +1,4 @@
+/*
 function hok(){
 	document.getElementById("h_map").innerHTML = '<iframe src="map/hokkaido.html" width="100%" height="500px" frameborder="yes" scrolling="yes"></iframe>';
 }
@@ -184,4 +185,192 @@ function kagos(){
 
 function okina(){
 	document.getElementById("h_map").innerHTML = '<iframe src="map/okinawa.html" width="100%" height="500px" frameborder="yes" scrolling="yes"></iframe>';
+}*/
+
+function hok(){
+	location.href ="map/hokkaido.html";
+}
+
+function ao(){
+	location.href ="map/aomori.html";
+}
+
+function ak(){
+	location.href ="map/akita.html";
+}
+
+function iw(){
+	location.href ="map/iwate.html";
+}
+
+function my(){
+	location.href ="map/miyagi.html";
+}
+
+function yg(){
+	location.href ="map/yamagata.html";
+}
+
+function fs(){
+	location.href ="map/fukushima.html";
+}
+
+function ib(){
+	location.href ="map/ibaragi.html";
+}
+
+function to(){
+	location.href ="map/tochigi.html";
+}
+
+function gu(){
+	location.href ="map/gunma.html";
+}
+
+function si(){
+	location.href ="map/saitama.html";
+}
+
+function tb(){
+	location.href ="map/tiba.html";
+}
+
+function tk(){
+	location.href ="map/tokyo.html";
+}
+
+function kg(){
+	location.href ="map/kanagawa.html";
+}
+
+function ni(){
+	location.href ="map/nigata.html";
+}
+
+function toyama(){
+	location.href ="map/toyama.html";
+}
+
+function is(){
+	location.href ="map/ishikawa.html";
+}
+
+function fukui(){
+	location.href ="map/fukui.html";
+}
+
+function yam(){
+	location.href ="map/yamanashi.html";
+}
+
+function ng(){
+	location.href ="map/nagano.html";
+}
+
+function gif(){
+	location.href ="map/gifu.html";
+}
+
+function sz(){
+	location.href ="map/shizuoka.html";
+}
+
+function aic(){
+	location.href ="map/aichi.html";
+}
+
+function mie(){
+	location.href ="map/mie.html";
+}
+
+function siga(){
+	location.href ="map/shiga.html";
+}
+
+function kyot(){
+	location.href ="map/kyoto.html";
+}
+
+function os(){
+	location.href ="map/osaka.html";
+}
+
+function hg(){
+	location.href ="map/hyogo.html";
+}
+
+function nr(){
+	location.href ="map/nara.html";
+}
+
+function waky(){
+	location.href ="map/wakayama.html";
+}
+
+function tt(){
+	location.href ="map/tottori.html";
+}
+
+function smn(){
+	location.href ="map/shimane.html";
+}
+
+function oky(){
+	location.href ="map/okayama.html";
+}
+
+function hiro(){
+	location.href ="map/hiroshima.html";
+}
+
+function yag(){
+	location.href ="map/yamaguchi.html";
+}
+
+function tok(){
+	location.href ="map/tokushima.html";
+}
+
+function kagawa(){
+	location.href ="map/kagawa.html";
+}
+
+function ehi(){
+	location.href ="map/ehime.html";
+}
+
+function kochi(){
+	location.href ="map/kochi.html";
+}
+
+function fukuoka(){
+	location.href ="map/fukuoka.html";
+}
+
+function saga(){
+	location.href ="map/saga.html";
+}
+
+function nags(){
+	location.href ="map/nagasaki.html";
+}
+
+function kuma(){
+	location.href ="map/kumamoto.html";
+}
+
+function oita(){
+	location.href ="map/oita.html";
+}
+
+function miyz(){
+	location.href ="map/miyazaki.html";
+}
+
+function kagos(){
+	location.href ="map/kagoshima.html";
+}
+
+function okina(){
+	location.href ="map/okinawa.html";
 }
