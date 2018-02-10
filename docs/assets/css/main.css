@@ -2387,6 +2387,8 @@ h3{
 #ke .close{display:none !important;}
 #ke_s .close{display:none !important;}
 
+#type .close, #where .close, #need .close, #guide .close, #tokei .close {display:none !important;}
+
 .link{
 				display: block;
 				position: absolute;
