@@ -1,4 +1,3 @@
-/*
 function hok(){
 	document.getElementById("h_map").innerHTML = '<iframe src="map/hokkaido.html" width="100%" height="500px" frameborder="yes" scrolling="yes"></iframe>';
 }
@@ -185,8 +184,9 @@ function kagos(){
 
 function okina(){
 	document.getElementById("h_map").innerHTML = '<iframe src="map/okinawa.html" width="100%" height="500px" frameborder="yes" scrolling="yes"></iframe>';
-}*/
+}
 
+/*
 function hok(){
 	location.href ="map/hokkaido.html";
 }
@@ -373,4 +373,4 @@ function kagos(){
 
 function okina(){
 	location.href ="map/okinawa.html";
-}
+}*/

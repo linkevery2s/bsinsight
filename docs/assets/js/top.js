@@ -161,7 +161,7 @@ function def(){
 		$("#home").hide();
 }
 
-/*function h_map(){
+function h_map(){
 
 	if(document.getElementById("to-category").value == "hokkaido"){
 		document.getElementById("h_map").innerHTML = '<iframe src="map/hokkaido.html" width="100%" height="500px" frameborder="yes" scrolling="yes"></iframe>';
@@ -306,9 +306,9 @@ function def(){
 	}
 	else{
 	}
-}*/
+}
 
-
+/*
 function h_map(){
 
 	if(document.getElementById("to-category").value == "hokkaido"){
@@ -454,7 +454,7 @@ function h_map(){
 	}
 	else{
 	}
-}
+}*/
 
 
 function ty(){
