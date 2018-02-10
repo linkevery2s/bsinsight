@@ -5,20 +5,20 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html lang="ja">
-  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+	<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
 	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" >
 	<meta name="apple-mobile-web-app-capable" content="yes">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content='"その時"どうする？'>
+    <meta name="description" content='このアプリは自治体等のオープンデータを用いた防災対策アプリです。'>
 	<meta property="og:title" content="防災INSIGHT" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://linkevery2s.github.io/bsinsight/index.html" />
     <meta property="og:image" content="https://linkevery2s.github.io/bsinsight/images/apple-touch-icon.png" />
     <meta name="twitter:card" content="summary">
 	<meta name="twitter:title" content="防災INSIGHT" />
-	<meta name="twitter:description" content='"その時"どうする？' />
+	<meta name="twitter:description" content='このアプリは自治体等のオープンデータを用いた防災対策アプリです。' />
 	<meta name="twitter:image" content="https://linkevery2s.github.io/bsinsight/images/apple-touch-icon.png" />
-    <meta name="author" content="">
+    <meta name="author" content="仁志">
 	<meta name="keywords" content="防災INSIGHT、防災、災害対策">
 	<link rel="stylesheet" href="assets/css/font-awesome.min.css" />
 	<link rel="stylesheet" href="assets/css/main.css" />
@@ -26,14 +26,12 @@
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
     <link rel="shortcut icon" href="images/apple-touch-icon.png">
 
-		<title>防災INSIGHT</title>
+	<title>防災INSIGHT</title>
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 
 	<body onload="ini()">
-
-
 
 		<!-- Wrapper -->
 			<div id="wrapper">
@@ -52,39 +50,15 @@
 						<nav>
 							<ul>
 								<li><a href="#intro">はじめに</a></li>
-								<li><a href="#type">種　類</a></li>
-								<li><a href="#where">どこに</a></li>
-								<li><a href="#need">何が必要</a></li>
-							</ul>
-						</nav>
-						
-						<nav>
-							<ul>
+								<li><a href="#manabu">学  習</a></li>
 								<li><a href="#refuge">避難所</a></li>
-								<li><a href="#tokei">統　計</a></li>
-								<li><a href="#guide">ガイド</a></li>
+								<li><a href="#where">気象情報</a></li>
 								<li><a href="#profile">自己紹介</a></li>
 							</ul>
 						</nav>
-
-<div class="content">
-	<div class="inner">
-		<div class="sns">
-
-		<img src="images/mail.png" style="width:50px; height: 50px;" id = "mln" onclick= "mailt()">
-		<img src="images/line_button.png" style="width:50px; height: 50px;" id = "mln" onclick= "linet()">
-		<img src="images/tw.png" style="width:50px; height: 50px;" id = "mln" onclick= "twt()">
-		<img src="images/fb.png" style="width:50px; height: 50px;" id = "mln" onclick= "fbt()">
-
-		</div>
-		<br>
-		<img src="images/qr_code.png">
-	</div>
-</div>
+						
 
 					</header>
-
-
 
 				<!-- Main -->
 					<div id="main">
@@ -111,7 +85,26 @@
 								by 仁志.
 							</article>
 
-						<!-- Work -->
+							<!-- manabu -->
+							<article id="manabu">
+							<h2 class="major">学習ツール</h2>
+							<p>防災について学ぶ学習ツールを用意しました。</p>
+							
+								<ul class="actions">
+										<li><a href="#type" class="button">災害の種類</a></li>
+										<li><a href="#where" class="button">どこにいる？</a></li>
+										<li><a href="#need" class="button">何が必要？</a></li>
+										<li><a href="#guide" class="button">防災ガイド</a></li>
+								</ul>
+								
+								<ul class="actions">
+										<li><a href="tokei" class="button">統計からみる防災</a></li>
+								</ul>
+							
+							</article>
+							<!-- manabu -->
+
+						<!-- type -->
 							<article id="type">
 								<h2 class="major">災害の種類</h2>
 								<span class="image main"><img src="images/type.jpg" alt="" /></span>
@@ -298,7 +291,6 @@
 								台風や低気圧の接近により、海面が上昇し、大波が沿岸部に押し寄せる。
 								</blockquote>
 								
-								
 								<h2>竜　巻</h2>
 								<img src="images/tm.jpg"  width="100%"><br>
 								（出典「災害写真データベース」、北海道佐呂間町の竜巻による災害（2006年））<br><br>
@@ -321,15 +313,11 @@
 								<blockquote>
 								・屋内<br>
 								窓ガラスが割れる危険があるので、窓から離れる。<br><br>
-								
 								・屋外<br>
 								頑丈な建物に避難する。<br>
 								頑丈な構造物に頭を抱えてうずくまる。<br><br>
-								
 								・車内<br>
 								車も飛ばされる危険があるので、車内でも頭を抱えてうずくまる。
-								
-
 								</blockquote>
 								
 								<h3><i class="fa fa-graduation-cap" aria-hidden="true"></i>風水害防災INSIGHT</h3>
@@ -429,12 +417,13 @@
 								</blockquote>
 								
 								</div><!-- ds -->
+
 								<hr />
 								<i class="fa fa-book" aria-hidden="true"></i> 以下の資料をもとに仁志が加工・編集して作成しました。<br>
 								・わたしの防災サバイバル手帳、消防庁、<a href="https://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a>
 							</article>
 
-						<!-- About -->
+						<!-- where -->
 							<article id="where">
 								<h2 class="major">どこにいる？</h2>
 								<span class="image main"><img src="images/map.jpg" alt="" /></span>
@@ -1541,7 +1530,7 @@
 								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 建物の倒壊や落下物などの下敷きになった人がいたら、意識があるかどうかを確認し、声をかける。救出活動には危険が伴う場合があるため、複数で協力して行う。
 								</article>
 
-
+							<!-- need -->
 							<article id="need">
 								<h2 class="major">何が必要？</h2>
 								<span class="image main"><img src="images/water.jpg" alt="" /></span>
@@ -1550,88 +1539,89 @@
 								
 								<hr />
 						
-							<h3><i class="fa fa-cube" aria-hidden="true"></i>家具を固定しよう！</h3>
-							阪神・淡路大震災が起きた際、犠牲者の方々の約８割が家具による窒息死、圧死というデータがあります。（平成16年版「防災白書」）<br><br>
+								<h3><i class="fa fa-cube" aria-hidden="true"></i>家具を固定しよう！</h3>
+								阪神・淡路大震災が起きた際、犠牲者の方々の約８割が家具による窒息死、圧死というデータがあります。（平成16年版「防災白書」）<br><br>
 
-							大地震が起きた時は、揺れが縦に揺れることが多く、重い家具でも飛んでくる恐れがあります。<br><br>
+								大地震が起きた時は、揺れが縦に揺れることが多く、重い家具でも飛んでくる恐れがあります。<br><br>
 							
-							タンスや食器棚など、家の中で大型の家具は固定して、動かないようにすることが大切です。
+								タンスや食器棚など、家の中で大型の家具は固定して、動かないようにすることが大切です。
 
-							<hr>
+								<hr>
 							
-							<h3><i class="fa fa-cube" aria-hidden="true"></i>持ち出し品リスト</h3>
-							避難時に持ち出す必要があるものをリストにしました。避難時に必要なものを確認しましょう。<br><br>
+								<h3><i class="fa fa-cube" aria-hidden="true"></i>持ち出し品リスト</h3>
+								避難時に持ち出す必要があるものをリストにしました。避難時に必要なものを確認しましょう。<br><br>
 
-							<ul class="actions">
-								<li><a href="bousai/mochidashi.pdf" target="_blank" class="button special"><i class="fa fa-list" aria-hidden="true"></i> リストを見る</a></li>
-							</ul>							
+								<ul class="actions">
+									<li><a href="bousai/mochidashi.pdf" target="_blank" class="button special"><i class="fa fa-list" aria-hidden="true"></i> リストを見る</a></li>
+								</ul>							
 
-<hr>
+								<hr>
 
-							<h3><i class="fa fa-cube" aria-hidden="true"></i>本人確認カード</h3>
-							避難時に本人確認をするためのカードです。PDFに印刷したり、スクリーンショットを撮りご自身のスマートフォンに保存しておき、避難時にご利用ください。<br><br>
+								<h3><i class="fa fa-cube" aria-hidden="true"></i>本人確認カード</h3>
+								避難時に本人確認をするためのカードです。PDFに印刷したり、スクリーンショットを撮りご自身のスマートフォンに保存しておき、避難時にご利用ください。<br><br>
 														
-							<ul class="actions">
-								<li><a href="bousai/kojin.html" target="_blank" class="button special"><i class="fa fa-pencil" aria-hidden="true"></i> 作成する</a></li>
-							</ul>
+								<ul class="actions">
+									<li><a href="bousai/kojin.html" target="_blank" class="button special"><i class="fa fa-pencil" aria-hidden="true"></i> 作成する</a></li>
+								</ul>
 							
-							<hr>
+								<hr>
 							
-							<h3><i class="fa fa-cube" aria-hidden="true"></i>「災害用伝言ダイヤル171」</h3>
-							阪神・淡路大震災の時は、停電の影響等から約30万回線が不通になりました。また、全国から神戸方面に通常ピーク時の50倍程度の通話が集中し、電話がつながりにくくなりました。<br><br>
+								<h3><i class="fa fa-cube" aria-hidden="true"></i>「災害用伝言ダイヤル171」</h3>
+								阪神・淡路大震災の時は、停電の影響等から約30万回線が不通になりました。また、全国から神戸方面に通常ピーク時の50倍程度の通話が集中し、電話がつながりにくくなりました。<br><br>
 							
-							「家族や友人にとにかく連絡をとりたい」そんなときのために、「災害用伝言ダイヤル171」の使い方を覚えておきましょう！<br><br>
-							<img src="images/171.png" width="100%">
+								「家族や友人にとにかく連絡をとりたい」そんなときのために、「災害用伝言ダイヤル171」の使い方を覚えておきましょう！<br><br>
+								<img src="images/171.png" width="100%">
 
-	<hr>
+								<hr>
 	
-							<h3><i class="fa fa-cube" aria-hidden="true"></i>今ここ。</h3>
-							「今ここ。」は災害時に自分の居場所を家族や友人に知らせることができる安否確認サービスです。GPS機能が搭載されており、SNSと連携して使用することができます。<br><br>
-							<ul class="actions">
-								<li><a href="https://linkevery2s.github.io/iamherenow/map.html#6/37.777/137.587" target="_blank" class="button special"><i class="fa fa-globe" aria-hidden="true"></i> 今ここ。</a></li>
-							</ul>
+								<h3><i class="fa fa-cube" aria-hidden="true"></i>今ここ。</h3>
+								「今ここ。」は災害時に自分の居場所を家族や友人に知らせることができる安否確認サービスです。GPS機能が搭載されており、SNSと連携して使用することができます。<br><br>
+								<ul class="actions">
+									<li><a href="https://linkevery2s.github.io/iamherenow/map.html#6/37.777/137.587" target="_blank" class="button special"><i class="fa fa-globe" aria-hidden="true"></i> 今ここ。</a></li>
+								</ul>
 
-	<hr>
-							<h3><i class="fa fa-cube" aria-hidden="true"></i>消火器の使い方</h3>
-							災害とともに火災が起きる可能性があります。初期消火が必要な時に備えて、消火器の使い方を覚えておきましょう。<br><br>
-							<img src="images/syoukaki.png" width="100%">
+								<hr>
+								<h3><i class="fa fa-cube" aria-hidden="true"></i>消火器の使い方</h3>
+								災害とともに火災が起きる可能性があります。初期消火が必要な時に備えて、消火器の使い方を覚えておきましょう。<br><br>
+								<img src="images/syoukaki.png" width="100%">
 							
 								<hr>
 								
-							<h3><i class="fa fa-cube" aria-hidden="true"></i>火のおこし方</h3>
-							真冬に災害が起きた際や遭難した時など、火をおこす必要に迫られる時があります。火のおこし方を覚えておきましょう。<br><br>
-							<blockquote>
-							１．火をつける材料を見つける。（落ち葉や枯草など）<br><br>
+								<h3><i class="fa fa-cube" aria-hidden="true"></i>火のおこし方</h3>
+								真冬に災害が起きた際や遭難した時など、火をおこす必要に迫られる時があります。火のおこし方を覚えておきましょう。<br><br>
+								<blockquote>
+								１．火をつける材料を見つける。（落ち葉や枯草など）<br><br>
 							
-							２．虫メガネのレンズやビンの底などで火をおこす。
+								２．虫メガネのレンズやビンの底などで火をおこす。
 							
-							</blockquote>
+								</blockquote>
 							
 								<hr>
 								
-							<h3><i class="fa fa-cube" aria-hidden="true"></i>Wi-Fiの無料開放</h3>
-							平成28年4月に発生した熊本地震では、Wi-Fiの無料開放というサービスが行われました。具体的には、通信事業者が避難所を中心に無料公衆無線LAN（Wi-Fi）アクセスポイントを設置し、携帯電話事業者が災害用統一SSID「00000JAPAN」の運用を初めて実施し九州全域で約55,000のアクセスポイントを確保しました。（出典「平成28年版　情報通信白書」）<br><br>
-							災害時には、携帯電話回線が混雑し、つながりにくくなるという障害が想定されるため、このようなサービスは非常に重要であると思います。
+								<h3><i class="fa fa-cube" aria-hidden="true"></i>Wi-Fiの無料開放</h3>
+								平成28年4月に発生した熊本地震では、Wi-Fiの無料開放というサービスが行われました。具体的には、通信事業者が避難所を中心に無料公衆無線LAN（Wi-Fi）アクセスポイントを設置し、携帯電話事業者が災害用統一SSID「00000JAPAN」の運用を初めて実施し九州全域で約55,000のアクセスポイントを確保しました。（出典「平成28年版　情報通信白書」）<br><br>
+								災害時には、携帯電話回線が混雑し、つながりにくくなるという障害が想定されるため、このようなサービスは非常に重要であると思います。
 							
-
-							<hr />
-							<i class="fa fa-book" aria-hidden="true"></i> 以下の資料をもとに仁志が加工・編集して作成しました。<br>
-・防災マニュアル、消防庁、<a href="https://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a><br>
-・わたしの防災サバイバル手帳、消防庁、<a href="https://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a>
-							</article>
-
-
-							<article id="refuge">
-								<h2 class="major">避難する時…</h2>
-								<span class="image main"><img src="images/hinan.jpg" alt="" /></span>
+								<hr />
+									<i class="fa fa-book" aria-hidden="true"></i> 以下の資料をもとに仁志が加工・編集して作成しました。<br>
+									・防災マニュアル、消防庁、<a href="https://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a><br>
+									・わたしの防災サバイバル手帳、消防庁、<a href="https://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a>
 								
-								<h3><i class="fa fa-cube" aria-hidden="true"></i>避難所を調べよう！</h3>
+								</article>
+								<!-- need -->
+
+								<!-- refuge -->
+								<article id="refuge">
+									<h2 class="major">避難する時…</h2>
+									<span class="image main"><img src="images/hinan.jpg" alt="" /></span>
+								
+									<h3><i class="fa fa-cube" aria-hidden="true"></i>避難所を調べよう！</h3>
 								
 									自分の地域の避難所の情報を調べることは大切なことです。<br><br>
 									いざ、避難するとなった時に、「どこに避難すれば良いのか？」と行動できなくなってしまいます。<br><br>
 									そこで、都道府県単位で避難マップを作成しました。<br><br>
 									ご自身の地域の避難所・避難場所について、調べてみましょう！<br><br>
-								<hr>
+									<hr>
 
 										<div class="field">
 											<div class="select-wrapper">
@@ -1686,7 +1676,7 @@
 															<option value="okinawa">沖縄県</option>
 												</select>
 											</div>
-										</div><br>
+										</div><!--field--><br>
 
 <ul class="jp_map">
       <li>
@@ -1783,67 +1773,64 @@
         <a href="javascript:void(0);" onclick="kagos(); return false;">鹿児島</a></li>
       <li>
         <a href="javascript:void(0);" onclick="okina(); return false;">沖縄</a></li>
-    </ul>
-
-										<br>
+    </ul><br>
 								<!--<div id = "h_map"></div>-->
 								<!--<br>※◎マークを押して、GPSによる現在地を表示するとルート検索が可能となります。-->
-<hr />
+					<hr />
 
-<h3><i class="fa fa-cube" aria-hidden="true"></i>雨雲レーダー</h3>
-避難する時に、大気の状態を把握することも大切です。<br><br>
-最近ではゲリラ豪雨と呼ばれる局所的に降る大雨の現象もよく見られます。<br><br>
-「雨雲レーダー」では、大気の状態を調べることができます。<br><br>
-<iframe src="map/yame.html" width = "100%" height="500px" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen></iframe>
+					<h3><i class="fa fa-cube" aria-hidden="true"></i>雨雲レーダー</h3>
+					避難する時に、大気の状態を把握することも大切です。<br><br>
+					最近ではゲリラ豪雨と呼ばれる局所的に降る大雨の現象もよく見られます。<br><br>
+					「雨雲レーダー」では、大気の状態を調べることができます。<br><br>
+					<iframe src="map/yame.html" width = "100%" height="500px" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen></iframe>
 
 
-<!-- Begin Yahoo! JAPAN Web Services Attribution Snippet -->
-<span id="y_li">
-<a href="https://developer.yahoo.co.jp/about">
-<img src="https://s.yimg.jp/images/yjdn/yjdn_attbtn2_105_17.gif" width="105" height="17" title="Webサービス by Yahoo! JAPAN" alt="Webサービス by Yahoo! JAPAN" border="0" style="margin:15px 15px 15px 15px"></a></span>
-<!-- End Yahoo! JAPAN Web Services Attribution Snippet -->
-
+					<!-- Begin Yahoo! JAPAN Web Services Attribution Snippet -->
+					<span id="y_li">
+					<a href="https://developer.yahoo.co.jp/about">
+					<img src="https://s.yimg.jp/images/yjdn/yjdn_attbtn2_105_17.gif" width="105" height="17" title="Webサービス by Yahoo! JAPAN" alt="Webサービス by Yahoo! JAPAN" border="0" style="margin:15px 15px 15px 15px"></a></span>
+					<!-- End Yahoo! JAPAN Web Services Attribution Snippet -->
 
 							<hr />
 							<i class="fa fa-book" aria-hidden="true"></i> 以下の資料をもとに仁志が加工・編集して作成しました。<br>
-・地理院タイル（<span id="url_a"><a href="http://maps.gsi.go.jp/development/ichiran.html">http://maps.gsi.go.jp/development/ichiran.html</a></span>）、指定緊急避難場所データ<br>
-・国土交通省国土政策局「国土数値情報（避難施設、H24年度）」<br>
-・災害時の避難場所（H27年）、室蘭市、<a href="http://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a><br>
-・八雲町内の避難場所一覧（H27年）、八雲町、<a href="http://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a><br>
-・森町避難場所一覧（H27年）、森町、<a href="http://creativecommons.org/licenses/by/4.0/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a><br>
-・避難場所（H25年度）、横手市、<a href="http://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a><br>
-・避難所・避難場所（H27年）、会津若松市、<a href="http://creativecommons.org/licenses/by/4.0/">クリエイティブ・コモンズ・ライセンス 表示4.0 国際</a><br>
-・見附市内避難所（H27年）、<a href="http://www.city.mitsuke.niigata.jp/11717.htm">見附市</a>、<a href="http://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a><br>
-・三条市避難所一覧（H27年）、<a href="http://www.city.sanjo.niigata.jp/joho/page00160.html">三条市</a>、<a href="http://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a><br>
-・糸魚川市避難施設一覧H26、糸魚川市、<a href="http://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a><br>
-・十日町市内の避難所（H27年）、<a href="http://www.city.tokamachi.lg.jp/shisei_machidukuri/F022/F028/1454068614755.html">十日町市</a>、<a href="http://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a>
-・一時避難場所一覧（H25年）、<a href="http://www.city.nagareyama.chiba.jp/10763/index.html">流山市</a>、<a href="http://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a><br>
-・一次避難場所、二次避難場所（H27年）、前橋市、<a href="http://creativecommons.org/licenses/by/4.0">クリエイティブ・コモンズ・ライセンス 表示4.0 国際</a><br>
-・【朝霞市】避難所（H28年）、朝霞市、<a href="http://creativecommons.org/licenses/by/2.0/JP">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a><br>
-・【川越市】避難所・避難場所（H28年）、川越市、<a href="http://creativecommons.org/licenses/by/2.0/JP">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a><br>
-・【深谷市】避難所一覧（H27年）、深谷市、<a href="http://creativecommons.org/licenses/by/2.0/JP">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a><br>
-・市内避難所情報（H28年）、逗子市、<a href="http://creativecommons.org/licenses/by/4.0">クリエイティブ・コモンズ・ライセンス 表示4.0 国際</a><br>
-・町内避難所情報（H27年）、葉山町、<a href="http://creativecommons.org/licenses/by/4.0">クリエイティブ・コモンズ・ライセンス 表示4.0 国際</a><br>
-・須坂市避難場所（H28年）、須坂市、<a href="http://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a><br>
-・広域避難地・市指定避難所（H26年）、<a href="http://ckan.open-governmentdata.org/dataset/401307-compatibleformat-shelter">裾野市</a>、<a href="http://creativecommons.org/licenses/by/4.0">クリエイティブ・コモンズ・ライセンス 表示4.0 国際</a><br>
-・避難所一覧（H27年）、三島市、<a href="http://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a><br>
-・避難所一覧（H27年）、御前崎市、<a href="http://creativecommons.org/licenses/by/4.0">クリエイティブ・コモンズ・ライセンス 表示4.0 国際</a><br>
-・避難所（H28年）、金沢市、<a href="http://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a><br>
-・一時避難場所一覧（H27年度）、長久手市、<a href="http://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a><br>
-・避難場所一覧（H27年度）、長久手市、<a href="http://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a><br>
-・避難所（H26年度）、尾張旭市、<a href="http://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a><br>
-・地震災害時の一時避難場所（H26年度）、尾張旭市、<a href="http://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a><br>
-・鯖江市避難施設（H26年）、<a href="http://www.city.sabae.fukui.jp/pageview.html?id=11552">鯖江市</a><br>
-・神戸市避難所データ（H26年）、神戸市<br>
-・呉市避難所一覧（H27年度）、呉市、<a href="http://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a><br>
-・周南市の避難場所（H27年度）、周南市、<a href="http://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a><br>
-・宇部市緊急避難場所及び避難所（H28年度）、宇部市、<a href="http://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a><br>
-・避難場所・避難所（H27年）、<a href="http://ckan.open-governmentdata.org/dataset/401307-compatibleformat-shelter">福岡市</a>、<a href="http://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a><br>
-・避難場所・避難所（H28年）、<a href="http://ckan.open-governmentdata.org/dataset/401005_hinanbasyo">北九州市</a>、<a href="http://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a>
+							・地理院タイル（<span id="url_a"><a href="http://maps.gsi.go.jp/development/ichiran.html">http://maps.gsi.go.jp/development/ichiran.html</a></span>）、指定緊急避難場所データ<br>
+							・国土交通省国土政策局「国土数値情報（避難施設、H24年度）」<br>
+							・災害時の避難場所（H27年）、室蘭市、<a href="http://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a><br>
+							・八雲町内の避難場所一覧（H27年）、八雲町、<a href="http://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a><br>
+							・森町避難場所一覧（H27年）、森町、<a href="http://creativecommons.org/licenses/by/4.0/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a><br>
+							・避難場所（H25年度）、横手市、<a href="http://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a><br>
+							・避難所・避難場所（H27年）、会津若松市、<a href="http://creativecommons.org/licenses/by/4.0/">クリエイティブ・コモンズ・ライセンス 表示4.0 国際</a><br>
+							・見附市内避難所（H27年）、<a href="http://www.city.mitsuke.niigata.jp/11717.htm">見附市</a>、<a href="http://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a><br>
+							・三条市避難所一覧（H27年）、<a href="http://www.city.sanjo.niigata.jp/joho/page00160.html">三条市</a>、<a href="http://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a><br>
+							・糸魚川市避難施設一覧H26、糸魚川市、<a href="http://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a><br>
+							・十日町市内の避難所（H27年）、<a href="http://www.city.tokamachi.lg.jp/shisei_machidukuri/F022/F028/1454068614755.html">十日町市</a>、<a href="http://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a>
+							・一時避難場所一覧（H25年）、<a href="http://www.city.nagareyama.chiba.jp/10763/index.html">流山市</a>、<a href="http://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a><br>
+							・一次避難場所、二次避難場所（H27年）、前橋市、<a href="http://creativecommons.org/licenses/by/4.0">クリエイティブ・コモンズ・ライセンス 表示4.0 国際</a><br>
+							・【朝霞市】避難所（H28年）、朝霞市、<a href="http://creativecommons.org/licenses/by/2.0/JP">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a><br>
+							・【川越市】避難所・避難場所（H28年）、川越市、<a href="http://creativecommons.org/licenses/by/2.0/JP">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a><br>
+							・【深谷市】避難所一覧（H27年）、深谷市、<a href="http://creativecommons.org/licenses/by/2.0/JP">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a><br>
+							・市内避難所情報（H28年）、逗子市、<a href="http://creativecommons.org/licenses/by/4.0">クリエイティブ・コモンズ・ライセンス 表示4.0 国際</a><br>
+							・町内避難所情報（H27年）、葉山町、<a href="http://creativecommons.org/licenses/by/4.0">クリエイティブ・コモンズ・ライセンス 表示4.0 国際</a><br>
+							・須坂市避難場所（H28年）、須坂市、<a href="http://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a><br>
+							・広域避難地・市指定避難所（H26年）、<a href="http://ckan.open-governmentdata.org/dataset/401307-compatibleformat-shelter">裾野市</a>、<a href="http://creativecommons.org/licenses/by/4.0">クリエイティブ・コモンズ・ライセンス 表示4.0 国際</a><br>
+							・避難所一覧（H27年）、三島市、<a href="http://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a><br>
+							・避難所一覧（H27年）、御前崎市、<a href="http://creativecommons.org/licenses/by/4.0">クリエイティブ・コモンズ・ライセンス 表示4.0 国際</a><br>
+							・避難所（H28年）、金沢市、<a href="http://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a><br>
+							・一時避難場所一覧（H27年度）、長久手市、<a href="http://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a><br>
+							・避難場所一覧（H27年度）、長久手市、<a href="http://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a><br>
+							・避難所（H26年度）、尾張旭市、<a href="http://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a><br>
+							・地震災害時の一時避難場所（H26年度）、尾張旭市、<a href="http://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a><br>
+							・鯖江市避難施設（H26年）、<a href="http://www.city.sabae.fukui.jp/pageview.html?id=11552">鯖江市</a><br>
+							・神戸市避難所データ（H26年）、神戸市<br>
+							・呉市避難所一覧（H27年度）、呉市、<a href="http://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a><br>
+							・周南市の避難場所（H27年度）、周南市、<a href="http://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a><br>
+							・宇部市緊急避難場所及び避難所（H28年度）、宇部市、<a href="http://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a><br>
+							・避難場所・避難所（H27年）、<a href="http://ckan.open-governmentdata.org/dataset/401307-compatibleformat-shelter">福岡市</a>、<a href="http://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a><br>
+							・避難場所・避難所（H28年）、<a href="http://ckan.open-governmentdata.org/dataset/401005_hinanbasyo">北九州市</a>、<a href="http://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a>
 
-							</article>
+							</article><!-- refuge -->
 
-
+							<!-- tokei -->
 							<article id="tokei">
 								<h2 class="major">統計からみる防災</h2>
 								<span class="image main"><img src="images/toukei.jpg" alt="" /></span>
@@ -1856,14 +1843,12 @@
 								・公助…行政機関が援助する<br><br>
 								・共助…地域住民一体となって助け合う<br><br>
 								
-								
 								<img src="images/gurahu.png" width="100%">
 								<br>阪神・淡路大震災における救助の主体と救出者数
 								<br>（出典「平成26年度防災白書」）
 								<br><br>グラフを見ると、80％近くの方々が「共助」により助けられていることが分かります。
 								<br><br>
 								東日本大震災では、市役所等が被災に会い、行政機関が麻痺してしまいました（公助の限界）。<br><br>
-								
 								巨大地震では、行政機関そのものが麻痺し、機能しなくなることも想定されることから、								
 								地域住民同士で助け合うことがいかに大切だと思います。
 								<hr>
@@ -1956,8 +1941,9 @@
 								・平成28年度防災白書、<a href="https://creativecommons.org/licenses/by/4.0/legalcode.ja">クリエイティブ・コモンズ・ライセンス 表示4.0 国際</a><br>
                                 ・G空間情報センター、強震断層モデル(1)データセットA<br>
 								・高齢社会白書_平成25年版、<a href="https://creativecommons.org/licenses/by/4.0/legalcode.ja">クリエイティブ・コモンズ・ライセンス 表示4.0 国際</a>
-							</article>
+							</article><!-- tokei -->
 
+							<!-- guide -->
 							<article id="guide">
 							<h2 class="major">作ろう！防災ガイド</h2>
 							<span class="image main"><img src="images/tumi.jpg" alt="" /></span>
@@ -1966,8 +1952,9 @@
 							</p>
 							
 							<ul class="actions">
-								<li id="keitai"><a href="bousai/guide_k.html" target="_blank" class="button special"><i class="fa fa-paint-brush" aria-hidden="true"></i> 作成する</a></li>
-								<li id="pc"><a href="bousai/guide_pc.html" target="_blank" class="button special"><i class="fa fa-paint-brush" aria-hidden="true"></i> 作成する</a></li>
+								<li id="keitai"><a href="javascript:void(0);" class="button" onclick="location.href = 'bousai/guide_k.html'" class="button special"><i class="fa fa-paint-brush" aria-hidden="true"></i> 作成する</a></li>
+								<li id="pc"><a href="javascript:void(0);" class="button" onclick="location.href = 'bousai/guide_pc.html'" class="button special"><i class="fa fa-paint-brush" aria-hidden="true"></i> 作成する</a></li>
+								<!--<li id="pc"><a href="bousai/guide_pc.html" target="_blank" class="button special"><i class="fa fa-paint-brush" aria-hidden="true"></i> 作成する</a></li>-->
 							</ul>
 
 							<h3><i class="fa fa-cube" aria-hidden="true"></i>使い方</h3>
@@ -1985,16 +1972,17 @@
 							本ガイド作成は、私的利用に限らせていただきます。また、<a href="http://osm.org/copyright" target="_blank">OpenStreetMap利用規約</a>に沿って、利用してください。
 							</blockquote>
 
-							</article>
+							</article><!-- guide -->
 
+							<!-- profile -->
 							<article id="profile">
 
-			<h2 class="major">開発者プロフィール</h2>
-			<span class="image main"><img src="images/me.jpg" width="100%"></span>
-			<i class="fa fa-flag-o" aria-hidden="true"></i> 斎藤　仁志<br><br>
-			<i class="fa fa-flag-o" aria-hidden="true"></i> 名古屋大学理学部物理学科卒業<br><br>
-			<i class="fa fa-flag-o" aria-hidden="true"></i> 愛知県在住<br><br>
-			ＩＴを用いて皆の暮らしのお役に立ちたい！自分に出来ることは何か…毎日奮闘中！<br><br>
+									<h2 class="major">開発者プロフィール</h2>
+									<span class="image main"><img src="images/me.jpg" width="100%"></span>
+									<i class="fa fa-flag-o" aria-hidden="true"></i> 斎藤　仁志<br><br>
+									<i class="fa fa-flag-o" aria-hidden="true"></i> 名古屋大学理学部物理学科卒業<br><br>
+									<i class="fa fa-flag-o" aria-hidden="true"></i> 愛知県在住<br><br>
+									ＩＴを用いて皆の暮らしのお役に立ちたい！自分に出来ることは何か…毎日奮闘中！<br><br>
 
 								<ul class="icons">
 									<li><a href="https://twitter.com/hitoshi2s" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
@@ -2003,14 +1991,14 @@
 									<li><a href="http://ameblo.jp/hitoshi51l/" class="icon fa-globe"><span class="label">Blog</span></a></li>
 								</ul>
 
-							<ul class="actions">
+								<ul class="actions">
 								<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSf-WMoBJRTdA1bmN_SmQ-bsNGeLs1l737d3c9BUNuErjH-KBw/viewform?usp=sf_link" target="_blank" class="button">お問い合わせ</a></li>
-							</ul>	
+								</ul>	
 
-							<hr>
+								<hr>
 
-							<h2 class="major">参考文献</h2>
-							<span class="image main"><img src="images/biblio.jpg" alt="" /></span>
+								<h2 class="major">参考文献</h2>
+									<span class="image main"><img src="images/biblio.jpg" alt="" /></span>
 		
 							<blockquote>
 							・<a href="http://www.jma.go.jp/jma/index.html"><img src="images/kisyou.gif"></a><br>
@@ -2030,8 +2018,9 @@
 							</blockquote>
 							
 							この場をお借りして感謝申し上げます。ありがとうございました。仁志.
-							</article>
+							</article><!-- profile -->
 							
+							<!-- rule -->
 							<article id="rule">
 							<h2 class="major">利用規約</h2>
 							<span class="image main"><img src="images/rule.jpg" alt="" /></span>
@@ -2091,53 +2080,60 @@
 附則<br>
 
 2017年6月17日　利用規約制定
-							</article>
+							</article><!-- rule -->
 
-	<article id="manual">
-<h2 class="major">使い方</h2>
-<iframe src="https://www.slideshare.net/slideshow/embed_code/key/EuygWqEgvHGPui" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px;" allowfullscreen=""> </iframe>
+				<!-- manual -->
+				<article id="manual">
+					<h2 class="major">使い方</h2>
+					<iframe src="https://www.slideshare.net/slideshow/embed_code/key/EuygWqEgvHGPui" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px;" allowfullscreen=""> </iframe>
+				</article><!-- manual -->
 
-	</article>
+				<!-- rss -->
+				<article id="rss">
+					<h2 class="major">更新情報</h2>
+					2018.02.10 アプリリニューアル！<br><br>
+					2018.01.21 日本語表記変更、マップ全画面表示に変更<br><br>
+					防災アプリ賞受賞！<br><br>
+					2017.09.23 都道府県マップ搭載<br><br>
+					2017.07.17 雨雲レーダー搭載<br><br>
+					2017.06.17 アプリ公開
+				</article>
 
-	<article id="rss">
-<h2 class="major">更新情報</h2>
-2018.01.21 日本語表記変更、マップ全画面表示に変更<br><br>
-防災アプリ賞受賞！<br><br>
-2017.09.23 都道府県マップ搭載<br><br>
-2017.07.17 雨雲レーダー搭載<br><br>
-2017.06.17 アプリ公開
-
-	</article>
-
-					</div>
+					</div><!-- main -->
 							
 				<!-- Footer -->
 					<footer id="footer">
-		<span id="rss_li">更新情報 <a href= "#rss"><i class="fa fa-rss-square" aria-hidden="true" style="color:#FF4000;"></i></a></span><br>
-		<iframe src="update.html" width="60%" height="50px" frameborder="yes" scrolling="yes"></iframe>
-		<br>
-
-		<p class="copyright"><i class="fa fa-copyright" aria-hidden="true"></i> 仁志. Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a>. <a href="#manual">使い方</a> <a href="#rule">利用規約</a></p>
+				<!--
+					<div class="content">
+						<div class="inner">
+							<div class="sns">
+								<img src="images/mail.png" style="width:50px; height: 50px;" id = "mln" onclick= "mailt()">
+								<img src="images/line_button.png" style="width:50px; height: 50px;" id = "mln" onclick= "linet()">
+								<img src="images/tw.png" style="width:50px; height: 50px;" id = "mln" onclick= "twt()">
+								<img src="images/fb.png" style="width:50px; height: 50px;" id = "mln" onclick= "fbt()">
+								<a href= "#rss"><i class="fa fa-rss-square fa-4x" aria-hidden="true" style="color:#FF4000;"></i></a>
+							</div>
+						<br>
+								<img src="images/qr_code.png">
+						</div>
+					</div>
+					<br>-->
+						<p class="copyright"><i class="fa fa-copyright" aria-hidden="true"></i> 仁志. Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a>. <a href="#manual">使い方</a> <a href="#rule">利用規約</a></p>
 					</footer>
 
-	</div>
+			</div><!-- wrapper -->
 
-		<!-- BG -->
+			<!-- BG -->
 			<div id="bg"></div>
 
-
-
-		<!-- Scripts -->
+			<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
-
-
-    	<script src="assets/js/top.js"></script>
-    	<script src="assets/js/dhtml.js"></script>
-		<script src="assets/js/maplist.js"></script>
+    		<script src="assets/js/top.js"></script>
+    		<script src="assets/js/dhtml.js"></script>
+			<script src="assets/js/maplist.js"></script>
 
 	</body>
 </html>
