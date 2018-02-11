@@ -594,9 +594,9 @@ function geo_st(feature, layer) {
     	popup += '<br>収容人数：' + feature.properties.Capacity;
     }
     
-	popup += '<br><a href="https://maps.google.co.jp/maps?daddr=' + feature.properties.la + "," + feature.properties.ln + '" target="_blank">Google マップでルート検索</a>'
+	//popup += '<br><a href="https://maps.google.co.jp/maps?daddr=' + feature.properties.la + "," + feature.properties.ln + '" target="_blank">Google マップでルート検索</a>'
     
-    //popup += '<br><a href = "javascript:void(0);" onclick = "test(' + feature.properties.la + "," + feature.properties.ln + ')">' + "ルート検索" + "</a>";
+    popup += '<br><a href = "javascript:void(0);" onclick = "test(' + feature.properties.la + "," + feature.properties.ln + ')">' + "ルート検索" + "</a>";
     
     layer.bindPopup(popup);
 }
@@ -639,7 +639,8 @@ function geo_k(feature, layer) {
     	popup += '<br>収容人数：' + feature.properties.Capacity;
     }
     
-	popup += '<br><a href="https://maps.google.co.jp/maps?daddr=' + feature.properties.la + "," + feature.properties.ln + '" target="_blank">Google マップでルート検索</a>'
+    popup += '<br><a href = "javascript:void(0);" onclick = "test(' + feature.properties.la + "," + feature.properties.ln + ')">' + "ルート検索" + "</a>";
+
     layer.bindPopup(popup);
 }
 
@@ -681,7 +682,8 @@ function geo_o(feature, layer) {
     	popup += '<br>収容人数：' + feature.properties.Capacity;
     }
     
-	popup += '<br><a href="https://maps.google.co.jp/maps?daddr=' + feature.properties.la + "," + feature.properties.ln + '" target="_blank">Google マップでルート検索</a>'
+    popup += '<br><a href = "javascript:void(0);" onclick = "test(' + feature.properties.la + "," + feature.properties.ln + ')">' + "ルート検索" + "</a>";
+
     layer.bindPopup(popup);
 }
 
