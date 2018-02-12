@@ -56,7 +56,7 @@ function ai_ini() {
 
 	new L.Control.Fullscreen().addTo(map);
 
-	L.easyButton('fa-globe', function(){
+	L.easyButton('fa-bullseye', function(){
     GPS();
 }).addTo( map );
 
