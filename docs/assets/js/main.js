@@ -413,6 +413,7 @@ $("#tn").hide();
 $("#th").hide();
 $("#ds").hide();
 $("#eq").hide();
+map_ini2();
 
 def();
 
