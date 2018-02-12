@@ -50,6 +50,7 @@ function ai_ini() {
   		}).addTo(map);
 
    map.setView([35.067, 137.189], 9);
+
    Geost();
    Geok();
    Geoo();
