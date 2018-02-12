@@ -54,6 +54,8 @@ function ai_ini() {
    Geok();
    Geoo();
 
+	new L.Control.Fullscreen().addTo(map);
+
 /*L.Routing.control({
   waypoints: [
     L.latLng(35.067, 137.189),
