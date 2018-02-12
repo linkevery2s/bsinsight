@@ -55,12 +55,6 @@ function ai_ini() {
    Geok();
    Geoo();
 
-	new L.Control.Fullscreen().addTo(map);
-
-	L.easyButton('fa-bullseye', function(){
-    GPS();
-}).addTo( map );
-
 }
 
 function ho_ini() {
@@ -527,35 +521,13 @@ function mapi(){
 	Geoo();
 }
 
-function st_checked(){
-	if(document.getElementById("st").checked){
-		Geost();
-	}
-	else{
-		map.removeLayer(geost);
-	}
-}
-
-function k_checked(){
-	if(document.getElementById("k").checked){
-		Geok();
-	}
-	else{
-		map.removeLayer(geok);
-	}
-}
-
-function o_checked(){
-	if(document.getElementById("o").checked){
-		Geoo();
-	}
-	else{
-		map.removeLayer(geoo);
-	}
-}
-
 function Geost(){
-		geost = L.geoJson(st, {
+
+			L.easyButton('fa-bullseye', function(){
+    			GPS();
+			}).addTo( map );
+
+			geost = L.geoJson(st, {
 
 			style: function (feature) {
 				return feature.properties && feature.properties.style;
@@ -711,14 +683,44 @@ function rn(){
 		location.href = "../index.html#refuge";
 }
 
+var a = 0; var way1; var way2;
+
 function test(x,y){
 
-L.Routing.control({
+
+if(a == 0){
+
+way1 = L.Routing.control({
   waypoints: [
     L.latLng(ido, keido),
     L.latLng(x , y)
   ],
-    routeWhileDragging: true
-}).addTo(map);
+    routeWhileDragging: false,
+});
+
+way1.onAdd(map);
+
+ a = 1;
+ 
+ way2.onRemove(map);
+
+}
+else{
+
+	way1.onRemove(map);
+	a = 0;
+
+way2 = L.Routing.control({
+  waypoints: [
+    L.latLng(ido, keido),
+    L.latLng(x , y)
+  ],
+    routeWhileDragging: false,
+});
+
+way2.onAdd(map);
+
+}
+
 
 }
