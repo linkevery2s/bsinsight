@@ -54,13 +54,11 @@ function ai_ini() {
    Geok();
    Geoo();
 
-/*L.Routing.control({
-  waypoints: [
-    L.latLng(35.067, 137.189),
-    L.latLng(35.167, 137.189)
-  ],
-    routeWhileDragging: true
-}).addTo(map);*/
+	new L.Control.Fullscreen().addTo(map);
+
+	L.easyButton('fa-globe', function(){
+    GPS();
+}).addTo( map );
 
 }
 
