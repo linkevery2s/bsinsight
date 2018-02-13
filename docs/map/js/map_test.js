@@ -670,7 +670,11 @@ function gps_get(position) {
     ido = position.coords.latitude;
     keido = position.coords.longitude;
     map.setView([ido, keido], 15);
+
+map.removeLayer(marker);
+
 		var pulsingIcon = L.icon.pulse({iconSize:[12,12],color:'blue'});
+
 		var marker = L.marker([ido, keido] ,{icon: pulsingIcon}).addTo(map);
 
 }
