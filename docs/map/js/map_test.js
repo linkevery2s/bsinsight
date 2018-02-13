@@ -674,9 +674,9 @@ function gps_get(position) {
     map.setView([ido, keido], 15);
 
 if(b == 1){
-map.removeLayer(marker);
 b=0;
 alert("ルート検索");
+marker.onRemove(map);
 }
 else{
 }
