@@ -676,9 +676,11 @@ function gps_get(position) {
 if(b == 0){
 }
 else{
-}
+
 alert("ルート22検索");
 marker.onRemove(map);
+
+}
 
 		var pulsingIcon = L.icon.pulse({iconSize:[12,12],color:'blue'});
 
