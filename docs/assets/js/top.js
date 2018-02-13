@@ -160,7 +160,7 @@ function def(){
 		$("#yure").hide();
 		$("#home").hide();
 }
-
+/*
 function h_map(){
 
 	if(document.getElementById("to-category").value == "hokkaido"){
@@ -306,9 +306,9 @@ function h_map(){
 	}
 	else{
 	}
-}
+} */
 
-/*
+
 function h_map(){
 
 	if(document.getElementById("to-category").value == "hokkaido"){
@@ -454,7 +454,7 @@ function h_map(){
 	}
 	else{
 	}
-}*/
+}
 
 
 function ty(){
