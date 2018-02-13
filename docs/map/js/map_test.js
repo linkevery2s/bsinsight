@@ -677,7 +677,7 @@ if(b == 0){
 }
 else{
 
-alert("ルート22検索");
+alert("ルート22");
 marker.onRemove(map);
 
 }
