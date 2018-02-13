@@ -676,11 +676,11 @@ function gps_get(position) {
 if(b == 1){
 map.removeLayer(marker);
 b=0;
-alert(“11”);
+alert("ルート検索");
 }
 else{
 }
-alert(“44”);
+alert("ルート22検索");
 
 		var pulsingIcon = L.icon.pulse({iconSize:[12,12],color:'blue'});
 
