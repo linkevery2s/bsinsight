@@ -666,21 +666,19 @@ function GPS(){
      }
 }
 
-var b;
+var b = 0;
 
 function gps_get(position) {
     ido = position.coords.latitude;
     keido = position.coords.longitude;
     map.setView([ido, keido], 15);
 
-if(b == 1){
-b=0;
-alert("ルート検索");
-marker.onRemove(map);
+if(b == 0){
 }
 else{
 }
 alert("ルート22検索");
+marker.onRemove(map);
 
 		var pulsingIcon = L.icon.pulse({iconSize:[12,12],color:'blue'});
 
