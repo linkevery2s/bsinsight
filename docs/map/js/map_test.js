@@ -676,9 +676,11 @@ function gps_get(position) {
 if(b == 1){
 map.removeLayer(marker);
 b=0;
+alert(“11”);
 }
 else{
 }
+alert(“44”);
 
 		var pulsingIcon = L.icon.pulse({iconSize:[12,12],color:'blue'});
 
