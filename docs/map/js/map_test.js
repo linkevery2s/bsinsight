@@ -666,16 +666,25 @@ function GPS(){
      }
 }
 
+var b;
+
 function gps_get(position) {
     ido = position.coords.latitude;
     keido = position.coords.longitude;
     map.setView([ido, keido], 15);
 
+if(b == 1){
 map.removeLayer(marker);
+b=0;
+}
+else{
+}
 
 		var pulsingIcon = L.icon.pulse({iconSize:[12,12],color:'blue'});
 
 		var marker = L.marker([ido, keido] ,{icon: pulsingIcon}).addTo(map);
+
+b=1;
 
 }
 
