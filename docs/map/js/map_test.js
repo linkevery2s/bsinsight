@@ -673,20 +673,9 @@ function gps_get(position) {
     keido = position.coords.longitude;
     map.setView([ido, keido], 15);
 
-if(b == 0){
-}
-else{
-
-marker.onRemove(map);
-alert("1");
-
-}
-
 		var pulsingIcon = L.icon.pulse({iconSize:[12,12],color:'blue'});
 
 		var marker = L.marker([ido, keido] ,{icon: pulsingIcon}).addTo(map);
-
-b=1;
 
 }
 
