@@ -690,7 +690,7 @@ marker2 = L.marker([ido, keido] ,{icon: pulsingIcon}).addTo(map);
 
 b=0;
 
-}
+}}
 
 function gps_error(error) {
        alert("エラーが発生したので、現在地を取得できませんでした。");
