@@ -675,7 +675,7 @@ function gps_get(position) {
 
 		var pulsingIcon = L.icon.pulse({iconSize:[12,12],color:'blue'});
 
-if( b==0 ){
+if( b == 0 ){
 		marker1 = L.marker([ido, keido] ,{icon: pulsingIcon}).addTo(map);
 
 b=1;
@@ -690,7 +690,8 @@ marker2 = L.marker([ido, keido] ,{icon: pulsingIcon}).addTo(map);
 
 b=0;
 
-}}
+}
+}
 
 function gps_error(error) {
        alert("エラーが発生したので、現在地を取得できませんでした。");
