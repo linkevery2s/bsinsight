@@ -695,7 +695,7 @@ function GPS(){
      }
 }
 
-var b;
+var b = 0; var marker1;var marker2;
 
 function gps_get(position) {
     ido = position.coords.latitude;
@@ -703,7 +703,23 @@ function gps_get(position) {
     map.setView([ido, keido], 15);
 
 		var pulsingIcon = L.icon.pulse({iconSize:[12,12],color:'blue'});
-		var marker = L.marker([ido, keido] ,{icon: pulsingIcon}).addTo(map);
+
+if( b == 0 ){
+		marker1 = L.marker([ido, keido] ,{icon: pulsingIcon}).addTo(map);
+
+b=1;
+
+marker2.onRemove(map);
+
+}
+else{
+marker1.onRemove(map);
+
+marker2 = L.marker([ido, keido] ,{icon: pulsingIcon}).addTo(map);
+
+b=0;
+
+}
 
 }
 
