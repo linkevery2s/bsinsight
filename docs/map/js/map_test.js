@@ -675,7 +675,20 @@ function gps_get(position) {
 
 		var pulsingIcon = L.icon.pulse({iconSize:[12,12],color:'blue'});
 
-		var marker = L.marker([ido, keido] ,{icon: pulsingIcon}).addTo(map);
+if( b==0 ){
+		var marker1 = L.marker([ido, keido] ,{icon: pulsingIcon}).addTo(map);
+
+b=1;
+
+marker2.onRemove(map);
+
+}
+else{
+marker1.onRemove(map);
+
+var marker2 = L.marker([ido, keido] ,{icon: pulsingIcon}).addTo(map);
+
+b=0;
 
 }
 
