@@ -708,6 +708,8 @@ function test(x,y){
 
 if(a == 0){
 
+map.closePopup();
+
 way1 = L.Routing.control({
   waypoints: [
     L.latLng(ido, keido),
