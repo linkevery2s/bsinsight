@@ -705,10 +705,9 @@ var a = 0; var way1; var way2;
 
 function test(x,y){
 
+map.closePopup();
 
 if(a == 0){
-
-map.closePopup();
 
 way1 = L.Routing.control({
   waypoints: [
