@@ -521,10 +521,16 @@ function mapi(){
 	Geoo();
 }
 
+var return_button; var gps_button;
+
 function Geost(){
 
-			L.easyButton('fa-bullseye', function(){
+			gps_button = L.easyButton('fa-bullseye', function(){
     			GPS();
+			}).addTo( map );
+
+			return_button = L.easyButton('fa-undo', function(){
+    			rn();
 			}).addTo( map );
 
 			geost = L.geoJson(st, {
