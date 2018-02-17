@@ -525,14 +525,6 @@ var return_button; var gps_button;
 
 function Geost(){
 
-			gps_button = L.easyButton('fa-bullseye', function(){
-    			GPS();
-			}).addTo( map );
-
-			return_button = L.easyButton('fa-undo', function(){
-    			rn();
-			}).addTo( map );
-
 			geost = L.geoJson(st, {
 
 			style: function (feature) {
@@ -579,7 +571,16 @@ function geo_st(feature, layer) {
 }
 
 function Geok(){
-		geok = L.geoJson(k, {
+
+			gps_button = L.easyButton('fa-bullseye', function(){
+    			GPS();
+			}).addTo( map );
+
+			return_button = L.easyButton('fa-undo', function(){
+    			rn();
+			}).addTo( map );
+
+			geok = L.geoJson(k, {
 
 			style: function (feature) {
 				return feature.properties && feature.properties.style;
