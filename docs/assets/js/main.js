@@ -416,8 +416,7 @@ $("#eq").hide();
 
 def();
 
-document.getElementById("amemap").innerHTML = '<iframe src="map/yame.html" width="100%" height="500px" frameborder="no" scrolling="no"></iframe>';
-
+ymapload();
 
 var os, ua = navigator.userAgent;
 
@@ -430,6 +429,12 @@ else if (ua.match(/Android ([\.\d]+)/)) {
 else {
 	$("#keitai").hide();
 }
+
+}
+
+function ymapload(){
+
+document.getElementById("amemap").innerHTML = '<iframe src="map/yame.html" width="100%" height="500px" frameborder="no" scrolling="no"></iframe>';
 
 }
 
