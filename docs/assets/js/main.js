@@ -428,6 +428,8 @@ else {
 	$("#keitai").hide();
 }
 
+document.getElementById("amemap").innerHTML = '<iframe src="map/yame.html" width="100%" height="500px" frameborder="yes" scrolling="yes"></iframe>';
+
 }
 
 function eq(){
