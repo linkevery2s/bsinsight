@@ -416,8 +416,6 @@ $("#eq").hide();
 
 def();
 
-//ymapload();
-
 var os, ua = navigator.userAgent;
 
 if (ua.match(/iPhone|iPad/)) {
@@ -434,7 +432,7 @@ else {
 
 function ymapload(){
 
-//document.getElementById("amemap").innerHTML = '<iframe src="map/yame.html" width="100%" height="500px" frameborder="no" scrolling="no"></iframe>';
+document.getElementById("amemap").innerHTML = '<iframe src="map/yame.html" width="100%" height="500px" frameborder="no" scrolling="no"></iframe>';
 
 }
 
