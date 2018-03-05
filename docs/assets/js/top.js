@@ -1,11 +1,13 @@
 function line(){
 	var url = window.location.href;
-	location.href = "line://msg/text/"+ url;
+	var hash = url.split("#",2);
+	location.href = "line://msg/text/"+ hash[0] + "%23";
 }
 
 function mail(){
 	var url = window.location.href;
-	location.href =  "mailto:?body=" + url;
+	var hash = url.split("#",2);
+	location.href =  "mailto:?body=" + hash[0] + "%23";
 }
 
 function tw(){
