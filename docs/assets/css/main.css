@@ -2484,3 +2484,7 @@ h3{
 #rss_li a{border-bottom: none !important;}
 
 #mln{ cursor: pointer; }
+
+#feed a{
+	width: 100%;
+}
