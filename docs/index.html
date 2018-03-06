@@ -1851,11 +1851,8 @@
 <h3><i class="fa fa-cube" aria-hidden="true"></i>気象庁ＲＳＳ配信</h3>
 
 気象庁のＲＳＳ配信です。
-						<div class="table-wrapper">
-						<table class="alt">
-							<div id="feed"></div>
-						</table></div>
-
+<br><br>						
+							<div id="feed"></div><br>
 
 							</article>
 
@@ -2154,7 +2151,7 @@
 <br><br>
 
 <span style="cursor: pointer"><img src ="images/mail.png" border ="0" width='82px' height='20px' alt="メールで送る" onclick="mail();"></span>
-
+<br>
 
 </article>
 
@@ -2228,7 +2225,7 @@
         var title = entry.title;//記事タイトル
         var link = entry.link; //記事へのリンク
         //タイトルを挿入
-        $('#feed').append("<tr><td><a href='" + link  +"' target='_blank'>"+ title +"</a></td></tr>"); 
+        $('#feed').append("<li><a href='" + link  +"' target='_blank'>"+ title +"</a></li>"); 
       }
     });
   });

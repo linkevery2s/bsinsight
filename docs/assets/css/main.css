@@ -2487,4 +2487,25 @@ h3{
 
 #feed a{
 	width: 100%;
+	text-decoration: none !important;
+	border-bottom: none !important;
 }
+
+#feed li{
+	display: block;
+	height: 50px;
+	line-height: 25px;
+	border: solid #b2b2b2;
+	border-width: 2px 0 0 0;
+	padding-left: 3px;
+}
+
+#feed li:last-child{
+		/*最後のリンクに下線を付ける*/
+		border-bottom-width: 2px;
+}
+
+#feed li:nth-child(odd) {
+    background-color: rgba(255, 255, 255, 0.075);
+}
+
