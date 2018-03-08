@@ -2227,8 +2227,15 @@
         var link = entry.link; //記事へのリンク
 var date = entry.pubDate;
 var hi = new Date(date);
+
+var y = hi.getFullYear();
+			var m = hi.getMonth() + 1;
+			var d = hi.getDate();
+			m = ('0' + m).slice(-2);
+			d = ('0' + d).slice(-2);
+
         //タイトルを挿入
-        $('#feed').append("<li><a href='" + link  +"' target='_blank'>" + hi.getFullYear() + hi.getMonth() + " " + title +"</a></li>"); 
+        $('#feed').append("<li><a href='" + link  +"' target='_blank'>" + y + "年" + m + "月" + d + "日" + " " + title +"</a></li>"); 
       }
     });
   });
