@@ -2500,6 +2500,8 @@ h3{
 	padding-left: 3px;
    overflow: hidden;
    text-overflow: ellipsis;
+   width: 100%;
+   white-space: nowrap; 
 }
 
 #feed li:last-child{
