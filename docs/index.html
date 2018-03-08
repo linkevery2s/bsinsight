@@ -2225,7 +2225,7 @@
         var entry = json.query.results.item[i];
         var title = entry.title;//記事タイトル
         var link = entry.link; //記事へのリンク
-var date = entry.pubdate;
+var date = entry.pubDate;
         //タイトルを挿入
         $('#feed').append("<li><a href='" + link  +"' target='_blank'>"+ date + " " + title +"</a></li>"); 
       }
