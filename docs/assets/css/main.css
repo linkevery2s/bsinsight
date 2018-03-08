@@ -2501,7 +2501,7 @@ h3{
    overflow: hidden;
    text-overflow: ellipsis;
    //width: 100%;
-   white-space: nowrap; 
+   //white-space: nowrap; 
 }
 
 #feed li:last-child{
