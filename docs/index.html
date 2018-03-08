@@ -2226,9 +2226,9 @@
         var title = entry.title;//記事タイトル
         var link = entry.link; //記事へのリンク
 var date = entry.pubDate;
-var NewPubDate = new Date(date);
+var hi = new Date(date);
         //タイトルを挿入
-        $('#feed').append("<li><a href='" + link  +"' target='_blank'>" + date.getFullYear() + " " + title +"</a></li>"); 
+        $('#feed').append("<li><a href='" + link  +"' target='_blank'>" + hi.getFullYear() + hi.getMonth() + " " + title +"</a></li>"); 
       }
     });
   });
