@@ -2228,8 +2228,8 @@
 var date = entry.pubDate;
 var NewPubDate = new Date(date);
         //タイトルを挿入
-        $('#feed').append("<li><a href='" + link  +"' target='_blank'>"+ NewPubDate.getFullYear() + "年" + NewPubDate.getMonth() + "月" + 
-          NewPubDate.getDay() + "日" + " " + title +"</a></li>"); 
+        $('#feed').append("<li><a href='" + link  +"' target='_blank'>"+ /*NewPubDate.getFullYear() + "年" + NewPubDate.getMonth() + "月" + 
+          NewPubDate.getDay() + "日" */ + date + " " + title +"</a></li>"); 
       }
     });
   });
