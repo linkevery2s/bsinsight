@@ -2228,7 +2228,7 @@
 var date = entry.pubDate;
 var NewPubDate = new Date(date);
         //タイトルを挿入
-        $('#feed').append("<li><a href='" + link  +"' target='_blank'>" + date + " " + title +"</a></li>"); 
+        $('#feed').append("<li><a href='" + link  +"' target='_blank'>" + date.getFullYear() + " " + title +"</a></li>"); 
       }
     });
   });
