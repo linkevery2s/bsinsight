@@ -50,19 +50,10 @@ function ai_ini() {
   		}).addTo(map);
 
    map.setView([35.067, 137.189], 9);
+
    Geost();
    Geok();
    Geoo();
-
-	new L.Control.Fullscreen().addTo(map);
-
-/*L.Routing.control({
-  waypoints: [
-    L.latLng(35.067, 137.189),
-    L.latLng(35.167, 137.189)
-  ],
-    routeWhileDragging: true
-}).addTo(map);*/
 
 }
 
@@ -530,35 +521,11 @@ function mapi(){
 	Geoo();
 }
 
-function st_checked(){
-	if(document.getElementById("st").checked){
-		Geost();
-	}
-	else{
-		map.removeLayer(geost);
-	}
-}
-
-function k_checked(){
-	if(document.getElementById("k").checked){
-		Geok();
-	}
-	else{
-		map.removeLayer(geok);
-	}
-}
-
-function o_checked(){
-	if(document.getElementById("o").checked){
-		Geoo();
-	}
-	else{
-		map.removeLayer(geoo);
-	}
-}
+var return_button; var gps_button;
 
 function Geost(){
-		geost = L.geoJson(st, {
+
+			geost = L.geoJson(st, {
 
 			style: function (feature) {
 				return feature.properties && feature.properties.style;
@@ -596,15 +563,24 @@ function geo_st(feature, layer) {
     	popup += '<br>収容人数：' + feature.properties.Capacity;
     }
     
-	popup += '<br><a href="https://maps.google.co.jp/maps?daddr=' + feature.properties.la + "," + feature.properties.ln + '" target="_blank">Google マップでルート検索</a>'
+	//popup += '<br><a href="https://maps.google.co.jp/maps?daddr=' + feature.properties.la + "," + feature.properties.ln + '" target="_blank">Google マップでルート検索</a>'
     
-    //popup += '<br><a href = "javascript:void(0);" onclick = "test(' + feature.properties.la + "," + feature.properties.ln + ')">' + "ルート検索" + "</a>";
+    popup += '<br><a href = "javascript:void(0);" onclick = "test(' + feature.properties.la + "," + feature.properties.ln + ')">' + "ルート検索" + "</a>";
     
     layer.bindPopup(popup);
 }
 
 function Geok(){
-		geok = L.geoJson(k, {
+
+			gps_button = L.easyButton('fa-bullseye', function(){
+    			GPS();
+			}).addTo( map );
+
+			return_button = L.easyButton('fa-undo', function(){
+    			rn();
+			}).addTo( map );
+
+			geok = L.geoJson(k, {
 
 			style: function (feature) {
 				return feature.properties && feature.properties.style;
@@ -641,7 +617,8 @@ function geo_k(feature, layer) {
     	popup += '<br>収容人数：' + feature.properties.Capacity;
     }
     
-	popup += '<br><a href="https://maps.google.co.jp/maps?daddr=' + feature.properties.la + "," + feature.properties.ln + '" target="_blank">Google マップでルート検索</a>'
+    popup += '<br><a href = "javascript:void(0);" onclick = "test(' + feature.properties.la + "," + feature.properties.ln + ')">' + "ルート検索" + "</a>";
+
     layer.bindPopup(popup);
 }
 
@@ -683,7 +660,8 @@ function geo_o(feature, layer) {
     	popup += '<br>収容人数：' + feature.properties.Capacity;
     }
     
-	popup += '<br><a href="https://maps.google.co.jp/maps?daddr=' + feature.properties.la + "," + feature.properties.ln + '" target="_blank">Google マップでルート検索</a>'
+    popup += '<br><a href = "javascript:void(0);" onclick = "test(' + feature.properties.la + "," + feature.properties.ln + ')">' + "ルート検索" + "</a>";
+
     layer.bindPopup(popup);
 }
 
@@ -691,11 +669,11 @@ function GPS(){
 	if (navigator.geolocation) {
        navigator.geolocation.getCurrentPosition(gps_get,gps_error);
      } else {
-       alert("エラーが発生したので、現在地を取得できませんでした。");      
+       alert("エラーが発生したので、現在地を取得できませんでした。");  
      }
 }
 
-var b = 0; var marker1;var marker2;
+var b = 0;var marker1;var marker2;
 
 function gps_get(position) {
     ido = position.coords.latitude;
@@ -720,7 +698,6 @@ marker2 = L.marker([ido, keido] ,{icon: pulsingIcon}).addTo(map);
 b=0;
 
 }
-
 }
 
 function gps_error(error) {
@@ -731,14 +708,45 @@ function rn(){
 		location.href = "../index.html#refuge";
 }
 
+var a = 0; var way1; var way2;
+
 function test(x,y){
 
-L.Routing.control({
+map.closePopup();
+
+if(a == 0){
+
+way1 = L.Routing.control({
   waypoints: [
     L.latLng(ido, keido),
     L.latLng(x , y)
   ],
-    routeWhileDragging: true
-}).addTo(map);
+    routeWhileDragging: false,
+});
+
+way1.onAdd(map);
+
+ a = 1;
+ 
+ way2.onRemove(map);
+
+}
+else{
+
+	way1.onRemove(map);
+	a = 0;
+
+way2 = L.Routing.control({
+  waypoints: [
+    L.latLng(ido, keido),
+    L.latLng(x , y)
+  ],
+    routeWhileDragging: false,
+});
+
+way2.onAdd(map);
+
+}
+
 
 }
