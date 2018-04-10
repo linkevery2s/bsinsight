@@ -670,7 +670,6 @@ function GPS(){
        navigator.geolocation.getCurrentPosition(gps_get,gps_error);
      } else {
        alert("エラーが発生したので、現在地を取得できませんでした。");  
-	exit function;
      }
 }
 
@@ -703,7 +702,6 @@ b=0;
 
 function gps_error(error) {
        alert("エラーが発生したので、現在地を取得できませんでした。");
-	exit function;
 }
 
 function rn(){
