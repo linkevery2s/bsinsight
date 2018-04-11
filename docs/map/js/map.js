@@ -572,7 +572,8 @@ function geo_st(feature, layer) {
 
 function Geok(){
 
-			gps_button = L.easyButton('fa-bullseye', function(){
+			gps_button = L.easyButton('fa-
+location-arrow', function(){
     			GPS();
 			}).addTo( map );
 
