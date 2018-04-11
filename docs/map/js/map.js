@@ -714,6 +714,12 @@ function test(x,y){
 
 map.closePopup();
 
+if(ido == "undefined"){
+navigator.geolocation.getCurrentPosition(gps_get,gps_error);
+}
+else{}
+
+
 if(a == 0){
 
 way1 = L.Routing.control({
