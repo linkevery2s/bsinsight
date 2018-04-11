@@ -714,7 +714,7 @@ function test(x,y){
 
 map.closePopup();
 
-if(ido == "undefined"){
+if(ido === undefined){
 navigator.geolocation.getCurrentPosition(gps_get,gps_error);
 }
 else{}
