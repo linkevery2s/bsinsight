@@ -714,7 +714,7 @@ function test(x,y){
 
 map.closePopup();
 
-alert(ido);
+alert(L.latLng(ido, keido));
 
 if(a == 0){
 
