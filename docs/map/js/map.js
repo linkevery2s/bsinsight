@@ -714,12 +714,11 @@ function test(x,y){
 
 map.closePopup();
 
-if(typeof ido === "undefined"){
-navigator.geolocation.getCurrentPosition(gps_get,gps_error);
-}
-else{}
+//if(typeof ido === "undefined"){
+//navigator.geolocation.getCurrentPosition(gps_get,gps_error);
+//}
+//else{}
 
-alert(L.latLng(ido, keido));
 
 if(a == 0){
 
