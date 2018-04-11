@@ -719,6 +719,7 @@ navigator.geolocation.getCurrentPosition(gps_get,gps_error);
 }
 else{}
 
+alert(L.latLng(ido, keido));
 
 if(a == 0){
 
