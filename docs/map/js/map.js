@@ -714,25 +714,6 @@ function test(x,y){
 
 map.closePopup();
 
-if(typeof ido === "undefined"){
-	
-navigator.geolocation.getCurrentPosition(function(position) {
-   ido = position.coords.latitude;
-    keido = position.coords.longitude;
-    map.setView([ido, keido], 15);
-
-var pulsingIcon = L.icon.pulse({iconSize:[12,12],color:'blue'});
-
-marker1 = L.marker([ido, keido] ,{icon: pulsingIcon}).addTo(map);
-
-b = 1;
-
-});
-	
-}
-else{}
-
-
 if(a == 0){
 
 way1 = L.Routing.control({
