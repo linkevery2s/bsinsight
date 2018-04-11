@@ -714,8 +714,6 @@ function test(x,y){
 
 map.closePopup();
 
-alert(L.latLng(ido, keido));
-
 if(a == 0){
 
 way1 = L.Routing.control({
