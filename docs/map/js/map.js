@@ -1,4 +1,4 @@
-var map; var ido; var keido; var hash;
+var map; var ido; var keido;
 
 function ame_ini() {
 
@@ -50,7 +50,7 @@ function ai_ini() {
   		}).addTo(map);
 
    map.setView([35.067, 137.189], 9);
-	hash = new L.Hash(map);
+
    Geost();
    Geok();
    Geoo();
