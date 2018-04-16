@@ -1,4 +1,4 @@
-var map; var ido; var keido;
+var map; var ido; var keido; var hash;
 
 function ame_ini() {
 
@@ -44,21 +44,30 @@ var rainmap = new L.YimgTileLayer('http://weather.map.c.yimg.jp/weather?x={x}&y=
 }
 
 function ai_ini() {
-   map = new L.Map('map');                       
+   map = new L.Map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
 
    map.setView([35.067, 137.189], 9);
-
    Geost();
    Geok();
    Geoo();
 
+	new L.Control.Fullscreen().addTo(map);
+
+/*L.Routing.control({
+  waypoints: [
+    L.latLng(35.067, 137.189),
+    L.latLng(35.167, 137.189)
+  ],
+    routeWhileDragging: true
+}).addTo(map);*/
+
 }
 
 function ho_ini() {
-    map = new L.Map('map');                       
+    map = new L.Map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
@@ -67,7 +76,7 @@ function ho_ini() {
 }
 
 function ku_ini() {
-    map = new L.Map('map');                       
+    map = new L.Map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
@@ -78,7 +87,7 @@ function ku_ini() {
 }
 
 function ao_ini() {
-    map = new L.Map('map');                       
+    map = new L.Map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
@@ -87,7 +96,7 @@ function ao_ini() {
 }
 
 function iw_ini() {
-    map = new L.Map('map');                       
+    map = new L.Map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
@@ -96,7 +105,7 @@ function iw_ini() {
 }
 
 function ak_ini() {
-    map = new L.Map('map');                       
+    map = new L.Map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
@@ -106,7 +115,7 @@ function ak_ini() {
    Geoo();}
 
 function my_ini() {
-    map = new L.Map('map');                       
+    map = new L.Map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
@@ -116,7 +125,7 @@ function my_ini() {
    Geoo();}
 
 function yg_ini() {
-    map = new L.Map('map');                       
+    map = new L.Map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
@@ -126,7 +135,7 @@ function yg_ini() {
    Geoo();}
 
 function fk_ini() {
-    map = new L.Map('map');                       
+    map = new L.Map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
@@ -136,7 +145,7 @@ function fk_ini() {
    Geoo();}
 
 function ni_ini() {
-    map = new L.Map('map');                       
+    map = new L.Map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
@@ -146,7 +155,7 @@ function ni_ini() {
    Geoo();}
 
 function mi_ini() {
-    map = new L.Map('map');                       
+    map = new L.Map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
@@ -156,7 +165,7 @@ function mi_ini() {
    Geoo();}
 
 function ib_ini() {
-    map = new L.Map('map');                       
+    map = new L.Map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
@@ -166,7 +175,7 @@ function ib_ini() {
    Geoo();}
 
 function ok_ini() {
-    map = new L.Map('map');                       
+    map = new L.Map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
@@ -176,7 +185,7 @@ function ok_ini() {
    Geoo();}
 
 function ti_ini() {
-    map = new L.Map('map');                       
+    map = new L.Map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
@@ -186,7 +195,7 @@ function ti_ini() {
    Geoo();}
 
 function fo_ini() {
-    map = new L.Map('map');                       
+    map = new L.Map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
@@ -196,7 +205,7 @@ function fo_ini() {
    Geoo();}
 
 function tc_ini() {
-    map = new L.Map('map');                       
+    map = new L.Map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
@@ -206,7 +215,7 @@ function tc_ini() {
    Geoo();}
 
 function gu_ini() {
-    map = new L.Map('map');                       
+    map = new L.Map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
@@ -216,7 +225,7 @@ function gu_ini() {
    Geoo();}
 
 function si_ini() {
-    map = new L.Map('map');                       
+    map = new L.Map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
@@ -226,7 +235,7 @@ function si_ini() {
    Geoo();}
 
 function tk_ini() {
-    map = new L.Map('map');                       
+    map = new L.Map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
@@ -236,7 +245,7 @@ function tk_ini() {
    Geoo();}
 
 function kn_ini() {
-    map = new L.Map('map');                       
+    map = new L.Map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
@@ -246,7 +255,7 @@ function kn_ini() {
    Geoo();}
 
 function yn_ini() {
-    map = new L.Map('map');                       
+    map = new L.Map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
@@ -256,7 +265,7 @@ function yn_ini() {
    Geoo();}
 
 function gi_ini() {
-    map = new L.Map('map');                       
+    map = new L.Map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
@@ -266,7 +275,7 @@ function gi_ini() {
    Geoo();}
 
 function ty_ini() {
-    map = new L.Map('map');                       
+    map = new L.Map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
@@ -276,7 +285,7 @@ function ty_ini() {
    Geoo();}
 
 function ng_ini() {
-    map = new L.Map('map');                       
+    map = new L.Map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
@@ -286,7 +295,7 @@ function ng_ini() {
    Geoo();}
 
 function sz_ini() {
-    map = new L.Map('map');                       
+    map = new L.Map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
@@ -296,7 +305,7 @@ function sz_ini() {
    Geoo();}
 
 function is_ini() {
-    map = new L.Map('map');                       
+    map = new L.Map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
@@ -306,7 +315,7 @@ function is_ini() {
    Geoo();}
 
 function fi_ini() {
-    map = new L.Map('map');                       
+    map = new L.Map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
@@ -316,7 +325,7 @@ function fi_ini() {
    Geoo();}
 
 function sg_ini() {
-    map = new L.Map('map');                       
+    map = new L.Map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
@@ -326,7 +335,7 @@ function sg_ini() {
    Geoo();}
 
 function nr_ini() {
-    map = new L.Map('map');                       
+    map = new L.Map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
@@ -336,7 +345,7 @@ function nr_ini() {
    Geoo();}
 
 function wk_ini() {
-    map = new L.Map('map');                       
+    map = new L.Map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
@@ -346,7 +355,7 @@ function wk_ini() {
    Geoo();}
 
 function kt_ini() {
-    map = new L.Map('map');                       
+    map = new L.Map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
@@ -356,7 +365,7 @@ function kt_ini() {
    Geoo();}
 
 function os_ini() {
-    map = new L.Map('map');                       
+    map = new L.Map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
@@ -366,7 +375,7 @@ function os_ini() {
    Geoo();}
 
 function hg_ini() {
-    map = new L.Map('map');                       
+    map = new L.Map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
@@ -376,7 +385,7 @@ function hg_ini() {
    Geoo();}
 
 function tt_ini() {
-    map = new L.Map('map');                       
+    map = new L.Map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
@@ -386,7 +395,7 @@ function tt_ini() {
    Geoo();}
 
 function hi_ini() {
-    map = new L.Map('map');                       
+    map = new L.Map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
@@ -396,7 +405,7 @@ function hi_ini() {
    Geoo();}
 
 function sm_ini() {
-    map = new L.Map('map');                       
+    map = new L.Map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
@@ -406,7 +415,7 @@ function sm_ini() {
    Geoo();}
 
 function yc_ini() {
-    map = new L.Map('map');                       
+    map = new L.Map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
@@ -416,7 +425,7 @@ function yc_ini() {
    Geoo();}
 
 function kg_ini() {
-    map = new L.Map('map');                       
+    map = new L.Map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
@@ -426,7 +435,7 @@ function kg_ini() {
    Geoo();}
 
 function kc_ini() {
-    map = new L.Map('map');                       
+    map = new L.Map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
@@ -436,7 +445,7 @@ function kc_ini() {
    Geoo();}
 
 function eh_ini() {
-    map = new L.Map('map');                       
+    map = new L.Map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
@@ -446,7 +455,7 @@ function eh_ini() {
    Geoo();}
 
 function ts_ini() {
-    map = new L.Map('map');                       
+    map = new L.Map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
@@ -456,7 +465,7 @@ function ts_ini() {
    Geoo();}
 
 function ns_ini() {
-    map = new L.Map('map');                       
+    map = new L.Map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
@@ -466,7 +475,7 @@ function ns_ini() {
    Geoo();}
 
 function sa_ini() {
-    map = new L.Map('map');                       
+    map = new L.Map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
@@ -476,7 +485,7 @@ function sa_ini() {
    Geoo();}
 
 function oi_ini() {
-    map = new L.Map('map');                       
+    map = new L.Map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
@@ -486,7 +495,7 @@ function oi_ini() {
    Geoo();}
 
 function mz_ini() {
-    map = new L.Map('map');                       
+    map = new L.Map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
@@ -496,7 +505,7 @@ function mz_ini() {
    Geoo();}
 
 function ks_ini() {
-    map = new L.Map('map');                       
+    map = new L.Map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
@@ -506,7 +515,7 @@ function ks_ini() {
    Geoo();}
 
 function on_ini() {
-    map = new L.Map('map');                       
+    map = new L.Map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
@@ -521,11 +530,35 @@ function mapi(){
 	Geoo();
 }
 
-var return_button; var gps_button;
+function st_checked(){
+	if(document.getElementById("st").checked){
+		Geost();
+	}
+	else{
+		map.removeLayer(geost);
+	}
+}
+
+function k_checked(){
+	if(document.getElementById("k").checked){
+		Geok();
+	}
+	else{
+		map.removeLayer(geok);
+	}
+}
+
+function o_checked(){
+	if(document.getElementById("o").checked){
+		Geoo();
+	}
+	else{
+		map.removeLayer(geoo);
+	}
+}
 
 function Geost(){
-
-			geost = L.geoJson(st, {
+		geost = L.geoJson(st, {
 
 			style: function (feature) {
 				return feature.properties && feature.properties.style;
@@ -563,24 +596,15 @@ function geo_st(feature, layer) {
     	popup += '<br>収容人数：' + feature.properties.Capacity;
     }
     
-	//popup += '<br><a href="https://maps.google.co.jp/maps?daddr=' + feature.properties.la + "," + feature.properties.ln + '" target="_blank">Google マップでルート検索</a>'
+	popup += '<br><a href="https://maps.google.co.jp/maps?daddr=' + feature.properties.la + "," + feature.properties.ln + '" target="_blank">Google マップでルート検索</a>'
     
-    popup += '<br><a href = "javascript:void(0);" onclick = "test(' + feature.properties.la + "," + feature.properties.ln + ')">' + "ルート検索" + "</a>";
+    //popup += '<br><a href = "javascript:void(0);" onclick = "test(' + feature.properties.la + "," + feature.properties.ln + ')">' + "ルート検索" + "</a>";
     
     layer.bindPopup(popup);
 }
 
 function Geok(){
-
-			gps_button = L.easyButton("fa-location-arrow", function(){
-    			GPS();
-			}).addTo( map );
-
-			return_button = L.easyButton('fa-undo', function(){
-    			rn();
-			}).addTo( map );
-
-			geok = L.geoJson(k, {
+		geok = L.geoJson(k, {
 
 			style: function (feature) {
 				return feature.properties && feature.properties.style;
@@ -601,6 +625,8 @@ function Geok(){
 		});
 		
 		map.addLayer(geok);
+		hash = L.hash(map);
+		
 }
 
 function geo_k(feature, layer) {
@@ -617,8 +643,7 @@ function geo_k(feature, layer) {
     	popup += '<br>収容人数：' + feature.properties.Capacity;
     }
     
-    popup += '<br><a href = "javascript:void(0);" onclick = "test(' + feature.properties.la + "," + feature.properties.ln + ')">' + "ルート検索" + "</a>";
-
+	popup += '<br><a href="https://maps.google.co.jp/maps?daddr=' + feature.properties.la + "," + feature.properties.ln + '" target="_blank">Google マップでルート検索</a>'
     layer.bindPopup(popup);
 }
 
@@ -660,8 +685,7 @@ function geo_o(feature, layer) {
     	popup += '<br>収容人数：' + feature.properties.Capacity;
     }
     
-    popup += '<br><a href = "javascript:void(0);" onclick = "test(' + feature.properties.la + "," + feature.properties.ln + ')">' + "ルート検索" + "</a>";
-
+	popup += '<br><a href="https://maps.google.co.jp/maps?daddr=' + feature.properties.la + "," + feature.properties.ln + '" target="_blank">Google マップでルート検索</a>'
     layer.bindPopup(popup);
 }
 
@@ -669,11 +693,11 @@ function GPS(){
 	if (navigator.geolocation) {
        navigator.geolocation.getCurrentPosition(gps_get,gps_error);
      } else {
-       alert("エラーが発生したので、現在地を取得できませんでした。");  
+       alert("エラーが発生したので、現在地を取得できませんでした。");
      }
 }
 
-var b = 0;var marker1;var marker2;
+var b = 0; var marker1;var marker2;
 
 function gps_get(position) {
     ido = position.coords.latitude;
@@ -698,6 +722,7 @@ marker2 = L.marker([ido, keido] ,{icon: pulsingIcon}).addTo(map);
 b=0;
 
 }
+
 }
 
 function gps_error(error) {
@@ -708,45 +733,14 @@ function rn(){
 		location.href = "../index.html#refuge";
 }
 
-var a = 0; var way1; var way2;
-
 function test(x,y){
 
-map.closePopup();
-
-if(a == 0){
-
-way1 = L.Routing.control({
+L.Routing.control({
   waypoints: [
     L.latLng(ido, keido),
     L.latLng(x , y)
   ],
-    routeWhileDragging: false,
-});
-
-way1.onAdd(map);
-
- a = 1;
- 
- way2.onRemove(map);
-
-}
-else{
-
-	way1.onRemove(map);
-	a = 0;
-
-way2 = L.Routing.control({
-  waypoints: [
-    L.latLng(ido, keido),
-    L.latLng(x , y)
-  ],
-    routeWhileDragging: false,
-});
-
-way2.onAdd(map);
-
-}
-
+    routeWhileDragging: true
+}).addTo(map);
 
 }
