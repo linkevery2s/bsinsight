@@ -71,7 +71,7 @@ function ho_ini() {
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
-   //map.setView([43.411, 142.695], 8);
+   map.setView([43.411, 142.695], 8);
    Geok();
 }
 
