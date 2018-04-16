@@ -50,7 +50,7 @@ function ai_ini() {
   		}).addTo(map);
 
    map.setView([35.067, 137.189], 9);
-
+	hash = new L.Hash(map);
    Geost();
    Geok();
    Geoo();
@@ -601,7 +601,6 @@ function Geok(){
 		});
 		
 		map.addLayer(geok);
-	hash = new L.Hash(map);
 }
 
 function geo_k(feature, layer) {
