@@ -1,4 +1,4 @@
-var map; var ido; var keido;
+var map; var ido; var keido; var hash;
 
 function ame_ini() {
 
@@ -601,6 +601,7 @@ function Geok(){
 		});
 		
 		map.addLayer(geok);
+	hash = new L.Hash(map);
 }
 
 function geo_k(feature, layer) {
