@@ -625,7 +625,7 @@ function Geok(){
 		});
 		
 		map.addLayer(geok);
-		hash = L.hash(map);
+		hash = L.Hash(map);
 		
 }
 
