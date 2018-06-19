@@ -414,6 +414,8 @@ $("#th").hide();
 $("#ds").hide();
 $("#eq").hide();
 
+yyy();
+
 def();
 
 var os, ua = navigator.userAgent;
