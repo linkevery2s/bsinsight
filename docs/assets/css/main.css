@@ -2516,3 +2516,5 @@ h3{
 @media (max-width: 767px) {
 	#map{width: 100% !important;}
 }
+
+#map a{border-bottom: none !important;}
