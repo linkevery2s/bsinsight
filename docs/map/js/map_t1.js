@@ -33,8 +33,11 @@ function geo_k(feature, layer) {
     if (feature.properties && feature.properties.Capacity){
     	popup += '<br>収容人数：' + feature.properties.Capacity;
     }
-    
-    popup += '<br><a href = "javascript:void(0);" onclick = "test(' + feature.properties.la + "," + feature.properties.ln + ')">' + "ルート検索" + "</a>";
+        
+    //popup += '<br><a href = "javascript:void(0);" onclick = "test(' + feature.properties.la + "," + feature.properties.ln + ')">' + "ルート検索" + "</a>";
+
+    popup += '<br><a href = "javascript:void(0);" onclick = "test(' + feature.geometry.coordinates[1] + "," + feature.geometry.coordinates[0] + ')">' + "ルート検索" + "</a>";
+
 
     layer.bindPopup(popup);
 }
@@ -85,7 +88,7 @@ function rn(){
 
 var a = 0; var way1; var way2;
 
-function test(x,y){
+function test(x, y){
 
 map.closePopup();
 
@@ -94,7 +97,7 @@ if(a == 0){
 way1 = L.Routing.control({
   waypoints: [
     L.latLng(ido, keido),
-    L.latLng(x , y)
+    L.latLng(x, y)
   ],
     routeWhileDragging: false,
 });
@@ -114,7 +117,7 @@ else{
 way2 = L.Routing.control({
   waypoints: [
     L.latLng(ido, keido),
-    L.latLng(x , y)
+    L.latLng(x, y)
   ],
     routeWhileDragging: false,
 });
