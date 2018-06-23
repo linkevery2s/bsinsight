@@ -13,6 +13,31 @@ function map_ini() {
 			gps_button = L.easyButton('fa-location-arrow', function(){
     			GPS();
 			}).addTo( map );
+
+			var all_button = L.easyButton('fa-arrows-alt', function(){
+    			location.href = "https://linkevery2s.github.io/bsinsight/map/hinanmapall.html";
+			}).addTo( map );
+
+		todou_ini();
+		 hinan_m();
+}
+
+function map_ini2() {
+   map = new L.Map('map');                       
+		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
+  		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
+  		}).addTo(map);
+
+		map.setView([35.619, 138.466], 5);
+
+			gps_button = L.easyButton('fa-location-arrow', function(){
+    			GPS();
+			}).addTo( map );
+
+			var back = L.easyButton('fa-undo', function(){
+    			location.href = "../index.html#refuge";
+			}).addTo( map );
+
 		todou_ini();
 		 hinan_m();
 }
