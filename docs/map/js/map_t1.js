@@ -14,9 +14,9 @@ function map_ini() {
     			GPS();
 			}).addTo( map );
 
-			var all_button = L.easyButton('fa-arrows-alt', function(){
+			/*var all_button = L.easyButton('fa-arrows-alt', function(){
     			location.href = "https://linkevery2s.github.io/bsinsight/map/hinanmapall.html";
-			}).addTo( map );
+			}).addTo( map );*/
 
 		todou_ini();
 		 hinan_m();
