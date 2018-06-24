@@ -42,11 +42,11 @@ function map_ini2() {
 		 hinan_m();
 }
 
-var return_button; var gps_button;
+var return_button; var gps_button;    var popup;
 
 
 function geo_k(feature, layer) {
-    var popup;
+
     if (feature.properties && feature.properties.Name) {
         popup = "名称：" + feature.properties.Name;
     }

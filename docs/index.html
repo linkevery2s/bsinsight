@@ -41,6 +41,7 @@
   gtag('config', 'UA-117120155-1');
 </script>
 
+
 <script type="text/javascript">
 var ymap;
 
@@ -79,8 +80,17 @@ var ymap;
 
 	<body onload="ini()">
 
+<div id="loader-bg">
+  <div id="loader">
+  <img src="images/tokei.gif" width="50" height="50" alt="Now Loading..." />
+    <p>Now Loading...</p>
+  </div>
+</div>
+<div id="wrap">
+
 		<!-- Wrapper -->
 			<div id="wrapper">
+
 
 				<!-- Header -->
 					<header id="header">
@@ -1667,7 +1677,6 @@ var ymap;
 									いざ、避難するとなった時に、「どこに避難すれば良いのか？」と行動できなくなってしまいます。<br><br>
 									そこで、指定緊急避難場所のマップを作成しました。<br><br>
 									ご自身の地域の避難場所について、調べてみましょう！<br><br>
-									<hr>
 
 										<!--<div class="field">
 											<div class="select-wrapper">
@@ -1820,11 +1829,10 @@ var ymap;
       <li>
         <a href="javascript:void(0);" onclick="okina(); return false;">沖縄</a></li>
     </ul><br>-->
-    
-					<iframe src="map/hinanmap.html" width = "100%" height="500px" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen></iframe>
-					<div><a href="map/hinanmapall.html">全画面表示</a></div>
-								<!-- <div id = "h_map"></div>
-								<br>※◎マークを押して、GPSによる現在地を表示するとルート検索が可能となります。-->
+
+								<ul class="actions">
+<li><a href="map/hinanmap.html" class="button" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i> 避難場所をみる</a></li>
+								</ul>
 
 							<hr />
 							<i class="fa fa-book" aria-hidden="true"></i> 以下の資料をもとに仁志が加工・編集して作成しました。<br>
@@ -2256,10 +2264,14 @@ var ymap;
 						<p class="copyright"><i class="fa fa-copyright" aria-hidden="true"></i> 仁志. Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a>. <!--<a href="https://www.slideshare.net/HitoshiSaito2/insight-77041335">使い方</a> <a href="#rule">利用規約</a>--></p>
 					</footer>
 
+
+
 			</div><!-- wrapper -->
 
 			<!-- BG -->
 			<div id="bg"></div>
+
+</div>
 
 			<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
@@ -2269,6 +2281,32 @@ var ymap;
     		<script src="assets/js/top.js"></script>
     		<script src="assets/js/dhtml.js"></script>
 			<script src="assets/js/maplist.js"></script>
+
+<script>
+$(function() {
+  var h = $(window).height();
+ 
+  $('#wrap').css('display','none');
+  $('#loader-bg ,#loader').height(h).css('display','block');
+});
+ 
+$(window).load(function () { //全ての読み込みが完了したら実行
+  $('#loader-bg').delay(900).fadeOut(800);
+  $('#loader').delay(600).fadeOut(300);
+  $('#wrap').css('display', 'block');
+});
+ 
+//10秒たったら強制的にロード画面を非表示
+$(function(){
+  setTimeout('stopload()',10000);
+});
+ 
+function stopload(){
+  $('#wrap').css('display','block');
+  $('#loader-bg').delay(900).fadeOut(800);
+  $('#loader').delay(600).fadeOut(300);
+}
+</script>
 
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
