@@ -3,39 +3,39 @@ function hok(){
 }
 
 function ao(){
-	document.getElementById("nihon_hazard").innerHTML = '<iframe width="555" height="500" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col2+from+1Fg7l8lsl_16JvCFuACp9tVBjtFkmab8f2AwxcH4N&amp;viz=MAP&amp;h=false&amp;lat=40.78613149219588&amp;lng=140.63454089765867&amp;t=1&amp;z=8&amp;l=col2&amp;y=2&amp;tmplt=2&amp;hml=KML"></iframe>';
+	document.getElementById("nihon_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col2+from+1Fg7l8lsl_16JvCFuACp9tVBjtFkmab8f2AwxcH4N&amp;viz=MAP&amp;h=false&amp;lat=40.78613149219588&amp;lng=140.63454089765867&amp;t=1&amp;z=8&amp;l=col2&amp;y=2&amp;tmplt=2&amp;hml=KML"></iframe>';
 }
 
 function ak(){
-	document.getElementById("nihon_hazard").innerHTML = '<iframe src="map/akita.html" width="100%" height="500px" frameborder="yes" scrolling="yes"></iframe>';
+	document.getElementById("nihon_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col2+from+1r3Qn_KEL-xLwT6X6_2HpUG2ZDwrQC3817Uir0qqK&amp;viz=MAP&amp;h=false&amp;lat=39.72898345584809&amp;lng=140.5433542373047&amp;t=1&amp;z=8&amp;l=col2&amp;y=2&amp;tmplt=3&amp;hml=KML"></iframe>';
 }
 
 function iw(){
-	document.getElementById("nihon_hazard").innerHTML = '<iframe src="map/iwate.html" width="100%" height="500px" frameborder="yes" scrolling="yes"></iframe>';
+	document.getElementById("nihon_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col2+from+1J18af-KajAOhfbXH3qWKvEHQlZDlU9vydgcGokff&amp;viz=MAP&amp;h=false&amp;lat=39.33572267124591&amp;lng=141.86029399999995&amp;t=1&amp;z=8&amp;l=col2&amp;y=2&amp;tmplt=3&amp;hml=KML"></iframe>';
 }
 
 function my(){
-	document.getElementById("nihon_hazard").innerHTML = '<iframe src="map/miyagi.html" width="100%" height="500px" frameborder="yes" scrolling="yes"></iframe>';
+	document.getElementById("nihon_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col2+from+1WUaJ82A1vr_mKJ_3gEwswZolfLd0Im8mZKRtftcA&amp;viz=MAP&amp;h=false&amp;lat=38.42099918656122&amp;lng=140.89590950000002&amp;t=1&amp;z=8&amp;l=col2&amp;y=2&amp;tmplt=3&amp;hml=KML"></iframe>';
 }
 
 function yg(){
-	document.getElementById("nihon_hazard").innerHTML = '<iframe src="map/yamagata.html" width="100%" height="500px" frameborder="yes" scrolling="yes"></iframe>';
+	document.getElementById("nihon_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col2+from+1PULWBDzCDMUBQ96HM68E_1E3glQPV-Y0eysCJKHP&amp;viz=MAP&amp;h=false&amp;lat=37.90023756322571&amp;lng=140.1419545&amp;t=1&amp;z=8&amp;l=col2&amp;y=2&amp;tmplt=3&amp;hml=KML"></iframe>';
 }
 
 function fs(){
-	document.getElementById("nihon_hazard").innerHTML = '<iframe src="map/fukushima.html" width="100%" height="500px" frameborder="yes" scrolling="yes"></iframe>';
+	document.getElementById("nihon_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col2+from+1h2mIZDi35zu8RuEc9SVI48_GXlmiAoqBOkIazwv7&amp;viz=MAP&amp;h=false&amp;lat=37.139393778169136&amp;lng=140.16151850000006&amp;t=1&amp;z=8&amp;l=col2&amp;y=2&amp;tmplt=3&amp;hml=KML"></iframe>';
 }
 
 function ib(){
-	document.getElementById("nihon_hazard").innerHTML = '<iframe src="map/ibaragi.html" width="100%" height="500px" frameborder="yes" scrolling="yes"></iframe>';
+	document.getElementById("nihon_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col2+from+1uKFZ6zCAdBimh3xeVw0N07j4NnnL0DPHp0q_Hp1p&amp;viz=MAP&amp;h=false&amp;lat=36.77307792279764&amp;lng=140.33804550000002&amp;t=1&amp;z=8&amp;l=col2&amp;y=2&amp;tmplt=3&amp;hml=KML"></iframe>';
 }
 
 function to(){
-	document.getElementById("nihon_hazard").innerHTML = '<iframe src="map/tochigi.html" width="100%" height="500px" frameborder="yes" scrolling="yes"></iframe>';
+	document.getElementById("nihon_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col2+from+1Z6E1c83yqBZ1dlzUXxaSuG1MJ7RfVel78oqxqVPJ&amp;viz=MAP&amp;h=false&amp;lat=36.29172909908919&amp;lng=139.71517300000005&amp;t=1&amp;z=8&amp;l=col2&amp;y=2&amp;tmplt=3&amp;hml=KML"></iframe>';
 }
 
 function gu(){
-	document.getElementById("nihon_hazard").innerHTML = '<iframe src="map/gunma.html" width="100%" height="500px" frameborder="yes" scrolling="yes"></iframe>';
+	document.getElementById("nihon_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col2+from+1lZebyZf4q9kocMid8UrMiwjuvP3FophSn9QpVaJi&amp;viz=MAP&amp;h=false&amp;lat=36.29128088860604&amp;lng=139.05489749999992&amp;t=1&amp;z=8&amp;l=col2&amp;y=2&amp;tmplt=3&amp;hml=KML"></iframe>';
 }
 
 function si(){
