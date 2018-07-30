@@ -39,44 +39,40 @@ function gu(){
 }
 
 function si(){
-	document.getElementById("nihon_hazard").innerHTML = '<iframe src="map/saitama.html" width="100%" height="500px" frameborder="yes" scrolling="yes"></iframe>';
-}
+	document.getElementById("nihon_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col2+from+1Qy7KeGlGhiugLlY2B_N9MLAgD31aPmlHClAtfUZs&amp;viz=MAP&amp;h=false&amp;lat=35.934926665317505&amp;lng=139.5878285&amp;t=1&amp;z=8&amp;l=col2&amp;y=2&amp;tmplt=3&amp;hml=GEOCODABLE"></iframe>;}
 
 function tb(){
-	document.getElementById("nihon_hazard").innerHTML = '<iframe src="map/tiba.html" width="100%" height="500px" frameborder="yes" scrolling="yes"></iframe>';
-}
+	document.getElementById("nihon_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col2+from+1hrw0dRP9_DEFJkPDmki8Di8dJNL87DuaYMw3Gk7_&amp;viz=MAP&amp;h=false&amp;lat=35.30555899045972&amp;lng=140.40255200000001&amp;t=1&amp;z=8&amp;l=col2&amp;y=2&amp;tmplt=3&amp;hml=GEOCODABLE"></iframe>;}
 
 function tk(){
-	document.getElementById("nihon_hazard").innerHTML = '<iframe src="map/tokyo.html" width="100%" height="500px" frameborder="yes" scrolling="yes"></iframe>';
-}
+	document.getElementById("nihon_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col2+from+1ZA73EFIWE3y3Q9rPVaM-ht6sBuvPEDWwxloxD34G&amp;viz=MAP&amp;h=false&amp;lat=35.79127088864598&amp;lng=139.78812199999993&amp;t=1&amp;z=8&amp;l=col2&amp;y=2&amp;tmplt=3&amp;hml=KML"></iframe>;}
 
 function kg(){
-	document.getElementById("nihon_hazard").innerHTML = '<iframe src="map/kanagawa.html" width="100%" height="500px" frameborder="yes" scrolling="yes"></iframe>';
+	document.getElementById("nihon_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col2+from+1bQEusEDLVJ1wqnz4CSq8tTRxoT1bi5xoICoKFWOy&amp;viz=MAP&amp;h=false&amp;lat=35.4123904690796&amp;lng=139.45108299999993&amp;t=1&amp;z=8&amp;l=col2&amp;y=2&amp;tmplt=2&amp;hml=KML"></iframe>;
 }
 
 function ni(){
-	document.getElementById("nihon_hazard").innerHTML = '<iframe src="map/nigata.html" width="100%" height="500px" frameborder="yes" scrolling="yes"></iframe>';
+	document.getElementById("nihon_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col2+from+1eG_kdusySoAJryWpcnUPidYOMOe9LM4zdkBI60zF&amp;viz=MAP&amp;h=false&amp;lat=37.705695816448156&amp;lng=139.43489599999998&amp;t=1&amp;z=8&amp;l=col2&amp;y=2&amp;tmplt=3&amp;hml=GEOCODABLE"></iframe>;
 }
 
 function toyama(){
-	document.getElementById("nihon_hazard").innerHTML = '<iframe src="map/toyama.html" width="100%" height="500px" frameborder="yes" scrolling="yes"></iframe>';
+	document.getElementById("nihon_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col2+from+1ndykiyq89AAoGTG9GPczInM6CA42LkHIwbdR3h52&amp;viz=MAP&amp;h=false&amp;lat=36.724462492816606&amp;lng=137.21672350000006&amp;t=1&amp;z=8&amp;l=col2&amp;y=2&amp;tmplt=3&amp;hml=KML"></iframe>;
 }
 
 function is(){
-	document.getElementById("nihon_hazard").innerHTML = '<iframe src="map/ishikawa.html" width="100%" height="500px" frameborder="yes" scrolling="yes"></iframe>';
+	document.getElementById("nihon_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col2+from+18Ojc62BtNEYwmgd0iqg78V-rp-N__Dg1iKzNdNOj&amp;viz=MAP&amp;h=false&amp;lat=36.56284011075956&amp;lng=136.58828600000004&amp;t=1&amp;z=8&amp;l=col2&amp;y=2&amp;tmplt=3&amp;hml=KML"></iframe>';
 }
 
 function fukui(){
-	document.getElementById("nihon_hazard").innerHTML = '<iframe src="map/fukui.html" width="100%" height="500px" frameborder="yes" scrolling="yes"></iframe>';
+	document.getElementById("nihon_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col2+from+1rn_pkUbeIhr0VVysywNL4YhTp-3XhMBQ2S4o-Ufu&amp;viz=MAP&amp;h=false&amp;lat=35.534171132846666&amp;lng=135.89816100000007&amp;t=1&amp;z=8&amp;l=col2&amp;y=2&amp;tmplt=3&amp;hml=KML"></iframe>';
 }
 
 function yam(){
-	document.getElementById("nihon_hazard").innerHTML = '<iframe src="map/yamanashi.html" width="100%" height="500px" frameborder="yes" scrolling="yes"></iframe>';
+	document.getElementById("nihon_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col2+from+1o5HbzuXWAyz6b1i7ao9uWDWcozZLiHbzxh5TNQrs&amp;viz=MAP&amp;h=false&amp;lat=35.56184508248615&amp;lng=138.49612100000002&amp;t=1&amp;z=8&amp;l=col2&amp;y=2&amp;tmplt=3&amp;hml=KML"></iframe>;
 }
 
 function ng(){
-	document.getElementById("nihon_hazard").innerHTML = '<iframe src="map/nagano.html" width="100%" height="500px" frameborder="yes" scrolling="yes"></iframe>';
-}
+	document.getElementById("nihon_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col2+from+1kWU5OXDQXZkUP9DL0-GxL-0PWClNT60bYXasZ07N&amp;viz=MAP&amp;h=false&amp;lat=35.451764945409764&amp;lng=137.73051050000004&amp;t=1&amp;z=8&amp;l=col2&amp;y=2&amp;tmplt=3&amp;hml=GEOCODABLE"></iframe>;}
 
 function gif(){
 	document.getElementById("nihon_hazard").innerHTML = '<iframe src="map/gifu.html" width="100%" height="500px" frameborder="yes" scrolling="yes"></iframe>';
