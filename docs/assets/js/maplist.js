@@ -83,7 +83,7 @@ function gif(){
 }
 
 function sz(){
-	document.getElementById("nihon_hazard").innerHTML = '<iframe src="map/shizuoka.html" width="100%" height="500px" frameborder="yes" scrolling="yes"></iframe>';
+	document.getElementById("nihon_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col3+from+1sQeLgaapD2aMVqrM7vwUrlFiPRMvaTVdhyF9-YzL&amp;viz=MAP&amp;h=false&amp;lat=34.91637716740335&amp;lng=138.3616609091796&amp;t=1&amp;z=8&amp;l=col3&amp;y=2&amp;tmplt=3&amp;hml=KML"></iframe>';
 }
 
 function aic(){
