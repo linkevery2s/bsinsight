@@ -119,23 +119,23 @@ function waky(){
 }
 
 function tt(){
-	document.getElementById("nihon_hazard").innerHTML = '<iframe src="map/tottori.html" width="100%" height="500px" frameborder="yes" scrolling="yes"></iframe>';
+	document.getElementById("nihon_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col3+from+1U2CEP4lUH5wQ2IupAu3H-lpoDcOyGEiSSQB3rjs2&amp;viz=MAP&amp;h=false&amp;lat=35.456045392835826&amp;lng=133.79516561535638&amp;t=1&amp;z=8&amp;l=col3&amp;y=2&amp;tmplt=3&amp;hml=KML"></iframe>';
 }
 
 function smn(){
-	document.getElementById("nihon_hazard").innerHTML = '<iframe src="map/shimane.html" width="100%" height="500px" frameborder="yes" scrolling="yes"></iframe>';
+	document.getElementById("nihon_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col3+from+1_4FtXptWZ_G4x8QtsmSz4ZzVg7jqA-rna7IZN8Rk&amp;viz=MAP&amp;h=false&amp;lat=35.42304488628834&amp;lng=132.99709564990235&amp;t=1&amp;z=8&amp;l=col3&amp;y=2&amp;tmplt=3&amp;hml=KML"></iframe>';
 }
 
 function oky(){
-	document.getElementById("nihon_hazard").innerHTML = '<iframe src="map/okayama.html" width="100%" height="500px" frameborder="yes" scrolling="yes"></iframe>';
+	document.getElementById("nihon_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col3+from+1YorYgc5Rb_lXlIug3oqwVTwSpo-MIDIl5_7uJggZ&amp;viz=MAP&amp;h=false&amp;lat=35.02057777798469&amp;lng=133.81937467187504&amp;t=1&amp;z=8&amp;l=col3&amp;y=2&amp;tmplt=3&amp;hml=GEOCODABLE"></iframe>';
 }
 
 function hiro(){
-	document.getElementById("nihon_hazard").innerHTML = '<iframe src="map/hiroshima.html" width="100%" height="500px" frameborder="yes" scrolling="yes"></iframe>';
+	document.getElementById("nihon_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col3+from+1IFIXDwqqwzpsgrx8PXm47E0ZpNhw5mPgwuvkjveV&amp;viz=MAP&amp;h=false&amp;lat=34.536273781737044&amp;lng=132.84614639746087&amp;t=1&amp;z=8&amp;l=col3&amp;y=2&amp;tmplt=3&amp;hml=GEOCODABLE"></iframe>';
 }
 
 function yag(){
-	document.getElementById("nihon_hazard").innerHTML = '<iframe src="map/yamaguchi.html" width="100%" height="500px" frameborder="yes" scrolling="yes"></iframe>';
+	document.getElementById("nihon_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col3+from+1h3GajXs2wm-fQ63wGPBxluGzySv-_CVZ9yopaOUm&amp;viz=MAP&amp;h=false&amp;lat=34.22929540064361&amp;lng=131.2642278429637&amp;t=1&amp;z=8&amp;l=col3&amp;y=2&amp;tmplt=3&amp;hml=KML"></iframe>';
 }
 
 function tok(){
