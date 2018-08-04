@@ -31,7 +31,7 @@ function ib(){
 }
 
 function to(){
-	document.getElementById("nihon_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col3+from+1pNOazR5i7EMGIBU6bi81W7cjwb-Bf606KhjuGYrw&amp;viz=MAP&amp;h=false&amp;lat=35.70935347071159&amp;lng=139.63980657031243&amp;t=1&amp;z=11&amp;l=col3&amp;y=2&amp;tmplt=3&amp;hml=KML"></iframe>';
+	document.getElementById("nihon_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col3+from+1snJ3PMtjG4ihu6WrYQs4_dwhKBVxDbwh28jOVIQb&amp;viz=MAP&amp;h=false&amp;lat=36.50906782904628&amp;lng=139.76306652416997&amp;t=1&amp;z=8&amp;l=col3&amp;y=2&amp;tmplt=3&amp;hml=KML"></iframe>';
 }
 
 function gu(){
@@ -47,7 +47,7 @@ function tb(){
 }
 
 function tk(){
-	document.getElementById("nihon_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col2+from+1ZA73EFIWE3y3Q9rPVaM-ht6sBuvPEDWwxloxD34G&amp;viz=MAP&amp;h=false&amp;lat=35.79127088864598&amp;lng=139.78812199999993&amp;t=1&amp;z=8&amp;l=col2&amp;y=2&amp;tmplt=3&amp;hml=KML"></iframe>';
+	document.getElementById("nihon_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col3+from+1pNOazR5i7EMGIBU6bi81W7cjwb-Bf606KhjuGYrw&amp;viz=MAP&amp;h=false&amp;lat=35.70935347071159&amp;lng=139.63980657031243&amp;t=1&amp;z=11&amp;l=col3&amp;y=2&amp;tmplt=3&amp;hml=KML"></iframe>';
 }
 
 function kg(){
@@ -59,7 +59,7 @@ function ni(){
 }
 
 function toyama(){
-	document.getElementById("nihon_hazard").innerHTML = '<iframe width="500" height="500" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col3+from+1hFvdcBW2P6Ib9kXlhnxMT2oNXklUQpMSlfR3EBh1&amp;viz=MAP&amp;h=false&amp;lat=36.74372269068957&amp;lng=137.17827135156256&amp;t=1&amp;z=8&amp;l=col3&amp;y=2&amp;tmplt=3&amp;hml=KML"></iframe>';
+	document.getElementById("nihon_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col3+from+1hFvdcBW2P6Ib9kXlhnxMT2oNXklUQpMSlfR3EBh1&amp;viz=MAP&amp;h=false&amp;lat=36.74372269068957&amp;lng=137.17827135156256&amp;t=1&amp;z=8&amp;l=col3&amp;y=2&amp;tmplt=3&amp;hml=KML"></iframe>';
 }
 
 function is(){
@@ -79,7 +79,7 @@ function ng(){
 }
 
 function gif(){
-	document.getElementById("nihon_hazard").innerHTML = '<iframe src="map/gifu.html" width="100%" height="500px" frameborder="yes" scrolling="yes"></iframe>';
+	document.getElementById("nihon_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col3+from+1xQhfMYkTbTGnvGGfQqCxgaGevZyg_RFmiG9cv59R&amp;viz=MAP&amp;h=false&amp;lat=35.836864380873564&amp;lng=137.0282660605469&amp;t=1&amp;z=8&amp;l=col3&amp;y=2&amp;tmplt=3&amp;hml=GEOCODABLE"></iframe>';
 }
 
 function sz(){
