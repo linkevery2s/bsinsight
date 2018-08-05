@@ -91,7 +91,7 @@ function aic(){
 }
 
 function mie(){
-	document.getElementById("nihon_hazard").innerHTML = '<iframe src="map/mie.html" width="100%" height="500px" frameborder="yes" scrolling="yes"></iframe>';
+	document.getElementById("nihon_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col3+from+1qZvsbXY-C4Q8zloD9Un9lCaQPmKkInGjKH8H5Vxx&amp;viz=MAP&amp;h=false&amp;lat=34.47270770693132&amp;lng=136.44911172753905&amp;t=1&amp;z=8&amp;l=col3&amp;y=2&amp;tmplt=3&amp;hml=KML"></iframe>';
 }
 
 function siga(){
