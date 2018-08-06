@@ -1,5 +1,5 @@
 function hok(){
-	document.getElementById("nihon_hazard").innerHTML = '<iframe width="500" height="300" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col2+from+1Fg7l8lsl_16JvCFuACp9tVBjtFkmab8f2AwxcH4N&amp;viz=MAP&amp;h=false&amp;lat=40.78613149219588&amp;lng=140.63454089765867&amp;t=1&amp;z=10&amp;l=col2&amp;y=2&amp;tmplt=2&amp;hml=KML"></iframe>';
+	document.getElementById("nihon_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col3+from+1ohzODgvq9y2Fgts1sFcXJSZdREKIItAXXmC4YYyF&amp;viz=MAP&amp;h=false&amp;lat=43.908696932550974&amp;lng=142.71804701257292&amp;t=1&amp;z=8&amp;l=col3&amp;y=2&amp;tmplt=3&amp;hml=KML"></iframe>';
 }
 
 function ao(){
@@ -87,7 +87,7 @@ function sz(){
 }
 
 function aic(){
-	document.getElementById("nihon_hazard").innerHTML = '<iframe src="map/aichi.html" width="100%" height="500px" frameborder="yes" scrolling="yes"></iframe>';
+	document.getElementById("nihon_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col3+from+1vHj8Z5bwZ2iCSv4JpqIE7tm243IszYyAs8HneK4R&amp;viz=MAP&amp;h=false&amp;lat=35.010817365313486&amp;lng=137.13448738476563&amp;t=1&amp;z=8&amp;l=col3&amp;y=2&amp;tmplt=3&amp;hml=KML"></iframe>';
 }
 
 function mie(){
