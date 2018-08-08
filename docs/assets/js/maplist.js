@@ -87,7 +87,7 @@ function sz(){
 }
 
 function aic(){
-	document.getElementById("nihon_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col3+from+1vHj8Z5bwZ2iCSv4JpqIE7tm243IszYyAs8HneK4R&amp;viz=MAP&amp;h=false&amp;lat=35.010817365313486&amp;lng=137.13448738476563&amp;t=1&amp;z=8&amp;l=col3&amp;y=2&amp;tmplt=3&amp;hml=KML"></iframe>';
+	document.getElementById("nihon_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col3+from+1Y3HXsWRoCePcpSZdBrxZJcWoOwIT9DcfjpuhOrO3&amp;viz=MAP&amp;h=false&amp;lat=35.07673924682973&amp;lng=137.11868374410926&amp;t=1&amp;z=8&amp;l=col3&amp;y=2&amp;tmplt=3&amp;hml=KML"></iframe>';
 }
 
 function mie(){
