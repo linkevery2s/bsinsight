@@ -13,11 +13,11 @@
 	<meta property="og:title" content="防災INSIGHT" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://linkevery2s.github.io/bsinsight/index.html" />
-    <meta property="og:image" content="https://linkevery2s.github.io/bsinsight/images/apple-touch-icon.png" />
-    <meta name="twitter:card" content="summary">
+    <meta property="og:image" content="https://linkevery2s.github.io/bsinsight/images/top.jpg" />
+    <meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:title" content="防災INSIGHT" />
 	<meta name="twitter:description" content='このアプリは自治体等のオープンデータを用いた防災対策アプリです。' />
-	<meta name="twitter:image" content="https://linkevery2s.github.io/bsinsight/images/apple-touch-icon.png" />
+	<meta name="twitter:image" content="https://linkevery2s.github.io/bsinsight/images/top.jpg" />
     <meta name="author" content="仁志">
 	<meta name="keywords" content="防災INSIGHT、防災、災害対策">
 	<link rel="stylesheet" href="assets/css/font-awesome.min.css" />
@@ -27,66 +27,63 @@
     <link rel="shortcut icon" href="images/apple-touch-icon.png">
 
 	<title>防災INSIGHT</title>
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-117120155-1"></script>
-<script type="text/javascript" charset="utf-8" src="https://map.yahooapis.jp/js/V1/jsapi?appid=dj0zaiZpPWFGR05lM2M4eUZNbCZzPWNvbnN1bWVyc2VjcmV0Jng9OWQ-"></script>
+	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-117120155-1"></script>
+	<script type="text/javascript" charset="utf-8" src="https://map.yahooapis.jp/js/V1/jsapi?appid=dj0zaiZpPWFGR05lM2M4eUZNbCZzPWNvbnN1bWVyc2VjcmV0Jng9OWQ-"></script>
 
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'UA-117120155-1');
+	</script>
 
-  gtag('config', 'UA-117120155-1');
-</script>
+	<script type="text/javascript">
+		var ymap;
 
+    		function yyy() {
 
-<script type="text/javascript">
-var ymap;
-
-    function yyy() {
-
-    ymap = new Y.Map("map", {
-    configure : {
-        doubleClickZoom : true,
-        scrollWheelZoom : true,
-        weatherOverlay: true
-    }
-	});
+    			ymap = new Y.Map("map", {
+    			configure : {
+        			doubleClickZoom : true,
+        			scrollWheelZoom : true,
+        			weatherOverlay: true
+    			}
+			});
 	
-    //天気レイヤ作成
-    var weather = new Y.WeatherMapLayer({
-        "opacity": 0.6,
-    });
+    			//天気レイヤ作成
+    			var weather = new Y.WeatherMapLayer({
+       				 "opacity": 0.6,
+   				 });
     
-    //天気レイヤを重ねる地図レイヤを作成
-    var maplayer = new Y.NormalLayer();
-    //地図 + 天気レイヤを追加
-    ymap.addLayerSet("weather", new Y.LayerSet("地図+天気", [maplayer, weather]));
+    			//天気レイヤを重ねる地図レイヤを作成
+    			var maplayer = new Y.NormalLayer();
+    			//地図 + 天気レイヤを追加
+    			ymap.addLayerSet("weather", new Y.LayerSet("地図+天気", [maplayer, weather]));
 
-    ymap.addControl(new Y.SliderZoomControlVertical());
-    //地図を描画
-    ymap.drawMap(new Y.LatLng(35.665627,139.730738), 6, "weather");
-    //天気データを更新
-    weather.UpdateWeather();
+    			ymap.addControl(new Y.SliderZoomControlVertical());
+    			//地図を描画
+    			ymap.drawMap(new Y.LatLng(35.665627,139.730738), 6, "weather");
+    			//天気データを更新
+    			weather.UpdateWeather();
     
-	}
+			}
 
-
-</script>
+	</script>
 
 	</head>
 
 	<body onload="ini()">
 
-<div id="loader-bg">
-  <div id="loader">
-  <img src="images/tokei.gif" width="50" height="50" alt="Now Loading..." />
-    <p>Now Loading...</p>
-  </div>
-</div>
-<div id="wrap">
+		<div id="loader-bg">
+  			<div id="loader">
+  				<img src="images/tokei.gif" width="50" height="50" alt="Now Loading..." />
+    			<p>Now Loading...</p>
+  			</div>
+		</div>
+
+		<div id="wrap">
 
 		<!-- Wrapper -->
 			<div id="wrapper">
@@ -159,26 +156,13 @@ var ymap;
 							</article>
 							<!-- manabu -->
 
-						<!-- type -->
+							<!-- type -->
 							<article id="type">
 								<a href="#manabu" class="link">×</a>
 								<h2 class="major">災害の種類</h2>
 								<span class="image main"><img src="images/type.jpg" alt="" /></span>
 								<p>災害にはどのようなものがあるでしょうか？<br>
 								災害について "知る" ことが "守る" ことに繋がります。</p>
-								
-										<!--<div class="field">
-											<label for="demo-category">Category</label>
-											<div class="select-wrapper">
-												<select name="type-category" id="type-category" onChange= "ty()">
-													<option>災害の種類</option>
-													<option value="1">地震</option>
-													<option value="2">津波</option>
-													<option value="3">風水害</option>
-													<option value="4">自然災害</option>
-												</select>
-											</div>
-										</div>-->
 								
 								<ul class="actions">
 										<li><a href="javascript:void(0);" class="button" onclick="eq();">地　　震</a></li>
@@ -270,7 +254,10 @@ var ymap;
 								<p>
 								<img src ="images/tn1.jpg" width="100%">
 								<br>（出典「災害写真データベース」、東日本大震災、津波で破壊された防波堤）</p>
-								
+
+								<iframe width="555" height="350" src="https://www.youtube.com/embed/0D_Atk3j2n4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen id="yout"></iframe>
+								<br>（出典「チェレンジ！防災48」、チリ地震による気仙沼津波）<br><br>
+
 								<h3><i class="fa fa-cube" aria-hidden="true"></i>メカニズム</h3>
 								<blockquote>
 								津波は、多くが海底でプレート型地震が起きた時に海底が持ち上がったり、沈み込んだりすることで起こる。
@@ -350,6 +337,11 @@ var ymap;
 								<h2>竜　巻</h2>
 								<img src="images/tm.jpg"  width="100%"><br>
 								（出典「災害写真データベース」、北海道佐呂間町の竜巻による災害（2006年））<br><br>
+								
+								<iframe width="555" height="350" src="https://www.youtube.com/embed/Cdk_Ym5NtdI?ecver=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen id = "yout"></iframe>
+								<br>（出典「チャレンジ！防災48」、竜巻の映像）
+								<br><br>
+								
 								<h3><i class="fa fa-cube" aria-hidden="true"></i>現　象</h3>
 								<blockquote>
 								発達した積乱雲によって作られる大気中の激しいうずまきのこと。
@@ -392,6 +384,11 @@ var ymap;
 								<div id="ds">
 								<h2>火山災害</h2>
 								<img src="images/kazan.jpg"  width="100%"><br><br>
+								
+								<iframe width="555" height="350" src="https://www.youtube.com/embed/5S2qR9Lekpw?ecver=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen id = "yout"></iframe>
+								<br>（出典「チャレンジ！防災48」、桜島噴火の瞬間）
+								<br><br>
+								
 								<h3><i class="fa fa-cube" aria-hidden="true"></i>種　類</h3>
 								<blockquote>
 								・火砕流、火山灰や噴石<br>
@@ -403,7 +400,12 @@ var ymap;
 								火口からあふれ出した溶岩流は、約600～1,100℃と高温であり、田畑や家屋などが焼きつくされ、埋まってしまう。<br><br>
 								
 								・土石流<br>
+								<iframe width="530" height="350" src="https://www.youtube.com/embed/72Q7b2KKa-c?ecver=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen id = "yout"></iframe>
+								<br>（出典「チャレンジ！防災48」、巨大な岩を巻き込んだ土石流）
+								<br><br>
 								噴火によって火口付近の積雪がとけたり、火山灰が積もったところに雨が降ったりすると、水が地中にしみこみにくいため、土石流が発生することがある。<br><br>
+
+								
 								
 								・地震（噴火活動に伴って発生）<br>
 								噴火活動にともない、大きな地震が発生することがある。<br><br>
@@ -426,6 +428,11 @@ var ymap;
 								<h2>雪　崩</h2>
 								<img src="images/snow.jpg" width="100%"><br>
 								（雪崩の瞬間、Wikipedia：パブリック・ドメイン）<br><br>
+								
+								<iframe width="555" height="350" src="https://www.youtube.com/embed/JP58DEHri6E?ecver=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen id = "yout"></iframe>
+								<br>（出典「チャレンジ！防災48」、雪崩発生の瞬間）
+								<br><br>
+								
 								<h3><i class="fa fa-cube" aria-hidden="true"></i>現　象</h3>
 								<blockquote>
 								山に積もった雪が崩れ落ちる。
@@ -476,7 +483,8 @@ var ymap;
 
 								<hr />
 								<i class="fa fa-book" aria-hidden="true"></i> 以下の資料をもとに仁志が加工・編集して作成しました。<br>
-								・わたしの防災サバイバル手帳、消防庁、<a href="https://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a>
+								・わたしの防災サバイバル手帳、消防庁、<a href="https://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a><br>
+								・チャレンジ！防災48、消防庁、<a href="https://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a>
 							</article>
 
 						<!-- where -->
@@ -605,14 +613,6 @@ var ymap;
 								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 動く時は、スリッパ等を履く。ガラス片等で足を怪我する可能性がある。<br><br>
 								
 								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 戸を開けて出入り口を確保する。家の中に閉じ込められる恐れがある。<br><br>
-
-								<!--<div id="share">
-									<ul class="icons">
-										<li><a href="javascript:void(0);" onclick="mail(); return false;"><span class="label"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
-										<li><a href="javascript:void(0);" class="icon fa-twitter" onclick="tw(); return false;"><span class="label">Twitter</span></a></li>
-										<li><a href="javascript:void(0);" class="icon fa-facebook"  onclick="fbt(); return false;"><span class="label">Facebook</span></a></li>
-									</ul>
-								</div>-->
 								
 								</div>
 
@@ -1632,10 +1632,10 @@ var ymap;
 
 								<hr>
 	
-								<h3><i class="fa fa-cube" aria-hidden="true"></i>今ここ。</h3>
-								「今ここ。」は災害時に自分の居場所を家族や友人に知らせることができる安否確認サービスです。GPS機能が搭載されており、SNSと連携して使用することができます。<br><br>
+								<h3><i class="fa fa-cube" aria-hidden="true"></i>今、ここにいるよ。</h3>
+								「今、ここにいるよ。」は災害時に自分の居場所を家族や友人に知らせることができる安否確認サービスです。GPS機能が搭載されており、SNSと連携して使用することができます。<br><br>
 								<ul class="actions">
-									<li><a href="https://linkevery2s.github.io/iamherenow/map.html#6/37.777/137.587" target="_blank" class="button special"><i class="fa fa-globe" aria-hidden="true"></i> 今ここ。</a></li>
+									<li><a href="https://linkevery2s.github.io/iamherenow/index.html#6/37.777/137.587" target="_blank" class="button special"><i class="fa fa-globe" aria-hidden="true"></i> 今、ここにいるよ。</a></li>
 								</ul>
 
 								<hr>
@@ -1678,61 +1678,42 @@ var ymap;
 									そこで、指定緊急避難場所のマップを作成しました。<br><br>
 									ご自身の地域の避難場所について、調べてみましょう！<br><br>
 
-										<!--<div class="field">
-											<div class="select-wrapper">
-												<select name="to-category" id="to-category" onChange= "h_map()">
-															<option>都道府県選択</option>
-															<option value="hokkaido">北海道</option>
-															<option value="aomori">青森県</option>
-															<option value="akita">秋田県</option>
-															<option value="iwate">岩手県</option>
-															<option value="yamagata">山形県</option>
-															<option value="miyagi">宮城県</option>
-															<option value="fukushima">福島県</option>
-															<option value="nigata">新潟県</option>
-															<option value="tiba">千葉県</option>
-															<option value="tochigi">栃木県</option>
-															<option value="gunma">群馬県</option>
-															<option value="saitama">埼玉県</option>
-															<option value="ibaragi">茨城県</option>
-															<option value="tokyo">東京都</option>
-															<option value="kanagawa">神奈川県</option>
-															<option value="yamanashi">山梨県</option>
-															<option value="nagano">長野県</option>
-															<option value="shizuoka">静岡県</option>
-															<option value="toyama">富山県</option>
-															<option value="ishikawa">石川県</option>
-															<option value="gifu">岐阜県</option>
-															<option value="aichi">愛知県</option>
-															<option value="mie">三重県</option>
-															<option value="fukui">福井県</option>
-															<option value="shiga">滋賀県</option>
-															<option value="kyoto">京都府</option>
-															<option value="nara">奈良県</option>
-															<option value="osaka">大阪府</option>
-															<option value="wakayama">和歌山県</option>
-															<option value="hyogo">兵庫県</option>
-															<option value="tottori">鳥取県</option>
-															<option value="okayama">岡山県</option>
-															<option value="shimane">島根県</option>
-															<option value="hiroshima">広島県</option>
-															<option value="yamaguchi">山口県</option>
-															<option value="kagawa">香川県</option>
-															<option value="tokushima">徳島県</option>
-															<option value="ehime">愛媛県</option>
-															<option value="kochi">高知県</option>
-															<option value="fukuoka">福岡県</option>
-															<option value="saga">佐賀県</option>
-															<option value="nagasaki">長崎県</option>
-															<option value="oita">大分県</option>
-															<option value="kumamoto">熊本県</option>
-															<option value="miyazaki">宮埼県</option>
-															<option value="kagoshima">鹿児島県</option>
-															<option value="okinawa">沖縄県</option>
-												</select>
-											</div>
-										</div><br>-->
-<!--
+								<ul class="actions">
+<li><a href="map/hinanmap.html" class="button" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i> 避難場所をみる</a></li>
+								</ul>
+
+							<hr />
+							<i class="fa fa-book" aria-hidden="true"></i> 以下の資料をもとに仁志が加工・編集して作成しました。<br>
+							・地理院タイル（<span id="url_a"><a href="http://maps.gsi.go.jp/development/ichiran.html">http://maps.gsi.go.jp/development/ichiran.html</a></span>）、指定緊急避難場所データ<br>
+							・国土交通省国土政策局「国土数値情報（避難施設、H24年度）」<br>
+
+							</article><!-- refuge -->
+
+
+							<article id ="weather">
+
+					<h2 class="major">気象情報</h2>
+
+					避難する時に、大気の状態を把握することも大切です。<br><br>
+					最近ではゲリラ豪雨と呼ばれる局所的に降る大雨の現象もよく見られます。<br><br>
+					「雨雲レーダー」では、大気の状態を調べることができます。<br><br>
+
+					<div id ="map" style="width:555px; height: 500px;"></div>
+
+					<!-- Begin Yahoo! JAPAN Web Services Attribution Snippet -->
+					<span id="y_li">
+					<a href="https://developer.yahoo.co.jp/about">
+					<img src="https://s.yimg.jp/images/yjdn/yjdn_attbtn2_105_17.gif" width="105" height="17" title="Webサービス by Yahoo! JAPAN" alt="Webサービス by Yahoo! JAPAN" border="0" style="margin:15px 15px 15px 15px"></a></span>
+					<!-- End Yahoo! JAPAN Web Services Attribution Snippet -->
+
+<hr />
+
+					<!--<h2 class="major">ハザードマップ</h2>-->
+					<h3><i class="fa fa-cube" aria-hidden="true"></i>ハザードマップ</h3>
+
+					大雨では川が増水して洪水の被害が起きることがあります。<br><br>
+					ハザードマップで家の周りの浸水被害を想定しましょう。
+
 <ul class="jp_map">
       <li>
         <a href="javascript:void(0);" onclick="hok(); return false;">北海道</a></li>
@@ -1828,74 +1809,12 @@ var ymap;
         <a href="javascript:void(0);" onclick="kagos(); return false;">鹿児島</a></li>
       <li>
         <a href="javascript:void(0);" onclick="okina(); return false;">沖縄</a></li>
-    </ul><br>-->
+    </ul>
 
-								<ul class="actions">
-<li><a href="map/hinanmap.html" class="button" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i> 避難場所をみる</a></li>
-								</ul>
-
-							<hr />
-							<i class="fa fa-book" aria-hidden="true"></i> 以下の資料をもとに仁志が加工・編集して作成しました。<br>
-							・地理院タイル（<span id="url_a"><a href="http://maps.gsi.go.jp/development/ichiran.html">http://maps.gsi.go.jp/development/ichiran.html</a></span>）、指定緊急避難場所データ<br>
-							・国土交通省国土政策局「国土数値情報（避難施設、H24年度）」<br>
-							<!--・災害時の避難場所（H27年）、室蘭市、<a href="http://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a><br>
-							・八雲町内の避難場所一覧（H27年）、八雲町、<a href="http://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a><br>
-							・森町避難場所一覧（H27年）、森町、<a href="http://creativecommons.org/licenses/by/4.0/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a><br>
-							・避難場所（H25年度）、横手市、<a href="http://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a><br>
-							・避難所・避難場所（H27年）、会津若松市、<a href="http://creativecommons.org/licenses/by/4.0/">クリエイティブ・コモンズ・ライセンス 表示4.0 国際</a><br>
-							・見附市内避難所（H27年）、<a href="http://www.city.mitsuke.niigata.jp/11717.htm">見附市</a>、<a href="http://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a><br>
-							・三条市避難所一覧（H27年）、<a href="http://www.city.sanjo.niigata.jp/joho/page00160.html">三条市</a>、<a href="http://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a><br>
-							・糸魚川市避難施設一覧H26、糸魚川市、<a href="http://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a><br>
-							・十日町市内の避難所（H27年）、<a href="http://www.city.tokamachi.lg.jp/shisei_machidukuri/F022/F028/1454068614755.html">十日町市</a>、<a href="http://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a>
-							・一時避難場所一覧（H25年）、<a href="http://www.city.nagareyama.chiba.jp/10763/index.html">流山市</a>、<a href="http://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a><br>
-							・一次避難場所、二次避難場所（H27年）、前橋市、<a href="http://creativecommons.org/licenses/by/4.0">クリエイティブ・コモンズ・ライセンス 表示4.0 国際</a><br>
-							・【朝霞市】避難所（H28年）、朝霞市、<a href="http://creativecommons.org/licenses/by/2.0/JP">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a><br>
-							・【川越市】避難所・避難場所（H28年）、川越市、<a href="http://creativecommons.org/licenses/by/2.0/JP">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a><br>
-							・【深谷市】避難所一覧（H27年）、深谷市、<a href="http://creativecommons.org/licenses/by/2.0/JP">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a><br>
-							・市内避難所情報（H28年）、逗子市、<a href="http://creativecommons.org/licenses/by/4.0">クリエイティブ・コモンズ・ライセンス 表示4.0 国際</a><br>
-							・町内避難所情報（H27年）、葉山町、<a href="http://creativecommons.org/licenses/by/4.0">クリエイティブ・コモンズ・ライセンス 表示4.0 国際</a><br>
-							・須坂市避難場所（H28年）、須坂市、<a href="http://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a><br>
-							・広域避難地・市指定避難所（H26年）、<a href="http://ckan.open-governmentdata.org/dataset/401307-compatibleformat-shelter">裾野市</a>、<a href="http://creativecommons.org/licenses/by/4.0">クリエイティブ・コモンズ・ライセンス 表示4.0 国際</a><br>
-							・避難所一覧（H27年）、三島市、<a href="http://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a><br>
-							・避難所一覧（H27年）、御前崎市、<a href="http://creativecommons.org/licenses/by/4.0">クリエイティブ・コモンズ・ライセンス 表示4.0 国際</a><br>
-							・避難所（H28年）、金沢市、<a href="http://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a><br>
-							・一時避難場所一覧（H27年度）、長久手市、<a href="http://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a><br>
-							・避難場所一覧（H27年度）、長久手市、<a href="http://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a><br>
-							・避難所（H26年度）、尾張旭市、<a href="http://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a><br>
-							・地震災害時の一時避難場所（H26年度）、尾張旭市、<a href="http://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a><br>
-							・鯖江市避難施設（H26年）、<a href="http://www.city.sabae.fukui.jp/pageview.html?id=11552">鯖江市</a><br>
-							・神戸市避難所データ（H26年）、神戸市<br>
-							・呉市避難所一覧（H27年度）、呉市、<a href="http://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a><br>
-							・周南市の避難場所（H27年度）、周南市、<a href="http://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a><br>
-							・宇部市緊急避難場所及び避難所（H28年度）、宇部市、<a href="http://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a><br>
-							・避難場所・避難所（H27年）、<a href="http://ckan.open-governmentdata.org/dataset/401307-compatibleformat-shelter">福岡市</a>、<a href="http://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a><br>
-							・避難場所・避難所（H28年）、<a href="http://ckan.open-governmentdata.org/dataset/401005_hinanbasyo">北九州市</a>、<a href="http://creativecommons.org/licenses/by/2.1/jp/">クリエイティブ・コモンズ・ライセンス 表示2.1 日本</a>
-
-							--></article><!-- refuge -->
-
-
-							<article id ="weather">
-
-					<h2 class="major">気象情報</h2>
-
-					避難する時に、大気の状態を把握することも大切です。<br><br>
-					最近ではゲリラ豪雨と呼ばれる局所的に降る大雨の現象もよく見られます。<br><br>
-					「雨雲レーダー」では、大気の状態を調べることができます。<br><br>
-<!--
-<div id = "amemap"></div>
--->
-					<!--<iframe src="map/yame.html" width = "100%" height="500px" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen></iframe>-->
-
-					<div id ="map" style="width:555px; height: 500px;"></div>
-
-					<!-- Begin Yahoo! JAPAN Web Services Attribution Snippet -->
-					<span id="y_li">
-					<a href="https://developer.yahoo.co.jp/about">
-					<img src="https://s.yimg.jp/images/yjdn/yjdn_attbtn2_105_17.gif" width="105" height="17" title="Webサービス by Yahoo! JAPAN" alt="Webサービス by Yahoo! JAPAN" border="0" style="margin:15px 15px 15px 15px"></a></span>
-					<!-- End Yahoo! JAPAN Web Services Attribution Snippet -->
+			<div id="nihon_hazard"></div>
 
 <hr />
-					
+
 						<h3><i class="fa fa-cube" aria-hidden="true"></i>警報・注意報</h3>
 						<br>
 								<ul class="actions">
@@ -1904,16 +1823,21 @@ var ymap;
 										<li><a href="http://www.jma.go.jp/jp/tsunami/" class="button">津波情報</a></li>
 								</ul>
 								<ul class="actions">
-<li><a href="http://www.jma.go.jp/jp/volcano/map_0.html" class="button">噴火警報・予報</a></li>
-
-<li><a href="http://www.data.jma.go.jp/gmd/cpd/monitor/dailyview/index.php" class="button">世界の天候</a></li>
+										<li><a href="http://www.jma.go.jp/jp/volcano/map_0.html" class="button">噴火警報・予報</a></li>
+										<li><a href="http://www.data.jma.go.jp/gmd/cpd/monitor/dailyview/index.php" class="button">世界の天候</a></li>
 								</ul>
+						
+						<hr />
 
 <h3><i class="fa fa-cube" aria-hidden="true"></i>気象庁ＲＳＳ配信</h3>
 
 気象庁のＲＳＳ配信です。
 <br><br>						
 							<div id="feed"></div><br>
+
+							<hr />
+							<i class="fa fa-book" aria-hidden="true"></i> 以下の資料をもとに仁志が加工・編集して作成しました。<br>
+							・国土交通省国土政策局「国土数値情報（浸水想定区域、H24年度）」<br>
 
 							</article>
 
@@ -2007,9 +1931,8 @@ var ymap;
 								<img src="images/korei.png" width="100%"><br>
 								東日本大震災では、亡くなられた方々のうち、60歳以上の高齢者は66.1％を占めています。（高齢社会白書_平成25年版）<br><br>
 								高齢社会となっている日本において、高齢者の方々の命をいかに守るかが重要になっています。<br><br>
-								<!--
-								<pre><code><iframe src="jinkou/jinkou.html" width="100%" height="400px" frameborder="yes" scrolling="yes"></iframe></code></pre>-->
-<hr>
+								
+								<hr>
 								<h3><i class="fa fa-cube" aria-hidden="true"></i>南海トラフの巨大地震モデル</h3>
 								
 								内閣府の「南海トラフの巨大地震モデル検討会」にて、議論されたマップデータです。<br><br>
@@ -2043,7 +1966,6 @@ var ymap;
 							<ul class="actions">
 								<li id="keitai"><a href="javascript:void(0);" class="button" onclick="location.href = 'bousai/guide_k.html'" class="button special"><i class="fa fa-paint-brush" aria-hidden="true"></i> 作成する</a></li>
 								<li id="pc"><a href="javascript:void(0);" class="button" onclick="location.href = 'bousai/guide_pc.html'" class="button special"><i class="fa fa-paint-brush" aria-hidden="true"></i> 作成する</a></li>
-								<!--<li id="pc"><a href="bousai/guide_pc.html" target="_blank" class="button special"><i class="fa fa-paint-brush" aria-hidden="true"></i> 作成する</a></li>-->
 							</ul>
 
 							<h3><i class="fa fa-cube" aria-hidden="true"></i>使い方</h3>
@@ -2074,16 +1996,11 @@ var ymap;
 									ＩＴを用いて皆の暮らしのお役に立ちたい！自分に出来ることは何か…毎日奮闘中！<br><br>
 
 								<ul class="icons">
-									<li><a href="https://twitter.com/hitoshi2s" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="https://www.facebook.com/hitoshi.saito.900" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-									
+									<li><a href="https://www.facebook.com/bseyes/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
 									<li><a href="http://ameblo.jp/hitoshi51l/" class="icon fa-globe"><span class="label">Blog</span></a></li>
 								</ul>
 
-				
-
 								<hr>
-
 								<h2 class="major">参考文献</h2>
 									<span class="image main"><img src="images/biblio.jpg" alt="" /></span>
 		
@@ -2174,16 +2091,17 @@ var ymap;
 2017年6月17日　利用規約制定
 							</article><!-- rule -->
 
-				<!-- manual
+				<!-- manual -->
 				<article id="manual">
 					<h2 class="major">使い方</h2>
 					<iframe src="https://www.slideshare.net/slideshow/embed_code/key/EuygWqEgvHGPui" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px;" allowfullscreen=""> </iframe>
-				</article> -->
+				</article> 
 
 				<!-- rss -->
 				<article id="rss">
 					<h2 class="major">更新情報</h2>
-					2018.06.24 日本全国の避難場所を１つのマップで搭載<br><br>
+					2018.08.18 ハザードマップ搭載、解説動画追加、SNSシェア時の画像変更<br><br>
+					2018.06.24 日本全国の避難場所を１つのマップに表示<br><br>
 					2018.04.15 ＱＲコード追加<br><br>
 					2018.03.04 気象庁ＲＳＳ情報搭載<br><br>
 					2018.02.17 アプリ内ルート検索機能搭載<br><br>
@@ -2236,35 +2154,17 @@ var ymap;
 							
 				<!-- Footer -->
 					<footer id="footer">
-				<!--
-					<div class="content">
-						<div class="inner">
-							<div class="sns">
-								<img src="images/mail.png" style="width:50px; height: 50px;" id = "mln" onclick= "mailt()">
-								<img src="images/line_button.png" style="width:50px; height: 50px;" id = "mln" onclick= "linet()">
-								<img src="images/tw.png" style="width:50px; height: 50px;" id = "mln" onclick= "twt()">
-								<img src="images/fb.png" style="width:50px; height: 50px;" id = "mln" onclick= "fbt()">
-								<a href= "#rss"><i class="fa fa-rss-square fa-4x" aria-hidden="true" style="color:#FF4000;"></i></a>
-							</div>
-						<br>
-								<img src="images/qr_code.png">
-						</div>
-					</div>-->
 
 								<ul class="icons">
-									<li><a href="https://www.slideshare.net/HitoshiSaito2/insight-77041335" class="icon fa-bookmark"><span class="label">使い方</span></a></li>
+									<li><a href="#manual" class="icon fa-bookmark"><span class="label">使い方</span></a></li>
 									<li><a href="#rule" class="icon fa-american-sign-language-interpreting"><span class="label">利用規約</span></a></li>
-									
-<li><a href="#profile" class="icon fa-user"> <span class="label">自己紹介</span></a></li>
-<li><a href="#share" class="icon fa-comments"> <span class="label">シェア</span></a></li>
-<li><a href="#rss" class="icon fa-rss-square"><span class="label">更新情報</span></a></li>
-
+									<li><a href="#profile" class="icon fa-user"> <span class="label">自己紹介</span></a></li>
+									<li><a href="#share" class="icon fa-comments"> <span class="label">シェア</span></a></li>
+									<li><a href="#rss" class="icon fa-rss-square"><span class="label">更新情報</span></a></li>
 								</ul>
 
-						<p class="copyright"><i class="fa fa-copyright" aria-hidden="true"></i> 仁志. Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a>. <!--<a href="https://www.slideshare.net/HitoshiSaito2/insight-77041335">使い方</a> <a href="#rule">利用規約</a>--></p>
+						<p class="copyright"><i class="fa fa-copyright" aria-hidden="true"></i> 仁志. Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a>. </p>
 					</footer>
-
-
 
 			</div><!-- wrapper -->
 
