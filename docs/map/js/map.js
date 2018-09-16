@@ -1,669 +1,631 @@
-var map; var ido; var keido;
+var map; var ido; var keido;var todou;var gps_button;
 
-function ame_ini() {
-
-var tiri = L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
-		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
-	});
-
-L.YimgTileLayer = L.TileLayer.extend({
-    getTileUrl: function (coords) {
-        var now = new Date();
-        var year = now.getFullYear();
-        var month = now.getMonth() + 1;
-        var day = now.getDate();
-        var hours = now.getHours();
-        var minutes = now.getMinutes();
-
-        if (month < 10) month = '0' + month;
-        if (day < 10) day = '0' + day;
-        if (hours < 10) hours = '0' + hours;
-        minutes *= 0.1;
-        minutes = Math.floor(minutes);
-        minutes *= 10;
-        if (minutes < 10) minutes = '0' + minutes;
-        date = "" + year + month + day + hours + minutes;
-        return L.Util.template(this._url, L.extend({
-            d: date,
-            x: coords.x,
-            y: Math.pow(2, this._getZoomForUrl() - 1) - 1 - coords.y,
-            z: this._getZoomForUrl() + 1
-        }, this.options));
-    }
-});
-
-var rainmap = new L.YimgTileLayer('http://weather.map.c.yimg.jp/weather?x={x}&y={y}&z={z}&size=256&date={d}', {
-    attribution: '雨雲レーダー',
-    maxZoom: 18,
-    opacity: 0.5
-});
-
-//地図を生成（初期表示の中心座標，ズームレベル，レイヤなどをオプションで設定）
-	map = L.map('map', {center: [35.067, 137.189], zoom: 5 ,layers: [tiri, rainmap]});
-
-}
-
-function ai_ini() {
-   map = new L.Map('map');                       
+    function aichi_ini() {
+		map = L.map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
+		map.setView([35.002, 137.200], 8);
 
-   map.setView([35.067, 137.189], 9);
+		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
+		todou = L.geoJson(aichi, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
+		map.addLayer(todou);
 
-   Geost();
-   Geok();
-   Geoo();
+	}
 
-}
-
-function ho_ini() {
-    map = new L.Map('map');                       
+    function hokkaido_ini() {
+		map = L.map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
-   map.setView([43.411, 142.695], 8);
-   Geok();
-}
+		map.setView([43.469, 141.987], 8);
 
-function ku_ini() {
-    map = new L.Map('map');                       
+		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
+		todou = L.geoJson(hokkaido, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
+		map.addLayer(todou);
+
+	}
+
+    function aomori_ini() {
+		map = L.map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
-   map.setView([32.7884, 130.7373], 9);
-   Geost();
-   Geok();
-   Geoo();
-}
+		map.setView([40.651, 140.724], 8);
 
-function ao_ini() {
-    map = new L.Map('map');                       
+		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
+		todou = L.geoJson(aomori, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
+		map.addLayer(todou);
+
+	}
+
+    function iwate_ini() {
+		map = L.map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
-   map.setView([40.8232, 140.7541], 9);
-   Geok();
-}
+		map.setView([39.686, 141.224], 8);
 
-function iw_ini() {
-    map = new L.Map('map');                       
+		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
+		todou = L.geoJson(iwate, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
+		map.addLayer(todou);
+
+	}
+
+    function akita_ini() {
+		map = L.map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
-   map.setView([39.4966, 141.3391], 9);
-   Geok();
-}
+		map.setView([39.529, 140.389], 8);
 
-function ak_ini() {
-    map = new L.Map('map');                       
+		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
+		todou = L.geoJson(akita, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
+		map.addLayer(todou);
+
+	}
+
+    function miyagi_ini() {
+		map = L.map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
-   map.setView([39.5454, 140.4904], 9);
-   Geost();
-   Geok();
-   Geoo();}
+		map.setView([38.505, 140.707], 8);
 
-function my_ini() {
-    map = new L.Map('map');                       
+		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
+		todou = L.geoJson(miyagi, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
+		map.addLayer(todou);
+
+	}
+
+    function yamagata_ini() {
+		map = L.map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
-   map.setView([38.2738, 140.8722], 9);
-   Geost();
-   Geok();
-   Geoo();}
+		map.setView([38.428, 140.026], 8);
 
-function yg_ini() {
-    map = new L.Map('map');                       
+		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
+		todou = L.geoJson(yamagata, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
+		map.addLayer(todou);
+
+	}
+
+    function fukushima_ini() {
+		map = L.map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
-   map.setView([38.2953, 140.1498], 9);
-   Geost();
-   Geok();
-   Geoo();}
+		map.setView([37.392, 139.883], 8);
 
-function fk_ini() {
-    map = new L.Map('map');                       
+		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
+		todou = L.geoJson(fukushima, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
+		map.addLayer(todou);
+
+	}
+
+    function nigata_ini() {
+		map = L.map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
-   map.setView([37.4193, 140.1746], 9);
-   Geost();
-   Geok();
-   Geoo();}
+		map.setView([37.375, 138.735], 8);
 
-function ni_ini() {
-    map = new L.Map('map');                       
+		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
+		todou = L.geoJson(nigata, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
+		map.addLayer(todou);
+
+	}
+
+    function tochigi_ini() {
+		map = L.map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
-   map.setView([37.7088, 139.1309], 9);
-   Geost();
-   Geok();
-   Geoo();}
+		map.setView([36.673, 139.653], 8);
 
-function mi_ini() {
-    map = new L.Map('map');                       
+		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
+		todou = L.geoJson(tochigi, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
+		map.addLayer(todou);
+
+	}
+
+    function gunma_ini() {
+		map = L.map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
-   map.setView([34.5009, 136.3541], 9);
-   Geost();
-   Geok();
-   Geoo();}
+		map.setView([36.461, 138.950], 8);
 
-function ib_ini() {
-    map = new L.Map('map');                       
+		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
+		todou = L.geoJson(gunma, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
+		map.addLayer(todou);
+
+	}
+
+    function ibaragi_ini() {
+		map = L.map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
-   map.setView([36.2609, 140.3146], 9);
-   Geost();
-   Geok();
-   Geoo();}
+		map.setView([36.271, 140.235], 8);
 
-function ok_ini() {
-    map = new L.Map('map');                       
+		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
+		todou = L.geoJson(ibaragi, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
+		map.addLayer(todou);
+
+	}
+
+    function tiba_ini() {
+		map = L.map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
-   map.setView([34.9366, 133.6679], 9);
-   Geost();
-   Geok();
-   Geoo();}
+		map.setView([35.488, 139.966], 8);
 
-function ti_ini() {
-    map = new L.Map('map');                       
+		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
+		todou = L.geoJson(tiba, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
+		map.addLayer(todou);
+
+	}
+
+    function saitama_ini() {
+		map = L.map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
-   map.setView([35.5350, 140.2336], 10);
-   Geost();
-   Geok();
-   Geoo();}
+		map.setView([35.929, 139.147], 8);
 
-function fo_ini() {
-    map = new L.Map('map');                       
+		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
+		todou = L.geoJson(saitama, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
+		map.addLayer(todou);
+
+	}
+
+    function tokyo_ini() {
+		map = L.map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
-   map.setView([33.4584, 130.6851], 10);
-   Geost();
-   Geok();
-   Geoo();}
+		map.setView([35.595, 139.592], 8);
 
-function tc_ini() {
-    map = new L.Map('map');                       
+		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
+		todou = L.geoJson(tokyo, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
+		map.addLayer(todou);
+
+	}
+
+    function kanagawa_ini() {
+		map = L.map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
-   map.setView([36.7064, 139.8354], 10);
-   Geost();
-   Geok();
-   Geoo();}
+		map.setView([35.3980, 139.3314], 8);
 
-function gu_ini() {
-    map = new L.Map('map');                       
+		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
+		todou = L.geoJson(kanagawa, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
+		map.addLayer(todou);
+
+	}
+
+    function yamanashi_ini() {
+		map = L.map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
-   map.setView([36.3843, 138.8109], 10);
-   Geost();
-   Geok();
-   Geoo();}
+		map.setView([35.532, 138.565], 8);
 
-function si_ini() {
-    map = new L.Map('map');                       
+		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
+		todou = L.geoJson(yamanashi, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
+		map.addLayer(todou);
+
+	}
+
+    function nagano_ini() {
+		map = L.map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
-   map.setView([36.0108, 139.3011], 10);
-   Geost();
-   Geok();
-   Geoo();}
+		map.setView([35.960, 137.928], 8);
 
-function tk_ini() {
-    map = new L.Map('map');                       
+		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
+		todou = L.geoJson(nagano, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
+		map.addLayer(todou);
+
+	}
+
+    function shizuoka_ini() {
+		map = L.map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
-   map.setView([35.6899, 139.4296], 11);
-   Geost();
-   Geok();
-   Geoo();}
+		map.setView([35.012, 138.214], 8);
 
-function kn_ini() {
-    map = new L.Map('map');                       
+		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
+		todou = L.geoJson(shizuoka, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
+		map.addLayer(todou);
+
+	}
+
+    function gifu_ini() {
+		map = L.map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
-   map.setView([35.4375, 139.3128], 11);
-   Geost();
-   Geok();
-   Geoo();}
+		map.setView([35.724, 136.890], 8);
 
-function yn_ini() {
-    map = new L.Map('map');                       
+		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
+		todou = L.geoJson(gifu, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
+		map.addLayer(todou);
+
+	}
+
+    function toyama_ini() {
+		map = L.map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
-   map.setView([35.6132, 138.6145], 10);
-   Geost();
-   Geok();
-   Geoo();}
+		map.setView([36.624, 137.016], 8);
 
-function gi_ini() {
-    map = new L.Map('map');                       
+		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
+		todou = L.geoJson(toyama, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
+		map.addLayer(todou);
+
+	}
+
+    function ishikawa_ini() {
+		map = L.map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
-   map.setView([35.8301, 137.0599], 9);
-   Geost();
-   Geok();
-   Geoo();}
+		map.setView([36.844, 136.785], 8);
 
-function ty_ini() {
-    map = new L.Map('map');                       
+		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
+		todou = L.geoJson(ishikawa, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
+		map.addLayer(todou);
+
+	}
+
+    function fukui_ini() {
+		map = L.map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
-   map.setView([36.6546, 137.2426], 10);
-   Geost();
-   Geok();
-   Geoo();}
+		map.setView([35.898, 136.192], 8);
 
-function ng_ini() {
-    map = new L.Map('map');                       
+		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
+		todou = L.geoJson(fukui, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
+		map.addLayer(todou);
+
+	}
+
+    function shiga_ini() {
+		map = L.map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
-   map.setView([36.1878, 137.8784], 9);
-   Geost();
-   Geok();
-   Geoo();}
+		map.setView([35.255, 135.950], 8);
 
-function sz_ini() {
-    map = new L.Map('map');                       
+		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
+		todou = L.geoJson(shiga, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
+		map.addLayer(todou);
+
+	}
+
+    function shiga_ini() {
+		map = L.map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
-   map.setView([35.0429, 138.3701], 10);
-   Geost();
-   Geok();
-   Geoo();}
+		map.setView([35.255, 135.950], 8);
 
-function is_ini() {
-    map = new L.Map('map');                       
+		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
+		todou = L.geoJson(shiga, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
+		map.addLayer(todou);
+
+	}
+
+    function mie_ini() {
+		map = L.map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
-   map.setView([36.6937, 136.7990], 9);
-   Geost();
-   Geok();
-   Geoo();}
+		map.setView([34.606, 136.225], 8);
 
-function fi_ini() {
-    map = new L.Map('map');                       
+		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
+		todou = L.geoJson(mie, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
+		map.addLayer(todou);
+
+	}
+
+    function kyoto_ini() {
+		map = L.map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
-   map.setView([35.8006, 136.2250], 10);
-   Geost();
-   Geok();
-   Geoo();}
+		map.setView([35.156, 135.368], 8);
 
-function sg_ini() {
-    map = new L.Map('map');                       
+		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
+		todou = L.geoJson(kyoto, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
+		map.addLayer(todou);
+
+	}
+
+    function osaka_ini() {
+		map = L.map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
-   map.setView([35.3426, 136.1110], 10);
-   Geost();
-   Geok();
-   Geoo();}
+		map.setView([34.692, 135.511], 8);
 
-function nr_ini() {
-    map = new L.Map('map');                       
+		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
+		todou = L.geoJson(osaka, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
+		map.addLayer(todou);
+
+	}
+
+    function nara_ini() {
+		map = L.map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
-   map.setView([34.3100, 135.8817], 10);
-   Geost();
-   Geok();
-   Geoo();}
+		map.setView([34.207, 135.818], 8);
 
-function wk_ini() {
-    map = new L.Map('map');                       
+		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
+		todou = L.geoJson(nara, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
+		map.addLayer(todou);
+
+	}
+
+    function wakayama_ini() {
+		map = L.map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
-   map.setView([33.9314, 135.4436], 10);
-   Geost();
-   Geok();
-   Geoo();}
+		map.setView([33.975, 135.368], 8);
 
-function kt_ini() {
-    map = new L.Map('map');                       
+		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
+		todou = L.geoJson(wakayama, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
+		map.addLayer(todou);
+
+	}
+
+    function hyogo_ini() {
+		map = L.map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
-   map.setView([35.2944, 135.2870], 10);
-   Geost();
-   Geok();
-   Geoo();}
+		map.setView([35.043, 134.484], 8);
 
-function os_ini() {
-    map = new L.Map('map');                       
+		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
+		todou = L.geoJson(hyogo, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
+		map.addLayer(todou);
+
+	}
+
+    function tottori_ini() {
+		map = L.map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
-   map.setView([34.6134, 135.5026], 10);
-   Geost();
-   Geok();
-   Geoo();}
+		map.setView([35.313, 133.786], 8);
 
-function hg_ini() {
-    map = new L.Map('map');                       
+		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
+		todou = L.geoJson(tottori, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
+		map.addLayer(todou);
+
+	}
+
+    function okayama_ini() {
+		map = L.map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
-   map.setView([34.9771, 134.7418], 9);
-   Geost();
-   Geok();
-   Geoo();}
+		map.setView([34.940, 133.550], 8);
 
-function tt_ini() {
-    map = new L.Map('map');                       
+		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
+		todou = L.geoJson(okayama, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
+		map.addLayer(todou);
+
+	}
+
+    function shimane_ini() {
+		map = L.map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
-   map.setView([35.2445, 133.7888], 9);
-   Geost();
-   Geok();
-   Geoo();}
+		map.setView([34.854, 132.347], 8);
 
-function hi_ini() {
-    map = new L.Map('map');                       
+		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
+		todou = L.geoJson(shimane, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
+		map.addLayer(todou);
+
+	}
+
+    function hiroshima_ini() {
+		map = L.map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
-   map.setView([34.5083, 132.5734], 10);
-   Geost();
-   Geok();
-   Geoo();}
+		map.setView([34.556, 132.512], 8);
 
-function sm_ini() {
-    map = new L.Map('map');                       
+		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
+		todou = L.geoJson(hiroshima, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
+		map.addLayer(todou);
+
+	}
+
+    function yamaguchi_ini() {
+		map = L.map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
-   map.setView([34.9231, 132.6242], 9);
-   Geost();
-   Geok();
-   Geoo();}
+		map.setView([34.207, 131.550], 8);
 
-function yc_ini() {
-    map = new L.Map('map');                       
+		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
+		todou = L.geoJson(yamaguchi, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
+		map.addLayer(todou);
+
+	}
+
+    function kagawa_ini() {
+		map = L.map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
-   map.setView([34.2510, 131.6052], 10);
-   Geost();
-   Geok();
-   Geoo();}
+		map.setView([34.057, 133.726], 8);
 
-function kg_ini() {
-    map = new L.Map('map');                       
+		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
+		todou = L.geoJson(kagawa, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
+		map.addLayer(todou);
+
+	}
+
+    function tokushima_ini() {
+		map = L.map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
-   map.setView([34.1692, 134.0730], 10);
-   Geost();
-   Geok();
-   Geoo();}
+		map.setView([33.852, 133.923], 8);
 
-function kc_ini() {
-    map = new L.Map('map');                       
+		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
+		todou = L.geoJson(tokushima, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
+		map.addLayer(todou);
+
+	}
+
+    function ehime_ini() {
+		map = L.map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
-   map.setView([33.5448, 133.5168], 9);
-   Geost();
-   Geok();
-   Geoo();}
+		map.setView([33.679, 132.764], 8);
 
-function eh_ini() {
-    map = new L.Map('map');                       
+		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
+		todou = L.geoJson(ehime, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
+		map.addLayer(todou);
+
+	}
+
+    function kochi_ini() {
+		map = L.map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
-   map.setView([33.6935, 132.9950], 9);
-   Geost();
-   Geok();
-   Geoo();}
+		map.setView([33.390, 133.259], 8);
 
-function ts_ini() {
-    map = new L.Map('map');                       
+		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
+		todou = L.geoJson(kochi, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
+		map.addLayer(todou);
+
+	}
+
+    function fukuoka_ini() {
+		map = L.map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
-   map.setView([33.9166, 134.2749], 10);
-   Geost();
-   Geok();
-   Geoo();}
+		map.setView([33.431, 130.583], 8);
 
-function ns_ini() {
-    map = new L.Map('map');                       
+		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
+		todou = L.geoJson(fukuoka, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
+		map.addLayer(todou);
+
+	}
+
+    function saga_ini() {
+		map = L.map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
-   map.setView([33.1709, 129.8145], 9);
-   Geost();
-   Geok();
-   Geoo();}
+		map.setView([33.170, 130.073], 8);
 
-function sa_ini() {
-    map = new L.Map('map');                       
+		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
+		todou = L.geoJson(saga, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
+		map.addLayer(todou);
+
+	}
+
+function oita_ini() {
+		map = L.map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
-   map.setView([33.3334, 130.2223], 10);
-   Geost();
-   Geok();
-   Geoo();}
+		map.setView([33.128, 131.083], 8);
 
-function oi_ini() {
-    map = new L.Map('map');                       
+		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
+		todou = L.geoJson(oita, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
+		map.addLayer(todou);
+
+	}
+
+
+    function nagasaki_ini() {
+		map = L.map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
-   map.setView([33.1985, 131.2042], 9);
-   Geost();
-   Geok();
-   Geoo();}
+		map.setView([32.875, 129.661], 8);
 
-function mz_ini() {
-    map = new L.Map('map');                       
+		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
+		todou = L.geoJson(nagasaki, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
+		map.addLayer(todou);
+
+	}
+
+    function kumamoto_ini() {
+		map = L.map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
-   map.setView([32.3788, 131.3635], 9);
-   Geost();
-   Geok();
-   Geoo();}
+		map.setView([32.426, 130.759], 8);
 
-function ks_ini() {
-    map = new L.Map('map');                       
+		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
+		todou = L.geoJson(kumamoto, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
+		map.addLayer(todou);
+
+	}
+
+    function miyazaki_ini() {
+		map = L.map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
-   map.setView([31.5820, 130.6851], 9);
-   Geost();
-   Geok();
-   Geoo();}
+		map.setView([32.213, 131.188], 8);
 
-function on_ini() {
-    map = new L.Map('map');                       
+		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
+		todou = L.geoJson(miyazaki, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
+		map.addLayer(todou);
+
+	}
+
+    function kagoshima_ini() {
+		map = L.map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
-   map.setView([26.4632, 127.8973], 10);
-   Geost();
-   Geok();
-   Geoo();}
+		map.setView([31.541, 130.715], 8);
 
-function mapi(){
-	Geost();
-	Geok();
-	Geoo();
-}
+		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
+		todou = L.geoJson(kagoshima, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
+		map.addLayer(todou);
 
-var return_button; var gps_button;
+	}
 
-function Geost(){
+    function okinawa_ini() {
+		map = L.map('map');
+		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
+  		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
+  		}).addTo(map);
+		map.setView([26.436, 127.996], 8);
 
-			geost = L.geoJson(st, {
+		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
+		todou = L.geoJson(okinawa, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
+		map.addLayer(todou);
 
-			style: function (feature) {
-				return feature.properties && feature.properties.style;
-			},
+	}
 
-			onEachFeature: geo_st,
-
-			pointToLayer: function (feature, latlng) {
-				return L.circleMarker(latlng, {
-					radius: 10,
-					fillColor: "#2EFE2E",
-					color: "#000",
-					weight: 1,
-					opacity: 1,
-					fillOpacity: 0.8
-				});
-			}
-		});
-		
-		map.addLayer(geost);
-
-}
-
-function geo_st(feature, layer) {
-    var popup;
-    if (feature.properties && feature.properties.Name) {
-        popup = "名称：" + feature.properties.Name;
-    }
-    
-    if (feature.properties && feature.properties.Jusho){
-    	popup += '<br>住所：' + feature.properties.Jusho;
-    }
-    
-    if (feature.properties && feature.properties.Capacity){
-    	popup += '<br>収容人数：' + feature.properties.Capacity;
-    }
-    
-	//popup += '<br><a href="https://maps.google.co.jp/maps?daddr=' + feature.properties.la + "," + feature.properties.ln + '" target="_blank">Google マップでルート検索</a>'
-    
-    popup += '<br><a href = "javascript:void(0);" onclick = "test(' + feature.properties.la + "," + feature.properties.ln + ')">' + "ルート検索" + "</a>";
-    
-    layer.bindPopup(popup);
-}
-
-function Geok(){
-
-			gps_button = L.easyButton('fa-location-arrow', function(){
-    			GPS();
-			}).addTo( map );
-
-			return_button = L.easyButton('fa-undo', function(){
-    			rn();
-			}).addTo( map );
-
-			geok = L.geoJson(k, {
-
-			style: function (feature) {
-				return feature.properties && feature.properties.style;
-			},
-
-			onEachFeature: geo_k,
-
-			pointToLayer: function (feature, latlng) {
-				return L.circleMarker(latlng, {
-					radius: 10,
-					fillColor: "#2EFE2E",
-					color: "#000",
-					weight: 1,
-					opacity: 1,
-					fillOpacity: 0.8
-				});
-			}
-		});
-		
-		map.addLayer(geok);
-}
-
-function geo_k(feature, layer) {
-    var popup;
-    if (feature.properties && feature.properties.Name) {
-        popup = "名称：" + feature.properties.Name;
-    }
-    
-    if (feature.properties && feature.properties.Jusho){
-    	popup += '<br>住所：' + feature.properties.Jusho;
-    }
-    
-    if (feature.properties && feature.properties.Capacity){
-    	popup += '<br>収容人数：' + feature.properties.Capacity;
-    }
-    
-    popup += '<br><a href = "javascript:void(0);" onclick = "test(' + feature.properties.la + "," + feature.properties.ln + ')">' + "ルート検索" + "</a>";
-
-    layer.bindPopup(popup);
-}
-
-function Geoo(){
-		geoo = L.geoJson(o, {
-
-			style: function (feature) {
-				return feature.properties && feature.properties.style;
-			},
-
-			onEachFeature: geo_o,
-
-			pointToLayer: function (feature, latlng) {
-				return L.circleMarker(latlng, {
-					radius: 10,
-					fillColor: "#2EFE2E",
-					color: "#000",
-					weight: 1,
-					opacity: 1,
-					fillOpacity: 0.8
-				});
-			}
-		});
-		
-		map.addLayer(geoo);
-}
-
-function geo_o(feature, layer) {
-    var popup;
-    if (feature.properties && feature.properties.Name) {
-        popup = "名称：" + feature.properties.Name;
-    }
-    
-    if (feature.properties && feature.properties.Jusho){
-    	popup += '<br>住所：' + feature.properties.Jusho;
-    }
-    
-    if (feature.properties && feature.properties.Capacity){
-    	popup += '<br>収容人数：' + feature.properties.Capacity;
-    }
-    
-    popup += '<br><a href = "javascript:void(0);" onclick = "test(' + feature.properties.la + "," + feature.properties.ln + ')">' + "ルート検索" + "</a>";
-
-    layer.bindPopup(popup);
-}
+var return_button;
 
 function GPS(){
 	if (navigator.geolocation) {
@@ -750,3 +712,34 @@ way2.onAdd(map);
 
 
 }
+
+
+function sty(feature) {
+				return feature.properties && feature.properties.style;
+			}
+
+function iro(feature, latlng) {
+				return L.circleMarker(latlng, {
+					radius: 10,
+					fillColor: "#2EFE2E",
+					color: "#000",
+					weight: 1,
+					opacity: 1,
+					fillOpacity: 0.8
+				});
+			}
+
+function geo_k(feature, layer) {
+    var popup;
+    if (feature.properties && feature.properties.Name) {
+        popup = "名称：" + feature.properties.Name;
+    }
+    
+    if (feature.properties && feature.properties.Jusho){
+    	popup += '<br>住所：' + feature.properties.Jusho;
+    }
+    
+    layer.bindPopup(popup);
+}
+
+
