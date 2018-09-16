@@ -1,0 +1,1798 @@
+<!DOCTYPE HTML>
+<!--
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html lang="ja">
+	<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" >
+	<!--<meta name="apple-mobile-web-app-capable" content="yes">-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content='このアプリは自治体等のオープンデータを用いた防災対策アプリです。'>
+	<meta property="og:title" content="防災INSIGHT" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://linkevery2s.github.io/bsinsight/index.html" />
+    <meta property="og:image" content="https://linkevery2s.github.io/bsinsight/images/top.jpg" />
+    <meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="防災INSIGHT" />
+	<meta name="twitter:description" content='このアプリは自治体等のオープンデータを用いた防災対策アプリです。' />
+	<meta name="twitter:image" content="https://linkevery2s.github.io/bsinsight/images/top.jpg" />
+    <meta name="author" content="仁志">
+	<meta name="keywords" content="防災INSIGHT、防災、災害対策">
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="assets/css/maplist.css" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="shortcut icon" href="images/apple-touch-icon.png">
+
+	<title>防災INSIGHT</title>
+	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-117120155-1"></script>
+	<script type="text/javascript" charset="utf-8" src="https://map.yahooapis.jp/js/V1/jsapi?appid=dj0zaiZpPWFGR05lM2M4eUZNbCZzPWNvbnN1bWVyc2VjcmV0Jng9OWQ-"></script>
+
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'UA-117120155-1');
+	</script>
+
+	<script type="text/javascript">
+		var ymap;
+
+    		function yyy() {
+
+    			ymap = new Y.Map("map", {
+    			configure : {
+        			doubleClickZoom : true,
+        			scrollWheelZoom : true,
+        			weatherOverlay: true
+    			}
+			});
+	
+    			//天気レイヤ作成
+    			var weather = new Y.WeatherMapLayer({
+       				 "opacity": 0.6,
+   				 });
+    
+    			//天気レイヤを重ねる地図レイヤを作成
+    			var maplayer = new Y.NormalLayer();
+    			//地図 + 天気レイヤを追加
+    			ymap.addLayerSet("weather", new Y.LayerSet("地図+天気", [maplayer, weather]));
+
+    			ymap.addControl(new Y.SliderZoomControlVertical());
+    			//地図を描画
+    			ymap.drawMap(new Y.LatLng(35.665627,139.730738), 6, "weather");
+    			//天気データを更新
+    			weather.UpdateWeather();
+    
+			}
+
+	</script>
+
+	</head>
+
+	<body onload="ini()">
+
+		<div id="loader-bg">
+  			<div id="loader">
+  				<img src="images/tokei.gif" width="50" height="50" alt="Now Loading..." />
+    			<p>Now Loading...</p>
+  			</div>
+		</div>
+
+		<div id="wrap">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+
+				<!-- Header -->
+					<header id="header">
+						<div class="logo">
+							<span class="icon fa-diamond"></span>
+						</div>
+						<div class="content">
+							<div class="inner">
+								<h1>防災INSIGHT</h1>
+								<p>"その時" どうする？</p>
+							</div>
+						</div>
+						<nav>
+							<ul>
+								<li><a href="#intro">はじめに</a></li>
+								<li><a href="#manabu">学  習</a></li>
+								<li><a href="#refuge">避難所</a></li>
+								<li><a href="#weather" onclick="yyy()">気象情報</a></li>
+								</ul>
+						</nav>
+						
+
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+						<!-- Intro -->
+							<article id="intro">
+								<h2 class="major">はじめに</h2>
+								<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
+								<p>地震大国と言われる日本。<br><br><br>
+								国土特有の地形において、全国で頻繁に地震による被害が発生しています。<br><br><br>
+								地震のみではなく、台風や津波、竜巻、土砂災害、大雪、雪崩...<br><br><br>
+								災害はある日、突然やってきます。<br><br><br>
+								"その時"あなたはどこにいるでしょうか？<br><br><br>
+								職場？デパート？電車や地下鉄？はたまた、旅先の旅館？<br><br><br>
+								"その時"あなたは何を考え、どう行動すれば良いのでしょうか？<br><br><br>
+								"守るべきもの"がある人は大勢いらっしゃいます。<br><br><br>
+								災害について "知る"ことで "守る" ことに繋げる必要があります。<br><br><br>
+								そして、次の世代に"語り継ぐ" ・ "受け継ぐ"必要もあると思います。<br><br><br>
+								このアプリは、国や地方公共団体のオープンデータを用いて、いざという時の強力な"ツール"になるべく、開発しました。<br><br><br>
+								スマートフォンが普及した現在、本アプリをハンドブック的な位置づけとして使用していただければと思います。<br><br><br>
+								ご家族と防災について話したり、ご友人と情報共有したり、使い方は人ぞれぞれだと思います。<br><br><br>
+								そして、日本という国で暮らしていく中で、大きな課題があります。<br><br><br>
+								私たちは、この台地・自然とどのように向き合って生きていけば良いのでしょうか？<br><br><br>
+								少しでも皆さんのヒントとなり、お役に立てられれば幸いにございます。<br><br><br>
+								by 仁志.
+							</article>
+
+							<!-- manabu -->
+							<article id="manabu">
+							<h2 class="major">学習ツール</h2>
+							<p>防災について学ぶ学習ツールを用意しました。</p>
+							
+								<ul class="actions">
+										<li><a href="#type" class="button">災害の種類</a></li>
+										<li><a href="#where" class="button">どこにいる？</a></li>
+										<li><a href="#need" class="button">何が必要？</a></li>
+								</ul>
+								
+								<ul class="actions">
+										<li><a href="#guide" class="button">防災ガイド</a></li>
+										<li><a href="#tokei" class="button">統計からみる防災</a></li>
+								</ul>
+							
+							</article>
+							<!-- manabu -->
+
+							<!-- type -->
+							<article id="type">
+								<a href="#manabu" class="link">×</a>
+								<h2 class="major">災害の種類</h2>
+								<span class="image main"><img src="images/type.jpg" alt="" /></span>
+								<p>災害にはどのようなものがあるでしょうか？<br>
+								災害について "知る" ことが "守る" ことに繋がります。</p>
+								
+								<ul class="actions">
+										<li><a href="javascript:void(0);" class="button" onclick="eq();">地　　震</a></li>
+										<li><a href="javascript:void(0);" class="button" onclick="tn();">津　　波</a></li>
+										<li><a href="javascript:void(0);" class="button" onclick="th();">風 水 害</a></li>
+										<li><a href="javascript:void(0);" class="button" onclick="ds();">自然災害</a></li>
+								</ul>
+								
+								<br>
+								
+								<div id="eq">
+								<h2>地　震</h2>
+								<p>
+								<img src ="images/eq1.jpg" width="100%">
+								<br>（写真提供：神戸市）</p>
+								
+								<h3><i class="fa fa-cube" aria-hidden="true"></i>メカニズム</h3>
+								<p>
+								<img src ="images/nairikukaikou.jpg" width="100%">
+								<br>（写真提供：国土地理院ウェブサイト）</p>
+								<blockquote>
+								・海溝型地震<br>
+								海底にあるプレートとよばれる板のような岩盤が、地球の運動によりひずみ、ずれることによって起こる。<br><br>
+								・プレート内地震<br>
+								沈み込む海のプレート内部で発生する。<br><br>
+								・内陸型地震<br>
+								内陸にある活断層とよばれる地面の裂け目が動いて起こる。
+								</blockquote>
+								
+								<h3><i class="fa fa-cube" aria-hidden="true"></i>震度とマグニチュード</h3>
+								<blockquote>
+								・震度<br>
+								その場所での地震の揺れを表す。日本で使われる言い方で、10階級に分かれる。<br><br>
+								・マグニチュード<br>
+								震源での地震エネルギーの規模を表す。マグニチュードが１増えるとエネルギーは32倍になる。
+								</blockquote>
+								
+								<h3><i class="fa fa-cube" aria-hidden="true"></i>余震</h3>
+								<blockquote>
+								大地震が発生した後は、余震が続くことが多い。余震とはいえ、強い揺れが起こる恐れがあるので、注意が必要である。
+								</blockquote>
+
+								<h3><i class="fa fa-cube" aria-hidden="true"></i>液状化現象</h3>
+								<blockquote>
+								<img src ="images/ekijouka.jpg" width="100%">
+								<br>（写真提供「災害写真データベース」、東日本大震災、浦安市高洲地区マンホール被害）
+								<br><br>
+								大地震が発生した場合、水分を含んだ地盤が崩れ、液状化する液状化現象が起こる場合がある。
+								</blockquote>
+
+								<h3><i class="fa fa-cube" aria-hidden="true"></i>気象庁震度階級関連解説表</h3>
+								<p>
+								<img src ="images/ek.jpg" width="100%">
+								<br>（出典「防災マニュアル」消防庁、気象庁HP）</p>
+								
+								<h3><i class="fa fa-graduation-cap" aria-hidden="true"></i>地震防災INSIGHT</h3>
+								家にいる時
+								<blockquote>
+								<img src ="images/school.jpg" width="100%"><br>
+								・机やテーブルの下にもぐる等して頭を守る！<br>
+								学校の避難訓練を思い出そう。<br><br>
+								<img src ="images/nabe.jpg" width="100%"><br>
+								・地震の次は火災に注意！<br>
+								揺れがおさまったら、火の始末を忘れずに！<br><br>
+								<img src ="images/soto.jpg" width="100%">
+								<br>（写真提供：神戸市）<br>
+								・慌てて外に飛び出さない！<br>
+								瓦や看板が落ちてくる、ガラス等の破片が刺さる危険がある。<br><br>
+								<img src ="images/br.jpg" width="100%"><br>
+								・避難する時は、電気のブレーカーを一旦切る！<br>
+								電気が復旧した時に火災が起こる危険性がある。<br><br>
+								・正しい情報を入手する。<br>
+								テレビ、スマホのニュース、ラジオなどから発表される信頼できる情報を頼りに、落ち着いて行動する。
+								</blockquote>
+								
+								外にいる時
+								<blockquote>
+								<img src ="images/ra.jpg" width="100%"><br>
+								（写真提供：神戸市）<br>
+								・落下物に注意！<br>
+								瓦が落ちてきたり、ブロック塀が壊れたり、ビルの看板が落ちてくる可能性がある。<br><br>
+								<img src ="images/yo.jpg" width="100%"><br>
+								（写真提供：神戸市）<br>
+								・余震に注意！<br>
+								大地震の後は、余震が続く傾向にある。余震といえ、強い地震が発生する場合があるので、倒れかけた建物には近づかない。<br><br>
+								
+								・電車に乗っている時、デパート・映画館等では係員の指示に従い行動する！
+								
+								</blockquote>
+								</div><!-- eq -->
+								
+								<div id="tn">
+								<h2>津　波</h2>
+								<p>
+								<img src ="images/tn1.jpg" width="100%">
+								<br>（写真提供「災害写真データベース」、東日本大震災、津波で破壊された防波堤）</p>
+
+								<iframe width="555" height="350" src="https://www.youtube.com/embed/0D_Atk3j2n4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen id="yout"></iframe>
+								<br>（出典「チェレンジ！防災48」、チリ地震による気仙沼津波）<br><br>
+
+								<h3><i class="fa fa-cube" aria-hidden="true"></i>メカニズム</h3>
+								<blockquote>
+								津波は、多くが海底でプレート型地震が起きた時に海底が持ち上がったり、沈み込んだりすることで起こる。
+								</blockquote>
+								
+								<h3><i class="fa fa-cube" aria-hidden="true"></i>特　徴</h3>
+								<blockquote>
+								・スピードの速さ<br>
+								津波警報等が発表される前にやってくることがある。<br><br>
+								・低い津波でも要注意<br>
+								50cmの津波とはいえ、立っていられるのがやっとなほどの威力で押し寄せてくる。
+								</blockquote>
+								
+								<p>避難する場合は、とにかくすぐに高い所に逃げることが大切です。</p>
+								
+								<h3><i class="fa fa-graduation-cap" aria-hidden="true"></i>津波防災INSIGHT</h3>
+								<blockquote>・小さい震度でも発生することがある！<br><br>
+								・何度もやってくる！<br>
+								警報や避難勧告・指示が解除されるまで戻ってはいけない。<br><br>
+								・見物は危険！<br>
+								珍しいからといって近づくのは危険である。
+								</blockquote>
+								</div><!-- tn -->
+								
+								<div id="th">
+								<h2>台　風</h2>
+								<img src="images/th.png" width="100%"><br>
+								（写真提供：気象庁ウェブサイト）<br><br>
+								<h3><i class="fa fa-cube" aria-hidden="true"></i>定　義</h3>
+								<blockquote>
+								熱帯の海上で発生する低気圧を「熱帯低気圧」と呼ぶが、このうち北西太平洋（赤道より北で東経180度より西の領域）または南シナ海に存在し、なおかつ低気圧域内の最大風速（10分間平均）がおよそ17m/s（34ノット、風力８）以上のものを「台風」と呼ぶ。（気象庁HPより抜粋）
+								</blockquote>
+
+								<h2>洪　水</h2>
+								<img src="images/kz.jpg" width="100%"><br><br>
+								<h3><i class="fa fa-cube" aria-hidden="true"></i>メカニズム</h3>
+								<blockquote>
+								台風・集中豪雨等により河川が増水し、堤防を越えた水が沿岸に被害を与える。
+								</blockquote>
+								
+								<h2>土砂災害</h2>
+								<img src="images/ds.jpg"  width="100%"><br>
+								（写真提供：気象庁ウェブサイト）<br><br>
+								<h3><i class="fa fa-cube" aria-hidden="true"></i>メカニズム</h3>
+								<blockquote>
+								大雨によって地盤が軟らかくなり、がけ崩れや地すべり、土石流をともなう。
+								</blockquote>
+								
+								<h3><i class="fa fa-cube" aria-hidden="true"></i>前触れ</h3>
+								<blockquote>
+								・がけ崩れ<br>
+								<img src="images/syamen.jpg"  width="100%"><br>
+								（写真提供：国土地理院ウェブサイト）<br><br>
+								がけからの水が濁る。<br>
+								がけにひび割れが入る。<br>
+								小石がパラパラと落ちてくる。<br><br>
+								・地すべり<br>
+								<img src="images/jisuberi.jpg"  width="100%"><br>
+								（写真提供：国土地理院ウェブサイト）<br><br>
+								地面にひび割れができる。<br>
+								沢や井戸の水が濁る。<br>
+								斜面から水がふき出す。<br><br>
+								・土石流<br>
+								山鳴りがする。<br>
+								雨が降り続いているのに川の水位が下がる。<br>
+								川の流れが濁ったり流木がまざり始める。								
+								</blockquote>								
+								
+								<h2>高　潮</h2>
+								<img src="images/ts.jpg" width="100%"><br>
+								（1953年、北海南岸での高潮、オランダ南部ゼーラント州、Wikipedia：パブリック・ドメイン）<br><br>
+								<h3><i class="fa fa-cube" aria-hidden="true"></i>メカニズム</h3>
+								<blockquote>
+								台風や低気圧の接近により、海面が上昇し、大波が沿岸部に押し寄せる。
+								</blockquote>
+								
+								<h2>竜　巻</h2>
+								<img src="images/tm.jpg"  width="100%"><br>
+								（写真提供「災害写真データベース」、北海道佐呂間町の竜巻による災害（2006年））<br><br>
+								
+								<iframe width="555" height="350" src="https://www.youtube.com/embed/Cdk_Ym5NtdI?ecver=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen id = "yout"></iframe>
+								<br>（出典「チャレンジ！防災48」、竜巻の映像）
+								<br><br>
+								
+								<h3><i class="fa fa-cube" aria-hidden="true"></i>現　象</h3>
+								<blockquote>
+								発達した積乱雲によって作られる大気中の激しいうずまきのこと。
+								</blockquote>
+								
+								<h3><i class="fa fa-cube" aria-hidden="true"></i>特　徴</h3>
+								<blockquote>
+								・速さと威力<br>
+								秒速100ｍを超える猛烈な風で、周りのあらゆるものを吹き飛ばす。<br><br>
+								・年中発生<br>
+								年間を通じて、いつでもどこでも発生する。<br><br>
+								・日中に注意<br>
+								夜間よりも日中の方が多い。
+								</blockquote>
+								
+								<h3><i class="fa fa-cube" aria-hidden="true"></i>発生したら…</h3>
+								<blockquote>
+								・屋内<br>
+								窓ガラスが割れる危険があるので、窓から離れる。<br><br>
+								・屋外<br>
+								頑丈な建物に避難する。<br>
+								頑丈な構造物に頭を抱えてうずくまる。<br><br>
+								・車内<br>
+								車も飛ばされる危険があるので、車内でも頭を抱えてうずくまる。
+								</blockquote>
+								
+								<h3><i class="fa fa-graduation-cap" aria-hidden="true"></i>風水害防災INSIGHT</h3>
+								風水害は地震などの予想が難しい災害とは異なり、事前に情報収集ができていれば、余裕を持って行動できる。<br><br>
+								<blockquote>
+								・まずは天気予報の確認から！<br>
+								日頃から天気予報を確認する習慣をつける。<br><br>
+								・危険な時は中止の決断を！<br>
+								旅行で山や海に行くなどの計画がある時は、天気予報を確認し、危険な場合は中止にする。<br><br>
+								・家の周りの危険個所をチェック！<br>
+								自治体の「ハザードマップ」から、家の周りの危険個所をチェックする。
+								</blockquote>
+								
+								</div><!-- th -->
+								
+								<div id="ds">
+								<h2>火山災害</h2>
+								<img src="images/kazan.jpg"  width="100%"><br><br>
+								
+								<iframe width="555" height="350" src="https://www.youtube.com/embed/5S2qR9Lekpw?ecver=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen id = "yout"></iframe>
+								<br>（出典「チャレンジ！防災48」、桜島噴火の瞬間）
+								<br><br>
+								
+								<h3><i class="fa fa-cube" aria-hidden="true"></i>種　類</h3>
+								<blockquote>
+								・火砕流、火山灰や噴石<br>
+								火砕流は高温の火山ガス・溶岩片・火山灰などが一団となって、斜面を流れ下る現象のことをいう。<br><br>
+								火山灰は噴火の大きさや風の強さにより、1,000km以上も遠くまで飛ぶことがある。<br><br>
+								また、火口から大きな岩や医師が放出されることがあり、これを噴石といい、あたると人や家屋に大きな被害をもたらすことがある。<br><br>
+								
+								・溶岩流<br>
+								火口からあふれ出した溶岩流は、約600～1,100℃と高温であり、田畑や家屋などが焼きつくされ、埋まってしまう。<br><br>
+								
+								・土石流<br>
+								<iframe width="530" height="350" src="https://www.youtube.com/embed/72Q7b2KKa-c?ecver=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen id = "yout"></iframe>
+								<br>（出典「チャレンジ！防災48」、巨大な岩を巻き込んだ土石流）
+								<br><br>
+								噴火によって火口付近の積雪がとけたり、火山灰が積もったところに雨が降ったりすると、水が地中にしみこみにくいため、土石流が発生することがある。<br><br>
+
+								・地震（噴火活動に伴って発生）<br>
+								噴火活動にともない、大きな地震が発生することがある。<br><br>
+								
+								・火山ガス<br>
+								火口などからは、硫化水素、二酸化硫黄、二酸化炭素などの有毒な成分を含んだ火山ガスが放出される。
+								
+								</blockquote>
+								
+								<p>日本は「環太平洋造山帯」という火山ベルトに位置しており、活火山（噴火活動が盛んな火山のこと。）は110を数えます。</p>
+
+								<h3><i class="fa fa-graduation-cap" aria-hidden="true"></i>火山災害防災INSIGHT</h3>
+								<blockquote>
+								山に出かける時は火山情報をチェックする。<br><br>
+								噴石からは岩陰や丈夫な建物に避難する。<br><br>
+								行政機関の避難指示に従って行動する。<br><br>
+								火山ガス（有毒性）にも注意する。
+								</blockquote>
+
+								<h2>雪　崩</h2>
+								<img src="images/snow.jpg" width="100%"><br>
+								（雪崩の瞬間、Wikipedia：パブリック・ドメイン）<br><br>
+								
+								<iframe width="555" height="350" src="https://www.youtube.com/embed/JP58DEHri6E?ecver=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen id = "yout"></iframe>
+								<br>（出典「チャレンジ！防災48」、雪崩発生の瞬間）
+								<br><br>
+								
+								<h3><i class="fa fa-cube" aria-hidden="true"></i>現　象</h3>
+								<blockquote>
+								山に積もった雪が崩れ落ちる。
+								</blockquote>
+								
+								<p>雪崩被害の多くは「表層雪崩」によるものです。</p>
+								<h3><i class="fa fa-cube" aria-hidden="true"></i>表層雪崩</h3>
+								<blockquote>
+								気温の低い状況で、積雪面の上に数10cm以上の大雪が降った場合に、新積雪層が滑り落ちる。<br><br>
+								降雪中・降雪後・昼夜関係なく、大規模に動き出す。
+								</blockquote>
+
+								<h3><i class="fa fa-graduation-cap" aria-hidden="true"></i>雪崩防災INSIGHT</h3>
+								<blockquote>								
+								・立ち入り禁止場所には入らない。<br><br>
+								・春先は雪崩がおきやすい季節なので、注意する！<br><br>
+								・時速100kmをこえるスピードなため、逃げ切ることは不可能！<br><br>
+								・巻き込まれても、あきらめない！<br>
+								呼吸器官の確保、岩や樹木にしがみつく。<br><br>
+								・大声を出して、仲間に知らせる。
+								</blockquote>
+
+								<h2>落　雷</h2>
+								<img src="images/sander.jpg" width="100%"><br><br>
+								<h3><i class="fa fa-cube" aria-hidden="true"></i>現　象</h3>
+								<blockquote>
+								雷は雷雲の位置しだいで、平野、海面、山岳など、ところかまわず落ちる。
+								</blockquote>
+								
+								<h3><i class="fa fa-graduation-cap" aria-hidden="true"></i>落雷防災INSIGHT</h3>
+								外にいる時
+								<blockquote>
+								・高い木下は危険！<br>
+								葉先から2m以上は離れる。<br><br>
+								・軒先での雨宿りは危険！<br>
+								建物の中に避難する。<br><br>
+								・テニスラケットや釣竿（金属性、カーボンファイバー性）は手放して避難する<br><br>							
+								・乗り物の中は安全！
+								</blockquote>
+								
+								家にいる時
+								<blockquote>
+								・テレビ等電化製品から距離を置く！<br><br>
+								・落雷によりパソコン等が壊れる可能性があるので、注意する！
+								</blockquote>
+								
+								</div><!-- ds -->
+
+								<hr />
+								<i class="fa fa-book" aria-hidden="true"></i> 以下の資料をもとに仁志が加工・編集して作成しました。<br>
+								・<a href="http://www.fdma.go.jp/syobodan/bousai/" target="_blank">わたしの防災サバイバル手帳</a>、消防庁<br>
+								・<a href="http://open.fdma.go.jp/e-college/bosai/index.html" target="_blank">チャレンジ！防災48</a>、消防庁
+							</article>
+
+						<!-- where -->
+							<article id="where">
+								<a href="#manabu" class="link">×</a>
+								<h2 class="major">どこにいる？</h2>
+								<span class="image main"><img src="images/map.jpg" alt="" /></span>
+								<p>地震が発生した時、あなたはどこにいるでしょうか？<br><br>
+								"その時" どう行動したら良いのでしょうか？<br><br>
+								参考文献を基に様々なシーンを想定し、再構成してみました。<br><br>
+								皆で考えてみましょう！
+								</p>
+									<hr>
+										<div class="field">
+											<label for="demo-category">Category</label>
+											<div class="select-wrapper">
+												<select name="demo-category" id="demo-category" onChange= "sel()">
+													<option>どこにいる？</option>
+													<option value="1">屋内編</option>
+													<option value="2">屋外編</option>
+													<option value="3">乗り物編</option>
+													<option value="4">揺れが収まったら</option>
+												</select>
+											</div>
+										</div>
+								<br>
+								
+								<div id ="home">
+								<ul class="actions">
+										<li><a href="#day_s" class="button" onclick="start2();">日常生活中</a></li>
+										<li><a href="#kit_s" class="button" onclick="start4();">台　所</a></li>
+										<li><a href="#toil_s" class="button" onclick="start6();">お風呂・トイレ</a></li>
+										<li><a href="#bed_s" class="button" onclick="start8();">寝ている時</a></li>
+								</ul>
+								<ul class="actions">
+										<li><a href="#man_s" class="button" onclick="start10();">マンション</a></li>
+										<li><a href="#offi_s" class="button" onclick="start12();">職場・オフィス</a></li>
+										<li><a href="#sup_s" class="button" onclick="start14();">スーパー・デパート</a></li>
+								</ul>
+								<ul class="actions">
+										<li><a href="#eiga_s" class="button" onclick="start16();">映画館・劇場</a></li>
+										<li><a href="#tika_s" class="button" onclick="start18();">地下街</a></li>
+										<li><a href="#gakko_s" class="button" onclick="start20();">学　校</a></li>
+										<li><a href="#ele_s" class="button" onclick="start22();">エレベーター</a></li>
+								</ul>
+								</div>
+								
+								<div id ="okugai">
+								<ul class="actions">
+										<li><a href="#jt_s" class="button" onclick="start24();">住宅地</a></li>
+										<li><a href="#ot_s" class="button" onclick="start26();">オフィス街・中華街</a></li>
+										<li><a href="#sea_s" class="button" onclick="start28();">海　岸</a></li>
+										<li><a href="#riv_s" class="button" onclick="start30();">川べり</a></li>
+								</ul>
+								<ul class="actions">
+										<li><a href="#mount_s" class="button" onclick="start32();">山・丘陵地</a></li>
+								</ul>
+								</div>
+								
+								<div id ="norimono">
+								<ul class="actions">
+										<li><a href="#car_s" class="button" onclick="start34();">運転中</a></li>
+										<li><a href="#tetu_s" class="button" onclick="start36();">鉄　道</a></li>
+										<li><a href="#sink_s" class="button" onclick="start38();">新幹線</a></li>
+										<li><a href="#tikat_s" class="button" onclick="start40();">地下鉄</a></li>
+										<li><a href="#bus_s" class="button" onclick="start42();">バ　ス</a></li>
+								</ul>
+								</div>
+								
+								<div id ="yure">
+								<ul class="actions">
+										<li><a href="#mi_s" class="button" onclick="start43();">身の安全の確保</a></li>
+										<li><a href="#hh_s" class="button" onclick="start44();">避難の判断</a></li>
+										<li><a href="#hk_s" class="button" onclick="start45();">避難の行動</a></li>
+								</ul>
+								<ul class="actions">
+										<li><a href="#kk_s" class="button" onclick="start46();">帰宅困難者</a></li>
+										<li><a href="#ke_s" class="button" onclick="start47();">救出・援護</a></li>
+								</ul>								
+								</div>
+								
+								<p>
+								<hr />
+								<i class="fa fa-book" aria-hidden="true"></i> 以下の資料をもとに仁志が加工・編集して作成しました。<br>
+								・<a href="http://www.fdma.go.jp/bousai_manual/" target="_blank">防災マニュアル</a>、消防庁
+								</p>
+							</article>
+
+								<article id="day_s" onload="start2();">
+								<a href="#where" class="link">×</a>
+								<h2>日常生活中</h2>
+								<img src="images/table.jpg" width="100%"><br>
+								<div id="myContent2"></div>
+								<div id="contentToWrite2" style="display:none">
+									あなたは、リビングで日常生活を送っています。<br>
+									突然、「地震」に襲われました。<br>
+									どう行動しますか？<br>
+									………<br>
+									みんなで考えましょう！<br>
+									Please Press「THEORY」
+								</div>
+								<br>
+								<ul class="actions">
+									<li><a href="javascript:void(0);" class="button special" onclick="the1(); return false;"><i class="fa fa-film" aria-hidden="true"></i> THEORY</a></li>
+								</ul>
+								<div id="theory1" style="display:none;">
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 机やテーブルの下にもぐり、自分の身を守る。<br><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 動く時は、スリッパ等を履く。ガラス片等で足を怪我する可能性がある。<br><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 戸を開けて出入り口を確保する。家の中に閉じ込められる恐れがある。<br><br>
+								</div>
+								</article>
+
+								<article id="kit_s">
+								<a href="#where" class="link">×</a>
+								<h2>台所</h2>
+								<img src="images/kit.jpg" width="100%" height="auto"><br>
+								<div id="myContent4"></div>
+								<div id="contentToWrite4" style="display:none">
+									あなたは、台所で料理をしています。<br>
+									突然、「地震」に襲われました。<br>
+									どう行動しますか？<br>
+									………<br>
+									みんなで考えましょう！<br>
+									Please Press「THEORY」
+								</div>
+								<br>
+								<ul class="actions">
+									<li><a href="javascript:void(0);" class="button special" onclick="the2(); return false;"><i class="fa fa-film" aria-hidden="true"></i> THEORY</a></li>
+								</ul>
+								<div id="theory2" style="display:none;">
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> テーブルの下にもぐり、身の安全を確保する。<br><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 慌てて火を消そうとすると、やけどする危険があるので、揺れがおさまるのを待ってから火を消す。<br><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 食器棚や冷蔵庫が倒れてくるだけではなく、中身が飛び出してくる事があるので、注意する。<br><br>
+								</div>
+								</article>
+
+								<article id="toil_s"><a href="#where" class="link">×</a>
+								<h2>お風呂・トイレ</h2>
+								<img src="images/bath.jpg" width="100%"><br>
+								<div id="myContent6"></div>
+								<div id="contentToWrite6" style="display:none">
+									入浴中やトイレに入っている時に、地震にあったら…<br>
+									どう行動しますか？<br>
+									………<br>
+									みんなで考えましょう！<br>
+									Please Press「THEORY」
+								</div>
+								<br>
+								<ul class="actions">
+									<li><a href="javascript:void(0);" class="button special" onclick="the3(); return false;"><i class="fa fa-film" aria-hidden="true"></i> THEORY</a></li>
+								</ul>
+								<div id="theory3" style="display:none;">
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 風呂場では、タイルや鏡、トイレでは水洗タンクが落ちてくることがあるので、注意する。<br><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 入浴中は、鏡やガラスの破損による怪我に注意する。<br><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 浴槽の中では、風呂のふた等をかぶり、頭を守る。<br><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 揺れがおさまってから、避難する。<br><br>
+								</div>
+								</article>
+
+								<article id="bed_s"><a href="#where" class="link">×</a>
+								<h2>寝ている時</h2>
+								<img src="images/bed.jpg" width="100%"><br>
+								<div id="myContent8"></div>
+								<div id="contentToWrite8" style="display:none">
+									寝ている時に、地震にあったら…<br>
+									どう行動しますか？<br>
+									………<br>
+									みんなで考えましょう！<br>
+									Please Press「THEORY」
+								</div>
+								<br>
+								<ul class="actions">
+									<li><a href="javascript:void(0);" class="button special" onclick="the4(); return false;"><i class="fa fa-film" aria-hidden="true"></i> THEORY</a></li>
+								</ul>
+								<div id="theory4" style="display:none;">
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 揺れで目が覚めたら、寝具にもぐりこむか、ベッドの中にうずくまる。<br><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 枕元にはスリッパ、懐中電灯、ラジオやスマートフォンを置いておく。<br><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 寝室にタンス等を置く場合は、天井と固定しておき、倒れないようにする。<br><br>
+								</div>
+								</article>
+
+								<article id="man_s"><a href="#where" class="link">×</a>
+								<h2>マンション</h2>
+								<img src="images/mans.jpg" width="100%"><br>
+								<div id="myContent10"></div>
+								<div id="contentToWrite10" style="display:none">
+									マンションにいる時に、地震にあったら…<br>
+									どう行動しますか？<br>
+									………<br>
+									みんなで考えましょう！<br>
+									Please Press「THEORY」
+								</div>
+								<br>
+								<ul class="actions">
+									<li><a href="javascript:void(0);" class="button special" onclick="the5(); return false;"><i class="fa fa-film" aria-hidden="true"></i> THEORY</a></li>
+								</ul>
+								<div id="theory5" style="display:none;">
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 机の下にもぐり、揺れがおさまるのを待つ。<br><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 高層階では、揺れの幅が大きくなる。<br><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 非常口の確認をしておく。<br><br>
+								</div>
+								</article>
+
+								<article id="offi_s"><a href="#where" class="link">×</a>
+								<h2>職場・オフィス</h2>
+								<img src="images/office.jpg" width="100%"><br>
+								<div id="myContent12"></div>
+								<div id="contentToWrite12" style="display:none">
+									職場やオフィスで働いている時に、地震にあったら…<br>
+									どう行動しますか？<br>
+									………<br>
+									みんなで考えましょう！<br>
+									Please Press「THEORY」
+								</div>
+								<br>
+								<ul class="actions">
+									<li><a href="javascript:void(0);" class="button special" onclick="the6(); return false;"><i class="fa fa-film" aria-hidden="true"></i> THEORY</a></li>
+								</ul>
+								<div id="theory6" style="display:none;">
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 窓ガラスが割れることがあるので、窓辺から離れる。<br><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> OA機器の落下に注意する。<br><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 日頃から整理整頓を行い、職場環境を綺麗に心がける。<br><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 避難時はエレベーターを使用しないようにする。<br><br>
+								</div>
+								</article>
+
+								<article id="sup_s"><a href="#where" class="link">×</a>
+								<h2>スーパー・デパート</h2>
+								<img src="images/depart.jpg" width="100%"><br>
+								<div id="myContent14"></div>
+								<div id="contentToWrite14" style="display:none">
+									スーパーやデパートで買い物中に、地震にあったら…<br>
+									どう行動しますか？<br>
+									………<br>
+									みんなで考えましょう！<br>
+									Please Press「THEORY」
+								</div>
+								<br>
+								<ul class="actions">
+									<li><a href="javascript:void(0);" class="button special" onclick="the7(); return false;"><i class="fa fa-film" aria-hidden="true"></i> THEORY</a></li>
+								</ul>
+								<div id="theory7" style="display:none;">
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> バックや買い物かごなどで頭を保護し、ショーケースなど倒れやすいものから離れる。<br><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> ガラス製品や瀬戸物、その他、陳列棚の商品などの落下・転倒に注意する。<br><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> エレベーターによる避難はしない。<br><br>
+								</div>
+								</article>
+
+								<article id="eiga_s"><a href="#where" class="link">×</a>
+								<h2>映画館・劇場</h2>
+								<img src="images/eiga.jpg" width="100%"><br>
+								<div id="myContent16"></div>
+								<div id="contentToWrite16" style="display:none">
+									映画館や劇場で鑑賞中に、地震にあったら…<br>
+									どう行動しますか？<br>
+									………<br>
+									みんなで考えましょう！<br>
+									Please Press「THEORY」
+								</div>
+								<br>
+								<ul class="actions">
+									<li><a href="javascript:void(0);" class="button special" onclick="the8(); return false;"><i class="fa fa-film" aria-hidden="true"></i> THEORY</a></li>
+								</ul>
+								<div id="theory8" style="display:none;">
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> バックなどで頭を保護し、座席の間に身を隠して、揺れが収まるのを待つ。<br><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 天井からの落下物や窓ガラス等に注意しながら、安全な場所に避難する。<br><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 停電しても誘導灯や非常灯がつくので、慌てずに、係員の指示に従う。<br><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 事前に避難口を確認しておく。
+								</div>
+								</article>
+
+								<article id="tika_s"><a href="#where" class="link">×</a>
+								<h2>地下街</h2>
+								<img src="images/tika.jpg" width="100%"><br>
+								<div id="myContent18"></div>
+								<div id="contentToWrite18" style="display:none">
+									地下街にいる時に、地震にあったら…<br>
+									どう行動しますか？<br>
+									………<br>
+									みんなで考えましょう！<br>
+									Please Press「THEORY」
+								</div>
+								<br>
+								<ul class="actions">
+									<li><a href="javascript:void(0);" class="button special" onclick="the9(); return false;"><i class="fa fa-film" aria-hidden="true"></i> THEORY</a></li>
+								</ul>
+								<div id="theory9" style="display:none;">
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 停電になっても、非常照明がつくまでむやみに動かないようにする。<br><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 地下街では６０ｍごとに非常口が設置されているため、一つの非常口に殺到せずに地上に落ち着いて脱出する。<br><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 脱出するときは、壁づたいに歩いて避難する。
+								</div>
+								</article>
+
+								<article id="gakko_s"><a href="#where" class="link">×</a>
+								<h2>学校</h2>
+								<img src="images/school.jpg" width="100%"><br>
+								<div id="myContent20"></div>
+								<div id="contentToWrite20" style="display:none">
+									学校にいる時に、地震にあったら…<br>
+									どう行動しますか？<br>
+									………<br>
+									みんなで考えましょう！<br>
+									Please Press「THEORY」
+								</div>
+								<br>
+								<ul class="actions">
+									<li><a href="javascript:void(0);" class="button special" onclick="the10(); return false;"><i class="fa fa-film" aria-hidden="true"></i> THEORY</a></li>
+								</ul>
+								<div id="theory10" style="display:none;">
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 教室内では、机の下に潜って落下物などから身を守り、慌てて外に飛び出すなど勝手な行動はせずに、教職員の指示に従う。<br><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 廊下、運動場、体育館などでは、中央部に集まってしゃがむ。<br><br>
+								<img src="images/rika.jpg" width="100%"><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 実験室などでは、薬品や火気に注意する。<br><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 通学路が危険なこともあるので、勝手に帰宅しない。<br><br>
+								</div>
+								</article>
+
+								<article id="ele_s"><a href="#where" class="link">×</a>
+								<h2>エレベーター</h2>
+								<img src="images/ele.jpg" width="100%"><br>
+								<div id="myContent22"></div>
+								<div id="contentToWrite22" style="display:none">
+									エレベーターの中で、地震にあったら…<br>
+									どう行動しますか？<br>
+									………<br>
+									みんなで考えましょう！<br>
+									Please Press「THEORY」
+								</div>
+								<br>
+								<ul class="actions">
+									<li><a href="javascript:void(0);" class="button special" onclick="the11(); return false;"><i class="fa fa-film" aria-hidden="true"></i> THEORY</a></li>
+								</ul>
+								<div id="theory11" style="display:none;">
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 全ての階のボタンを押し、最初に停止した階でおりるのが原則！<br><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> ただし、停止した階で慌てておりるのではなく、階の状況を見極めるのも大切！<br><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> エレベーターに閉じこめられても、焦らず冷静になって「非常用呼び出しボタン」等での連絡を取る。<br><br>
+							</div>
+								</article>
+
+								<article id="jt_s"><a href="#where" class="link">×</a>
+								<h2>住宅地</h2>
+								<img src="images/jut.jpg" width="100%"><br>
+								<div id="myContent24"></div>
+								<div id="contentToWrite24" style="display:none">
+									あなたは、住宅地を歩いています。<br>
+									突然、「地震」に襲われました。<br>
+									どう行動しますか？<br>
+									………<br>
+									みんなで考えましょう！<br>
+									Please Press「THEORY」
+								</div>
+								<br>
+								<ul class="actions">
+									<li><a href="javascript:void(0);" class="button special" onclick="the12(); return false;"><i class="fa fa-film" aria-hidden="true"></i> THEORY</a></li>
+								</ul>
+								<div id="theory12" style="display:none;">
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 住宅地の路地にあるブロック塀や石塀は、強い揺れで倒れる危険がある。揺れを感じたら塀から離れる。<br><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 電柱や自動販売機も倒れてくることがあるので、そばから離れる。<br><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 屋根瓦や二階建て以上の住宅のベランダに置かれているエアコンの室外機、ガーデニング用のプランターなどが落下してくることがある。頭の上も注意する。<br><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 強い揺れが起きると、耐震性能の低い住宅が倒壊する場合もある。これにより瓦礫や窓ガラスが道路内に散乱する可能性もあるので、揺れを感じたら周辺の状況に注意する。<br><br>
+								</div>
+								</article>
+
+								<article id="ot_s"><a href="#where" class="link">×</a>
+								<h2>オフィス街・中華街</h2>
+								<img src="images/tokai.jpg" width="100%"><br>
+								<div id="myContent26"></div>
+								<div id="contentToWrite26" style="display:none">
+									あなたは、オフィス街・中華街を歩いています。<br>
+									突然、「地震」に襲われました。<br>
+									どう行動しますか？<br>
+									………<br>
+									みんなで考えましょう！<br>
+									Please Press「THEORY」
+								</div>
+								<br>
+								<ul class="actions">
+									<li><a href="javascript:void(0);" class="button special" onclick="the13(); return false;"><i class="fa fa-film" aria-hidden="true"></i> THEORY</a></li>
+								</ul>
+								<div id="theory13" style="display:none;">
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 何はともあれ、頭上を保護する！<br><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> オフィスビルの窓ガラスが割れて落下すると、時速40～60kmで広範囲に拡散する。<br><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> ビルの外壁や張られているタイル、外壁に取り付けられている看板などが剥がれ落ちることもある。<br><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 街では、オフィス街には少ない店の看板やネオンサインなどの落下・転倒物が加わる。<br><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 鞄などで頭を保護し、できるだけ建物から離れる。<br><br>
+								</div>
+								</article>
+
+								<article id="sea_s"><a href="#where" class="link">×</a>
+								<h2>海岸</h2>
+								<img src="images/sea.jpg" width="100%"><br>
+								<div id="myContent28"></div>
+								<div id="contentToWrite28" style="display:none">
+									あなたは、海岸に来ています。<br>
+									突然、「地震」に襲われました。<br>
+									どう行動しますか？<br>
+									………<br>
+									みんなで考えましょう！<br>
+									Please Press「THEORY」
+								</div>
+								<br>
+								<ul class="actions">
+									<li><a href="javascript:void(0);" class="button special" onclick="the14(); return false;"><i class="fa fa-film" aria-hidden="true"></i> THEORY</a></li>
+								</ul>
+								<div id="theory14" style="display:none;">
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 一番恐ろしいのは津波。とにかく高い所に避難する！<br><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 津波は繰り返し襲って来て、第一波の後にさらに高い波が来ることもある。いったん波が引いても絶対に戻ってはいけない。<br><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 避難標識が整備されている場合には避難する際の目安になる。<br><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 水浴中の場合は、監視員やライフセーバーがいる海水浴場では指示に従って避難する。<br><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 警報などが出ていないか、正しい情報を入手する。<br><br>
+								→ <a href="http://www.jma.go.jp/jp/tsunami/index.html" target="_blank">津波の防災情報</a><br><br>
+								</div>
+								</article>
+
+								<article id="riv_s"><a href="#where" class="link">×</a>
+								<h2>川べり</h2>
+								<img src="images/river.jpg" width="100%"><br>
+								<div id="myContent30"></div>
+								<div id="contentToWrite30" style="display:none">
+									あなたは、川べりに来ています。<br>
+									突然、「地震」に襲われました。<br>
+									どう行動しますか？<br>
+									………<br>
+									みんなで考えましょう！<br>
+									Please Press「THEORY」
+								</div>
+								<br>
+								<ul class="actions">
+									<li><a href="javascript:void(0);" class="button special" onclick="the15(); return false;"><i class="fa fa-film" aria-hidden="true"></i> THEORY</a></li>
+								</ul>
+								<div id="theory15" style="display:none;">
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 津波は水を湛えている川を遡る！<br><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 流れに沿って上流側へ避難しても津波は追いかけてくる。<br><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 流れに対して直角方向に素早く避難する。<br><br>
+								</div>
+								</article>
+
+								<article id="mount_s"><a href="#where" class="link">×</a>
+								<h2>山・丘陵地</h2>
+								<img src="images/yama.jpg" width="100%"><br>
+								<div id="myContent32"></div>
+								<div id="contentToWrite32" style="display:none">
+									あなたは、山登りをしています。<br>
+									突然、「地震」に襲われました。<br>
+									どう行動しますか？<br>
+									………<br>
+									みんなで考えましょう！<br>
+									Please Press「THEORY」
+								</div>
+								<br>
+								<ul class="actions">
+									<li><a href="javascript:void(0);" class="button special" onclick="the16(); return false;"><i class="fa fa-film" aria-hidden="true"></i> THEORY</a></li>
+								</ul>
+								<div id="theory16" style="display:none;">
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 落石に注意し、急傾斜地など危険な場所から遠ざかる！<br><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 登山やハイキングで山にいる時に強い揺れに襲われた場合には、まず落石から身を守る。<br><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 地震で地盤がゆるみ、崩れやすくなっている可能性があるため、崖や急傾斜地など危険な場所には近づかない。<br><br>
+								</div>
+								</article>
+
+								<article id="car_s"><a href="#where" class="link">×</a>
+								<h2>運転中</h2>
+								<img src="images/car.jpg" width="100%"><br>
+								<div id="myContent34"></div>
+								<div id="contentToWrite34" style="display:none">
+									あなたは、車を運転しています。<br>
+									突然、「地震」に襲われました。<br>
+									どう行動しますか？<br>
+									………<br>
+									みんなで考えましょう！<br>
+									Please Press「THEORY」
+								</div>
+								<br>
+								<ul class="actions">
+									<li><a href="javascript:void(0);" class="button special" onclick="the17(); return false;"><i class="fa fa-film" aria-hidden="true"></i> THEORY</a></li>
+								</ul>
+								<div id="theory17" style="display:none;">
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 揺れを感じたら<br>
+								①急ブレーキは禁物！ハンドルをしっかり握り、前後の車に注意しながら徐々にスピードを落とし、道路の左側に停車する。<br><br>
+								②エンジンを切り、揺れがおさまるまでは車外に出ず、カーラジオやスマートフォンから情報を入手する。<br><br>
+								③避難の必要がある場合は、車のキーはつけたままにし、ドアをロックしないで、窓を閉める。<br><br>
+								④連絡先を見えるところに書き、車検証などの貴重品を持ち、徒歩で避難する。<br><br>
+
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 車での避難は、緊急自動車などの妨げになる。<br><br>
+								<img src="images/douro.jpg" width="100%"><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 高速道路では、普通の道路を走行中の対処に加え、以下の点にも留意する。<br><br>
+								①高速走行しているのでハザードランプを点灯させ、前後の車に注意を喚起する。<br><br>
+								②高速道路では約１ｋｍごとに非常口を設けているので、徒歩で地上に脱出することができる。<br><br>
+								</div>
+								</article>
+
+								<article id="tetu_s"><a href="#where" class="link">×</a>
+								<h2>鉄道</h2>
+								<img src="images/tetu.jpg" width="100%"><br>
+								<div id="myContent36"></div>
+								<div id="contentToWrite36" style="display:none">
+									あなたは、電車に乗っています。<br>
+									突然、「地震」に襲われました。<br>
+									どう行動しますか？<br>
+									………<br>
+									みんなで考えましょう！<br>
+									Please Press「THEORY」
+								</div>
+								<br>
+								<ul class="actions">
+									<li><a href="javascript:void(0);" class="button special" onclick="the18(); return false;"><i class="fa fa-film" aria-hidden="true"></i> THEORY</a></li>
+								</ul>
+								<div id="theory18" style="display:none;">
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 強い揺れを感知すると電車は緊急停車する！<br><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 座席に座っている場合には、低い姿勢をとって頭部を鞄などで保護し、立っている場合には手すりやつり革をしっかり握って転倒しないようにする。<br><br>
+
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 停車後は、乗務員の指示に従う。<br><br>
+								</div>
+								</article>
+
+								<article id="sink_s"><a href="#where" class="link">×</a>
+								<h2>新幹線</h2>
+								<img src="images/sink.jpg" width="100%"><br>
+								<div id="myContent38"></div>
+								<div id="contentToWrite38" style="display:none">
+									あなたは、新幹線に乗っています。<br>
+									突然、「地震」に襲われました。<br>
+									どう行動しますか？<br>
+									………<br>
+									みんなで考えましょう！<br>
+									Please Press「THEORY」
+								</div>
+								<br>
+								<ul class="actions">
+									<li><a href="javascript:void(0);" class="button special" onclick="the19(); return false;"><i class="fa fa-film" aria-hidden="true"></i> THEORY</a></li>
+								</ul>
+								<div id="theory19" style="display:none;">
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 新幹線は早期地震検知警戒システム（ユレダス）が作動して緊急停車する！<br><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 高速走行しているので、座席に座っている場合には、前に飛び出さないように座席の間に体を隠し、立っている場合には手すりをしっかり握って転倒しないようにする。<br><br>
+
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 停車後は、乗務員の指示に従う。<br><br>
+								</div>
+								</article>
+
+								<article id="tikat_s"><a href="#where" class="link">×</a>
+								<h2>地下鉄</h2>
+								<img src="images/tikat.jpg" width="100%"><br>
+								<div id="myContent40"></div>
+								<div id="contentToWrite40" style="display:none">
+									あなたは、地下鉄に乗っています。<br>
+									突然、「地震」に襲われました。<br>
+									どう行動しますか？<br>
+									………<br>
+									みんなで考えましょう！<br>
+									Please Press「THEORY」
+								</div>
+								<br>
+								<ul class="actions">
+									<li><a href="javascript:void(0);" class="button special" onclick="the20(); return false;"><i class="fa fa-film" aria-hidden="true"></i> THEORY</a></li>
+								</ul>
+								<div id="theory20" style="display:none;">
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 震度５弱程度の揺れを観測した場合に運転を停止し、線路途中なら安全を確認し、低速で最寄りの駅に向かう！<br><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 座席に座っている場合には、低い姿勢をとって頭部を鞄などで保護し、立っている場合には手すりやつり革をしっかり握って転倒しないようにする。<br><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 停電になっても非常灯が1時間程度は点灯するので、慌てずに行動する。<br><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 地下鉄によっては高圧電線が線路脇に設置されているので、勝手に線路に飛び降りると危険！<br><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 停車後は、乗務員の指示に従う。<br><br>
+								</div>
+								</article>
+
+								<article id="bus_s"><a href="#where" class="link">×</a>
+								<h2>バス</h2>
+								<img src="images/bus.jpg" width="100%"><br>
+								<div id="myContent42"></div>
+								<div id="contentToWrite42" style="display:none">
+									あなたは、バスに乗っています。<br>
+									突然、「地震」に襲われました。<br>
+									どう行動しますか？<br>
+									………<br>
+									みんなで考えましょう！<br>
+									Please Press「THEORY」
+								</div>
+								<br>
+								<ul class="actions">
+									<li><a href="javascript:void(0);" class="button special" onclick="the21(); return false;"><i class="fa fa-film" aria-hidden="true"></i> THEORY</a></li>
+								</ul>
+								<div id="theory21" style="display:none;">
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 強い揺れを感じた場合に、危険を回避するために急ブレーキが踏まれることがある！<br><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 座席に座っている場合には、低い姿勢をとって頭部を鞄などで保護し、立っている場合には手すりやつり革をしっかり握って転倒しないようにする。<br><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 停車後は、乗務員の指示に従う。<br><br>
+								</div>
+								</article>
+
+								<article id="mi_s"><a href="#where" class="link">×</a>
+								<h2>身の安全の確保</h2>
+								<img src="images/door.jpg" width="100%"><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> まずは、状況を確認し身の安全の確保を最優先する。慌てて行動すると思わぬ怪我をする恐れがあるので、冷静になることを心がける。<br><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 揺れが収まったら、戸や窓を開ける等し、出口の確保に努めましょう！
+								</article>
+
+								<article id="hh_s"><a href="#where" class="link">×</a>
+								<h2>避難の判断</h2>
+								<img src="images/info.jpg" width="100%"><br>
+								
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 震災後では、様々なデマや憶測が飛び交う。<br><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 正しい情報に基づいた判断を！あなたの運命を左右する。<br><br>
+								心に留めておきましょう！<br><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 避難勧告が出されたら、避難する。また、勧告がなくても危険を感じたら避難する。
+								
+								</article>
+
+								<article id="hk_s"><a href="#where" class="link">×</a>
+								<h2>避難の行動</h2>
+								<img src="images/hik.jpg" width="100%"><br>
+								家を出る時<br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 外に出る時も周囲の確認を！ガラスや瓦などが落ちてくる可能性がある。<br><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 家のブレーカーを切り、ガスの元栓を閉める。<br><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 近所の方々にも声をかけ、安否確認を！<br><br>
+								火災に遭遇したら…<br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 火災では煙が死亡要因の多くを占めている。冷静な避難行動を！<br><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 火災報知設備の警報を聞いたときは、状況を確認するとともに、速やかな行動を心がける。<br><br>
+                                <i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 煙が部屋や廊下に充満してきた場合は、ハンカチやタオルなどで口・鼻をしっかり覆い、煙を吸わないよう姿勢を低くして避難する。<br><br>
+								避難方法<br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 原則、徒歩で避難する！車を使うと渋滞を引き起こし、消防・救急活動などに支障を来す。<br><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 最寄りの避難所、避難場所に避難する。
+								</article>
+
+								<article id="kk_s"><a href="#where" class="link">×</a>
+								<h2>帰宅困難者</h2>
+								<img src="images/anpi.jpg" width="100%"><br>
+								帰宅の判断<br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 遠距離を無理に帰宅しようとすると、却って二次災害を引き起こす恐れがある。 むやみに移動しない。<br><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 家族の安否確認を行う。<br><br>
+								帰宅方法<br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 地震が起きると普段通っている道路も通行困難になる。普段から自分で帰宅ルートを歩くなどして、道路の状況を確認しておく。<br><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 夜は特に足下が見えにくく危険！特に自宅まで遠距離の人は時間帯も考えて行動する。<br><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 災害時には、情報提供などを行う帰宅困難者支援施設として、学校や公共施設、コンビニエンスストア、ガソリンスタンドなどが指定されるケースが増えている。これらの施設も併せて確認しておく。
+								</article>
+
+								<article id="ke_s"><a href="#where" class="link">×</a>
+								<h2>救出・援護</h2>
+								<img src="images/help.jpg" width="100%"><br>
+								初期消火<br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 火災になった場合は、周りの人に大きな声で助けを求めるとともに、手近にある消火器などで初期消火を行う。<br><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 初期消火ができず天井まで火が広がってしまったら、自分や他の住人の安全を確保するとともに、消防隊や消防団へ助けを求める。<br><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 消防隊が到着するまで、近所の人たちや自主防災組織の人などと協力して、近隣の住民（特に子供や高齢者などの要援護者）の避難を確認し、バケツリレーなど火災の延焼阻止を試みる。<br><br>
+								救出・救護活動<br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 災害が大きくなると、負傷者が多くなり、また道路が通行困難となっているために消防署などによる救出活動が間に合わない場合がある。軽いケガなどの処置は、みんながお互いに協力し合って応急救護を行う。<br><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 建物の倒壊や落下物などの下敷きになった人がいたら、意識があるかどうかを確認し、声をかける。救出活動には危険が伴う場合があるため、複数で協力して行う。
+								</article>
+
+							<!-- need -->
+							<article id="need">
+								<a href="#manabu" class="link">×</a>
+								<h2 class="major">何が必要？</h2>
+								<span class="image main"><img src="images/water.jpg" alt="" /></span>
+								防災対策を施す上で、何が必要になるでしょうか？<br><br>
+								みんなで考えていきましょう！
+								
+								<hr />
+						
+								<h3><i class="fa fa-cube" aria-hidden="true"></i>家具を固定しよう！</h3>
+								阪神・淡路大震災が起きた際、犠牲者の方々の約８割が家具による窒息死、圧死というデータがあります。（平成16年版「防災白書」）<br><br>
+
+								大地震が起きた時は、揺れが縦に揺れることが多く、重い家具でも飛んでくる恐れがあります。<br><br>
+							
+								タンスや食器棚など、家の中で大型の家具は固定して、動かないようにすることが大切です。<br><br>
+								
+								<blockquote>・家具転倒のメカニズム
+								<span class="image main"><img src="images/kagu14.gif" alt="" /></span>
+								・家具の固定
+								<span class="image main"><img src="images/kagu22.gif" alt="" /></span>
+								<span class="image main"><img src="images/kagu24.gif" alt="" /></span>
+								</blockquote>
+
+								<hr>
+							
+								<h3><i class="fa fa-cube" aria-hidden="true"></i>持ち出し品リスト</h3>
+								避難時に持ち出す必要があるものをリストにしました。避難時に必要なものを確認しましょう。<br><br>
+
+								<img src="images/bslist.jpg" width= "100%" alt="" />
+
+								<hr>
+
+								<h3><i class="fa fa-cube" aria-hidden="true"></i>本人確認カード</h3>
+								避難時に本人確認をするためのカードです。PDFに印刷したり、スクリーンショットを撮りご自身のスマートフォンに保存しておき、避難時にご利用ください。<br><br>
+														
+								<ul class="actions">
+									<li><a href="bousai/kojin.html" target="_blank" class="button special"><i class="fa fa-pencil" aria-hidden="true"></i> 作成する</a></li>
+								</ul>
+							
+								<hr>
+							
+								<h3><i class="fa fa-cube" aria-hidden="true"></i>「災害用伝言ダイヤル171」</h3>
+								阪神・淡路大震災の時は、停電の影響等から約30万回線が不通になりました。また、全国から神戸方面に通常ピーク時の50倍程度の通話が集中し、電話がつながりにくくなりました。<br><br>
+							
+								「家族や友人にとにかく連絡をとりたい」そんなときのために、「災害用伝言ダイヤル171」の使い方を覚えておきましょう！<br><br>
+								<img src="images/171.png" width="100%">
+
+								<hr>
+	
+								<h3><i class="fa fa-cube" aria-hidden="true"></i>今、ここにいるよ。</h3>
+								「今、ここにいるよ。」は災害時に自分の居場所を家族や友人に知らせることができる安否確認サービスです。GPS機能が搭載されており、SNSと連携して使用することができます。<br><br>
+								<ul class="actions">
+									<li><a href="https://linkevery2s.github.io/iamherenow/index.html#6/37.777/137.587" target="_blank" class="button special"><i class="fa fa-globe" aria-hidden="true"></i> 今、ここにいるよ。</a></li>
+								</ul>
+
+								<hr>
+								<h3><i class="fa fa-cube" aria-hidden="true"></i>消火器の使い方</h3>
+								災害とともに火災が起きる可能性があります。初期消火が必要な時に備えて、消火器の使い方を覚えておきましょう。<br><br>
+								<img src="images/syoukaki.png" width="100%">
+							
+								<hr>
+								
+								<h3><i class="fa fa-cube" aria-hidden="true"></i>火のおこし方</h3>
+								真冬に災害が起きた際や遭難した時など、火をおこす必要に迫られる時があります。火のおこし方を覚えておきましょう。<br><br>
+								<blockquote>
+								１．火をつける材料を見つける。（落ち葉や枯草など）<br><br>
+							
+								２．虫メガネのレンズやビンの底などで火をおこす。
+							
+								</blockquote>
+							
+								<hr>
+								
+								<h3><i class="fa fa-cube" aria-hidden="true"></i>Wi-Fiの無料開放</h3>
+								平成28年4月に発生した熊本地震では、Wi-Fiの無料開放というサービスが行われました。具体的には、通信事業者が避難所を中心に無料公衆無線LAN（Wi-Fi）アクセスポイントを設置し、携帯電話事業者が災害用統一SSID「00000JAPAN」の運用を初めて実施し九州全域で約55,000のアクセスポイントを確保しました。（出典「平成28年版　情報通信白書」）<br><br>
+								災害時には、携帯電話回線が混雑し、つながりにくくなるという障害が想定されるため、このようなサービスは非常に重要であると思います。
+							
+								<hr />
+									<i class="fa fa-book" aria-hidden="true"></i> 以下の資料をもとに仁志が加工・編集して作成しました。<br>
+									・<a href="http://www.fdma.go.jp/bousai_manual/" target="_blank">防災マニュアル</a>、消防庁<br>
+									・<a href="http://www.fdma.go.jp/syobodan/bousai/" target="_blank">わたしの防災サバイバル手帳</a>、消防庁<br>
+									・<a href="http://www.fdma.go.jp/html/life/kagu1.html" target="_blank">地震による家具の転倒を防ぐには</a>、消防庁								
+								</article>
+								<!-- need -->
+
+								<!-- refuge -->
+								<article id="refuge">
+									<h2 class="major">避難する時…</h2>
+									<span class="image main"><img src="images/hinan.jpg" alt="" /></span>
+								
+									自分の地域の避難情報を調べることは大切なことです。<br><br>
+									いざ、避難するとなった時に、「どこに避難すれば良いのか？」と行動できなくなってしまいます。<br><br>
+									そこで、指定緊急避難場所のマップを作成しました。<br><br>
+									ご自身の地域の避難場所について、調べてみましょう！<br><br>
+
+								<ul class="actions">
+<li><a href="map/hinanmap.html" class="button" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i> 避難場所をみる</a></li>
+								</ul>
+
+※一部の自治体では、データ未整理のため、掲載されておりません。最新の情報は、自治体の公式サイトなどでもご確認ください。
+
+							<hr />
+							<i class="fa fa-book" aria-hidden="true"></i> 以下の資料をもとに仁志が加工・編集して作成しました。<br>
+							・地理院タイル（<span id="url_a"><a href="http://maps.gsi.go.jp/development/ichiran.html">http://maps.gsi.go.jp/development/ichiran.html</a></span>）、指定緊急避難場所データ<br>
+							・国土交通省国土政策局「国土数値情報（避難施設、H24年度）」<br>
+
+							</article><!-- refuge -->
+
+
+							<article id ="weather">
+
+					<h2 class="major">気象情報</h2>
+
+					避難する時に、大気の状態を把握することも大切です。<br><br>
+					最近ではゲリラ豪雨と呼ばれる局所的に降る大雨の現象もよく見られます。<br><br>
+					「雨雲レーダー」では、大気の状態を調べることができます。<br><br>
+
+					<div id ="map" style="width:555px; height: 500px;"></div>
+
+					<!-- Begin Yahoo! JAPAN Web Services Attribution Snippet -->
+					<span id="y_li">
+					<a href="https://developer.yahoo.co.jp/about">
+					<img src="https://s.yimg.jp/images/yjdn/yjdn_attbtn2_105_17.gif" width="105" height="17" title="Webサービス by Yahoo! JAPAN" alt="Webサービス by Yahoo! JAPAN" border="0" style="margin:15px 15px 15px 15px"></a></span>
+					<!-- End Yahoo! JAPAN Web Services Attribution Snippet -->
+
+<hr />
+
+					<!--<h2 class="major">ハザードマップ</h2>-->
+					<h3><i class="fa fa-cube" aria-hidden="true"></i>ハザードマップ</h3>
+
+					大雨では川が増水して洪水の被害が起きることがあります。<br><br>
+					ハザードマップで家の周りの浸水被害を想定しましょう。
+
+<ul class="jp_map">
+      <li>
+        <a href="javascript:void(0);" onclick="hok(); return false;">北海道</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="ao(); return false;">青森</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="iw(); return false;">岩手</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="my(); return false;">宮城</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="ak(); return false;">秋田</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="yg(); return false;">山形</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="fs(); return false;">福島</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="ib(); return false;">茨城</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="to(); return false;">栃木</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="gu(); return false;">群馬</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="si(); return false;">埼玉</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="tb(); return false;">千葉</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="tk(); return false;">東京</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="kg(); return false;">神奈川</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="ni(); return false;">新潟</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="toyama(); return false;">富山</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="is(); return false;">石川</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="fukui(); return false;">福井</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="yam(); return false;">山梨</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="ng(); return false;">長野</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="gif(); return false;">岐阜</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="sz(); return false;">静岡</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="aic(); return false;">愛知</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="mie(); return false;">三重</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="siga(); return false;">滋賀</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="kyot(); return false;">京都</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="os(); return false;">大阪</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="hg(); return false;">兵庫</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="nr(); return false;">奈良</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="waky(); return false;">和歌山</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="tt(); return false;">鳥取</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="smn(); return false;">島根</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="oky(); return false;">岡山</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="hiro(); return false;">広島</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="yag(); return false;">山口</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="tok(); return false;">徳島</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="kagawa(); return false;">香川</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="ehi(); return false;">愛媛</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="kochi(); return false;">高知</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="fukuoka(); return false;">福岡</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="saga(); return false;">佐賀</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="nags(); return false;">長崎</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="kuma(); return false;">熊本</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="oita(); return false;">大分</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="miyz(); return false;">宮崎</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="kagos(); return false;">鹿児島</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="okina(); return false;">沖縄</a></li>
+    </ul>
+
+			<div id="nihon_hazard"></div>
+
+<hr />
+
+						<h3><i class="fa fa-cube" aria-hidden="true"></i>警報・注意報</h3>
+						<br>
+								<ul class="actions">
+										<li><a href="http://www.jma.go.jp/jp/warn/" class="button">気象警報・注意報</a></li>
+										<li><a href="http://www.jma.go.jp/jp/quake/" class="button">地震情報</a></li>
+										<li><a href="http://www.jma.go.jp/jp/tsunami/" class="button">津波情報</a></li>
+								</ul>
+								<ul class="actions">
+										<li><a href="http://www.jma.go.jp/jp/volcano/map_0.html" class="button">噴火警報・予報</a></li>
+										<li><a href="http://www.data.jma.go.jp/gmd/cpd/monitor/dailyview/index.php" class="button">世界の天候</a></li>
+								</ul>
+						
+						<hr />
+
+<h3><i class="fa fa-cube" aria-hidden="true"></i>気象庁ＲＳＳ配信</h3>
+
+気象庁のＲＳＳ配信です。
+<br><br>						
+							<div id="feed"></div><br>
+
+							<hr />
+							<i class="fa fa-book" aria-hidden="true"></i> 以下の資料をもとに仁志が加工・編集して作成しました。<br>
+							・国土交通省国土政策局「国土数値情報（浸水想定区域、H24年度）」<br>
+
+							</article>
+
+							<!-- tokei -->
+							<article id="tokei">
+								<a href="#manabu" class="link">×</a>
+								<h2 class="major">統計からみる防災</h2>
+								<span class="image main"><img src="images/toukei.jpg" alt="" /></span>
+								防災に関する統計情報や各種資料をまとめました。<br><br>
+								違う角度から防災を考えてみましょう！
+								<hr>
+								<h3><i class="fa fa-cube" aria-hidden="true"></i>自助・共助・公助</h3>
+								<img src="images/kyojo.png" width="100%"><br>
+								・自助…自分の身は自分で守る<br><br>
+								・公助…行政機関が援助する<br><br>
+								・共助…地域住民一体となって助け合う<br><br>
+								
+								<img src="images/gurahu.png" width="100%">
+								<br>阪神・淡路大震災における救助の主体と救出者数
+								<br>（出典「平成26年度防災白書」）
+								<br><br>グラフを見ると、80％近くの方々が「共助」により助けられていることが分かります。
+								<br><br>
+								東日本大震災では、市役所等が被災に会い、行政機関が麻痺してしまいました（公助の限界）。<br><br>
+								巨大地震では、行政機関そのものが麻痺し、機能しなくなることも想定されることから、								
+								地域住民同士で助け合うことがいかに大切だと思います。
+								<hr>
+								<h3><i class="fa fa-cube" aria-hidden="true"></i>過去の大地震</h3>
+								<div class="table-wrapper">
+										<table class="alt">
+											<thead>
+												<tr>
+													<th></th>
+													<th>阪神・淡路大震災</th>
+													<th>東日本大震災</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>発生日時</td>
+													<td>平成7年1月17日 5時46分</td>
+													<td>平成23年3月11日 14時46分</td>
+												</tr>
+												<tr>
+													<td>マグニチュード</td>
+													<td>7.3</td>
+													<td>9.0</td>
+												</tr>
+												<tr>
+													<td>地震型</td>
+													<td>内陸型</td>
+													<td>海溝型</td>
+												</tr>
+												<tr>
+													<td>被災地</td>
+													<td>都市部中心</td>
+													<td>農林水産地域中心</td>
+												</tr>
+												<tr>
+													<td>震度6弱以上県数</td>
+													<td>1県（兵庫）</td>
+													<td>8県（宮城、福島、茨城、栃木、岩手、群馬、埼玉、千葉）</td>
+												</tr>
+												<tr>
+													<td>津波</td>
+													<td>数十ｃｍ（被害無し）</td>
+													<td>各地で大津波観測（相馬9.3ｍ以上、宮古8.5ｍ以上、大船渡8.0ｍ以上）</td>
+												</tr>
+												<tr>
+													<td>被害の特徴</td>
+													<td>建築物の倒壊</td>
+													<td>大津波による甚大な被害</td>
+												</tr>
+												<tr>
+													<td>死者・行方不明者</td>
+													<td>死者 6,437名、行方不明者 3名（平成18年5月19日）</td>
+													<td>死者 19,418名、行方不明者 2,592名（平成28年3月1日現在）</td>
+												</tr>
+												<tr>
+													<td>住家被害（全壊）</td>
+													<td>104,906</td>
+													<td>121,809</td>
+												</tr>
+											</tbody>
+										</table>
+										（出典「平成28年度防災白書」」）<br><br>
+										阪神・淡路大震災と東日本大震災の被害を表に示したものです。<br><br>
+										阪神・淡路大震災では、内陸型地震であり、『建物』による被害が甚大であること、対して、東日本大震災は海溝型地震であり、『津波』による被害が甚大であること及び被害が『広範囲』に及んでいることが分かります。
+									</div>
+								<hr>
+								<h3><i class="fa fa-cube" aria-hidden="true"></i>高齢社会</h3>
+								<img src="images/korei.png" width="100%"><br>
+								東日本大震災では、亡くなられた方々のうち、60歳以上の高齢者は66.1％を占めています。（高齢社会白書_平成25年版）<br><br>
+								高齢社会となっている日本において、高齢者の方々の命をいかに守るかが重要になっています。<br><br>
+								
+								<hr>
+								<h3><i class="fa fa-cube" aria-hidden="true"></i>南海トラフの巨大地震モデル</h3>
+								
+								内閣府の「南海トラフの巨大地震モデル検討会」にて、議論されたマップデータです。<br><br>
+								
+								近い将来、東海・東南海地震が起きることが予測されています。<br><br>
+								
+								自分達が住んでいる地域では、どの規模の揺れになるのか等、予め心構えしておくことも大切です。<br><br>
+								
+								ぜひ、確認してみてください。<br><br>
+								
+								<iframe src="map.html" width="100%" height="500px" frameborder="yes" scrolling="yes"></iframe>
+								（出典「内閣府 南海トラフの巨大地震モデル検討会」）<br><br>
+								
+								<hr />
+								<i class="fa fa-book" aria-hidden="true"></i> 以下の資料をもとに仁志が加工・編集して作成しました。<br>
+								・<a href="http://www.bousai.go.jp/kaigirep/hakusho/h26/" target="_blank">平成26年版 防災白書</a>、内閣府<br>
+								・<a href="http://www.bousai.go.jp/kaigirep/hakusho/h28/" target="_blank">平成28年版 防災白書</a>、内閣府<br>
+                                ・G空間情報センター、強震断層モデル(1)データセットA<br>
+								・<a href="http://www8.cao.go.jp/kourei/whitepaper/w-2013/zenbun/index.html" target="_blank">高齢社会白書（平成25年版）</a>、内閣府
+							</article><!-- tokei -->
+
+							<!-- guide -->
+							<article id="guide">
+							<a href="#manabu" class="link">×</a>
+							<h2 class="major">作ろう！防災ガイド</h2>
+							<span class="image main"><img src="images/tumi.jpg" alt="" /></span>
+							<p>我が家の防災対策のため、避難所の情報を掲載した防災マップや避難時に何を持っていくか等の情報を掲載できる防災ガイド作成ツールを作りました。<br><br>
+							ご家族や友人と作ってみましょう！
+							</p>
+							
+							<ul class="actions">
+								<li id="keitai"><a href="javascript:void(0);" class="button" onclick="location.href = 'bousai/guide_k.html'" class="button special"><i class="fa fa-paint-brush" aria-hidden="true"></i> 作成する</a></li>
+								<li id="pc"><a href="javascript:void(0);" class="button" onclick="location.href = 'bousai/guide_pc.html'" class="button special"><i class="fa fa-paint-brush" aria-hidden="true"></i> 作成する</a></li>
+							</ul>
+
+							<h3><i class="fa fa-cube" aria-hidden="true"></i>使い方</h3>
+							<blockquote>
+							・タイトルを考えましょう。<br><br>
+							・地図、気づいたこと・危険個所、非常時持ち出しリストはドラッグして動かすことができます。<br><br>
+							・PCでは、さらにサイズの拡大・縮小ができます。<br><br>
+							・地図にはマーカー、ライン、ポリゴン（図形）が作図できます。自宅、避難場所、避難ルートを書いてみましょう。<br><br>
+							・「リスト追加」ボタンを押すと、非常時持ち出しリストが追加されます。<br><br>
+							・「印刷」ボタンを押すと、画面を印刷できます。<br><br>
+							・自分だけの防災ガイドを作成できます。<br><br>
+							・見本<br>
+							<img src="images/mihon.png" width="100%"><br><br>
+							・注意点<br>
+							本ガイド作成は、私的利用に限らせていただきます。また、<a href="http://osm.org/copyright" target="_blank">OpenStreetMap利用規約</a>に沿って、利用してください。
+							</blockquote>
+
+							</article><!-- guide -->
+
+							<!-- profile -->
+							<article id="profile">
+
+									<h2 class="major">開発者プロフィール</h2>
+									<span class="image main"><img src="images/me.jpg" width="100%"></span>
+									<i class="fa fa-flag-o" aria-hidden="true"></i> 斎藤　仁志<br><br>
+									<i class="fa fa-flag-o" aria-hidden="true"></i> 名古屋大学理学部物理学科卒業<br><br>
+									<i class="fa fa-flag-o" aria-hidden="true"></i> 愛知県在住<br><br>
+									ＩＴを用いて皆の暮らしのお役に立ちたい！自分に出来ることは何か…毎日奮闘中！<br><br>
+
+								<ul class="icons">
+									<li><a href="https://www.facebook.com/bseyes/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+									<li><a href="http://ameblo.jp/hitoshi51l/" class="icon fa-globe"><span class="label">Blog</span></a></li>
+								</ul>
+
+								<hr>
+								<h2 class="major">参考文献</h2>
+									<span class="image main"><img src="images/biblio.jpg" alt="" /></span>
+		
+							<blockquote>
+							・<a href="http://www.jma.go.jp/jma/index.html"><img src="images/kisyou.gif"></a><br>
+							気象情報を参考にさせていただきました。<br><br>
+							・<a href="https://www.pakutaso.com/" >ぱくたそ</a><br>
+							写真素材を使用させていただきました。<br><br>
+							・<a href="http://www.saigaichousa-db-isad.jp/drsdb_photo/photoSearch.do">災害写真データベース</a>「一般財団法人消防防災科学センター」<br>
+							災害写真を使用させていただきました。<br><br>
+							・<a href="https://www.photo-ac.com/">photo AC</a><br>
+							写真素材を使用させていただきました。<br><br>
+							・<a href="https://sozai.cman.jp/">CMAN</a><br>
+							アイコン素材を使用させていただきました。<br><br>
+							・<a href="https://syncer.jp/">SYNCER</a><br>
+							このサイトでＷＥＢに関する様々なことを学ばせていただきました。<br><br>
+							・<a href="https://q-az.net/">q-az</a><br>
+							このサイトでjavascriptの勉強をさせていただきました。
+							</blockquote>
+							
+							この場をお借りして感謝申し上げます。ありがとうございました。仁志.
+							</article><!-- profile -->
+							
+							<!-- rule -->
+							<article id="rule">
+							<h2 class="major">利用規約</h2>
+							<span class="image main"><img src="images/rule.jpg" alt="" /></span>
+							この利用規約（以下，「本規約」といいます。）は，利用者の皆様がこの「防災INSIGHT」アプリ（以下、「本アプリ」といいます。）を利用する上での利用条件を定めるものです。利用者の皆様には，本規約に従って，本アプリをご利用いただきます。<br><br>
+
+第1条（適用）<br>
+
+本規約は，本アプリを利用する全ての利用者の皆様に適用されるものとします。本アプリを利用する全ての利用者の皆様は、この規約に同意されたものとみなします。<br><br>
+
+第2条（本アプリの利用について）<br>
+
+（1）利用料金<br>
+利用者の皆様は、本アプリを無料で利用できます。ただし、インターネットを利用しているので、インターネット通信料は利用者の皆様のご負担となります。<br><br>
+
+（2）アクセス解析<br>
+管理人「仁志」は利用者数を把握するため、アクセス解析を行っています。これは、ユーザの利用状況及びサーバの負荷状態を把握するために使用するものとし、それ以外の用途では用いません。<br><br>
+
+第3条（禁止事項）<br>
+
+本アプリの利用にあたり，以下の行為をしてはなりません。<br><br>
+
+（1）法令または公序良俗に違反する行為<br>
+（2）犯罪行為に関連する行為<br>
+（3）本アプリの運営を妨害するおそれのある行為<br>
+（4）他の利用者の皆様に関する個人情報等を収集または蓄積する行為<br>
+（5）他の利用者の皆様に成りすます行為<br>
+（6）本アプリを無断で転載、複製する行為<br>
+（7）反社会的勢力に対して直接または間接に利益を供与する行為<br>
+（8）その他，管理人「仁志」が不適切と判断する行為<br><br>
+
+第4条（本アプリの提供の停止等）<br>
+
+管理人「仁志」は，以下のいずれかの事由があると判断した場合，事前に通知することなく本アプリの全部または一部の提供を停止または中断することができるものとします。<br>
+
+（1）本アプリの更新を行う場合<br>
+（2）コンピュータまたは通信回線等が事故により停止した場合<br>
+（3）その他，管理人「仁志」が本アプリの提供が困難と判断した場合<br>
+
+管理人「仁志」は，本アプリの提供の停止または中断により，利用者の皆様または第三者が被ったいかなる不利益または損害について，理由を問わず一切の責任を負わないものとします。<br><br>
+
+第5条（免責事項）<br>
+
+本アプリにより生じた、いかなる損害も保障しません。利用者様の責任のもと、ご利用ください。<br><br>
+
+第6条（本アプリの変更等）<br>
+
+管理人「仁志」は，利用者の皆様に通知することなく，本アプリの内容を変更しまたは本アプリの提供を中止することができるものとし，これによってユーザーに生じた損害について一切の責任を負いません。<br><br>
+
+第7条（知的財産権）<br>
+
+本アプリ上のコンテンツの著作権は、仁志に帰属しており、著作権法によって認められている場合を除き、当該著作物を無断使用（複製、頒布、送信、譲渡、翻案など）することは禁止されています。利用者の皆様は、各サービスの利用規定、コンテンツライセンス条件に従い、許容された範囲内のみでご利用ができる権利を許諾されています。<br><br>
+
+
+第8条（利用規約の変更）<br>
+
+管理人「仁志」は，必要と判断した場合には，利用者の皆様に通知することなくいつでも本規約を変更することができるものとします。<br><br>
+
+第9条（準拠法）<br>
+
+本規約の解釈にあたっては，日本法を準拠法とします。<br><br>
+
+附則<br>
+
+2017年6月17日　利用規約制定
+							</article><!-- rule -->
+
+
+				<!-- rss -->
+				<article id="rss">
+					<h2 class="major">更新情報</h2>
+					2018.08.18 ハザードマップ搭載、解説動画追加、SNSシェア時の画像変更<br><br>
+					2018.06.24 日本全国の避難場所を１つのマップに表示<br><br>
+					2018.04.15 ＱＲコード追加<br><br>
+					2018.03.04 気象庁ＲＳＳ情報搭載<br><br>
+					2018.02.17 アプリ内ルート検索機能搭載<br><br>
+					2018.02.10 アプリバージョンアップ（ver.2）<br><br>
+					2018.01.21 日本語表記変更、マップ全画面表示に変更<br><br>
+					防災アプリ賞受賞！<br><br>
+					2017.09.23 都道府県マップ搭載<br><br>
+					2017.07.17 雨雲レーダー搭載<br><br>
+					2017.06.17 アプリ公開
+				</article>
+
+<!-- share -->
+<article id="share">
+
+<h2 class="major">お問い合わせ</h2>
+
+	<ul class="actions">
+								<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSf-WMoBJRTdA1bmN_SmQ-bsNGeLs1l737d3c9BUNuErjH-KBw/viewform?usp=sf_link" target="_blank" class="button">お問い合わせ</a></li>
+								</ul>	
+
+<h2 class="major">ＳＮＳシェア</h2>
+より多くの方々にご利用いただくためにシェアをお願いします！
+
+<br><br>
+<a href="https://twitter.com/share" class="twitter-share-button"{count} data-url="https://linkevery2s.github.io/bsinsight/" data-lang="ja">ツイート</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+	
+<br><br>
+<div class="fb-like" data-href="https://linkevery2s.github.io/bsinsight/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+
+<br><br>
+
+<a href="http://b.hatena.ne.jp/entry/s/linkevery2s.github.io/bsinsight/" class="hatena-bookmark-button" data-hatena-bookmark-layout="basic-label-counter" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+
+<br><br>
+<span style="cursor: pointer"><img src ='images/linebutton.png' width='82px' height='20px' border="0" onclick="line();"></span>
+
+<br><br>
+
+<span style="cursor: pointer"><img src ="images/mail.png" border ="0" width='82px' height='20px' alt="メールで送る" onclick="mail();"></span>
+
+<br><br>
+<h2 class="major">ＱＲコード</h2>
+
+								<img src="images/qr_code.png" style="">
+
+</article>
+
+					</div><!-- main -->
+							
+				<!-- Footer -->
+					<footer id="footer">
+
+								<ul class="icons">
+									<li><a href="#rule" class="icon fa-american-sign-language-interpreting"><span class="label">利用規約</span></a></li>
+									<li><a href="#profile" class="icon fa-user"> <span class="label">自己紹介</span></a></li>
+									<li><a href="#share" class="icon fa-comments"> <span class="label">シェア</span></a></li>
+									<li><a href="#rss" class="icon fa-rss-square"><span class="label">更新情報</span></a></li>
+								</ul>
+
+						<p class="copyright"><i class="fa fa-copyright" aria-hidden="true"></i> 仁志. Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a>. </p>
+					</footer>
+
+			</div><!-- wrapper -->
+
+			<!-- BG -->
+			<div id="bg"></div>
+
+</div>
+
+			<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+    		<script src="assets/js/top.js"></script>
+    		<script src="assets/js/dhtml.js"></script>
+			<script src="assets/js/maplist.js"></script>
+
+<script>
+$(function() {
+  var h = $(window).height();
+ 
+  $('#wrap').css('display','none');
+  $('#loader-bg ,#loader').height(h).css('display','block');
+});
+ 
+$(window).load(function () { //全ての読み込みが完了したら実行
+  $('#loader-bg').delay(900).fadeOut(800);
+  $('#loader').delay(600).fadeOut(300);
+  $('#wrap').css('display', 'block');
+});
+ 
+//10秒たったら強制的にロード画面を非表示
+$(function(){
+  setTimeout('stopload()',10000);
+});
+ 
+function stopload(){
+  $('#wrap').css('display','block');
+  $('#loader-bg').delay(900).fadeOut(800);
+  $('#loader').delay(600).fadeOut(300);
+}
+</script>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.6";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+<script type="text/javascript">
+   //読み込み最大記事数
+   var max_length = 5; 
+  $(function(){
+    $.getJSON("https://query.yahooapis.com/v1/public/yql?callback=?", {
+      q: "select * from rss where url='http://www.jma-net.go.jp/rss/jma.rss'",
+      format: "json"
+    }, function(json) {
+      for (var i = 0; i < json.query.results.item.length; i++) {
+        if(i == max_length) break;
+        var entry = json.query.results.item[i];
+        var title = entry.title;//記事タイトル
+        var link = entry.link; //記事へのリンク
+var date = entry.pubDate;
+var hi = new Date(date);
+
+var y = hi.getFullYear();
+			var m = hi.getMonth() + 1;
+			var d = hi.getDate();
+			m = ('0' + m).slice(-2);
+			d = ('0' + d).slice(-2);
+
+        //タイトルを挿入
+        $('#feed').append("<li><a href='" + link  +"' target='_blank'>" + y + "年" + m + "月" + d + "日" + " " + title +"</a></li>"); 
+      }
+    });
+  });
+</script>
+
+	</body>
+</html>
