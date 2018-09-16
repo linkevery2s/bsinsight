@@ -34,6 +34,8 @@ function map_ini2() {
     			GPS();
 			}).addTo( map );
 
+		hash = new L.Hash(map);
+
 			var back = L.easyButton('fa-undo', function(){
     			location.href = "../index.html#refuge";
 			}).addTo( map );
