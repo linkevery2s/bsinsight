@@ -2544,4 +2544,8 @@ h3{
   text-align: center;
   color: #fff;
   z-index: 2;
+}
+
+#share_b{
+	cursor: pointer;
 }	

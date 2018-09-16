@@ -466,22 +466,20 @@ $("#th").hide();
 $("#ds").show();
 }
 
+var url = "https://linkevery2s.github.io/bsinsight/";
+
 function mailt(){
-	var url = window.location.href;
 	location.href =  "mailto:?body=" + url;
 }
 
 function linet(){
-	var url = window.location.href;
 	location.href = "line://msg/text/"+ url;
 }
 
 function twt(){
-	var url = window.location.href;
 	location.href = "https://twitter.com/share?url=" + url;
 }
 
 function fbt(){
-	var url = window.location.href;
 	location.href = "https://www.facebook.com/sharer/sharer.php?u=" + url;
 }
