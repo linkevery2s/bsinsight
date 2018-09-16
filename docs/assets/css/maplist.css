@@ -15,7 +15,7 @@ ul.jp_map {
       width: 7%;
       height: 10%;
       background-color: #088A29;
-      font-size: 0.8rem;
+      font-size: 0.5rem;
       border: solid rgba(27, 31, 34, 0.85) 1px;
       box-sizing: border-box;
     }
@@ -325,7 +325,7 @@ ul.jp_map {
       width: 7%;
       height: 10%;
       background-color: #0099FF;
-      font-size: 0.8rem;
+      font-size: 0.5rem;
       border: solid rgba(27, 31, 34, 0.85) 1px;
       box-sizing: border-box;
     }
