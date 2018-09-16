@@ -414,8 +414,6 @@ $("#th").hide();
 $("#ds").hide();
 $("#eq").hide();
 
-yyy();
-
 def();
 
 var os, ua = navigator.userAgent;
@@ -429,6 +427,8 @@ else if (ua.match(/Android ([\.\d]+)/)) {
 else {
 	$("#keitai").hide();
 }
+
+yyy();
 
 }
 
