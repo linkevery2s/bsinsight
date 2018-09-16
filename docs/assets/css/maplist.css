@@ -1,4 +1,4 @@
- ul.jp_map {
+ul.jp_map {
       position: relative;
       list-style-type: none;
       padding: 84% 0 0;
@@ -32,7 +32,7 @@
       top: 11%;
       left: 85%;
       width: 14%;
-      height: 5.5Åì;
+      height: 5.5%;
     }
     
     .jp_map li:nth-child(3) {
@@ -342,7 +342,7 @@
       top: 11%;
       left: 85%;
       width: 14%;
-      height: 5.5Åì;
+      height: 5.5%;
     }
     
     .hz_map li:nth-child(3) {
