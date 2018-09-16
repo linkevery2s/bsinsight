@@ -1,4 +1,4 @@
-var map; var ido; var keido;var todou;var gps_button;
+var map; var ido; var keido;var todou;var gps_button;var hash;var back_b;
 
     function aichi_ini() {
 		map = L.map('map');
@@ -9,7 +9,7 @@ var map; var ido; var keido;var todou;var gps_button;
 
 		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
 		todou = L.geoJson(aichi, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
-		map.addLayer(todou);
+		map.addLayer(todou);hash = new L.Hash(map);back_b = L.easyButton('fa-undo', function(){rn();}).addTo(map);
 
 	}
 
@@ -22,7 +22,7 @@ var map; var ido; var keido;var todou;var gps_button;
 
 		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
 		todou = L.geoJson(hokkaido, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
-		map.addLayer(todou);
+		map.addLayer(todou);hash = new L.Hash(map);back_b = L.easyButton('fa-undo', function(){rn();}).addTo(map);
 
 	}
 
@@ -35,7 +35,7 @@ var map; var ido; var keido;var todou;var gps_button;
 
 		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
 		todou = L.geoJson(aomori, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
-		map.addLayer(todou);
+		map.addLayer(todou);hash = new L.Hash(map);back_b = L.easyButton('fa-undo', function(){rn();}).addTo(map);
 
 	}
 
@@ -48,7 +48,7 @@ var map; var ido; var keido;var todou;var gps_button;
 
 		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
 		todou = L.geoJson(iwate, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
-		map.addLayer(todou);
+		map.addLayer(todou);hash = new L.Hash(map);back_b = L.easyButton('fa-undo', function(){rn();}).addTo(map);
 
 	}
 
@@ -61,7 +61,7 @@ var map; var ido; var keido;var todou;var gps_button;
 
 		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
 		todou = L.geoJson(akita, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
-		map.addLayer(todou);
+		map.addLayer(todou);hash = new L.Hash(map);back_b = L.easyButton('fa-undo', function(){rn();}).addTo(map);
 
 	}
 
@@ -74,7 +74,7 @@ var map; var ido; var keido;var todou;var gps_button;
 
 		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
 		todou = L.geoJson(miyagi, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
-		map.addLayer(todou);
+		map.addLayer(todou);hash = new L.Hash(map);back_b = L.easyButton('fa-undo', function(){rn();}).addTo(map);
 
 	}
 
@@ -87,7 +87,7 @@ var map; var ido; var keido;var todou;var gps_button;
 
 		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
 		todou = L.geoJson(yamagata, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
-		map.addLayer(todou);
+		map.addLayer(todou);hash = new L.Hash(map);back_b = L.easyButton('fa-undo', function(){rn();}).addTo(map);
 
 	}
 
@@ -100,7 +100,7 @@ var map; var ido; var keido;var todou;var gps_button;
 
 		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
 		todou = L.geoJson(fukushima, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
-		map.addLayer(todou);
+		map.addLayer(todou);hash = new L.Hash(map);back_b = L.easyButton('fa-undo', function(){rn();}).addTo(map);
 
 	}
 
@@ -113,7 +113,7 @@ var map; var ido; var keido;var todou;var gps_button;
 
 		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
 		todou = L.geoJson(nigata, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
-		map.addLayer(todou);
+		map.addLayer(todou);hash = new L.Hash(map);back_b = L.easyButton('fa-undo', function(){rn();}).addTo(map);
 
 	}
 
@@ -126,7 +126,7 @@ var map; var ido; var keido;var todou;var gps_button;
 
 		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
 		todou = L.geoJson(tochigi, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
-		map.addLayer(todou);
+		map.addLayer(todou);hash = new L.Hash(map);back_b = L.easyButton('fa-undo', function(){rn();}).addTo(map);
 
 	}
 
@@ -139,7 +139,7 @@ var map; var ido; var keido;var todou;var gps_button;
 
 		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
 		todou = L.geoJson(gunma, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
-		map.addLayer(todou);
+		map.addLayer(todou);hash = new L.Hash(map);back_b = L.easyButton('fa-undo', function(){rn();}).addTo(map);
 
 	}
 
@@ -152,7 +152,7 @@ var map; var ido; var keido;var todou;var gps_button;
 
 		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
 		todou = L.geoJson(ibaragi, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
-		map.addLayer(todou);
+		map.addLayer(todou);hash = new L.Hash(map);back_b = L.easyButton('fa-undo', function(){rn();}).addTo(map);
 
 	}
 
@@ -165,7 +165,7 @@ var map; var ido; var keido;var todou;var gps_button;
 
 		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
 		todou = L.geoJson(tiba, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
-		map.addLayer(todou);
+		map.addLayer(todou);hash = new L.Hash(map);back_b = L.easyButton('fa-undo', function(){rn();}).addTo(map);
 
 	}
 
@@ -178,7 +178,7 @@ var map; var ido; var keido;var todou;var gps_button;
 
 		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
 		todou = L.geoJson(saitama, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
-		map.addLayer(todou);
+		map.addLayer(todou);hash = new L.Hash(map);back_b = L.easyButton('fa-undo', function(){rn();}).addTo(map);
 
 	}
 
@@ -191,7 +191,7 @@ var map; var ido; var keido;var todou;var gps_button;
 
 		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
 		todou = L.geoJson(tokyo, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
-		map.addLayer(todou);
+		map.addLayer(todou);hash = new L.Hash(map);back_b = L.easyButton('fa-undo', function(){rn();}).addTo(map);
 
 	}
 
@@ -204,7 +204,7 @@ var map; var ido; var keido;var todou;var gps_button;
 
 		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
 		todou = L.geoJson(kanagawa, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
-		map.addLayer(todou);
+		map.addLayer(todou);hash = new L.Hash(map);back_b = L.easyButton('fa-undo', function(){rn();}).addTo(map);
 
 	}
 
@@ -217,7 +217,7 @@ var map; var ido; var keido;var todou;var gps_button;
 
 		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
 		todou = L.geoJson(yamanashi, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
-		map.addLayer(todou);
+		map.addLayer(todou);hash = new L.Hash(map);back_b = L.easyButton('fa-undo', function(){rn();}).addTo(map);
 
 	}
 
@@ -230,7 +230,7 @@ var map; var ido; var keido;var todou;var gps_button;
 
 		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
 		todou = L.geoJson(nagano, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
-		map.addLayer(todou);
+		map.addLayer(todou);hash = new L.Hash(map);back_b = L.easyButton('fa-undo', function(){rn();}).addTo(map);
 
 	}
 
@@ -243,7 +243,7 @@ var map; var ido; var keido;var todou;var gps_button;
 
 		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
 		todou = L.geoJson(shizuoka, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
-		map.addLayer(todou);
+		map.addLayer(todou);hash = new L.Hash(map);back_b = L.easyButton('fa-undo', function(){rn();}).addTo(map);
 
 	}
 
@@ -256,7 +256,7 @@ var map; var ido; var keido;var todou;var gps_button;
 
 		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
 		todou = L.geoJson(gifu, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
-		map.addLayer(todou);
+		map.addLayer(todou);hash = new L.Hash(map);back_b = L.easyButton('fa-undo', function(){rn();}).addTo(map);
 
 	}
 
@@ -269,7 +269,7 @@ var map; var ido; var keido;var todou;var gps_button;
 
 		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
 		todou = L.geoJson(toyama, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
-		map.addLayer(todou);
+		map.addLayer(todou);hash = new L.Hash(map);back_b = L.easyButton('fa-undo', function(){rn();}).addTo(map);
 
 	}
 
@@ -282,7 +282,7 @@ var map; var ido; var keido;var todou;var gps_button;
 
 		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
 		todou = L.geoJson(ishikawa, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
-		map.addLayer(todou);
+		map.addLayer(todou);hash = new L.Hash(map);back_b = L.easyButton('fa-undo', function(){rn();}).addTo(map);
 
 	}
 
@@ -295,7 +295,7 @@ var map; var ido; var keido;var todou;var gps_button;
 
 		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
 		todou = L.geoJson(fukui, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
-		map.addLayer(todou);
+		map.addLayer(todou);hash = new L.Hash(map);back_b = L.easyButton('fa-undo', function(){rn();}).addTo(map);
 
 	}
 
@@ -308,20 +308,7 @@ var map; var ido; var keido;var todou;var gps_button;
 
 		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
 		todou = L.geoJson(shiga, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
-		map.addLayer(todou);
-
-	}
-
-    function shiga_ini() {
-		map = L.map('map');
-		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
-  		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
-  		}).addTo(map);
-		map.setView([35.255, 135.950], 8);
-
-		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
-		todou = L.geoJson(shiga, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
-		map.addLayer(todou);
+		map.addLayer(todou);hash = new L.Hash(map);back_b = L.easyButton('fa-undo', function(){rn();}).addTo(map);
 
 	}
 
@@ -334,7 +321,7 @@ var map; var ido; var keido;var todou;var gps_button;
 
 		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
 		todou = L.geoJson(mie, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
-		map.addLayer(todou);
+		map.addLayer(todou);hash = new L.Hash(map);back_b = L.easyButton('fa-undo', function(){rn();}).addTo(map);
 
 	}
 
@@ -347,7 +334,7 @@ var map; var ido; var keido;var todou;var gps_button;
 
 		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
 		todou = L.geoJson(kyoto, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
-		map.addLayer(todou);
+		map.addLayer(todou);hash = new L.Hash(map);back_b = L.easyButton('fa-undo', function(){rn();}).addTo(map);
 
 	}
 
@@ -360,7 +347,7 @@ var map; var ido; var keido;var todou;var gps_button;
 
 		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
 		todou = L.geoJson(osaka, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
-		map.addLayer(todou);
+		map.addLayer(todou);hash = new L.Hash(map);back_b = L.easyButton('fa-undo', function(){rn();}).addTo(map);
 
 	}
 
@@ -373,7 +360,7 @@ var map; var ido; var keido;var todou;var gps_button;
 
 		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
 		todou = L.geoJson(nara, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
-		map.addLayer(todou);
+		map.addLayer(todou);hash = new L.Hash(map);back_b = L.easyButton('fa-undo', function(){rn();}).addTo(map);
 
 	}
 
@@ -386,7 +373,7 @@ var map; var ido; var keido;var todou;var gps_button;
 
 		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
 		todou = L.geoJson(wakayama, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
-		map.addLayer(todou);
+		map.addLayer(todou);hash = new L.Hash(map);back_b = L.easyButton('fa-undo', function(){rn();}).addTo(map);
 
 	}
 
@@ -399,7 +386,7 @@ var map; var ido; var keido;var todou;var gps_button;
 
 		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
 		todou = L.geoJson(hyogo, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
-		map.addLayer(todou);
+		map.addLayer(todou);hash = new L.Hash(map);back_b = L.easyButton('fa-undo', function(){rn();}).addTo(map);
 
 	}
 
@@ -412,7 +399,7 @@ var map; var ido; var keido;var todou;var gps_button;
 
 		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
 		todou = L.geoJson(tottori, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
-		map.addLayer(todou);
+		map.addLayer(todou);hash = new L.Hash(map);back_b = L.easyButton('fa-undo', function(){rn();}).addTo(map);
 
 	}
 
@@ -425,7 +412,7 @@ var map; var ido; var keido;var todou;var gps_button;
 
 		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
 		todou = L.geoJson(okayama, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
-		map.addLayer(todou);
+		map.addLayer(todou);hash = new L.Hash(map);back_b = L.easyButton('fa-undo', function(){rn();}).addTo(map);
 
 	}
 
@@ -438,7 +425,7 @@ var map; var ido; var keido;var todou;var gps_button;
 
 		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
 		todou = L.geoJson(shimane, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
-		map.addLayer(todou);
+		map.addLayer(todou);hash = new L.Hash(map);back_b = L.easyButton('fa-undo', function(){rn();}).addTo(map);
 
 	}
 
@@ -451,7 +438,7 @@ var map; var ido; var keido;var todou;var gps_button;
 
 		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
 		todou = L.geoJson(hiroshima, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
-		map.addLayer(todou);
+		map.addLayer(todou);hash = new L.Hash(map);back_b = L.easyButton('fa-undo', function(){rn();}).addTo(map);
 
 	}
 
@@ -464,7 +451,7 @@ var map; var ido; var keido;var todou;var gps_button;
 
 		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
 		todou = L.geoJson(yamaguchi, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
-		map.addLayer(todou);
+		map.addLayer(todou);hash = new L.Hash(map);back_b = L.easyButton('fa-undo', function(){rn();}).addTo(map);
 
 	}
 
@@ -477,7 +464,7 @@ var map; var ido; var keido;var todou;var gps_button;
 
 		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
 		todou = L.geoJson(kagawa, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
-		map.addLayer(todou);
+		map.addLayer(todou);hash = new L.Hash(map);back_b = L.easyButton('fa-undo', function(){rn();}).addTo(map);
 
 	}
 
@@ -490,7 +477,7 @@ var map; var ido; var keido;var todou;var gps_button;
 
 		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
 		todou = L.geoJson(tokushima, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
-		map.addLayer(todou);
+		map.addLayer(todou);hash = new L.Hash(map);back_b = L.easyButton('fa-undo', function(){rn();}).addTo(map);
 
 	}
 
@@ -503,7 +490,7 @@ var map; var ido; var keido;var todou;var gps_button;
 
 		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
 		todou = L.geoJson(ehime, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
-		map.addLayer(todou);
+		map.addLayer(todou);hash = new L.Hash(map);back_b = L.easyButton('fa-undo', function(){rn();}).addTo(map);
 
 	}
 
@@ -516,7 +503,7 @@ var map; var ido; var keido;var todou;var gps_button;
 
 		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
 		todou = L.geoJson(kochi, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
-		map.addLayer(todou);
+		map.addLayer(todou);hash = new L.Hash(map);back_b = L.easyButton('fa-undo', function(){rn();}).addTo(map);
 
 	}
 
@@ -529,7 +516,7 @@ var map; var ido; var keido;var todou;var gps_button;
 
 		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
 		todou = L.geoJson(fukuoka, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
-		map.addLayer(todou);
+		map.addLayer(todou);hash = new L.Hash(map);back_b = L.easyButton('fa-undo', function(){rn();}).addTo(map);
 
 	}
 
@@ -542,7 +529,7 @@ var map; var ido; var keido;var todou;var gps_button;
 
 		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
 		todou = L.geoJson(saga, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
-		map.addLayer(todou);
+		map.addLayer(todou);hash = new L.Hash(map);back_b = L.easyButton('fa-undo', function(){rn();}).addTo(map);
 
 	}
 
@@ -555,7 +542,7 @@ function oita_ini() {
 
 		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
 		todou = L.geoJson(oita, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
-		map.addLayer(todou);
+		map.addLayer(todou);hash = new L.Hash(map);back_b = L.easyButton('fa-undo', function(){rn();}).addTo(map);
 
 	}
 
@@ -569,7 +556,7 @@ function oita_ini() {
 
 		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
 		todou = L.geoJson(nagasaki, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
-		map.addLayer(todou);
+		map.addLayer(todou);hash = new L.Hash(map);back_b = L.easyButton('fa-undo', function(){rn();}).addTo(map);
 
 	}
 
@@ -582,7 +569,7 @@ function oita_ini() {
 
 		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
 		todou = L.geoJson(kumamoto, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
-		map.addLayer(todou);
+		map.addLayer(todou);hash = new L.Hash(map);back_b = L.easyButton('fa-undo', function(){rn();}).addTo(map);
 
 	}
 
@@ -595,7 +582,7 @@ function oita_ini() {
 
 		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
 		todou = L.geoJson(miyazaki, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
-		map.addLayer(todou);
+		map.addLayer(todou);hash = new L.Hash(map);back_b = L.easyButton('fa-undo', function(){rn();}).addTo(map);
 
 	}
 
@@ -608,7 +595,7 @@ function oita_ini() {
 
 		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
 		todou = L.geoJson(kagoshima, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
-		map.addLayer(todou);
+		map.addLayer(todou);hash = new L.Hash(map);back_b = L.easyButton('fa-undo', function(){rn();}).addTo(map);
 
 	}
 
@@ -621,7 +608,7 @@ function oita_ini() {
 
 		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
 		todou = L.geoJson(okinawa, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
-		map.addLayer(todou);
+		map.addLayer(todou);hash = new L.Hash(map);back_b = L.easyButton('fa-undo', function(){rn();}).addTo(map);
 
 	}
 
