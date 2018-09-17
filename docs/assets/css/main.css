@@ -2551,7 +2551,7 @@ h2.major::after {
 h3{
 position: relative;
 border: solid 2px #2E64FE;
-background: #2E64FE;
+background: rgba(210, 210, 210, .5);
 line-height: 1.4;
 padding: 0.4em 0.5em;
 padding-left: 10px;
