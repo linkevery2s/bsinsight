@@ -2453,31 +2453,6 @@ padding: 2px 0 2px 0;
 	color: #FA58D0;
 }
 
-#loader-bg {
-  display: none;
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  top: 0px;
-  left: 0px;
-  background: #000;
-  z-index: 1;
-}
-#wrap{display: none;}
-#loader {
-  display: none;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  width: 200px;
-  height: 200px;
-  margin-top: -100px;
-  margin-left: -100px;
-  text-align: center;
-  color: #fff;
-  z-index: 2;
-}	
-
 #y_li a{border-bottom: none !important;}
 
 #url_a{word-break: break-all;}
@@ -2550,3 +2525,13 @@ padding: 2px 0 2px 0;
 #share_b{
 	cursor: pointer;
 }	
+
+h2.major {
+color: #6cb4e4;
+text-align: center;
+padding: 0.25em;
+border-top: solid 2px #6cb4e4;
+border-bottom: solid 2px #6cb4e4;
+background: -webkit-repeating-linear-gradient(-45deg, #f0f8ff, #f0f8ff 3px,#e9f4ff 3px, #e9f4ff 7px);
+background: repeating-linear-gradient(-45deg, #f0f8ff, #f0f8ff 3px,#e9f4ff 3px, #e9f4ff 7px);
+}
