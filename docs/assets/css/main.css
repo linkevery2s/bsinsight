@@ -2527,19 +2527,19 @@ border-radius: 5px;
 	cursor: pointer;
 }	
 
-h2{
+h2.major{
 position: relative;
 padding: 0 .5em .5em 2em;
 
 }
 
-h2::before,
-h2::after {
+h2.major::before,
+h2.major::after {
   position: absolute;
   content: '';
   border-radius: 100%
 }
-h2::before {
+h2.major::before {
   top: .2em;
   left: .2em;
   z-index: 2;
@@ -2547,7 +2547,7 @@ h2::before {
   height: 18px;
   background: rgba(150, 150, 150, .5);
 }
-h2::after {
+h2.major::after {
   top: .7em;
   left: .7em;
   width: 13px;
