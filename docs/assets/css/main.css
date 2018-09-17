@@ -2550,13 +2550,13 @@ h2.major::after {
 
 h3{
 position: relative;
-border: solid 2px #2E64FE;
+border-top: solid 2px #2E64FE;
+border-bottom: solid 2px #2E64FE;
 background: rgba(210, 210, 210, .5);
 line-height: 1.4;
 padding: 0.4em 0.5em;
 padding-left: 10px;
 margin: 2em 0 0.5em;
-border-radius: 5px;
 }
 
 h3:after {/*タブ*/
