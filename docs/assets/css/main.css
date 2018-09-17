@@ -2527,6 +2527,11 @@ border-radius: 5px;
 	cursor: pointer;
 }	
 
+h2{
+position: relative;
+padding: 0 .5em .5em 2em;
+
+}
 
 h2::before,
 h2::after {
