@@ -2550,7 +2550,7 @@ h2.major::after {
 
 h3{
 position: relative;
-border: solid 2px #000080;
+border: solid 2px #2E64FE;
 background: #2E64FE;
 line-height: 1.4;
 padding: 0.4em 0.5em;
@@ -2563,7 +2563,7 @@ h3:after {/*タブ*/
 position: absolute;
 font-family: FontAwesome;
 content: '\f0a7\ POINT';
-background: #000080;
+background: #2E64FE;
 color: #fff;
 left: 0px;
 bottom: 100%;
