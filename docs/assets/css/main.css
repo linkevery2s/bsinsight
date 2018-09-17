@@ -2552,6 +2552,7 @@ h3{
 position: relative;
 border-top: solid 2px #2E64FE;
 border-bottom: solid 2px #2E64FE;
+border-radius: 0 5px 5px 5px;
 background: rgba(210, 210, 210, .5);
 line-height: 1.4;
 padding: 0.4em 0.5em;
