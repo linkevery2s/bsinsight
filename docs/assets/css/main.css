@@ -2527,8 +2527,9 @@ padding: 2px 0 2px 0;
 }	
 
 h2.major {
+width: 100%;
 color: #6cb4e4;
-text-align: center;
+text-align: center !important;
 padding: 0.25em;
 border-top: solid 2px #6cb4e4;
 border-bottom: solid 2px #6cb4e4;
