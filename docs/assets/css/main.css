@@ -2550,8 +2550,7 @@ h2.major::after {
 
 h3{
 position: relative;
-border-top: solid 2px #2E64FE;
-border-bottom: solid 2px #2E64FE;
+border: solid 2px #2E64FE;
 border-radius: 0 5px 5px 5px;
 background: rgba(210, 210, 210, .5);
 line-height: 1.4;
