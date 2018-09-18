@@ -2592,7 +2592,7 @@ h2::before {
   z-index: 2;
   width: 18px;
   height: 18px;
-  background: rgba(255, 51, 0);
+  background: #FF3300;
 }
 
 #theory1{
