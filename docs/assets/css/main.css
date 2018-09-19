@@ -2595,7 +2595,7 @@ h2::before {
   background: #FF3300;
 }
 
-#theory1{
+#theory1,#theory2,#theory3,#theory4,#theory5,#theory6,#theory7,#theory8,#theory9,#theory10,#theory11,#theory12,#theory13,#theory14,#theory15,#theory16,#theory17,#theory18,#theory19,#theory20,#theory21{
 border: solid;
 position: relative;
 border-color: #FA58D0;
@@ -2603,7 +2603,7 @@ padding: 5px;
 border-radius: 5px;
 margin-bottom: 15px;
 }
-#theory1:before,#theory1:after
+#theory1:before,#theory2:before,#theory3:before,#theory4:before,#theory5:before,#theory6:before,#theory7:before,#theory8:before,#theory9:before,#theory10:before,#theory11:before,#theory12:before,#theory13:before,#theory14:before,#theory15:before,#theory16:before,#theory17:before,#theory18:before,#theory19:before,#theory20:before,#theory21:before,#theory1:after,#theory2:after,#theory3:after,#theory4:after,#theory5:after,#theory6:after,#theory7:after,#theory8:after,#theory9:after,#theory10:after,#theory11:after,#theory12:after,#theory13:after,#theory14:after,#theory15:after,#theory16:after,#theory17:after,#theory18:after,#theory19:after,#theory20:after,#theory21:after
 {
     content: '';
     position: absolute;
@@ -2612,11 +2612,11 @@ margin-bottom: 15px;
     border: solid 2px #FA58D0;
     border-radius: 50%;
 }
-#theory1:after {
+#theory1:after,#theory2:after,#theory3:after,#theory4:after,#theory5:after,#theory6:after,#theory7:after,#theory8:after,#theory9:after,#theory10:after,#theory11:after,#theory12:after,#theory13:after,#theory14:after,#theory15:after,#theory16:after,#theory17:after,#theory18:after,#theory19:after,#theory20:after,#theory21:after {
     top:-10px;
     left:-10px;
 }
-#theory1:before {
+#theory1:before,#theory2:before,#theory3:before,#theory4:before,#theory5:before,#theory6:before,#theory7:before,#theory8:before,#theory9:before,#theory10:before,#theory11:before,#theory12:before,#theory13:before,#theory14:before,#theory15:before,#theory16:before,#theory17:before,#theory18:before,#theory19:before,#theory20:before,#theory21:before {
     bottom:-10px;
     right:-10px;
 }
