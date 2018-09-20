@@ -725,7 +725,39 @@ function geo_k(feature, layer) {
     if (feature.properties && feature.properties.Jusho){
     	popup += '<br>住所：' + feature.properties.Jusho;
     }
-    
+
+    if (feature.properties && feature.properties.kouzui){
+    	popup += '<br>洪水：<span id = "pop_moji">' + feature.properties.kouzui + '</span>';
+    }
+
+    if (feature.properties && feature.properties.gake){
+    	popup += '　がけ崩れ、土石流及び地滑り：<span id = "pop_moji">' + feature.properties.gake + '</span>';
+    }
+
+    if (feature.properties && feature.properties.takashio){
+    	popup += '　高潮：<span id = "pop_moji">' + feature.properties.takashio + '</span>';
+    }
+
+    if (feature.properties && feature.properties.jishin){
+    	popup += '　地震：<span id = "pop_moji">' + feature.properties.jishin + '</span>';
+    }
+
+    if (feature.properties && feature.properties.tsunami){
+    	popup += '　津波：<span id = "pop_moji">' + feature.properties.tsunami + '</span>';
+    }
+
+    if (feature.properties && feature.properties.kaji){
+    	popup += '　大規模な火事：<span id = "pop_moji">' + feature.properties.kaji + '</span>';
+    }
+
+    if (feature.properties && feature.properties.naisui){
+    	popup += '　内水氾濫：<span id = "pop_moji">' + feature.properties.naisui + '</span>';
+    }
+
+    if (feature.properties && feature.properties.kazan){
+    	popup += '　火山：<span id = "pop_moji">' + feature.properties.kazan + '</span>';
+    }
+
     layer.bindPopup(popup);
 }
 

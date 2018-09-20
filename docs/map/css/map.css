@@ -114,3 +114,9 @@ a {
 }
 
 .mlc{cursor: pointer;}
+
+#pop_moji{
+	color: #ff0000;
+	font-size: 16px !important;
+
+}
