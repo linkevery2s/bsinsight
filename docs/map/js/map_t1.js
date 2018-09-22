@@ -1,5 +1,5 @@
 var map;var p;var zoom;var hash;var url;var number;var marker; var markers = []; var gps_button; var hinanj;var geok;var cloud;
-var todou = new Array(47);var markers = new Array(47); var ido; var keido;
+var todou = new Array(47);var markers = new Array(47); var ido; var keido;var para; var par;
 
 
 function map_ini() {
@@ -28,13 +28,14 @@ function map_ini2() {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
 
-		map.setView([35.619, 138.466], 5);
+	para = location.hash;
+	par = para.split("/");
 
-			gps_button = L.easyButton('fa-location-arrow', function(){
-    			GPS();
-			}).addTo( map );
+		var pulsingIcon = L.icon.pulse({iconSize:[12,12],color:'blue'});
+		var now = L.marker([par[1] ,par[2]] ,{icon: pulsingIcon}).addTo(map);
 
 		hash = new L.Hash(map);
+
 
 			var back = L.easyButton('fa-undo', function(){
     			location.href = "../index.html#refuge";
@@ -57,11 +58,37 @@ function geo_k(feature, layer) {
     	popup += '<br>住所：' + feature.properties.Jusho;
     }
     
-    if (feature.properties && feature.properties.Capacity){
-    	popup += '<br>収容人数：' + feature.properties.Capacity;
+    if (feature.properties && feature.properties.kouzui){
+    	popup += '<br>洪水：<span id = "pop_moji">' + feature.properties.kouzui + '</span>';
     }
-        
-    //popup += '<br><a href = "javascript:void(0);" onclick = "test(' + feature.properties.la + "," + feature.properties.ln + ')">' + "ルート検索" + "</a>";
+
+    if (feature.properties && feature.properties.gake){
+    	popup += '　がけ崩れ、土石流及び地滑り：<span id = "pop_moji">' + feature.properties.gake + '</span>';
+    }
+
+    if (feature.properties && feature.properties.takashio){
+    	popup += '　高潮：<span id = "pop_moji">' + feature.properties.takashio + '</span>';
+    }
+
+    if (feature.properties && feature.properties.jishin){
+    	popup += '　地震：<span id = "pop_moji">' + feature.properties.jishin + '</span>';
+    }
+
+    if (feature.properties && feature.properties.tsunami){
+    	popup += '　津波：<span id = "pop_moji">' + feature.properties.tsunami + '</span>';
+    }
+
+    if (feature.properties && feature.properties.kaji){
+    	popup += '　大規模な火事：<span id = "pop_moji">' + feature.properties.kaji + '</span>';
+    }
+
+    if (feature.properties && feature.properties.naisui){
+    	popup += '　内水氾濫：<span id = "pop_moji">' + feature.properties.naisui + '</span>';
+    }
+
+    if (feature.properties && feature.properties.kazan){
+    	popup += '　火山：<span id = "pop_moji">' + feature.properties.kazan + '</span>';
+    }
 
     popup += '<br><a href = "javascript:void(0);" onclick = "test(' + feature.geometry.coordinates[1] + "," + feature.geometry.coordinates[0] + ')">' + "ルート検索" + "</a>";
 
@@ -123,7 +150,7 @@ if(a == 0){
 
 way1 = L.Routing.control({
   waypoints: [
-    L.latLng(ido, keido),
+    L.latLng(par[1], par[2]),
     L.latLng(x, y)
   ],
     routeWhileDragging: false,
@@ -143,7 +170,7 @@ else{
 
 way2 = L.Routing.control({
   waypoints: [
-    L.latLng(ido, keido),
+    L.latLng(par[1], par[2]),
     L.latLng(x, y)
   ],
     routeWhileDragging: false,
