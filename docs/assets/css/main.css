@@ -2620,3 +2620,6 @@ margin-bottom: 15px;
     bottom:-10px;
     right:-10px;
 }
+
+@media (max-width: 767px) { #map{width: 525px !important;} }
+@media (max-width: 480px) { #map{width: 303px !important;} }
