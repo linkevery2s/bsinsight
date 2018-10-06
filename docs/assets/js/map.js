@@ -62,7 +62,6 @@ var t9 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryuke
 var t10 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/10/{z}/{x}/{y}.png', {opacity: 0.8});
 var t11 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/11/{z}/{x}/{y}.png', {opacity: 0.8});
 var t12 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/12/{z}/{x}/{y}.png', {opacity: 0.8});
-var t13 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/13/{z}/{x}/{y}.png', {opacity: 0.8});
 var t14 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/14/{z}/{x}/{y}.png', {opacity: 0.8});
 var t15 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/15/{z}/{x}/{y}.png', {opacity: 0.8});
 var t16 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/16/{z}/{x}/{y}.png', {opacity: 0.8});
@@ -76,12 +75,9 @@ var t23 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryuk
 var t24 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/24/{z}/{x}/{y}.png', {opacity: 0.8});
 var t25 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/25/{z}/{x}/{y}.png', {opacity: 0.8});
 var t26 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/26/{z}/{x}/{y}.png', {opacity: 0.8});
-var t27 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/27/{z}/{x}/{y}.png', {opacity: 0.8});
-var t28 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/28/{z}/{x}/{y}.png', {opacity: 0.8});
 var t29 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/29/{z}/{x}/{y}.png', {opacity: 0.8});
 var t30 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/30/{z}/{x}/{y}.png', {opacity: 0.8});
 var t31 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/31/{z}/{x}/{y}.png', {opacity: 0.8});
-var t32 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/32/{z}/{x}/{y}.png', {opacity: 0.8});
 var t33 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/33/{z}/{x}/{y}.png', {opacity: 0.8});
 var t34 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/34/{z}/{x}/{y}.png', {opacity: 0.8});
 var t35 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/35/{z}/{x}/{y}.png', {opacity: 0.8});
@@ -99,6 +95,6 @@ var t46 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryuk
 var t47 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/47/{z}/{x}/{y}.png', {opacity: 0.8});
 
 //地図を生成（初期表示の中心座標，ズームレベル，レイヤなどをオプションで設定）
-var map = L.map('map_canvas', {center: [35.619, 138.466], zoom: 5,layers: [tiri, t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11, t12, t13, t14, t15, t16, t17, t18, t19, t20, t21, t22, t23, t24, t25, t26, t27, t28, t29, t30, t31, t32, t33, t34, t35, t36, t37, t38, t39, t40, t41, t42, t43, t44, t45, t46, t47 ]});
+var map = L.map('map_canvas', {center: [35.619, 138.466], zoom: 5,layers: [tiri, t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11, t12, t14, t15, t16, t17, t18, t19, t20, t21, t22, t23, t24, t25, t26, t29, t30, t31, t33, t34, t35, t36, t37, t38, t39, t40, t41, t42, t43, t44, t45, t46, t47 ]});
 
 }
