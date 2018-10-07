@@ -39,7 +39,7 @@ function kk_gu(){
 }
 
 function kk_si(){
-	document.getElementById("keisya_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="keisya/sitama.html"></iframe>';
+	document.getElementById("keisya_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="keisya/saitama.html"></iframe>';
 }
 
 function kk_tb(){
