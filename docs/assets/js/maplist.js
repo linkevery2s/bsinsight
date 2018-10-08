@@ -184,4 +184,383 @@ function kk_kagos(){
 
 function kk_okina(){
 	document.getElementById("keisya_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="keisya/okinawa.html"></iframe>';
+}
+
+
+function ds_hok(){
+	document.getElementById("ds_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="dosekiryu/hokkaido.html"></iframe>';
+}
+
+function ds_ao(){
+	document.getElementById("ds_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="dosekiryu/aomori.html"></iframe>';
+}
+
+function ds_ak(){
+	document.getElementById("ds_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="dosekiryu/akita.html"></iframe>';
+}
+
+function ds_iw(){
+	document.getElementById("ds_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="dosekiryu/iwate.html"></iframe>';
+}
+
+function ds_my(){
+	document.getElementById("ds_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="dosekiryu/miyagi.html"></iframe>';
+}
+
+function ds_yg(){
+	document.getElementById("ds_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="dosekiryu/yamagata.html"></iframe>';
+}
+
+function ds_fs(){
+	document.getElementById("ds_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="dosekiryu/fukushima.html"></iframe>';
+}
+
+function ds_ib(){
+	document.getElementById("ds_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="dosekiryu/ibaragi.html"></iframe>';
+}
+
+function ds_to(){
+	document.getElementById("ds_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="dosekiryu/tochigi.html"></iframe>';
+}
+
+function ds_gu(){
+	document.getElementById("ds_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="dosekiryu/gunma.html"></iframe>';
+}
+
+function ds_si(){
+	document.getElementById("ds_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="dosekiryu/saitama.html"></iframe>';
+}
+
+function ds_tb(){
+	document.getElementById("ds_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="dosekiryu/tiba.html"></iframe>';
+}
+
+function ds_tk(){
+	document.getElementById("ds_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="dosekiryu/tokyo.html"></iframe>';
+}
+
+function ds_kg(){
+	document.getElementById("ds_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="dosekiryu/kanagawa.html"></iframe>';
+}
+
+function ds_ni(){
+	document.getElementById("ds_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="dosekiryu/nigata.html"></iframe>';
+}
+
+function ds_toyama(){
+	document.getElementById("ds_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="dosekiryu/toyama.html"></iframe>';
+}
+
+function ds_is(){
+	document.getElementById("ds_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="dosekiryu/ishikawa.html"></iframe>';
+}
+
+function ds_fukui(){
+	document.getElementById("ds_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="dosekiryu/fukui.html"></iframe>';
+}
+
+function ds_yam(){
+	document.getElementById("ds_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="dosekiryu/yamanashi.html"></iframe>';
+}
+
+function ds_ng(){
+	document.getElementById("ds_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="dosekiryu/nagano.html"></iframe>';
+}
+
+function ds_gif(){
+	document.getElementById("ds_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="dosekiryu/gifu.html"></iframe>';
+}
+
+function ds_sz(){
+	document.getElementById("ds_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="dosekiryu/shizuoka.html"></iframe>';
+}
+
+function ds_aic(){
+	document.getElementById("ds_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="dosekiryu/aichi.html"></iframe>';
+}
+
+function ds_mie(){
+	document.getElementById("ds_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="dosekiryu/mie.html"></iframe>';
+}
+
+function ds_siga(){
+	document.getElementById("ds_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="dosekiryu/shiga.html"></iframe>';
+}
+
+function ds_kyot(){
+	document.getElementById("ds_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="dosekiryu/kyoto.html"></iframe>';
+}
+
+function ds_os(){
+	document.getElementById("ds_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="dosekiryu/osaka.html"></iframe>';
+}
+
+function ds_hg(){
+	document.getElementById("ds_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="dosekiryu/hyogo.html"></iframe>';
+}
+
+function ds_nr(){
+	document.getElementById("ds_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="dosekiryu/nara.html"></iframe>';
+}
+
+function ds_waky(){
+	document.getElementById("ds_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="dosekiryu/wakayama.html"></iframe>';
+}
+
+function ds_tt(){
+	document.getElementById("ds_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="dosekiryu/tottori.html"></iframe>';
+}
+
+function ds_smn(){
+	document.getElementById("ds_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="dosekiryu/shimane.html"></iframe>';
+}
+
+function ds_oky(){
+	document.getElementById("ds_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="dosekiryu/okayama.html"></iframe>';
+}
+
+function ds_hiro(){
+	document.getElementById("ds_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="dosekiryu/hiroshima.html"></iframe>';
+}
+
+function ds_yag(){
+	document.getElementById("ds_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="dosekiryu/yamaguchi.html"></iframe>';
+}
+
+function ds_tok(){
+	document.getElementById("ds_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="dosekiryu/tokushima.html"></iframe>';
+}
+
+function ds_kagawa(){
+	document.getElementById("ds_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="dosekiryu/kagawa.html"></iframe>';
+}
+
+function ds_ehi(){
+	document.getElementById("ds_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="dosekiryu/ehime.html"></iframe>';
+}
+
+function ds_kochi(){
+	document.getElementById("ds_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="dosekiryu/kochi.html"></iframe>';
+}
+
+function ds_fukuoka(){
+	document.getElementById("ds_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="dosekiryu/fukuoka.html"></iframe>';
+}
+
+function ds_saga(){
+	document.getElementById("ds_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="dosekiryu/saga.html"></iframe>';
+}
+
+function ds_nags(){
+	document.getElementById("ds_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="dosekiryu/nagasaki.html"></iframe>';
+}
+
+function ds_kuma(){
+	document.getElementById("ds_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="dosekiryu/kumamoto.html"></iframe>';
+}
+
+function ds_oita(){
+	document.getElementById("ds_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="dosekiryu/oita.html"></iframe>';
+}
+
+function ds_miyz(){
+	document.getElementById("ds_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="dosekiryu/miyazaki.html"></iframe>';
+}
+
+function ds_kagos(){
+	document.getElementById("ds_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="dosekiryu/kagoshima.html"></iframe>';
+}
+
+function ds_okina(){
+	document.getElementById("ds_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="dosekiryu/okinawa.html"></iframe>';
+} 
+
+
+
+function jsb_hok(){
+	document.getElementById("jsb_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="jisuberi/hokkaido.html"></iframe>';
+}
+
+function jsb_ao(){
+	document.getElementById("jsb_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="jisuberi/aomori.html"></iframe>';
+}
+
+function jsb_ak(){
+	document.getElementById("jsb_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="jisuberi/akita.html"></iframe>';
+}
+
+function jsb_iw(){
+	document.getElementById("jsb_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="jisuberi/iwate.html"></iframe>';
+}
+
+function jsb_my(){
+	document.getElementById("jsb_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="jisuberi/miyagi.html"></iframe>';
+}
+
+function jsb_yg(){
+	document.getElementById("jsb_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="jisuberi/yamagata.html"></iframe>';
+}
+
+function jsb_fs(){
+	document.getElementById("jsb_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="jisuberi/fukushima.html"></iframe>';
+}
+
+function jsb_ib(){
+	document.getElementById("jsb_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="jisuberi/ibaragi.html"></iframe>';
+}
+
+function jsb_to(){
+	document.getElementById("jsb_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="jisuberi/tochigi.html"></iframe>';
+}
+
+function jsb_gu(){
+	document.getElementById("jsb_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="jisuberi/gunma.html"></iframe>';
+}
+
+function jsb_si(){
+	document.getElementById("jsb_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="jisuberi/saitama.html"></iframe>';
+}
+
+function jsb_tb(){
+	document.getElementById("jsb_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="jisuberi/tiba.html"></iframe>';
+}
+
+function jsb_tk(){
+	document.getElementById("jsb_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="jisuberi/tokyo.html"></iframe>';
+}
+
+function jsb_kg(){
+	document.getElementById("jsb_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="jisuberi/kanagawa.html"></iframe>';
+}
+
+function jsb_ni(){
+	document.getElementById("jsb_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="jisuberi/nigata.html"></iframe>';
+}
+
+function jsb_toyama(){
+	document.getElementById("jsb_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="jisuberi/toyama.html"></iframe>';
+}
+
+function jsb_is(){
+	document.getElementById("jsb_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="jisuberi/ishikawa.html"></iframe>';
+}
+
+function jsb_fukui(){
+	document.getElementById("jsb_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="jisuberi/fukui.html"></iframe>';
+}
+
+function jsb_yam(){
+	document.getElementById("jsb_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="jisuberi/yamanashi.html"></iframe>';
+}
+
+function jsb_ng(){
+	document.getElementById("jsb_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="jisuberi/nagano.html"></iframe>';
+}
+
+function jsb_gif(){
+	document.getElementById("jsb_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="jisuberi/gifu.html"></iframe>';
+}
+
+function jsb_sz(){
+	document.getElementById("jsb_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="jisuberi/shizuoka.html"></iframe>';
+}
+
+function jsb_aic(){
+	document.getElementById("jsb_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="jisuberi/aichi.html"></iframe>';
+}
+
+function jsb_mie(){
+	document.getElementById("jsb_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="jisuberi/mie.html"></iframe>';
+}
+
+function jsb_siga(){
+	document.getElementById("jsb_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="jisuberi/shiga.html"></iframe>';
+}
+
+function jsb_kyot(){
+	document.getElementById("jsb_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="jisuberi/kyoto.html"></iframe>';
+}
+
+function jsb_os(){
+	document.getElementById("jsb_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="jisuberi/osaka.html"></iframe>';
+}
+
+function jsb_hg(){
+	document.getElementById("jsb_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="jisuberi/hyogo.html"></iframe>';
+}
+
+function jsb_nr(){
+	document.getElementById("jsb_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="jisuberi/nara.html"></iframe>';
+}
+
+function jsb_waky(){
+	document.getElementById("jsb_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="jisuberi/wakayama.html"></iframe>';
+}
+
+function jsb_tt(){
+	document.getElementById("jsb_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="jisuberi/tottori.html"></iframe>';
+}
+
+function jsb_smn(){
+	document.getElementById("jsb_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="jisuberi/shimane.html"></iframe>';
+}
+
+function jsb_oky(){
+	document.getElementById("jsb_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="jisuberi/okayama.html"></iframe>';
+}
+
+function jsb_hiro(){
+	document.getElementById("jsb_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="jisuberi/hiroshima.html"></iframe>';
+}
+
+function jsb_yag(){
+	document.getElementById("jsb_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="jisuberi/yamaguchi.html"></iframe>';
+}
+
+function jsb_tok(){
+	document.getElementById("jsb_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="jisuberi/tokushima.html"></iframe>';
+}
+
+function jsb_kagawa(){
+	document.getElementById("jsb_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="jisuberi/kagawa.html"></iframe>';
+}
+
+function jsb_ehi(){
+	document.getElementById("jsb_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="jisuberi/ehime.html"></iframe>';
+}
+
+function jsb_kochi(){
+	document.getElementById("jsb_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="jisuberi/kochi.html"></iframe>';
+}
+
+function jsb_fukuoka(){
+	document.getElementById("jsb_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="jisuberi/fukuoka.html"></iframe>';
+}
+
+function jsb_saga(){
+	document.getElementById("jsb_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="jisuberi/saga.html"></iframe>';
+}
+
+function jsb_nags(){
+	document.getElementById("jsb_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="jisuberi/nagasaki.html"></iframe>';
+}
+
+function jsb_kuma(){
+	document.getElementById("jsb_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="jisuberi/kumamoto.html"></iframe>';
+}
+
+function jsb_oita(){
+	document.getElementById("jsb_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="jisuberi/oita.html"></iframe>';
+}
+
+function jsb_miyz(){
+	document.getElementById("jsb_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="jisuberi/miyazaki.html"></iframe>';
+}
+
+function jsb_kagos(){
+	document.getElementById("jsb_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="jisuberi/kagoshima.html"></iframe>';
+}
+
+function jsb_okina(){
+	document.getElementById("jsb_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="jisuberi/okinawa.html"></iframe>';
 } 
