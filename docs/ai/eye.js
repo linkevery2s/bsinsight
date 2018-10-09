@@ -44,21 +44,21 @@ function discovery(x){
 	  	delay: 1000,
       	content: "避難場所を表示します。"
     }).then(function() {
-		setTimeout(function(){ location.href="https://linkevery2s.github.io/bseyes/hinan.html"; }, 1000);
+		setTimeout(function(){ location.href="https://linkevery2s.github.io/bsinsight/#refuge"; }, 1000);
 	});
     }else if(x == "2"){
 		eyeui.message.bot({
 	  	delay: 1000,
       	content: "雨雲レーダーを表示します。"
     }).then(function() {
-		setTimeout(function(){ location.href="https://linkevery2s.github.io/bseyes/ame.html#map"; }, 1000);
+		setTimeout(function(){ location.href="https://linkevery2s.github.io/bsinsight/#weather"; }, 1000);
 	});
     }else if(x == "3"){
 		eyeui.message.bot({
 	  	delay: 1000,
       	content: "ハザードマップを表示します。"
     }).then(function() {
-		setTimeout(function(){ location.href="https://linkevery2s.github.io/bseyes/hazard.html"; }, 1000);
+		setTimeout(function(){ location.href="https://linkevery2s.github.io/bsinsight/#soutei"; }, 1000);
 	});
     }else if(x == "4"){
 		eyeui.message.bot({
@@ -843,7 +843,7 @@ eyeui.message.bot({
     	ido = position.coords.latitude;
     	keido = position.coords.longitude;
 
-    	location.href ="https://linkevery2s.github.io/bseyes/whmap.html#15/" + ido + "/" + keido;
+    	location.href ="https://linkevery2s.github.io/bsinsight/whmap.html#15/" + ido + "/" + keido;
 	}
 
 	function gps_error(error) {
