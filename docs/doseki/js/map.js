@@ -14,7 +14,7 @@ var todou ;var ido; var keido; var hash;
 	}
 
 function rn(){
-		location.href = "../hazard.html#doseki_map";
+		location.href = "../index.html#soutei";
 }
 
 	function GPS(){
