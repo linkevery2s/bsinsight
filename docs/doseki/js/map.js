@@ -8,7 +8,6 @@ var todou ;var ido; var keido; var hash;
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
   		hash = new L.Hash(map);
-		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
 		var back_b = L.easyButton('fa-undo', function(){rn();}).addTo(map);
 
 	}
@@ -221,7 +220,16 @@ function rn(){
 
     function saitama_ini() {
 		start();//map.setView([35.929, 139.147], 8);
-	}
+    	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/11/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+    	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/11/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+    	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/11/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+
+		var baseMaps = {
+    		"急傾斜地の崩壊警戒区域": t1,
+    		"土石流警戒区域": t2,
+    		"地すべり警戒区域": t3    		
+		};
+		L.control.layers(baseMaps).addTo(map);	}
 
     function tokyo_ini() {
 		start();//map.setView([35.595, 139.592], 8);
@@ -382,7 +390,16 @@ function rn(){
 
     function osaka_ini() {
 		start();//map.setView([34.692, 135.511], 8);
-	}
+    	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/27/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+    	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/27/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+    	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/27/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+
+		var baseMaps = {
+    		"急傾斜地の崩壊警戒区域": t1,
+    		"土石流警戒区域": t2,
+    		"地すべり警戒区域": t3    		
+		};
+		L.control.layers(baseMaps).addTo(map);	}
 
     function nara_ini() {
 		start();//map.setView([34.207, 135.818], 8);
@@ -412,7 +429,16 @@ function rn(){
 
     function hyogo_ini() {
 		start();//map.setView([35.043, 134.484], 8);
-	}
+    	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/28/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+    	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/28/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+    	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/28/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+
+		var baseMaps = {
+    		"急傾斜地の崩壊警戒区域": t1,
+    		"土石流警戒区域": t2,
+    		"地すべり警戒区域": t3    		
+		};
+		L.control.layers(baseMaps).addTo(map);	}
 
     function tottori_ini() {
 		start();//map.setView([35.313, 133.786], 8);
@@ -442,7 +468,16 @@ function rn(){
 
     function shimane_ini() {
 		start();//map.setView([34.854, 132.347], 8);
-	}
+    	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/32/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+    	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/32/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+    	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/32/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+
+		var baseMaps = {
+    		"急傾斜地の崩壊警戒区域": t1,
+    		"土石流警戒区域": t2,
+    		"地すべり警戒区域": t3    		
+		};
+		L.control.layers(baseMaps).addTo(map);	}
 
     function hiroshima_ini() {
 		start();//map.setView([34.556, 132.512], 8);
