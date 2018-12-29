@@ -1,4 +1,4 @@
-function kk_hok(){
+/*function kk_hok(){
 	document.getElementById("dkj_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="doseki/hokkaido.html"></iframe>';
 }
 
@@ -184,4 +184,4 @@ function kk_kagos(){
 
 function kk_okina(){
 	document.getElementById("dkj_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="doseki/okinawa.html"></iframe>';
-}
+}*/
