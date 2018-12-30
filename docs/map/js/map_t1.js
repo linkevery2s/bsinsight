@@ -63,7 +63,7 @@ function geo_k(feature, layer) {
     }
 
     if (feature.properties && feature.properties.gake){
-    	popup += '　がけ崩れ、土石流及び地滑り：<span id = "pop_moji">' + feature.properties.gake + '</span>';
+    	popup += '　がけ崩れ、土石流及び地滑り：<span id = "pop_moji">' + feature.properties.gake + '</span><br>';
     }
 
     if (feature.properties && feature.properties.takashio){
@@ -75,7 +75,7 @@ function geo_k(feature, layer) {
     }
 
     if (feature.properties && feature.properties.tsunami){
-    	popup += '　津波：<span id = "pop_moji">' + feature.properties.tsunami + '</span>';
+    	popup += '　津波：<span id = "pop_moji">' + feature.properties.tsunami + '</span><br>';
     }
 
     if (feature.properties && feature.properties.kaji){
