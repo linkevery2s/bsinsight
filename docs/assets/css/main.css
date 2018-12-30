@@ -2747,7 +2747,7 @@ border: solid 3px #FF6600;
 .box2:after {/*タブ*/
   position: absolute;
   font-family: "FontAwesome",'Quicksand','Avenir','Arial',sans-serif;
-  content: '\f00c Check';
+  content: '\f00c CHECK';
   background: #FF6600;
   color: #fff;
   left: 0px;
