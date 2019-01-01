@@ -28,6 +28,24 @@ z-index: 10000;
 	border: solid 3px #000000;
 	}
 
+.s_btn{
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-radius: 3px;
+    font-weight: bold;
+    color: #FFF;
+    background-image: -webkit-linear-gradient(45deg, #709dff 0%, #b0c9ff 100%);
+    background-image: linear-gradient(45deg, #709dff 0%, #b0c9ff 100%);
+    transition: .4s;
+}
+
+.s_btn:hover{
+    background-image: -webkit-linear-gradient(45deg, #709dff 50%, #b0c9ff 100%);
+    background-image: linear-gradient(45deg, #709dff 50%, #b0c9ff 100%);
+}
+
+
 </style>
 
 <script type="text/javascript">
@@ -86,7 +104,7 @@ document.getElementById("frame").contentWindow.location.replace("https://linkeve
 			<option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option>
 		</select>ｍ
 <br>
-<input type="button" value="ARをONにする" onclick="ar()"></button>
+<input type="button" value="ARをONにする" onclick="ar()" class='s_btn'></button>
     <div class="came">
 		
 		<iframe id="frame" width="100%" height="500px" allowfullscreen="true" frameBorder="0" scrolling="no">
@@ -94,7 +112,7 @@ document.getElementById("frame").contentWindow.location.replace("https://linkeve
 		</iframe>
     </div>
     <div>
-    <input type="button"  value="標高を調べる" onclick="GPS()"></button>
+    <input type="button"  value="標高を調べる" onclick="GPS()" class='s_btn'></button>
     標高：<textarea style="width: 100px; height: 20px; " id="data_result"></textarea>ｍ
     
     </div>
