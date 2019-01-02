@@ -1,0 +1,48 @@
+/* スライダー横のボックス */
+#slider-tag {
+  height:40px;
+  width:100px;
+  background: #a6c9e2;
+  border:0;
+  margin-left:2em;
+  position:absolute;
+  text-align: center;
+  font-size: smaller;
+}
+/* スライダー横のボックス内の文字用スタイル */
+.slider-value {
+  display: inline-block;
+  margin-top:0.7em;
+  margin-left:0.5em;
+}
+/* スライダー横のボックス端を折り返したように見せるスタイル（上） */
+#slider-tag:before {
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 0px;
+  height: 0px;
+  border-top: 20px solid white;
+  border-right: 20px solid #a6c9e2;
+}
+/* スライダー横のボックス端を折り返したように見せるスタイル（下） */
+#slider-tag:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  width: 0px;
+  height: 0px;
+  border-bottom: 20px solid white;
+  border-right: 20px solid #a6c9e2;
+}
+
+/* 合計金額表示箇所のスタイル */
+#total {
+  text-align: right;
+  border: 0;
+  color: #f6931f;
+  font-weight: bold;
+  font-size:larger;
+}
