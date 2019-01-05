@@ -1903,7 +1903,7 @@ function stopload(){
    var max_length = 5; 
   $(function(){
     $.getJSON("https://query.yahooapis.com/v1/public/yql?callback=?", {
-      q: "select * from rss where url='http://www.jma-net.go.jp/rss/jma.rss'",
+      q: "select * from rss where url='https://www.jma-net.go.jp/rss/jma.rss'",
       format: "json"
     }, function(json) {
       for (var i = 0; i < json.query.results.item.length; i++) {
