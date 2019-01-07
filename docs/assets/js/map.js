@@ -7,7 +7,7 @@ var tiri = L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.pn
 		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>',
 	});
 
-var test = new L.tileLayer('https://tile.geospatial.jp/nankaitrough/sindobunpu/{z}/{x}/{y}.png', {
+var test = new L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/skhb01/{z}/{x}/{y}.geojson', {
     opacity: 0.7
     });
 
