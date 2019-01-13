@@ -1,187 +1,195 @@
-/*function kk_hok(){
-	document.getElementById("dkj_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="doseki/hokkaido.html"></iframe>';
+var wh;
+wh = window.outerWidth;
+function hok(){
+	location.href = "#tenki";
+	if(wh > 767){
+	document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/hokkaido.html"></iframe>';
+	}else{
+	document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/hokkaido_k.html"></iframe>';
+	}
+
 }
 
-function kk_ao(){
-	document.getElementById("dkj_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="doseki/aomori.html"></iframe>';
+function ao(){
+	location.href = "#tenki"; document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/aomori.html"></iframe>';
 }
 
-function kk_ak(){
-	document.getElementById("dkj_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="doseki/akita.html"></iframe>';
+function ak(){
+	location.href = "#tenki"; document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/akita.html"></iframe>';
 }
 
-function kk_iw(){
-	document.getElementById("dkj_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="doseki/iwate.html"></iframe>';
+function iw(){
+	location.href = "#tenki"; document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/iwate.html"></iframe>';
 }
 
-function kk_my(){
-	document.getElementById("dkj_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="doseki/miyagi.html"></iframe>';
+function my(){
+	location.href = "#tenki"; document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/miyagi.html"></iframe>';
 }
 
-function kk_yg(){
-	document.getElementById("dkj_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="doseki/yamagata.html"></iframe>';
+function yg(){
+	location.href = "#tenki"; document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/yamagata.html"></iframe>';
 }
 
-function kk_fs(){
-	document.getElementById("dkj_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="doseki/fukushima.html"></iframe>';
+function fs(){
+	location.href = "#tenki"; document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/fukushima.html"></iframe>';
 }
 
-function kk_ib(){
-	document.getElementById("dkj_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="doseki/ibaragi.html"></iframe>';
+function ib(){
+	location.href = "#tenki"; document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/ibaragi.html"></iframe>';
 }
 
-function kk_to(){
-	document.getElementById("dkj_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="doseki/tochigi.html"></iframe>';
+function to(){
+	location.href = "#tenki"; document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/tochigi.html"></iframe>';
 }
 
-function kk_gu(){
-	document.getElementById("dkj_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="doseki/gunma.html"></iframe>';
+function gu(){
+	location.href = "#tenki"; document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/gunma.html"></iframe>';
 }
 
-function kk_si(){
-	document.getElementById("dkj_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="doseki/saitama.html"></iframe>';
+function si(){
+	location.href = "#tenki"; document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/saitama.html"></iframe>';
 }
 
-function kk_tb(){
-	document.getElementById("dkj_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="doseki/tiba.html"></iframe>';
+function tb(){
+	location.href = "#tenki"; document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/tiba.html"></iframe>';
 }
 
-function kk_tk(){
-	document.getElementById("dkj_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="doseki/tokyo.html"></iframe>';
+function tk(){
+	location.href = "#tenki"; document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/tokyo.html"></iframe>';
 }
 
-function kk_kg(){
-	document.getElementById("dkj_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="doseki/kanagawa.html"></iframe>';
+function kg(){
+	location.href = "#tenki"; document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/kanagawa.html"></iframe>';
 }
 
-function kk_ni(){
-	document.getElementById("dkj_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="doseki/nigata.html"></iframe>';
+function ni(){
+	location.href = "#tenki"; document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/nigata.html"></iframe>';
 }
 
-function kk_toyama(){
-	document.getElementById("dkj_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="doseki/toyama.html"></iframe>';
+function toyama(){
+	location.href = "#tenki"; document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/toyama.html"></iframe>';
 }
 
-function kk_is(){
-	document.getElementById("dkj_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="doseki/ishikawa.html"></iframe>';
+function is(){
+	location.href = "#tenki"; document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/ishikawa.html"></iframe>';
 }
 
-function kk_fukui(){
-	document.getElementById("dkj_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="doseki/fukui.html"></iframe>';
+function fukui(){
+	location.href = "#tenki"; document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/fukui.html"></iframe>';
 }
 
-function kk_yam(){
-	document.getElementById("dkj_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="doseki/yamanashi.html"></iframe>';
+function yam(){
+	location.href = "#tenki"; document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/yamanashi.html"></iframe>';
 }
 
-function kk_ng(){
-	document.getElementById("dkj_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="doseki/nagano.html"></iframe>';
+function ng(){
+	location.href = "#tenki"; document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/nagano.html"></iframe>';
 }
 
-function kk_gif(){
-	document.getElementById("dkj_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="doseki/gifu.html"></iframe>';
+function gif(){
+	location.href = "#tenki"; document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/gifu.html"></iframe>';
 }
 
-function kk_sz(){
-	document.getElementById("dkj_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="doseki/shizuoka.html"></iframe>';
+function sz(){
+	location.href = "#tenki"; document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/shizuoka.html"></iframe>';
 }
 
-function kk_aic(){
-	document.getElementById("dkj_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="doseki/aichi.html"></iframe>';
+function aic(){
+	location.href = "#tenki"; document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/aichi.html"></iframe>';
 }
 
-function kk_mie(){
-	document.getElementById("dkj_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="doseki/mie.html"></iframe>';
+function mie(){
+	location.href = "#tenki"; document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/mie.html"></iframe>';
 }
 
-function kk_siga(){
-	document.getElementById("dkj_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="doseki/shiga.html"></iframe>';
+function siga(){
+	location.href = "#tenki"; document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/shiga.html"></iframe>';
 }
 
-function kk_kyot(){
-	document.getElementById("dkj_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="doseki/kyoto.html"></iframe>';
+function kyot(){
+	location.href = "#tenki"; document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/kyoto.html"></iframe>';
 }
 
-function kk_os(){
-	document.getElementById("dkj_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="doseki/osaka.html"></iframe>';
+function os(){
+	location.href = "#tenki"; document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/osaka.html"></iframe>';
 }
 
-function kk_hg(){
-	document.getElementById("dkj_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="doseki/hyogo.html"></iframe>';
+function hg(){
+	location.href = "#tenki"; document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/hyogo.html"></iframe>';
 }
 
-function kk_nr(){
-	document.getElementById("dkj_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="doseki/nara.html"></iframe>';
+function nr(){
+	location.href = "#tenki"; document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/nara.html"></iframe>';
 }
 
-function kk_waky(){
-	document.getElementById("dkj_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="doseki/wakayama.html"></iframe>';
+function waky(){
+	location.href = "#tenki"; document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/wakayama.html"></iframe>';
 }
 
-function kk_tt(){
-	document.getElementById("dkj_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="doseki/tottori.html"></iframe>';
+function tt(){
+	location.href = "#tenki"; document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/tottori.html"></iframe>';
 }
 
-function kk_smn(){
-	document.getElementById("dkj_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="doseki/shimane.html"></iframe>';
+function smn(){
+	location.href = "#tenki"; document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/shimane.html"></iframe>';
 }
 
-function kk_oky(){
-	document.getElementById("dkj_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="doseki/okayama.html"></iframe>';
+function oky(){
+	location.href = "#tenki"; document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/okayama.html"></iframe>';
 }
 
-function kk_hiro(){
-	document.getElementById("dkj_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="doseki/hiroshima.html"></iframe>';
+function hiro(){
+	location.href = "#tenki"; document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/hiroshima.html"></iframe>';
 }
 
-function kk_yag(){
-	document.getElementById("dkj_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="doseki/yamaguchi.html"></iframe>';
+function yag(){
+	location.href = "#tenki"; document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/yamaguchi.html"></iframe>';
 }
 
-function kk_tok(){
-	document.getElementById("dkj_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="doseki/tokushima.html"></iframe>';
+function tok(){
+	location.href = "#tenki"; document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/tokushima.html"></iframe>';
 }
 
-function kk_kagawa(){
-	document.getElementById("dkj_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="doseki/kagawa.html"></iframe>';
+function kagawa(){
+	location.href = "#tenki"; document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/kagawa.html"></iframe>';
 }
 
-function kk_ehi(){
-	document.getElementById("dkj_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="doseki/ehime.html"></iframe>';
+function ehi(){
+	location.href = "#tenki"; document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/ehime.html"></iframe>';
 }
 
-function kk_kochi(){
-	document.getElementById("dkj_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="doseki/kochi.html"></iframe>';
+function kochi(){
+	location.href = "#tenki"; document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/kochi.html"></iframe>';
 }
 
-function kk_fukuoka(){
-	document.getElementById("dkj_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="doseki/fukuoka.html"></iframe>';
+function fukuoka(){
+	location.href = "#tenki"; document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/fukuoka.html"></iframe>';
 }
 
-function kk_saga(){
-	document.getElementById("dkj_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="doseki/saga.html"></iframe>';
+function saga(){
+	location.href = "#tenki"; document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/saga.html"></iframe>';
 }
 
-function kk_nags(){
-	document.getElementById("dkj_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="doseki/nagasaki.html"></iframe>';
+function nags(){
+	location.href = "#tenki"; document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/nagasaki.html"></iframe>';
 }
 
-function kk_kuma(){
-	document.getElementById("dkj_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="doseki/kumamoto.html"></iframe>';
+function kuma(){
+	location.href = "#tenki"; document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/kumamoto.html"></iframe>';
 }
 
-function kk_oita(){
-	document.getElementById("dkj_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="doseki/oita.html"></iframe>';
+function oita(){
+	location.href = "#tenki"; document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/oita.html"></iframe>';
 }
 
-function kk_miyz(){
-	document.getElementById("dkj_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="doseki/miyazaki.html"></iframe>';
+function miyz(){
+	location.href = "#tenki"; document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/miyazaki.html"></iframe>';
 }
 
-function kk_kagos(){
-	document.getElementById("dkj_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="doseki/kagoshima.html"></iframe>';
+function kagos(){
+	location.href = "#tenki"; document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/kagoshima.html"></iframe>';
 }
 
-function kk_okina(){
-	document.getElementById("dkj_hazard").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="doseki/okinawa.html"></iframe>';
-}*/
+function okina(){
+	location.href = "#tenki"; document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/okinawa.html"></iframe>';
+}
