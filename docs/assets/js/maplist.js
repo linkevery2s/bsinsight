@@ -3,9 +3,9 @@ wh = window.outerWidth;
 function hok(){
 	location.href = "#tenki";
 	if(wh > 767){
-	document.getElementById("tenki").innerHTML = '<iframe width="100%" height="auto" scrolling="no" frameborder="no" src="tenki/hokkaido.html"></iframe>';
+	document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/hokkaido.html"></iframe>';
 	}else{
-	document.getElementById("tenki").innerHTML = '<iframe width="100%" height="auto" scrolling="no" frameborder="no" src="tenki/hokkaido_k.html"></iframe>';
+	document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/hokkaido_k.html"></iframe>';
 	}
 
 }
