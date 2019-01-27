@@ -13,25 +13,31 @@
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://linkevery2s.github.io/bsinsight/index.html" />
     <meta property="og:image" content="https://linkevery2s.github.io/bsinsight/images/top.jpg" />
+
     <meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:title" content="防災INSIGHT" />
 	<meta name="twitter:description" content='このアプリは自治体等のオープンデータを用いた防災アプリです。' />
 	<meta name="twitter:image" content="https://linkevery2s.github.io/bsinsight/images/top.jpg" />
     <meta name="author" content="仁志">
 	<meta name="keywords" content="防災INSIGHT、防災、災害対策">
+
 	<link rel="stylesheet" href="assets/css/font-awesome.min.css" />
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<link rel="stylesheet" href="assets/css/maplist.css" />
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
     <link rel="shortcut icon" href="images/apple-touch-icon.png">
+
     <link rel="manifest" href="./manifest.json">
     <script>
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('./service-worker.js').then(function() { console.log('Service Worker Registered'); });
     }
     </script>
+
 	<title>防災INSIGHT</title>
+
 	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-117120155-1"></script>
 	<script type="text/javascript" charset="utf-8" src="https://map.yahooapis.jp/js/V1/jsapi?appid=dj0zaiZpPWFGR05lM2M4eUZNbCZzPWNvbnN1bWVyc2VjcmV0Jng9OWQ-"></script>
@@ -49,16 +55,16 @@
     		function yyy() {
 
     			ymap = new Y.Map("map", {
-    			configure : {
-        			doubleClickZoom : true,
-        			scrollWheelZoom : true,
-        			weatherOverlay: true
-    			}
-			});
+    				configure : {
+        				doubleClickZoom : true,
+        				scrollWheelZoom : true,
+        				weatherOverlay: true
+    				}
+				});
 	
     			//天気レイヤ作成
     			var weather = new Y.WeatherMapLayer({
-       				 "opacity": 0.6,
+    				 "opacity": 0.6,
    				 });
     
     			//天気レイヤを重ねる地図レイヤを作成
@@ -81,16 +87,15 @@
 	<body onload="ini()">
 
 		<div id="loader-bg">
-  			<div id="loader">
+			<div id="loader">
     			<p>Now Loading...</p>
-  			</div>
+			</div>
 		</div>
 
 		<div id="wrap">
 
 		<!-- Wrapper -->
 			<div id="wrapper">
-
 
 				<!-- Header -->
 					<header id="header">
@@ -113,7 +118,6 @@
 								</ul>
 						</nav>
 						
-
 					</header>
 
 				<!-- Main -->
@@ -143,222 +147,232 @@
 
 							<!-- manabu -->
 							<article id="manabu">
-							<h2 class="major">学習ツール</h2>
+								<h2 class="major">学習ツール</h2>
 							
-							<p>防災について学ぶ学習ツールを用意しました。</p>
+									<p>防災について学ぶ学習ツールを用意しました。</p>
 							
-							<center><h2 class="kmt">事前準備</h2>
-								<ul class="actions">
-										<li><a href="#type" class="button">災害の種類</a></li>
-										<li><a href="#where" class="button">どこにいる？</a></li>
-										<li><a href="#need" class="button">何が必要？</a></li>
-								</ul>
-							<br>
-							<center><h2 class="kmt">避難時</h2>
-								<ul class="actions">
-										<li><a href="#type" class="button">避難マップ</a></li>
-										<li><a href="#mochidashi" class="button">持ち出しリスト</a></li>
-										<li><a href="#iamhere" class="button">安否確認</a></li>
-								</ul>
-							<br>
-							<center><h2 class="kmt">復旧時</h2>
-								<ul class="actions">
-										<li><a href="#lisai" class="button">罹災証明書</a></li>
-										<li><a href="#fukkyu" class="button">復旧作業</a></li>
-								</ul>
-							<br>
-							<center><h2 class="kmt">その他の防災</h2>
-								<ul class="actions">
-										<li><a href="#guide" class="button">防災ガイド</a></li>
-										<li><a href="#tokei" class="button">統計からみる防災</a></li>
-										<li><a href="#bsword" class="button">防災用語</a></li>
-								</ul>
-							</center>
-							
+										<h2 class="kmt">事前準備</h2>
+											<ul class="actions">
+												<li><a href="#type" class="button">災害の種類</a></li>
+												<li><a href="#where" class="button">どこにいる？</a></li>
+												<li><a href="#need" class="button">何が必要？</a></li>
+											</ul>
+									<br>
+										<h2 class="kmt">避難時</h2>
+											<ul class="actions">
+												<li><a href="#type" class="button">避難マップ</a></li>
+												<li><a href="#mochidashi" class="button">持ち出しリスト</a></li>
+												<li><a href="#iamhere" class="button">安否確認</a></li>
+											</ul>
+									<br>
+										<h2 class="kmt">復旧時</h2>
+											<ul class="actions">
+												<li><a href="#lisai" class="button">罹災証明書</a></li>
+												<li><a href="#fukkyu" class="button">復旧作業</a></li>
+											</ul>
+									<br>
+										<h2 class="kmt">その他の防災</h2>
+											<ul class="actions">
+												<li><a href="#guide" class="button">防災ガイド</a></li>
+												<li><a href="#tokei" class="button">統計からみる防災</a></li>
+												<li><a href="#bsword" class="button">防災用語</a></li>
+											</ul>
+
 							</article>
 							<!-- manabu -->
 
 							<!-- 持ち出しリスト -->
 							<article id="mochidashi">
 								<a href="#manabu" class="link">×</a>
-								<h2 class="major">非常時持ち出し品リスト</h2>
-								避難時に持ち出す必要があるものをリストにしました。避難時に必要なものを確認しましょう。<br><br>
+								<h2 class="major">非常時持ち出しリスト</h2>
+									避難時に持ち出す必要があるものをリストにしました。避難時に必要なものを確認しましょう。<br><br>
 								
-								<h2 class = "mochi">貴重品</h2>
-								<p>10円玉は公衆電話用に必要</p>
-								<div class="field half first">
-								<input type="checkbox" id="demo-copy1" name="demo-copy1">
-								<label for="demo-copy1">現金　１０円玉</label>
-								</div>
-								<div class="field half">
-								<input type="checkbox" id="demo-human1" name="demo-human1">
-								<label for="demo-human1">通帳</label>
-								</div>
-								
-								<div class="field half first">
-								<input type="checkbox" id="demo-copy2" name="demo-copy2">
-								<label for="demo-copy2">印鑑</label>
-								</div>
-								<div class="field half">
-								<input type="checkbox" id="demo-human2" name="demo-human2">
-								<label for="demo-human2">保険証</label>
-								</div>
-								
-								<div class="field half first">
-								<input type="checkbox" id="demo-copy3" name="demo-copy3">
-								<label for="demo-copy3">免許証</label>
-								</div>
-								<div class="field half">
-								<input type="checkbox" id="demo-human3" name="demo-human3">
-								<label for="demo-human3">マイナンバーカード</label>
-								</div></p>
-								
-								<h2 class = "mochi">避難用具</h2>
-								<p>懐中電灯は1人1つ用意しよう。</p>
-								<div class="field half first">
-								<input type="checkbox" id="demo-copy4" name="demo-copy4">
-								<label for="demo-copy4">懐中電灯</label>
-								</div>
-								<div class="field half">
-								<input type="checkbox" id="demo-human4" name="demo-human4">
-								<label for="demo-human4">携帯ラジオ</label>
-								</div>
-								
-								<div class="field half first">
-								<input type="checkbox" id="demo-copy5" name="demo-copy5">
-								<label for="demo-copy5">乾電池</label>
-								</div>
-								<div class="field half">
-								<input type="checkbox" id="demo-human5" name="demo-human5">
-								<label for="demo-human5">ヘルメット</label>
-								</div>
-								<div class="field half first">
-								<input type="checkbox" id="demo-copy6" name="demo-copy6">
-								<label for="demo-copy6">ロープ</label>
-								</div></p>
-								
-								<h2 class = "mochi">生活用品</h2>
-								<p>避難所生活に最低限必要。家族構成（赤ちゃんや高齢者の方々）を考えて用意しよう。
-								<div class="field half first">
-								<input type="checkbox" id="demo-copy7" name="demo-copy7">
-								<label for="demo-copy7">スマートフォン、携帯電話</label>
-								</div>
-								<div class="field half">
-								<input type="checkbox" id="demo-human7" name="demo-human7">
-								<label for="demo-human7">眼鏡・コンタクト</label>
-								</div>
-								
-								<div class="field half first">
-								<input type="checkbox" id="demo-copy8" name="demo-copy8">
-								<label for="demo-copy8">厚手の手袋</label>
-								</div>
-								<div class="field half">
-								<input type="checkbox" id="demo-human8" name="demo-human8">
-								<label for="demo-human8">毛布</label>
-								</div>
-								<div class="field half first">
-								<input type="checkbox" id="demo-copy9" name="demo-copy9">
-								<label for="demo-copy9">缶切り</label>
-								</div>
-								<div class="field half">
-								<input type="checkbox" id="demo-copy10" name="demo-copy10">
-								<label for="demo-copy10">ライター・マッチ</label>
-								</div>
-								<div class="field half">
-								<input type="checkbox" id="demo-human10" name="demo-human10">
-								<label for="demo-human10">ナイフ</label>
-								</div>
-								
-								<div class="field half first">
-								<input type="checkbox" id="demo-copy11" name="demo-copy11">
-								<label for="demo-copy11">携帯用トイレ</label>
-								</div>
-								<div class="field half">
-								<input type="checkbox" id="demo-human11" name="demo-human11">
-								<label for="demo-human11">歯ブラシ・コップ</label>
-								</div></p>
-								
-								
-								<h2 class = "mochi">救急用具</h2>
-								<p>
-								<div class="field half first">
-								<input type="checkbox" id="demo-copy12" name="demo-copy12">
-								<label for="demo-copy12">救急箱（絆創膏、消毒液</label>
-								</div>
-								<div class="field half">
-								<input type="checkbox" id="demo-human12" name="demo-human12">
-								<label for="demo-human12">処方箋の控え</label>
-								</div>
-								
-								<div class="field half first">
-								<input type="checkbox" id="demo-copy13" name="demo-copy13">
-								<label for="demo-copy13">胃腸薬・便秘薬・持病の薬</label>
-								</div>
-								<div class="field half">
-								<input type="checkbox" id="demo-human13" name="demo-human13">
-								<label for="demo-human13">お薬手帳</label>
-								</div>
-								<div class="field half first">
-								<input type="checkbox" id="demo-copy14" name="demo-copy14">
-								<label for="demo-copy14">整理用品</label>
-								</div></p>
-								
-								<h2 class = "mochi">非常食品</h2>
-								<p>最低3日分は容易しよう。そのままで食べられるものが便利。
-								
-								<div class="field half first">
-								<input type="checkbox" id="demo-copy15" name="demo-copy15">
-								<label for="demo-copy15">乾パン</label>
-								</div>
-								<div class="field half">
-								<input type="checkbox" id="demo-human15" name="demo-human15">
-								<label for="demo-human15">缶詰</label>
-								</div>
-								
-								<div class="field half first">
-								<input type="checkbox" id="demo-copy16" name="demo-copy16">
-								<label for="demo-copy16">栄養補助食品</label>
-								</div>
-								<div class="field half">
-								<input type="checkbox" id="demo-human16" name="demo-human16">
-								<label for="demo-human16">飴・チョコレート</label>
-								</div>
-								<div class="field half first">
-								<input type="checkbox" id="demo-copy17" name="demo-copy17">
-								<label for="demo-copy17">飲料水</label>
-								</div></p>
-								
-								<h2 class = "mochi">衣料品</h2>
-								<p>
-								<div class="field half first">
-								<input type="checkbox" id="demo-copy18" name="demo-copy18">
-								<label for="demo-copy18">下着・靴下</label>
-								</div>
-								<div class="field half">
-								<input type="checkbox" id="demo-human18" name="demo-human18">
-								<label for="demo-human18">長袖・長ズボン</label>
-								</div>
-								
-								<div class="field half first">
-								<input type="checkbox" id="demo-copy19" name="demo-copy19">
-								<label for="demo-copy19">防寒用ジャケット・雨具</label>
-								</div>
-								<div class="field half">
-								<input type="checkbox" id="demo-human19" name="demo-human19">
-								<label for="demo-human19">傘</label>
-								</div>
-								<div class="field half first">
-								<input type="checkbox" id="demo-copy20" name="demo-copy20">
-								<label for="demo-copy20">靴（動きやすいもの）</label>
-								</div></p>
-								
-								<h2 class = "mochi">その他</h2>
-								<p>
-								<div class="field half first">
-								<input type="checkbox" id="demo-copy21" name="demo-copy21">
-								<label for="demo-copy21">携帯用カイロ</label>
-								</div></p>
-								
+									<h2 class = "mochi">貴重品</h2>
+										<p>10円玉は公衆電話用に必要
+										<div id="kokub">
+										<div class="field half first"><br>
+										<input type="checkbox" id="demo-copy1" name="demo-copy1">
+										<label for="demo-copy1">現金　１０円玉</label>
+										</div>
+										<div class="field half">
+										<input type="checkbox" id="demo-human1" name="demo-human1">
+										<label for="demo-human1">通帳</label>
+										</div>
+
+										<div class="field half first">
+										<input type="checkbox" id="demo-copy2" name="demo-copy2">
+										<label for="demo-copy2">印鑑</label>
+										</div>
+										<div class="field half">
+										<input type="checkbox" id="demo-human2" name="demo-human2">
+										<label for="demo-human2">保険証</label>
+										</div>
+
+										<div class="field half first">
+										<input type="checkbox" id="demo-copy3" name="demo-copy3">
+										<label for="demo-copy3">免許証</label>
+										</div>
+										
+										<input type="checkbox" id="demo-human3" name="demo-human3">
+										<label for="demo-human3">マイナンバーカード</label></p>
+										</div>
+
+									<h2 class = "mochi">避難用具</h2>
+										<p>懐中電灯は1人1つ用意しよう。
+										<div id="kokub">
+										<div class="field half first"><br>
+										<input type="checkbox" id="demo-copy4" name="demo-copy4">
+										<label for="demo-copy4">懐中電灯</label>
+										</div>
+										<div class="field half">
+										<input type="checkbox" id="demo-human4" name="demo-human4">
+										<label for="demo-human4">携帯ラジオ</label>
+										</div>
+
+										<div class="field half first">
+										<input type="checkbox" id="demo-copy5" name="demo-copy5">
+										<label for="demo-copy5">乾電池</label>
+										</div>
+										<div class="field half">
+										<input type="checkbox" id="demo-human5" name="demo-human5">
+										<label for="demo-human5">ヘルメット</label>
+										</div>
+										<div class="field half first">
+										<input type="checkbox" id="demo-copy6" name="demo-copy6">
+										<label for="demo-copy6">ロープ</label>
+										</div></p>
+										</div>
+
+									<h2 class = "mochi">生活用品</h2>
+										<p>避難所生活に最低限必要。家族構成（赤ちゃんや高齢者の方々）を考えて用意しよう。
+										<div id="kokub">
+										<div class="field half first"><br>
+										<input type="checkbox" id="demo-copy7" name="demo-copy7">
+										<label for="demo-copy7">スマートフォン、携帯電話</label>
+										</div>
+										<div class="field half">
+										<input type="checkbox" id="demo-human7" name="demo-human7">
+										<label for="demo-human7">眼鏡・コンタクト</label>
+										</div>
+
+										<div class="field half first">
+										<input type="checkbox" id="demo-copy8" name="demo-copy8">
+										<label for="demo-copy8">厚手の手袋</label>
+										</div>
+										<div class="field half">
+										<input type="checkbox" id="demo-human8" name="demo-human8">
+										<label for="demo-human8">毛布</label>
+										</div>
+										<div class="field half first">
+										<input type="checkbox" id="demo-copy9" name="demo-copy9">
+										<label for="demo-copy9">缶切り</label>
+										</div>
+										<div class="field half">
+										<input type="checkbox" id="demo-copy10" name="demo-copy10">
+										<label for="demo-copy10">ライター・マッチ</label>
+										</div>
+										<div class="field half">
+										<input type="checkbox" id="demo-human10" name="demo-human10">
+										<label for="demo-human10">ナイフ</label>
+										</div>
+
+										<div class="field half first">
+										<input type="checkbox" id="demo-copy11" name="demo-copy11">
+										<label for="demo-copy11">携帯用トイレ</label>
+										</div>
+										<div class="field half">
+										<input type="checkbox" id="demo-human11" name="demo-human11">
+										<label for="demo-human11">歯ブラシ・コップ</label>
+										</div></p>
+										</div>
+
+									<h2 class = "mochi">救急用具</h2>
+										<p>持病をお持ちの人は薬は必ず持っていこう。
+										<div id="kokub">
+										<div class="field half first"><br>
+										<input type="checkbox" id="demo-copy12" name="demo-copy12">
+										<label for="demo-copy12">救急箱（絆創膏、消毒液</label>
+										</div>
+										<div class="field half">
+										<input type="checkbox" id="demo-human12" name="demo-human12">
+										<label for="demo-human12">処方箋の控え</label>
+										</div>
+
+										<div class="field half first">
+										<input type="checkbox" id="demo-copy13" name="demo-copy13">
+										<label for="demo-copy13">胃腸薬・便秘薬・持病の薬</label>
+										</div>
+										<div class="field half">
+										<input type="checkbox" id="demo-human13" name="demo-human13">
+										<label for="demo-human13">お薬手帳</label>
+										</div>
+										<div class="field half first">
+										<input type="checkbox" id="demo-copy14" name="demo-copy14">
+										<label for="demo-copy14">整理用品</label>
+										</div></p>
+										</div>
+
+									<h2 class = "mochi">非常食品</h2>
+										<p>最低3日分は容易しよう。そのままで食べられるものが便利。
+										<div id="kokub">
+										<div class="field half first"><br>
+										<input type="checkbox" id="demo-copy15" name="demo-copy15">
+										<label for="demo-copy15">乾パン</label>
+										</div>
+										<div class="field half">
+										<input type="checkbox" id="demo-human15" name="demo-human15">
+										<label for="demo-human15">缶詰</label>
+										</div>
+
+										<div class="field half first">
+										<input type="checkbox" id="demo-copy16" name="demo-copy16">
+										<label for="demo-copy16">栄養補助食品</label>
+										</div>
+										<div class="field half">
+										<input type="checkbox" id="demo-human16" name="demo-human16">
+										<label for="demo-human16">飴・チョコレート</label>
+										</div>
+										<div class="field half first">
+										<input type="checkbox" id="demo-copy17" name="demo-copy17">
+										<label for="demo-copy17">飲料水</label>
+										</div></p>
+										</div>
+
+									<h2 class = "mochi">衣料品</h2>
+										<p>避難が長引くと衣料品もある程度必要になります。
+										<div id="kokub">
+										<div class="field half first"><br>
+										<input type="checkbox" id="demo-copy18" name="demo-copy18">
+										<label for="demo-copy18">下着・靴下</label>
+										</div>
+										<div class="field half">
+										<input type="checkbox" id="demo-human18" name="demo-human18">
+										<label for="demo-human18">長袖・長ズボン</label>
+										</div>
+
+										<div class="field half first">
+										<input type="checkbox" id="demo-copy19" name="demo-copy19">
+										<label for="demo-copy19">防寒用ジャケット・雨具</label>
+										</div>
+										<div class="field half">
+										<input type="checkbox" id="demo-human19" name="demo-human19">
+										<label for="demo-human19">傘</label>
+										</div>
+										<div class="field half first">
+										<input type="checkbox" id="demo-copy20" name="demo-copy20">
+										<label for="demo-copy20">靴（動きやすいもの）</label>
+										</div></p>
+										</div>
+
+									<h2 class = "mochi">その他</h2>
+										<p>季節に応じて持ち物を揃えよう。
+										<div id="kokub">
+										<div class="field half first"><br>
+										<input type="checkbox" id="demo-copy21" name="demo-copy21">
+										<label for="demo-copy21">携帯用カイロ</label>
+										</div></p>
+										</div>
+
 								<hr />
 								<i class="fa fa-book" aria-hidden="true"></i> 以下の資料をもとに仁志が加工・編集して作成しました。<br>
 								・<a href="http://www.fdma.go.jp/syobodan/bousai/" target="_blank">わたしの防災サバイバル手帳</a>、消防庁<br>
@@ -384,12 +398,12 @@
 								<br>
 								
 								<div id="eq">
-								<h2>地　震</h2>
+								<h2 class="ti">地　震</h2>
 								<p>
 								<img src ="images/eq1.jpg" width="100%">
 								<br>（写真提供：神戸市）</p>
 								
-								<h3>メカニズム</h3>
+								<h3 class="point">メカニズム</h3>
 								<p>
 								<img src ="images/nairikukaikou.jpg" width="100%">
 								<br>（写真提供：国土地理院ウェブサイト）</p>
@@ -402,7 +416,7 @@
 								内陸にある活断層とよばれる地面の裂け目が動いて起こる。
 								</blockquote>
 								
-								<h3>震度とマグニチュード</h3>
+								<h3 class="point">震度とマグニチュード</h3>
 								<blockquote>
 								・震度<br>
 								その場所での地震の揺れを表す。日本で使われる言い方で、10階級に分かれる。<br><br>
@@ -410,12 +424,12 @@
 								震源での地震エネルギーの規模を表す。マグニチュードが１増えるとエネルギーは32倍になる。
 								</blockquote>
 								
-								<h3>余震</h3>
+								<h3 class="point">余震</h3>
 								<blockquote>
 								大地震が発生した後は、余震が続くことが多い。余震とはいえ、強い揺れが起こる恐れがあるので、注意が必要である。
 								</blockquote>
 
-								<h3>液状化現象</h3>
+								<h3 class="point">液状化現象</h3>
 								<img src ="images/ekijouka.jpg" width="100%">
 								<br>（写真提供「災害写真データベース」、東日本大震災、浦安市高洲地区マンホール被害）
 								<br>
@@ -423,12 +437,12 @@
 								大地震が発生した場合、水分を含んだ地盤が崩れ、液状化する液状化現象が起こる場合がある。
 								</blockquote>
 
-								<h3>気象庁震度階級関連解説表</h3>
+								<h3 class="point">気象庁震度階級関連解説表</h3>
 								<p>
 								<img src ="images/ek.jpg" width="100%">
 								<br>（出典「防災マニュアル」消防庁、気象庁HP）</p>
 								
-								<h3><i class="fa fa-graduation-cap" aria-hidden="true"></i>地震防災INSIGHT</h3>
+								<h3 class="cap">地震防災INSIGHT</h3>
 								家にいる時
 								<blockquote>
 								<img src ="images/school.jpg" width="100%"><br>
@@ -465,7 +479,7 @@
 								</div><!-- eq -->
 								
 								<div id="tn">
-								<h2>津　波</h2>
+								<h2 class="ti">津　波</h2>
 								<p>
 								<img src ="images/tn1.jpg" width="100%">
 								<br>（写真提供「災害写真データベース」、東日本大震災、津波で破壊された防波堤）</p>
@@ -473,12 +487,12 @@
 								<iframe width="555" height="350" src="https://www.youtube.com/embed/0D_Atk3j2n4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen id="yout"></iframe>
 								<br>（出典「チェレンジ！防災48」、チリ地震による気仙沼津波）<br><br>
 
-								<h3>メカニズム</h3>
+								<h3 class="point">メカニズム</h3>
 								<blockquote>
 								津波は、多くが海底でプレート型地震が起きた時に海底が持ち上がったり、沈み込んだりすることで起こる。
 								</blockquote>
 								
-								<h3>特　徴</h3>
+								<h3 class="point">特　徴</h3>
 								<blockquote>
 								・スピードの速さ<br>
 								津波警報等が発表される前にやってくることがある。<br><br>
@@ -488,7 +502,7 @@
 								
 								<p>避難する場合は、とにかくすぐに高い所に逃げることが大切です。</p>
 								
-								<h3><i class="fa fa-graduation-cap" aria-hidden="true"></i>津波防災INSIGHT</h3>
+								<h3 class="cap">津波防災INSIGHT</h3>
 								<blockquote>・小さい震度でも発生することがある！<br><br>
 								・何度もやってくる！<br>
 								警報や避難勧告・指示が解除されるまで戻ってはいけない。<br><br>
@@ -498,30 +512,30 @@
 								</div><!-- tn -->
 								
 								<div id="th">
-								<h2>台　風</h2>
+								<h2 class="ti">台　風</h2>
 								<img src="images/th.png" width="100%"><br>
 								（写真提供：気象庁ウェブサイト）<br><br>
-								<h3>定　義</h3>
+								<h3 class="point">定　義</h3>
 								<blockquote>
 								熱帯の海上で発生する低気圧を「熱帯低気圧」と呼ぶが、このうち北西太平洋（赤道より北で東経180度より西の領域）または南シナ海に存在し、なおかつ低気圧域内の最大風速（10分間平均）がおよそ17m/s（34ノット、風力８）以上のものを「台風」と呼ぶ。（気象庁HPより抜粋）
 								</blockquote>
 
-								<h2>洪　水</h2>
+								<h2 class="ti">洪　水</h2>
 								<img src="images/kz.jpg" width="100%"><br><br>
-								<h3>メカニズム</h3>
+								<h3 class="point">メカニズム</h3>
 								<blockquote>
 								台風・集中豪雨等により河川が増水し、堤防を越えた水が沿岸に被害を与える。
 								</blockquote>
 								
-								<h2>土砂災害</h2>
+								<h2 class="ti">土砂災害</h2>
 								<img src="images/ds.jpg"  width="100%"><br>
 								（写真提供：気象庁ウェブサイト）<br><br>
-								<h3>メカニズム</h3>
+								<h3 class="point">メカニズム</h3>
 								<blockquote>
 								大雨によって地盤が軟らかくなり、がけ崩れや地すべり、土石流をともなう。
 								</blockquote>
 								
-								<h3>前触れ</h3>
+								<h3 class="point">前触れ</h3>
 								<blockquote>
 								・がけ崩れ<br>
 								<img src="images/syamen.jpg"  width="100%"><br>
@@ -541,25 +555,25 @@
 								川の流れが濁ったり流木がまざり始める。								
 								</blockquote>								
 								
-								<h2>高　潮</h2>
+								<h2 class="ti">高　潮</h2>
 								<img src="images/ts.jpg" width="100%"><br>
 								（1953年、北海南岸での高潮、オランダ南部ゼーラント州、Wikipedia：パブリック・ドメイン）<br><br>
-								<h3>メカニズム</h3>
+								<h3 class="point">メカニズム</h3>
 								<blockquote>
 								台風や低気圧の接近により、海面が上昇し、大波が沿岸部に押し寄せる。
 								</blockquote>
 								
-								<h2>竜　巻</h2>
+								<h2 class="ti">竜　巻</h2>
 								<img src="images/tm.jpg"  width="100%"><br>
 								（写真提供「災害写真データベース」、北海道佐呂間町の竜巻による災害（2006年））<br><br>
 							
 								
-								<h3>現　象</h3>
+								<h3 class="point">現　象</h3>
 								<blockquote>
 								発達した積乱雲によって作られる大気中の激しいうずまきのこと。
 								</blockquote>
 								
-								<h3>特　徴</h3>
+								<h3 class="point">特　徴</h3>
 								<blockquote>
 								・速さと威力<br>
 								秒速100ｍを超える猛烈な風で、周りのあらゆるものを吹き飛ばす。<br><br>
@@ -569,7 +583,7 @@
 								夜間よりも日中の方が多い。
 								</blockquote>
 								
-								<h3>発生したら…</h3>
+								<h3 class="point">発生したら…</h3>
 								<blockquote>
 								・屋内<br>
 								窓ガラスが割れる危険があるので、窓から離れる。<br><br>
@@ -580,7 +594,7 @@
 								車も飛ばされる危険があるので、車内でも頭を抱えてうずくまる。
 								</blockquote>
 								
-								<h3><i class="fa fa-graduation-cap" aria-hidden="true"></i>風水害防災INSIGHT</h3>
+								<h3 class="cap">風水害防災INSIGHT</h3>
 								風水害は地震などの予想が難しい災害とは異なり、事前に情報収集ができていれば、余裕を持って行動できる。<br><br>
 								<blockquote>
 								・まずは天気予報の確認から！<br>
@@ -594,14 +608,14 @@
 								</div><!-- th -->
 								
 								<div id="ds">
-								<h2>火山災害</h2>
+								<h2 class="ti">火山災害</h2>
 								<img src="images/kazan.jpg"  width="100%"><br><br>
 								
 								<iframe width="555" height="350" src="https://www.youtube.com/embed/5S2qR9Lekpw?ecver=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen id = "yout"></iframe>
 								<br>（出典「チャレンジ！防災48」、桜島噴火の瞬間）
 								<br><br>
 								
-								<h3>種　類</h3>
+								<h3 class="point">種　類</h3>
 								<blockquote>
 								・火砕流、火山灰や噴石<br>
 								火砕流は高温の火山ガス・溶岩片・火山灰などが一団となって、斜面を流れ下る現象のことをいう。<br><br>
@@ -627,7 +641,7 @@
 								
 								<p>日本は「環太平洋造山帯」という火山ベルトに位置しており、活火山（噴火活動が盛んな火山のこと。）は110を数えます。</p>
 
-								<h3><i class="fa fa-graduation-cap" aria-hidden="true"></i>火山災害防災INSIGHT</h3>
+								<h3 class="cap">火山災害防災INSIGHT</h3>
 								<blockquote>
 								山に出かける時は火山情報をチェックする。<br><br>
 								噴石からは岩陰や丈夫な建物に避難する。<br><br>
@@ -635,7 +649,7 @@
 								火山ガス（有毒性）にも注意する。
 								</blockquote>
 
-								<h2>雪　崩</h2>
+								<h2 class="ti">雪　崩</h2>
 								<img src="images/snow.jpg" width="100%"><br>
 								（雪崩の瞬間、Wikipedia：パブリック・ドメイン）<br><br>
 								
@@ -643,19 +657,19 @@
 								<br>（出典「チャレンジ！防災48」、雪崩発生の瞬間）
 								<br><br>
 								
-								<h3>現　象</h3>
+								<h3 class="point">現　象</h3>
 								<blockquote>
 								山に積もった雪が崩れ落ちる。
 								</blockquote>
 								
 								<p>雪崩被害の多くは「表層雪崩」によるものです。</p>
-								<h3>表層雪崩</h3>
+								<h3 class="point">表層雪崩</h3>
 								<blockquote>
 								気温の低い状況で、積雪面の上に数10cm以上の大雪が降った場合に、新積雪層が滑り落ちる。<br><br>
 								降雪中・降雪後・昼夜関係なく、大規模に動き出す。
 								</blockquote>
 
-								<h3><i class="fa fa-graduation-cap" aria-hidden="true"></i>雪崩防災INSIGHT</h3>
+								<h3 class="cap">雪崩防災INSIGHT</h3>
 								<blockquote>								
 								・立ち入り禁止場所には入らない。<br><br>
 								・春先は雪崩がおきやすい季節なので、注意する！<br><br>
@@ -665,14 +679,14 @@
 								・大声を出して、仲間に知らせる。
 								</blockquote>
 
-								<h2>落　雷</h2>
+								<h2 class="ti">落　雷</h2>
 								<img src="images/sander.jpg" width="100%"><br><br>
-								<h3>現　象</h3>
+								<h3 class="point">現　象</h3>
 								<blockquote>
 								雷は雷雲の位置しだいで、平野、海面、山岳など、ところかまわず落ちる。
 								</blockquote>
 								
-								<h3><i class="fa fa-graduation-cap" aria-hidden="true"></i>落雷防災INSIGHT</h3>
+								<h3 class="cap">落雷防災INSIGHT</h3>
 								外にいる時
 								<blockquote>
 								・高い木下は危険！<br>
@@ -785,7 +799,7 @@
 
 								<article id="day_s" onload="start2();">
 								<a href="#where" class="link">×</a>
-								<h2>日常生活中</h2>
+								<h2 class="ti">日常生活中</h2>
 								<img src="images/table.jpg" width="100%"><br>
 								<div id="myContent2"></div>
 								<div id="contentToWrite2" style="display:none">
@@ -809,7 +823,7 @@
 
 								<article id="kit_s">
 								<a href="#where" class="link">×</a>
-								<h2>台所</h2>
+								<h2 class="ti">台所</h2>
 								<img src="images/kit.jpg" width="100%" height="auto"><br>
 								<div id="myContent4"></div>
 								<div id="contentToWrite4" style="display:none">
@@ -832,7 +846,7 @@
 								</article>
 
 								<article id="toil_s"><a href="#where" class="link">×</a>
-								<h2>お風呂・トイレ</h2>
+								<h2 class="ti">お風呂・トイレ</h2>
 								<img src="images/bath.jpg" width="100%"><br>
 								<div id="myContent6"></div>
 								<div id="contentToWrite6" style="display:none">
@@ -855,7 +869,7 @@
 								</article>
 
 								<article id="bed_s"><a href="#where" class="link">×</a>
-								<h2>寝ている時</h2>
+								<h2 class="ti">寝ている時</h2>
 								<img src="images/bed.jpg" width="100%"><br>
 								<div id="myContent8"></div>
 								<div id="contentToWrite8" style="display:none">
@@ -877,7 +891,7 @@
 								</article>
 
 								<article id="man_s"><a href="#where" class="link">×</a>
-								<h2>マンション</h2>
+								<h2 class="ti">マンション</h2>
 								<img src="images/mans.jpg" width="100%"><br>
 								<div id="myContent10"></div>
 								<div id="contentToWrite10" style="display:none">
@@ -899,7 +913,7 @@
 								</article>
 
 								<article id="offi_s"><a href="#where" class="link">×</a>
-								<h2>職場・オフィス</h2>
+								<h2 class="ti">職場・オフィス</h2>
 								<img src="images/office.jpg" width="100%"><br>
 								<div id="myContent12"></div>
 								<div id="contentToWrite12" style="display:none">
@@ -922,7 +936,7 @@
 								</article>
 
 								<article id="sup_s"><a href="#where" class="link">×</a>
-								<h2>スーパー・デパート</h2>
+								<h2 class="ti">スーパー・デパート</h2>
 								<img src="images/depart.jpg" width="100%"><br>
 								<div id="myContent14"></div>
 								<div id="contentToWrite14" style="display:none">
@@ -944,7 +958,7 @@
 								</article>
 
 								<article id="eiga_s"><a href="#where" class="link">×</a>
-								<h2>映画館・劇場</h2>
+								<h2 class="ti">映画館・劇場</h2>
 								<img src="images/eiga.jpg" width="100%"><br>
 								<div id="myContent16"></div>
 								<div id="contentToWrite16" style="display:none">
@@ -967,7 +981,7 @@
 								</article>
 
 								<article id="tika_s"><a href="#where" class="link">×</a>
-								<h2>地下街</h2>
+								<h2 class="ti">地下街</h2>
 								<img src="images/tika.jpg" width="100%"><br>
 								<div id="myContent18"></div>
 								<div id="contentToWrite18" style="display:none">
@@ -989,7 +1003,7 @@
 								</article>
 
 								<article id="gakko_s"><a href="#where" class="link">×</a>
-								<h2>学校</h2>
+								<h2 class="ti">学校</h2>
 								<img src="images/school.jpg" width="100%"><br>
 								<div id="myContent20"></div>
 								<div id="contentToWrite20" style="display:none">
@@ -1013,7 +1027,7 @@
 								</article>
 
 								<article id="ele_s"><a href="#where" class="link">×</a>
-								<h2>エレベーター</h2>
+								<h2 class="ti">エレベーター</h2>
 								<img src="images/ele.jpg" width="100%"><br>
 								<div id="myContent22"></div>
 								<div id="contentToWrite22" style="display:none">
@@ -1035,7 +1049,7 @@
 								</article>
 
 								<article id="jt_s"><a href="#where" class="link">×</a>
-								<h2>住宅地</h2>
+								<h2 class="ti">住宅地</h2>
 								<img src="images/jut.jpg" width="100%"><br>
 								<div id="myContent24"></div>
 								<div id="contentToWrite24" style="display:none">
@@ -1059,7 +1073,7 @@
 								</article>
 
 								<article id="ot_s"><a href="#where" class="link">×</a>
-								<h2>オフィス街・中華街</h2>
+								<h2 class="ti">オフィス街・中華街</h2>
 								<img src="images/tokai.jpg" width="100%"><br>
 								<div id="myContent26"></div>
 								<div id="contentToWrite26" style="display:none">
@@ -1084,7 +1098,7 @@
 								</article>
 
 								<article id="sea_s"><a href="#where" class="link">×</a>
-								<h2>海岸</h2>
+								<h2 class="ti">海岸</h2>
 								<img src="images/sea.jpg" width="100%"><br>
 								<div id="myContent28"></div>
 								<div id="contentToWrite28" style="display:none">
@@ -1110,7 +1124,7 @@
 								</article>
 
 								<article id="riv_s"><a href="#where" class="link">×</a>
-								<h2>川べり</h2>
+								<h2 class="ti">川べり</h2>
 								<img src="images/river.jpg" width="100%"><br>
 								<div id="myContent30"></div>
 								<div id="contentToWrite30" style="display:none">
@@ -1133,7 +1147,7 @@
 								</article>
 
 								<article id="mount_s"><a href="#where" class="link">×</a>
-								<h2>山・丘陵地</h2>
+								<h2 class="ti">山・丘陵地</h2>
 								<img src="images/yama.jpg" width="100%"><br>
 								<div id="myContent32"></div>
 								<div id="contentToWrite32" style="display:none">
@@ -1156,7 +1170,7 @@
 								</article>
 
 								<article id="car_s"><a href="#where" class="link">×</a>
-								<h2>運転中</h2>
+								<h2 class="ti">運転中</h2>
 								<img src="images/car.jpg" width="100%"><br>
 								<div id="myContent34"></div>
 								<div id="contentToWrite34" style="display:none">
@@ -1187,7 +1201,7 @@
 								</article>
 
 								<article id="tetu_s"><a href="#where" class="link">×</a>
-								<h2>鉄道</h2>
+								<h2 class="ti">鉄道</h2>
 								<img src="images/tetu.jpg" width="100%"><br>
 								<div id="myContent36"></div>
 								<div id="contentToWrite36" style="display:none">
@@ -1211,7 +1225,7 @@
 								</article>
 
 								<article id="sink_s"><a href="#where" class="link">×</a>
-								<h2>新幹線</h2>
+								<h2 class="ti">新幹線</h2>
 								<img src="images/sink.jpg" width="100%"><br>
 								<div id="myContent38"></div>
 								<div id="contentToWrite38" style="display:none">
@@ -1235,7 +1249,7 @@
 								</article>
 
 								<article id="tikat_s"><a href="#where" class="link">×</a>
-								<h2>地下鉄</h2>
+								<h2 class="ti">地下鉄</h2>
 								<img src="images/tikat.jpg" width="100%"><br>
 								<div id="myContent40"></div>
 								<div id="contentToWrite40" style="display:none">
@@ -1260,7 +1274,7 @@
 								</article>
 
 								<article id="bus_s"><a href="#where" class="link">×</a>
-								<h2>バス</h2>
+								<h2 class="ti">バス</h2>
 								<img src="images/bus.jpg" width="100%"><br>
 								<div id="myContent42"></div>
 								<div id="contentToWrite42" style="display:none">
@@ -1283,7 +1297,7 @@
 								</article>
 
 								<article id="mi_s"><a href="#where" class="link">×</a>
-								<h2>身の安全の確保</h2>
+								<h2 class="ti">身の安全の確保</h2>
 								<img src="images/door.jpg" width="100%"><br><br>
 								<div id="theory21">
 								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> まずは、状況を確認し身の安全の確保を最優先する。慌てて行動すると思わぬ怪我をする恐れがあるので、冷静になることを心がける。<br><br>
@@ -1291,7 +1305,7 @@
 								</article>
 
 								<article id="hh_s"><a href="#where" class="link">×</a>
-								<h2>避難の判断</h2>
+								<h2 class="ti">避難の判断</h2>
 								<img src="images/info.jpg" width="100%"><br><br>
 								<div id="theory21">
 								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 震災後では、様々なデマや憶測が飛び交う。<br><br>
@@ -1301,7 +1315,7 @@
 								</article>
 
 								<article id="hk_s"><a href="#where" class="link">×</a>
-								<h2>避難の行動</h2>
+								<h2 class="ti">避難の行動</h2>
 								<img src="images/hik.jpg" width="100%"><br><br>
 								<div id="theory21">
 								家を出る時<br>
@@ -1318,7 +1332,7 @@
 								</article>
 
 								<article id="kk_s"><a href="#where" class="link">×</a>
-								<h2>帰宅困難者</h2>
+								<h2 class="ti">帰宅困難者</h2>
 								<img src="images/anpi.jpg" width="100%"><br><br>
 								<div id="theory21">
 								帰宅の判断<br>
@@ -1331,7 +1345,7 @@
 								</article>
 
 								<article id="ke_s"><a href="#where" class="link">×</a>
-								<h2>救出・援護</h2>
+								<h2 class="ti">救出・援護</h2>
 								<img src="images/help.jpg" width="100%"><br><br>
 								<div id="theory21">
 								初期消火<br>
@@ -1353,7 +1367,7 @@
 								
 								<hr />
 						
-								<h3>家具を固定しよう！</h3>
+								<h3 class="point">家具を固定しよう！</h3>
 								阪神・淡路大震災が起きた際、犠牲者の方々の約８割が家具による窒息死、圧死というデータがあります。（平成16年版「防災白書」）<br><br>
 
 								大地震が起きた時は、揺れが縦に揺れることが多く、重い家具でも飛んでくる恐れがあります。<br><br>
@@ -1369,7 +1383,7 @@
 
 								<hr>
 
-								<h3>本人確認カード</h3>
+								<h3 class="point">本人確認カード</h3>
 								避難時に本人確認をするためのカードです。PDFに印刷したり、スクリーンショットを撮りご自身のスマートフォンに保存しておき、避難時にご利用ください。<br><br>
 														
 								<ul class="actions">
@@ -1378,7 +1392,7 @@
 							
 								<hr>
 							
-								<h3>「災害用伝言ダイヤル171」</h3>
+								<h3 class="point">「災害用伝言ダイヤル171」</h3>
 								阪神・淡路大震災の時は、停電の影響等から約30万回線が不通になりました。また、全国から神戸方面に通常ピーク時の50倍程度の通話が集中し、電話がつながりにくくなりました。<br><br>
 							
 								「家族や友人にとにかく連絡をとりたい」そんなときのために、「災害用伝言ダイヤル171」の使い方を覚えておきましょう！<br><br>
@@ -1386,20 +1400,20 @@
 
 								<hr>
 	
-								<h3>今、ここにいるよ。</h3>
+								<h3 class="point">今、ここにいるよ。</h3>
 								「今、ここにいるよ。」は災害時に自分の居場所を家族や友人に知らせることができる安否確認サービスです。GPS機能が搭載されており、SNSと連携して使用することができます。<br><br>
 								<ul class="actions">
 									<li><a href="https://linkevery2s.github.io/iamherenow/index.html#6/37.777/137.587" target="_blank" class="button special"><i class="fa fa-globe" aria-hidden="true"></i> 今、ここにいるよ。</a></li>
 								</ul>
 
 								<hr>
-								<h3>消火器の使い方</h3>
+								<h3 class="point">消火器の使い方</h3>
 								災害とともに火災が起きる可能性があります。初期消火が必要な時に備えて、消火器の使い方を覚えておきましょう。<br><br>
 								<img src="images/syoukaki.png" width="100%">
 							
 								<hr>
 								
-								<h3>火のおこし方</h3>
+								<h3 class="point">火のおこし方</h3>
 								真冬に災害が起きた際や遭難した時など、火をおこす必要に迫られる時があります。火のおこし方を覚えておきましょう。<br><br>
 								<blockquote>
 								１．火をつける材料を見つける。（落ち葉や枯草など）<br><br>
@@ -1410,7 +1424,7 @@
 							
 								<hr>
 								
-								<h3>Wi-Fiの無料開放</h3>
+								<h3 class="point">Wi-Fiの無料開放</h3>
 								平成28年4月に発生した熊本地震では、Wi-Fiの無料開放というサービスが行われました。具体的には、通信事業者が避難所を中心に無料公衆無線LAN（Wi-Fi）アクセスポイントを設置し、携帯電話事業者が災害用統一SSID「00000JAPAN」の運用を初めて実施し九州全域で約55,000のアクセスポイントを確保しました。（出典「平成28年版　情報通信白書」）<br><br>
 								災害時には、携帯電話回線が混雑し、つながりにくくなるという障害が想定されるため、このようなサービスは非常に重要であると思います。
 							
@@ -1433,7 +1447,7 @@
 									ご自身の地域の避難場所について、調べてみましょう！<br><br>
 
 								<ul class="actions">
-<li><span class="button" target="_blank" onclick="em()"><i class="fa fa-globe" aria-hidden="true"></i> 現在地から探す</span></li>
+									<li><span class="button" target="_blank" onclick="em()"><i class="fa fa-globe" aria-hidden="true"></i> 現在地から探す</span></li>
 								</ul>
 
 <ul class="jp_map">
@@ -1562,7 +1576,7 @@
 <hr />
 
 
-<h2>天気予報</h2>
+<h2 class="ti">天気予報</h2>
 
 <ul class="jp_map">
       <li>
@@ -1665,7 +1679,7 @@
 
 			<hr />
 
-						<h2>警報・注意報</h2>
+						<h2 class="ti">警報・注意報</h2>
 						<br>
 								<ul class="actions">
 										<li><a href="http://www.jma.go.jp/jp/warn/" class="button">気象警報・注意報</a></li>
@@ -1680,7 +1694,7 @@
 			<hr />
 
 
-<h2>気象庁ＲＳＳ配信</h2>
+<h2 class="ti">気象庁ＲＳＳ配信</h2>
 
 気象庁のＲＳＳ配信です。
 <br><br>						
@@ -1694,11 +1708,7 @@ http://fukugan.com/
 https://tanganrss.com/rsstxt/regist.php?key=455fb0d89271046d1097acbcc177d949
 -->
 
-
-
 <br><br> 
-
-
 							</article>
 
 							<article id="soutei">
@@ -1724,7 +1734,7 @@ https://tanganrss.com/rsstxt/regist.php?key=455fb0d89271046d1097acbcc177d949
 
 					<hr />
 
-					<h2>土石流マップ</h2>
+					<h2 class="ti">土石流マップ</h2>
 					<div class="box2">
 					・急傾斜地の崩壊区域<br>
 					傾斜度が３０°以上ある土地が崩壊する自然現象<br>
@@ -1857,7 +1867,7 @@ https://tanganrss.com/rsstxt/regist.php?key=455fb0d89271046d1097acbcc177d949
 								防災に関する統計情報や各種資料をまとめました。<br><br>
 								違う角度から防災を考えてみましょう！
 								<hr>
-								<h3>自助・共助・公助</h3>
+								<h3 class="point">自助・共助・公助</h3>
 								<img src="images/kyojo.png" width="100%"><br>
 								・自助…自分の身は自分で守る<br><br>
 								・公助…行政機関が援助する<br><br>
@@ -1871,77 +1881,15 @@ https://tanganrss.com/rsstxt/regist.php?key=455fb0d89271046d1097acbcc177d949
 								東日本大震災では、市役所等が被災に会い、行政機関が麻痺してしまいました（公助の限界）。<br><br>
 								巨大地震では、行政機関そのものが麻痺し、機能しなくなることも想定されることから、								
 								地域住民同士で助け合うことがいかに大切だと思います。
+
 								<hr>
-								<h3>過去の大地震</h3>
-								<div class="table-wrapper">
-										<table class="alt">
-											<thead>
-												<tr>
-													<th></th>
-													<th>阪神・淡路大震災</th>
-													<th>東日本大震災</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>発生日時</td>
-													<td>平成7年1月17日 5時46分</td>
-													<td>平成23年3月11日 14時46分</td>
-												</tr>
-												<tr>
-													<td>マグニチュード</td>
-													<td>7.3</td>
-													<td>9.0</td>
-												</tr>
-												<tr>
-													<td>地震型</td>
-													<td>内陸型</td>
-													<td>海溝型</td>
-												</tr>
-												<tr>
-													<td>被災地</td>
-													<td>都市部中心</td>
-													<td>農林水産地域中心</td>
-												</tr>
-												<tr>
-													<td>震度6弱以上県数</td>
-													<td>1県（兵庫）</td>
-													<td>8県（宮城、福島、茨城、栃木、岩手、群馬、埼玉、千葉）</td>
-												</tr>
-												<tr>
-													<td>津波</td>
-													<td>数十ｃｍ（被害無し）</td>
-													<td>各地で大津波観測（相馬9.3ｍ以上、宮古8.5ｍ以上、大船渡8.0ｍ以上）</td>
-												</tr>
-												<tr>
-													<td>被害の特徴</td>
-													<td>建築物の倒壊</td>
-													<td>大津波による甚大な被害</td>
-												</tr>
-												<tr>
-													<td>死者・行方不明者</td>
-													<td>死者 6,437名、行方不明者 3名（平成18年5月19日）</td>
-													<td>死者 19,418名、行方不明者 2,592名（平成28年3月1日現在）</td>
-												</tr>
-												<tr>
-													<td>住家被害（全壊）</td>
-													<td>104,906</td>
-													<td>121,809</td>
-												</tr>
-											</tbody>
-										</table>
-										（出典「平成28年度防災白書」」）<br><br>
-										阪神・淡路大震災と東日本大震災の被害を表に示したものです。<br><br>
-										阪神・淡路大震災では、内陸型地震であり、『建物』による被害が甚大であること、対して、東日本大震災は海溝型地震であり、『津波』による被害が甚大であること及び被害が『広範囲』に及んでいることが分かります。
-									</div>
-								<hr>
-								<h3>高齢社会</h3>
+								<h3 class="point">高齢社会</h3>
 								<img src="images/korei.png" width="100%"><br>
 								東日本大震災では、亡くなられた方々のうち、60歳以上の高齢者は66.1％を占めています。（高齢社会白書_平成25年版）<br><br>
 								高齢社会となっている日本において、高齢者の方々の命をいかに守るかが重要になっています。<br><br>
 								
 								<hr>
-								<h3>南海トラフの巨大地震モデル</h3>
+								<h3 class="point">南海トラフの巨大地震モデル</h3>
 								
 								内閣府の「南海トラフの巨大地震モデル検討会」にて、議論されたマップデータです。<br><br>
 								
@@ -1976,7 +1924,7 @@ https://tanganrss.com/rsstxt/regist.php?key=455fb0d89271046d1097acbcc177d949
 								<li id="pc"><a href="javascript:void(0);" class="button" onclick="location.href = 'bousai/guide_pc.html'" class="button special"><i class="fa fa-paint-brush" aria-hidden="true"></i> 作成する</a></li>
 							</ul>
 
-							<h3>使い方</h3>
+							<h3 class="point">使い方</h3>
 							<blockquote>
 							・タイトルを考えましょう。<br><br>
 							・地図、気づいたこと・危険個所、非常時持ち出しリストはドラッグして動かすことができます。<br><br>
@@ -2105,8 +2053,8 @@ https://tanganrss.com/rsstxt/regist.php?key=455fb0d89271046d1097acbcc177d949
 				<!-- rss -->
 				<article id="rss">
 					<h2 class="major">実績</h2>
-					<a href="http://www.gsi.go.jp/bousaichiri/bousai-app-2017_00011.html" target="_blank">防災アプリ賞受賞</a><br>
-					
+					<p>
+					<a href="http://www.gsi.go.jp/bousaichiri/bousai-app-2017_00011.html" target="_blank">平成29年度　防災アプリ賞受賞</a>
 					
 					<h2 class="major">更新情報</h2>
 					2018.12.29 背景色変更、土石流マップ仕様変更<br><br>
@@ -2123,7 +2071,7 @@ https://tanganrss.com/rsstxt/regist.php?key=455fb0d89271046d1097acbcc177d949
 					2018.01.21 日本語表記変更、マップ全画面表示に変更<br><br>
 					2017.09.23 都道府県マップ搭載<br><br>
 					2017.07.17 雨雲レーダー搭載<br><br>
-					2017.06.17 アプリ公開
+					2017.06.17 アプリ公開</p>
 				</article>
 
 				<!-- shinsui -->
@@ -2159,7 +2107,7 @@ https://tanganrss.com/rsstxt/regist.php?key=455fb0d89271046d1097acbcc177d949
 </article>
 
 					</div><!-- main -->
-							
+
 				<!-- Footer -->
 					<footer id="footer">
 
@@ -2182,100 +2130,70 @@ https://tanganrss.com/rsstxt/regist.php?key=455fb0d89271046d1097acbcc177d949
 </div>
 
 			<!-- Scripts -->
-	<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-    		<script src="assets/js/top.js"></script>
-    		<script src="assets/js/dhtml.js"></script>
+			<script src="assets/js/top.js"></script>
+			<script src="assets/js/dhtml.js"></script>
 			<script src="assets/js/maplist.js"></script>
 
-<script>
-$(function() {
-  var h = $(window).height();
- 
-  $('#wrap').css('display','none');
-  $('#loader-bg ,#loader').height(h).css('display','block');
-});
- 
-$(window).load(function () { //全ての読み込みが完了したら実行
-  $('#loader-bg').delay(900).fadeOut(800);
-  $('#loader').delay(600).fadeOut(300);
-  $('#wrap').css('display', 'block');
-});
- 
-//10秒たったら強制的にロード画面を非表示
-$(function(){
-  setTimeout('stopload()',10000);
-});
- 
-function stopload(){
-  $('#wrap').css('display','block');
-  $('#loader-bg').delay(900).fadeOut(800);
-  $('#loader').delay(600).fadeOut(300);
-}
-</script>
+			<script>
+				$(function() {
+					var h = $(window).height();
+					$('#wrap').css('display','none');
+					$('#loader-bg ,#loader').height(h).css('display','block');
+				});
 
-<script type="text/javascript">
-   //読み込み最大記事数
-   var max_length = 5; 
-  $(function(){
-    $.getJSON("https://query.yahooapis.com/v1/public/yql?callback=?", {
-      q: "select * from rss where url='https://www.jma-net.go.jp/rss/jma.rss'",
-      format: "json"
-    }, function(json) {
-      for (var i = 0; i < json.query.results.item.length; i++) {
-        if(i == max_length) break;
-        var entry = json.query.results.item[i];
-        var title = entry.title;//記事タイトル
-        var link = entry.link; //記事へのリンク
-var date = entry.pubDate;
-var hi = new Date(date);
+				$(window).load(function () { //全ての読み込みが完了したら実行
+					$('#loader-bg').delay(900).fadeOut(800);
+					$('#loader').delay(600).fadeOut(300);
+					$('#wrap').css('display', 'block');
+				});
 
-var y = hi.getFullYear();
-			var m = hi.getMonth() + 1;
-			var d = hi.getDate();
-			m = ('0' + m).slice(-2);
-			d = ('0' + d).slice(-2);
+				//10秒たったら強制的にロード画面を非表示
+				$(function(){
+					setTimeout('stopload()',10000);
+				});
 
-        //タイトルを挿入
-        $('#feed').append("<li><a href='" + link  +"' target='_blank'>" + y + "年" + m + "月" + d + "日" + " " + title +"</a></li>"); 
-      }
-    });
-  });
-</script>
+				function stopload(){
+					$('#wrap').css('display','block');
+					$('#loader-bg').delay(900).fadeOut(800);
+					$('#loader').delay(600).fadeOut(300);
+				}
+			</script>
 
-<script type="text/javascript">
+			<script type="text/javascript">
 
-var ido, keido;
-function em() {
+			var ido, keido;
 
-	if (navigator.geolocation) {
-	   //geolocationの利用
-       navigator.geolocation.getCurrentPosition(gps_get,gps_error3);
-     } else {
-     	alert("GPSの取得に失敗したため、起動できません。")
-     }
+				function em() {
 
-}
-	
-function gps_error3(error) {
-   		//失敗したら…
-       alert("GPSの取得に失敗したため、起動できません。");
-}
- 
-function gps_get(position) {
+					if (navigator.geolocation) {
+						//geolocationの利用
+						navigator.geolocation.getCurrentPosition(gps_get,gps_error3);
+					} else {
+						alert("GPSの取得に失敗したため、起動できません。")
+					}
 
-    //成功したら…
-    ido = position.coords.latitude;
-    keido = position.coords.longitude;
-    
-    //位置情報取得後、地図へ飛ぶ
-    location.href = "map/hinanmap.html#17/" +ido + "/" + keido;
+				}
 
-}
+				function gps_error3(error) {
+					//失敗したら…
+					alert("GPSの取得に失敗したため、起動できません。");
+				}
 
-</script>
+				function gps_get(position) {
 
-	</body>
+					//成功したら…
+					ido = position.coords.latitude;
+					keido = position.coords.longitude;
+
+					//位置情報取得後、地図へ飛ぶ
+    				location.href = "map/hinanmap.html#17/" +ido + "/" + keido;
+				}
+
+			</script>
+
+</body>
 </html>
