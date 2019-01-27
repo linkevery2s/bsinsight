@@ -341,10 +341,10 @@
 	label {
 		color: #ffffff;
 		display: block;
-		font-size: 2rem;
+		font-size: 0.8rem;
 		font-weight: 300;
 		letter-spacing: 0.2rem;
-		line-height: 1.7;
+		line-height: 1.5;
 		margin: 0 0 1rem 0;
 		text-transform: uppercase;
 	}
@@ -2826,4 +2826,48 @@ color: #fff; /*アイコン色*/
     box-shadow: 2px 2px 4px #666, 2px 2px 2px #111 inset;
     text-shadow: 0px 0px 2px #000;
     line-height: 1.9;
+}
+
+h2.gaku {
+position: relative;
+color: #ffffff;
+/*text-shadow: 0 0 2px #ffffff;*/
+}
+h2.gaku:before {
+content: "";
+position: absolute;
+background: #9de5ff;
+width: 50px;
+height: 50px;
+border-radius: 50%;
+top: 50%;
+/* border: dashed 1px white; */
+left: -15px;
+-moz-transform: translateY(-50%);
+-webkit-transform: translateY(-50%);
+-ms-transform: translateY(-50%);
+transform: translateY(-50%);
+z-index: -1;
+}
+
+.wind{
+	display: inline-block;
+	border-radius: 10%;
+	border: solid 1px #ffffff;
+	width: 120px;
+	text-align: center;
+	margin: 0 5px 0 5px;
+	padding: 5px 0 5px 0;
+	text-decoration: none !important;
+	text-decoration-line: none !important;
+}
+
+.wind a{
+	border-bottom: 0;
+	text-decoration: none !important;
+	text-decoration-line: none !important;
+}
+
+.wind:hover {
+	background-color: rgba(255, 255, 255, 0.075);
 }
