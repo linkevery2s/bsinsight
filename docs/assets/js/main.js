@@ -483,3 +483,10 @@ function twt(){
 function fbt(){
 	location.href = "https://www.facebook.com/sharer/sharer.php?u=" + url;
 }
+
+function explorer(){
+	
+	
+	
+	
+}

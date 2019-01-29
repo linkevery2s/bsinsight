@@ -2831,12 +2831,14 @@ color: #fff; /*アイコン色*/
 h2.gaku {
 position: relative;
 color: #ffffff;
-/*text-shadow: 0 0 2px #ffffff;*/
+display: inline-block;
+border-bottom: 1px solid #FFFFFF;
+left: 15px;
 }
 h2.gaku:before {
 content: "";
 position: absolute;
-background: #9de5ff;
+background: #0000cd;
 width: 50px;
 height: 50px;
 border-radius: 50%;
@@ -2870,4 +2872,21 @@ z-index: -1;
 
 .wind:hover {
 	background-color: rgba(255, 255, 255, 0.075);
+}
+
+.exp{
+	display: inline-block;
+	border-radius: 10%;
+	border: solid 1px #ffffff;
+	width: 40px;
+	text-align: center;
+	margin: 0 5px 0 5px;
+	padding: 7px 0 7px 0;
+	cursor: pointer;
+}
+
+#kens{
+	display: inline-block;
+	text-align: left;
+	width: 180px !important;
 }
