@@ -36,6 +36,8 @@
 
 	<title>防災INSIGHT</title>
 
+
+
 	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
@@ -176,6 +178,9 @@
 											<ul class="actions">
 												<li><a href="#guide" class="button">防災ガイド</a></li>
 												<li><a href="#tokei" class="button">統計からみる防災</a></li>
+												<li><a href="#calender" class="button">防災カレンダー</a></li>
+											</ul>
+											<ul class="actions">
 												<li><a href="#bsword" class="button">防災用語集</a></li>
 											</ul>
 
@@ -2108,6 +2113,29 @@ https://tanganrss.com/rsstxt/regist.php?key=455fb0d89271046d1097acbcc177d949
 </article>
 
 
+<!-- 防災カレンダー -->
+<article id="calender">
+	<h2 class="major">防災カレンダー</h2>
+
+<h2 class="calendar-title"><span id="js-year"></span>年 <span id="js-month"></span>月</h2>
+<table class="calendar-table">
+  <thead>
+    <tr><th class="ct">日</th><th class="ct">月</th><th class="ct">火</th><th class="ct">水</th><th class="ct">木</th><th class="ct">金</th><th class="ct">土</th></tr>
+  </thead>
+  <tbody id="js-calendar-body"></tbody>
+</table>
+
+
+
+</article>
+
+<!-- eye -->
+<article id="eye">
+	<h2 class="major">防災ナビ「EYE」</h2>
+
+	<iframe src="ai/bgnavi.html" width="100%" height="250px" frameborder="yes" scrolling="yes"></iframe>
+
+</article>
 
 
 					</div><!-- main -->
@@ -2116,7 +2144,7 @@ https://tanganrss.com/rsstxt/regist.php?key=455fb0d89271046d1097acbcc177d949
 					<footer id="footer">
 						
 							<ul class="icons">
-							<input type="text" id="kens" value="" placeholder="キーワード検索" /><span class="exp" onclick="explorer()"><i class="icon fa-search fa-1x"></i></span>
+							<input type="text" id="kens" value="" placeholder="キーワード検索" /><span class="exp" onclick="explorer()"><i class="icon fa-search fa-1x"></i></span><span class="exp" ><a href ="#eye"><i class="icon fa-search fa-1x"></i></a></span>
 							</ul>
 							
 								<ul class="icons">
@@ -2200,6 +2228,56 @@ https://tanganrss.com/rsstxt/regist.php?key=455fb0d89271046d1097acbcc177d949
 					//位置情報取得後、地図へ飛ぶ
     				location.href = "map/hinanmap.html#17/" +ido + "/" + keido;
 				}
+
+var $window = $(window);
+var $year = $('#js-year');
+var $month = $('#js-month');
+var $tbody = $('#js-calendar-body');
+
+var today = new Date();
+var currentYear = today.getFullYear(),
+    currentMonth = today.getMonth();
+
+$window.on('load',function(){
+  calendarHeading(currentYear, currentMonth);
+  calendarBody(currentYear, currentMonth, today);
+});
+
+function calendarBody(year, month, today){
+  var todayYMFlag = today.getFullYear() === year && today.getMonth() === month ? true : false; // 本日の年と月が表示されるカレンダーと同じか判定
+  var startDate = new Date(year, month, 1); // その月の最初の日の情報
+  var endDate  = new Date(year, month + 1 , 0); // その月の最後の日の情報
+  var startDay = startDate.getDay();// その月の最初の日の曜日を取得
+  var endDay = endDate.getDate();// その月の最後の日の曜日を取得
+  var textSkip = true; // 日にちを埋める用のフラグ
+  var textDate = 1; // 日付(これがカウントアップされます)
+  var tableBody =''; // テーブルのHTMLを格納する変数
+  
+  for (var row = 0; row < 6; row++){
+    var tr = '<tr>';
+    
+    for (var col = 0; col < 7; col++) {
+      if (row === 0 && startDay === col){
+        textSkip = false;
+      }
+      if (textDate > endDay) {
+        textSkip = true;
+      }
+      var addClass = todayYMFlag && textDate === today.getDate() ? 'is-today' : '';
+      var textTd = textSkip ? '&nbsp;' : textDate++;
+      var td = '<td class="'+addClass+'">'+textTd+'</td>';
+      tr += td;
+    }
+    tr += '</tr>';
+    tableBody += tr;
+  }
+  $tbody.html(tableBody);
+}
+
+function calendarHeading(year, month){
+  $year.text(year);
+  $month.text(month + 1);
+}
 
 			</script>
 

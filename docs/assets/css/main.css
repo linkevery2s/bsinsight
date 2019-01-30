@@ -169,6 +169,7 @@
 		}
 
 		h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
+			display: inline-block;
 			border-bottom: solid 1px #ffffff;
 			width: -moz-max-content;
 			width: -webkit-max-content;
@@ -528,27 +529,32 @@
 	}
 
 	::-webkit-input-placeholder {
-		color: rgba(255, 255, 255, 0.5) !important;
+		color: rgba(255, 255, 255, 0.8) !important;
 		opacity: 1.0;
 	}
 
+	:placeholder{
+		color: rgba(255, 255, 255, 0.8) !important;
+		opacity: 1.0;
+	}
+	
 	:-moz-placeholder {
-		color: rgba(255, 255, 255, 0.5) !important;
+		color: rgba(255, 255, 255, 0.8) !important;
 		opacity: 1.0;
 	}
 
 	::-moz-placeholder {
-		color: rgba(255, 255, 255, 0.5) !important;
+		color: rgba(255, 255, 255, 0.8) !important;
 		opacity: 1.0;
 	}
 
 	:-ms-input-placeholder {
-		color: rgba(255, 255, 255, 0.5) !important;
+		color: rgba(255, 255, 255, 0.8) !important;
 		opacity: 1.0;
 	}
 
 	.formerize-placeholder {
-		color: rgba(255, 255, 255, 0.5) !important;
+		color: rgba(255, 255, 255, 0.8) !important;
 		opacity: 1.0;
 	}
 
@@ -2834,6 +2840,7 @@ color: #ffffff;
 display: inline-block;
 border-bottom: 1px solid #FFFFFF;
 left: 15px;
+margin-bottom: 20px;
 }
 h2.gaku:before {
 content: "";
@@ -2885,8 +2892,34 @@ z-index: -1;
 	cursor: pointer;
 }
 
+.exp a{
+	border-bottom: 0;
+}
+
 #kens{
 	display: inline-block;
 	text-align: left;
 	width: 180px !important;
+}
+
+.calendar-title {
+  text-align: center;
+}
+.calendar-table {
+  margin: 0 auto;
+  text-align: center;
+  td {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+  }
+}
+
+  .is-today {
+    background-color: red;
+  }
+
+.ct{
+	text-align: center;
 }
