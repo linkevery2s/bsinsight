@@ -1567,9 +1567,9 @@
 
 					<h2 class="major">気象情報</h2>
 
-					避難する時に、大気の状態を把握することも大切です。<br><br>
+					<p>避難する時に、大気の状態を把握することも大切です。<br><br>
 					最近ではゲリラ豪雨と呼ばれる局所的に降る大雨の現象もよく見られます。<br><br>
-					「雨雲レーダー」では、大気の状態を調べることができます。<br><br>
+					「雨雲レーダー」では、大気の状態を調べることができます。<br><br></p>
 
 					<div id ="map" style="width:555px; height: 500px;"></div>
 
@@ -2061,8 +2061,9 @@ https://tanganrss.com/rsstxt/regist.php?key=455fb0d89271046d1097acbcc177d949
 					<h2 class="major">実績</h2>
 					<p>
 					<a href="http://www.gsi.go.jp/bousaichiri/bousai-app-2017_00011.html" target="_blank">平成29年度　防災アプリ賞受賞</a>
-					
+					</p>
 					<h2 class="major">更新情報</h2>
+					<p>
 					2018.12.29 背景色変更、土石流マップ仕様変更<br><br>
 					2018.10.08 想定区域更新<br><br>
 					2018.10.03 ハザードマップ変更<br><br>
@@ -2098,7 +2099,8 @@ https://tanganrss.com/rsstxt/regist.php?key=455fb0d89271046d1097acbcc177d949
 								</ul>	
 
 <h2 class="major">ＳＮＳシェア</h2>
-より多くの方々にご利用いただくためにシェアをお願いします！<br><br>
+
+<p>より多くの方々にご利用いただくためにシェアをお願いします！</p>
 
 		<img src="images/mailt.png" style="width:50px; height: 50px;" id = "mln" onclick= "mailt()">
 		<img src="images/line_button.png" style="width:50px; height: 50px;" id = "mln" onclick= "linet()">
@@ -2108,7 +2110,7 @@ https://tanganrss.com/rsstxt/regist.php?key=455fb0d89271046d1097acbcc177d949
 <br><br>
 <h2 class="major">ＱＲコード</h2>
 
-								<img src="images/qr_code.png" style="">
+								<p><img src="images/qr_code.png" style=""></p>
 
 </article>
 
@@ -2134,6 +2136,9 @@ https://tanganrss.com/rsstxt/regist.php?key=455fb0d89271046d1097acbcc177d949
 	<h2 class="major">防災ナビ「EYE」</h2>
 
 	<iframe src="ai/bgnavi.html" width="100%" height="250px" frameborder="yes" scrolling="yes"></iframe>
+	
+	<p>EYEがあなたに防災について、教えてくれます。色々なことを聞いてみましょう。</p>
+	
 
 </article>
 
@@ -2144,8 +2149,14 @@ https://tanganrss.com/rsstxt/regist.php?key=455fb0d89271046d1097acbcc177d949
 					<footer id="footer">
 						
 							<ul class="icons">
-							<input type="text" id="kens" value="" placeholder="キーワード検索" /><span class="exp" onclick="explorer()"><i class="icon fa-search fa-1x"></i></span><span class="exp" ><a href ="#eye"><i class="icon fa-search fa-1x"></i></a></span>
+							<input type="text" id="kens" value="" placeholder="キーワード検索" list="codeType"><span class="exp" onclick="explorer()"><i class="icon fa-search fa-1x"></i></span><span class="exp" ><a href ="#eye"><i class="icon fa-eye fa-1x"></i></a></span>
 							</ul>
+							
+							<datalist id="codeType">
+							<option value="AAA"></option>
+							<option value="BBB"></option>
+							<option value="CCC"></option>
+							</datalist>
 							
 								<ul class="icons">
 									<li><a href="#intro" class="icon fa-bookmark"><span class="label">使い方</span></a></li>
