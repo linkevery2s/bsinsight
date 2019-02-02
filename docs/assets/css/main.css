@@ -2970,13 +2970,3 @@ z-index: -1;
 	text-align: center;
 }
 
-#sbtn2{
-height:50px;
-position:absolute; 
-left:255px;/*アイコン左右の位置調整*/
-top:0;
-background:none;
-color:#666;
-border:none;
-font-size:20px;/*アイコンサイズ*/
-}
