@@ -499,14 +499,14 @@ $window.on('load',function(){
 });
 
 function calendarBody(year, month, today){
-  var todayYMFlag = today.getFullYear() === year && today.getMonth() === month ? true : false; // �{���̔N�ƌ����\�������J�����_�[�Ɠ���������
-  var startDate = new Date(year, month, 1); // ���̌��̍ŏ��̓��̏��
-  var endDate  = new Date(year, month + 1 , 0); // ���̌��̍Ō�̓��̏��
-  var startDay = startDate.getDay();// ���̌��̍ŏ��̓��̗j�����擾
-  var endDay = endDate.getDate();// ���̌��̍Ō�̓��̗j�����擾
-  var textSkip = true; // ���ɂ��𖄂߂�p�̃t���O
-  var textDate = 1; // ���t(���ꂪ�J�E���g�A�b�v����܂�)
-  var tableBody =''; // �e�[�u����HTML���i�[����ϐ�
+  var todayYMFlag = today.getFullYear() === year && today.getMonth() === month ? true : false; // 本日の年と月が表示されるカレンダーと同じか判定
+  var startDate = new Date(year, month, 1); // その月の最初の日の情報
+  var endDate  = new Date(year, month + 1 , 0); // その月の最後の日の情報
+  var startDay = startDate.getDay();// その月の最初の日の曜日を取得
+  var endDay = endDate.getDate();// その月の最後の日の曜日を取得
+  var textSkip = true; // 日にちを埋める用のフラグ
+  var textDate = 1; // 日付(これがカウントアップされます)
+  var tableBody =''; // テーブルのHTMLを格納する変数
   
   for (var row = 0; row < 6; row++){
     var tr = '<tr>';
@@ -533,6 +533,56 @@ function calendarHeading(year, month){
   $year.text(year);
   $month.text(month + 1);
 }
+
+			var ido, keido;
+
+				function em() {
+
+					if (navigator.geolocation) {
+						//geolocationの利用
+						navigator.geolocation.getCurrentPosition(gps_get,gps_error3);
+					} else {
+						alert("GPSの取得に失敗したため、起動できません。")
+					}
+
+				}
+
+				function gps_error3(error) {
+					//失敗したら…
+					alert("GPSの取得に失敗したため、起動できません。");
+				}
+
+				function gps_get(position) {
+
+					//成功したら…
+					ido = position.coords.latitude;
+					keido = position.coords.longitude;
+
+					//位置情報取得後、地図へ飛ぶ
+    				location.href = "map/hinanmap.html#17/" +ido + "/" + keido;
+				}
+
+$(function(){
+  var seiza = [
+    "おひつじ座",
+    "おうし座",
+    "ふたご座",
+    "かに座",
+    "しし座",
+    "おとめ座",
+    "てんびん座",
+    "さそり座",
+    "いて座",
+    "やぎ座",
+    "みずがめ座",
+    "うお座"
+  ];
+  $("#kens").autocomplete({
+    source:seiza,
+    minLength:0
+  });
+});
+
 
 function explorer(){
 	
