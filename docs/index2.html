@@ -169,7 +169,7 @@
 									<br>
 										<h2 class="gaku">復旧時</h2>
 											<ul class="actions">
-												<li><a href="#fukkyu" class="button">救出・救援</a></li>
+												<li><a href="#help" class="button">救出・救援</a></li>
 												<li><a href="#lisai" class="button">罹災証明書</a></li>
 												<li><a href="#nextb" class="button">次の防災へ</a></li>
 											</ul>
@@ -189,9 +189,10 @@
 
 							<!-- 持ち出しリスト -->
 							<article id="mochidashi">
-								<a href="#manabu" class="link">×</a>
+								<a href="#" id = "home_back"></a><a href="#manabu" class="link">×</a>
 								<h2 class="major">持ち出しリスト</h2>
-									避難時に持ち出す必要があるものをリストにしました。避難時に必要なものを確認しましょう。<br><br>
+								<span class="image main"><img src="images/checklist.jpg" alt="チェックリスト" /></span>
+									<p>避難時に持ち出す必要があるものをリストにしました。避難時に必要なものを確認しましょう。</p>
 								
 									<h2 class = "mochi">貴重品</h2>
 										<p>10円玉は公衆電話用に必要
@@ -387,7 +388,7 @@
 
 
 							<article id="anpi">
-								<a href="#manabu" class="link">×</a>
+								<a href="#" id = "home_back"></a><a href="#manabu" class="link">×</a>
 								<h2 class="major">安否確認</h2>
 								<span class="image main"><img src="images/anpi.jpg" alt="安否確認" /></span>
 								災害時には、必ずしも家族と一緒にいるとは限りません。別々に避難することも十分考えられます。こういった時に「安否確認」が必要になります。日頃からどのように確認し合うのか、学校や職場の連絡先も共有することが大切です。
@@ -417,7 +418,7 @@
 
 							<!-- type -->
 							<article id="type">
-								<a href="#manabu" class="link">×</a>
+								<a href="#" id = "home_back"></a><a href="#manabu" class="link">×</a>
 								<h2 class="major">災害の種類</h2>
 								<span class="image main"><img src="images/type.jpg" alt="" /></span>
 								<p>災害にはどのようなものがあるでしょうか？<br>
@@ -748,7 +749,7 @@
 
 						<!-- where -->
 							<article id="where">
-								<a href="#manabu" class="link">×</a>
+								<a href="#" id = "home_back"></a><a href="#manabu" class="link">×</a>
 								<h2 class="major">どこにいる？</h2>
 								<span class="image main"><img src="images/map.jpg" alt="" /></span>
 								<p>地震が発生した時、あなたはどこにいるでしょうか？<br><br>
@@ -1394,7 +1395,7 @@
 
 							<!-- need -->
 							<article id="need">
-								<a href="#manabu" class="link">×</a>
+								<a href="#" id = "home_back"></a><a href="#manabu" class="link">×</a>
 								<h2 class="major">何が必要？</h2>
 								<span class="image main"><img src="images/water.jpg" alt="" /></span>
 								防災対策を施す上で、何が必要になるでしょうか？<br><br>
@@ -1880,7 +1881,7 @@ https://tanganrss.com/rsstxt/regist.php?key=455fb0d89271046d1097acbcc177d949
 
 							<!-- tokei -->
 							<article id="tokei">
-								<a href="#manabu" class="link">×</a>
+								<a href="#" id = "home_back"></a><a href="#manabu" class="link">×</a>
 								<h2 class="major">統計からみる防災</h2>
 								<span class="image main"><img src="images/toukei.jpg" alt="" /></span>
 								防災に関する統計情報や各種資料をまとめました。<br><br>
@@ -1931,7 +1932,7 @@ https://tanganrss.com/rsstxt/regist.php?key=455fb0d89271046d1097acbcc177d949
 
 							<!-- guide -->
 							<article id="guide">
-							<a href="#manabu" class="link">×</a>
+							<a href="#" id = "home_back"></a><a href="#manabu" class="link">×</a>
 							<h2 class="major">作ろう！防災ガイド</h2>
 							<span class="image main"><img src="images/tumi.jpg" alt="" /></span>
 							<p>我が家の防災対策のため、避難所の情報を掲載した防災マップや避難時に何を持っていくか等の情報を掲載できる防災ガイド作成ツールを作りました。<br><br>
@@ -2130,6 +2131,7 @@ https://tanganrss.com/rsstxt/regist.php?key=455fb0d89271046d1097acbcc177d949
 
 <!-- 防災カレンダー -->
 <article id="calender">
+<a href="#" id = "home_back"></a><a href="#manabu" class="link">×</a>
 	<h2 class="major">防災カレンダー</h2>
 
 <h2 class="calendar-title"><span id="js-year"></span>年 <span id="js-month"></span>月</h2>
@@ -2162,14 +2164,8 @@ https://tanganrss.com/rsstxt/regist.php?key=455fb0d89271046d1097acbcc177d949
 					<footer id="footer">
 						
 							<ul class="icons">
-							<input type="text" id="kens" value="" placeholder="キーワード検索" list="codeType"><span class="exp" onclick="explorer()"><i class="icon fa-search fa-1x"></i></span><span class="exp" ><a href ="#eye"><i class="icon fa-eye fa-1x"></i></a></span>
+							<input type="text" id="kens" value="" placeholder="キーワード検索"><!--<span class="exp" onclick="explorer()"><i class="icon fa-search fa-1x"></i></span><span class="exp" ><a href ="#eye"><i class="icon fa-eye fa-1x"></i></a></span>-->
 							</ul>
-							
-							<datalist id="codeType">
-							<option value="AAA"></option>
-							<option value="BBB"></option>
-							<option value="CCC"></option>
-							</datalist>
 							
 								<ul class="icons">
 									<li><a href="#intro" class="icon fa-bookmark"><span class="label">使い方</span></a></li>
@@ -2252,56 +2248,6 @@ https://tanganrss.com/rsstxt/regist.php?key=455fb0d89271046d1097acbcc177d949
 					//位置情報取得後、地図へ飛ぶ
     				location.href = "map/hinanmap.html#17/" +ido + "/" + keido;
 				}
-
-var $window = $(window);
-var $year = $('#js-year');
-var $month = $('#js-month');
-var $tbody = $('#js-calendar-body');
-
-var today = new Date();
-var currentYear = today.getFullYear(),
-    currentMonth = today.getMonth();
-
-$window.on('load',function(){
-  calendarHeading(currentYear, currentMonth);
-  calendarBody(currentYear, currentMonth, today);
-});
-
-function calendarBody(year, month, today){
-  var todayYMFlag = today.getFullYear() === year && today.getMonth() === month ? true : false; // 本日の年と月が表示されるカレンダーと同じか判定
-  var startDate = new Date(year, month, 1); // その月の最初の日の情報
-  var endDate  = new Date(year, month + 1 , 0); // その月の最後の日の情報
-  var startDay = startDate.getDay();// その月の最初の日の曜日を取得
-  var endDay = endDate.getDate();// その月の最後の日の曜日を取得
-  var textSkip = true; // 日にちを埋める用のフラグ
-  var textDate = 1; // 日付(これがカウントアップされます)
-  var tableBody =''; // テーブルのHTMLを格納する変数
-  
-  for (var row = 0; row < 6; row++){
-    var tr = '<tr>';
-    
-    for (var col = 0; col < 7; col++) {
-      if (row === 0 && startDay === col){
-        textSkip = false;
-      }
-      if (textDate > endDay) {
-        textSkip = true;
-      }
-      var addClass = todayYMFlag && textDate === today.getDate() ? 'is-today' : '';
-      var textTd = textSkip ? '&nbsp;' : textDate++;
-      var td = '<td class="'+addClass+'">'+textTd+'</td>';
-      tr += td;
-    }
-    tr += '</tr>';
-    tableBody += tr;
-  }
-  $tbody.html(tableBody);
-}
-
-function calendarHeading(year, month){
-  $year.text(year);
-  $month.text(month + 1);
-}
 
 			</script>
 

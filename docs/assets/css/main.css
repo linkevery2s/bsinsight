@@ -2388,7 +2388,7 @@
 #ke .close{display:none !important;}
 #ke_s .close{display:none !important;}
 
-#type .close, #where .close, #need .close, #guide .close, #tokei .close, #mochidashi .close, #anpi .close, #lisai .close, #fukkyu .close, #bsword .close, #mochidashi .close, #calender .close{display:none !important;}
+#type .close, #where .close, #need .close, #guide .close, #tokei .close, #mochidashi .close, #anpi .close, #lisai .close, #help .close, #bsword .close, #mochidashi .close, #calender .close{display:none !important;}
 
 .link{
 				display: block;
@@ -2444,6 +2444,52 @@
 				}
 
 		}
+
+			#home_back{
+				display: block;
+				position: absolute;
+				top: 0;
+				right: 3rem;
+				width: 4rem;
+				height: 4rem;
+				cursor: pointer;
+				//text-indent: 4rem;
+				//overflow: hidden;
+				white-space: nowrap;
+				border-bottom: none !important;
+			}
+
+				#home_back:before {
+					font-family: "FontAwesome";
+					font-size: 1.5em;
+					content: "\f015";/*アイコンのユニコード*/
+					//padding-top: 0.5rem;
+					text-align: center;
+					-moz-transition: background-color 0.2s ease-in-out;
+					-webkit-transition: background-color 0.2s ease-in-out;
+					-ms-transition: background-color 0.2s ease-in-out;
+					transition: background-color 0.2s ease-in-out;
+					display: block;
+					position: absolute;
+					top: 0.75rem;
+					left: 0.75rem;
+					width: 2.5rem;
+					height: 2.5rem;
+					border-radius: 100%;
+					//border: 1px solid #FFFFFF;
+					background-position: center;
+					background-size: 20px 20px;
+					background-repeat: no-repeat;
+				}
+
+				#home_back:hover:before {
+					background-color: rgba(255, 255, 255, 0.075);
+				}
+
+				#home_back:active:before {
+					background-color: rgba(255, 255, 255, 0.175);
+				}
+
 
 .fa-book{
 	color: #58FA82;
