@@ -578,8 +578,8 @@ $(function(){
     "うお座"
   ];
   $("#kens").autocomplete({
-    source:seiza,
-    minLength:0
+    source: seiza,
+    minLength: 1
   });
 });
 

@@ -2928,14 +2928,20 @@ z-index: -1;
 }
 
 .exp{
-	display: inline-block;
-	border-radius: 10%;
-	border: solid 1px #ffffff;
+	//display: inline-block;
+	//border-radius: 100%;
+	//border: solid 1px #ffffff;
 	width: 40px;
 	text-align: center;
-	margin: 0 5px 0 5px;
-	padding: 7px 0 7px 0;
+	//margin: 0 5px 0 5px;
+	margin: 0;
+	//padding: 7px 0 7px 0;
+	//background-color: rgba(255, 255, 255, 0.3);
 	cursor: pointer;
+	position: absolute;
+	line-height: 20px;
+	top: 0;
+	right: 0;
 }
 
 .exp a{
@@ -2945,7 +2951,7 @@ z-index: -1;
 #kens{
 	display: inline-block;
 	text-align: left;
-	width: 180px !important;
+	width: 220px !important;
 }
 
 .calendar-title {
@@ -2977,15 +2983,29 @@ z-index: -1;
 	padding: 0;
 }
  
-
+	.word-w:nth-child(even) {
+    
+	}
+	
+	.word-w:nth-child(odd) {
+    	background-color: rgba(255, 255, 255, 0.1);
+	}
  
 .word-w {
+	border-bottom: solid 1px #ffffff;
 	padding:  10px;
-	background-color:  #65ace4;
-	border-radius:  10px;
-	margin-bottom: 5px;
 	color: #fff;
-	font-size:  20px;
+	font-size: 20px;
 	height: 40px;
 	line-height: 20px;
+}
+
+	.link-w:last-child{
+		/*最後のリンクに下線を付ける*/
+		border-bottom-width: 1px;
+	
+	}
+
+.wordkensaku{
+	position: relative;
 }
