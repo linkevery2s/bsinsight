@@ -2462,7 +2462,7 @@
 				#home_back:before {
 					font-family: "FontAwesome";
 					font-size: 1.5em;
-					content: "\f015";/*ƒAƒCƒRƒ“‚Ìƒ†ƒjƒR[ƒh*/
+					content: "\f015";/*ï¿½Aï¿½Cï¿½Rï¿½ï¿½ï¿½Ìƒï¿½ï¿½jï¿½Rï¿½[ï¿½h*/
 					//padding-top: 0.5rem;
 					text-align: center;
 					-moz-transition: background-color 0.2s ease-in-out;
@@ -2827,7 +2827,7 @@ h2.mochi::after {
 
 h3.point{
 position: relative;
-padding-left: 35px;/*ƒAƒCƒRƒ“•ª‚ÌƒXƒy[ƒX*/
+padding-left: 35px;
 line-height: 1.4;
 background-color: #08088A;
 padding-top: .5em;
@@ -2836,18 +2836,18 @@ border-top: 2px solid #F7FE2E;
 border-bottom: 2px solid #F7FE2E;
 }
 h3.point:before{ font-family: "FontAwesome";
-content: "\f1b3";/*ƒAƒCƒRƒ“‚Ìƒ†ƒjƒR[ƒh*/
-position: absolute;/*â‘ÎˆÊ’u*/
+content: "\f1b3";
+position: absolute;
 padding-top: .5em;
-font-size: 1em;/*ƒTƒCƒY*/
-left: 5px;/*ƒAƒCƒRƒ“‚ÌˆÊ’u*/
-top: 0;/*ƒAƒCƒRƒ“‚ÌˆÊ’u*/
-color: #fff; /*ƒAƒCƒRƒ“F*/
+font-size: 1em;
+left: 5px;
+top: 0;
+color: #fff;
 }
 
 h3.cap{
 position: relative;
-padding-left: 35px;/*ƒAƒCƒRƒ“•ª‚ÌƒXƒy[ƒX*/
+padding-left: 35px;
 line-height: 1.4;
 background-color: #08088A;
 padding-top: .5em;
@@ -2856,13 +2856,13 @@ border-top: 2px solid #FF00FF;
 border-bottom: 2px solid #FF00FF;
 }
 h3.cap:before{ font-family: "FontAwesome";
-content: "\f19d";/*ƒAƒCƒRƒ“‚Ìƒ†ƒjƒR[ƒh*/
-position: absolute;/*â‘ÎˆÊ’u*/
+content: "\f19d";
+position: absolute;
 padding-top: .5em;
-font-size: 1em;/*ƒTƒCƒY*/
-left: 5px;/*ƒAƒCƒRƒ“‚ÌˆÊ’u*/
-top: 0;/*ƒAƒCƒRƒ“‚ÌˆÊ’u*/
-color: #fff; /*ƒAƒCƒRƒ“F*/
+font-size: 1em;
+left: 5px;
+top: 0;
+color: #fff;
 }
 
 #kokub{
@@ -2970,3 +2970,22 @@ z-index: -1;
 	text-align: center;
 }
 
+
+.list {
+	list-style:  none;
+	margin-top: 10px;
+	padding: 0;
+}
+ 
+
+ 
+.word-w {
+	padding:  10px;
+	background-color:  #65ace4;
+	border-radius:  10px;
+	margin-bottom: 5px;
+	color: #fff;
+	font-size:  20px;
+	height: 40px;
+	line-height: 20px;
+}

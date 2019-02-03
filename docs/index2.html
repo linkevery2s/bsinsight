@@ -167,10 +167,10 @@
 												<li><a href="#anpi" class="button">安否確認</a></li>
 											</ul>
 									<br>
-										<h2 class="gaku">復旧時</h2>
+										<h2 class="gaku">帰宅後</h2>
 											<ul class="actions">
 												<!--<li><a href="#ke_s" class="button">救出・援護</a></li>-->
-												<li><a href="#lisai" class="button">罹災証明書</a></li>
+												<li><a href="#lisai" class="button">調査・報告</a></li>
 												<li><a href="#nextb" class="button">次の防災へ</a></li>
 											</ul>
 									<br>
@@ -417,7 +417,7 @@
 
 							<article id="lisai">
 								<a href="#" id = "home_back"></a><a href="#manabu" class="link">×</a>
-								<h2 class="major">罹災証明書</h2>
+								<h2 class="major">調査・報告</h2>
 								<span class="image main"><img src="images/lisai.jpg" alt="証明書" /></span>
 								
 								<p>台風、豪雨による浸水被害、火災などによる住家被害があり、火災保険などを使用する場合、保険会社から罹災証明書の提出が求められる場合があります。お住まいの自治体に問い合わせて、罹災証明書の交付手続きを行いましょう。</p>
@@ -1898,7 +1898,6 @@ https://tanganrss.com/rsstxt/regist.php?key=455fb0d89271046d1097acbcc177d949
 					<i class="fa fa-book" aria-hidden="true"></i> 以下の資料をもとに仁志が加工・編集して作成しました。<br>
 					・<a href="https://disaportal.gsi.go.jp/hazardmap/copyright/opendata.html">ハザードマップポータルサイト</a><br>
 
-
 							</article>
 
 							<!-- tokei -->
@@ -2117,13 +2116,11 @@ https://tanganrss.com/rsstxt/regist.php?key=455fb0d89271046d1097acbcc177d949
 					2017.06.17 アプリ公開</p>
 				</article>
 
-				<!-- shinsui -->
+				<!-- shinsui 
 				<article id="shinsui">
 					<h2 class="major">浸水・積雪ＡＲ</h2>
-				
-
-
-				</article> 
+					
+				</article> -->
 
 <!-- share -->
 <article id="share">
@@ -2167,6 +2164,26 @@ https://tanganrss.com/rsstxt/regist.php?key=455fb0d89271046d1097acbcc177d949
 
 
 </article>
+
+							<!-- 防災用語集-->
+							<article id ="bsword">
+								<a href="#" id = "home_back"></a><a href="#manabu" class="link">×</a>
+								<h2 class="major">防災用語集</h2>
+
+								<hr />
+								<div id="listmenu">
+									<input type="text" class="search" placeholder="絞り込み検索" />
+
+									<ul class ="list">
+										<li class="word-w"><p class ="word">aaa</p></li>
+										<li class="word-w"><p class ="word">bbb</p></li>
+										<li class="word-w"><p class ="word">ccc</p></li>
+										
+									</ul>
+								</div>
+
+							</article>
+
 
 <!-- eye -->
 <article id="eye">
@@ -2215,6 +2232,7 @@ https://tanganrss.com/rsstxt/regist.php?key=455fb0d89271046d1097acbcc177d949
 			<script src="assets/js/top.js"></script>
 			<script src="assets/js/dhtml.js"></script>
 			<script src="assets/js/maplist.js"></script>
+			<script src="assets/js/list.min.js"></script>
 
 			<script>
 				$(function() {
@@ -2239,6 +2257,12 @@ https://tanganrss.com/rsstxt/regist.php?key=455fb0d89271046d1097acbcc177d949
 					$('#loader-bg').delay(900).fadeOut(800);
 					$('#loader').delay(600).fadeOut(300);
 				}
+			
+				var opt = {
+					valueNames : [ 'word-w', 'word' ]
+				};
+				
+				var Listx = new List('listmenu', opt);
 			</script>
 
 <script type="text/javascript" src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
