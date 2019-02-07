@@ -432,6 +432,7 @@
 							<article id="nextb">
 								<a href="#" id = "home_back"></a><a href="#manabu" class="link">×</a>
 								<h2 class="major">次の防災へ</h2>
+								<span class="image main"><img src="images/nextb.jpg" alt="双葉" /></span>
 								
 								<p>台風、集中豪雨はたて続けに発生する場合があります。２度、３度と災害が起きると被害が酷くなる場合があります。次の災害に備えて、雨漏りの修復や補強に努めましょう。</p>
 								
@@ -440,6 +441,8 @@
 							<!-- type -->
 							<article id="type">
 								<a href="#" id = "home_back"></a><a href="#manabu" class="link">×</a>
+								<div><a href ="vc/test.mp3">音声</a></div><br>
+								<audio src="vc/test.mp3" preload="auto"></audio><br>
 								<h2 class="major">災害の種類</h2>
 								<span class="image main"><img src="images/type.jpg" alt="災害の種類" /></span>
 								<p>災害にはどのようなものがあるでしょうか？<br>
@@ -2250,6 +2253,7 @@ https://tanganrss.com/rsstxt/regist.php?key=455fb0d89271046d1097acbcc177d949
 			<script src="assets/js/dhtml.js"></script>
 			<script src="assets/js/maplist.js"></script>
 			<script src="assets/js/list.min.js"></script>
+			<script src="assets/js/media/audio.min.js"></script>
 
 			<script>
 				$(function() {
@@ -2280,6 +2284,11 @@ https://tanganrss.com/rsstxt/regist.php?key=455fb0d89271046d1097acbcc177d949
 				};
 				
 				var Listx = new List('listmenu', opt);
+				
+				audiojs.events.ready(function() {
+					audiojs.createAll();
+				});
+				
 			</script>
 
 <script type="text/javascript" src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
