@@ -114,9 +114,10 @@
 							<ul>
 								
 								<li><a href="#manabu">学  習</a></li>
-								<li><a href="#refuge">避難所</a></li>
+								<li><a href="#refuge">避難情報</a></li>
 								<li><a href="#weather" onclick="yyy()">気象情報</a></li>
 								<li><a href="#soutei">想定区域</a></li>
+								<li><a href="#medical">医療情報</a></li>
 								</ul>
 						</nav>
 						
@@ -440,8 +441,8 @@
 							
 							<!-- type -->
 							<article id="type">
+								<span id ="media_guide"><audio src="vc/test.mp3" preload="auto"></audio></span>
 								<a href="#" id = "home_back"></a><a href="#manabu" class="link">×</a>
-								<audio src="vc/test.mp3" preload="auto"></audio><br>
 								<h2 class="major">災害の種類</h2>
 								<span class="image main"><img src="images/type.jpg" alt="災害の種類" /></span>
 								<p>災害にはどのようなものがあるでしょうか？<br>
@@ -1482,7 +1483,7 @@
 
 								<!-- refuge -->
 								<article id="refuge">
-									<h2 class="major">避難マップ</h2>
+									<h2 class="major">避難情報</h2>
 									<span class="image main"><img src="images/hinan.jpg" alt="" /></span>
 								
 									自分の地域の避難情報を調べることは大切なことです。<br><br>
@@ -1490,6 +1491,9 @@
 									そこで、指定緊急避難場所のマップを作成しました。<br><br>
 									ご自身の地域の避難場所について、調べてみましょう！<br><br>
 
+								<hr />
+								
+								<h2 class="ti">指定緊急避難場所</h2>
 								<ul class="actions">
 									<li><span class="button" target="_blank" onclick="em()"><i class="fa fa-globe" aria-hidden="true"></i> 現在地から探す</span></li>
 								</ul>
@@ -1594,9 +1598,52 @@
 ※一部の自治体では、データ未整理のため、掲載されておりません。最新の情報は、自治体の公式サイトなどでもご確認ください。
 
 							<hr />
+							<h2 class="ti">地震・津波・火山情報</h2>
+
+								<h3 class="point">地震情報</h3>
+								
+								<script id="_tangan_loader_30ed5941f25a072ef3196df34330e988" src="https://tanganrss.com/rsstxt/loader.php?url=https%3A%2F%2Ftanganrss.com%2Frsstxt%2Frsstxt.php%3Fkey%3D30ed5941f25a072ef3196df34330e988&id=30ed5941f25a072ef3196df34330e988&target=" type="text/javascript"></script>
+<!--
+姉妹サービス、複眼RSSを宜しくお願いします。
+http://fukugan.com/
+-->
+<!-- 登録内容の復元URL
+https://tanganrss.com/rsstxt/regist.php?key=30ed5941f25a072ef3196df34330e988
+-->
+
+								<h3 class="point">津波情報</h3>
+								
+								<script id="_tangan_loader_d15743d05a28c93080261de8629a4bea" src="https://tanganrss.com/rsstxt/loader.php?url=https%3A%2F%2Ftanganrss.com%2Frsstxt%2Frsstxt.php%3Fkey%3Dd15743d05a28c93080261de8629a4bea&id=d15743d05a28c93080261de8629a4bea&target=" type="text/javascript"></script>
+<!--
+姉妹サービス、複眼RSSを宜しくお願いします。
+http://fukugan.com/
+-->
+<!-- 登録内容の復元URL
+https://tanganrss.com/rsstxt/regist.php?key=d15743d05a28c93080261de8629a4bea
+-->
+
+								<h3 class="point">火山情報</h3>
+								
+								<script id="_tangan_loader_522c5406a6759f002124600355f5b629" src="https://tanganrss.com/rsstxt/loader.php?url=https%3A%2F%2Ftanganrss.com%2Frsstxt%2Frsstxt.php%3Fkey%3D522c5406a6759f002124600355f5b629&id=522c5406a6759f002124600355f5b629&target=" type="text/javascript"></script>
+<!--
+姉妹サービス、複眼RSSを宜しくお願いします。
+http://fukugan.com/
+-->
+<!-- 登録内容の復元URL
+https://tanganrss.com/rsstxt/regist.php?key=522c5406a6759f002124600355f5b629
+-->
+
+								<h3 class="point">噴火警報・予報</h3>
+
+								<ul class="actions">
+								<li><a href="http://www.jma.go.jp/jp/volcano/map_0.html" class="button">噴火警報・予報</a></li>
+								</ul>
+
+							<hr />
 							<i class="fa fa-book" aria-hidden="true"></i> 以下の資料をもとに仁志が加工・編集して作成しました。<br>
 							・地理院タイル（<span id="url_a"><a href="http://maps.gsi.go.jp/development/ichiran.html">http://maps.gsi.go.jp/development/ichiran.html</a></span>）、指定緊急避難場所データ<br>
 							・国土交通省国土政策局「国土数値情報（避難施設、H24年度）」<br>
+							・<a href ="http://weather.livedoor.com/weather_hacks/">Weather Hacks（livedoor）</a>
 
 							</article><!-- refuge -->
 
@@ -1616,6 +1663,10 @@
 					<a href="https://developer.yahoo.co.jp/about">
 					<img src="https://s.yimg.jp/images/yjdn/yjdn_attbtn2_105_17.gif" width="105" height="17" title="Webサービス by Yahoo! JAPAN" alt="Webサービス by Yahoo! JAPAN" border="0" style="margin:15px 15px 15px 15px"></a></span>
 					<!-- End Yahoo! JAPAN Web Services Attribution Snippet -->
+
+								<ul class="actions">
+										<li><a href="http://www.data.jma.go.jp/gmd/cpd/monitor/dailyview/index.php" class="button">世界の天候</a></li>
+								</ul>
 
 <hr />
 
@@ -1725,16 +1776,105 @@
 
 						<h2 class="ti">警報・注意報</h2>
 						<br>
-								<ul class="actions">
-										<li><a href="http://www.jma.go.jp/jp/warn/" class="button">気象警報・注意報</a></li>
-										<li><a href="http://www.jma.go.jp/jp/quake/" class="button">地震情報</a></li>
-										<li><a href="http://www.jma.go.jp/jp/tsunami/" class="button">津波情報</a></li>
-								</ul>
-								<ul class="actions">
-										<li><a href="http://www.jma.go.jp/jp/volcano/map_0.html" class="button">噴火警報・予報</a></li>
-										<li><a href="http://www.data.jma.go.jp/gmd/cpd/monitor/dailyview/index.php" class="button">世界の天候</a></li>
-								</ul>
-						
+<ul class="jp_map">
+      <li>
+        <a href="javascript:void(0);" onclick="k_hok(); return false;">北海道</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="k_ao(); return false;">青森</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="k_iw(); return false;">岩手</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="k_my(); return false;">宮城</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="k_ak(); return false;">秋田</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="k_yg(); return false;">山形</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="k_fs(); return false;">福島</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="k_ib(); return false;">茨城</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="k_to(); return false;">栃木</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="k_gu(); return false;">群馬</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="k_si(); return false;">埼玉</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="k_tb(); return false;">千葉</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="k_tk(); return false;">東京</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="k_kg(); return false;">神奈川</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="k_ni(); return false;">新潟</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="k_toyama(); return false;">富山</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="k_is(); return false;">石川</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="k_fukui(); return false;">福井</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="k_yam(); return false;">山梨</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="k_ng(); return false;">長野</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="k_gif(); return false;">岐阜</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="k_sz(); return false;">静岡</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="k_aic(); return false;">愛知</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="k_mie(); return false;">三重</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="k_siga(); return false;">滋賀</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="k_kyot(); return false;">京都</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="k_os(); return false;">大阪</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="k_hg(); return false;">兵庫</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="k_nr(); return false;">奈良</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="k_waky(); return false;">和歌山</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="k_tt(); return false;">鳥取</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="k_smn(); return false;">島根</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="k_oky(); return false;">岡山</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="k_hiro(); return false;">広島</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="k_yag(); return false;">山口</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="k_tok(); return false;">徳島</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="k_kagawa(); return false;">香川</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="k_ehi(); return false;">愛媛</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="k_kochi(); return false;">高知</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="k_fukuoka(); return false;">福岡</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="k_saga(); return false;">佐賀</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="k_nags(); return false;">長崎</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="k_kuma(); return false;">熊本</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="k_oita(); return false;">大分</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="k_miyz(); return false;">宮崎</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="k_kagos(); return false;">鹿児島</a></li>
+      <li>
+        <a href="javascript:void(0);" onclick="k_okina(); return false;">沖縄</a></li>
+    </ul>
+
+			<div id ="keihou"></div>
+
 			<hr />
 
 
@@ -1756,10 +1896,8 @@ https://tanganrss.com/rsstxt/regist.php?key=455fb0d89271046d1097acbcc177d949
 							</article>
 
 							<article id="soutei">
-
 					<h2 class="major">ハザードマップ</h2>
-					
-					<span class="image main"><img src="images/hz.jpg" alt="" /></span>
+					<span class="image main"><img src="images/hz.jpg" alt="ハザードマップ" /></span>
 					
 					大雨では川が増水して洪水の被害が起きることがあります。また、土砂崩れなどの災害に見舞われる恐れもあります。
 					想定区域で家の周りの被害を想定しましょう。<br><br>
@@ -1911,6 +2049,48 @@ https://tanganrss.com/rsstxt/regist.php?key=455fb0d89271046d1097acbcc177d949
 					<hr />
 					<i class="fa fa-book" aria-hidden="true"></i> 以下の資料をもとに仁志が加工・編集して作成しました。<br>
 					・<a href="https://disaportal.gsi.go.jp/hazardmap/copyright/opendata.html">ハザードマップポータルサイト</a><br>
+
+							</article>
+
+							<!-- 医療情報 -->
+							<article id="medical">
+								<h2 class="major">医療情報</h2>
+								<span class="image main"><img src="images/medical.jpg" alt="医療情報" /></span>
+								
+								<h2 class="ti">災害時拠点病院</h2>
+																
+								<h2 class="ti">エコノミークラス症候群</h2>
+								
+								<h2 class="ti">ウィルス感染</h2>
+								
+								<h2 class="ti">AEDの使い方</h2>
+								
+								<h2 class="ti">厚生労働省ＲＳＳ配信</h2>
+								<p>厚生労働省のＲＳＳ配信です。</p>
+									<h3 class="point">新着情報</h3>
+									
+									<script id="_tangan_loader_f08e6f5d5b565afb2c0dd45d4d9580c8" src="https://tanganrss.com/rsstxt/loader.php?url=https%3A%2F%2Ftanganrss.com%2Frsstxt%2Frsstxt.php%3Fkey%3Df08e6f5d5b565afb2c0dd45d4d9580c8&id=f08e6f5d5b565afb2c0dd45d4d9580c8&target=" type="text/javascript"></script>
+<!--
+姉妹サービス、複眼RSSを宜しくお願いします。
+http://fukugan.com/
+-->
+<!-- 登録内容の復元URL
+https://tanganrss.com/rsstxt/regist.php?key=f08e6f5d5b565afb2c0dd45d4d9580c8
+-->
+
+									<h3 class="point">新型インフルエンザ対策関連情報</h3>
+									
+									<script id="_tangan_loader_d1d05697abb3c1c54dac73c0b86dde57" src="https://tanganrss.com/rsstxt/loader.php?url=https%3A%2F%2Ftanganrss.com%2Frsstxt%2Frsstxt.php%3Fkey%3Dd1d05697abb3c1c54dac73c0b86dde57&id=d1d05697abb3c1c54dac73c0b86dde57&target=" type="text/javascript"></script>
+<!--
+姉妹サービス、複眼RSSを宜しくお願いします。
+http://fukugan.com/
+-->
+<!-- 登録内容の復元URL
+https://tanganrss.com/rsstxt/regist.php?key=d1d05697abb3c1c54dac73c0b86dde57
+-->
+
+					<hr />
+					<i class="fa fa-book" aria-hidden="true"></i> 以下の資料をもとに仁志が加工・編集して作成しました。<br>
 
 							</article>
 
