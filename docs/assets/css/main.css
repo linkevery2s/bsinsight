@@ -2392,7 +2392,7 @@
 #ke .close{display:none !important;}
 #ke_s .close{display:none !important;}
 
-#type .close, #where .close, #need .close, #guide .close, #tokei .close, #mochidashi .close, #anpi .close, #lisai .close, #help .close, #bsword .close, #mochidashi .close, #calender .close, #nextb .close{display:none !important;}
+#type .close, #where .close, #need .close, #guide .close, #tokei .close, #mochidashi .close, #anpi .close, #lisai .close, #help .close, #bsword .close, #mochidashi .close, #calender .close, #nextb .close, #soutei .close{display:none !important;}
 
 .link{
 				display: block;
@@ -2943,17 +2943,17 @@ z-index: -1;
 }
 
 .exp{
-	//display: inline-block;
-	//border-radius: 100%;
-	//border: solid 1px #ffffff;
+	display: inline-block;
+	border-radius: 5px;
+	border: solid 1px #ffffff;
 	width: 40px;
-	text-align: center;
+	//text-align: center;
 	//margin: 0 5px 0 5px;
 	margin: 0;
-	//padding: 7px 0 7px 0;
+	padding: 8px 0 8px 0;
 	//background-color: rgba(255, 255, 255, 0.3);
 	cursor: pointer;
-	position: absolute;
+	//position: absolute;
 	line-height: 20px;
 	top: 0;
 	right: 0;
@@ -2963,11 +2963,17 @@ z-index: -1;
 	border-bottom: 0;
 }
 
+.exp:hover {
+	background-color: rgba(255, 255, 255, 0.075);
+}
+
 #kens{
 	display: inline-block;
 	text-align: left;
 	width: 220px !important;
 }
+
+
 
 .calendar-title {
   text-align: center;
@@ -3021,8 +3027,12 @@ z-index: -1;
 	
 	}
 
+.word{display: inline-block;}
+
 .wordkensaku{
 	position: relative;
+	text-align: center;
+	width: 250px;
 }
 
 /*audio player*/
