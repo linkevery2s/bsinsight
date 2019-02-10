@@ -2392,7 +2392,7 @@
 #ke .close{display:none !important;}
 #ke_s .close{display:none !important;}
 
-#type .close, #where .close, #need .close, #guide .close, #tokei .close, #mochidashi .close, #anpi .close, #lisai .close, #help .close, #bsword .close, #mochidashi .close, #calender .close, #nextb .close, /*#soutei .close*/{display:none !important;}
+#type .close, #where .close, #need .close, #guide .close, #tokei .close, #mochidashi .close, #anpi .close, #lisai .close, #help .close, #bsword .close, #mochidashi .close, #calender .close, #nextb .close/*, #soutei .close*/{display:none !important;}
 
 .link{
 				display: block;
