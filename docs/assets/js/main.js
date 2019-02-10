@@ -589,22 +589,24 @@ function explorer(){
 	
 	var ktext = document.forms.form1.kens.value;
 	
-	if( ktext = "避難場所が知りたい" ){location.href = "./#refuge";}
-	else if( ktext = "雨雲レーダーを見たい" ){location.href = "./#weather";}
-	else if( ktext = "ハザードマップを見たい" ){location.href = "./#soutei";}
-	else if( ktext = "明日の天気は？" ){location.href = "./#weather";}
-	else if( ktext = "災害情報を知りたい" ){location.href = "./#refuge";}
-	else if( ktext = "災害の種類について学びたい" ){location.href = "./#type";}
-	else if( ktext = "何が必要なの？" ){location.href = "./#need";}
-	else if( ktext = "非常時の持ち出しリストを見たい" ){location.href = "./#mochidashi";}
-	else if( ktext = "子供たちの学習ツールについて知りたい" ){location.href = "./#manabu";}
-	else if( ktext = "医療情報について知りたい" ){location.href = "./#medical";}
-	else if( ktext = "防災用語を学びたい" ){location.href = "./#bsword";}
-	else if( ktext = "安否確認について知りたい" ){location.href = "./#anpi";}
-	else if( ktext = "気象情報を見たい" ){location.href = "./#weather";}
+	if( ktext = "避難場所が知りたい" ){location.href = "./#refuge";ktext = null;}
+	else if( ktext = "雨雲レーダーを見たい" ){location.href = "./#weather";ktext = null;}
+	else if( ktext = "ハザードマップを見たい" ){location.href = "./#soutei";ktext = null;}
+	else if( ktext = "明日の天気は？" ){location.href = "./#weather";ktext = null;}
+	else if( ktext = "災害情報を知りたい" ){location.href = "./#refuge";ktext = null;}
+	else if( ktext = "災害の種類について学びたい" ){location.href = "./#type";ktext = null;}
+	else if( ktext = "何が必要なの？" ){location.href = "./#need";ktext = null;}
+	else if( ktext = "非常時の持ち出しリストを見たい" ){location.href = "./#mochidashi";ktext = null;}
+	else if( ktext = "子供たちの学習ツールについて知りたい" ){location.href = "./#manabu";ktext = null;}
+	else if( ktext = "医療情報について知りたい" ){location.href = "./#medical";ktext = null;}
+	else if( ktext = "防災用語を学びたい" ){location.href = "./#bsword";ktext = null;}
+	else if( ktext = "安否確認について知りたい" ){location.href = "./#anpi";ktext = null;}
+	else if( ktext = "気象情報を見たい" ){location.href = "./#weather";ktext = null;}
 	else{
 	
 	}
+	
+	
 	
 }
 
