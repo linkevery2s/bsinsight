@@ -2351,9 +2351,12 @@ https://tanganrss.com/rsstxt/regist.php?key=d1d05697abb3c1c54dac73c0b86dde57
 
 <h2 class="major">お問い合わせ</h2>
 
-	<ul class="actions">
+	<!--<ul class="actions">
 								<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSf-WMoBJRTdA1bmN_SmQ-bsNGeLs1l737d3c9BUNuErjH-KBw/viewform?usp=sf_link" target="_blank" class="button">お問い合わせ</a></li>
-								</ul>	
+								</ul>	-->
+				<div class ="iframe-wrap">
+				<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf-WMoBJRTdA1bmN_SmQ-bsNGeLs1l737d3c9BUNuErjH-KBw/viewform?embedded=true" width="555" height="520" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます...</iframe>
+				</div>
 
 </article>
 
@@ -2391,6 +2394,11 @@ https://tanganrss.com/rsstxt/regist.php?key=d1d05697abb3c1c54dac73c0b86dde57
 										<li class="word-w"><p class ="word">ccc</p></li>
 										<li class="word-w"><p class ="word">ddd</p></li>
 									</ul>
+									
+									<div id="sample">
+										<ul></ul>
+									</div>
+									
 								</div>
 								<hr />
 								<i class="fa fa-book" aria-hidden="true"></i> 以下の資料をもとに仁志が加工・編集して作成しました。<br>
@@ -2482,7 +2490,9 @@ https://tanganrss.com/rsstxt/regist.php?key=d1d05697abb3c1c54dac73c0b86dde57
 					$('#loader-bg').delay(900).fadeOut(800);
 					$('#loader').delay(600).fadeOut(300);
 				}
-			
+			</script>
+
+			<script>
 				var opt = {
 					valueNames : [ 'word-w', 'word' ]
 				};
@@ -2492,7 +2502,26 @@ https://tanganrss.com/rsstxt/regist.php?key=d1d05697abb3c1c54dac73c0b86dde57
 				audiojs.events.ready(function() {
 					audiojs.createAll();
 				});
-				
+
+			</script>
+
+			<script>
+$(function(){
+    $.ajax({
+        url:'word/sample34.xml',
+        type:'GET',
+        dataType:'xml',
+        timeout:1000,
+        error:function() {
+            
+        },
+        success:function(xml){
+            $(xml).find("sample").each(function() {
+                $("#sample ul").append('<li><a href="' + $(this).find('url').text() +  '" target="_blank">' + $(this).find('title').text() + '</a></li>');
+            });
+        }
+    });
+});
 			</script>
 
 <script type="text/javascript" src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>

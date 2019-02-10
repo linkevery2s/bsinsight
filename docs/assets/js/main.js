@@ -589,8 +589,6 @@ function explorer(){
 	
 	var ktext = document.forms.form1.kens.value;
 	
-	alert(ktext);
-	
 	if( ktext == "避難場所が知りたい" ){location.href = "./#refuge";ktext = null;}
 	else if( ktext == "雨雲レーダーを見たい" ){location.href = "./#weather";ktext = null;}
 	else if( ktext == "ハザードマップを見たい" ){location.href = "./#soutei";ktext = null;}

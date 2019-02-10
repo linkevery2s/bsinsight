@@ -3220,3 +3220,9 @@ z-index: -1;
 .track-details:before {
   content: '♬ Now Playing: ';
 }
+
+/*スマートフォン*/
+.iframe-wrap {
+  //position: relative;
+  width: 100% !important;
+}
