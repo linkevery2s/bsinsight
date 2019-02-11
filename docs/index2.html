@@ -2544,7 +2544,7 @@ $(function(){
         },
         success:function(xml){
             $(xml).find("bsword_list").each(function() {
-                $("#sample ul").append('<li class="word-w"><p class ="word"><a href="' + $(this).find('url').text() +  '" target="_blank">' + $(this).find('title').text() + '</a></p></li>');
+                $("#bsword_list ul").append('<li class="word-w"><p class ="word"><a href="' + $(this).find('url').text() +  '" target="_blank">' + $(this).find('title').text() + '</a></p></li>');
             });
         }
     });
