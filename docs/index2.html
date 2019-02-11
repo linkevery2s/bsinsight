@@ -2422,7 +2422,7 @@ https://tanganrss.com/rsstxt/regist.php?key=d1d05697abb3c1c54dac73c0b86dde57
 										<li class="word-w"><p class ="word">ddd</p></li>
 									</ul>-->
 									
-									<div id="bsword_list">
+									<div id="sample">
 										<ul class ="list"></ul>
 									</div>
 									
@@ -2546,8 +2546,8 @@ $(function(){
             
         },
         success:function(xml){
-            $(xml).find("bsword_list").each(function() {
-                $("#bsword_list ul").append('<li class="word-w"><p class ="word"><a href="' + $(this).find('url').text() +  '" target="_blank">' + $(this).find('title').text() + '</a></p></li>');
+            $(xml).find("sample").each(function() {
+                $("#sample ul").append('<li class="word-w"><p class ="word"><a href="' + $(this).find('url').text() +  '" target="_blank">' + $(this).find('title').text() + '</a></p></li>');
             });
         }
     });
