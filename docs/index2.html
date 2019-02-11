@@ -2389,14 +2389,14 @@ https://tanganrss.com/rsstxt/regist.php?key=d1d05697abb3c1c54dac73c0b86dde57
 									<input type="text" class="search" placeholder="絞り込み検索" />
 
 									<ul class ="list">
-										<li class="word-w"><p class ="word">aaa</p> <p class ="word">ee</p></li>
+										<li class="word-w"><p class ="word">aaa</p></li>
 										<li class="word-w"><p class ="word">bbb</p></li>
 										<li class="word-w"><p class ="word">ccc</p></li>
 										<li class="word-w"><p class ="word">ddd</p></li>
 									</ul>
 									
 									<div id="sample">
-										<ul></ul>
+										<ul class ="list"></ul>
 									</div>
 									
 								</div>
@@ -2517,7 +2517,7 @@ $(function(){
         },
         success:function(xml){
             $(xml).find("sample").each(function() {
-                $("#sample ul").append('<li><a href="' + $(this).find('url').text() +  '" target="_blank">' + $(this).find('title').text() + '</a></li>');
+                $("#sample ul").append('<li class="word-w"><a href="' + $(this).find('url').text() +  '" target="_blank">' + $(this).find('title').text() + '</a></li>');
             });
         }
     });
