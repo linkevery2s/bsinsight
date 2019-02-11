@@ -2410,7 +2410,7 @@ https://tanganrss.com/rsstxt/regist.php?key=d1d05697abb3c1c54dac73c0b86dde57
 								<a href="#" id = "home_back"></a><a href="#manabu" class="link">×</a>
 								<h2 class="major">防災用語集</h2>
 								<span class="image main"><img src="images/bsword.jpg" alt="防災用語集" /></span>
-								<p>防災に関する用語をまとめました。絞り込み検索から簡単に検索できます。</p>
+								<p>防災に関する用語をまとめました。</p>
 								<hr />
 								<div id="listmenu">
 									<input type="text" class="search" placeholder="絞り込み検索" />
@@ -2422,7 +2422,7 @@ https://tanganrss.com/rsstxt/regist.php?key=d1d05697abb3c1c54dac73c0b86dde57
 										<li class="word-w"><p class ="word">ddd</p></li>
 									</ul>-->
 									
-									<div id="sample">
+									<div id="bsword_list">
 										<ul class ="list"></ul>
 									</div>
 									
@@ -2543,7 +2543,7 @@ $(function(){
             
         },
         success:function(xml){
-            $(xml).find("sample").each(function() {
+            $(xml).find("bsword_list").each(function() {
                 $("#sample ul").append('<li class="word-w"><p class ="word"><a href="' + $(this).find('url').text() +  '" target="_blank">' + $(this).find('title').text() + '</a></p></li>');
             });
         }

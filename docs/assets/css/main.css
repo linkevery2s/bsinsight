@@ -3226,3 +3226,7 @@ z-index: -1;
   //position: relative;
   width: 100% !important;
 }
+
+#bsword_list a{
+	border-bottom: none;
+}
