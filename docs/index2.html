@@ -2412,21 +2412,22 @@ https://tanganrss.com/rsstxt/regist.php?key=d1d05697abb3c1c54dac73c0b86dde57
 								<span class="image main"><img src="images/bsword.jpg" alt="防災用語集" /></span>
 								<p>防災に関する用語をまとめました。</p>
 								<hr />
-								<div id="listmenu">
-									<input type="text" class="search" placeholder="絞り込み検索" />
+								<!--<div id="listmenu">
+									<!--<input type="text" class="search" placeholder="絞り込み検索" />
 
-									<!--<ul class ="list">
+									<ul class ="list">
 										<li class="word-w"><p class ="word">aaa</p></li>
 										<li class="word-w"><p class ="word">bbb</p></li>
 										<li class="word-w"><p class ="word">ccc</p></li>
 										<li class="word-w"><p class ="word">ddd</p></li>
 									</ul>-->
 									
-									<div id="sample">
+									<div id="bsword_list">
 										<ul class ="list"></ul>
 									</div>
 									
-								</div>
+								<!--</div>-->
+								
 								<hr />
 								<i class="fa fa-book" aria-hidden="true"></i> 以下の資料をもとに仁志が加工・編集して作成しました。<br>
 								・<a href="http://www.bousai.go.jp/kaigirep/hakusho/h26/" target="_blank">平成26年版 防災白書</a>、内閣府<br>
@@ -2522,7 +2523,7 @@ https://tanganrss.com/rsstxt/regist.php?key=d1d05697abb3c1c54dac73c0b86dde57
 				}
 			</script>
 
-			<script>
+			<!--<script>
 				var opt = {
 					valueNames : [ 'word-w', 'word' ]
 				};
@@ -2533,7 +2534,7 @@ https://tanganrss.com/rsstxt/regist.php?key=d1d05697abb3c1c54dac73c0b86dde57
 					audiojs.createAll();
 				});
 
-			</script>
+			</script>-->
 
 			<script>
 $(function(){
@@ -2546,8 +2547,8 @@ $(function(){
             
         },
         success:function(xml){
-            $(xml).find("sample").each(function() {
-                $("#sample ul").append('<li class="word-w"><p class ="word"><a href="' + $(this).find('url').text() +  '" target="_blank">' + $(this).find('title').text() + '</a></p></li>');
+            $(xml).find("bsword_list").each(function() {
+                $("#bsword_list ul").append('<li class="word-w"><p class ="word"><a href="' + $(this).find('url').text() +  '" target="_blank">' + $(this).find('title').text() + '</a></p></li>');
             });
         }
     });
