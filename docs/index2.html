@@ -425,13 +425,40 @@
 								<a href="#" id = "home_back"></a><a href="#manabu" class="link">×</a>
 								<h2 class="major">調査・報告</h2>
 								<span class="image main"><img src="images/houkoku.jpg" alt="調査・報告" /></span>
+								<p>災害が起きた後、各自治体職員が地域を回り、被害情報の収集に努めます。対策本部に報告し、罹災証明書の発行手続きを進めるためです。</p>
+								<h3 class="point">報告</h3>
+								<p>各自治体が調査に来た際、どんな被害があったのか、報告してください。</p>
 								
-								<p>台風、豪雨による浸水被害、火災などによる住家被害があり、火災保険などを使用する場合、保険会社から罹災証明書の提出が求められる場合があります。お住まいの自治体に問い合わせて、罹災証明書の交付手続きを行いましょう。</p>
+								<p>≪被害の例≫</p>
+								<blockquote>
+								
+								・家屋の被害<br>
+								　瓦が落ちた、床下浸水、雨漏り、トタン屋根が剥がれた、家が傾いた...など。<br><br>
+								・庭、駐車場の被害<br>
+								　庭の木が折れた、車のカーポートが剥がれた、倉庫が崩れ...など。
+								
+								</blockquote>
+								
+								<p>修理や片付けをする前に、写真などで記録に保存しておくことも大切です。各自治体職員に報告する前に修理してしまうと、後になって、罹災証明書を発行できないなどのトラブルが起きる可能性があります。</p>
+								
 								<hr />
 								<h3 class="point">罹災証明書</h3>
+								<p>台風、豪雨による浸水被害、火災などによる住家被害があり、火災保険などを使用する場合、保険会社から罹災証明書の提出が求められる場合があります。お住まいの自治体に問い合わせて、罹災証明書の交付手続きを行いましょう。</p>
 								<div class ="box1">
 								<span>市町村長は、当該市町村の地域に係る災害が発生した場合において、当該災害の被災者から申請があつたときは、遅滞なく、住家の被害その他当該市町村長が定める種類の被害の状況を調査し、罹災証明書（災害による被害の程度を証明する書面）を交付しなければならない。（災害対策基本法第90条の2）</span>
 								</div>
+								<br>
+								<h3 class="point">身の回りの被害状況について</h3>
+								<p>自宅周りの近隣にも被害があれば、各自治体に報告するのが大切です。また、お店の看板が倒れているなどした場合、お店に知らせてあげることも大切です。</p>
+								
+								<p>≪被害の例≫</p>
+								<blockquote>
+								・公共物<br>
+								　電信柱が傾いている、道路にひび割れがある、信号が光っていない、マンホールが隆起している、道路標識が折れている...など。<br><br>
+								・民間の建物<br>
+								　お店の看板が傾いている...など。
+								
+								</blockquote>
 							
 							</article>
 							
@@ -2388,12 +2415,12 @@ https://tanganrss.com/rsstxt/regist.php?key=d1d05697abb3c1c54dac73c0b86dde57
 								<div id="listmenu">
 									<input type="text" class="search" placeholder="絞り込み検索" />
 
-									<ul class ="list">
+									<!--<ul class ="list">
 										<li class="word-w"><p class ="word">aaa</p></li>
 										<li class="word-w"><p class ="word">bbb</p></li>
 										<li class="word-w"><p class ="word">ccc</p></li>
 										<li class="word-w"><p class ="word">ddd</p></li>
-									</ul>
+									</ul>-->
 									
 									<div id="sample">
 										<ul class ="list"></ul>
@@ -2517,7 +2544,7 @@ $(function(){
         },
         success:function(xml){
             $(xml).find("sample").each(function() {
-                $("#sample ul").append('<li class="word-w"><a href="' + $(this).find('url').text() +  '" target="_blank">' + $(this).find('title').text() + '</a></li>');
+                $("#sample ul").append('<li class="word-w"><p class ="word"><a href="' + $(this).find('url').text() +  '" target="_blank">' + $(this).find('title').text() + '</a></p></li>');
             });
         }
     });
