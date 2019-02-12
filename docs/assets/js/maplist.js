@@ -73,9 +73,9 @@ function fs(){
 function ib(){
 	location.href = "#tenki";
 	if(wh > 767){
-	document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/ibaragi.html"></iframe>';
+	document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/ibaraki.html"></iframe>';
 	}else{
-	document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/ibaragi_k.html"></iframe>';
+	document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/ibaraki_k.html"></iframe>';
 	}
 
 }
