@@ -168,9 +168,9 @@
 												<li><a href="#mochidashi" class="button">持ち出しリスト</a></li>
 												<li><a href="#anpi" class="button">安否確認</a></li>
 											</ul>
-											<ul class="actions">
+											<!--<ul class="actions">
 												<li><a href="#medical" class="button">医療情報</a></li>
-											</ul>
+											</ul>-->
 									<br>
 										<h2 class="gaku">帰宅後</h2>
 											<ul class="actions">
@@ -457,7 +457,7 @@
 								　電信柱が傾いている、道路にひび割れがある、信号が光っていない、マンホールが隆起している、道路標識が折れている...など。<br><br>
 								・民間の建物<br>
 								　お店の看板が傾いている...など。
-								
+
 								</blockquote>
 							
 							</article>
@@ -468,6 +468,21 @@
 								<span class="image main"><img src="images/nextb.jpg" alt="双葉" /></span>
 								
 								<p>台風、集中豪雨はたて続けに発生する場合があります。２度、３度と災害が起きると被害が酷くなる場合があります。次の災害に備えて、雨漏りの修復や補強に努めましょう。</p>
+								<h3 class="point">災害の傾向</h3>
+								<p>災害は単発で起きるのではなく、複数の災害がたて続けに起きる傾向にあります。
+								
+								≪複数の災害の例≫</p>
+								<blockquote>
+								・地震が起きた後に津波発生<br><br>
+								・火山噴火後の地震<br><br>
+								・集中豪雨の後に台風が通過し洪水発生
+								
+								</blockquote>
+								
+								<h3 class="point">被害の軽減策</h3>
+								<p></p>
+								
+								
 								
 							</article>
 							
@@ -2064,18 +2079,18 @@ https://tanganrss.com/rsstxt/regist.php?key=455fb0d89271046d1097acbcc177d949
 
 			<div id="dkj_hazard"></div>
 
-					<hr />
+					<!--<hr />
 						<h2 class="ti">浸水・積雪ＡＲ</h2>
 						<p>浸水・積雪ＡＲは自宅が何ｍ浸水する（何ｃｍ積雪する）といった場合にＡＲ機能を用いて、どこの高さまで浸水するか（積雪するか）、見積もる時に使用できます。</p>
 						<ul class="actions">
-							<li><a href="https://linkevery2s.github.io/ssar/" class="button special"><i class="fa fa-camera-retro" aria-hidden="true"></i> 使ってみる</a></li>
+							<li><a href="" class="button special"><i class="fa fa-camera-retro" aria-hidden="true"></i> 使ってみる</a></li>
 						</ul>
 						
 						<h3 class="point">使い方</h3>
 						<blockquote>
 							・あああ<br><br>
 							・いいい
-						</blockquote>
+						</blockquote>-->
 					
 					<hr />
 					<i class="fa fa-book" aria-hidden="true"></i> 以下の資料をもとに仁志が加工・編集して作成しました。<br>
@@ -2335,7 +2350,7 @@ https://tanganrss.com/rsstxt/regist.php?key=d1d05697abb3c1c54dac73c0b86dde57
 					</p>
 					<h2 class="major">更新情報</h2>
 					<p>
-					2019.02.24 アプリバージョンアップ（ver.3）<br><br>
+					2019.02.23 アプリバージョンアップ（ver.3）<br><br>
 					2018.12.29 背景色変更、土石流マップ仕様変更<br><br>
 					2018.10.08 想定区域更新<br><br>
 					2018.10.03 ハザードマップ変更<br><br>
@@ -2412,8 +2427,6 @@ https://tanganrss.com/rsstxt/regist.php?key=d1d05697abb3c1c54dac73c0b86dde57
 								<span class="image main"><img src="images/bsword.jpg" alt="防災用語集" /></span>
 								<p>防災に関する用語をまとめました。</p>
 								<hr />
-								<!--<div id="listmenu">
-									<!--<input type="text" class="search" placeholder="絞り込み検索" />
 
 									<ul class ="list">
 										<li class="word-w"><p class ="word">aaa</p></li>
@@ -2421,12 +2434,7 @@ https://tanganrss.com/rsstxt/regist.php?key=d1d05697abb3c1c54dac73c0b86dde57
 										<li class="word-w"><p class ="word">ccc</p></li>
 										<li class="word-w"><p class ="word">ddd</p></li>
 									</ul>-->
-									
-									<div id="bsword_list">
-										<ul class ="list"></ul>
-									</div>
-									
-								<!--</div>-->
+
 								
 								<hr />
 								<i class="fa fa-book" aria-hidden="true"></i> 以下の資料をもとに仁志が加工・編集して作成しました。<br>
@@ -2495,7 +2503,6 @@ https://tanganrss.com/rsstxt/regist.php?key=d1d05697abb3c1c54dac73c0b86dde57
 			<script src="assets/js/top.js"></script>
 			<script src="assets/js/dhtml.js"></script>
 			<script src="assets/js/maplist.js"></script>
-			<script src="assets/js/list.min.js"></script>
 			<script src="assets/js/media/audio.min.js"></script>
 
 			<script>
@@ -2521,38 +2528,6 @@ https://tanganrss.com/rsstxt/regist.php?key=d1d05697abb3c1c54dac73c0b86dde57
 					$('#loader-bg').delay(900).fadeOut(800);
 					$('#loader').delay(600).fadeOut(300);
 				}
-			</script>
-
-			<!--<script>
-				var opt = {
-					valueNames : [ 'word-w', 'word' ]
-				};
-				
-				var Listx = new List('listmenu', opt);
-				
-				audiojs.events.ready(function() {
-					audiojs.createAll();
-				});
-
-			</script>-->
-
-			<script>
-$(function(){
-    $.ajax({
-        url:'word/sample34.xml',
-        type:'GET',
-        dataType:'xml',
-        timeout:1000,
-        error:function() {
-            
-        },
-        success:function(xml){
-            $(xml).find("bsword_list").each(function() {
-                $("#bsword_list ul").append('<li class="word-w"><a href="' + $(this).find('url').text() +  '" target="_blank">' + $(this).find('title').text() + '</a></li>');
-            });
-        }
-    });
-});
 			</script>
 
 <script type="text/javascript" src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
