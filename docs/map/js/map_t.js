@@ -5,7 +5,7 @@ var todou = new Array(47);var markers = new Array(47); var ido; var keido;
     function map_ini() {
 		map = L.map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
-  		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
+  		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a><br>最終更新日：2019年2月23日'
   		}).addTo(map);
 		map.setView([35.619, 138.466], 5);
 
