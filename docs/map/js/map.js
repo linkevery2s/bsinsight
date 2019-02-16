@@ -3,7 +3,7 @@ var map; var ido; var keido;var todou;var gps_button;var hash;var back_b;
 	function start(){
 		map = L.map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
-  		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
+  		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a><br>最終更新履歴：2019年2月16日'
   		}).addTo(map);
 		hash = new L.Hash(map);
 		back_b = L.easyButton('fa-undo', function(){rn();}).addTo(map);

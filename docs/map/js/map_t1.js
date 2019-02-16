@@ -25,7 +25,7 @@ function map_ini() {
 function map_ini2() {
    map = new L.Map('map');                       
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
-  		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
+  		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a><br>最終更新履歴：2019年2月16日'
   		}).addTo(map);
 
 	para = location.hash;
