@@ -227,6 +227,7 @@ function aic(){
 	}else{
 	document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/aichi_k.html"></iframe>';
 	}
+	document.getElementById("ktinfo").innerHTML = '<script id="_tangan_loader_a20b52ee9e51c044c2884755fd1df268" src="https://tanganrss.com/rsstxt/loader.php?url=https%3A%2F%2Ftanganrss.com%2Frsstxt%2Frsstxt.php%3Fkey%3Da20b52ee9e51c044c2884755fd1df268&id=a20b52ee9e51c044c2884755fd1df268&target=" type="text/javascript"></script>';
 
 }
 
