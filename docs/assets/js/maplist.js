@@ -207,7 +207,7 @@ function gif(){
 	}else{
 	document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/gifu_k.html"></iframe>';
 	}
-
+	document.getElementById("ktinfo").innerHTML = '<script id="_tangan_loader_0acaaae16178d266389154fb46882ac9" src="https://tanganrss.com/rsstxt/loader.php?url=https%3A%2F%2Ftanganrss.com%2Frsstxt%2Frsstxt.php%3Fkey%3D0acaaae16178d266389154fb46882ac9&id=0acaaae16178d266389154fb46882ac9&target=" type="text/javascript"></script>';
 }
 
 function sz(){
@@ -217,6 +217,7 @@ function sz(){
 	}else{
 	document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/shizuoka_k.html"></iframe>';
 	}
+	document.getElementById("ktinfo").innerHTML = '<script id="_tangan_loader_5535e6a8c43dda81441ea4dfc549b58e" src="https://tanganrss.com/rsstxt/loader.php?url=https%3A%2F%2Ftanganrss.com%2Frsstxt%2Frsstxt.php%3Fkey%3D5535e6a8c43dda81441ea4dfc549b58e&id=5535e6a8c43dda81441ea4dfc549b58e&target=" type="text/javascript"></script>';
 
 }
 
@@ -238,6 +239,7 @@ function mie(){
 	}else{
 	document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/mie_k.html"></iframe>';
 	}
+	document.getElementById("ktinfo").innerHTML = '<script id="_tangan_loader_b82bb1d3ceb529e6dcdd8456e33eb8cf" src="https://tanganrss.com/rsstxt/loader.php?url=https%3A%2F%2Ftanganrss.com%2Frsstxt%2Frsstxt.php%3Fkey%3Db82bb1d3ceb529e6dcdd8456e33eb8cf&id=b82bb1d3ceb529e6dcdd8456e33eb8cf&target=" type="text/javascript"></script>';
 
 }
 
