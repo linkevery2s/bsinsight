@@ -1,13 +1,15 @@
 var map; var ido; var keido;var todou;var gps_button;var hash;var back_b;
 
+var lastup = "2019年2月16日";
+
 	function start(){
 		map = L.map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
-  		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a><br>最終更新履歴：2019年2月16日'
+  		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a><br>最終更新履歴：' + lastup
   		}).addTo(map);
 		hash = new L.Hash(map);
-		back_b = L.easyButton('fa-undo', function(){rn();}).addTo(map);
 		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
+		back_b = L.easyButton('fa-undo', function(){rn();}).addTo(map);
 	}
 
     function aichi_ini() {
@@ -37,12 +39,6 @@ var map; var ido; var keido;var todou;var gps_button;var hash;var back_b;
 
     function akita_ini() {
 		start();
-		
-  		
-  	
-		//map.setView([39.529, 140.389], 8);
-
-		
 		todou = L.geoJson(akita, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
 		map.addLayer(todou);
 
@@ -50,12 +46,6 @@ var map; var ido; var keido;var todou;var gps_button;var hash;var back_b;
 
     function miyagi_ini() {
 		start();
-		
-  		
-  	
-		//map.setView([38.505, 140.707], 8);
-
-		
 		todou = L.geoJson(miyagi, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
 		map.addLayer(todou);
 
@@ -63,12 +53,6 @@ var map; var ido; var keido;var todou;var gps_button;var hash;var back_b;
 
     function yamagata_ini() {
 		start();
-		
-  		
-  	
-		//map.setView([38.428, 140.026], 8);
-
-		
 		todou = L.geoJson(yamagata, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
 		map.addLayer(todou);
 
@@ -76,12 +60,6 @@ var map; var ido; var keido;var todou;var gps_button;var hash;var back_b;
 
     function fukushima_ini() {
 		start();
-		
-  		
-  	
-		//map.setView([37.392, 139.883], 8);
-
-		
 		todou = L.geoJson(fukushima, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
 		map.addLayer(todou);
 
@@ -89,12 +67,6 @@ var map; var ido; var keido;var todou;var gps_button;var hash;var back_b;
 
     function nigata_ini() {
 		start();
-		
-  		
-  	
-		//map.setView([37.375, 138.735], 8);
-
-		
 		todou = L.geoJson(nigata, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
 		map.addLayer(todou);
 
@@ -102,12 +74,6 @@ var map; var ido; var keido;var todou;var gps_button;var hash;var back_b;
 
     function tochigi_ini() {
 		start();
-		
-  		
-  	
-		//map.setView([36.673, 139.653], 8);
-
-		
 		todou = L.geoJson(tochigi, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
 		map.addLayer(todou);
 
@@ -115,12 +81,6 @@ var map; var ido; var keido;var todou;var gps_button;var hash;var back_b;
 
     function gunma_ini() {
 		start();
-		
-  		
-  	
-		//map.setView([36.461, 138.950], 8);
-
-		
 		todou = L.geoJson(gunma, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
 		map.addLayer(todou);
 
@@ -128,12 +88,6 @@ var map; var ido; var keido;var todou;var gps_button;var hash;var back_b;
 
     function ibaragi_ini() {
 		start();
-		
-  		
-  	
-		//map.setView([36.271, 140.235], 8);
-
-		
 		todou = L.geoJson(ibaragi, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
 		map.addLayer(todou);
 
@@ -141,12 +95,6 @@ var map; var ido; var keido;var todou;var gps_button;var hash;var back_b;
 
     function tiba_ini() {
 		start();
-		
-  		
-  	
-		//map.setView([35.488, 139.966], 8);
-
-		
 		todou = L.geoJson(tiba, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
 		map.addLayer(todou);
 
@@ -154,12 +102,6 @@ var map; var ido; var keido;var todou;var gps_button;var hash;var back_b;
 
     function saitama_ini() {
 		start();
-		
-  		
-  	
-		//map.setView([35.929, 139.147], 8);
-
-		
 		todou = L.geoJson(saitama, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
 		map.addLayer(todou);
 
@@ -167,12 +109,6 @@ var map; var ido; var keido;var todou;var gps_button;var hash;var back_b;
 
     function tokyo_ini() {
 		start();
-		
-  		
-  	
-		//map.setView([35.595, 139.592], 8);
-
-		
 		todou = L.geoJson(tokyo, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
 		map.addLayer(todou);
 
@@ -180,12 +116,6 @@ var map; var ido; var keido;var todou;var gps_button;var hash;var back_b;
 
     function kanagawa_ini() {
 		start();
-		
-  		
-  	
-		//map.setView([35.3980, 139.3314], 8);
-
-		
 		todou = L.geoJson(kanagawa, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
 		map.addLayer(todou);
 
@@ -193,12 +123,6 @@ var map; var ido; var keido;var todou;var gps_button;var hash;var back_b;
 
     function yamanashi_ini() {
 		start();
-		
-  		
-  	
-		//map.setView([35.532, 138.565], 8);
-
-		
 		todou = L.geoJson(yamanashi, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
 		map.addLayer(todou);
 
@@ -206,12 +130,6 @@ var map; var ido; var keido;var todou;var gps_button;var hash;var back_b;
 
     function nagano_ini() {
 		start();
-		
-  		
-  	
-		//map.setView([35.960, 137.928], 8);
-
-		
 		todou = L.geoJson(nagano, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
 		map.addLayer(todou);
 
@@ -219,12 +137,6 @@ var map; var ido; var keido;var todou;var gps_button;var hash;var back_b;
 
     function shizuoka_ini() {
 		start();
-		
-  		
-  	
-		//map.setView([35.012, 138.214], 8);
-
-		
 		todou = L.geoJson(shizuoka, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
 		map.addLayer(todou);
 
@@ -232,12 +144,6 @@ var map; var ido; var keido;var todou;var gps_button;var hash;var back_b;
 
     function gifu_ini() {
 		start();
-		
-  		
-  	
-		//map.setView([35.724, 136.890], 8);
-
-		
 		todou = L.geoJson(gifu, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
 		map.addLayer(todou);
 
@@ -245,12 +151,6 @@ var map; var ido; var keido;var todou;var gps_button;var hash;var back_b;
 
     function toyama_ini() {
 		start();
-		
-  		
-  	
-		//map.setView([36.624, 137.016], 8);
-
-		
 		todou = L.geoJson(toyama, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
 		map.addLayer(todou);
 
@@ -258,12 +158,6 @@ var map; var ido; var keido;var todou;var gps_button;var hash;var back_b;
 
     function ishikawa_ini() {
 		start();
-		
-  		
-  	
-		//map.setView([36.844, 136.785], 8);
-
-		
 		todou = L.geoJson(ishikawa, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
 		map.addLayer(todou);
 
@@ -271,12 +165,6 @@ var map; var ido; var keido;var todou;var gps_button;var hash;var back_b;
 
     function fukui_ini() {
 		start();
-		
-  		
-  	
-		//map.setView([35.898, 136.192], 8);
-
-		
 		todou = L.geoJson(fukui, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
 		map.addLayer(todou);
 
@@ -284,12 +172,6 @@ var map; var ido; var keido;var todou;var gps_button;var hash;var back_b;
 
     function shiga_ini() {
 		start();
-		
-  		
-  	
-		//map.setView([35.255, 135.950], 8);
-
-		
 		todou = L.geoJson(shiga, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
 		map.addLayer(todou);
 
@@ -297,12 +179,6 @@ var map; var ido; var keido;var todou;var gps_button;var hash;var back_b;
 
     function mie_ini() {
 		start();
-		
-  		
-  	
-		//map.setView([34.606, 136.225], 8);
-
-		
 		todou = L.geoJson(mie, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
 		map.addLayer(todou);
 
@@ -310,12 +186,6 @@ var map; var ido; var keido;var todou;var gps_button;var hash;var back_b;
 
     function kyoto_ini() {
 		start();
-		
-  		
-  	
-		//map.setView([35.156, 135.368], 8);
-
-		
 		todou = L.geoJson(kyoto, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
 		map.addLayer(todou);
 
@@ -323,12 +193,6 @@ var map; var ido; var keido;var todou;var gps_button;var hash;var back_b;
 
     function osaka_ini() {
 		start();
-		
-  		
-  	
-		//map.setView([34.692, 135.511], 8);
-
-		
 		todou = L.geoJson(osaka, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
 		map.addLayer(todou);
 
@@ -336,12 +200,6 @@ var map; var ido; var keido;var todou;var gps_button;var hash;var back_b;
 
     function nara_ini() {
 		start();
-		
-  		
-  	
-		//map.setView([34.207, 135.818], 8);
-
-		
 		todou = L.geoJson(nara, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
 		map.addLayer(todou);
 
@@ -349,12 +207,6 @@ var map; var ido; var keido;var todou;var gps_button;var hash;var back_b;
 
     function wakayama_ini() {
 		start();
-		
-  		
-  	
-		//map.setView([33.975, 135.368], 8);
-
-		
 		todou = L.geoJson(wakayama, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
 		map.addLayer(todou);
 
@@ -362,12 +214,6 @@ var map; var ido; var keido;var todou;var gps_button;var hash;var back_b;
 
     function hyogo_ini() {
 		start();
-		
-  		
-  	
-		//map.setView([35.043, 134.484], 8);
-
-		
 		todou = L.geoJson(hyogo, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
 		map.addLayer(todou);
 
@@ -375,12 +221,6 @@ var map; var ido; var keido;var todou;var gps_button;var hash;var back_b;
 
     function tottori_ini() {
 		start();
-		
-  		
-  	
-		//map.setView([35.313, 133.786], 8);
-
-		
 		todou = L.geoJson(tottori, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
 		map.addLayer(todou);
 
@@ -388,12 +228,6 @@ var map; var ido; var keido;var todou;var gps_button;var hash;var back_b;
 
     function okayama_ini() {
 		start();
-		
-  		
-  	
-		//map.setView([34.940, 133.550], 8);
-
-		
 		todou = L.geoJson(okayama, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
 		map.addLayer(todou);
 
@@ -401,12 +235,6 @@ var map; var ido; var keido;var todou;var gps_button;var hash;var back_b;
 
     function shimane_ini() {
 		start();
-		
-  		
-  	
-		//map.setView([34.854, 132.347], 8);
-
-		
 		todou = L.geoJson(shimane, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
 		map.addLayer(todou);
 
@@ -414,12 +242,6 @@ var map; var ido; var keido;var todou;var gps_button;var hash;var back_b;
 
     function hiroshima_ini() {
 		start();
-		
-  		
-  	
-		//map.setView([34.556, 132.512], 8);
-
-		
 		todou = L.geoJson(hiroshima, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
 		map.addLayer(todou);
 
@@ -427,12 +249,6 @@ var map; var ido; var keido;var todou;var gps_button;var hash;var back_b;
 
     function yamaguchi_ini() {
 		start();
-		
-  		
-  	
-		//map.setView([34.207, 131.550], 8);
-
-		
 		todou = L.geoJson(yamaguchi, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
 		map.addLayer(todou);
 
@@ -440,12 +256,6 @@ var map; var ido; var keido;var todou;var gps_button;var hash;var back_b;
 
     function kagawa_ini() {
 		start();
-		
-  		
-  	
-		//map.setView([34.057, 133.726], 8);
-
-		
 		todou = L.geoJson(kagawa, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
 		map.addLayer(todou);
 
@@ -453,12 +263,6 @@ var map; var ido; var keido;var todou;var gps_button;var hash;var back_b;
 
     function tokushima_ini() {
 		start();
-		
-  		
-  	
-		//map.setView([33.852, 133.923], 8);
-
-		
 		todou = L.geoJson(tokushima, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
 		map.addLayer(todou);
 
@@ -466,12 +270,6 @@ var map; var ido; var keido;var todou;var gps_button;var hash;var back_b;
 
     function ehime_ini() {
 		start();
-		
-  		
-  	
-		//map.setView([33.679, 132.764], 8);
-
-		
 		todou = L.geoJson(ehime, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
 		map.addLayer(todou);
 
@@ -479,12 +277,6 @@ var map; var ido; var keido;var todou;var gps_button;var hash;var back_b;
 
     function kochi_ini() {
 		start();
-		
-  		
-  	
-		//map.setView([33.390, 133.259], 8);
-
-		
 		todou = L.geoJson(kochi, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
 		map.addLayer(todou);
 
@@ -492,12 +284,6 @@ var map; var ido; var keido;var todou;var gps_button;var hash;var back_b;
 
     function fukuoka_ini() {
 		start();
-		
-  		
-  	
-		//map.setView([33.431, 130.583], 8);
-
-		
 		todou = L.geoJson(fukuoka, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
 		map.addLayer(todou);
 
@@ -505,12 +291,6 @@ var map; var ido; var keido;var todou;var gps_button;var hash;var back_b;
 
     function saga_ini() {
 		start();
-		
-  		
-  	
-		//map.setView([33.170, 130.073], 8);
-
-		
 		todou = L.geoJson(saga, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
 		map.addLayer(todou);
 
@@ -518,12 +298,6 @@ var map; var ido; var keido;var todou;var gps_button;var hash;var back_b;
 
 function oita_ini() {
 		start();
-		
-  		
-  	
-		//map.setView([33.128, 131.083], 8);
-
-		
 		todou = L.geoJson(oita, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
 		map.addLayer(todou);
 
@@ -532,12 +306,6 @@ function oita_ini() {
 
     function nagasaki_ini() {
 		start();
-		
-  		
-  	
-		//map.setView([32.875, 129.661], 8);
-
-		
 		todou = L.geoJson(nagasaki, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
 		map.addLayer(todou);
 
@@ -545,12 +313,6 @@ function oita_ini() {
 
     function kumamoto_ini() {
 		start();
-		
-  		
-  	
-		//map.setView([32.426, 130.759], 8);
-
-		
 		todou = L.geoJson(kumamoto, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
 		map.addLayer(todou);
 
@@ -558,12 +320,6 @@ function oita_ini() {
 
     function miyazaki_ini() {
 		start();
-		
-  		
-  	
-		//map.setView([32.213, 131.188], 8);
-
-		
 		todou = L.geoJson(miyazaki, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
 		map.addLayer(todou);
 
@@ -571,12 +327,6 @@ function oita_ini() {
 
     function kagoshima_ini() {
 		start();
-		
-  		
-  	
-		//map.setView([31.541, 130.715], 8);
-
-		
 		todou = L.geoJson(kagoshima, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
 		map.addLayer(todou);
 
@@ -584,12 +334,6 @@ function oita_ini() {
 
     function okinawa_ini() {
 		start();
-		
-  		
-  	
-		//map.setView([26.436, 127.996], 8);
-
-		
 		todou = L.geoJson(okinawa, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
 		map.addLayer(todou);
 
