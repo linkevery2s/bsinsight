@@ -1,6 +1,7 @@
 var map;var p;var zoom;var hash;var url;var number;var marker; var markers = []; var gps_button; var hinanj;var geok;var cloud;
 var todou = new Array(47);var markers = new Array(47); var ido; var keido;var para; var par;
 
+var lastup = "2019年2月16日";
 
 function map_ini() {
    map = new L.Map('map');                       
@@ -25,7 +26,7 @@ function map_ini() {
 function map_ini2() {
    map = new L.Map('map');                       
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
-  		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a><br>最終更新履歴：2019年2月16日'
+  		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a><br>最終更新履歴：' + lastup
   		}).addTo(map);
 
 	para = location.hash;
