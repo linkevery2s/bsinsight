@@ -4,8 +4,8 @@ var todou ;var ido; var keido; var hash;
 
 	function start(){
 		map = L.map('map');
-		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
-  		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
+		L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  		attribution: '&copy; <a href="http://osm.org/copyright" target="_blank">OpenStreetMap</a> contributors'
   		}).addTo(map);
   		hash = new L.Hash(map);
 		var back_b = L.easyButton('fa-undo', function(){rn();}).addTo(map);
