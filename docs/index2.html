@@ -485,7 +485,7 @@
 							
 							<!-- type -->
 							<article id="type">
-								<span id ="media_guide"><audio src="vc/test.mp3" preload="auto"></audio></span>
+								<!--<span id ="media_guide"><audio src="vc/test.mp3" preload="auto"></audio></span>-->
 								<a href="#" id = "home_back"></a><a href="#manabu" class="link">×</a>
 								<h2 class="major">災害の種類</h2>
 								<span class="image main"><img src="images/type.jpg" alt="災害の種類" /></span>
@@ -1932,9 +1932,9 @@ http://fukugan.com/
 <!-- 登録内容の復元URL
 https://tanganrss.com/rsstxt/regist.php?key=455fb0d89271046d1097acbcc177d949
 -->
-							<hr />
+							<!--<hr />
 							<i class="fa fa-book" aria-hidden="true"></i> 以下の資料をもとに仁志が加工・編集して作成しました。<br>
-							・<a href ="http://weather.livedoor.com/weather_hacks/">Weather Hacks（livedoor）</a>
+							・<a href ="http://weather.livedoor.com/weather_hacks/">Weather Hacks（livedoor）</a>-->
 							
 							</article>
 
@@ -2078,19 +2078,6 @@ https://tanganrss.com/rsstxt/regist.php?key=455fb0d89271046d1097acbcc177d949
 
 			<div id="dkj_hazard"></div>
 
-					<!--<hr />
-						<h2 class="ti">浸水・積雪ＡＲ</h2>
-						<p>浸水・積雪ＡＲは自宅が何ｍ浸水する（何ｃｍ積雪する）といった場合にＡＲ機能を用いて、どこの高さまで浸水するか（積雪するか）、見積もる時に使用できます。</p>
-						<ul class="actions">
-							<li><a href="" class="button special"><i class="fa fa-camera-retro" aria-hidden="true"></i> 使ってみる</a></li>
-						</ul>
-						
-						<h3 class="point">使い方</h3>
-						<blockquote>
-							・あああ<br><br>
-							・いいい
-						</blockquote>-->
-					
 					<hr />
 					<i class="fa fa-book" aria-hidden="true"></i> 以下の資料をもとに仁志が加工・編集して作成しました。<br>
 					・<a href="https://disaportal.gsi.go.jp/hazardmap/copyright/opendata.html">ハザードマップポータルサイト</a><br>
@@ -2530,6 +2517,12 @@ https://tanganrss.com/rsstxt/regist.php?key=d1d05697abb3c1c54dac73c0b86dde57
 					$('#loader-bg').delay(900).fadeOut(800);
 					$('#loader').delay(600).fadeOut(300);
 				}
+			</script>
+			
+			<script>
+				audiojs.events.ready(function() {
+					audiojs.createAll();
+				});
 			</script>
 
 <script type="text/javascript" src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
