@@ -1,7 +1,7 @@
 var map;var p;var zoom;var hash;var url;var number;var marker; var markers = []; var gps_button; var hinanj;var geok;var cloud;
 var todou = new Array(47);var markers = new Array(47); var ido; var keido;var para; var par;
 
-var lastup = "2019年2月16日";
+var lastup = "2019年2月24日";
 
 	function start(){
 		map = L.map('map');
@@ -109,9 +109,9 @@ function map_ini2() {
 
 	}
 
-    function ibaragi_ini() {
+    function ibaraki_ini() {
 		start();
-		todou = L.geoJson(ibaragi, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
+		todou = L.geoJson(ibaraki, {style: sty,onEachFeature: geo_k, pointToLayer: iro});
 		map.addLayer(todou);
 
 	}
@@ -476,7 +476,7 @@ function todou_ini(){
 		todou[4] = L.geoJson(akita, {style: sty,onEachFeature: geo_m,pointToLayer: iro});
 		todou[5] = L.geoJson(yamagata, {style: sty,onEachFeature: geo_m,pointToLayer: iro});
 		todou[6] = L.geoJson(fukushima, {style: sty,onEachFeature: geo_m,pointToLayer: iro});
-		todou[7] = L.geoJson(ibaragi, {style: sty,onEachFeature: geo_m,pointToLayer: iro});
+		todou[7] = L.geoJson(ibaraki, {style: sty,onEachFeature: geo_m,pointToLayer: iro});
 		todou[8] = L.geoJson(tochigi, {style: sty,onEachFeature: geo_m,pointToLayer: iro});
 		todou[9] = L.geoJson(gunma, {style: sty,onEachFeature: geo_m,pointToLayer: iro});
 		todou[10] = L.geoJson(saitama, {style: sty,onEachFeature: geo_m,pointToLayer: iro});

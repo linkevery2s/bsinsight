@@ -192,7 +192,7 @@ function rn(){
 		};
 		L.control.layers(baseMaps).addTo(map);	}
 
-    function ibaragi_ini() {
+    function ibaraki_ini() {
 		start();//map.setView([36.271, 140.235], 8);
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/08/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/08/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
