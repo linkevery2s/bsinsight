@@ -2392,7 +2392,7 @@
 #ke .close{display:none !important;}
 #ke_s .close{display:none !important;}
 
-#type .close, #where .close, #need .close, #guide .close, #tokei .close, #mochidashi .close, #anpi .close, #lisai .close, #help .close, #bsword .close, #mochidashi .close, #calender .close, #nextb .close, #bsword_w .close, #soutei .close, #ssar .close{display:none !important;}
+#type .close, #where .close, #need .close, #guide .close, #tokei .close, #mochidashi .close, #anpi .close, #lisai .close, #help .close, #bsword .close, #mochidashi .close, #calender .close, #nextb .close, #bsword_w .close, #soutei .close, #ssar .close, #help .close{display:none !important;}
 
 .link{
 				display: block;
@@ -3230,41 +3230,3 @@ z-index: -1;
 #bsword_list a{
 	border-bottom: none;
 }
-
-
-.hexagon {
-	display: inline-block;
-  position: relative;
-  width: 20px; 
-  height: 11.55px;
-  background-color: #ff8000;
-  margin: 5.77px 0;
-}
-
-.hexagon:before,
-.hexagon:after {
-  content: "";
-  position: absolute;
-  width: 0;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-}
-
-.hexagon:before {
-  bottom: 100%;
-  border-bottom: 5.77px solid #ff8000;
-}
-
-.hexagon:after {
-  top: 100%;
-  width: 0;
-  border-top: 5.77px solid #ff8000;
-}
-
-.iryou{
- display: inline-block;
-
-  border-bottom: dotted 2px #ffffff;
-  left: 50px;
-}
-

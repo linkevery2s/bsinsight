@@ -157,13 +157,15 @@
 												<li><a href="#mochidashi" class="button">持ち出しリスト</a></li>
 												<li><a href="#anpi" class="button">安否確認</a></li>
 											</ul>
+											<ul class="actions">
+												<li><a href="#help" class="button">救出・援護</a></li>
+											</ul>
 											<!--<ul class="actions">
 												<li><a href="#medical" class="button">医療情報</a></li>
 											</ul>-->
 									<br>
 										<h2 class="gaku">帰宅後</h2>
 											<ul class="actions">
-												<!--<li><a href="#ke_s" class="button">救出・援護</a></li>-->
 												<li><a href="#lisai" class="button">調査・報告</a></li>
 											</ul>
 									<br>
@@ -389,6 +391,21 @@
 								災害時には、必ずしも家族と一緒にいるとは限りません。別々に避難することも十分考えられます。こういった時に「安否確認」が必要になります。日頃からどのように確認し合うのか、学校や職場の連絡先も共有することが大切です。
 								
 								<hr />
+								<h3 class="point">帰宅困難者</h3>
+								
+								≪帰宅の判断≫<br>
+								<blockquote>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 遠距離を無理に帰宅しようとすると、却って二次災害を引き起こす恐れがある。 むやみに移動しない。<br><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 家族の安否確認を行う。<br><br>
+								</blockquote>
+								≪帰宅方法≫<br>
+								<blockquote>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 地震が起きると普段通っている道路も通行困難になる。普段から自分で帰宅ルートを歩くなどして、道路の状況を確認しておく。<br><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 夜は特に足下が見えにくく危険！特に自宅まで遠距離の人は時間帯も考えて行動する。<br><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 災害時には、情報提供などを行う帰宅困難者支援施設として、学校や公共施設、コンビニエンスストア、ガソリンスタンドなどが指定されるケースが増えている。これらの施設も併せて確認しておく。
+								</blockquote>
+
+								<hr />
 								<h3 class="point">「災害用伝言ダイヤル171」</h3>
 								阪神・淡路大震災の時は、停電の影響等から約30万回線が不通になりました。また、全国から神戸方面に通常ピーク時の50倍程度の通話が集中し、電話がつながりにくくなりました。<br><br>
 							
@@ -406,8 +423,7 @@
 								<hr />
 								<i class="fa fa-book" aria-hidden="true"></i> 以下の資料をもとに仁志が加工・編集して作成しました。<br>
 								・<a href="http://www.fdma.go.jp/syobodan/bousai/" target="_blank">わたしの防災サバイバル手帳</a>、消防庁<br>
-
-
+								・<a href="http://www.fdma.go.jp/bousai_manual/" target="_blank">防災マニュアル</a>、消防庁<br>
 							</article>
 
 							<article id="lisai">
@@ -877,10 +893,6 @@
 										<li><a href="#hh_s" class="button" onclick="start44();">避難の判断</a></li>
 										<li><a href="#hk_s" class="button" onclick="start45();">避難の行動</a></li>
 								</ul>
-								<ul class="actions">
-										<li><a href="#kk_s" class="button" onclick="start46();">帰宅困難者</a></li>
-										<li><a href="#ke_s" class="button" onclick="start47();">救出・援護</a></li>
-								</ul>								
 								</div>
 								
 								<p>
@@ -1424,32 +1436,48 @@
 								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 最寄りの避難所、避難場所に避難する。</div>
 								</article>
 
-								<article id="kk_s"><a href="#where" class="link">×</a>
-								<h2 class="ti">帰宅困難者</h2>
-								<img src="images/anpi.jpg" width="100%"><br><br>
-								<div id="theory21">
-								帰宅の判断<br>
-								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 遠距離を無理に帰宅しようとすると、却って二次災害を引き起こす恐れがある。 むやみに移動しない。<br><br>
-								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 家族の安否確認を行う。<br><br>
-								帰宅方法<br>
-								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 地震が起きると普段通っている道路も通行困難になる。普段から自分で帰宅ルートを歩くなどして、道路の状況を確認しておく。<br><br>
-								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 夜は特に足下が見えにくく危険！特に自宅まで遠距離の人は時間帯も考えて行動する。<br><br>
-								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 災害時には、情報提供などを行う帰宅困難者支援施設として、学校や公共施設、コンビニエンスストア、ガソリンスタンドなどが指定されるケースが増えている。これらの施設も併せて確認しておく。</div>
-								</article>
-
+								<article id="help">
+								<a href="#" id = "home_back"></a><a href="#manabu" class="link">×</a>
+								<h2 class="major">救出・援護</h2>
+								<span class="image main"><img src="images/help.jpg" width="100%"></span>
+								<p>災害においては、必ずしも全員が無事に逃げられるとは限りません。早朝・深夜に災害が起きて、逃げ遅れてしまったり、洪水が発生し、家に孤立してしまうことも想定されます。助けを求めたり、救出・援護を行うことも大切です。
+								</p>
 								
-								<article id="ke_s"><a href="#where" class="link">×</a>
-								<h2 class="ti">救出・援護</h2>
-								<img src="images/help.jpg" width="100%"><br><br>
-								<div id="theory21">
-								初期消火<br>
+								<hr />
+								<h3 class="point">助けを求めるとき</h3>
+								<p>洪水が発生し、家の中に孤立したとき、救助隊に助けを求める必要があります。以下を参考にしてください。</p>
+								<blockquote>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> シーツ、カーテン、バスタオルなど大きな布を屋根やベランダへ掲げる。救助隊の目印になる。<br><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 声を出してもかき消されて聞こえない可能性がある。タオル、洋服など目立つ色のものを大きく振って、助けを求める。<br><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 外からは家の中の状況が分からないため、油性ペンで上記の大きな布に「けが人あり」「子供います」「９０代１人動けません」など、簡潔に書いておくと有効。<br><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> ゴミ袋、レジャーシートは雨よけ、保温になるので、日頃から確保しておく。<br><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 救助の際に洋服や腕に「名前、連絡先、持病」を書いておく。優先的に救助されて離れたときに安心。<br><br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> お薬、お薬手帳を持っておく。
+								
+								</blockquote>
+								
+								<hr />
+								<h3 class="point">初期消火</h3>
+								<blockquote>
 								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 火災になった場合は、周りの人に大きな声で助けを求めるとともに、手近にある消火器などで初期消火を行う。<br><br>
 								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 初期消火ができず天井まで火が広がってしまったら、自分や他の住人の安全を確保するとともに、消防隊や消防団へ助けを求める。<br><br>
-								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 消防隊が到着するまで、近所の人たちや自主防災組織の人などと協力して、近隣の住民（特に子供や高齢者などの要援護者）の避難を確認し、バケツリレーなど火災の延焼阻止を試みる。<br><br>
-								救出・救護活動<br>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 消防隊が到着するまで、近所の人たちや自主防災組織の人などと協力して、近隣の住民（特に子供や高齢者などの要援護者）の避難を確認し、バケツリレーなど火災の延焼阻止を試みる。
+								</blockquote>
+								
+								<hr />
+								<h3 class="point">救出・救護活動</h3>
+								<blockquote>
 								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 災害が大きくなると、負傷者が多くなり、また道路が通行困難となっているために消防署などによる救出活動が間に合わない場合がある。軽いケガなどの処置は、みんながお互いに協力し合って応急救護を行う。<br><br>
-								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 建物の倒壊や落下物などの下敷きになった人がいたら、意識があるかどうかを確認し、声をかける。救出活動には危険が伴う場合があるため、複数で協力して行う。</div>
+								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 建物の倒壊や落下物などの下敷きになった人がいたら、意識があるかどうかを確認し、声をかける。救出活動には危険が伴う場合があるため、複数で協力して行う。
+								</blockquote>
+								
+								<hr />
+									<i class="fa fa-book" aria-hidden="true"></i> 以下の資料をもとに仁志が加工・編集して作成しました。<br>
+									・<a href="http://www.fdma.go.jp/bousai_manual/" target="_blank">防災マニュアル</a>、消防庁<br>
+									・<a href="http://www.fdma.go.jp/syobodan/bousai/" target="_blank">わたしの防災サバイバル手帳</a>、消防庁								
+
 								</article>
+								
 
 							<!-- need -->
 							<article id="need">
@@ -1800,10 +1828,10 @@ https://tanganrss.com/rsstxt/regist.php?key=c36647cdb31407e3b1fc47b34e71e1d5
 
 			<div id ="tenki"></div>
 			
-			<div id = "ktinfo"></div>
+<hr />
+<h2 class="ti">温度マップ</h2>
 
-<script src='https://darksky.net/map-embed/@temperature,39.028,-221.572,5.js?embed=true&timeControl=true&fieldControl=true&defaultField=temperature&defaultUnits=_c'></script>
-
+<script src='https://darksky.net/map-embed/@temperature,38.617,-224.077,5.js?embed=true&timeControl=true&fieldControl=false&defaultField=temperature&defaultUnits=_c'></script>
 			<!--<hr />
 
 						<h2 class="ti">警報・注意報</h2>
@@ -2346,6 +2374,7 @@ https://tanganrss.com/rsstxt/regist.php?key=d1d05697abb3c1c54dac73c0b86dde57
 					</p>
 					<h2 class="major">更新情報</h2>
 					<p>
+					2019.03.03 温度マップ搭載、救出・援護追加、安否確認に帰宅困難者追加<br><br>
 					2019.02.24 アプリバージョンアップ（ver.3）<br>
 					検索キーワード機能、災害情報、天気予報、AR機能追加、持ち出しリスト仕様変更<br><br>
 					2018.12.29 背景色変更、土石流マップ仕様変更<br><br>
@@ -2468,7 +2497,7 @@ https://tanganrss.com/rsstxt/regist.php?key=d1d05697abb3c1c54dac73c0b86dde57
 									<li><a href="#rss" class="icon fa-rss-square"><span class="label">更新情報</span></a></li>
 								</ul>
 
-						<p class="copyright"><i class="fa fa-copyright" aria-hidden="true"></i> 仁志. Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a>. ver 3.0</p>
+						<p class="copyright"><i class="fa fa-copyright" aria-hidden="true"></i> 仁志. Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a>. ver 3.1</p>
 					</footer>
 
 			</div><!-- wrapper -->
