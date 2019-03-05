@@ -2551,9 +2551,7 @@
 }
 
 @media (max-width: 767px) {
-	#map{width: 100% !important;}
 	#yout{width: 100% !important;}
-	#tempif{width: 313px !important;}
 }
 
 #map a{border-bottom: none !important;}
@@ -2664,8 +2662,14 @@ margin-bottom: 15px;
     right:-10px;
 }
 
-@media (max-width: 767px) { #map{width: 525px !important;} }
-@media (max-width: 480px) { #map{width: 303px !important;} }
+@media (max-width: 767px) { 
+#map{width: 525px !important;} 
+#tempif{width: 525px !important;}
+}
+@media (max-width: 480px) { 
+#map{width: 303px !important;}
+#tempif{width: 303px !important;}
+}
 
 
 .des1{
