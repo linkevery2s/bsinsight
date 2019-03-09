@@ -2392,7 +2392,7 @@
 #ke .close{display:none !important;}
 #ke_s .close{display:none !important;}
 
-#type .close, #where .close, #need .close, #guide .close, #tokei .close, #mochidashi .close, #anpi .close, #lisai .close, #help .close, #bsword .close, #mochidashi .close, #calender .close, #nextb .close, #bsword_w .close, #soutei .close, #ssar .close, #help .close{display:none !important;}
+#type .close, #where .close, #need .close, #guide .close, #tokei .close, #mochidashi .close, #anpi .close, #lisai .close, #help .close, #bsword .close, #mochidashi .close, #calender .close, #nextb .close, #bsword_w .close, #soutei .close, #ssar .close, #help .close, #medical .close{display:none !important;}
 
 .link{
 				display: block;
@@ -3234,4 +3234,23 @@ z-index: -1;
 
 #bsword_list a{
 	border-bottom: none;
+}
+
+h2.iryou{
+position: relative;
+padding: .5em .5em .1em 1.7em;
+display: inline-block;
+border-bottom: 1px solid #FF6600;
+}
+h2.iryou::after {
+  position: absolute;
+  top: .9em;
+  left: .4em;
+  z-index: 2;
+  content: '';
+  width: 12px;
+  height: 12px;
+  background-color: #FF6600;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
 }

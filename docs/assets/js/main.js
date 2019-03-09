@@ -414,6 +414,11 @@ $("#th").hide();
 $("#ds").hide();
 $("#eq").hide();
 
+$("#skb").hide();
+$("#hins").hide();
+$("#aed").hide();
+$("#hmark").hide();
+
 def();
 
 var os, ua = navigator.userAgent;
@@ -464,6 +469,34 @@ $("#tn").hide();
 $("#eq").hide();
 $("#th").hide();
 $("#ds").show();
+}
+
+function sk(){
+$("#skb").show();
+$("#hins").hide();
+$("#aed").hide();
+$("#hmark").hide();
+}
+
+function hs(){
+$("#skb").hide();
+$("#hins").show();
+$("#aed").hide();
+$("#hmark").hide();
+}
+
+function at(){
+$("#skb").hide();
+$("#hins").hide();
+$("#aed").show();
+$("#hmark").hide();
+}
+
+function hm(){
+$("#skb").hide();
+$("#hins").hide();
+$("#aed").hide();
+$("#hmark").show();
 }
 
 var url = "https://linkevery2s.github.io/bsinsight/";
@@ -573,7 +606,7 @@ $(function(){
     "何が必要なの？",
     "非常時の持ち出しリストを見たい",
     "子供たちの学習ツールについて知りたい",
-    //"医療情報について知りたい",
+    "医療情報について知りたい",
     //"防災用語を学びたい",
     "安否確認について知りたい",
     "気象情報を見たい"

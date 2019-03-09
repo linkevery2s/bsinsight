@@ -1,7 +1,7 @@
 var wh;
 wh = window.outerWidth;
 function hok(){
-	location.href = "#tenki";
+	
 	if(wh > 767){
 	document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/hokkaido.html"></iframe>';
 	}else{
@@ -11,7 +11,7 @@ function hok(){
 }
 
 function ao(){
-	location.href = "#tenki";
+	
 	if(wh > 767){
 	document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/aomori.html"></iframe>';
 	}else{
@@ -21,7 +21,7 @@ function ao(){
 }
 
 function ak(){
-	location.href = "#tenki";
+	
 	if(wh > 767){
 	document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/akita.html"></iframe>';
 	}else{
@@ -31,7 +31,7 @@ function ak(){
 }
 
 function iw(){
-	location.href = "#tenki";
+	
 	if(wh > 767){
 	document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/iwate.html"></iframe>';
 	}else{
@@ -41,7 +41,7 @@ function iw(){
 }
 
 function my(){
-	location.href = "#tenki";
+	
 	if(wh > 767){
 	document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/miyagi.html"></iframe>';
 	}else{
@@ -51,7 +51,7 @@ function my(){
 }
 
 function yg(){
-	location.href = "#tenki";
+	
 	if(wh > 767){
 	document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/yamagata.html"></iframe>';
 	}else{
@@ -61,7 +61,7 @@ function yg(){
 }
 
 function fs(){
-	location.href = "#tenki";
+	
 	if(wh > 767){
 	document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/fukushima.html"></iframe>';
 	}else{
@@ -71,7 +71,7 @@ function fs(){
 }
 
 function ib(){
-	location.href = "#tenki";
+	
 	if(wh > 767){
 	document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/ibaraki.html"></iframe>';
 	}else{
@@ -81,7 +81,7 @@ function ib(){
 }
 
 function to(){
-	location.href = "#tenki";
+	
 	if(wh > 767){
 	document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/tochigi.html"></iframe>';
 	}else{
@@ -91,7 +91,7 @@ function to(){
 }
 
 function gu(){
-	location.href = "#tenki";
+	
 	if(wh > 767){
 	document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/gunma.html"></iframe>';
 	}else{
@@ -101,7 +101,7 @@ function gu(){
 }
 
 function si(){
-	location.href = "#tenki";
+	
 	if(wh > 767){
 	document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/saitama.html"></iframe>';
 	}else{
@@ -111,7 +111,7 @@ function si(){
 }
 
 function tb(){
-	location.href = "#tenki";
+	
 	if(wh > 767){
 	document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/tiba.html"></iframe>';
 	}else{
@@ -121,7 +121,7 @@ function tb(){
 }
 
 function tk(){
-	location.href = "#tenki";
+	
 	if(wh > 767){
 	document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/tokyo.html"></iframe>';
 	}else{
@@ -131,7 +131,7 @@ function tk(){
 }
 
 function kg(){
-	location.href = "#tenki";
+	
 	if(wh > 767){
 	document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/kanagawa.html"></iframe>';
 	}else{
@@ -141,7 +141,7 @@ function kg(){
 }
 
 function ni(){
-	location.href = "#tenki";
+	
 	if(wh > 767){
 	document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/nigata.html"></iframe>';
 	}else{
@@ -151,7 +151,7 @@ function ni(){
 }
 
 function toyama(){
-	location.href = "#tenki";
+	
 	if(wh > 767){
 	document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/toyama.html"></iframe>';
 	}else{
@@ -161,7 +161,7 @@ function toyama(){
 }
 
 function is(){
-	location.href = "#tenki";
+	
 	if(wh > 767){
 	document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/ishikawa.html"></iframe>';
 	}else{
@@ -171,7 +171,7 @@ function is(){
 }
 
 function fukui(){
-	location.href = "#tenki";
+	
 	if(wh > 767){
 	document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/fukui.html"></iframe>';
 	}else{
@@ -181,7 +181,7 @@ function fukui(){
 }
 
 function yam(){
-	location.href = "#tenki";
+	
 	if(wh > 767){
 	document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/yamanashi.html"></iframe>';
 	}else{
@@ -191,7 +191,7 @@ function yam(){
 }
 
 function ng(){
-	location.href = "#tenki";
+	
 	if(wh > 767){
 	document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/nagano.html"></iframe>';
 	}else{
@@ -201,7 +201,7 @@ function ng(){
 }
 
 function gif(){
-	location.href = "#tenki";
+	
 	if(wh > 767){
 	document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/gifu.html"></iframe>';
 	}else{
@@ -211,7 +211,7 @@ function gif(){
 }
 
 function sz(){
-	location.href = "#tenki";
+	
 	if(wh > 767){
 	document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/shizuoka.html"></iframe>';
 	}else{
@@ -221,7 +221,7 @@ function sz(){
 }
 
 function aic(){
-	location.href = "#tenki";
+	
 	if(wh > 767){
 	document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/aichi.html"></iframe>';
 	}else{
@@ -231,7 +231,7 @@ function aic(){
 }
 
 function mie(){
-	location.href = "#tenki";
+	
 	if(wh > 767){
 	document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/mie.html"></iframe>';
 	}else{
@@ -241,7 +241,7 @@ function mie(){
 }
 
 function siga(){
-	location.href = "#tenki";
+	
 	if(wh > 767){
 	document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/shiga.html"></iframe>';
 	}else{
@@ -251,7 +251,7 @@ function siga(){
 }
 
 function kyot(){
-	location.href = "#tenki";
+	
 	if(wh > 767){
 	document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/kyoto.html"></iframe>';
 	}else{
@@ -261,7 +261,7 @@ function kyot(){
 }
 
 function os(){
-	location.href = "#tenki";
+	
 	if(wh > 767){
 	document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/osaka.html"></iframe>';
 	}else{
@@ -271,7 +271,7 @@ function os(){
 }
 
 function hg(){
-	location.href = "#tenki";
+	
 	if(wh > 767){
 	document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/hyogo.html"></iframe>';
 	}else{
@@ -281,7 +281,7 @@ function hg(){
 }
 
 function nr(){
-	location.href = "#tenki";
+	
 	if(wh > 767){
 	document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/nara.html"></iframe>';
 	}else{
@@ -291,7 +291,7 @@ function nr(){
 }
 
 function waky(){
-	location.href = "#tenki";
+	
 	if(wh > 767){
 	document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/wakayama.html"></iframe>';
 	}else{
@@ -301,7 +301,7 @@ function waky(){
 }
 
 function tt(){
-	location.href = "#tenki";
+	
 	if(wh > 767){
 	document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/tottori.html"></iframe>';
 	}else{
@@ -311,7 +311,7 @@ function tt(){
 }
 
 function smn(){
-	location.href = "#tenki";
+	
 	if(wh > 767){
 	document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/shimane.html"></iframe>';
 	}else{
@@ -321,7 +321,7 @@ function smn(){
 }
 
 function oky(){
-	location.href = "#tenki";
+	
 	if(wh > 767){
 	document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/okayama.html"></iframe>';
 	}else{
@@ -331,7 +331,7 @@ function oky(){
 }
 
 function hiro(){
-	location.href = "#tenki";
+	
 	if(wh > 767){
 	document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/hiroshima.html"></iframe>';
 	}else{
@@ -341,7 +341,7 @@ function hiro(){
 }
 
 function yag(){
-	location.href = "#tenki";
+	
 	if(wh > 767){
 	document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/yamaguchi.html"></iframe>';
 	}else{
@@ -351,7 +351,7 @@ function yag(){
 }
 
 function tok(){
-	location.href = "#tenki";
+	
 	if(wh > 767){
 	document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/tokushima.html"></iframe>';
 	}else{
@@ -361,7 +361,7 @@ function tok(){
 }
 
 function kagawa(){
-	location.href = "#tenki";
+	
 	if(wh > 767){
 	document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/kagawa.html"></iframe>';
 	}else{
@@ -371,7 +371,7 @@ function kagawa(){
 }
 
 function ehi(){
-	location.href = "#tenki";
+	
 	if(wh > 767){
 	document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/ehime.html"></iframe>';
 	}else{
@@ -381,7 +381,7 @@ function ehi(){
 }
 
 function kochi(){
-	location.href = "#tenki";
+	
 	if(wh > 767){
 	document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/kochi.html"></iframe>';
 	}else{
@@ -391,7 +391,7 @@ function kochi(){
 }
 
 function fukuoka(){
-	location.href = "#tenki";
+	
 	if(wh > 767){
 	document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/fukuoka.html"></iframe>';
 	}else{
@@ -401,7 +401,7 @@ function fukuoka(){
 }
 
 function saga(){
-	location.href = "#tenki";
+	
 	if(wh > 767){
 	document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/saga.html"></iframe>';
 	}else{
@@ -411,7 +411,7 @@ function saga(){
 }
 
 function nags(){
-	location.href = "#tenki";
+	
 	if(wh > 767){
 	document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/nagasaki.html"></iframe>';
 	}else{
@@ -421,7 +421,7 @@ function nags(){
 }
 
 function kuma(){
-	location.href = "#tenki";
+	
 	if(wh > 767){
 	document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/kumamoto.html"></iframe>';
 	}else{
@@ -431,7 +431,7 @@ function kuma(){
 }
 
 function oita(){
-	location.href = "#tenki";
+	
 	if(wh > 767){
 	document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/oita.html"></iframe>';
 	}else{
@@ -441,7 +441,7 @@ function oita(){
 }
 
 function miyz(){
-	location.href = "#tenki";
+	
 	if(wh > 767){
 	document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/miyazaki.html"></iframe>';
 	}else{
@@ -451,7 +451,7 @@ function miyz(){
 }
 
 function kagos(){
-	location.href = "#tenki";
+	
 	if(wh > 767){
 	document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/kagoshima.html"></iframe>';
 	}else{
@@ -461,7 +461,7 @@ function kagos(){
 }
 
 function okina(){
-	location.href = "#tenki";
+	
 	if(wh > 767){
 	document.getElementById("tenki").innerHTML = '<iframe width="100%" height="400" scrolling="no" frameborder="no" src="tenki/okinawa.html"></iframe>';
 	}else{
