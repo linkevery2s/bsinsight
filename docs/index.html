@@ -149,6 +149,7 @@
 											</ul>
 											<ul class="actions">
 												<li><a href="#soutei" class="button">ハザードマップ</a></li>
+												<li><a href="#kt" class="button">活断層マップ</a></li>
 											</ul>
 									<br>
 										<h2 class="gaku">避難時</h2>
@@ -383,6 +384,36 @@
 
 							</article>
 
+
+							<article id="kt">
+								<a href="#" id = "home_back"></a><a href="#manabu" class="link">×</a>
+								<h2 class="major">活断層マップ</h2>
+								<span class="image main"><img src="images/katu.jpg" alt="活断層" /></span>
+								<p>通常は地表に現れている断層と認められる地形のうち、今後も活動しそうな（＝地震を発生させるような）ものを活断層といいます。</p>
+								<p>活断層マップでは、震源地の緯度・経度を入力することで、活断層と震源地の関係を視覚化することができます。</p>
+								<hr />
+								
+								<form method="post" action="#" name="kt">
+									<div class="field half first">
+										<label for="ido">緯度</label>
+										<input type="tel" name="ido" id="ido" />
+									</div>
+									<div class="field half">
+										<label for="keido">経度</label>
+										<input type="tel" name="keido" id="keido" />
+									</div>
+									<ul class="actions">
+										<li><a href="javascript:void(0);" class="button special" onclick="ktsearch();"><i class="icon fa-search fa-1x"></i>　検索</a></li>
+									</ul>
+								</form>
+								
+								<div id ="katudanso"></div>
+								
+								<hr />
+								<i class="fa fa-book" aria-hidden="true"></i> 以下の資料をもとに仁志が加工・編集して作成しました。<br>
+								・<a href="http://www.fdma.go.jp/syobodan/bousai/" target="_blank">わたしの防災サバイバル手帳</a>、消防庁<br>
+								・<a href="https://www.jma.go.jp/jma/kishou/books/katsudansou/index.html" target="_blank">気象庁ウェブサイト</a>
+							</article>
 
 							<article id="anpi">
 								<a href="#" id = "home_back"></a><a href="#manabu" class="link">×</a>
@@ -2080,6 +2111,7 @@ https://tanganrss.com/rsstxt/regist.php?key=455fb0d89271046d1097acbcc177d949
 								</ul>
 								<ul class="actions">
 										<li><a href="javascript:void(0);" class="button" onclick="hm();">ヘルプマーク</a></li>
+										<li><a href="javascript:void(0);" class="button" onclick="krs();">厚生労働省RSS</a></li>
 								</ul>
 								
 								<hr />
@@ -2122,11 +2154,11 @@ https://tanganrss.com/rsstxt/regist.php?key=455fb0d89271046d1097acbcc177d949
 								
 								</div>
 								
-								<hr />
+								<div id ="krs">
 								<h2 class="iryou">厚生労働省ＲＳＳ配信</h2>
 								<p>厚生労働省のＲＳＳ配信です。</p>
 									<h3 class="point">新着情報</h3>
-									
+								
 									<script id="_tangan_loader_f08e6f5d5b565afb2c0dd45d4d9580c8" src="https://tanganrss.com/rsstxt/loader.php?url=https%3A%2F%2Ftanganrss.com%2Frsstxt%2Frsstxt.php%3Fkey%3Df08e6f5d5b565afb2c0dd45d4d9580c8&id=f08e6f5d5b565afb2c0dd45d4d9580c8&target=" type="text/javascript"></script>
 <!--
 姉妹サービス、複眼RSSを宜しくお願いします。
@@ -2146,7 +2178,8 @@ http://fukugan.com/
 <!-- 登録内容の復元URL
 https://tanganrss.com/rsstxt/regist.php?key=d1d05697abb3c1c54dac73c0b86dde57
 -->
-
+									</div>
+									
 								<hr />
 								<i class="fa fa-book" aria-hidden="true"></i> 以下の資料をもとに仁志が加工・編集して作成しました。<br>
 								・<a href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000089060.html" target="_blank">災害医療</a>、厚生労働省<br>
@@ -2353,6 +2386,7 @@ https://tanganrss.com/rsstxt/regist.php?key=d1d05697abb3c1c54dac73c0b86dde57
 					</p>
 					<h2 class="major">更新情報</h2>
 					<p>
+					2019.03.10 活断層マップ追加<br><br>
 					2019.03.09 インストール方法追加<br><br>
 					2019.03.06 風向・温度マップ搭載<br><br>
 					2019.03.03 救出・援護追加、安否確認に帰宅困難者追加<br><br>
@@ -2496,7 +2530,7 @@ https://tanganrss.com/rsstxt/regist.php?key=d1d05697abb3c1c54dac73c0b86dde57
 									<li><a href="#rss" class="icon fa-rss-square"><span class="label">更新情報</span></a></li>
 								</ul>
 
-						<p class="copyright"><i class="fa fa-copyright" aria-hidden="true"></i> 防災INSIGHT. Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a>. ver 3.2</p>
+						<p class="copyright"><i class="fa fa-copyright" aria-hidden="true"></i> 防災INSIGHT. Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a>. ver 3.3</p>
 					</footer>
 
 			</div><!-- wrapper -->

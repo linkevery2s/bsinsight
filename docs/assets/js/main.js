@@ -418,6 +418,7 @@ $("#skb").hide();
 $("#hins").hide();
 $("#aed").hide();
 $("#hmark").hide();
+$("#krs").hide();
 
 def();
 
@@ -476,6 +477,7 @@ $("#skb").show();
 $("#hins").hide();
 $("#aed").hide();
 $("#hmark").hide();
+$("#krs").hide();
 }
 
 function hs(){
@@ -483,6 +485,7 @@ $("#skb").hide();
 $("#hins").show();
 $("#aed").hide();
 $("#hmark").hide();
+$("#krs").hide();
 }
 
 function at(){
@@ -490,6 +493,7 @@ $("#skb").hide();
 $("#hins").hide();
 $("#aed").show();
 $("#hmark").hide();
+$("#krs").hide();
 }
 
 function hm(){
@@ -497,6 +501,15 @@ $("#skb").hide();
 $("#hins").hide();
 $("#aed").hide();
 $("#hmark").show();
+$("#krs").hide();
+}
+
+function krs(){
+$("#skb").hide();
+$("#hins").hide();
+$("#aed").hide();
+$("#hmark").hide();
+$("#krs").show();
 }
 
 var url = "https://linkevery2s.github.io/bsinsight/";
@@ -639,7 +652,23 @@ function explorer(){
 	
 	}
 	
-	
-	
 }
 
+function ktsearch(){
+
+	var ido = document.forms.kt.ido.value;
+	var keido = document.forms.kt.keido.value;
+	
+	if(ido ==""){
+	alert("緯度を入力してください。");
+	exit;
+	}
+	
+	if(keido ==""){
+	alert("経度を入力してください。");
+	exit;
+	}
+	
+	document.getElementById("katudanso").innerHTML = '<iframe src="kt/map.html#6/' + ido + '/' + keido + '" width="100%" height="500px" frameborder="yes" scrolling="yes"></iframe>';
+
+}
