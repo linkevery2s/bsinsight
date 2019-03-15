@@ -409,6 +409,7 @@
 })(jQuery);
 
 function ini(){
+
 $("#tn").hide();
 $("#th").hide();
 $("#ds").hide();
@@ -435,6 +436,8 @@ else {
 }
 
 yyy();
+
+sindosokuhou();
 
 }
 
@@ -671,4 +674,52 @@ function ktsearch(){
 	
 	document.getElementById("katudanso").innerHTML = '<iframe src="kt/map.html#6/' + ido + '/' + keido + '" width="100%" height="500px" frameborder="yes" scrolling="yes"></iframe>';
 
+}
+
+ function sindosokuhou(){
+
+  var xhr = new XMLHttpRequest();
+  xhr.onreadystatechange = function(){
+    if (xhr.readyState === 4 && xhr.status === 200){
+      var json_data = eval( '('+xhr.responseText +')');
+      
+      if(json_data[0].code == 551 ){
+      	var maxs = json_data[0].earthquake.maxScale;
+      	
+      	if( maxs == 10){var max = "１";}
+      	else if( maxs == 20){var max = "２";}
+      	else if( maxs == 30){var max = "３";}
+      	else if( maxs == 40){var max = "４";}
+      	else if( maxs == 45){var max = "５弱";}
+      	else if( maxs == 50){var max = "５強";}
+      	else if( maxs == 55){var max = "６弱";}
+      	else if( maxs == 60){var max = "６強";}
+      	else if( maxs == 70){var max = "７";}
+		else{exit;}
+      	
+      txt = json_data[0].earthquake.time + "　震度：" + max + "　" +json_data[0].earthquake.hypocenter.name + "<br><br>";
+      
+      txt += "緯度：" + json_data[0].earthquake.hypocenter.latitude + "　経度：" + json_data[0].earthquake.hypocenter.longitude + "　震源の深さ：" + json_data[0].earthquake.hypocenter.depth + "<br><br>";
+
+	  txt += "マグニチュード：" + json_data[0].earthquake.hypocenter.magnitude;
+
+      var result = document.getElementById('data_result');
+      result.innerHTML = txt;
+
+		var ido = json_data[0].earthquake.hypocenter.latitude.replace(/[^0-9^.]/g, "");
+		var keido = json_data[0].earthquake.hypocenter.longitude.replace(/[^0-9^.]/g, "");
+
+		document.getElementById('smap').innerHTML = '<iframe src="kt/smap.html#6/' + ido + '/' + keido + '" width="100%" height="400px" frameborder="yes" scrolling="yes"></iframe>';
+
+		}
+		else{
+		document.getElementById('data_result').innerHTML = "速報はありません。" ;
+		exit;
+		}
+
+    }
+  };
+  var url = "https://api.p2pquake.net/v1/human-readable";
+  xhr.open('GET', url);
+  xhr.send(null);
 }

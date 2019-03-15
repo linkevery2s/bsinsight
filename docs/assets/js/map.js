@@ -30,3 +30,4 @@ var test = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/01_flood_l2_
 var map = L.map('map_canvas', {center: [35.619, 138.466], zoom: 5,layers: [tiri, test]});
 
 }
+
