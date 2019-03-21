@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head><meta charset="utf-8"><title>test</title>
+
+<script src ="https://cdnjs.cloudflare.com/ajax/libs/fetch/3.0.0/fetch.min.js"></script>
+
+<script type="text/javascript">
+function test(){
+const url ="http://www.data.jma.go.jp/developer/xml/feed/eqvol.xml";
+
+fetch(url)
+	.then(res => res.text())
+	.then(textData => {
+		let parser = new DOMParser();
+		let xmlData = parser.parseFromString(textData, "text/xml");
+		
+		var ttt = xmlData.getElementsByTagName("entry")[0].getElementsByTagName("content")[0].childNodes[0].nodeValue;
+		
+		for (var i = 1; i < 9; i++){
+		
+			ttt += "<br><br>" + xmlData.getElementsByTagName("entry")[i].getElementsByTagName("content")[0].childNodes[0].nodeValue;
+		
+		}
+		
+		document.getElementById("result").innerHTML = ttt;
+
+});
+};
+</script>
+
+
+</head>
+
+<body>
+<h3>火山情報テスト</h3>
+
+<input type="button" id="test" value="test" onclick="test()"><br><br>
+
+<div id="result">
+
+</body>
+
+</html>
