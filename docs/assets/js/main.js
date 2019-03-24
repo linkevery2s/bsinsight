@@ -701,19 +701,47 @@ function ktsearch(){
       
       txt += "緯度：" + json_data[0].earthquake.hypocenter.latitude + "　経度：" + json_data[0].earthquake.hypocenter.longitude + "　震源の深さ：" + json_data[0].earthquake.hypocenter.depth + "<br><br>";
 
-	  txt += "マグニチュード：" + json_data[0].earthquake.hypocenter.magnitude;
+	  txt += "マグニチュード：" + json_data[0].earthquake.hypocenter.magnitude + "<br><br>";
 
       var result = document.getElementById('data_result');
       result.innerHTML = txt;
-
+		
 		var ido = json_data[0].earthquake.hypocenter.latitude.replace(/[^0-9^.]/g, "");
 		var keido = json_data[0].earthquake.hypocenter.longitude.replace(/[^0-9^.]/g, "");
 
 		document.getElementById('smap').innerHTML = '<iframe src="kt/smap.html#6/' + ido + '/' + keido + '" width="100%" height="400px" frameborder="yes" scrolling="yes"></iframe>';
 
+		var p_count = json_data[0].points.length;
+		
+		if(p_count == 0){exit;}
+		
+		var p_result = document.getElementById('points_data');
+
+		p_result.innerHTML = "各地の震度は以下のとおりです。<br><br>";
+
+		for (j = 0; j < p_count; j++){
+		
+		var max_p = json_data[0].points[j].scale;
+
+      	if( max_p == 10){var max_p = "１";}
+      	else if( max_p == 20){var max_p = "２";}
+      	else if( max_p == 30){var max_p = "３";}
+      	else if( max_p == 40){var max_p = "４";}
+      	else if( max_p == 45){var max_p = "５弱";}
+      	else if( max_p == 50){var max_p = "５強";}
+      	else if( max_p == 55){var max_p = "６弱";}
+      	else if( max_p == 60){var max_p = "６強";}
+      	else if( max_p == 70){var max_p = "７";}
+		else{exit;}
+
+		p_result.innerHTML += "震度：" + max_p + "　" + json_data[0].points[j].addr + "　";
+
+		}
+
 		}
 		else{
 		document.getElementById('data_result').innerHTML = "速報はありません。" ;
+		document.getElementById('points_data').innerHTML = "";
 		exit;
 		}
 
