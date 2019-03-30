@@ -6,7 +6,7 @@
 
 <script type="text/javascript">
 function test(){
-const url ="https://www.data.jma.go.jp/developer/xml/feed/eqvol.xml";
+const url ="http://www.data.jma.go.jp/developer/xml/feed/eqvol_l.xml";
 
 fetch(url)
 	.then(res => res.text())
@@ -14,17 +14,40 @@ fetch(url)
 		let parser = new DOMParser();
 		let xmlData = parser.parseFromString(textData, "text/xml");
 		
-		var ttt = xmlData.getElementsByTagName("entry")[0].getElementsByTagName("content")[0].childNodes[0].nodeValue;
+		//var ttt = xmlData.getElementsByTagName("entry")[0].getElementsByTagName("content")[0].childNodes[0].nodeValue;
 		
-		for (var i = 1; i < 9; i++){
+		var ttt = xmlData.getElementsByTagName("entry")[0].getElementsByTagName("link")[0].getAttribute("href");
 		
-			ttt += "<br><br>" + xmlData.getElementsByTagName("entry")[i].getElementsByTagName("content")[0].childNodes[0].nodeValue;
+			const url2 = ttt;
+			
+			fetch(url2)
+				.then(res => res.text())
+				.then(textData => {
+					let parser = new DOMParser();
+					let xmlData = parser.parseFromString(textData, "text/xml");
+					var tt = xmlData.getElementsByTagName("Headline")[0].getElementsByTagName("Text")[0].childNodes[0].nodeValue;
+						document.getElementById("result").innerHTML += tt;
+					
+					var xx = xmlData.getElementsByTagName("Information")[1].getElementsByTagName("Areas")[0].childElementCount;
+					
+					for ( var i = 0; i < xx; i++){
+					
+						var tt2 = xmlData.getElementsByTagName("Information")[1].getElementsByTagName("Areas")[0].getElementsByTagName("Area")[i].getElementsByTagName("Name")[0].childNodes[0].nodeValue;
+					
+						document.getElementById("result").innerHTML += "<br>" + tt2;
+					}
+			
+			});
 		
-		}
+		//for (var i = 1; i < 9; i++){
 		
-		document.getElementById("result").innerHTML = ttt;
+			//ttt += "<br><br>" + xmlData.getElementsByTagName("entry")[i].getElementsByTagName("content")[0].childNodes[0].nodeValue;
+		
+		//}
+		
+		
 
-});
+	});
 };
 </script>
 
