@@ -18,7 +18,9 @@ fetch(url)
 		
 		var ttt = xmlData.getElementsByTagName("entry")[0].getElementsByTagName("link")[0].getAttribute("href");
 		
-			const url2 = ttt;
+		var t1 = ttt.replace( /http/g , "https" ) ;
+		
+			const url2 = t1;
 			
 			fetch(url2)
 				.then(res => res.text())
