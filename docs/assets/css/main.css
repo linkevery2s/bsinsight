@@ -979,9 +979,6 @@
 		position: relative;
 	}
 
-
-
-
 		input[type="submit"]:hover,
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
@@ -1049,6 +1046,46 @@
 	button {
 		line-height: calc(2.75rem - 2px);
 	}
+
+		#col1{
+		background-color: #4169e1;
+		}
+		#col1:hover {
+			background-color: rgba(255, 255, 255, 0.075);
+		}
+		#col1:active {
+			background-color: rgba(255, 255, 255, 0.175);
+		}
+
+		#col2{
+		background-color: #00a968;
+		}
+		#col2:hover {
+			background-color: rgba(255, 255, 255, 0.075);
+		}
+		#col2:active {
+			background-color: rgba(255, 255, 255, 0.175);
+		}
+
+		#col3{
+		background-color: #ff6347;
+		}
+		#col3:hover {
+			background-color: rgba(255, 255, 255, 0.075);
+		}
+		#col3:active {
+			background-color: rgba(255, 255, 255, 0.175);
+		}
+
+		#col4{
+		background-color: #c71585;
+		}
+		#col4:hover {
+			background-color: rgba(255, 255, 255, 0.075);
+		}
+		#col4:active {
+			background-color: rgba(255, 255, 255, 0.175);
+		}
 
 /* BG */
 
