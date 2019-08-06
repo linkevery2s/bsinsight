@@ -16,7 +16,7 @@ function tw(){
 	location.href = "https://twitter.com/share?url=" + hash[0] + "%23" + hash[1];
 }
 
-function fbt(){
+function fb(){
 	var url = window.location.href;
 	var hash = url.split("#",2);
 	location.href = "https://www.facebook.com/sharer/sharer.php?u=" + hash[0] + "%23" + hash[1];
