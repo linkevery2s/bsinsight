@@ -38,41 +38,6 @@
 
 	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 
-	<script type="text/javascript" charset="utf-8" src="https://map.yahooapis.jp/js/V1/jsapi?appid=dj0zaiZpPWFGR05lM2M4eUZNbCZzPWNvbnN1bWVyc2VjcmV0Jng9OWQ-"></script>
-
-	<script type="text/javascript">
-		var ymap;
-
-    		function yyy() {
-
-    			ymap = new Y.Map("map", {
-    				configure : {
-        				doubleClickZoom : true,
-        				scrollWheelZoom : true,
-        				weatherOverlay: true
-    				}
-				});
-	
-    			//天気レイヤ作成
-    			var weather = new Y.WeatherMapLayer({
-    				 "opacity": 0.6,
-   				 });
-    
-    			//天気レイヤを重ねる地図レイヤを作成
-    			var maplayer = new Y.NormalLayer();
-    			//地図 + 天気レイヤを追加
-    			ymap.addLayerSet("weather", new Y.LayerSet("地図+天気", [maplayer, weather]));
-
-    			ymap.addControl(new Y.SliderZoomControlVertical());
-    			//地図を描画
-    			ymap.drawMap(new Y.LatLng(35.665627,139.730738), 6, "weather");
-    			//天気データを更新
-    			weather.UpdateWeather();
-    
-			}
-
-	</script>
-
 	</head>
 
 	<body onload="ini()">
@@ -104,7 +69,7 @@
 								<li><a href="#intro">はじめに</a></li>
 								<li><a href="#manabu">学  習</a></li>
 								<li><a href="#refuge">避難情報</a></li>
-								<li><a href="#weather" onclick="yyy()">気象情報</a></li>
+								<li><a href="#weather">気象情報</a></li>
 								</ul>
 						</nav>
 						
@@ -2447,7 +2412,7 @@ https://tanganrss.com/rsstxt/regist.php?key=d1d05697abb3c1c54dac73c0b86dde57
 					</p>
 					<h2 class="major">更新情報</h2>
 					<p>
-					2019.08.06 シェアページ変更<br><br>
+					2019.08.06 シェアページ、雨雲レーダー変更<br><br>
 					2019.07.27 通行止め情報、警報・注意報追加<br><br>
 					2019.07.23 ボタンの色彩変更<br><br>
 					2019.06.16 医療・福祉情報追加<br><br>

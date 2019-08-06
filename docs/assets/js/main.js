@@ -435,8 +435,6 @@ else {
 	$("#keitai").hide();
 }
 
-yyy();
-
 sindosokuhou();
 
 }
