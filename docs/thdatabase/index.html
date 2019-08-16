@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/footable.core.standalone.css">
+<link rel="stylesheet" href="css/footable.filtering.css">
+<link rel="stylesheet" href="css/footable.sorting.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script src="js/footable.core.js"></script>
+<script src="js/footable.sorting.js"></script>
+<script src="js/footable.filtering.js"></script>
+<script>
+jQuery(function($){
+$('.table').footable();
+});
+</script>
+<title>台風データベース</title>
+</head>
+<body>
+<h1>台風データベース</h1>
+<table class="table" data-sorting="true" data-filtering="true" data-paging-size="15">
+<thead>
+<tr>
+<th data-breakpoints="xs">月日</th>
+<th>号数</th>
+<th>最大風速</th>
+<th>中心気圧</th>
+<th data-breakpoints="xs" data-title="暴風域">暴風域</th>
+<th data-breakpoints="xs sm" data-title="強風域">強風域</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>001</td>
+<td>山田</td>
+<td>太郎</td>
+<td >東京都</td>
+<td >中央区</td>
+<td >00-123-4567</td>
+</tr>
+<tr>
+<td>002</td>
+<td>佐藤</td>
+<td>花子</td>
+<td >東京都</td>
+<td >港区</td>
+<td >00-222-8888</td>
+</tr>
+<tr>
+<td>003</td>
+<td>佐藤</td>
+<td>次郎</td>
+<td >神奈川県</td>
+<td >横浜市</td>
+<td >00-555-6789</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
