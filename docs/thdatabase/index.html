@@ -24,11 +24,23 @@ $('.table').footable();
 <h1>台風データベース</h1>
 
 <!--　モーダルウィンドウ　-->
-
-<!--<iframe src="mapdata/demo.html" width="100%" height="550px" id="modal-content"></iframe>-->
-
 <div id="modal-content"></div>
 
+<div id="menu_toggle" onclick="menu_display()"><i class="fa fa-bars" style="line-height:40px;"></i></div>
+
+<div id="menu-content"><span id="modal-close">×</span>
+
+メニュー
+
+<br><br>このデータベースについて
+
+<br><br>使い方
+
+<br><br>用語定義
+
+<br><br>防災INSIGHT
+
+</div>
 
 <!--　テーブル　-->
 <table class="table" data-sorting="true" data-filtering="true" data-paging-size="15">
@@ -51,7 +63,7 @@ $('.table').footable();
 <td >東京都</td>
 <td >中央区</td>
 <td >00-123-4567</td>
-<td><span onclick="test()" class="button-link">経路図</span></td>
+<td><span onclick="map_display(20181020)" class="button-link">経路図</span></td>
 </tr>
 <tr>
 <td>002</td>

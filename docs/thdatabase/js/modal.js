@@ -1,12 +1,12 @@
-function test(){
-
+function map_display(x){
+	
 	$( this ).blur() ;	//ボタンからフォーカスを外す
 	if( $( "#modal-overlay" )[0] ) return false ;		//新しくモーダルウィンドウを起動しない (防止策1)
 
 	$( "body" ).append( '<div id="modal-overlay"></div>' ) ;
 	$( "#modal-overlay" ).fadeIn( "slow" ) ;
 
-	document.getElementById("modal-content").innerHTML = '<iframe width="100%" height="550px" scrolling="no" frameborder="no" src="mapdata/demo.html"></iframe><span id="modal-close">×</div>';
+	document.getElementById("modal-content").innerHTML = '<iframe width="100%" height="550px" scrolling="no" frameborder="no" src="mapdata/' + x + '.html"></iframe><span id="modal-close">×</span>';
 
 
 	//コンテンツをセンタリングする
@@ -48,3 +48,53 @@ function test(){
 
 //リサイズされたら、センタリングをする関数[centeringModalSyncer()]を実行する
 $( window ).resize( centeringModalSyncer ) ;
+
+
+function menu_display(){
+	
+	$( this ).blur() ;	//ボタンからフォーカスを外す
+	if( $( "#modal-overlay" )[0] ) return false ;		//新しくモーダルウィンドウを起動しない (防止策1)
+
+	$( "body" ).append( '<div id="modal-overlay"></div>' ) ;
+	$( "#modal-overlay" ).fadeIn( "slow" ) ;
+
+
+	//コンテンツをセンタリングする
+	centeringModalSyncer2() ;
+
+	//コンテンツをフェードインする
+	$( "#menu-content" ).fadeIn( "slow" ) ;
+
+	//[#modal-overlay]、または[#modal-close]をクリックしたら…
+	$( "#modal-overlay,#modal-close" ).unbind().click( function(){
+
+		//[#modal-content]と[#modal-overlay]をフェードアウトした後に…
+		$( "#menu-content,#modal-overlay" ).fadeOut( "slow" , function(){
+
+			//[#modal-overlay]を削除する
+			$('#modal-overlay').remove() ;
+
+		} ) ;
+
+	} ) ;
+
+}
+
+	//センタリングを実行する関数
+	function centeringModalSyncer2() {
+
+		//画面(ウィンドウ)の幅、高さを取得
+		var w = $( window ).width() ;
+		var h = $( window ).height() ;
+
+		// コンテンツ(#modal-content)の幅、高さを取得
+		var cw = $( "#menu-content" ).outerWidth();
+		var ch = $( "#menu-content" ).outerHeight();
+
+		//センタリングを実行する
+		$( "#menu-content" ).css( {"left": ((w - cw)/2) + "px","top": ((h - ch)/2) + "px"} ) ;
+
+	}
+
+//リサイズされたら、センタリングをする関数[centeringModalSyncer()]を実行する
+$( window ).resize( centeringModalSyncer2 ) ;

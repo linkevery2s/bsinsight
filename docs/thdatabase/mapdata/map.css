@@ -1,0 +1,30 @@
+	
+#simul{position: fixed; z-index: 100; left: calc(50% - 40px);}
+html,body{width:100%; height:100%;margin: 0;padding: 0;}
+#map{position: relative;z-index: 0;}
+
+input[type="submit"]{
+-webkit-appearance: none;
+-webkit-border-radius: 10px;
+ border-radius: 10px;
+}
+
+.btn-square-little-rich {
+  cursor: pointer;
+  margin-top: 15px;
+  position: relative;
+  display: inline-block;
+  padding: 0.25em 0.5em;
+  text-decoration: none;
+  color: #FFF;
+  background: #03A9F4;/*色*/
+  border: solid 1px #0f9ada;/*線色*/
+  border-radius: 4px;
+}
+
+.btn-square-little-rich:active {
+  /*押したとき*/
+  border: solid 1px #03A9F4;
+  box-shadow: none;
+  text-shadow: none;
+}
