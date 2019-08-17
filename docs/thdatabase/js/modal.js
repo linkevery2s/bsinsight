@@ -6,6 +6,9 @@ function test(){
 	$( "body" ).append( '<div id="modal-overlay"></div>' ) ;
 	$( "#modal-overlay" ).fadeIn( "slow" ) ;
 
+	document.getElementById("modal-content").innerHTML = '<iframe width="100%" height="550px" scrolling="no" frameborder="no" src="mapdata/demo.html"></iframe><span id="modal-close">×</div>';
+
+
 	//コンテンツをセンタリングする
 	centeringModalSyncer() ;
 
