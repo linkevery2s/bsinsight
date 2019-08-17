@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" >
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link rel="stylesheet" href="css/main.css">
 <link rel="stylesheet" href="css/footable.core.standalone.css">
 <link rel="stylesheet" href="css/footable.filtering.css">
 <link rel="stylesheet" href="css/footable.sorting.css">
@@ -11,6 +12,7 @@
 <script src="js/footable.core.js"></script>
 <script src="js/footable.sorting.js"></script>
 <script src="js/footable.filtering.js"></script>
+<script src="js/modal.js"></script>
 <script>
 jQuery(function($){
 $('.table').footable();
@@ -20,6 +22,15 @@ $('.table').footable();
 </head>
 <body>
 <h1>台風データベース</h1>
+
+<!--　モーダルウィンドウ　-->
+
+<iframe src="mapdata/demo.html" width="100%" height="550px" id="modal-content"></iframe>
+
+<div id="modal-content"></div>
+
+
+<!--　テーブル　-->
 <table class="table" data-sorting="true" data-filtering="true" data-paging-size="15">
 <thead>
 <tr>
@@ -29,6 +40,7 @@ $('.table').footable();
 <th>中心気圧</th>
 <th data-breakpoints="xs" data-title="暴風域">暴風域</th>
 <th data-breakpoints="xs sm" data-title="強風域">強風域</th>
+<th data-breakpoints="all" data-title="経路図">経路図</th>
 </tr>
 </thead>
 <tbody>
@@ -39,6 +51,7 @@ $('.table').footable();
 <td >東京都</td>
 <td >中央区</td>
 <td >00-123-4567</td>
+<td><span onclick="test()" class="button-link">経路図</span></td>
 </tr>
 <tr>
 <td>002</td>
@@ -47,6 +60,7 @@ $('.table').footable();
 <td >東京都</td>
 <td >港区</td>
 <td >00-222-8888</td>
+<td></td>
 </tr>
 <tr>
 <td>003</td>
@@ -55,8 +69,10 @@ $('.table').footable();
 <td >神奈川県</td>
 <td >横浜市</td>
 <td >00-555-6789</td>
+<td></td>
 </tr>
 </tbody>
 </table>
+
 </body>
 </html>
