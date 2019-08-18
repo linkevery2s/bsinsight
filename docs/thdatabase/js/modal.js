@@ -6,7 +6,7 @@ function map_display(x){
 	$( "body" ).append( '<div id="modal-overlay"></div>' ) ;
 	$( "#modal-overlay" ).fadeIn( "slow" ) ;
 
-	document.getElementById("ifr").innerHTML = '<iframe width="100%" height="100%" scrolling="no" frameborder="no" src="mapdata/' + x + '.html"></iframe><span id="modal-close">×</span>';
+	document.getElementById("modal-content").innerHTML = '<iframe width="100%" height="100%" scrolling="no" frameborder="no" src="mapdata/' + x + '.html"></iframe><span id="modal-close">×</span>';
 
 
 	//コンテンツをセンタリングする
@@ -35,7 +35,7 @@ function map_display(x){
 
 		//画面(ウィンドウ)の幅、高さを取得
 		var w = $( window ).width() ;
-		var h = window.innerHeight;
+		var h = $( window ).height() ;
 
 		// コンテンツ(#modal-content)の幅、高さを取得
 		var cw = $( "#modal-content" ).outerWidth();
