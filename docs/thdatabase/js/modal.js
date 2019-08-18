@@ -35,7 +35,7 @@ function map_display(x){
 
 		//画面(ウィンドウ)の幅、高さを取得
 		var w = $( window ).width() ;
-		var h = $( window ).height() ;
+		var h = window.innerHeight;
 
 		// コンテンツ(#modal-content)の幅、高さを取得
 		var cw = $( "#modal-content" ).outerWidth();
