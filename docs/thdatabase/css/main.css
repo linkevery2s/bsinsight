@@ -180,13 +180,13 @@ h2 {
   }
 }
 
-/*.submenuItems a {
+.submenuItems a {
   display: block;
   color: #727272;
-  padding: 15px 15px 15px 15px;
   transition: all 0.4s ease-out;
-  &:hover {
+}
+
+  .submenuItems a:hover {
     background-color: #CDDC39;
     color: #fff;
   }
-}*/
