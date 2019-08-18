@@ -6,6 +6,7 @@
 	border: none ;
 	background: #fff ;
 	position: fixed ;
+	overflow-y: auto;
 	display: none ;
 	z-index: 20 ;
 }
@@ -50,6 +51,7 @@
 	border: none ;
 	background: #fff ;
 	position: fixed ;
+	overflow-y: auto;
 	display: none ;
 	z-index: 20 ;
 	border:2px solid #aaa;
