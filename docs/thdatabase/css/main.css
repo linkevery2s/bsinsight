@@ -52,6 +52,7 @@
 	position: fixed ;
 	display: none ;
 	z-index: 20 ;
+	overflow-y: scroll;
 	border:2px solid #aaa;
 }
 
