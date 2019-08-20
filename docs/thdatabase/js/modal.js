@@ -6,9 +6,9 @@ function map_display(x){
 	$( "body" ).append( '<div id="modal-overlay"></div>' ) ;
 	$( "#modal-overlay" ).fadeIn( "slow" ) ;
 
-	//document.getElementById("modal-content").innerHTML = '<iframe width="100%" height="100%" scrolling="no" frameborder="no" src="mapdata/' + x + '.html"></iframe><span id="modal-close">×</span>';
+	document.getElementById("modal-content").innerHTML = '<iframe width="100%" height="100%" scrolling="no" frameborder="no" src="mapdata/' + x + '.html"></iframe><span id="modal-close">×</span>';
 
-	document.getElementById("frame").contentWindow.location.replace("mapdata/" + x + ".html");
+	//document.getElementById("frame").contentWindow.location.replace("mapdata/" + x + ".html");
 
 	//コンテンツをセンタリングする
 	centeringModalSyncer() ;
