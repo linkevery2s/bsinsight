@@ -24,7 +24,7 @@ $('.table').footable();
 <title>台風データベース</title>
 </head>
 <body>
-<h1>台風データベース</h1>
+<h1 class = "des1">台風データベース</h1>
 
 <!-- モーダルウィンドウ -->
 <div id="modal-content"><!--<span id="modal-close">×</span>
@@ -34,16 +34,20 @@ $('.table').footable();
 <!-- メニュー -->
 <div id="menu_toggle" onclick="menu_display()"><i class="fa fa-bars" style="line-height:40px;"></i></div>
 <div id="menu-content"><span id="modal-close">×</span>
+<center>
 <h2>ＭＥＮＵ</h2>
+</center>
 	<div class="scroll_d">
 <ul class="accordion-menu">
   <li>
     <div class="dropdownlink"><i class="fa fa-road" aria-hidden="true"></i> このサービスについて
     </div>
     <ul class="submenuItems">
-            あいうえおあああああああいうえおああああああああああああああああああああaaaaaaaaaaaaaaaaaaaaaaaaあああああああああああああああああああああああああああああああ
-ああああああああああああああaaaaaaaaaaaaaaaaaaaaaaaaあああああああああああああああああああああああああああああああいうえおああああああああああああああああああああaaaaaaaaaaaaaaaaaaaaaaaaあああああああああああああああああああああああああああああああ
-    
+    <p>「台風○号が勢力を拡大し、接近中です。」「猛烈な」「大型の」昨今の日本に上陸する台風は、様々な表現がされております。</p>
+    <p>「今度来る台風は過去の台風と比べて規模はどのくらいなのだろう？」「似たような経路の台風はないのかな？」</p>
+    <p>本データベースは、そのような台風の統計資料となっております。平成13年（2001年）以降に発生した台風のうち、日本に上陸した台風をまとめました。</p>
+    <p>中心気圧や風速など、フィルターをかけて並べ替えをしたり、キーワード検索をしたり、台風の経路シミュレーションマップを見たり、使い方は様々です。</p>
+    <p>ぜひ、一度ご覧いただければと思います。仁志.</p>
     </ul>
   </li>
   <li>
@@ -57,14 +61,26 @@ $('.table').footable();
     <div class="dropdownlink"><i class="fa fa-quote-left" aria-hidden="true"></i> 用語定義
     </div>
     <ul class="submenuItems">
-      かきくけこ
+      <p>中心気圧</p>
+      <p>風速</p>
+      <p>暴風域</p>
+      <p>強風域</p>
     </ul>
   </li>
   <li>
     <div class="dropdownlink"><i class="fa fa-quote-left" aria-hidden="true"></i> 参考文献
     </div>
     <ul class="submenuItems">
-      かきくけこ
+      <p><a href="https://www.data.jma.go.jp/fcd/yoho/typhoon/route_map/index.html">台風経路図、気象庁</a></p>
+      <p><a href="https://www.data.jma.go.jp/fcd/yoho/typhoon/position_table/index.html">台風位置表、気象庁</a></p>
+    </ul>
+  </li>
+  <li>
+    <div class="dropdownlink"><i class="fa fa-clipboard" aria-hidden="true"></i> 利用規約
+    </div>
+    <ul class="submenuItems">
+      <p>防災INSIGHTの利用規約に準拠します。</p>
+      <a href="https://linkevery2s.github.io/bsinsight/#rule">防災INSIGHT 利用規約</a>
     </ul>
   </li>
   <li>
@@ -122,6 +138,10 @@ $('.table').footable();
 <tr><td>2015年8月</td><td>15号</td><td>930</td><td>50</td><td>190</td><td>460</td><td><span onclick="map_display(20150815)" class="button-link">マップ</span></td><td><span onclick='map_display(201508151)' class='button-link'>データ</span></td></tr>
 <tr><td>2015年7月</td><td>12号</td><td>955</td><td>40</td><td>170</td><td>300</td><td><span onclick="map_display(20150712)" class="button-link">マップ</span></td><td><span onclick='map_display(201507121)' class='button-link'>データ</span></td></tr>
 <tr><td>2015年7月</td><td>11号</td><td>925</td><td>50</td><td>190</td><td>700</td><td><span onclick="map_display(20150711)" class="button-link">マップ</span></td><td><span onclick='map_display(201507111)' class='button-link'>データ</span></td></tr>
+<tr><td>2014年10月</td><td>19号</td><td>900</td><td>60</td><td>280</td><td>750</td><td><span onclick="map_display(20141019)" class="button-link">マップ</span></td><td><span onclick='map_display(201410191)' class='button-link'>データ</span></td></tr>
+<tr><td>2014年9月</td><td>18号</td><td>935</td><td>935</td><td>190</td><td>560</td><td><span onclick="map_display(20140918)" class="button-link">マップ</span></td><td><span onclick='map_display(201409181)' class='button-link'>データ</span></td></tr>
+<tr><td>2014年7月</td><td>11号</td><td>945</td><td>920</td><td>190</td><td>560</td><td><span onclick="map_display(20140711)" class="button-link">マップ</span></td><td><span onclick='map_display(201407111)' class='button-link'>データ</span></td></tr>
+<tr><td>2014年7月</td><td>8号</td><td>940</td><td>930</td><td>310</td><td>700</td><td><span onclick="map_display(20140708)" class="button-link">マップ</span></td><td><span onclick='map_display(201407081)' class='button-link'>データ</span></td></tr>
 
 </tbody>
 </table>
