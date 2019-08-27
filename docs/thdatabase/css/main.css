@@ -43,7 +43,11 @@
     background: rgba(0, 0, 0, .25);
 }
 
-	.scroll_d {height:450px; overflow-y: scroll;}
+	.scroll_d {
+	height:450px;
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
+	}
 
 
 #menu-content{
