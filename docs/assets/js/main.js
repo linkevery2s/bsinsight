@@ -439,12 +439,6 @@ sindosokuhou();
 
 }
 
-function ymapload(){
-
-document.getElementById("amemap").innerHTML = '<iframe src="map/yame.html" width="100%" height="500px" frameborder="no" scrolling="no"></iframe>';
-
-}
-
 function eq(){
 $("#tn").hide();
 $("#th").hide();
@@ -749,3 +743,4 @@ function ktsearch(){
   xhr.open('GET', url);
   xhr.send(null);
 }
+
