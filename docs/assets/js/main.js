@@ -743,4 +743,3 @@ function ktsearch(){
   xhr.open('GET', url);
   xhr.send(null);
 }
-
