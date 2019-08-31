@@ -3291,3 +3291,8 @@ h2.iryou::after {
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
 }
+
+#bu_st{
+border-radius: 3em !important;
+width: 180px !important;
+}
