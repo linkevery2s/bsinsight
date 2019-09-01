@@ -54,7 +54,9 @@ $('.table').footable();
     <div class="dropdownlink"><i class="fa fa-paper-plane" aria-hidden="true"></i> 使い方
     </div>
     <ul class="submenuItems">
-      あいうえお
+      <p>キーワード検索で号数などから該当する台風を抽出することができます。</p>
+      <p>先頭列（中心気圧や風速など）をクリックするとソート順（昇順、降順）に並び替えが可能です。</p>
+      <p>マップをクリックすると台風経路図がマップに表示されます。</p>
     </ul>
   </li>
   <li>
@@ -62,9 +64,13 @@ $('.table').footable();
     </div>
     <ul class="submenuItems">
       <p>中心気圧</p>
+      各台風における中心気圧の最も高いものを掲載しています。
       <p>風速</p>
+      各台風における最大瞬間風速（m/s）を掲載しています。
       <p>暴風域</p>
+      各台風における暴風域の最大半径を掲載しています。
       <p>強風域</p>
+      各台風における強風域の最大半径を掲載しています。
     </ul>
   </li>
   <li>
@@ -145,6 +151,14 @@ $('.table').footable();
 
 </tbody>
 </table>
+
+<br>
+<!--footer-->
+<div class="footer">
+<center>
+Copyright (C) 仁志, All Rights Reserved.
+</center>
+</div>
 
 <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v4.0"></script>
