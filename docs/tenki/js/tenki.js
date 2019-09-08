@@ -1,292 +1,34 @@
-function hok(){
-  
-			var xhr = new XMLHttpRequest();
-			xhr.onload = function() {
-			
-			var xml = xhr.responseXML.documentElement;
-				
-			  //document.getElementById('data_result').value = xhr.responseXML.documentElement.nodeName;
-			  
-			  //document.getElementById('data_result').value = xhr.responseXML.getElementsByTagName("title")[0].childNodes[0].nodeValue;
-
-			  alert(xml.getElementsByTagName("title")[0]);
-
-			  
-			}
-			xhr.open("GET", "https://www.data.jma.go.jp/developer/xml/feed/regular_l.xml");
-			xhr.responseType = "document";
-			xhr.send();
-
-}
-
-function ao(){
-	
-
-
-}
-
-function ak(){
-	
-
-
-}
-
-function iw(){
-	
-
-
-}
-
-function my(){
-	
-
-
-}
-
-function yg(){
-	
-
-
-}
-
-function fs(){
-	
-
-
-}
-
-function ib(){
-	
-
-
-}
-
-function to(){
-	
-
-
-}
-
-function gu(){
-	
-
-
-}
-
-function si(){
-	
-
-
-}
-
-function tb(){
-	
-
-
-}
-
-function tk(){
-	
-
-
-}
-
-function kg(){
-	
-
-}
-
-function ni(){
-	
-
-}
-
-function toyama(){
-	
-
-
-}
-
-function is(){
-	
-
-
-}
-
-function fukui(){
-	
-
-
-}
-
-function yam(){
-	
-
-
-}
-
-function ng(){
-	
-
-
-}
-
-function gif(){
-	
-
-
-}
-
-function sz(){
-	
-
-
-}
-
-function aic(){
-	
-
-
-}
-
-function mie(){
-	
-
-
-}
-
-function siga(){
-	
-
-
-}
-
-function kyot(){
-	
-
-
-}
-
-function os(){
-	
-
-
-}
-
-function hg(){
-	
-
-
-}
-
-function nr(){
-	
-
-
-}
-
-function waky(){
-	
-
-
-}
-
-function tt(){
-	
-
-}
-
-function smn(){
-	
-
-}
-
-function oky(){
-	
-
-
-}
-
-function hiro(){
-	
-
-
-}
-
-function yag(){
-	
-
-
-}
-
-function tok(){
-	
-
-
-}
-
-function kagawa(){
-	
-
-
-}
-
-function ehi(){
-	
-
-
-}
-
-function kochi(){
-	
-
-
-}
-
-function fukuoka(){
-	
-
-
-}
-
-function saga(){
-	
-
-
-}
-
-function nags(){
-	
-
-
-}
-
-function kuma(){
-	
-
-
-}
-
-function oita(){
-	
-
-
-}
-
-function miyz(){
-	
-
-
-}
-
-function kagos(){
-	
-
-
-}
-
-function okina(){
-	
-
-
-}
+$(function(){
+    //地域を選択
+    $('.area_btn').click(function(){
+        $('.area_overlay').show();
+        $('.pref_area').show();
+        var area = $(this).data('area');
+        $('[data-list]').hide();
+        $('[data-list="' + area + '"]').show();
+    });
+    
+    //レイヤーをタップ
+    $('.area_overlay').click(function(){
+        prefReset();
+    });
+    
+    //都道府県をクリック
+    $('.pref_list [data-id]').click(function(){
+        if($(this).data('id')){
+            var id = $(this).data('id');
+
+            //window.location.href = 'https://www.jma.go.jp/jp/yoho/3' + id + '.html';
+            open( 'https://www.jma.go.jp/jp/yoho/3' + id + '.html', "_blank" ) ;
+            
+            prefReset();
+        }
+    });
+    
+    //表示リセット
+    function prefReset(){
+        $('[data-list]').hide();
+        $('.pref_area').hide();
+        $('.area_overlay').hide();
+    }
+});
