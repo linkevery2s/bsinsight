@@ -2592,6 +2592,12 @@
 	#tenki_ui{height: 400px !important}
 }
 
+@media screen and (max-width: 480px){
+
+	#tenki_ui{height: 350px !important}
+}
+}
+
 #map a{border-bottom: none !important;}
 
 

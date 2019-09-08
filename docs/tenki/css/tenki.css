@@ -1,3 +1,7 @@
+body{
+	padding-top: 15px;
+}
+
 /* 日本地図DOM */
 .japan_map{
     position: relative;
@@ -109,5 +113,9 @@
     /* スマホユーザー向けにボタン文字サイズを調整 */
     .japan_map .area_btn{
         font-size: 4vw;
+    }
+    
+    .moji_s{
+    	font-size: 4vw;
     }
 }
