@@ -2589,6 +2589,7 @@
 
 @media (max-width: 767px) {
 	#yout{width: 100% !important;}
+	#tenki_ui{height: 400px !important}
 }
 
 #map a{border-bottom: none !important;}
