@@ -2589,14 +2589,16 @@
 
 @media (max-width: 767px) {
 	#yout{width: 100% !important;}
-	#tenki_ui{height: 400px !important}
+	#tenki_ui{height: 400px !important;}
+	#refuge_ui{height: 400px !important;}
 }
 
 @media screen and (max-width: 480px){
 
 	#tenki_ui{height: 350px !important}
+	#refuge_ui{height: 330px !important}
 }
-}
+
 
 #map a{border-bottom: none !important;}
 

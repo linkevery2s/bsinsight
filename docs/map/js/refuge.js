@@ -19,7 +19,7 @@ $(function(){
             var id = $(this).data('id');
 
             //window.location.href = 'https://www.jma.go.jp/jp/yoho/3' + id + '.html';
-            open( 'https://linkevery2s.github.io/bsinsight/map/' + id , "_blank" ) ;
+            open( id , "_blank" ) ;
             
             prefReset();
         }
