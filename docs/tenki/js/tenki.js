@@ -19,7 +19,7 @@ $(function(){
             var id = $(this).data('id');
 
             //window.location.href = 'https://www.jma.go.jp/jp/yoho/3' + id + '.html';
-            open( 'https://www.jma.go.jp/jp/yoho/3' + id + '.html', "_blank" ) ;
+            open( 'https://tenki.jp/forecast/' + id, "_blank" ) ;
             
             prefReset();
         }
