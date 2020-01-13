@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>気象用語</title>
+<link rel="stylesheet" href="css/footable.core.standalone.css">
+<link rel="stylesheet" href="css/footable.filtering.css">
+<link rel="stylesheet" href="css/footable.sorting.css">
+<link rel="stylesheet" href="css/footable.paging.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script src="js/footable.core.js"></script>
+<script src="js/footable.sorting.js"></script>
+<script src="js/footable.filtering.js"></script>
+<script src="js/footable.paging.js"></script>
+<script>
+jQuery(function($) {
+
+	var ft = FooTable.init('.table', {
+		// we only load the column definitions as the row data is loaded through the button clicks
+		"columns": $.get('data/columns.json')
+	});
+
+		var url = $(this).data('data/rows-1.json');
+		alert(url);
+		// ajax fetch the rows
+		$.get(url).then(function (rows) {
+			// and then load them using either
+			ft.rows.load(rows);
+		});
+
+});
+</script>
+</head>
+<body>
+<h1>レスポンシブテーブルデザイン</h1>
+<table class="table" data-sorting="true" data-filtering="true" data-paging="true" data-paging-size="15"></table>
+
+</body>
+</html>
