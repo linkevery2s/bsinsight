@@ -6,7 +6,7 @@ var lastup = "2020年01月13日";
 	function start(){
 		map = L.map('map',{zoomControl: false});
 		L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  		attribution: '&copy; <a href="http://osm.org/copyright" target="_blank">OpenStreetMap</a> contributors<br>最終更新履歴：' + lastup
+  		attribution: '&copy; <a href="http://osm.org/copyright" target="_blank">OpenStreetMap</a> contributors<br>最終更新日：' + lastup
   		}).addTo(map);
 		hash = new L.Hash(map);
 		L.control.zoom({position: 'topright'}).addTo(map);
@@ -17,7 +17,7 @@ var lastup = "2020年01月13日";
 function map_ini2() {
    		map = L.map('map',{zoomControl: false});
 		L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  		attribution: '&copy; <a href="http://osm.org/copyright" target="_blank">OpenStreetMap</a> contributors<br>最終更新履歴：' + lastup
+  		attribution: '&copy; <a href="http://osm.org/copyright" target="_blank">OpenStreetMap</a> contributors<br>最終更新日：' + lastup
   		}).addTo(map);
 
 	para = location.hash;
