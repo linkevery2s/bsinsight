@@ -4,18 +4,17 @@ var todou = new Array(47);var markers = new Array(47); var ido; var keido;var pa
 var lastup = "2020年01月13日";
 
 	function start(){
-		map = L.map('map',{zoomControl: false});
+		map = L.map('map');
 		L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://osm.org/copyright" target="_blank">OpenStreetMap</a> contributors<br>最終更新履歴：' + lastup
   		}).addTo(map);
 		hash = new L.Hash(map);
-		back_b = L.easyButton('fa-undo', function(){rn();}, {position: 'bottomleft'}).addTo(map);
-		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}, {position: 'bottomleft'}).addTo( map );
-		L.control.zoom({position: 'bottomleft'}).addTo(map);
+		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}).addTo( map );
+		back_b = L.easyButton('fa-undo', function(){rn();}).addTo(map);
 	}
 
 function map_ini2() {
-   		map = L.map('map',{zoomControl: false});
+   map = new L.Map('map');                       
 		L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   		attribution: '&copy; <a href="http://osm.org/copyright" target="_blank">OpenStreetMap</a> contributors<br>最終更新履歴：' + lastup
   		}).addTo(map);
@@ -31,7 +30,6 @@ function map_ini2() {
 			var back = L.easyButton('fa-undo', function(){
     			location.href = "../index.html#refuge";
 			}, {position: 'bottomleft'}).addTo( map );
-			L.control.zoom({position: 'bottomleft'}).addTo(map);
 
 		todou_ini();
 		 hinan_m();
