@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <title>気象用語</title>
+<link rel="stylesheet" href="css/main.css">
 <link rel="stylesheet" href="css/footable.core.standalone.css">
 <link rel="stylesheet" href="css/footable.filtering.css">
 <link rel="stylesheet" href="css/footable.sorting.css">
@@ -13,6 +14,7 @@
 <script src="js/footable.sorting.js"></script>
 <script src="js/footable.filtering.js"></script>
 <script src="js/footable.paging.js"></script>
+<script src="js/modal.js"></script>
 <script>
 jQuery(function($) {
 
@@ -30,7 +32,56 @@ jQuery(function($) {
 </script>
 </head>
 <body>
-<h1>レスポンシブテーブルデザイン</h1>
+<h1>気象用語集</h1>
+
+<div id="menu_toggle" onclick="menu_display()"><i class="fa fa-bars" style="line-height:40px;"></i></div>
+<div id="menu-content"><span id="modal-close">×</span>
+<center>
+<h2><span>ＭＥＮＵ</span></h2>
+</center>
+	<div class="scroll_d">
+<ul class="accordion-menu">
+  <li>
+    <div class="dropdownlink"><i class="fa fa-road" aria-hidden="true"></i> この用語集について
+    </div>
+    <ul class="submenuItems">
+    <p>天気予報や気象の情報など、一見理解しずらい気象用語は多々あるかと思います。このデータベースはそのような気象用語を一覧にしました。分かりづらい用語など、検索していただければと思います。仁志.</p>
+    </ul>
+  </li>
+  <li>
+    <div class="dropdownlink"><i class="fa fa-paper-plane" aria-hidden="true"></i> 使い方
+    </div>
+    <ul class="submenuItems">
+      <p>キーワード検索で用語を検索することができます。</p>
+    </ul>
+  </li>
+  <li>
+    <div class="dropdownlink"><i class="fa fa-quote-left" aria-hidden="true"></i> 参考文献
+    </div>
+    <ul class="submenuItems">
+      <p><a href="https://www.jma.go.jp/jma/kishou/know/yougo_hp/sakuin.html">気象用語 索引、気象庁</a></p>
+    </ul>
+  </li>
+  <li>
+    <div class="dropdownlink"><i class="fa fa-clipboard" aria-hidden="true"></i> 利用規約
+    </div>
+    <ul class="submenuItems">
+      <p>防災INSIGHTの利用規約に準拠します。</p>
+      <a href="https://linkevery2s.github.io/bsinsight/#rule">防災INSIGHT 利用規約</a>
+    </ul>
+  </li>
+  <li>
+    <div class="dropdownlink"><i class="fa fa-motorcycle" aria-hidden="true"></i> 防災INSIGHT
+    </div>
+    <ul class="submenuItems">
+      <a href="https://linkevery2s.github.io/bsinsight/">TOP</a>
+    </ul>
+  </li>
+</ul>
+	</div>
+</div>
+
+
 <table class="table" data-sorting="true" data-filtering="true" data-paging="true" data-paging-size="15"></table>
 
 
