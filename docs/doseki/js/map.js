@@ -1,14 +1,15 @@
 //version 5.
 var map;var p;var zoom;var marker; var markers = []; var gps_button; var hinanj;var marker11;
-var todou ;var ido; var keido; var hash;
+var todou ;var ido; var keido; var hash;var back_b;
 
 	function start(){
-		map = L.map('map');
+		map = L.map('map',{zoomControl: false});
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
 		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
   		hash = new L.Hash(map);
-		var back_b = L.easyButton('fa-undo', function(){rn();}).addTo(map);
+  		L.control.zoom({position: 'topright'}).addTo(map);
+		back_b = L.easyButton('fa-undo', function(){rn();}, {position: 'topright'}).addTo(map);
 
 	}
 
