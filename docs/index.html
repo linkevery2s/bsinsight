@@ -24,6 +24,7 @@
 	<link rel="stylesheet" href="assets/css/font-awesome.min.css" />
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<link rel="stylesheet" href="assets/css/maplist.css" />
+	<link rel="stylesheet" href="assets/css/refuge.css" />
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
     <link rel="shortcut icon" href="images/apple-touch-icon.png">
 
@@ -1562,7 +1563,93 @@
 									<li><span class="button" target="_blank" onclick="em()"><i class="fa fa-globe" aria-hidden="true"></i> 現在地から探す</span></li>
 								</ul>
 
-					<iframe width="100%" height="550" src="map/index.html" frameborder="0" id ="refuge_ui"></iframe>
+					<!--<iframe width="100%" height="550" src="map/index.html" frameborder="0" id ="refuge_ui"></iframe>-->
+									
+<div class="japan_map">
+    <img src="images/jpmap.png" alt="日本地図">
+    <span class="area_btn area1" data-area="1">北海道・東北</span>
+    <span class="area_btn area2" data-area="2">関東</span>
+    <span class="area_btn area3" data-area="3">中部</span>
+    <span class="area_btn area4" data-area="4">近畿</span>
+    <span class="area_btn area5" data-area="5">中国・四国</span>
+    <span class="area_btn area6" data-area="6">九州・沖縄</span>
+    
+<div class="area_overlay"></div>
+    <div class="pref_area">
+        <div class="pref_list" data-list="1">
+            <div data-id="hokkaido.html#8/43.469/141.987">北海道</div>
+            <div data-id="aomori.html#8/40.651/140.724">青森県</div>
+            <div data-id="iwate.html#8/39.686/141.224">岩手県</div>
+            <div data-id="miyagi.html#8/38.505/140.707">宮城県</div>
+            <div data-id="akita.html#8/39.529/140.389">秋田県</div>
+            <div data-id="yamagata.html#8/38.428/140.026">山形県</div>
+            <div data-id="fukushima.html#8/37.392/139.883">福島県</div>
+            <div></div>
+        </div>
+        
+        <div class="pref_list" data-list="2">
+            <div data-id="ibaraki.html#8/36.271/140.235">茨城県</div>
+            <div data-id="tochigi.html#8/36.673/139.653">栃木県</div>
+            <div data-id="gunma.html#8/36.461/138.950">群馬県</div>
+            <div data-id="saitama.html#8/35.929/139.147">埼玉県</div>
+            <div data-id="tiba.html#8/35.488/139.966">千葉県</div>
+            <div data-id="tokyo.html#8/35.595/139.592">東京都</div>
+            <div data-id="kanagawa.html#8/35.398/139.331">神奈川県</div>
+            <div></div>
+        </div>
+        
+        <div class="pref_list" data-list="3">
+            <div data-id="nigata.html#8/37.375/138.735">新潟県‎</div>
+            <div data-id="toyama.html#8/36.624/137.016">富山県‎</div>
+            <div data-id="ishikawa.html#8/36.844/136.785">石川県‎</div>
+            <div data-id="fukui.html#8/35.898/136.192">福井県‎</div>
+            <div data-id="yamanashi.html#8/35.532/138.565">山梨県‎</div>
+            <div data-id="nagano.html#8/35.960/137.928">長野県‎</div>
+            <div data-id="gifu.html#8/35.724/136.890">岐阜県</div>
+            <div data-id="shizuoka.html#8/35.012/138.214">静岡県</div>
+            <div data-id="aichi.html#8/35.002/137.200">愛知県‎</div>
+            <div></div>
+        </div>
+        
+        <div class="pref_list" data-list="4">
+            <div data-id="mie.html#8/34.606/136.225">三重県</div>
+            <div data-id="shiga.html#8/35.255/135.950">滋賀県</div>
+            <div data-id="kyoto.html#8/35.156/135.368">京都府</div>
+            <div data-id="osaka.html#8/34.692/135.511">大阪府</div>
+            <div data-id="hyogo.html#8/35.043/134.484">兵庫県</div>
+            <div data-id="nara.html#8/34.207/135.818">奈良県</div>
+            <div data-id="wakayama.html#8/33.975/135.368">和歌山県</div>
+            <div></div>
+        </div>
+        
+        <div class="pref_list" data-list="5">
+            <div data-id="tottori.html#8/35.313/133.786">鳥取県</div>
+            <div data-id="shimane.html#8/34.854/132.347">島根県</div>
+            <div data-id="okayama.html#8/34.940/133.550">岡山県</div>
+            <div data-id="hiroshima.html#8/34.556/132.512">広島県</div>
+            <div data-id="yamaguchi.html#8/34.207/131.550">山口県</div>
+            <div data-id="tokushima.html#8/33.852/133.923">徳島県</div>
+            <div data-id="kagawa.html#8/34.057/133.726">香川県</div>
+            <div data-id="ehime.html#8/33.679/132.764">愛媛県</div>
+            <div data-id="kochi.html#8/33.390/133.259">高知県</div>
+            <div></div>
+        </div>
+        
+        <div class="pref_list" data-list="6">
+            <div data-id="fukuoka.html#8/33.431/130.583">福岡県</div>
+            <div data-id="saga.html#8/33.170/130.073">佐賀県</div>
+            <div data-id="nagasaki.html#8/32.875/129.661">長崎県</div>
+            <div data-id="kumamoto.html#8/32.426/130.759">熊本県</div>
+            <div data-id="oita.html#8/33.128/131.083">大分県</div>
+            <div data-id="miyazaki.html#8/32.213/131.188">宮崎県</div>
+            <div data-id="kagoshima.html#8/31.541/130.715">鹿児島県</div>
+            <div data-id="okinawa.html#8/26.436/127.996">沖縄県</div>
+        </div>
+    </div>
+</div>
+									
+									
+									
 
 ※一部の自治体では、データ未整理のため、掲載されておりません。最新の情報は、自治体の公式サイトなどでもご確認ください。<br><br>
 参考：<a href="https://hinan.gsi.go.jp/hinanjocjp/hinanbasho/koukaidate.html" target="_blank">指定緊急避難場所データ　市町村別公開日・最終更新日</a>
@@ -2196,7 +2283,7 @@ https://tanganrss.com/rsstxt/regist.php?key=d1d05697abb3c1c54dac73c0b86dde57
 				<article id="rss">
 					<h2 class="major">実績</h2>
 					<p>
-					<a href="https://www.icc-media.co.jp/icc/lineup/ichinomiya/121877.html" target="_blank">いちのみやTV出演</a><br><br>
+					いちのみやTV出演<br><br>
 					<a href="http://www.gsi.go.jp/bousaichiri/bousai-app-2017_00011.html" target="_blank">平成29年度　防災アプリ賞受賞</a>
 					</p>
 					<h2 class="major">更新情報</h2>
@@ -2375,7 +2462,8 @@ https://tanganrss.com/rsstxt/regist.php?key=d1d05697abb3c1c54dac73c0b86dde57
 			<script src="assets/js/dhtml.js"></script>
 			<script src="assets/js/maplist.js"></script>
 			<script src="assets/js/media/audio.min.js"></script>
-
+			<script src ="assets/js/refuge.js"></script>
+			
 			<script>
 				$(function() {
 					var h = $(window).height();
