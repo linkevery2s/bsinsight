@@ -29,12 +29,6 @@
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
     <link rel="shortcut icon" href="images/apple-touch-icon.png">
 
-<link rel="stylesheet" href="dict/css/main.dict/css">
-<link rel="stylesheet" href="dict/css/footable.core.standalone.dict/css">
-<link rel="stylesheet" href="dict/css/footable.filtering.dict/css">
-<link rel="stylesheet" href="dict/css/footable.sorting.dict/css">
-<link rel="stylesheet" href="dict/css/footable.paging.dict/css">
-
     <link rel="manifest" href="./manifest.json">
     <script>
     if ('serviceWorker' in navigator) {
@@ -2496,13 +2490,6 @@ https://tanganrss.com/rsstxt/regist.php?key=d1d05697abb3c1c54dac73c0b86dde57
 								・<a href="http://www.bousai.go.jp/kaigirep/hakusho/h26/" target="_blank">平成26年版 防災白書</a>、内閣府<br>
 							</article>-->
 
-							
-							<article id ="kword">
-									<h2 class="major">防災用語集</h2>
-								<table class="table" data-sorting="true" data-filtering="true" data-paging="true" data-paging-size="15"></table>
-
-
-							</article>
 
 					</div><!-- main -->
 
@@ -2547,26 +2534,6 @@ https://tanganrss.com/rsstxt/regist.php?key=d1d05697abb3c1c54dac73c0b86dde57
 			<script src="assets/js/media/audio.min.js"></script>
 			<script src ="assets/js/refuge.js"></script>
 			<script src ="assets/js/doseki.js"></script>
-<script src="dict/js/footable.core.js"></script>
-<script src="dict/js/footable.sorting.js"></script>
-<script src="dict/js/footable.filtering.js"></script>
-<script src="dict/js/footable.paging.js"></script>
-<script src="dict/js/modal.js"></script>
-<script>
-jQuery(function($) {
-
-	var ft = FooTable.init('.table', {
-		// we only load the column definitions as the row data is loaded through the button clicks
-		"columns": $.get('./word/data/columns.json')
-	});
-
-		$.get('./word/data/rows.json').then(function (rows) {
-			// and then load them using either
-			ft.rows.load(rows);
-		});
-
-});
-</script>
 
 			<script>
 				$(function() {
