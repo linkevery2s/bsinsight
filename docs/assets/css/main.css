@@ -3332,3 +3332,22 @@ width: 180px !important;
 					background-repeat: no-repeat;
 					background-color: #ff5500;
 				}
+
+h3.soku{
+position: relative;
+padding: .5em .5em .1em 1.7em;
+display: inline-block;
+border-bottom: 1px solid #FFFF00;
+}
+h3.soku::after {
+  position: absolute;
+  top: .9em;
+  left: .4em;
+  z-index: 2;
+  content: '';
+  width: 12px;
+  height: 12px;
+  background-color: #FFFF00;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}

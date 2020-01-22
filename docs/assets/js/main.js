@@ -712,25 +712,36 @@ function ktsearch(){
 		var p_result = document.getElementById('points_data');
 
 		p_result.innerHTML = "各地の震度は以下のとおりです。<br><br>";
+		
+		var name1=""; var name2=""; var name3=""; var name4=""; var name45=""; var name5=""; var name55=""; var name6=""; var name7="";
 
 		for (j = 0; j < p_count; j++){
 		
 		var max_p = json_data[0].points[j].scale;
+		
 
-      	if( max_p == 10){var max_p = "１";}
-      	else if( max_p == 20){var max_p = "２";}
-      	else if( max_p == 30){var max_p = "３";}
-      	else if( max_p == 40){var max_p = "４";}
-      	else if( max_p == 45){var max_p = "５弱";}
-      	else if( max_p == 50){var max_p = "５強";}
-      	else if( max_p == 55){var max_p = "６弱";}
-      	else if( max_p == 60){var max_p = "６強";}
-      	else if( max_p == 70){var max_p = "７";}
+      	if( max_p == 10){name1 = name1 + json_data[0].points[j].addr + "　";}
+      	else if( max_p == 20){name2 = name2 + json_data[0].points[j].addr + "　";}
+      	else if( max_p == 30){name3 = name3 + json_data[0].points[j].addr + "　";}
+      	else if( max_p == 40){name4 = name4 + json_data[0].points[j].addr + "　";}
+      	else if( max_p == 45){name45 = name45 + json_data[0].points[j].addr + "　";}
+      	else if( max_p == 50){name5 = name5 + json_data[0].points[j].addr + "　";}
+      	else if( max_p == 55){name55 = name55 + json_data[0].points[j].addr + "　";}
+      	else if( max_p == 60){name6 = name6 + json_data[0].points[j].addr + "　";}
+      	else if( max_p == 70){name7 = name7 + json_data[0].points[j].addr + "　";}
 		else{exit;}
 
-		p_result.innerHTML += "震度：" + max_p + "　" + json_data[0].points[j].addr + "　";
-
 		}
+			if( name7 !== ""){p_result.innerHTML += "<h3 class = 'soku'>震度７</h3><br>" + name7 + "<br><br>"; }
+			if( name6 !== ""){p_result.innerHTML += "<h3 class = 'soku'>震度６強</h3><br>" + name6 + "<br><br>"; }
+			if( name55 !== ""){p_result.innerHTML += "<h3 class = 'soku'>震度６弱</h3><br>" + name55 + "<br><br>"; }
+			if( name5 !== ""){p_result.innerHTML += "<h3 class = 'soku'>震度５強</h3><br>" + name50 + "<br><br>"; }
+			if( name45 !== ""){p_result.innerHTML += "<h3 class = 'soku'>震度５弱</h3><br>" + name45 + "<br><br>"; }
+			if( name4 !== ""){p_result.innerHTML += "<h3 class = 'soku'>震度４</h3><br>" + name4 + "<br><br>"; }
+			if( name3 !== ""){p_result.innerHTML += "<h3 class = 'soku'>震度３</h3><br>" + name3 + "<br><br>"; }
+			if( name2 !== ""){p_result.innerHTML += "<h3 class = 'soku'>震度２</h3><br>" + name2 + "<br><br>"; }
+			if( name1 !== ""){p_result.innerHTML += "<h3 class = 'soku'>震度１</h3><br>" + name1; }
+			
 
 		}
 		else{
