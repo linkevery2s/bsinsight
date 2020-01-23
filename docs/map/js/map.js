@@ -1,7 +1,7 @@
 var map;var p;var zoom;var hash;var url;var number;var marker; var markers = []; var gps_button; var hinanj;var geok;var cloud;
 var todou = new Array(47);var markers = new Array(47); var ido; var keido;var para; var par;var back_b;
 
-var lastup = "2020年01月13日";
+var lastup = "2020年01月23日";
 
 	function start(){
 		map = L.map('map',{zoomControl: false});
