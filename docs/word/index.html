@@ -21,7 +21,7 @@ jQuery(function($) {
 
 	var ft = FooTable.init('.table', {
 		// we only load the column definitions as the row data is loaded through the button clicks
-		"columns": $.get('data/columns.json')
+		//"columns": $.get('data/columns.json')
 	});
 
 		$.get('data/rows.json').then(function (rows) {
@@ -33,58 +33,21 @@ jQuery(function($) {
 </script>
 </head>
 <body>
-<h1>気象用語辞典</h1>
 
-<div id="menu_toggle" onclick="menu_display()"><i class="fa fa-bars" style="line-height:40px;"></i></div>
-<div id="menu-content"><span id="modal-close">×</span>
-<center>
-<h2><span>ＭＥＮＵ</span></h2>
-</center>
-	<div class="scroll_d">
-<ul class="accordion-menu">
-  <li>
-    <div class="dropdownlink"><i class="fa fa-road" aria-hidden="true"></i> この用語辞典について
-    </div>
-    <ul class="submenuItems">
-    <p>天気予報や気象の情報など、一見理解しずらい気象用語は多々あるかと思います。このデータベースはそのような気象用語を一覧にしました。分かりづらい用語など、検索していただければと思います。仁志.</p>
-    </ul>
-  </li>
-  <li>
-    <div class="dropdownlink"><i class="fa fa-paper-plane" aria-hidden="true"></i> 使い方
-    </div>
-    <ul class="submenuItems">
-      <p>キーワード検索で用語を検索することができます。</p>
-    </ul>
-  </li>
-  <li>
-    <div class="dropdownlink"><i class="fa fa-quote-left" aria-hidden="true"></i> 参考文献
-    </div>
-    <ul class="submenuItems">
-      <p><a href="https://www.jma.go.jp/jma/kishou/know/yougo_hp/sakuin.html">気象用語 索引、気象庁</a></p>
-    </ul>
-  </li>
-  <li>
-    <div class="dropdownlink"><i class="fa fa-clipboard" aria-hidden="true"></i> 利用規約
-    </div>
-    <ul class="submenuItems">
-      <p>防災INSIGHTの利用規約に準拠します。</p>
-      <a href="https://linkevery2s.github.io/bsinsight/#rule">防災INSIGHT 利用規約</a>
-    </ul>
-  </li>
-  <li>
-    <div class="dropdownlink"><i class="fa fa-motorcycle" aria-hidden="true"></i> 防災INSIGHT
-    </div>
-    <ul class="submenuItems">
-      <a href="https://linkevery2s.github.io/bsinsight/">TOP</a>
-    </ul>
-  </li>
-</ul>
-	</div>
-</div>
+<table class="table" data-sorting="true" data-filtering="true" data-paging="true" data-paging-size="15">
+<!-- テーブルヘッダー -->
+<thead>
+<tr>
+<th>年月</th>
+<th data-breakpoints="xs" data-title="号">号</th>
+<th data-breakpoints="xs" data-title="暴風域" data-type="number">暴風域</th>
+</tr>
+</thead>
+
+</table>
 
 
-<table class="table" data-sorting="true" data-filtering="true" data-paging="true" data-paging-size="15"></table>
 
-<script type="text/javascript" src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5e2270bd819dcd56"></script>
+
 </body>
 </html>
