@@ -1,0 +1,21 @@
+ var data = [
+ {
+ url: "https://progforone.netlify.com/post/",
+ title: "Posts",
+ content: "[]"
+ }
+ ,{
+ url: "https://progforone.netlify.com/post/2020/01/05/css/",
+ title: "デザインあれこれ",
+ content: "[★文章を入れる★ aaa bbb ccc ddd 更新履歴 2020.01.05 新規作成]"
+ }
+ ,{
+ url: "https://progforone.netlify.com/post/2020/01/04/vba/",
+ title: "開いているExcelファイルと同じパスを取得する。",
+ content: "[作業ファイルと同じパスを取得したい。 プログラムコード 更新履歴 Excel VBAでファイル操作していて、作業ファイルと同じパスを取得したいときがあります。 作業ファイルと同じパスにデータ出力したい時などに使います。 プログラムコード コードは以下のとおりです。 ・作業ファイルと同じパスと取得する。 ThisWorkbook.Path 更新履歴 2020.01.18 新規作成]"
+ }
+ ,{
+ url: "https://progforone.netlify.com/post/2020/01/03/vba/",
+ title: "Excel VBAで最終行、最終列を取得する。",
+ content: "[Excel VBAで最終行、最終列を取得する方法をすぐに忘れてしまうんだよね…。 どう書こう？ プログラムコード 更新履歴 どう書こう？ Exel VBAで最終行、最終列を取得する方法です。 範囲指定で1行目～セルの値のある最終行まで指定したい場合などに使用します。 僕もよく忘れるので、記事にしました。 プログラムコード コードは以下のとおりです。 ・A列の最終行を取得する。 MaxRow = Cells(Rows.Count, 1).End(xlUp).Row ・1行目の最終列を取得する。 MaxCol = Cells(1, Columns.Count).End(xlToLeft).Column 更新履歴 2020.01.03 新規作成]"
+ }]

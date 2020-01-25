@@ -414,6 +414,7 @@ $("#tn").hide();
 $("#th").hide();
 $("#ds").hide();
 $("#eq").hide();
+$("#ks").hide();
 
 $("#skb").hide();
 $("#hins").hide();
@@ -445,6 +446,7 @@ function eq(){
 $("#tn").hide();
 $("#th").hide();
 $("#ds").hide();
+$("#ks").hide();
 $("#eq").show();
 }
 
@@ -452,6 +454,7 @@ function tn(){
 $("#eq").hide();
 $("#th").hide();
 $("#ds").hide();
+$("#ks").hide();
 $("#tn").show();
 }
 
@@ -459,6 +462,7 @@ function th(){
 $("#tn").hide();
 $("#eq").hide();
 $("#ds").hide();
+$("#ks").hide();
 $("#th").show();
 }
 
@@ -466,7 +470,16 @@ function ds(){
 $("#tn").hide();
 $("#eq").hide();
 $("#th").hide();
+$("#ks").hide();
 $("#ds").show();
+}
+
+function ks(){
+$("#tn").hide();
+$("#eq").hide();
+$("#th").hide();
+$("#ds").hide();
+$("#ks").show();
 }
 
 function sk(){
