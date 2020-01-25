@@ -21,7 +21,7 @@ jQuery(function($) {
 
 	var ft = FooTable.init('.table', {
 		// we only load the column definitions as the row data is loaded through the button clicks
-		//"columns": $.get('data/columns.json')
+		"columns": $.get('data/columns.json')
 	});
 
 		$.get('data/rows.json').then(function (rows) {
@@ -34,17 +34,7 @@ jQuery(function($) {
 </head>
 <body>
 
-<table class="table" data-sorting="true" data-filtering="true" data-paging="true" data-paging-size="15">
-<!-- テーブルヘッダー -->
-<thead>
-<tr>
-<th>年月</th>
-<th data-breakpoints="xs" data-title="号">号</th>
-<th data-breakpoints="xs" data-title="暴風域" data-type="number">暴風域</th>
-</tr>
-</thead>
-
-</table>
+<table class="table" data-sorting="true" data-filtering="true" data-paging="true" data-paging-size="15"></table>
 
 
 
