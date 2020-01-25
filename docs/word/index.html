@@ -21,13 +21,14 @@ jQuery(function($) {
 
 	var ft = FooTable.init('.table', {
 		// we only load the column definitions as the row data is loaded through the button clicks
-		"columns": $.get('data/columns.json')
+                "columns": [
+  {"name":"yougo", "title":"用語"},
+  {"name":"kana", "title":"かな"},
+  {"breakpoints": "xs sm md", "name":"setumei", "title":"説明"}
+],
+                "rows": $.get('https://linkevery2s.github.io/bsinsight/word/data/rows.json')
 	});
 
-		$.get('data/rows.json').then(function (rows) {
-			// and then load them using either
-			ft.rows.load(rows);
-		});
 
 });
 </script>
