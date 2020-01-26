@@ -3018,7 +3018,7 @@ z-index: -1;
 	background-color: rgba(255, 255, 255, 0.075);
 }
 
-#kens{
+#q, #kens{
 	display: inline-block;
 	text-align: left;
 	width: 220px !important;
@@ -3379,4 +3379,60 @@ h3.soku::after {
 
 .m .do{
 	border-bottom: dashed 1px silver;
+}
+
+/* 検索ボックス */
+dd{
+	margin:0;
+	padding:0 0 1em 0.5em;
+	width:90%;
+}
+dd span{
+	font-size:80%;
+	color:#888;
+}
+dd b{
+	color:#666600;
+	background-color:#ffffdd;
+	font-weight:bold;
+	border:1px solid #bbbb00;
+	margin:0 2px 0 2px;
+	padding:0 2px 0 2px;
+}
+#navi{
+	margin:0.5rem 0;
+	line-height:2rem;
+}
+#navi span{
+	border-top:1px solid #d8d8d8;
+	border-bottom:1px solid #d8d8d8;
+	padding: 0.33rem 0.66rem;
+	cursor:pointer;
+	word-wrap:break-word;
+}
+#navi span.selected{
+	background: #D3EDF7;
+	color: blue;
+}
+#navi span:first-child{
+	border-left:1px solid #d8d8d8;
+	border-top-left-radius: 0.4rem;
+	border-bottom-left-radius: 0.4rem;
+}
+#navi span:last-child{
+	border-right:1px solid #d8d8d8;
+	border-top-right-radius: 0.4rem;
+	border-bottom-right-radius: 0.4rem;
+}
+
+#searchbox input{
+	font-size: 1;
+    padding: .3em;
+     
+	margin-bottom: 1em;
+}
+@media (max-width: 15em) {
+	#navi{
+		width:300px;
+	}
 }
