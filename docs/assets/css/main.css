@@ -2429,7 +2429,7 @@
 #ke .close{display:none !important;}
 #ke_s .close{display:none !important;}
 
-#type .close, #where .close, #need .close, #guide .close, #tokei .close, #mochidashi .close, #anpi .close, #lisai .close, #help .close, #bsword .close, #mochidashi .close, #calender .close, #nextb .close, #bsword_w .close, #soutei .close, #ssar .close, #help .close, #medical .close, #kt .close{display:none !important;}
+#type .close, #where .close, #need .close, #guide .close, #tokei .close, #mochidashi .close, #anpi .close, #lisai .close, #help .close, #bsword .close, #mochidashi .close, #calender .close, #nextb .close, #bsword_w .close, #ssar .close, #soutei .close, #help .close, #medical .close, #kt .close{display:none !important;}
 
 .link{
 				display: block;
@@ -2972,13 +2972,14 @@ z-index: -1;
 }
 
 .wind{
+	cursor: pointer;
 	display: inline-block;
 	border-radius: 10%;
 	border: solid 1px #ffffff;
 	width: 120px;
 	text-align: center;
 	margin: 0 5px 0 5px;
-	padding: 5px 0 5px 0;
+	padding: 10px 0 10px 0;
 	text-decoration: none !important;
 	text-decoration-line: none !important;
 }
@@ -3301,10 +3302,6 @@ h2.iryou::after {
   transform: rotate(45deg);
 }
 
-#bu_st{
-border-radius: 3em !important;
-width: 180px !important;
-}
 
 				.top_back{
 					margin-top: 40px;
