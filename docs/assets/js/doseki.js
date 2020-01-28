@@ -18,7 +18,7 @@ $(function(){
         if($(this).data('id')){
             var id = $(this).data('id');
 
-            location.href = 'doseki/' + id + '.html';
+            location.href = 'doseki/' + id;
             
             prefReset();
         }

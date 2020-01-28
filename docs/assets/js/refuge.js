@@ -19,7 +19,7 @@ $(function(){
             var id = $(this).data('id');
 
             //window.location.href = 'https://www.jma.go.jp/jp/yoho/3' + id + '.html';
-            location.href = "map/" + id + ".html";
+            location.href = "map/" + id;
             
             prefReset();
         }
