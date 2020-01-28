@@ -1,6 +1,4 @@
-window.onload=function(){
-	gid("q").focus();
-}
+
 
 {
 	$_ = String.prototype;
