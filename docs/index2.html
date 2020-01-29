@@ -1,3 +1,4 @@
+
 <!DOCTYPE HTML>
 <!--
 	Dimension by HTML5 UP
@@ -67,6 +68,7 @@
 								
 							<li class="wind"><a href="#intro" ><span class="label">はじめに</span></a></li>
 							<li class="wind"><a href="#manual"><span class="label">使い方</span></a></li>
+							<li class="wind"><a href="#sokuho"><span class="label">速　報</span></a></li>
 								
 							</div>
 						</div>
@@ -75,7 +77,7 @@
 								<li><a href="#manabu">学  習</a></li>
 								<li><a href="#refuge">避難情報</a></li>
 								<li><a href="#weather">気象情報</a></li>
-								<li><a href="#soutei">浸水情報</a></li>
+								<li><a href="#soutei">浸水想定</a></li>
 								</ul>
 						</nav>
 						
@@ -503,19 +505,20 @@
 								<p>災害にはどのようなものがあるでしょうか？<br>
 								災害について "知る" ことが "守る" ことに繋がります。</p>
 								
-								<ul class="actions">
-										<li><a href="javascript:void(0);" class="button" id="col1" onclick="eq();">地　　震</a></li>
-										<li><a href="javascript:void(0);" class="button" id="col1" onclick="tn();">津　　波</a></li>
-										<li><a href="javascript:void(0);" class="button" id="col1" onclick="th();">風 水 害</a></li>
-										<li><a href="javascript:void(0);" class="button" id="col1" onclick="ds();">自然災害</a></li>
-								</ul>
-								<ul class="actions">
-										<li><a href="javascript:void(0);" class="button" id="col1" onclick="ks();">火　　災</a></li>
-								</ul>
+								<div class="mokuji1">
+    								<p>目次</p>
+    								
+    								<a href="#earthq">地震</a><br>
+    								<a href="#tsunami">津波</a><br>
+    								<a href="#taihu">風水害</a><br>
+    								<a href="#dosya">火山災害</a><br>
+    								<a href="#kasai">火災</a><br>
+    								
+								</div>
 								
 								<br>
 								
-								<div id="eq">
+								<div id="earthq">
 								<h2 class="ti">地　震</h2>
 								<p>
 								<img src ="images/eq1.jpg" width="100%">
@@ -596,7 +599,8 @@
 								</blockquote>
 								</div><!-- eq -->
 								
-								<div id="tn">
+								<hr>
+								<div id="tsunami">
 								<h2 class="ti">津　波</h2>
 								<p>
 								<img src ="images/tn1.jpg" width="100%">
@@ -626,7 +630,8 @@
 								</blockquote>
 								</div><!-- tn -->
 								
-								<div id="th">
+								<hr>
+								<div id="taihu">
 								<h2 class="ti">台　風</h2>
 								<img src="images/th.png" width="100%"><br>
 								（写真提供：気象庁ウェブサイト）<br><br>
@@ -722,7 +727,8 @@
 								
 								</div><!-- th -->
 								
-								<div id="ds">
+								<hr>
+								<div id="dosya">
 								<h2 class="ti">火山災害</h2>
 								<img src="images/kazan.jpg"  width="100%"><br><br>
 																
@@ -809,8 +815,8 @@
 								
 								</div><!-- ds -->
 
-
-								<div id ="ks">
+								<hr>
+								<div id ="kasai">
 								<h2 class="ti">火　災</h2>
 								<img src="images/kasai.jpg"  width="100%"><br>
 								（写真提供：神戸市）<br><br>
@@ -1707,42 +1713,6 @@
 								</div>
 
 							<hr />
-							<h2 class="ti">地震速報</h2>
-								<!--<h3 class="point">地震速報</h3>-->
-								<ul class="actions">
-									<li><span class="button" target="_blank" onclick="sindosokuhou()"><i class="fa fa-arrow-circle-up"></i> 更新</span></li>
-								</ul>
-								<div id ="smap"></div>
-								<div id="data_result"></div>
-								<div id = "points_data"></div>
-
-<!--
-								<hr />
-								<h3 class="point">地震情報</h3>
-								
-<script id="_tangan_loader_3aafed63c8a7c03e28aafeecdd574cb2" src="https://tanganrss.com/rsstxt/loader.php?url=https%3A%2F%2Ftanganrss.com%2Frsstxt%2Frsstxt.php%3Fkey%3D3aafed63c8a7c03e28aafeecdd574cb2&id=3aafed63c8a7c03e28aafeecdd574cb2&target=" type="text/javascript"></script>
-
-								<h3 class="point">津波情報</h3>
-								
-<script id="_tangan_loader_09e383ac3380f762f1ae4c4dfe50cdf6" src="https://tanganrss.com/rsstxt/loader.php?url=https%3A%2F%2Ftanganrss.com%2Frsstxt%2Frsstxt.php%3Fkey%3D09e383ac3380f762f1ae4c4dfe50cdf6&id=09e383ac3380f762f1ae4c4dfe50cdf6&target=" type="text/javascript"></script>
-
-								<h3 class="point">火山情報</h3>
-								
-<script id="_tangan_loader_c36647cdb31407e3b1fc47b34e71e1d5" src="https://tanganrss.com/rsstxt/loader.php?url=https%3A%2F%2Ftanganrss.com%2Frsstxt%2Frsstxt.php%3Fkey%3Dc36647cdb31407e3b1fc47b34e71e1d5&id=c36647cdb31407e3b1fc47b34e71e1d5&target=" type="text/javascript"></script>
-
-								<hr />
-								<h3 class="point">内閣府 防災情報ＲＳＳ</h3>
-
-<script id="_tangan_loader_c533d7bfc9c116652e8b3161f8be1126" src="https://tanganrss.com/rsstxt/loader.php?url=https%3A%2F%2Ftanganrss.com%2Frsstxt%2Frsstxt.php%3Fkey%3Dc533d7bfc9c116652e8b3161f8be1126&id=c533d7bfc9c116652e8b3161f8be1126&target=" type="text/javascript"></script>
-<!--
-姉妹サービス、複眼RSSを宜しくお願いします。
-http://fukugan.com/
--->
-<!-- 登録内容の復元URL
-https://tanganrss.com/rsstxt/regist.php?key=c533d7bfc9c116652e8b3161f8be1126
--->
-
-							<hr />
 								<h2 class="ti">通行止め情報</h2>
 
 									<div class="table-wrapper">
@@ -1802,7 +1772,6 @@ https://tanganrss.com/rsstxt/regist.php?key=c533d7bfc9c116652e8b3161f8be1126
 							<hr />
 							<i class="fa fa-book" aria-hidden="true"></i> 以下の資料をもとに仁志が加工・編集して作成しました。<br>
 							・地理院タイル（<span id="url_a"><a href="http://maps.gsi.go.jp/development/ichiran.html">http://maps.gsi.go.jp/development/ichiran.html</a></span>）、指定緊急避難場所データ<br>
-							・<a href= "https://www.p2pquake.net/">P2P地震情報</a><br>
 							・<a href ="https://www.geospatial.jp/ckan/dataset/1101">通行止め情報</a>、G空間情報センター
 							<div class ="top_back"><a href="#refuge" id = "ue"></a></div>
 							</article><!-- refuge -->
@@ -2551,6 +2520,48 @@ https://tanganrss.com/rsstxt/regist.php?key=d1d05697abb3c1c54dac73c0b86dde57
 								
 							</article>
 
+							<article id ="sokuho">
+								<h2 class="major">災害速報</h2>
+								<h3 class="point">地震速報</h3>
+								<ul class="actions">
+									<li><span class="button" target="_blank" onclick="sindosokuhou()"><i class="fa fa-arrow-circle-up"></i> 更新</span></li>
+								</ul>
+								<div id ="smap"></div>
+								<div id="data_result"></div>
+								<div id = "points_data"></div>
+
+<!--
+								<hr />
+								<h3 class="point">地震情報</h3>
+								
+<script id="_tangan_loader_3aafed63c8a7c03e28aafeecdd574cb2" src="https://tanganrss.com/rsstxt/loader.php?url=https%3A%2F%2Ftanganrss.com%2Frsstxt%2Frsstxt.php%3Fkey%3D3aafed63c8a7c03e28aafeecdd574cb2&id=3aafed63c8a7c03e28aafeecdd574cb2&target=" type="text/javascript"></script>
+
+								<h3 class="point">津波情報</h3>
+								
+<script id="_tangan_loader_09e383ac3380f762f1ae4c4dfe50cdf6" src="https://tanganrss.com/rsstxt/loader.php?url=https%3A%2F%2Ftanganrss.com%2Frsstxt%2Frsstxt.php%3Fkey%3D09e383ac3380f762f1ae4c4dfe50cdf6&id=09e383ac3380f762f1ae4c4dfe50cdf6&target=" type="text/javascript"></script>
+
+								<h3 class="point">火山情報</h3>
+								
+<script id="_tangan_loader_c36647cdb31407e3b1fc47b34e71e1d5" src="https://tanganrss.com/rsstxt/loader.php?url=https%3A%2F%2Ftanganrss.com%2Frsstxt%2Frsstxt.php%3Fkey%3Dc36647cdb31407e3b1fc47b34e71e1d5&id=c36647cdb31407e3b1fc47b34e71e1d5&target=" type="text/javascript"></script>
+
+								<hr />
+								<h3 class="point">内閣府 防災情報ＲＳＳ</h3>
+
+<script id="_tangan_loader_c533d7bfc9c116652e8b3161f8be1126" src="https://tanganrss.com/rsstxt/loader.php?url=https%3A%2F%2Ftanganrss.com%2Frsstxt%2Frsstxt.php%3Fkey%3Dc533d7bfc9c116652e8b3161f8be1126&id=c533d7bfc9c116652e8b3161f8be1126&target=" type="text/javascript"></script>
+<!--
+姉妹サービス、複眼RSSを宜しくお願いします。
+http://fukugan.com/
+-->
+<!-- 登録内容の復元URL
+https://tanganrss.com/rsstxt/regist.php?key=c533d7bfc9c116652e8b3161f8be1126
+-->
+								<hr />
+								<i class="fa fa-book" aria-hidden="true"></i> 以下の資料をもとに仁志が加工・編集して作成しました。<br>
+
+							・<a href= "https://www.p2pquake.net/">P2P地震情報</a><br>
+							
+							</article>
+
 
 					</div><!-- main -->
 
@@ -2630,7 +2641,6 @@ https://tanganrss.com/rsstxt/regist.php?key=d1d05697abb3c1c54dac73c0b86dde57
 <script type="text/javascript" src="assets/js/search1.js"></script>
 <script type="text/javascript" src="assets/js/search2.js"></script>
 
-<script type="text/javascript" src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5e301a93ba3992b1"></script>
 
 </body>
 </html>
