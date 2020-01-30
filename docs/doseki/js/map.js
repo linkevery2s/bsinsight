@@ -53,11 +53,14 @@ function rn(){
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/23/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/23/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
 		var t4 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukikenkeiryu_data/23/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t5 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeisyachihoukai_data/23/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t6 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikikenkasyo_data/23/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t7 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_nadarekikenkasyo_data/23/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		
 		var baseMaps = {
     		"急傾斜地の崩壊警戒区域": t1,
     		"土石流警戒区域": t2,
-    		"地すべり警戒区域": t3,
-    		"土石流危険渓流": t4
+    		"地すべり警戒区域": t3, "土石流危険渓流": t4, "急傾斜地崩壊危険箇所": t5, "地すべり危険箇所": t6, "雪崩危険個所": t7
 		};
 		L.control.layers(baseMaps).addTo(map);
 
@@ -68,11 +71,15 @@ function rn(){
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/01/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/01/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/01/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t4 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukikenkeiryu_data/01/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t5 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeisyachihoukai_data/01/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t6 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikikenkasyo_data/01/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t7 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_nadarekikenkasyo_data/01/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
 
 		var baseMaps = {
     		"急傾斜地の崩壊警戒区域": t1,
     		"土石流警戒区域": t2,
-    		"地すべり警戒区域": t3    		
+    		"地すべり警戒区域": t3, "土石流危険渓流": t4, "急傾斜地崩壊危険箇所": t5, "地すべり危険箇所": t6, "雪崩危険個所": t7
 		};
 		L.control.layers(baseMaps).addTo(map);	}
 
@@ -81,11 +88,15 @@ function rn(){
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/02/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/02/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/02/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t4 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukikenkeiryu_data/02/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t5 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeisyachihoukai_data/02/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t6 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikikenkasyo_data/02/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t7 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_nadarekikenkasyo_data/02/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
 
 		var baseMaps = {
     		"急傾斜地の崩壊警戒区域": t1,
     		"土石流警戒区域": t2,
-    		"地すべり警戒区域": t3    		
+    		"地すべり警戒区域": t3, "土石流危険渓流": t4, "急傾斜地崩壊危険箇所": t5, "地すべり危険箇所": t6, "雪崩危険個所": t7    		
 		};
 		L.control.layers(baseMaps).addTo(map);	}
 
@@ -94,11 +105,15 @@ function rn(){
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/03/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/03/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/03/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t4 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukikenkeiryu_data/03/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t5 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeisyachihoukai_data/03/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t6 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikikenkasyo_data/03/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t7 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_nadarekikenkasyo_data/03/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
 
 		var baseMaps = {
     		"急傾斜地の崩壊警戒区域": t1,
     		"土石流警戒区域": t2,
-    		"地すべり警戒区域": t3    		
+    		"地すべり警戒区域": t3, "土石流危険渓流": t4, "急傾斜地崩壊危険箇所": t5, "地すべり危険箇所": t6, "雪崩危険個所": t7    		
 		};
 		L.control.layers(baseMaps).addTo(map);	}
 
@@ -107,11 +122,15 @@ function rn(){
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/05/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/05/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/05/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t4 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukikenkeiryu_data/05/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t5 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeisyachihoukai_data/05/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t6 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikikenkasyo_data/05/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t7 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_nadarekikenkasyo_data/05/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
 
 		var baseMaps = {
     		"急傾斜地の崩壊警戒区域": t1,
     		"土石流警戒区域": t2,
-    		"地すべり警戒区域": t3    		
+    		"地すべり警戒区域": t3, "土石流危険渓流": t4, "急傾斜地崩壊危険箇所": t5, "地すべり危険箇所": t6, "雪崩危険個所": t7    		
 		};
 		L.control.layers(baseMaps).addTo(map);
 	}
@@ -121,11 +140,15 @@ function rn(){
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/04/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/04/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/04/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t4 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukikenkeiryu_data/04/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t5 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeisyachihoukai_data/04/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t6 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikikenkasyo_data/04/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t7 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_nadarekikenkasyo_data/04/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
 
 		var baseMaps = {
     		"急傾斜地の崩壊警戒区域": t1,
     		"土石流警戒区域": t2,
-    		"地すべり警戒区域": t3    		
+    		"地すべり警戒区域": t3, "土石流危険渓流": t4, "急傾斜地崩壊危険箇所": t5, "地すべり危険箇所": t6, "雪崩危険個所": t7    		
 		};
 		L.control.layers(baseMaps).addTo(map);
 	}
@@ -135,11 +158,15 @@ function rn(){
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/06/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/06/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/06/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t4 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukikenkeiryu_data/06/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t5 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeisyachihoukai_data/06/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t6 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikikenkasyo_data/06/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t7 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_nadarekikenkasyo_data/06/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
 
 		var baseMaps = {
     		"急傾斜地の崩壊警戒区域": t1,
     		"土石流警戒区域": t2,
-    		"地すべり警戒区域": t3    		
+    		"地すべり警戒区域": t3, "土石流危険渓流": t4, "急傾斜地崩壊危険箇所": t5, "地すべり危険箇所": t6, "雪崩危険個所": t7    		
 		};
 		L.control.layers(baseMaps).addTo(map);	}
 
@@ -148,11 +175,15 @@ function rn(){
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/07/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/07/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/07/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t4 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukikenkeiryu_data/07/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t5 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeisyachihoukai_data/07/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t6 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikikenkasyo_data/07/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t7 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_nadarekikenkasyo_data/07/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
 
 		var baseMaps = {
     		"急傾斜地の崩壊警戒区域": t1,
     		"土石流警戒区域": t2,
-    		"地すべり警戒区域": t3    		
+    		"地すべり警戒区域": t3, "土石流危険渓流": t4, "急傾斜地崩壊危険箇所": t5, "地すべり危険箇所": t6, "雪崩危険個所": t7    		
 		};
 		L.control.layers(baseMaps).addTo(map);	}
 
@@ -161,11 +192,15 @@ function rn(){
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/15/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/15/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/15/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t4 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukikenkeiryu_data/15/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t5 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeisyachihoukai_data/15/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t6 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikikenkasyo_data/15/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t7 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_nadarekikenkasyo_data/15/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
 
 		var baseMaps = {
     		"急傾斜地の崩壊警戒区域": t1,
     		"土石流警戒区域": t2,
-    		"地すべり警戒区域": t3    		
+    		"地すべり警戒区域": t3, "土石流危険渓流": t4, "急傾斜地崩壊危険箇所": t5, "地すべり危険箇所": t6, "雪崩危険個所": t7    		
 		};
 		L.control.layers(baseMaps).addTo(map);	}
 
@@ -174,11 +209,15 @@ function rn(){
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/09/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/09/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/09/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t4 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukikenkeiryu_data/09/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t5 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeisyachihoukai_data/09/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t6 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikikenkasyo_data/09/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t7 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_nadarekikenkasyo_data/09/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
 
 		var baseMaps = {
     		"急傾斜地の崩壊警戒区域": t1,
     		"土石流警戒区域": t2,
-    		"地すべり警戒区域": t3    		
+    		"地すべり警戒区域": t3, "土石流危険渓流": t4, "急傾斜地崩壊危険箇所": t5, "地すべり危険箇所": t6, "雪崩危険個所": t7    		
 		};
 		L.control.layers(baseMaps).addTo(map);	}
 
@@ -187,11 +226,15 @@ function rn(){
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/10/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/10/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/10/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t4 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukikenkeiryu_data/10/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t5 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeisyachihoukai_data/10/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t6 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikikenkasyo_data/10/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t7 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_nadarekikenkasyo_data/10/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
 
 		var baseMaps = {
     		"急傾斜地の崩壊警戒区域": t1,
     		"土石流警戒区域": t2,
-    		"地すべり警戒区域": t3    		
+    		"地すべり警戒区域": t3, "土石流危険渓流": t4, "急傾斜地崩壊危険箇所": t5, "地すべり危険箇所": t6, "雪崩危険個所": t7    		
 		};
 		L.control.layers(baseMaps).addTo(map);	}
 
@@ -200,11 +243,15 @@ function rn(){
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/08/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/08/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/08/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t4 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukikenkeiryu_data/08/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t5 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeisyachihoukai_data/08/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t6 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikikenkasyo_data/08/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t7 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_nadarekikenkasyo_data/08/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
 
 		var baseMaps = {
     		"急傾斜地の崩壊警戒区域": t1,
     		"土石流警戒区域": t2,
-    		"地すべり警戒区域": t3    		
+    		"地すべり警戒区域": t3, "土石流危険渓流": t4, "急傾斜地崩壊危険箇所": t5, "地すべり危険箇所": t6, "雪崩危険個所": t7    		
 		};
 		L.control.layers(baseMaps).addTo(map);	}
 
@@ -213,11 +260,15 @@ function rn(){
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/12/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/12/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/12/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t4 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukikenkeiryu_data/12/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t5 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeisyachihoukai_data/12/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t6 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikikenkasyo_data/12/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t7 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_nadarekikenkasyo_data/12/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
 
 		var baseMaps = {
     		"急傾斜地の崩壊警戒区域": t1,
     		"土石流警戒区域": t2,
-    		"地すべり警戒区域": t3    		
+    		"地すべり警戒区域": t3, "土石流危険渓流": t4, "急傾斜地崩壊危険箇所": t5, "地すべり危険箇所": t6, "雪崩危険個所": t7    		
 		};
 		L.control.layers(baseMaps).addTo(map);	}
 
@@ -226,11 +277,15 @@ function rn(){
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/11/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/11/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/11/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t4 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukikenkeiryu_data/11/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t5 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeisyachihoukai_data/11/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t6 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikikenkasyo_data/11/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t7 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_nadarekikenkasyo_data/11/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
 
 		var baseMaps = {
     		"急傾斜地の崩壊警戒区域": t1,
     		"土石流警戒区域": t2,
-    		"地すべり警戒区域": t3    		
+    		"地すべり警戒区域": t3, "土石流危険渓流": t4, "急傾斜地崩壊危険箇所": t5, "地すべり危険箇所": t6, "雪崩危険個所": t7    		
 		};
 		L.control.layers(baseMaps).addTo(map);	}
 
@@ -239,11 +294,15 @@ function rn(){
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/13/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/13/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/13/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t4 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukikenkeiryu_data/13/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t5 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeisyachihoukai_data/13/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t6 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikikenkasyo_data/13/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t7 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_nadarekikenkasyo_data/13/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
 
 		var baseMaps = {
     		"急傾斜地の崩壊警戒区域": t1,
     		"土石流警戒区域": t2,
-    		"地すべり警戒区域": t3    		
+    		"地すべり警戒区域": t3, "土石流危険渓流": t4, "急傾斜地崩壊危険箇所": t5, "地すべり危険箇所": t6, "雪崩危険個所": t7    		
 		};
 		L.control.layers(baseMaps).addTo(map);	}
 
@@ -252,11 +311,15 @@ function rn(){
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/14/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/14/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/14/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t4 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukikenkeiryu_data/14/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t5 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeisyachihoukai_data/14/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t6 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikikenkasyo_data/14/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t7 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_nadarekikenkasyo_data/14/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
 
 		var baseMaps = {
     		"急傾斜地の崩壊警戒区域": t1,
     		"土石流警戒区域": t2,
-    		"地すべり警戒区域": t3    		
+    		"地すべり警戒区域": t3, "土石流危険渓流": t4, "急傾斜地崩壊危険箇所": t5, "地すべり危険箇所": t6, "雪崩危険個所": t7    		
 		};
 		L.control.layers(baseMaps).addTo(map);	}
 
@@ -265,11 +328,15 @@ function rn(){
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/19/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/19/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/19/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t4 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukikenkeiryu_data/19/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t5 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeisyachihoukai_data/19/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t6 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikikenkasyo_data/19/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t7 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_nadarekikenkasyo_data/19/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
 
 		var baseMaps = {
     		"急傾斜地の崩壊警戒区域": t1,
     		"土石流警戒区域": t2,
-    		"地すべり警戒区域": t3    		
+    		"地すべり警戒区域": t3, "土石流危険渓流": t4, "急傾斜地崩壊危険箇所": t5, "地すべり危険箇所": t6, "雪崩危険個所": t7    		
 		};
 		L.control.layers(baseMaps).addTo(map);
 	}
@@ -279,11 +346,15 @@ function rn(){
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/20/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/20/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/20/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t4 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukikenkeiryu_data/20/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t5 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeisyachihoukai_data/20/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t6 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikikenkasyo_data/20/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t7 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_nadarekikenkasyo_data/20/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
 
 		var baseMaps = {
     		"急傾斜地の崩壊警戒区域": t1,
     		"土石流警戒区域": t2,
-    		"地すべり警戒区域": t3    		
+    		"地すべり警戒区域": t3, "土石流危険渓流": t4, "急傾斜地崩壊危険箇所": t5, "地すべり危険箇所": t6, "雪崩危険個所": t7    		
 		};
 		L.control.layers(baseMaps).addTo(map);	}
 
@@ -292,11 +363,15 @@ function rn(){
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/22/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/22/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/22/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t4 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukikenkeiryu_data/22/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t5 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeisyachihoukai_data/22/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t6 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikikenkasyo_data/22/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t7 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_nadarekikenkasyo_data/22/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
 
 		var baseMaps = {
     		"急傾斜地の崩壊警戒区域": t1,
     		"土石流警戒区域": t2,
-    		"地すべり警戒区域": t3    		
+    		"地すべり警戒区域": t3, "土石流危険渓流": t4, "急傾斜地崩壊危険箇所": t5, "地すべり危険箇所": t6, "雪崩危険個所": t7    		
 		};
 		L.control.layers(baseMaps).addTo(map);	}
 
@@ -305,11 +380,15 @@ function rn(){
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/21/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/21/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/21/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t4 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukikenkeiryu_data/21/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t5 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeisyachihoukai_data/21/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t6 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikikenkasyo_data/21/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t7 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_nadarekikenkasyo_data/21/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
 
 		var baseMaps = {
     		"急傾斜地の崩壊警戒区域": t1,
     		"土石流警戒区域": t2,
-    		"地すべり警戒区域": t3    		
+    		"地すべり警戒区域": t3, "土石流危険渓流": t4, "急傾斜地崩壊危険箇所": t5, "地すべり危険箇所": t6, "雪崩危険個所": t7    		
 		};
 		L.control.layers(baseMaps).addTo(map);	}
 
@@ -318,11 +397,15 @@ function rn(){
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/16/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/16/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/16/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t4 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukikenkeiryu_data/16/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t5 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeisyachihoukai_data/16/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t6 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikikenkasyo_data/16/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t7 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_nadarekikenkasyo_data/16/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
 
 		var baseMaps = {
     		"急傾斜地の崩壊警戒区域": t1,
     		"土石流警戒区域": t2,
-    		"地すべり警戒区域": t3    		
+    		"地すべり警戒区域": t3, "土石流危険渓流": t4, "急傾斜地崩壊危険箇所": t5, "地すべり危険箇所": t6, "雪崩危険個所": t7    		
 		};
 		L.control.layers(baseMaps).addTo(map);	}
 
@@ -331,11 +414,15 @@ function rn(){
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/17/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/17/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/17/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t4 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukikenkeiryu_data/17/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t5 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeisyachihoukai_data/17/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t6 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikikenkasyo_data/17/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t7 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_nadarekikenkasyo_data/17/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
 
 		var baseMaps = {
     		"急傾斜地の崩壊警戒区域": t1,
     		"土石流警戒区域": t2,
-    		"地すべり警戒区域": t3    		
+    		"地すべり警戒区域": t3, "土石流危険渓流": t4, "急傾斜地崩壊危険箇所": t5, "地すべり危険箇所": t6, "雪崩危険個所": t7    		
 		};
 		L.control.layers(baseMaps).addTo(map);	}
 
@@ -344,11 +431,15 @@ function rn(){
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/18/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/18/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/18/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t4 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukikenkeiryu_data/18/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t5 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeisyachihoukai_data/18/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t6 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikikenkasyo_data/18/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t7 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_nadarekikenkasyo_data/18/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
 
 		var baseMaps = {
     		"急傾斜地の崩壊警戒区域": t1,
     		"土石流警戒区域": t2,
-    		"地すべり警戒区域": t3    		
+    		"地すべり警戒区域": t3, "土石流危険渓流": t4, "急傾斜地崩壊危険箇所": t5, "地すべり危険箇所": t6, "雪崩危険個所": t7    		
 		};
 		L.control.layers(baseMaps).addTo(map);	}
 
@@ -357,11 +448,15 @@ function rn(){
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/25/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/25/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/25/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t4 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukikenkeiryu_data/25/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t5 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeisyachihoukai_data/25/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t6 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikikenkasyo_data/25/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t7 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_nadarekikenkasyo_data/25/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
 
 		var baseMaps = {
     		"急傾斜地の崩壊警戒区域": t1,
     		"土石流警戒区域": t2,
-    		"地すべり警戒区域": t3    		
+    		"地すべり警戒区域": t3, "土石流危険渓流": t4, "急傾斜地崩壊危険箇所": t5, "地すべり危険箇所": t6, "雪崩危険個所": t7    		
 		};
 		L.control.layers(baseMaps).addTo(map);	}
 
@@ -370,11 +465,15 @@ function rn(){
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/24/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/24/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/24/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t4 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukikenkeiryu_data/24/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t5 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeisyachihoukai_data/24/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t6 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikikenkasyo_data/24/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t7 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_nadarekikenkasyo_data/24/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
 
 		var baseMaps = {
     		"急傾斜地の崩壊警戒区域": t1,
     		"土石流警戒区域": t2,
-    		"地すべり警戒区域": t3    		
+    		"地すべり警戒区域": t3, "土石流危険渓流": t4, "急傾斜地崩壊危険箇所": t5, "地すべり危険箇所": t6, "雪崩危険個所": t7    		
 		};
 		L.control.layers(baseMaps).addTo(map);	}
 
@@ -383,11 +482,15 @@ function rn(){
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/26/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/26/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/26/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t4 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukikenkeiryu_data/26/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t5 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeisyachihoukai_data/26/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t6 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikikenkasyo_data/26/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t7 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_nadarekikenkasyo_data/26/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
 
 		var baseMaps = {
     		"急傾斜地の崩壊警戒区域": t1,
     		"土石流警戒区域": t2,
-    		"地すべり警戒区域": t3    		
+    		"地すべり警戒区域": t3, "土石流危険渓流": t4, "急傾斜地崩壊危険箇所": t5, "地すべり危険箇所": t6, "雪崩危険個所": t7    		
 		};
 		L.control.layers(baseMaps).addTo(map);	}
 
@@ -396,11 +499,15 @@ function rn(){
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/27/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/27/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/27/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t4 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukikenkeiryu_data/27/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t5 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeisyachihoukai_data/27/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t6 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikikenkasyo_data/27/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t7 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_nadarekikenkasyo_data/27/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
 
 		var baseMaps = {
     		"急傾斜地の崩壊警戒区域": t1,
     		"土石流警戒区域": t2,
-    		"地すべり警戒区域": t3    		
+    		"地すべり警戒区域": t3, "土石流危険渓流": t4, "急傾斜地崩壊危険箇所": t5, "地すべり危険箇所": t6, "雪崩危険個所": t7    		
 		};
 		L.control.layers(baseMaps).addTo(map);	}
 
@@ -409,11 +516,15 @@ function rn(){
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/29/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/29/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/29/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t4 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukikenkeiryu_data/29/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t5 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeisyachihoukai_data/29/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t6 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikikenkasyo_data/29/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t7 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_nadarekikenkasyo_data/29/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
 
 		var baseMaps = {
     		"急傾斜地の崩壊警戒区域": t1,
     		"土石流警戒区域": t2,
-    		"地すべり警戒区域": t3    		
+    		"地すべり警戒区域": t3, "土石流危険渓流": t4, "急傾斜地崩壊危険箇所": t5, "地すべり危険箇所": t6, "雪崩危険個所": t7    		
 		};
 		L.control.layers(baseMaps).addTo(map);	}
 
@@ -422,11 +533,15 @@ function rn(){
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/30/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/30/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/30/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t4 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukikenkeiryu_data/30/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t5 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeisyachihoukai_data/30/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t6 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikikenkasyo_data/30/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t7 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_nadarekikenkasyo_data/30/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
 
 		var baseMaps = {
     		"急傾斜地の崩壊警戒区域": t1,
     		"土石流警戒区域": t2,
-    		"地すべり警戒区域": t3    		
+    		"地すべり警戒区域": t3, "土石流危険渓流": t4, "急傾斜地崩壊危険箇所": t5, "地すべり危険箇所": t6, "雪崩危険個所": t7    		
 		};
 		L.control.layers(baseMaps).addTo(map);	}
 
@@ -435,11 +550,15 @@ function rn(){
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/28/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/28/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/28/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t4 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukikenkeiryu_data/28/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t5 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeisyachihoukai_data/28/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t6 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikikenkasyo_data/28/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t7 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_nadarekikenkasyo_data/28/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
 
 		var baseMaps = {
     		"急傾斜地の崩壊警戒区域": t1,
     		"土石流警戒区域": t2,
-    		"地すべり警戒区域": t3    		
+    		"地すべり警戒区域": t3, "土石流危険渓流": t4, "急傾斜地崩壊危険箇所": t5, "地すべり危険箇所": t6, "雪崩危険個所": t7    		
 		};
 		L.control.layers(baseMaps).addTo(map);	}
 
@@ -448,11 +567,15 @@ function rn(){
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/31/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/31/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/31/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t4 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukikenkeiryu_data/31/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t5 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeisyachihoukai_data/31/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t6 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikikenkasyo_data/31/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t7 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_nadarekikenkasyo_data/31/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
 
 		var baseMaps = {
     		"急傾斜地の崩壊警戒区域": t1,
     		"土石流警戒区域": t2,
-    		"地すべり警戒区域": t3    		
+    		"地すべり警戒区域": t3, "土石流危険渓流": t4, "急傾斜地崩壊危険箇所": t5, "地すべり危険箇所": t6, "雪崩危険個所": t7    		
 		};
 		L.control.layers(baseMaps).addTo(map);	}
 
@@ -461,11 +584,15 @@ function rn(){
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/33/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/33/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/33/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t4 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukikenkeiryu_data/33/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t5 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeisyachihoukai_data/33/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t6 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikikenkasyo_data/33/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t7 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_nadarekikenkasyo_data/33/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
 
 		var baseMaps = {
     		"急傾斜地の崩壊警戒区域": t1,
     		"土石流警戒区域": t2,
-    		"地すべり警戒区域": t3    		
+    		"地すべり警戒区域": t3, "土石流危険渓流": t4, "急傾斜地崩壊危険箇所": t5, "地すべり危険箇所": t6, "雪崩危険個所": t7    		
 		};
 		L.control.layers(baseMaps).addTo(map);	}
 
@@ -474,11 +601,15 @@ function rn(){
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/32/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/32/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/32/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t4 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukikenkeiryu_data/32/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t5 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeisyachihoukai_data/32/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t6 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikikenkasyo_data/32/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t7 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_nadarekikenkasyo_data/32/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
 
 		var baseMaps = {
     		"急傾斜地の崩壊警戒区域": t1,
     		"土石流警戒区域": t2,
-    		"地すべり警戒区域": t3    		
+    		"地すべり警戒区域": t3, "土石流危険渓流": t4, "急傾斜地崩壊危険箇所": t5, "地すべり危険箇所": t6, "雪崩危険個所": t7    		
 		};
 		L.control.layers(baseMaps).addTo(map);	}
 
@@ -487,11 +618,15 @@ function rn(){
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/34/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/34/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/34/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t4 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukikenkeiryu_data/34/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t5 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeisyachihoukai_data/34/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t6 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikikenkasyo_data/34/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t7 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_nadarekikenkasyo_data/34/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
 
 		var baseMaps = {
     		"急傾斜地の崩壊警戒区域": t1,
     		"土石流警戒区域": t2,
-    		"地すべり警戒区域": t3    		
+    		"地すべり警戒区域": t3, "土石流危険渓流": t4, "急傾斜地崩壊危険箇所": t5, "地すべり危険箇所": t6, "雪崩危険個所": t7    		
 		};
 		L.control.layers(baseMaps).addTo(map);	}
 
@@ -500,11 +635,15 @@ function rn(){
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/35/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/35/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/35/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t4 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukikenkeiryu_data/35/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t5 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeisyachihoukai_data/35/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t6 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikikenkasyo_data/35/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t7 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_nadarekikenkasyo_data/35/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
 
 		var baseMaps = {
     		"急傾斜地の崩壊警戒区域": t1,
     		"土石流警戒区域": t2,
-    		"地すべり警戒区域": t3    		
+    		"地すべり警戒区域": t3, "土石流危険渓流": t4, "急傾斜地崩壊危険箇所": t5, "地すべり危険箇所": t6, "雪崩危険個所": t7    		
 		};
 		L.control.layers(baseMaps).addTo(map);	}
 
@@ -513,11 +652,15 @@ function rn(){
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/37/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/37/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/37/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t4 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukikenkeiryu_data/37/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t5 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeisyachihoukai_data/37/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t6 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikikenkasyo_data/37/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t7 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_nadarekikenkasyo_data/37/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
 
 		var baseMaps = {
     		"急傾斜地の崩壊警戒区域": t1,
     		"土石流警戒区域": t2,
-    		"地すべり警戒区域": t3    		
+    		"地すべり警戒区域": t3, "土石流危険渓流": t4, "急傾斜地崩壊危険箇所": t5, "地すべり危険箇所": t6, "雪崩危険個所": t7    		
 		};
 		L.control.layers(baseMaps).addTo(map);	}
 
@@ -526,11 +669,15 @@ function rn(){
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/36/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/36/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/36/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t4 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukikenkeiryu_data/36/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t5 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeisyachihoukai_data/36/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t6 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikikenkasyo_data/36/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t7 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_nadarekikenkasyo_data/36/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
 
 		var baseMaps = {
     		"急傾斜地の崩壊警戒区域": t1,
     		"土石流警戒区域": t2,
-    		"地すべり警戒区域": t3    		
+    		"地すべり警戒区域": t3, "土石流危険渓流": t4, "急傾斜地崩壊危険箇所": t5, "地すべり危険箇所": t6, "雪崩危険個所": t7    		
 		};
 		L.control.layers(baseMaps).addTo(map);	}
 
@@ -539,11 +686,15 @@ function rn(){
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/38/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/38/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/38/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t4 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukikenkeiryu_data/38/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t5 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeisyachihoukai_data/38/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t6 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikikenkasyo_data/38/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t7 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_nadarekikenkasyo_data/38/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
 
 		var baseMaps = {
     		"急傾斜地の崩壊警戒区域": t1,
     		"土石流警戒区域": t2,
-    		"地すべり警戒区域": t3    		
+    		"地すべり警戒区域": t3, "土石流危険渓流": t4, "急傾斜地崩壊危険箇所": t5, "地すべり危険箇所": t6, "雪崩危険個所": t7    		
 		};
 		L.control.layers(baseMaps).addTo(map);	}
 
@@ -552,11 +703,15 @@ function rn(){
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/39/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/39/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/39/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t4 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukikenkeiryu_data/39/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t5 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeisyachihoukai_data/39/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t6 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikikenkasyo_data/39/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t7 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_nadarekikenkasyo_data/39/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
 
 		var baseMaps = {
     		"急傾斜地の崩壊警戒区域": t1,
     		"土石流警戒区域": t2,
-    		"地すべり警戒区域": t3    		
+    		"地すべり警戒区域": t3, "土石流危険渓流": t4, "急傾斜地崩壊危険箇所": t5, "地すべり危険箇所": t6, "雪崩危険個所": t7    		
 		};
 		L.control.layers(baseMaps).addTo(map);	}
 
@@ -565,11 +720,15 @@ function rn(){
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/40/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/40/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/40/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t4 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukikenkeiryu_data/40/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t5 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeisyachihoukai_data/40/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t6 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikikenkasyo_data/40/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t7 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_nadarekikenkasyo_data/40/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
 
 		var baseMaps = {
     		"急傾斜地の崩壊警戒区域": t1,
     		"土石流警戒区域": t2,
-    		"地すべり警戒区域": t3    		
+    		"地すべり警戒区域": t3, "土石流危険渓流": t4, "急傾斜地崩壊危険箇所": t5, "地すべり危険箇所": t6, "雪崩危険個所": t7    		
 		};
 		L.control.layers(baseMaps).addTo(map);	}
 
@@ -578,11 +737,15 @@ function rn(){
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/41/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/41/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/41/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t4 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukikenkeiryu_data/41/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t5 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeisyachihoukai_data/41/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t6 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikikenkasyo_data/41/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t7 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_nadarekikenkasyo_data/41/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
 
 		var baseMaps = {
     		"急傾斜地の崩壊警戒区域": t1,
     		"土石流警戒区域": t2,
-    		"地すべり警戒区域": t3    		
+    		"地すべり警戒区域": t3, "土石流危険渓流": t4, "急傾斜地崩壊危険箇所": t5, "地すべり危険箇所": t6, "雪崩危険個所": t7    		
 		};
 		L.control.layers(baseMaps).addTo(map);	}
 
@@ -591,11 +754,15 @@ function rn(){
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/44/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/44/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/44/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t4 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukikenkeiryu_data/44/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t5 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeisyachihoukai_data/44/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t6 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikikenkasyo_data/44/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t7 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_nadarekikenkasyo_data/44/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
 
 		var baseMaps = {
     		"急傾斜地の崩壊警戒区域": t1,
     		"土石流警戒区域": t2,
-    		"地すべり警戒区域": t3    		
+    		"地すべり警戒区域": t3, "土石流危険渓流": t4, "急傾斜地崩壊危険箇所": t5, "地すべり危険箇所": t6, "雪崩危険個所": t7    		
 		};
 		L.control.layers(baseMaps).addTo(map);	}
 
@@ -604,11 +771,15 @@ function rn(){
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/42/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/42/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/42/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t4 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukikenkeiryu_data/42/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t5 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeisyachihoukai_data/42/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t6 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikikenkasyo_data/42/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t7 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_nadarekikenkasyo_data/42/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
 
 		var baseMaps = {
     		"急傾斜地の崩壊警戒区域": t1,
     		"土石流警戒区域": t2,
-    		"地すべり警戒区域": t3    		
+    		"地すべり警戒区域": t3, "土石流危険渓流": t4, "急傾斜地崩壊危険箇所": t5, "地すべり危険箇所": t6, "雪崩危険個所": t7    		
 		};
 		L.control.layers(baseMaps).addTo(map);	}
 
@@ -617,11 +788,15 @@ function rn(){
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/43/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/43/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/43/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t4 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukikenkeiryu_data/43/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t5 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeisyachihoukai_data/43/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t6 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikikenkasyo_data/43/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t7 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_nadarekikenkasyo_data/43/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
 
 		var baseMaps = {
     		"急傾斜地の崩壊警戒区域": t1,
     		"土石流警戒区域": t2,
-    		"地すべり警戒区域": t3    		
+    		"地すべり警戒区域": t3, "土石流危険渓流": t4, "急傾斜地崩壊危険箇所": t5, "地すべり危険箇所": t6, "雪崩危険個所": t7    		
 		};
 		L.control.layers(baseMaps).addTo(map);	}
 
@@ -630,11 +805,15 @@ function rn(){
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/45/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/45/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/45/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t4 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukikenkeiryu_data/45/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t5 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeisyachihoukai_data/45/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t6 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikikenkasyo_data/45/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t7 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_nadarekikenkasyo_data/45/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
 
 		var baseMaps = {
     		"急傾斜地の崩壊警戒区域": t1,
     		"土石流警戒区域": t2,
-    		"地すべり警戒区域": t3    		
+    		"地すべり警戒区域": t3, "土石流危険渓流": t4, "急傾斜地崩壊危険箇所": t5, "地すべり危険箇所": t6, "雪崩危険個所": t7    		
 		};
 		L.control.layers(baseMaps).addTo(map);	}
 
@@ -643,11 +822,15 @@ function rn(){
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/46/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/46/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/46/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t4 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukikenkeiryu_data/46/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t5 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeisyachihoukai_data/46/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t6 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikikenkasyo_data/46/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t7 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_nadarekikenkasyo_data/46/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
 
 		var baseMaps = {
     		"急傾斜地の崩壊警戒区域": t1,
     		"土石流警戒区域": t2,
-    		"地すべり警戒区域": t3    		
+    		"地すべり警戒区域": t3, "土石流危険渓流": t4, "急傾斜地崩壊危険箇所": t5, "地すべり危険箇所": t6, "雪崩危険個所": t7    		
 		};
 		L.control.layers(baseMaps).addTo(map);	}
 
@@ -656,11 +839,15 @@ function rn(){
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/47/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/47/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/47/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t4 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukikenkeiryu_data/47/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t5 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeisyachihoukai_data/47/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t6 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikikenkasyo_data/47/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
+		var t7 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_nadarekikenkasyo_data/47/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
 
 		var baseMaps = {
     		"急傾斜地の崩壊警戒区域": t1,
     		"土石流警戒区域": t2,
-    		"地すべり警戒区域": t3    		
+    		"地すべり警戒区域": t3, "土石流危険渓流": t4, "急傾斜地崩壊危険箇所": t5, "地すべり危険箇所": t6, "雪崩危険個所": t7    		
 		};
 		L.control.layers(baseMaps).addTo(map);	}
 
