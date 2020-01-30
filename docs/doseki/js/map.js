@@ -1,8 +1,8 @@
 //version 5.
-var map;var p;var zoom;var marker; var markers = []; var gps_button; var hinanj;var marker11;
+var map;var p;var zoom;var marker; var markers = []; var gps_button; var hinanj;var marker11;var url_hash;
 var todou ;var ido; var keido; var hash;var back_b;
 
-	function start(){
+	function start(x, y, z){
 		map = L.map('map',{zoomControl: false});
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
 		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
@@ -10,7 +10,8 @@ var todou ;var ido; var keido; var hash;var back_b;
   		hash = new L.Hash(map);
   		L.control.zoom({position: 'topright'}).addTo(map);
 		back_b = L.easyButton('fa-undo', function(){rn();}, {position: 'topright'}).addTo(map);
-
+		url_hash = location.hash;
+		if(url_hash === ""){map.setView([x, y], z);}
 	}
 
 function rn(){
@@ -47,22 +48,23 @@ function rn(){
 	}
 
     function aichi_ini() {
-    	start();//map.setView([35.002, 137.200], 8);
+		start(35.002, 137.200, 8);
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/23/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/23/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/23/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
-
+		var t4 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukikenkeiryu_data/23/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
 		var baseMaps = {
     		"急傾斜地の崩壊警戒区域": t1,
     		"土石流警戒区域": t2,
-    		"地すべり警戒区域": t3    		
+    		"地すべり警戒区域": t3,
+    		"土石流危険渓流": t4
 		};
 		L.control.layers(baseMaps).addTo(map);
 
 	}
 
     function hokkaido_ini() {
-		start();//map.setView([43.469, 141.987], 8);
+		start(43.469, 141.987, 8);
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/01/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/01/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/01/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
@@ -75,7 +77,7 @@ function rn(){
 		L.control.layers(baseMaps).addTo(map);	}
 
     function aomori_ini() {
-		start();//map.setView([40.651, 140.724], 8);
+    	start(40.651, 140.724, 8);
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/02/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/02/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/02/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
@@ -88,7 +90,7 @@ function rn(){
 		L.control.layers(baseMaps).addTo(map);	}
 
     function iwate_ini() {
-		start();//map.setView([39.686, 141.224], 8);
+		start(39.686, 141.224, 8);
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/03/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/03/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/03/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
@@ -101,7 +103,7 @@ function rn(){
 		L.control.layers(baseMaps).addTo(map);	}
 
     function akita_ini() {
-		start();//map.setView([39.529, 140.389], 8);
+		start(39.529, 140.389, 8);
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/05/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/05/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/05/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
@@ -115,7 +117,7 @@ function rn(){
 	}
 
     function miyagi_ini() {
-		start();//map.setView([38.505, 140.707], 8);
+		start(38.505, 140.707, 8);
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/04/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/04/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/04/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
@@ -129,7 +131,7 @@ function rn(){
 	}
 
     function yamagata_ini() {
-		start();//map.setView([38.428, 140.026], 8);
+		start(38.428, 140.026, 8);
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/06/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/06/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/06/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
@@ -142,7 +144,7 @@ function rn(){
 		L.control.layers(baseMaps).addTo(map);	}
 
     function fukushima_ini() {
-		start();//map.setView([37.392, 139.883], 8);
+		start(37.392, 139.883, 8);
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/07/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/07/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/07/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
@@ -155,7 +157,7 @@ function rn(){
 		L.control.layers(baseMaps).addTo(map);	}
 
     function nigata_ini() {
-		start();//map.setView([37.375, 138.735], 8);
+		start(37.375, 138.735, 8);
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/15/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/15/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/15/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
@@ -168,7 +170,7 @@ function rn(){
 		L.control.layers(baseMaps).addTo(map);	}
 
     function tochigi_ini() {
-		start();//map.setView([36.673, 139.653], 8);
+		start(36.673, 139.653, 8);
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/09/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/09/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/09/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
@@ -181,7 +183,7 @@ function rn(){
 		L.control.layers(baseMaps).addTo(map);	}
 
     function gunma_ini() {
-		start();//map.setView([36.461, 138.950], 8);
+		start(36.461, 138.950, 8);
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/10/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/10/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/10/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
@@ -194,7 +196,7 @@ function rn(){
 		L.control.layers(baseMaps).addTo(map);	}
 
     function ibaraki_ini() {
-		start();//map.setView([36.271, 140.235], 8);
+		start(36.271, 140.235, 8);
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/08/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/08/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/08/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
@@ -207,7 +209,7 @@ function rn(){
 		L.control.layers(baseMaps).addTo(map);	}
 
     function tiba_ini() {
-		start();//map.setView([35.488, 139.966], 8);
+		start(35.488, 139.966, 8);
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/12/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/12/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/12/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
@@ -220,7 +222,7 @@ function rn(){
 		L.control.layers(baseMaps).addTo(map);	}
 
     function saitama_ini() {
-		start();//map.setView([35.929, 139.147], 8);
+		start(35.929, 139.147, 8);
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/11/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/11/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/11/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
@@ -233,7 +235,7 @@ function rn(){
 		L.control.layers(baseMaps).addTo(map);	}
 
     function tokyo_ini() {
-		start();//map.setView([35.595, 139.592], 8);
+		start(35.595, 139.592, 8);
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/13/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/13/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/13/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
@@ -246,7 +248,7 @@ function rn(){
 		L.control.layers(baseMaps).addTo(map);	}
 
     function kanagawa_ini() {
-		start();//map.setView([35.3980, 139.3314], 8);
+		start(35.3980, 139.3314, 8);
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/14/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/14/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/14/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
@@ -259,7 +261,7 @@ function rn(){
 		L.control.layers(baseMaps).addTo(map);	}
 
     function yamanashi_ini() {
-		start();//map.setView([35.532, 138.565], 8);
+		start(35.532, 138.565, 8);
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/19/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/19/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/19/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
@@ -273,7 +275,7 @@ function rn(){
 	}
 
     function nagano_ini() {
-		start();//map.setView([35.960, 137.928], 8);
+		start(35.960, 137.928, 8);
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/20/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/20/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/20/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
@@ -286,7 +288,7 @@ function rn(){
 		L.control.layers(baseMaps).addTo(map);	}
 
     function shizuoka_ini() {
-		start();//map.setView([35.012, 138.214], 8);
+		start(35.012, 138.214, 8);
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/22/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/22/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/22/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
@@ -299,7 +301,7 @@ function rn(){
 		L.control.layers(baseMaps).addTo(map);	}
 
     function gifu_ini() {
-		start();//map.setView([35.724, 136.890], 8);
+		start(35.724, 136.890, 8);
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/21/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/21/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/21/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
@@ -312,7 +314,7 @@ function rn(){
 		L.control.layers(baseMaps).addTo(map);	}
 
     function toyama_ini() {
-		start();//map.setView([36.624, 137.016], 8);
+		start(36.624, 137.016, 8);
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/16/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/16/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/16/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
@@ -325,7 +327,7 @@ function rn(){
 		L.control.layers(baseMaps).addTo(map);	}
 
     function ishikawa_ini() {
-		start();//map.setView([36.844, 136.785], 8);
+		start(36.844, 136.785, 8);
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/17/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/17/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/17/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
@@ -338,7 +340,7 @@ function rn(){
 		L.control.layers(baseMaps).addTo(map);	}
 
     function fukui_ini() {
-		start();//map.setView([35.898, 136.192], 8);
+		start(35.898, 136.192, 8);
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/18/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/18/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/18/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
@@ -351,7 +353,7 @@ function rn(){
 		L.control.layers(baseMaps).addTo(map);	}
 
     function shiga_ini() {
-		start();//map.setView([35.255, 135.950], 8);
+		start(35.255, 135.950, 8);
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/25/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/25/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/25/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
@@ -364,7 +366,7 @@ function rn(){
 		L.control.layers(baseMaps).addTo(map);	}
 
     function mie_ini() {
-		start();//map.setView([34.606, 136.225], 8);
+		start(34.606, 136.225, 8);
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/24/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/24/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/24/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
@@ -377,7 +379,7 @@ function rn(){
 		L.control.layers(baseMaps).addTo(map);	}
 
     function kyoto_ini() {
-		start();//map.setView([35.156, 135.368], 8);
+		start(35.156, 135.368, 8);
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/26/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/26/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/26/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
@@ -390,7 +392,7 @@ function rn(){
 		L.control.layers(baseMaps).addTo(map);	}
 
     function osaka_ini() {
-		start();//map.setView([34.692, 135.511], 8);
+		start(34.692, 135.511, 8);
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/27/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/27/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/27/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
@@ -403,7 +405,7 @@ function rn(){
 		L.control.layers(baseMaps).addTo(map);	}
 
     function nara_ini() {
-		start();//map.setView([34.207, 135.818], 8);
+		start(34.207, 135.818, 8);
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/29/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/29/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/29/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
@@ -416,7 +418,7 @@ function rn(){
 		L.control.layers(baseMaps).addTo(map);	}
 
     function wakayama_ini() {
-		start();//map.setView([33.975, 135.368], 8);
+		start(33.975, 135.368, 8);
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/30/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/30/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/30/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
@@ -429,7 +431,7 @@ function rn(){
 		L.control.layers(baseMaps).addTo(map);	}
 
     function hyogo_ini() {
-		start();//map.setView([35.043, 134.484], 8);
+		start(35.043, 134.484, 8);
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/28/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/28/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/28/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
@@ -442,7 +444,7 @@ function rn(){
 		L.control.layers(baseMaps).addTo(map);	}
 
     function tottori_ini() {
-		start();//map.setView([35.313, 133.786], 8);
+		start(35.313, 133.786, 8);
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/31/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/31/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/31/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
@@ -455,7 +457,7 @@ function rn(){
 		L.control.layers(baseMaps).addTo(map);	}
 
     function okayama_ini() {
-		start();//map.setView([34.940, 133.550], 8);
+		start(34.940, 133.550, 8);
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/33/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/33/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/33/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
@@ -468,7 +470,7 @@ function rn(){
 		L.control.layers(baseMaps).addTo(map);	}
 
     function shimane_ini() {
-		start();//map.setView([34.854, 132.347], 8);
+		start(34.854, 132.347, 8);
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/32/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/32/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/32/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
@@ -481,7 +483,7 @@ function rn(){
 		L.control.layers(baseMaps).addTo(map);	}
 
     function hiroshima_ini() {
-		start();//map.setView([34.556, 132.512], 8);
+		start(34.556, 132.512, 8);
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/34/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/34/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/34/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
@@ -494,7 +496,7 @@ function rn(){
 		L.control.layers(baseMaps).addTo(map);	}
 
     function yamaguchi_ini() {
-		start();//map.setView([34.207, 131.550], 8);
+		start(34.207, 131.550, 8);
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/35/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/35/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/35/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
@@ -507,7 +509,7 @@ function rn(){
 		L.control.layers(baseMaps).addTo(map);	}
 
     function kagawa_ini() {
-		start();//map.setView([34.057, 133.726], 8);
+		start(34.057, 133.726, 8);
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/37/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/37/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/37/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
@@ -520,7 +522,7 @@ function rn(){
 		L.control.layers(baseMaps).addTo(map);	}
 
     function tokushima_ini() {
-		start();//map.setView([33.852, 133.923], 8);
+		start(33.852, 133.923, 8);
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/36/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/36/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/36/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
@@ -533,7 +535,7 @@ function rn(){
 		L.control.layers(baseMaps).addTo(map);	}
 
     function ehime_ini() {
-		start();//map.setView([33.679, 132.764], 8);
+		start(33.679, 132.764, 8);
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/38/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/38/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/38/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
@@ -546,7 +548,7 @@ function rn(){
 		L.control.layers(baseMaps).addTo(map);	}
 
     function kochi_ini() {
-		start();//map.setView([33.390, 133.259], 8);
+		start(33.390, 133.259, 8);
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/39/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/39/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/39/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
@@ -559,7 +561,7 @@ function rn(){
 		L.control.layers(baseMaps).addTo(map);	}
 
     function fukuoka_ini() {
-		start();//map.setView([33.431, 130.583], 8);
+		start(33.431, 130.583, 8);
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/40/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/40/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/40/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
@@ -572,7 +574,7 @@ function rn(){
 		L.control.layers(baseMaps).addTo(map);	}
 
     function saga_ini() {
-		start();//map.setView([33.170, 130.073], 8);
+		start(33.170, 130.073, 8);
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/41/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/41/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/41/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
@@ -585,7 +587,7 @@ function rn(){
 		L.control.layers(baseMaps).addTo(map);	}
 
 	function oita_ini() {
-		start();//map.setView([33.128, 131.083], 8);
+		start(33.128, 131.083, 8);
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/44/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/44/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/44/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
@@ -598,7 +600,7 @@ function rn(){
 		L.control.layers(baseMaps).addTo(map);	}
 
     function nagasaki_ini() {
-		start();//map.setView([32.875, 129.661], 8);
+		start(32.875, 129.661, 8);
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/42/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/42/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/42/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
@@ -611,7 +613,7 @@ function rn(){
 		L.control.layers(baseMaps).addTo(map);	}
 
     function kumamoto_ini() {
-		start();//map.setView([32.426, 130.759], 8);
+		start(32.426, 130.759, 8);
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/43/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/43/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/43/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
@@ -624,7 +626,7 @@ function rn(){
 		L.control.layers(baseMaps).addTo(map);	}
 
     function miyazaki_ini() {
-		start();//map.setView([32.213, 131.188], 8);
+		start(32.213, 131.188, 8);
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/45/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/45/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/45/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
@@ -637,7 +639,7 @@ function rn(){
 		L.control.layers(baseMaps).addTo(map);	}
 
     function kagoshima_ini() {
-		start();//map.setView([31.541, 130.715], 8);
+		start(31.541, 130.715, 8);
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/46/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/46/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/46/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
@@ -650,7 +652,7 @@ function rn(){
 		L.control.layers(baseMaps).addTo(map);	}
 
     function okinawa_ini() {
-		start();//map.setView([26.436, 127.996], 8);
+		start(26.436, 127.996, 8);
     	var t1 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki_data/47/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t2 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki_data/47/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
     	var t3 = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki_data/47/{z}/{x}/{y}.png', {opacity: 0.8}).addTo(map);
