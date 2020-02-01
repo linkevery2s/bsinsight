@@ -1863,12 +1863,27 @@ https://tanganrss.com/rsstxt/regist.php?key=455fb0d89271046d1097acbcc177d949
 									<span style="background-color: #b66996;">　　</span>　２０．０ｍ以上
 									</div>
 									<br>
-									<h3 class="point">現在地から調べる。</h3>
+									<h3 class="point">現在地から調べる</h3>
 									<ul class="actions">
 										<li><a href="javascript:void(0);" class="button special" onclick="GPS();"><i class="icon fa-globe fa-1x"></i>　現在地取得</a></li>
 									</ul>
-    									標高：<span id="hyoukou_result"></span>ｍ  浸水：<span id="sinsui_result"></span>ｍ
 									
+									<div id ="sinsui_load">
+									
+										<div class="cssload-loader">解析しています…</div>
+									
+									</div>
+									
+									<div id ="kekka">
+									解析結果は以下のとおりです。<br><br>
+										<div class="sbox">
+										<span class="box-title"> 解析結果 </span>
+										<p>経度：<span id="sin_keido"></span>度、緯度：<span id="sin_ido"></span>度<br><br>
+    									標高：<span id="hyoukou_result"></span>ｍ、最大浸水深：<span id="sinsui_result"></span>ｍ
+										</p>
+										</div>
+										
+									</div>
 									<hr />
 
 									<h2 class="ti">土石流マップ</h2>

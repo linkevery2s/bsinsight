@@ -23,6 +23,10 @@
       txt = json_data.Depth;
       var result = document.getElementById('sinsui_result');
       result.innerHTML = txt;
+      
+      $('#sinsui_load').hide();
+      $('#kekka').fadeIn(1000);
+      
     }
   };
   var url = "https://suiboumap.gsi.go.jp/shinsuimap/Api/Public/GetMaxDepth?lon=" + lon + "&lat=" + lat + "&grouptype=0";
@@ -32,7 +36,7 @@
 
 var ido, keido;
 function GPS() {
-
+		
 	if (navigator.geolocation) {
 	   //geolocationの利用
        navigator.geolocation.getCurrentPosition(gps_get,gps_error3);
@@ -52,6 +56,14 @@ function gps_get(position) {
     //成功したら…
     ido = position.coords.latitude;
     keido = position.coords.longitude;
+    
+    ido = Math.round(ido * 1000) / 1000;
+    keido = Math.round(keido * 1000) / 1000;
+    
+    document.getElementById('sin_keido').innerHTML = keido;
+    document.getElementById('sin_ido').innerHTML = ido;
+    
+    $("#sinsui_load").show();
     
 getAltitude(keido, ido);
 getsinsui(keido, ido);
