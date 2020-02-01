@@ -77,7 +77,7 @@
 								<li><a href="#manabu">学  習</a></li>
 								<li><a href="#refuge">避難情報</a></li>
 								<li><a href="#weather">気象情報</a></li>
-								<li><a href="#soutei">浸水想定</a></li>
+								<li><a href="#hazard">浸水想定</a></li>
 								</ul>
 						</nav>
 						
@@ -122,9 +122,6 @@
 												<li><a href="#where" class="button" id="col1">どこにいる？</a></li>
 												<li><a href="#need" class="button" id="col1">何が必要？</a></li>
 											</ul>
-											<!--<ul class="actions">
-												<li><a href="#soutei" class="button" id="col1">ハザードマップ</a></li>
-											</ul>-->
 									<br>
 										<h2 class="gaku">避難時</h2>
 											<ul class="actions">
@@ -1845,17 +1842,17 @@ https://tanganrss.com/rsstxt/regist.php?key=455fb0d89271046d1097acbcc177d949
 							
 							</article>
 
-							<article id="soutei">
+							<article id="hazard">
 									<h2 class="major">ハザードマップ</h2>
 									<span class="image main"><img src="images/hz.jpg" alt="ハザードマップ" /></span>
-					
+									
 									大雨では川が増水して洪水の被害が起きることがあります。また、土砂崩れなどの災害に見舞われる恐れもあります。
 									想定区域で家の周りの被害を想定しましょう。<br><br>
 									※一部の自治体では、データ未整理のため、掲載されておりません。最新の情報は、自治体の公式サイトなどでもご確認ください。
 									<hr />
 					
 									<h2 class="ti">洪水浸水想定区域（想定最大規模）</h2>
-
+									<h3 class="point">地図から調べる</h3>
 									<iframe src="bousai/hazardmap.html" width="100%" height="500px" frameborder="yes" scrolling="yes"></iframe>
 									<div class="box2">
 									<span style="background-color: #f0edc6;">　　</span>　０．５ｍ未満<br>
@@ -1865,6 +1862,13 @@ https://tanganrss.com/rsstxt/regist.php?key=455fb0d89271046d1097acbcc177d949
 									<span style="background-color: #e181e7;">　　</span>　１０．０～２０．０ｍ<br>
 									<span style="background-color: #b66996;">　　</span>　２０．０ｍ以上
 									</div>
+									<br>
+									<h3 class="point">現在地から調べる。</h3>
+									<ul class="actions">
+										<li><a href="javascript:void(0);" class="button special" onclick="GPS();"><i class="icon fa-globe fa-1x"></i>　現在地取得</a></li>
+									</ul>
+    									標高：<span id="hyoukou_result"></span>ｍ  浸水：<span id="sinsui_result"></span>ｍ
+									
 									<hr />
 
 									<h2 class="ti">土石流マップ</h2>
@@ -1953,29 +1957,27 @@ https://tanganrss.com/rsstxt/regist.php?key=455fb0d89271046d1097acbcc177d949
 </div>
 
 									<div class="box2">
-									<table border="0"><tr><td width="50%">
+									<table border="0"><tr><td colspan="2">
 									・急傾斜地の崩壊区域<br>
-									傾斜度が３０°以上ある土地が崩壊する自然現象
-									</td><td>
-									<span style="background-color: #fb684c;">　　</span>　特別警戒区域<br><br>
+									傾斜度が３０°以上ある土地が崩壊する自然現象<br>
+									
+									<span style="background-color: #fb684c;">　　</span>　特別警戒区域<br>
 									<span style="background-color: #fff27e;">　　</span>　警戒区域
-									</tr></td>
+									</td></tr>
 									
-									<tr><td>
+									<tr><td colspan="2">
 									・土石流警戒区域<br>
-									山原が崩壊して生じた土石等又は渓流の土石等が一体となって流下する自然現象
-									</td><td>
-									<span style="background-color: #c04c63;">　　</span>　特別警戒区域<br><br>
+									山原が崩壊して生じた土石等又は渓流の土石等が一体となって流下する自然現象<br>
+									<span style="background-color: #c04c63;">　　</span>　特別警戒区域<br>
 									<span style="background-color: #edd86f;">　　</span>　警戒区域
-									</tr></td>
+									</td></tr>
 									
-									<tr><td>
+									<tr><td colspan="2">
 									・地すべり警戒区域<br>
-									土地の一部が地下水等に起因して滑る自然現象又はこれに伴って移動する自然現象
-									</td><td>
-									<span style="background-color: #ca4c95;">　　</span>　特別警戒区域<br><br>
+									土地の一部が地下水等に起因して滑る自然現象又はこれに伴って移動する自然現象<br>
+									<span style="background-color: #ca4c95;">　　</span>　特別警戒区域<br>
 									<span style="background-color: #ffb74c;">　　</span>　警戒区域
-									</tr></td>
+									</td></tr>
 									
 									<tr><td>・土石流危険渓流</td><td><span style="background-color: #EC5500;">　　</span></td></tr>
 									<tr><td>・急傾斜地崩壊危険箇所</td><td><span style="background-color: #CACAFE;">　　</span></td></tr>
@@ -1989,7 +1991,7 @@ https://tanganrss.com/rsstxt/regist.php?key=455fb0d89271046d1097acbcc177d949
 					<hr />
 					<i class="fa fa-book" aria-hidden="true"></i> 以下の資料をもとに仁志が加工・編集して作成しました。<br>
 					・<a href="https://disaportal.gsi.go.jp/hazardmap/copyright/opendata.html">ハザードマップポータルサイト</a>
-					<div class ="top_back"><a href="#soutei" id = "ue"></a></div>
+					<div class ="top_back"><a href="#hazard" id = "ue"></a></div>
 							</article>
 
 
@@ -2630,7 +2632,7 @@ https://tanganrss.com/rsstxt/regist.php?key=d1d05697abb3c1c54dac73c0b86dde57
 
 <script type="text/javascript" src="assets/js/search1.js"></script>
 <script type="text/javascript" src="assets/js/search2.js"></script>
-
+<script type="text/javascript" src="assets/js/sinsui.js"></script>
 
 </body>
 </html>
