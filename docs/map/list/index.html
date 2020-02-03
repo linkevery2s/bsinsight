@@ -24,14 +24,14 @@ jQuery(function($) {
                 "columns": [
   {"name":"Name", "title":"名称"},
   {"name":"Jusho", "title":"住所"},
-  {"name":"kouzui", "title":"洪水"},
-  {"name":"gake", "title":"崖"},
-  {"name":"takashio", "title":"高潮"},
-  {"name":"jishin", "title":"地震"},
-  {"name":"tsunami", "title":"津波"},
-  {"name":"kaji", "title":"火事"},
-  {"name":"naisui", "title":"内水"},
-  {"name":"kazan", "title":"火山"}
+  {"breakpoints": "xs sm md","name":"kouzui", "title":"洪水"},
+  {"breakpoints": "xs sm md","name":"gake", "title":"崖"},
+  {"breakpoints": "xs sm md","name":"takashio", "title":"高潮"},
+  {"breakpoints": "xs sm md","name":"jishin", "title":"地震"},
+  {"breakpoints": "xs sm md","name":"tsunami", "title":"津波"},
+  {"breakpoints": "xs sm md","name":"kaji", "title":"火事"},
+  {"breakpoints": "xs sm md","name":"naisui", "title":"内水"},
+  {"breakpoints": "xs sm md","name":"kazan", "title":"火山"}
 ],
                 "rows": $.get('https://linkevery2s.github.io/bsinsight/map/list/data/rows.json')
 	});
@@ -42,7 +42,7 @@ jQuery(function($) {
 </head>
 <body>
 
-<table class="table" data-sorting="true" data-filtering="true" data-paging="true" data-paging-size="15"></table>
+<table class="table" data-sorting="true" data-filtering="true" data-paging="true" data-paging-size="10"></table>
 
 
 
