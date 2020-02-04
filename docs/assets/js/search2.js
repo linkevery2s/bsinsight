@@ -11,6 +11,14 @@ var KC = {
 	up   : 38,
 	down : 40
 };
+
+function search_exp(){
+var tx = document.form1.text1.value;
+do_find(tx);
+location.href='#search'; 
+
+}
+
 function gid(id){
 	return document.getElementById(id);
 }
