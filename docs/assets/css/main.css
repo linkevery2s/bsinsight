@@ -2840,7 +2840,7 @@ border: solid 3px #FF6600;
   content: '\f00c CHECK';
   background: #FF6600;
   color: #fff;
-  left: 0px;
+  left: -3px;
   bottom: 100%;
   border-radius: 5px 5px 0 0;
   padding: 3px 7px 1px;
@@ -2990,7 +2990,7 @@ z-index: -1;
 }
 
 #wi_soku{
-	border: solid 1px #FFFF00;
+	border: solid 2px #FFFF00;
 }
 
 .wind:hover {
