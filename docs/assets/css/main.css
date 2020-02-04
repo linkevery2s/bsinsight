@@ -713,11 +713,17 @@
 		ul.alt {
 			list-style: none;
 			padding-left: 0;
+			margin: 0 0 -0.6rem 0;
 		}
 
 			ul.alt li {
 				border-top: solid 1px #ffffff;
 				padding: 0.5em 0;
+			}
+			
+			ul.alt li a{
+				display: block;
+				border: none;
 			}
 
 				ul.alt li:first-child {
@@ -2854,7 +2860,7 @@ border: solid 3px #FF6600;
 position: relative;
 display: inline-block;
 padding: 0 55px;
-
+margin: -20px;
 }
 
 .kmt:before, .kmt:after{
@@ -3334,6 +3340,33 @@ h2.iryou::after {
 					background-repeat: no-repeat;
 					background-color: #ff5500;
 				}
+				
+				#type_top{
+					margin-bottom: 20px;
+				}
+				
+				#type_ue:before {
+					font-family: "FontAwesome";
+					font-size: 1.5em;
+					content: "\f077";
+					//padding-top: 0.5rem;
+					text-align: center;
+					//-moz-transition: background-color 0.2s ease-in-out;
+					//-webkit-transition: background-color 0.2s ease-in-out;
+					//-ms-transition: background-color 0.2s ease-in-out;
+					//transition: background-color 0.2s ease-in-out;
+					display: block;
+					position: absolute;
+					right: 0.75rem;
+					width: 2.5rem;
+					height: 2.5rem;
+					border-radius: 100%;
+					//border: 1px solid #FFFFFF;
+					background-position: center;
+					background-size: 20px 20px;
+					background-repeat: no-repeat;
+					background-color: #ff5500;
+				}
 
 h3.soku{
 position: relative;
@@ -3458,10 +3491,7 @@ dd b{
 }
 .mokuji1:before {left: 10px;}
 .mokuji1:after {right: 10px;}
-.mokuji1 p {
-    margin: 0; 
-    padding: 0;
-}
+
 
 /*浸水ナビ Loading*/
 #sinsui_load, #kekka{
