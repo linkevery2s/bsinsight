@@ -77,7 +77,7 @@
 								<li><a href="#manabu">学  習</a></li>
 								<li><a href="#refuge">避難情報</a></li>
 								<li><a href="#weather">気象情報</a></li>
-								<li><a href="#hazard">浸水想定</a></li>
+								<li><a href="#soutei">浸水想定</a></li>
 								</ul>
 						</nav>
 						
@@ -1882,7 +1882,7 @@
 							
 							</article>
 
-							<article id="hazard">
+							<article id="soutei">
 									<h2 class="major">ハザードマップ</h2>
 									<span class="image main"><img src="images/hz.jpg" alt="ハザードマップ" /></span>
 									
@@ -2072,21 +2072,19 @@
 								<a href="#" id = "home_back"></a><a href="#manabu" class="link">×</a>
 								<h2 class="major">医療・福祉情報</h2>
 								<span class="image main"><img src="images/medical.jpg" alt="医療情報" /></span>
-								
-								<ul class="actions">
-										<li><a href="javascript:void(0);" class="button" onclick="sk();">災害拠点病院</a></li>
-										<li><a href="javascript:void(0);" class="button" onclick="hs();">避難生活</a></li>
-										<li><a href="javascript:void(0);" class="button" onclick="at();">AEDについて</a></li>
-								</ul>
-
-								<ul class="actions">
-										<li><a href="javascript:void(0);" class="button" onclick="hm();">ヘルプマーク</a></li>
-										<!--<li><a href="javascript:void(0);" class="button" onclick="krs();">厚生労働省RSS</a></li>-->
-								</ul>
+								<center><h3 class="kmt">目　次</h3></center>
+								<div class="mokuji1">
+    								<ul class="alt">
+										<li><a href="#skhos">災害拠点病院</a></li>
+										<li><a href="#hinl">避難生活</a></li>
+										<li><a href="#abaed">AEDについて</a></li>
+										<li><a href="#helpmark">ヘルプマーク</a></li>
+									</ul>
+								</div>
 								
 								<hr />
 								
-								<div id ="skb">
+								<div id="skhos"></div>
 									<h2 class="iryou">災害拠点病院マップ</h2>
 										<p>災害拠点病院マップを作成しました。</p>
 								
@@ -2098,9 +2096,9 @@
 										</span>
 										</div>
 
-								</div>
 								
-								<div id ="hins">
+								<hr>
+								<div id ="hinl"></div>
 									<h2 class="iryou">避難生活</h2>
 										<h3 class="point">温度・環境管理</h3>
 										<span class="image main"><img src="images/termometer.jpg" alt="温度・環境管理" /></span>
@@ -2187,10 +2185,9 @@
 										<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 調理器具等は使用後にできるたけ洗浄しましょう。<br><br>
 										<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 下痢や嘔吐等の症状がある方は、食品を取り扱う作業をしないようにしてください。
 										</blockquote></p>
-								</div>
 								
-								
-								<div id ="aed">
+								<hr>
+								<div id ="abaed"></div>
 									<h2 class="iryou">AEDについて</h2>
 										<h3 class="point">概要</h3>
 											自動体外式除細動器（ＡＥＤ）については、平成16年7月に救命の現場に居合わせた市民による使用の取扱いを示して以降、国内において急速に普及し、AEDを用いた救命事例が多数報告されています（平成26年時点での販売累計：約63万台）。<br><br>
@@ -2200,9 +2197,10 @@
 												<li><a href="https://aedm.jp/" class="button"  target="_blank">日本全国AEDマップ</a></li>
 											</ul>
 												日本全国に設置されているAEDの情報をマップ上に表示されています。もしもの際、すぐにAEDを探せるように工夫されています。
-								</div>
+
 								
-								<div id ="hmark">
+								<hr>
+								<div id ="helpmark"></div>
 									<h2 class="iryou">ヘルプマーク</h2>
 										<h3 class="point">知っていますか？</h3>
 										<div class="box1">
@@ -2220,7 +2218,6 @@
 										視覚障害者や聴覚障害者等の状況把握が難しい方、肢体不自由者等の自力での迅速な避難が困難な方がいます。
 										
 										
-								</div>
 								
 								<!--
 								<div id ="krs">
@@ -2647,7 +2644,6 @@ https://tanganrss.com/rsstxt/regist.php?key=d1d05697abb3c1c54dac73c0b86dde57
 			<script src="assets/js/main.js"></script>
 			<script src="assets/js/top.js"></script>
 			<script src="assets/js/dhtml.js"></script>
-			<script src="assets/js/media/audio.min.js"></script>
 			<script src ="assets/js/refuge.js"></script>
 			<script src ="assets/js/doseki.js"></script>
 
@@ -2674,12 +2670,6 @@ https://tanganrss.com/rsstxt/regist.php?key=d1d05697abb3c1c54dac73c0b86dde57
 					$('#loader-bg').delay(900).fadeOut(800);
 					$('#loader').delay(600).fadeOut(300);
 				}
-			</script>
-			
-			<script>
-				audiojs.events.ready(function() {
-					audiojs.createAll();
-				});
 			</script>
 
 <script type="text/javascript" src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
