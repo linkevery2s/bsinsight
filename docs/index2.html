@@ -497,7 +497,7 @@
 							<article id="type">
 								<!--<span id ="media_guide"><audio src="vc/test.mp3" preload="auto"></audio></span>-->
 								<a href="#" id = "home_back"></a><a href="#manabu" class="link">×</a>
-								<h2 class="major">災害の種類</h2>
+								<h2 class="major" id = "type_top">災害の種類</h2>
 								<span class="image main"><img src="images/type.jpg" alt="災害の種類" /></span>
 								<p>災害にはどのようなものがあるでしょうか？<br>
 								災害について "知る" ことが "守る" ことに繋がります。</p>
@@ -593,7 +593,7 @@
 								・電車に乗っている時、デパート・映画館等では係員の指示に従い行動する！
 								
 								</blockquote>
-								<a href="#type" id = "type_ue"></a><br>
+								<a href="#type_top" id = "type_ue"></a><br>
 								
 								<hr>
 								<div id="tsunami"></div><!-- tn -->
@@ -625,7 +625,7 @@
 								珍しいからといって近づくのは危険である。
 								</blockquote>
 								
-								<a href="#type" id = "type_ue"></a><br>
+								<a href="#type_top" id = "type_ue"></a><br>
 								<hr>
 								<div id="taihu"></div><!-- th -->
 								<h2 class="ti">台　風</h2>
@@ -722,7 +722,7 @@
 								</blockquote>
 								
 								
-								<a href="#type" id = "type_ue"></a><br>
+								<a href="#type_top" id = "type_ue"></a><br>
 								<hr>
 								<div id="dosya"></div><!-- ds -->
 								<h2 class="ti">火山災害</h2>
@@ -810,7 +810,7 @@
 								</blockquote>
 								
 								
-								<a href="#type" id = "type_ue"></a><br>
+								<a href="#type_top" id = "type_ue"></a><br>
 								<hr>
 								<div id ="kasai"></div>
 								<h2 class="ti">火　災</h2>
@@ -842,7 +842,7 @@
 								<i class="fa fa-book" aria-hidden="true"></i> 以下の資料をもとに仁志が加工・編集して作成しました。<br>
 								・<a href="http://www.fdma.go.jp/syobodan/bousai/" target="_blank">わたしの防災サバイバル手帳</a>、消防庁<br>
 								・<a href="http://open.fdma.go.jp/e-college/bosai/index.html" target="_blank">チャレンジ！防災48</a>、消防庁
-								<div class ="top_back"><a href="#type" id = "ue"></a></div>
+								<div class ="top_back"><a href="#type_top" id = "ue"></a></div>
 							</article>
 
 						<!-- where -->
@@ -2618,8 +2618,8 @@ https://tanganrss.com/rsstxt/regist.php?key=d1d05697abb3c1c54dac73c0b86dde57
 							<ul class="icons">
 								<span class = "wordkensaku">
 									<form name="form1" id="form1" action="">
-								<input type="text" name="text1" id="q" onkeyup="do_find(this.value)" onkeydown="key(event.keyCode)" autocomplete="off" placeholder="キーワード検索">
-									<span class="exp" onclick="search_exp()"><i class="icon fa-search fa-1x"></i></span>
+								<input type="text" name="text1" id="q" onkeyup="do_find(this.value);" onkeydown="key(event.keyCode);" onkeypress="enter();" autocomplete="off" placeholder="キーワード検索">
+									<span class="exp" onclick="search_exp();"><i class="icon fa-search fa-1x"></i></span>
 								</span>
 							</ul>
 

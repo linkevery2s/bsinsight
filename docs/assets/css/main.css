@@ -717,10 +717,20 @@
 		}
 
 			ul.alt li {
-				border-top: solid 1px #ffffff;
+				border-top: dashed 1px #ffffff;
 				padding: 0.5em 0;
+				padding-left: 2em;
 			}
-			
+
+ul.alt li:before {
+  font-family: "FontAwesome";
+  content: "\f138";/*アイコン種類*/
+  font-weight: bold;
+  position: absolute;
+  left : 1.5em; /*左端からのアイコンまで*/
+  color: #ffb03f; /*アイコン色*/
+}
+
 			ul.alt li a{
 				display: block;
 				border: none;
