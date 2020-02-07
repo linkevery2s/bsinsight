@@ -1926,7 +1926,7 @@
 									</div>
 									<hr />
 
-									<h2 class="ti">土石流マップ</h2>
+									<h2 class="ti">土砂災害マップ</h2>
 
 <div class="japan_map1">
     <img src="images/jpmap.png" alt="日本地図">
@@ -2012,7 +2012,7 @@
 </div>
 
 									<div class="box2">
-									<table border="0"><tr><td colspan="2">
+									<table><tr><td colspan="2">
 									・急傾斜地の崩壊区域<br>
 									傾斜度が３０°以上ある土地が崩壊する自然現象<br>
 									
@@ -2046,7 +2046,7 @@
 					<hr />
 					<i class="fa fa-book" aria-hidden="true"></i> 以下の資料をもとに仁志が加工・編集して作成しました。<br>
 					・<a href="https://disaportal.gsi.go.jp/hazardmap/copyright/opendata.html">ハザードマップポータルサイト</a>
-					<div class ="top_back"><a href="#hazard" id = "ue"></a></div>
+					<div class ="top_back"><a href="#soutei" id = "ue"></a></div>
 							</article>
 
 
@@ -2247,7 +2247,7 @@ https://tanganrss.com/rsstxt/regist.php?key=d1d05697abb3c1c54dac73c0b86dde57
 								・<a href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000089060.html" target="_blank">災害医療</a>、厚生労働省<br>
 								・<a href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000121878.html" target="_blank">「避難所生活を過ごされる方々の健康管理に関するガイドライン」について</a><br>
 								・<a href="http://www.fukushihoken.metro.tokyo.jp/smph/shougai/shougai_shisaku/helpmark.html" target="_blank">ヘルプマーク</a>、東京都福祉保健局
-								<div class ="top_back"><a href="#medical" id = "ue"></a></div>
+								<div class ="top_back"><a href="#medical_top" id = "ue"></a></div>
 							</article>
 
 							<!-- tokei -->
@@ -2457,6 +2457,8 @@ https://tanganrss.com/rsstxt/regist.php?key=d1d05697abb3c1c54dac73c0b86dde57
 					</p>
 					<h2 class="major">更新情報</h2>
 					<p>
+					2020.02.08 アプリバージョンアップ（ver.4）<br>
+					メインメニュー大幅に変更、キーワード検索仕様変更、洪水ハザードマップ文字情報にて配信、土砂災害マップに雪崩危険個所など追加、災害速報追加<br><br>
 					2020.01.25 災害の種類に火災追加、開発者の視点追加<br><br>
 					2020.01.22 震度速報仕様変更<br><br>
 					2020.01.18 避難マップ、ハザードマップにシェアボタン設置<br><br>
@@ -2494,26 +2496,79 @@ https://tanganrss.com/rsstxt/regist.php?key=d1d05697abb3c1c54dac73c0b86dde57
 
 				<!-- manual -->
 				<article id="manual">
-					<h2 class="major">アプリ概要</h2>
+					<h2 class="major">使い方</h2>
 					
+						<h3 class="point">画面構成</h3>
+								<!--<center>
+								<ul class="icons" id ="icons_manual">
+									<li><a href="javascript:void(0);" onclick="manual1"><span class="label">１</span></a></li>
+									<li><a href="javascript:void(0);" onclick="manual2"><span class="label">２</span></a></li>
+									<li><a href="javascript:void(0);" onclick="manual3"><span class="label">３</span></a></li>
+									<li><a href="javascript:void(0);" onclick="manual4"><span class="label">４</span></a></li>
+									<li><a href="javascript:void(0);" onclick="manual5"><span class="label">５</span></a></li>
+								</ul>
+								</center>-->
+							
+									<h3 class = "soku">メインメニュー</h3>
+										<p>基本構成は、以下の４画面です。</p>
+										<blockquote>
+										１．学習<br><br>
+										防災のステージを「事前準備」「避難時」「帰宅後」「さらに詳しく」の４段階のコンテンツに分類してあります。<br><br>
+										災害の種類や非常時の持ち出しリスト、浸水・積雪ARなど、防災について、幅広く学ぶことができます。
+										</blockquote>
+										<blockquote>
+										２．避難情報<br><br>
+										日本全国の指定緊急避難場所をマップ化、リスト化しました。<br><br>
+										避難する時の避難場所を検索することができます。<br><br>
+										通行止め情報も載っていますので、実際に避難する時の参考にしてください。
+										</blockquote>
+										<blockquote>
+										３．気象情報<br><br>
+										雨雲レーダーで大気の状態を知ることができます。<br><br>
+										天気予報も載っているので、お出かけの際、雨具がいるかどうかの判断もできます。
+										</blockquote>
+										<blockquote>
+										４．浸水想定<br><br>
+										日本全国の災害ハザードマップ（洪水、土砂災害）を調べることができます。<br><br>
+										洪水ハザードマップでは、GPSから位置情報を把握し、現在地の最大浸水深を解析し、文字情報にて配信します。<br><br>
+										この配信により、視覚障がい者の方々などのような目の不自由な方々もハザードマップの情報を知ることができます。
+										</blockquote>
+
+									<h3 class = "soku">コンテンツ画面</h3>
+										<blockquote>
+										右上に、<i class="fa fa-home"></i> ホームボタン、× 閉じるボタンがあります。<br><br>
+										ホームボタンはトップ画面に、閉じるボタンは１つ前の画面に遷移します。<br><br>
+										使っていくうちに、操作方法が何となく分かるようなコンテンツ画面にしました。
+										</blockquote>
+
+									<h3 class = "soku">速報ボタン</h3>
+										<blockquote>
+										トップ画面には、速報ボタンがあります。<br><br>
+										これは、地震速報など、災害の速報情報を閲覧することができます。
+										</blockquote>
+									
+									<h3 class = "soku">キーワード検索</h3>
+										<blockquote>
+										トップ画面の下部には、キーワード検索があります。災害について、知りたい内容を入力することで、アプリ内の検索ができます。
+										
+										</blockquote>
+
 						<h3 class="point">インストール方法</h3>
 							
-							◎Safariの場合
+							<h3 class = "soku">Safariの場合</h3>
 							<blockquote>
 							・共有ボタンから「ホーム画面に追加」をタップします。<br><br>
 							・「OK」を押すとホーム画面にアイコンが表示されます。<br><br>
 							以上でインストール完了です。
 							</blockquote>
 							
-							◎Google Chromeの場合
+							<h3 class = "soku">Google Chromeの場合</h3>
 							<blockquote>
 							・設定ボタンから「ホーム画面に追加」をタップします。<br><br>
 							・「OK」を押すとホーム画面にアイコンが表示されます。<br><br>
 							以上でインストール完了です。
 							</blockquote>
-							
-						<h3 class="point">パンフレット</h3>
-						<img src="images/app.jpg" width="100%">
+						
 				</article> 
 
 				<!-- share -->
@@ -2599,6 +2654,16 @@ https://tanganrss.com/rsstxt/regist.php?key=d1d05697abb3c1c54dac73c0b86dde57
 								<div id ="smap"></div>
 								<div id="data_result"></div>
 								<div id = "points_data"></div>
+								
+								<hr>
+								<h3 class="point">気象注意報・警報</h3>
+								<table>
+								<tr><td><h3 class="soku">北海道地方</h3><br>
+								<a href="https://www.jma.go.jp/jp/warn/201.html">北西部</a> <a href="https://www.jma.go.jp/jp/warn/202.html">東部</a> <a href="https://www.jma.go.jp/jp/warn/203.html">南西部</a>
+								</td></tr>
+								
+								
+								</table>
 
 								<hr />
 								<i class="fa fa-book" aria-hidden="true"></i> 以下の資料をもとに仁志が加工・編集して作成しました。<br>
@@ -2628,7 +2693,7 @@ https://tanganrss.com/rsstxt/regist.php?key=d1d05697abb3c1c54dac73c0b86dde57
 									<li><a href="#rss" class="icon fa-rss-square"><span class="label">更新情報</span></a></li>
 								</ul>
 
-						<p class="copyright"><i class="fa fa-copyright" aria-hidden="true"></i> 仁志. Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a>. ver 3.9.4</p>
+						<p class="copyright"><i class="fa fa-copyright" aria-hidden="true"></i> 仁志. Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a>. ver 4.0</p>
 					</footer>
 
 			</div><!-- wrapper -->
