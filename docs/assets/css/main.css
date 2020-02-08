@@ -3311,6 +3311,10 @@ dd b{
 	border-bottom-right-radius: 0.4rem;
 }
 
+#result a{
+	color: #99FFCC;
+}
+
 #searchbox input{
 	font-size: 1;
     padding: .3em;
