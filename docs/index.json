@@ -1,12 +1,12 @@
 ﻿var data=[
-{"url":"#type","title":"災害の種類","content":"地震"},
-{"url":"#type","title":"災害の種類","content":"台風"}
+地震,
+台風
 ,
-{"url":"#type","title":"災害の種類","content":"火山災害"}
+火山災害
 ,
-{"url":"#type","title":"災害の種類","content":"あああ"}
+あああ
 ,
-{"url":"#type","title":"災害の種類","content":"bbb"}
+bbb
 ,
-{"url":"#type","title":"災害の種類","content":"ccc"}
+ccc
 ]

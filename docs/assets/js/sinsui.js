@@ -1,3 +1,5 @@
+var ido, keido;
+
  function getAltitude(lon, lat){
   var xhr = new XMLHttpRequest();
   xhr.onreadystatechange = function(){
@@ -7,6 +9,7 @@
       txt = json_data.elevation;
       var result = document.getElementById('hyoukou_result');
       result.innerHTML = txt;
+      document.getElementById('hyoukou_result2').innerHTML = txt;
     }
   };
   var url = "https://cyberjapandata2.gsi.go.jp/general/dem/scripts/getelevation.php?lon=" + lon + "&lat=" + lat +"&outtype=JSON";
@@ -16,8 +19,16 @@
 
  function getsinsui(lon, lat){
   var xhr = new XMLHttpRequest();
+
   xhr.onreadystatechange = function(){
       if (xhr.readyState === 4 && xhr.status === 200){
+      		
+      		if( xhr.responseText == "null"){
+      			$('#sinsui_load').hide();
+      			$('#kekka2').fadeIn(1000);
+      			exit;
+      		}
+      		
       var json_data = eval( '('+xhr.responseText +')');
       var txt;
       txt = json_data.Depth;
@@ -34,7 +45,6 @@
   xhr.send(null);
 };
 
-var ido, keido;
 function GPS() {
 		
 	if (navigator.geolocation) {
@@ -62,6 +72,9 @@ function gps_get(position) {
     
     document.getElementById('sin_keido').innerHTML = keido;
     document.getElementById('sin_ido').innerHTML = ido;
+    
+    document.getElementById('sin_keido2').innerHTML = keido;
+    document.getElementById('sin_ido2').innerHTML = ido;
     
     $("#sinsui_load").show();
     

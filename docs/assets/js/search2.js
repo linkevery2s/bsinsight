@@ -161,7 +161,7 @@ function view(result,offset){
 		var len = r[i][2];
 		with(data[num]){
 			buf.push(
-				"<dt><a href='",url,"'>"
+				"<dt><a href='",url1,"'>"
 				,title||"無題","</a>"
 				,"<dd>"
 
