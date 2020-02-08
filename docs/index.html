@@ -1,3 +1,4 @@
+
 <!DOCTYPE HTML>
 <!--
 	Dimension by HTML5 UP
@@ -63,20 +64,20 @@
 						<div class="content">
 							<div class="inner">
 								<h1>防災INSIGHT</h1>
-								<p>"その時" どうする？</p>
-								<!--
-											<ul class="actions">
-												<li><a href="#intro" class="button" id ="bu_st">は じ め に</a></li>
-											</ul>
-								-->
+								<p>― "その時" どうする？ ―</p>
+								<div class="menu1">
+							<a href="#intro" ><li class="wind">はじめに</li></a>
+							<a href="#manual"><li class="wind">使い方</span></li></a>
+							<a href="#sokuho"><li class="wind" id ="wi_soku">速　報</span></li></a>
+								</div>
 							</div>
 						</div>
 						<nav>
 							<ul>
-								<li><a href="#intro">はじめに</a></li>
 								<li><a href="#manabu">学  習</a></li>
 								<li><a href="#refuge">避難情報</a></li>
 								<li><a href="#weather">気象情報</a></li>
+								<li><a href="#soutei">浸水想定</a></li>
 								</ul>
 						</nav>
 						
@@ -86,7 +87,7 @@
 					<div id="main">
 						<!-- Intro -->
 							<article id="intro">
-								<h2 class="major">はじめに</h2>
+								<h2 class="major" id ="k_top">はじめに</h2>
 								<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
 								<p>地震大国と言われる日本。<br><br><br>
 								国土特有の地形において、全国で頻繁に地震による被害が発生しています。<br><br><br>
@@ -120,9 +121,6 @@
 												<li><a href="#type" class="button" id="col1">災害の種類</a></li>
 												<li><a href="#where" class="button" id="col1">どこにいる？</a></li>
 												<li><a href="#need" class="button" id="col1">何が必要？</a></li>
-											</ul>
-											<ul class="actions">
-												<li><a href="#soutei" class="button" id="col1">ハザードマップ</a></li>
 											</ul>
 									<br>
 										<h2 class="gaku">避難時</h2>
@@ -499,24 +497,24 @@
 							<article id="type">
 								<!--<span id ="media_guide"><audio src="vc/test.mp3" preload="auto"></audio></span>-->
 								<a href="#" id = "home_back"></a><a href="#manabu" class="link">×</a>
-								<h2 class="major">災害の種類</h2>
+								<h2 class="major" id = "type_top">災害の種類</h2>
 								<span class="image main"><img src="images/type.jpg" alt="災害の種類" /></span>
 								<p>災害にはどのようなものがあるでしょうか？<br>
 								災害について "知る" ことが "守る" ことに繋がります。</p>
+								<center><h3 class="kmt">目　次</h3></center>
+								<div class="mokuji1">
+    								<ul class="alt">
+										<li><a href="#earthq">地震</a></li>
+										<li><a href="#tsunami">津波</a></li>
+										<li><a href="#taihu">風水害</a></li>
+										<li><a href="#dosya">火山災害</a></li>
+										<li><a href="#kasai">火災</a></li>
+									</ul>
+								</div>
 								
-								<ul class="actions">
-										<li><a href="javascript:void(0);" class="button" id="col1" onclick="eq();">地　　震</a></li>
-										<li><a href="javascript:void(0);" class="button" id="col1" onclick="tn();">津　　波</a></li>
-										<li><a href="javascript:void(0);" class="button" id="col1" onclick="th();">風 水 害</a></li>
-										<li><a href="javascript:void(0);" class="button" id="col1" onclick="ds();">自然災害</a></li>
-								</ul>
-								<ul class="actions">
-										<li><a href="javascript:void(0);" class="button" id="col1" onclick="ks();">火　　災</a></li>
-								</ul>
+								<hr>
 								
-								<br>
-								
-								<div id="eq">
+								<div id="earthq"></div>
 								<h2 class="ti">地　震</h2>
 								<p>
 								<img src ="images/eq1.jpg" width="100%">
@@ -595,9 +593,10 @@
 								・電車に乗っている時、デパート・映画館等では係員の指示に従い行動する！
 								
 								</blockquote>
-								</div><!-- eq -->
+								<a href="#type_top" id = "type_ue"></a><br>
 								
-								<div id="tn">
+								<hr>
+								<div id="tsunami"></div><!-- tn -->
 								<h2 class="ti">津　波</h2>
 								<p>
 								<img src ="images/tn1.jpg" width="100%">
@@ -625,9 +624,10 @@
 								・見物は危険！<br>
 								珍しいからといって近づくのは危険である。
 								</blockquote>
-								</div><!-- tn -->
 								
-								<div id="th">
+								<a href="#type_top" id = "type_ue"></a><br>
+								<hr>
+								<div id="taihu"></div><!-- th -->
 								<h2 class="ti">台　風</h2>
 								<img src="images/th.png" width="100%"><br>
 								（写真提供：気象庁ウェブサイト）<br><br>
@@ -721,9 +721,10 @@
 								自治体の「ハザードマップ」から、家の周りの危険個所をチェックする。
 								</blockquote>
 								
-								</div><!-- th -->
 								
-								<div id="ds">
+								<a href="#type_top" id = "type_ue"></a><br>
+								<hr>
+								<div id="dosya"></div><!-- ds -->
 								<h2 class="ti">火山災害</h2>
 								<img src="images/kazan.jpg"  width="100%"><br><br>
 																
@@ -808,10 +809,10 @@
 								・落雷によりパソコン等が壊れる可能性があるので、注意する！
 								</blockquote>
 								
-								</div><!-- ds -->
-
-
-								<div id ="ks">
+								
+								<a href="#type_top" id = "type_ue"></a><br>
+								<hr>
+								<div id ="kasai"></div>
 								<h2 class="ti">火　災</h2>
 								<img src="images/kasai.jpg"  width="100%"><br>
 								（写真提供：神戸市）<br><br>
@@ -835,17 +836,13 @@
 								・ライター、マッチ<br>
 								お子さんがいる家庭では、手が届かない所にしまっておく。
 								
-								
 								</blockquote>
-								
-								</div>
-
 
 								<hr />
 								<i class="fa fa-book" aria-hidden="true"></i> 以下の資料をもとに仁志が加工・編集して作成しました。<br>
 								・<a href="http://www.fdma.go.jp/syobodan/bousai/" target="_blank">わたしの防災サバイバル手帳</a>、消防庁<br>
 								・<a href="http://open.fdma.go.jp/e-college/bosai/index.html" target="_blank">チャレンジ！防災48</a>、消防庁
-								<div class ="top_back"><a href="#type" id = "ue"></a></div>
+								<div class ="top_back"><a href="#type_top" id = "ue"></a></div>
 							</article>
 
 						<!-- where -->
@@ -1601,10 +1598,8 @@
 
 								<hr />
 								
-								<h2 class="ti">避難マップ</h2>
-								<ul class="actions">
-									<li><span class="button" target="_blank" onclick="em()"><i class="fa fa-globe" aria-hidden="true"></i> 現在地から探す</span></li>
-								</ul>
+								<h3 class="point">地図から調べる</h3>
+								<p>都道府県を選択すると地図画面に移動します。</p>
 
 <div class="japan_map">
     <img src="images/jpmap.png" alt="日本地図">
@@ -1688,8 +1683,71 @@
         </div>
     </div>
 </div>
+								<br>
+								<h3 class="point">リストから調べる</h3>
+								<p>リストから都道府県を選択してください。</p>
+								
+										<div class="field">
+											
+											<div class="select-wrapper">
+												<select name="demo-category" id="number" onChange="list()">
+													<option value="">― 都道府県選択 ―</option>
+													<option value="hokkaido">北海道</option>
+													<option value="aomori">青森県</option>
+													<option value="iwate">岩手県</option>
+													<option value="akita">秋田県</option>
+													<option value="miyagi">宮城県</option>
+													<option value="fukushima">福島県</option>
+													<option value="yamagata">山形県</option>
+													<option value="ibaraki">茨城県</option>
+													<option value="tiba">千葉県</option>
+													<option value="tochigi">栃木県</option>
+													<option value="gunma">群馬県</option>
+													<option value="saitama">埼玉県</option>
+													<option value="tokyo">東京都</option>
+													<option value="kanagawa">神奈川県</option>
+													<option value="nigata">新潟県</option>
+													<option value="toyama">富山県</option>
+													<option value="ishikawa">石川県</option>
+													<option value="fukui">福井県</option>
+													<option value="nagano">長野県</option>
+													<option value="yamanashi">山梨県</option>
+													<option value="shizuoka">静岡県</option>
+													<option value="gifu">岐阜県</option>
+													<option value="aichi">愛知県</option>
+													<option value="shiga">滋賀県</option>
+													<option value="mie">三重県</option>
+													<option value="osaka">大阪府</option>
+													<option value="nara">奈良県</option>
+													<option value="wakayama">和歌山県</option>
+													<option value="kyoto">京都府</option>
+													<option value="hyogo">兵庫県</option>
+													<option value="tottori">鳥取県</option>
+													<option value="okayama">岡山県</option>
+													<option value="shimane">島根県</option>
+													<option value="hiroshima">広島県</option>
+													<option value="yamaguchi">山口県</option>
+													<option value="kagawa">香川県</option>
+													<option value="kochi">高知県</option>
+													<option value="ehime">愛媛県</option>
+													<option value="tokushima">徳島県</option>
+													<option value="fukuoka">福岡県</option>
+													<option value="saga">佐賀県</option>
+													<option value="nagasaki">長崎県</option>
+													<option value="miyazaki">宮崎県</option>
+													<option value="oita">大分県</option>
+													<option value="kumamoto">熊本県</option>
+													<option value="kagoshima">鹿児島県</option>
+													<option value="okinawa">沖縄県</option>
+												</select>
+											</div>
+										</div>
+								
+										<div id ="hinanlist"></div>
+								<!--<iframe src="map/list/index.html" width="100%" height="700px" frameborder="yes" scrolling="yes"></iframe>-->
 
-<br>※一部の自治体では、データ未整理のため、掲載されておりません。最新の情報は、自治体の公式サイトなどでもご確認ください。<br><br>
+<hr>
+※一部の自治体では、データ未整理のため、掲載されておりません。最新の情報は、自治体の公式サイトなどでもご確認ください。<br><br>
 参考：<a href="https://hinan.gsi.go.jp/hinanjocjp/hinanbasho/koukaidate.html" target="_blank">指定緊急避難場所データ　市町村別公開日・最終更新日</a>
 
 								<div class ="box1">
@@ -1706,42 +1764,6 @@
 								人間一人では生きられないから、人の繋がりを大事に生きていきたいものです。
 								
 								</div>
-
-							<hr />
-							<h2 class="ti">地震速報</h2>
-								<!--<h3 class="point">地震速報</h3>-->
-								<ul class="actions">
-									<li><span class="button" target="_blank" onclick="sindosokuhou()"><i class="fa fa-arrow-circle-up"></i> 更新</span></li>
-								</ul>
-								<div id ="smap"></div>
-								<div id="data_result"></div>
-								<div id = "points_data"></div>
-
-<!--
-								<hr />
-								<h3 class="point">地震情報</h3>
-								
-<script id="_tangan_loader_3aafed63c8a7c03e28aafeecdd574cb2" src="https://tanganrss.com/rsstxt/loader.php?url=https%3A%2F%2Ftanganrss.com%2Frsstxt%2Frsstxt.php%3Fkey%3D3aafed63c8a7c03e28aafeecdd574cb2&id=3aafed63c8a7c03e28aafeecdd574cb2&target=" type="text/javascript"></script>
-
-								<h3 class="point">津波情報</h3>
-								
-<script id="_tangan_loader_09e383ac3380f762f1ae4c4dfe50cdf6" src="https://tanganrss.com/rsstxt/loader.php?url=https%3A%2F%2Ftanganrss.com%2Frsstxt%2Frsstxt.php%3Fkey%3D09e383ac3380f762f1ae4c4dfe50cdf6&id=09e383ac3380f762f1ae4c4dfe50cdf6&target=" type="text/javascript"></script>
-
-								<h3 class="point">火山情報</h3>
-								
-<script id="_tangan_loader_c36647cdb31407e3b1fc47b34e71e1d5" src="https://tanganrss.com/rsstxt/loader.php?url=https%3A%2F%2Ftanganrss.com%2Frsstxt%2Frsstxt.php%3Fkey%3Dc36647cdb31407e3b1fc47b34e71e1d5&id=c36647cdb31407e3b1fc47b34e71e1d5&target=" type="text/javascript"></script>
-
-								<hr />
-								<h3 class="point">内閣府 防災情報ＲＳＳ</h3>
-
-<script id="_tangan_loader_c533d7bfc9c116652e8b3161f8be1126" src="https://tanganrss.com/rsstxt/loader.php?url=https%3A%2F%2Ftanganrss.com%2Frsstxt%2Frsstxt.php%3Fkey%3Dc533d7bfc9c116652e8b3161f8be1126&id=c533d7bfc9c116652e8b3161f8be1126&target=" type="text/javascript"></script>
-<!--
-姉妹サービス、複眼RSSを宜しくお願いします。
-http://fukugan.com/
--->
-<!-- 登録内容の復元URL
-https://tanganrss.com/rsstxt/regist.php?key=c533d7bfc9c116652e8b3161f8be1126
--->
 
 							<hr />
 								<h2 class="ti">通行止め情報</h2>
@@ -1803,7 +1825,6 @@ https://tanganrss.com/rsstxt/regist.php?key=c533d7bfc9c116652e8b3161f8be1126
 							<hr />
 							<i class="fa fa-book" aria-hidden="true"></i> 以下の資料をもとに仁志が加工・編集して作成しました。<br>
 							・地理院タイル（<span id="url_a"><a href="http://maps.gsi.go.jp/development/ichiran.html">http://maps.gsi.go.jp/development/ichiran.html</a></span>）、指定緊急避難場所データ<br>
-							・<a href= "https://www.p2pquake.net/">P2P地震情報</a><br>
 							・<a href ="https://www.geospatial.jp/ckan/dataset/1101">通行止め情報</a>、G空間情報センター
 							<div class ="top_back"><a href="#refuge" id = "ue"></a></div>
 							</article><!-- refuge -->
@@ -1858,69 +1879,72 @@ https://tanganrss.com/rsstxt/regist.php?key=c533d7bfc9c116652e8b3161f8be1126
 					・<a href="http://www.wbgt.env.go.jp/wbgt_data.php" target="_blank">環境省熱中症予防情報サイト</a><br>
 					・<a href="https://tenki.jp/" target="_blank">日本気象協会</a>
 					<div class ="top_back"><a href="#weather" id = "ue"></a></div>
-
-
-<!--
-<h2 class="ti">気象庁ＲＳＳ</h2>
-
-気象庁のＲＳＳ配信です。
-<br><br>						
-
-<script id="_tangan_loader_455fb0d89271046d1097acbcc177d949" src="https://tanganrss.com/rsstxt/loader.php?url=https%3A%2F%2Ftanganrss.com%2Frsstxt%2Frsstxt.php%3Fkey%3D455fb0d89271046d1097acbcc177d949&id=455fb0d89271046d1097acbcc177d949&target=" type="text/javascript"></script>
-<!--
-姉妹サービス、複眼RSSを宜しくお願いします。
-http://fukugan.com/
--->
-<!-- 登録内容の復元URL
-https://tanganrss.com/rsstxt/regist.php?key=455fb0d89271046d1097acbcc177d949
--->
 							
 							</article>
 
 							<article id="soutei">
-								<a href="#" id = "home_back"></a><a href="#manabu" class="link">×</a>
 									<h2 class="major">ハザードマップ</h2>
 									<span class="image main"><img src="images/hz.jpg" alt="ハザードマップ" /></span>
-					
+									
 									大雨では川が増水して洪水の被害が起きることがあります。また、土砂崩れなどの災害に見舞われる恐れもあります。
 									想定区域で家の周りの被害を想定しましょう。<br><br>
 									※一部の自治体では、データ未整理のため、掲載されておりません。最新の情報は、自治体の公式サイトなどでもご確認ください。
 									<hr />
 					
 									<h2 class="ti">洪水浸水想定区域（想定最大規模）</h2>
-					
+									<h3 class="point">地図から調べる</h3>
+									<iframe src="bousai/hazardmap.html" width="100%" height="500px" frameborder="yes" scrolling="yes"></iframe>
+									<div class="box2">
 									<span style="background-color: #f0edc6;">　　</span>　０．５ｍ未満<br>
 									<span style="background-color: #f2cec4;">　　</span>　０．５～３．０ｍ<br>
 									<span style="background-color: #fcc4c4;">　　</span>　３．０～５．０ｍ<br>
 									<span style="background-color: #fc9494;">　　</span>　５．０～１０．０ｍ<br>
 									<span style="background-color: #e181e7;">　　</span>　１０．０～２０．０ｍ<br>
-									<span style="background-color: #b66996;">　　</span>　２０．０ｍ以上<br><br>
-
-									<iframe src="bousai/hazardmap.html" width="100%" height="500px" frameborder="yes" scrolling="yes"></iframe>
-
-
-
-									<hr />
-
-									<h2 class="ti">土石流マップ</h2>
-									<div class="box2">
-									・急傾斜地の崩壊区域<br>
-									傾斜度が３０°以上ある土地が崩壊する自然現象<br>
-									<span style="background-color: #fb684c;">　　</span>　特別警戒区域<br>
-									<span style="background-color: #fff27e;">　　</span>　警戒区域<br><br>
-
-									・土石流警戒区域<br>
-									山原が崩壊して生じた土石等又は渓流の土石等が一体となって流下する自然現象<br>
-									<span style="background-color: #c04c63;">　　</span>　特別警戒区域<br>
-									<span style="background-color: #edd86f;">　　</span>　警戒区域<br><br>
-
-									・地すべり警戒区域<br>
-									土地の一部が地下水等に起因して滑る自然現象又はこれに伴って移動する自然現象<br>
-									<span style="background-color: #ca4c95;">　　</span>　特別警戒区域<br>
-									<span style="background-color: #ffb74c;">　　</span>　警戒区域<br>
+									<span style="background-color: #b66996;">　　</span>　２０．０ｍ以上
+									</div>
+									<br>
+									<h3 class="point">現在地から調べる</h3>
+									<ul class="actions">
+										<li><a href="javascript:void(0);" class="button special" onclick="GPS();"><i class="icon fa-globe fa-1x"></i>　現在地取得</a></li>
+									</ul>
+									
+									<div id ="sinsui_load">
+									
+										<div class="cssload-loader">解析しています…</div>
+									
+									</div>
+									
+									<div id ="kekka">
+									解析結果は以下のとおりです。<br><br>
+										<div class="sbox">
+										<span class="box-title"> 解析結果 </span>
+										<p>経度：<span id="sin_keido"></span>度、緯度：<span id="sin_ido"></span>度<br><br>
+    									標高：<span id="hyoukou_result"></span>ｍ、最大浸水深：<span id="sinsui_result"></span>ｍ
+										</p>
+										</div>
+										
 									</div>
 
-<br>
+									<div id ="kekka2">
+									現在地は、洪水データが整備されておらず、最大浸水深を測定できませんでした。<br><br>
+										<div class="sbox">
+										<span class="box-title"> 解析結果 </span>
+										<p>経度：<span id="sin_keido2"></span>度、緯度：<span id="sin_ido2"></span>度<br><br>
+    									標高：<span id="hyoukou_result2"></span>ｍ、最大浸水深：不明
+										</p>
+										</div>
+										
+									</div>
+									
+								<div class ="box1">
+								<span><a href="https://suiboumap.gsi.go.jp/" style="color: #0000ff;">「地点別浸水シミュレーション検索システム」（浸水ナビ）</a><br>
+								浸水想定区域図を電子地図上に表示するシステムです。このシステムのAPIを利用することで、GPSから洪水浸水想定区域（想定最大規模）の情報を文字でも配信できるようになりました。</span>
+								</div>
+									
+									<hr />
+
+									<h2 class="ti">土砂災害マップ</h2>
+
 <div class="japan_map1">
     <img src="images/jpmap.png" alt="日本地図">
     <span class="area_btn1 area1" data-area="1">北海道・東北</span>
@@ -2004,9 +2028,42 @@ https://tanganrss.com/rsstxt/regist.php?key=455fb0d89271046d1097acbcc177d949
     </div>
 </div>
 
+									<div class="box2">
+									<table><tr><td colspan="2">
+									・急傾斜地の崩壊区域<br>
+									傾斜度が３０°以上ある土地が崩壊する自然現象<br>
+									
+									<span style="background-color: #fb684c;">　　</span>　特別警戒区域<br>
+									<span style="background-color: #fff27e;">　　</span>　警戒区域
+									</td></tr>
+									
+									<tr><td colspan="2">
+									・土石流警戒区域<br>
+									山原が崩壊して生じた土石等又は渓流の土石等が一体となって流下する自然現象<br>
+									<span style="background-color: #c04c63;">　　</span>　特別警戒区域<br>
+									<span style="background-color: #edd86f;">　　</span>　警戒区域
+									</td></tr>
+									
+									<tr><td colspan="2">
+									・地すべり警戒区域<br>
+									土地の一部が地下水等に起因して滑る自然現象又はこれに伴って移動する自然現象<br>
+									<span style="background-color: #ca4c95;">　　</span>　特別警戒区域<br>
+									<span style="background-color: #ffb74c;">　　</span>　警戒区域
+									</td></tr>
+									
+									<tr><td>・土石流危険渓流</td><td><span style="background-color: #EC5500;">　　</span></td></tr>
+									<tr><td>・急傾斜地崩壊危険箇所</td><td><span style="background-color: #CACAFE;">　　</span></td></tr>
+									<tr><td>・地すべり危険箇所</td><td><span style="background-color: #FEDBCA;">　　</span></td></tr>
+									<tr><td>・雪崩危険箇所</td><td><span style="background-color: #FEFE00;">　　</span></td></tr>
+									</table>
+									
+									
+									</div>
+
 					<hr />
 					<i class="fa fa-book" aria-hidden="true"></i> 以下の資料をもとに仁志が加工・編集して作成しました。<br>
-					・<a href="https://disaportal.gsi.go.jp/hazardmap/copyright/opendata.html">ハザードマップポータルサイト</a>
+					・<a href="https://disaportal.gsi.go.jp/hazardmap/copyright/opendata.html">ハザードマップポータルサイト</a><br>
+					・<a href="https://suiboumap.gsi.go.jp/">「地点別浸水シミュレーション検索システム」（浸水ナビ）</a>
 					<div class ="top_back"><a href="#soutei" id = "ue"></a></div>
 							</article>
 
@@ -2031,23 +2088,21 @@ https://tanganrss.com/rsstxt/regist.php?key=455fb0d89271046d1097acbcc177d949
 							<!-- 医療・福祉情報 -->
 							<article id="medical">
 								<a href="#" id = "home_back"></a><a href="#manabu" class="link">×</a>
-								<h2 class="major">医療・福祉情報</h2>
+								<h2 class="major" id ="medical_top">医療・福祉情報</h2>
 								<span class="image main"><img src="images/medical.jpg" alt="医療情報" /></span>
-								
-								<ul class="actions">
-										<li><a href="javascript:void(0);" class="button" onclick="sk();">災害拠点病院</a></li>
-										<li><a href="javascript:void(0);" class="button" onclick="hs();">避難生活</a></li>
-										<li><a href="javascript:void(0);" class="button" onclick="at();">AEDについて</a></li>
-								</ul>
-
-								<ul class="actions">
-										<li><a href="javascript:void(0);" class="button" onclick="hm();">ヘルプマーク</a></li>
-										<!--<li><a href="javascript:void(0);" class="button" onclick="krs();">厚生労働省RSS</a></li>-->
-								</ul>
+								<center><h3 class="kmt">目　次</h3></center>
+								<div class="mokuji1">
+    								<ul class="alt">
+										<li><a href="#skhos">災害拠点病院</a></li>
+										<li><a href="#hinl">避難生活</a></li>
+										<li><a href="#abaed">AEDについて</a></li>
+										<li><a href="#helpmark">ヘルプマーク</a></li>
+									</ul>
+								</div>
 								
 								<hr />
 								
-								<div id ="skb">
+								<div id="skhos"></div>
 									<h2 class="iryou">災害拠点病院マップ</h2>
 										<p>災害拠点病院マップを作成しました。</p>
 								
@@ -2059,9 +2114,9 @@ https://tanganrss.com/rsstxt/regist.php?key=455fb0d89271046d1097acbcc177d949
 										</span>
 										</div>
 
-								</div>
-								
-								<div id ="hins">
+								<a href="#medical_top" id = "type_ue"></a><br>
+								<hr>
+								<div id ="hinl"></div>
 									<h2 class="iryou">避難生活</h2>
 										<h3 class="point">温度・環境管理</h3>
 										<span class="image main"><img src="images/termometer.jpg" alt="温度・環境管理" /></span>
@@ -2148,10 +2203,10 @@ https://tanganrss.com/rsstxt/regist.php?key=455fb0d89271046d1097acbcc177d949
 										<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 調理器具等は使用後にできるたけ洗浄しましょう。<br><br>
 										<i class="fa fa-arrow-circle-right" aria-hidden="true"></i> 下痢や嘔吐等の症状がある方は、食品を取り扱う作業をしないようにしてください。
 										</blockquote></p>
-								</div>
 								
-								
-								<div id ="aed">
+								<a href="#medical_top" id = "type_ue"></a><br>
+								<hr>
+								<div id ="abaed"></div>
 									<h2 class="iryou">AEDについて</h2>
 										<h3 class="point">概要</h3>
 											自動体外式除細動器（ＡＥＤ）については、平成16年7月に救命の現場に居合わせた市民による使用の取扱いを示して以降、国内において急速に普及し、AEDを用いた救命事例が多数報告されています（平成26年時点での販売累計：約63万台）。<br><br>
@@ -2161,9 +2216,10 @@ https://tanganrss.com/rsstxt/regist.php?key=455fb0d89271046d1097acbcc177d949
 												<li><a href="https://aedm.jp/" class="button"  target="_blank">日本全国AEDマップ</a></li>
 											</ul>
 												日本全国に設置されているAEDの情報をマップ上に表示されています。もしもの際、すぐにAEDを探せるように工夫されています。
-								</div>
-								
-								<div id ="hmark">
+
+								<a href="#medical_top" id = "type_ue"></a><br><br>
+								<hr>
+								<div id ="helpmark"></div>
 									<h2 class="iryou">ヘルプマーク</h2>
 										<h3 class="point">知っていますか？</h3>
 										<div class="box1">
@@ -2181,7 +2237,6 @@ https://tanganrss.com/rsstxt/regist.php?key=455fb0d89271046d1097acbcc177d949
 										視覚障害者や聴覚障害者等の状況把握が難しい方、肢体不自由者等の自力での迅速な避難が困難な方がいます。
 										
 										
-								</div>
 								
 								<!--
 								<div id ="krs">
@@ -2210,7 +2265,7 @@ https://tanganrss.com/rsstxt/regist.php?key=d1d05697abb3c1c54dac73c0b86dde57
 								・<a href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000089060.html" target="_blank">災害医療</a>、厚生労働省<br>
 								・<a href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000121878.html" target="_blank">「避難所生活を過ごされる方々の健康管理に関するガイドライン」について</a><br>
 								・<a href="http://www.fukushihoken.metro.tokyo.jp/smph/shougai/shougai_shisaku/helpmark.html" target="_blank">ヘルプマーク</a>、東京都福祉保健局
-								<div class ="top_back"><a href="#medical" id = "ue"></a></div>
+								<div class ="top_back"><a href="#medical_top" id = "ue"></a></div>
 							</article>
 
 							<!-- tokei -->
@@ -2420,6 +2475,8 @@ https://tanganrss.com/rsstxt/regist.php?key=d1d05697abb3c1c54dac73c0b86dde57
 					</p>
 					<h2 class="major">更新情報</h2>
 					<p>
+					2020.02.08 アプリバージョンアップ（ver.4）<br>
+					メインメニュー大幅に変更、キーワード検索仕様変更、指定緊急避難場所リスト化、洪水ハザードマップ文字情報にて配信、土砂災害マップに雪崩危険個所など追加、災害速報追加<br><br>
 					2020.01.25 災害の種類に火災追加、開発者の視点追加<br><br>
 					2020.01.22 震度速報仕様変更<br><br>
 					2020.01.18 避難マップ、ハザードマップにシェアボタン設置<br><br>
@@ -2457,26 +2514,79 @@ https://tanganrss.com/rsstxt/regist.php?key=d1d05697abb3c1c54dac73c0b86dde57
 
 				<!-- manual -->
 				<article id="manual">
-					<h2 class="major">アプリ概要</h2>
+					<h2 class="major">使い方</h2>
 					
+						<h3 class="point">画面構成</h3>
+								<!--<center>
+								<ul class="icons" id ="icons_manual">
+									<li><a href="javascript:void(0);" onclick="manual1"><span class="label">１</span></a></li>
+									<li><a href="javascript:void(0);" onclick="manual2"><span class="label">２</span></a></li>
+									<li><a href="javascript:void(0);" onclick="manual3"><span class="label">３</span></a></li>
+									<li><a href="javascript:void(0);" onclick="manual4"><span class="label">４</span></a></li>
+									<li><a href="javascript:void(0);" onclick="manual5"><span class="label">５</span></a></li>
+								</ul>
+								</center>-->
+							
+									<h3 class = "soku">メインメニュー</h3>
+										<p>基本構成は、以下の４画面です。</p>
+										<blockquote>
+										１．学習<br><br>
+										防災のステージを「事前準備」「避難時」「帰宅後」「さらに詳しく」の４段階のコンテンツに分類してあります。<br><br>
+										災害の種類や非常時の持ち出しリスト、浸水・積雪ARなど、防災について、幅広く学ぶことができます。
+										</blockquote>
+										<blockquote>
+										２．避難情報<br><br>
+										日本全国の指定緊急避難場所をマップ化、リスト化しました。<br><br>
+										避難する時の避難場所を検索することができます。<br><br>
+										通行止め情報も載っていますので、実際に避難する時の参考にしてください。
+										</blockquote>
+										<blockquote>
+										３．気象情報<br><br>
+										雨雲レーダーで大気の状態を知ることができます。<br><br>
+										天気予報も載っているので、お出かけの際、雨具がいるかどうかの判断もできます。
+										</blockquote>
+										<blockquote>
+										４．浸水想定<br><br>
+										日本全国の災害ハザードマップ（洪水、土砂災害）を調べることができます。<br><br>
+										洪水ハザードマップでは、GPSから位置情報を把握し、現在地の最大浸水深を解析し、文字情報にて配信します。<br><br>
+										この配信により、視覚障がい者の方々などのような目の不自由な方々もハザードマップの情報を知ることができます。
+										</blockquote>
+
+									<h3 class = "soku">コンテンツ画面</h3>
+										<blockquote>
+										右上に、<i class="fa fa-home"></i> ホームボタン、× 閉じるボタンがあります。<br><br>
+										ホームボタンはトップ画面に、閉じるボタンは１つ前の画面に遷移します。<br><br>
+										使っていくうちに、操作方法が何となく分かるようなコンテンツ画面にしました。
+										</blockquote>
+
+									<h3 class = "soku">速報ボタン</h3>
+										<blockquote>
+										トップ画面には、速報ボタンがあります。<br><br>
+										これは、地震速報など、災害の速報情報を閲覧することができます。
+										</blockquote>
+									
+									<h3 class = "soku">キーワード検索</h3>
+										<blockquote>
+										トップ画面の下部には、キーワード検索があります。災害について、知りたい内容を入力することで、アプリ内の検索ができます。
+										
+										</blockquote>
+
 						<h3 class="point">インストール方法</h3>
 							
-							◎Safariの場合
+							<h3 class = "soku">Safariの場合</h3>
 							<blockquote>
 							・共有ボタンから「ホーム画面に追加」をタップします。<br><br>
 							・「OK」を押すとホーム画面にアイコンが表示されます。<br><br>
 							以上でインストール完了です。
 							</blockquote>
 							
-							◎Google Chromeの場合
+							<h3 class = "soku">Google Chromeの場合</h3>
 							<blockquote>
 							・設定ボタンから「ホーム画面に追加」をタップします。<br><br>
 							・「OK」を押すとホーム画面にアイコンが表示されます。<br><br>
 							以上でインストール完了です。
 							</blockquote>
-							
-						<h3 class="point">パンフレット</h3>
-						<img src="images/app.jpg" width="100%">
+						
 				</article> 
 
 				<!-- share -->
@@ -2542,47 +2652,56 @@ https://tanganrss.com/rsstxt/regist.php?key=d1d05697abb3c1c54dac73c0b86dde57
 								<div class ="top_back"><a href="#ksword" id = "ue"></a></div>
 							</article>
 
-							 <!-- test -->
 							<article id ="search">
 								<!--<a href="#" id = "home_back"></a><a href="#manabu" class="link">×</a>-->
-								<h2 class="major">検索</h2>
-								<p>キーワードを入力するとリアルタイムで検索することができます。</p>
+								<h2 class="major">検索結果</h2>
+								<div id="searchbox">
+								<span id="stat"></span>
+								<center><div id="navi"></div></center>
+								<div id="result"></div>
+								<script src ='https://linkevery2s.github.io/bsinsight/index.json' charset="utf-8"></script>
+								
+							</article>
 
-								<iframe src="./search.html" width="100%" height="300px" frameborder="yes" scrolling="yes"></iframe>
-
-
+							<article id ="sokuho">
+								<h2 class="major">災害速報</h2>
+								<h2 class="ti">地震速報</h2>
+								<ul class="actions">
+									<li><span class="button" target="_blank" onclick="sindosokuhou()"><i class="fa fa-arrow-circle-up"></i> 更新</span></li>
+								</ul>
+								<div id ="smap"></div>
+								<div id="data_result"></div>
+								<div id = "points_data"></div>
 								
 								<hr />
 								<i class="fa fa-book" aria-hidden="true"></i> 以下の資料をもとに仁志が加工・編集して作成しました。<br>
-								・<a href="https://www.jma.go.jp/jma/kishou/know/yougo_hp/mokuji.html">気象用語</a>、気象庁
-								<div class ="top_back"><a href="#ksword" id = "ue"></a></div>
-							</article>
 
+							・<a href= "https://www.p2pquake.net/">P2P地震情報</a><br>
+							
+							</article>
 
 
 					</div><!-- main -->
 
 				<!-- Footer -->
 					<footer id="footer">
-						
+
 							<ul class="icons">
 								<span class = "wordkensaku">
 									<form name="form1" id="form1" action="">
-									<input type="text" id="kens" value="" placeholder="キーワード検索">
-									<span class="exp" onclick="explorer()"><i class="icon fa-search fa-1x"></i></span><!--<span class="exp" ><a href ="#eye"><i class="icon fa-eye fa-1x"></i></a></span>-->
-									</form>
+								<input type="text" name="text1" id="q" onkeyup="do_find(this.value);" onkeydown="key(event.keyCode);" onkeypress="enter();" autocomplete="off" placeholder="キーワード検索">
+									<span class="exp" onclick="search_exp();"><i class="icon fa-search fa-1x"></i></span>
 								</span>
 							</ul>
-							
+
 								<ul class="icons">
-									<li><a href="#manual" class="icon fa-bookmark"><span class="label">使い方</span></a></li>
 									<li><a href="#rule" class="icon fa-american-sign-language-interpreting"><span class="label">利用規約</span></a></li>
 									<li><a href="#profile" class="icon fa-user"> <span class="label">自己紹介</span></a></li>
 									<li><a href="#share" class="icon fa-comments"> <span class="label">シェア</span></a></li>
 									<li><a href="#rss" class="icon fa-rss-square"><span class="label">更新情報</span></a></li>
 								</ul>
 
-						<p class="copyright"><i class="fa fa-copyright" aria-hidden="true"></i> 仁志. Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a>. ver 3.9.4</p>
+						<p class="copyright"><i class="fa fa-copyright" aria-hidden="true"></i> 仁志. Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a>. ver 4.0</p>
 					</footer>
 
 			</div><!-- wrapper -->
@@ -2599,7 +2718,6 @@ https://tanganrss.com/rsstxt/regist.php?key=d1d05697abb3c1c54dac73c0b86dde57
 			<script src="assets/js/main.js"></script>
 			<script src="assets/js/top.js"></script>
 			<script src="assets/js/dhtml.js"></script>
-			<script src="assets/js/media/audio.min.js"></script>
 			<script src ="assets/js/refuge.js"></script>
 			<script src ="assets/js/doseki.js"></script>
 
@@ -2627,16 +2745,14 @@ https://tanganrss.com/rsstxt/regist.php?key=d1d05697abb3c1c54dac73c0b86dde57
 					$('#loader').delay(600).fadeOut(300);
 				}
 			</script>
-			
-			<script>
-				audiojs.events.ready(function() {
-					audiojs.createAll();
-				});
-			</script>
 
 <script type="text/javascript" src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
 <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 
+<script type="text/javascript" src="assets/js/search1.js"></script>
+<script type="text/javascript" src="assets/js/search2.js"></script>
+<script type="text/javascript" src="assets/js/sinsui.js"></script>
+<script type="text/javascript" src="assets/js/hinanlist.js"></script>
 
 </body>
 </html>
