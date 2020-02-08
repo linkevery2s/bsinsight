@@ -12,12 +12,12 @@ var KC = {
 	down : 40
 };
 
-function kensaku(x,y){
+/*function kensaku(x,y){
 	location.href = x;
 	
 	window.setTimeout(location.href = y , 1500);
 	
-}
+}*/
 
 function search_exp(){
 var tx = document.form1.text1.value;
@@ -168,7 +168,7 @@ function view(result,offset){
 		var len = r[i][2];
 		with(data[num]){
 			buf.push(
-				"<dt><a href='javascript:void(0);' onclick = 'kensaku('", url1,",", url2 ");'>"
+				"<dt><a href='", url, "'>"
 				,title||"無題","</a>"
 				,"<dd>"
 
