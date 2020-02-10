@@ -3453,11 +3453,11 @@ dd b{
 
 /* 上に戻るボタン */
 #page_top{
-width: 3em;
-height: 3rem;
+  width: 3rem;
+  height: 3rem;
   position: fixed;
-  right: 25px;
-  bottom: 25px;
+  right: 1rem;
+  bottom: 1rem;
   background: #3f98ef;
   opacity: 0.9;
   border-radius: 50%;
@@ -3467,8 +3467,8 @@ height: 3rem;
 #page_top a{
   position: relative;
   display: block;
-width: 3rem;
-height: 3rem;
+  width: 3rem;
+  height: 3rem;
   text-decoration: none;
   text-align: center;
   border: none;
