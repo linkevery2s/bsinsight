@@ -3,23 +3,25 @@
   <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="新型コロナウィルスの対策を考えるウェブサイトです。">
-	<meta property="og:title" content="感染症対策マップ" />
+	<meta property="og:title" content="新型コロナウィルス特設サイト" />
 	<meta property="og:type" content="website" />
-	<meta property="og:url" content="https://linkevery2s.github.io/virusmap/index.html" />
-    <meta property="og:image" content="http://linkevery2s.github.io/virusmap/top.png" />
+	<meta property="og:url" content="https://linkevery2s.github.io/bsinsight/virusmap/index.html" />
+    <meta property="og:image" content="http://linkevery2s.github.io/bsinsight/virusmap/top.png" />
     <meta name="twitter:card" content="summary">
-	<meta name="twitter:title" content="感染症対策マップ" />
+	<meta name="twitter:title" content="新型コロナウィルス特設サイト" />
 	<meta name="twitter:description" content="新型コロナウィルスの対策を考えるウェブサイトです。" />
-	<meta name="twitter:image" content="http://linkevery2s.github.io/virusmap/top.png" />
+	<meta name="twitter:image" content="http://linkevery2s.github.io/bsinsight/virusmap/top.png" />
     <meta name="author" content="">
 	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" >
 	<link rel="stylesheet" href="css/map.css" />
 	<link rel="stylesheet" href="css/leaflet.css" />
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet">
     <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-    <title>感染症対策マップ</title>
+    <title>新型コロナウィルス特設サイト</title>
     <script src="js/jquery-1.12.0.min.js"></script>
-    <script src="data/aichi/st.geojson"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js" type="text/javascript"></script>
+    <script src="data/st.geojson"></script>
     <script type="text/javascript" src="js/leaflet.js"></script>
     <script type="text/javascript"  src="js/map.js"></script>
 
@@ -28,45 +30,92 @@
   <body onLoad="ini()">
 
 		
-	<div id="sb-site" class="main_content">
   	<center>
-  			<h2>感染症対策マップ</h2>
+  			<h1 class="des1">新型コロナウィルス<br>特設サイト</h1>
 
+		<h2>感染症マップ</h2>
 		<div id="map">
 		</div>	
 		
-		<br>
+
 		<div id ="app">
-		<i class="fa fa-map-marker" aria-hidden="true"></i> このマップについて<br>
+		<i class="fas fa-book-open"></i> このマップについて<br>
 		
-		</div><br>
+		</div>
+		
 		<div id ="app2">
-		<i class="fa fa-cogs" aria-hidden="true"></i> 厚生労働省RSS<br>
+		<i class="fas fa-book-open"></i> 手洗い、咳エチケットについて<br>
+		<table><tr><td style="vertical-align: top;">
+		
+		<a href="img/wash.jpg" data-lightbox="abc" data-title="手洗い、咳エチケット">
+		<img src="img/wash.jpg" width="150px">
+		</a>
+		
+		</td><td style="vertical-align: top;">
+		もう常識ですが、厚生労働省のパンフレットを掲載しておきます。
+		</td></tr></table>
+		
+		
+		</div>
+		
+
+		<div id ="app2">
+		<i class="fas fa-book-open"></i> 厚生労働省RSS<br>
 
 <div class="mamewaza_blog"><div><div class="mamewaza_blog_exp"><span class="mamewaza_assembled">powered by <a href="http://mamewaza.com/tools/" target="_blank" rel="nofollow">まめわざ</a></span></div></div></div><script type="text/javascript" src="https://mamewaza.net/blog.js?151209"></script><script type="text/javascript">mamewaza_blog({selector:"#mamewaza_blog",feed:"https://www.mhlw.go.jp/stf/news.rdf",rpp:"10",height:"auto",exp:true,url:true,date:"1",style:"div.mamewaza_blog > div{background-color:transparent;}div.mamewaza_blog ul.mamewaza_blog{background-color:transparent;}div.mamewaza_blog h5.mamewaza_blog,div.mamewaza_blog li,div.mamewaza_blog div.mamewaza_blog_exp{padding:10px;}div.mamewaza_blog > div{padding:0px;border:1px solid #eeeeee;font-size:12px;}div.mamewaza_blog h5.mamewaza_blog,div.mamewaza_blog ul.mamewaza_blog,div.mamewaza_blog li{border-bottom:1px solid #eeeeee;}div.mamewaza_blog h5.mamewaza_blog a,div.mamewaza_blog a.mamewaza_blog_title{color:#000;font-size:14px;text-shadow:none;}div.mamewaza_blog a.mamewaza_blog_title{font-weight:normal;}div.mamewaza_blog,div.mamewaza_blog a{color:#999999;}div.mamewaza_blog a.mamewaza_blog_url{color:#999999;}"})</script>
 
 		</div>
-		<br>
+
+
 		<div id ="qr_code">
-		<i class="fa fa-qrcode fa-lg" aria-hidden="true"></i> ＱＲコード<br>
+		<i class="fas fa-book-open"></i> ＱＲコード<br>
 		<table><tr><td style="vertical-align: top;">
-		<img src="img/qr/ai.gif">
+		<img src="img/qr.png">
 		</td><td style="vertical-align: top;">
 		このマップのＱＲコードです。スマートフォン等でアクセスする際にご利用ください。
 		</td></tr></table>
 		</div>
-		<div id ="button1">
-		<i class="fa fa-desktop" aria-hidden="true"></i> 参考文献<br>
-		<div id ="bi_memo"></div>
 		
+		<div id ="app2">
+		<i class="fas fa-book-open"></i> 参考文献<br>
+		<a href ="https://www.niid.go.jp/niid/ja/diseases/ka/corona-virus/2019-ncov/9310-2019-ncov-1.html" target="_blank">国立感染症研究所　人に感染するコロナウイルス <i class="fas fa-external-link-alt"></i></a>
 
 		</div>
-		</div>
+
+
+<script type="text/javascript" src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5e301a93ba3992b1"></script>
 
 	<div id="footer">&copy; 仁志
 	</div>
 	</center>
 	</div>
+		<div id="page_top"><a href="#"></a></div>
+
+<script>
+
+		$(function() {
+    var topBtn = $('#page_top');
+    topBtn.hide();
+
+    $(window).scroll(function () {
+
+        if ($(this).scrollTop() > 100) {
+            topBtn.fadeIn();
+
+        } else {
+            topBtn.fadeOut();
+        }
+    });
+
+    topBtn.click(function () {
+        $('body,html').animate({
+            scrollTop: 0
+        }, 500);
+        return false;
+    });
+});
+
+</script>
 
   </body>
 </html>
