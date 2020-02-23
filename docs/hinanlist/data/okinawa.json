@@ -1228,6 +1228,8 @@
 ,
 {"Name":"大保ダム地域防災センター","Jusho":"沖縄県大宜味村字田港1357-18","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
+{"Name":"古宇利オーシャンタワー","Jusho":"沖縄県今帰仁村字古宇利538","kouzui":"×","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+,
 {"Name":"瀬底集落センター","Jusho":"沖縄県本部町字瀬底1788-1","kouzui":"○","gake":"○","takashio":"○","jishin":"×","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
 ,
 {"Name":"崎本部公民館","Jusho":"沖縄県本部町字崎本部15","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"○","naisui":"×","kazan":"○"}

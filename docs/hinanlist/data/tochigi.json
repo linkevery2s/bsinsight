@@ -722,115 +722,249 @@
 ,
 {"Name":"小野寺ふれあい館","Jusho":"栃木県栃木市岩舟町新里606","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"佐野小学校体育館","Jusho":"栃木県佐野市金屋下町10","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"佐野小学校 体育館","Jusho":"栃木県佐野市金屋下町10","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"天明小学校体育館","Jusho":"栃木県佐野市大祝町2311","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"天明小学校 体育館","Jusho":"栃木県佐野市大祝町2311","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"西中学校体育館","Jusho":"栃木県佐野市大橋町2026","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"西中学校 体育館","Jusho":"栃木県佐野市大橋町2026","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"佐野地区公民館会議室","Jusho":"栃木県佐野市金井上町2519","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"佐野地区公民館 会議室","Jusho":"栃木県佐野市金井上町2519","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"佐野駅前交流プラザ2階会議室","Jusho":"栃木県佐野市若松町481-4","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"佐野駅前交流プラザ ２階会議室","Jusho":"栃木県佐野市若松町481-4","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"植野小学校体育館","Jusho":"栃木県佐野市植上町1272","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"植野小学校 体育館","Jusho":"栃木県佐野市植上町1272","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"南中学校体育館","Jusho":"栃木県佐野市植下町1205","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"南中学校 体育館","Jusho":"栃木県佐野市植下町1205","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"旧船津川小学校体育館","Jusho":"栃木県佐野市船津川町6001","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"船津川小学校 体育館","Jusho":"栃木県佐野市船津川町6001","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"植野地区公民館会議室","Jusho":"栃木県佐野市寺中町2297-1","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"植野地区公民館 会議室","Jusho":"栃木県佐野市寺中町2297-1","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"界小学校体育館","Jusho":"栃木県佐野市馬門町1539","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"界小学校 体育館","Jusho":"栃木県佐野市馬門町1539","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"界地区公民館会議室","Jusho":"栃木県佐野市馬門町1510-1","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"界地区公民館 会議室","Jusho":"栃木県佐野市馬門町1510-1","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"犬伏小学校体育館","Jusho":"栃木県佐野市犬伏下町1983","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"犬伏小学校 体育館","Jusho":"栃木県佐野市犬伏下町1983","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"犬伏東小学校体育館","Jusho":"栃木県佐野市伊勢山町1534","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"犬伏東小学校 体育館","Jusho":"栃木県佐野市伊勢山町1534","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"北中学校体育館","Jusho":"栃木県佐野市富岡町93","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"北中学校","Jusho":"栃木県佐野市富岡町93","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"犬伏地区公民館会議室","Jusho":"栃木県佐野市犬伏下町1798","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"犬伏地区公民館 会議室","Jusho":"栃木県佐野市犬伏下町1798","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"城北小学校体育館","Jusho":"栃木県佐野市堀米町1156","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"城北小学校 体育館","Jusho":"栃木県佐野市堀米町1156","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"城北地区公民館会議室","Jusho":"栃木県佐野市堀米町1173","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"城北地区公民館 会議室","Jusho":"栃木県佐野市堀米町1173","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"佐野武道館武道場","Jusho":"栃木県佐野市堀米町167-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"佐野武道館 武道場","Jusho":"栃木県佐野市堀米町167-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"旗川小学校体育館","Jusho":"栃木県佐野市並木町964","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"旗川小学校 体育館","Jusho":"栃木県佐野市並木町964","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"旗川地区公民館会議室","Jusho":"栃木県佐野市並木町957-1","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"旗川地区公民館 会議室","Jusho":"栃木県佐野市並木町957-1","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"吾妻小学校体育館","Jusho":"栃木県佐野市上羽田町1369-1","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"吾妻小学校 体育館","Jusho":"栃木県佐野市上羽田町1369-1","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"吾妻地区公民館ホール","Jusho":"栃木県佐野市村上町9","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"吾妻地区公民館 ホール","Jusho":"栃木県佐野市村上町9","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"赤見小学校体育館","Jusho":"栃木県佐野市赤見町3229","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"赤見小学校 体育館","Jusho":"栃木県佐野市赤見町3229","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"石塚小学校体育館","Jusho":"栃木県佐野市石塚町1408-2","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"石塚小学校 体育館","Jusho":"栃木県佐野市石塚町1408-2","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"出流原小学校体育館","Jusho":"栃木県佐野市出流原町1038-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"出流原小学校 体育館","Jusho":"栃木県佐野市出流原町1038-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"赤見中学校体育館","Jusho":"栃木県佐野市出流原町628-1","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"赤見中学校 体育館","Jusho":"栃木県佐野市出流原町628-1","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"赤見地区公民館会議室","Jusho":"栃木県佐野市赤見町3082","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"赤見地区公民館 会議室","Jusho":"栃木県佐野市赤見町3082","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"田沼小学校体育館","Jusho":"栃木県佐野市田沼町603","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"田沼小学校 体育館","Jusho":"栃木県佐野市田沼町603","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"田沼東中学校体育館","Jusho":"栃木県佐野市栃本町2287","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"田沼東中学校 体育館","Jusho":"栃木県佐野市栃本町2287","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"田沼中央公民館会議室","Jusho":"栃木県佐野市戸奈良町1-1","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"田沼中央公民館 会議室","Jusho":"栃木県佐野市戸奈良町1-1","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"田沼地区公民館会議室","Jusho":"栃木県佐野市栃本町2384-3","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"田沼地区公民館 会議室","Jusho":"栃木県佐野市栃本町2384-3","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"吉水小学校体育館","Jusho":"栃木県佐野市吉水町832","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"吉水小学校 会議室","Jusho":"栃木県佐野市吉水町832","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"新吉水地区コミュニティセンター会議室","Jusho":"栃木県佐野市吉水駅前1-19-6","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"新吉水地区コミュニティセンター 会議室","Jusho":"栃木県佐野市吉水駅前1-19-6","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"多田小学校体育館","Jusho":"栃木県佐野市多田町998","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"多田小学校 体育館","Jusho":"栃木県佐野市多田町998","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"栃本小学校体育館","Jusho":"栃木県佐野市栃本町1037","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"栃本小学校","Jusho":"栃木県佐野市栃本町1037","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"栃本地区コミュニティセンター会議室","Jusho":"栃木県佐野市栃本町2047-5","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"栃本地区コミュニティセンター 会議室","Jusho":"栃木県佐野市栃本町2047-5","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"戸奈良小学校体育館","Jusho":"栃木県佐野市戸奈良町1140","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"戸奈良小学校 体育館","Jusho":"栃木県佐野市戸奈良町1140","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"三好小学校体育館","Jusho":"栃木県佐野市岩崎町1341","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"三好小学校 体育館","Jusho":"栃木県佐野市岩崎町1341","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"田沼西中学校体育館","Jusho":"栃木県佐野市戸室町156","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"田沼西中学校 体育館","Jusho":"栃木県佐野市戸室町156","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"三好生活改善センターホール","Jusho":"栃木県佐野市戸室町1183","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"三好生活改善センター ホール","Jusho":"栃木県佐野市戸室町1183","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"旧野上小学校体育館","Jusho":"栃木県佐野市長谷場町499","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"旧野上小学校 体育館","Jusho":"栃木県佐野市長谷場町499","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"野上基幹集落センター会議室","Jusho":"栃木県佐野市白岩町486-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"野上基幹集落センター 会議室","Jusho":"栃木県佐野市白岩町486-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"山形小学校体育館","Jusho":"栃木県佐野市山形町649-2","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"山形小学校 体育館","Jusho":"栃木県佐野市山形町649-2","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"新合総合センター会議室","Jusho":"栃木県佐野市閑馬町361-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"新合総合センター 会議室","Jusho":"栃木県佐野市閑馬町361-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"飛駒小学校体育館","Jusho":"栃木県佐野市飛駒町1497","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"飛駒小学校 体育館","Jusho":"栃木県佐野市飛駒町1497","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"飛駒基幹集落センター会議室","Jusho":"栃木県佐野市飛駒町1576-2","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"飛駒基幹集落センター 会議室","Jusho":"栃木県佐野市飛駒町1576-2","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"葛生南小学校体育館","Jusho":"栃木県佐野市中町1104","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"葛生南小学校 体育館","Jusho":"栃木県佐野市中町1104","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"葛生小学校体育館","Jusho":"栃木県佐野市葛生西1-12-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"葛生小学校 体育館","Jusho":"栃木県佐野市葛生西1-12-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"葛生中学校体育館","Jusho":"栃木県佐野市葛生西3-4-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"葛生中学校","Jusho":"栃木県佐野市葛生西3-4-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"会沢地区コミュニティセンター会議室","Jusho":"栃木県佐野市会沢町681","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"会沢地区コミュニティセンター 会議室","Jusho":"栃木県佐野市会沢町681","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"くずう保育園教室","Jusho":"栃木県佐野市葛生東1-15-20","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"くずう保育園 教室","Jusho":"栃木県佐野市葛生東1-15-20","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"葛生あくと福祉センターふれあいの間","Jusho":"栃木県佐野市あくと町3084","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"葛生あくと福祉センター ふれあいの間","Jusho":"栃木県佐野市あくと町3084","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"常盤中学校体育館","Jusho":"栃木県佐野市豊代町2167","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"常盤中学校 体育館","Jusho":"栃木県佐野市豊代町2167","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"常盤地区公民館ホール","Jusho":"栃木県佐野市仙波町167","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"常盤地区公民館 体育館","Jusho":"栃木県佐野市仙波町167","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"氷室地区公民館ホール","Jusho":"栃木県佐野市水木町846","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"氷室地区公民館 体育館","Jusho":"栃木県佐野市水木町846","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+,
+{"Name":"西中学校","Jusho":"栃木県鹿沼市日吉町527","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
+,
+{"Name":"中央小学校","Jusho":"栃木県鹿沼市今宮町1624","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
+,
+{"Name":"東中学校","Jusho":"栃木県鹿沼市府中町393","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
+,
+{"Name":"東小学校","Jusho":"栃木県鹿沼市東末広町1082","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
+,
+{"Name":"県立鹿沼高等学校","Jusho":"栃木県鹿沼市万町960","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
+,
+{"Name":"情報センター","Jusho":"栃木県鹿沼市文化橋町1982-18","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
+,
+{"Name":"北小学校","Jusho":"栃木県鹿沼市泉町2457","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
+,
+{"Name":"県立鹿沼商工高等学校","Jusho":"栃木県鹿沼市花岡町180-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
+,
+{"Name":"東部台コミュニティセンター","Jusho":"栃木県鹿沼市緑町1-3-36","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
+,
+{"Name":"菊沢コミュニティセンター","Jusho":"栃木県鹿沼市御成橋町2-2197-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
+,
+{"Name":"菊沢東小学校","Jusho":"栃木県鹿沼市仁神堂町530","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
+,
+{"Name":"菊沢西小学校","Jusho":"栃木県鹿沼市見野75","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
+,
+{"Name":"西小学校","Jusho":"栃木県鹿沼市上日向6065","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
+,
+{"Name":"北押原小学校","Jusho":"栃木県鹿沼市樅山町82","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
+,
+{"Name":"板荷小学校","Jusho":"栃木県鹿沼市板荷2775","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
+,
+{"Name":"加園小学校","Jusho":"栃木県鹿沼市加園2800","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
+,
+{"Name":"石川小学校","Jusho":"栃木県鹿沼市上石川1344","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
+,
+{"Name":"津田小学校","Jusho":"栃木県鹿沼市北犬飼1390","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
+,
+{"Name":"池ノ森小学校","Jusho":"栃木県鹿沼市池ノ森757-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
+,
+{"Name":"さつきが丘小学校","Jusho":"栃木県鹿沼市茂呂1086-5","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
+,
+{"Name":"みどりが丘小学校","Jusho":"栃木県鹿沼市西茂呂3-7-19","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
+,
+{"Name":"南摩中学校","Jusho":"栃木県鹿沼市西沢町1414","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
+,
+{"Name":"上南摩小学校","Jusho":"栃木県鹿沼市上南摩町732","kouzui":"○","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
+,
+{"Name":"南押原小学校","Jusho":"栃木県鹿沼市磯町117","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
+,
+{"Name":"楡木小学校","Jusho":"栃木県鹿沼市楡木町70-2","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
+,
+{"Name":"藤江地区コミュニティセンター","Jusho":"栃木県鹿沼市藤江町833-3","kouzui":"○","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
+,
+{"Name":"みなみ小学校","Jusho":"栃木県鹿沼市南上野町503","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+,
+{"Name":"県立鹿沼南高等学校","Jusho":"栃木県鹿沼市みなみ町8-73","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
+,
+{"Name":"粟野中学校","Jusho":"栃木県鹿沼市口粟野1160","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
+,
+{"Name":"粟野小学校","Jusho":"栃木県鹿沼市口粟野802","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
+,
+{"Name":"粕尾小学校体育館","Jusho":"栃木県鹿沼市下粕尾1444-1","kouzui":"○","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
+,
+{"Name":"永野小学校","Jusho":"栃木県鹿沼市上永野310","kouzui":"○","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
+,
+{"Name":"清州第一小学校","Jusho":"栃木県鹿沼市久野620-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
+,
+{"Name":"真名子夢ホール","Jusho":"栃木県栃木市西方町真名子1086-1","kouzui":"○","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+,
+{"Name":"真名子小学校","Jusho":"栃木県栃木市西方町真名子1089-1","kouzui":"○","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+,
+{"Name":"清州第二小学校","Jusho":"栃木県鹿沼市北半田1515","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
+,
+{"Name":"東大芦コミュニティセンター","Jusho":"栃木県鹿沼市上日向375","kouzui":"○","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
+,
+{"Name":"北押原コミュニティセンター","Jusho":"栃木県鹿沼市樅山町162-2","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+,
+{"Name":"板荷コミュニティセンター","Jusho":"栃木県鹿沼市板荷3051-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
+,
+{"Name":"西大芦コミュニティセンター","Jusho":"栃木県鹿沼市草久960","kouzui":"○","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
+,
+{"Name":"加蘇コミュニティセンター","Jusho":"栃木県鹿沼市加園1364","kouzui":"○","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
+,
+{"Name":"北犬飼コミュニティセンター","Jusho":"栃木県鹿沼市さつき町15","kouzui":"○","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
+,
+{"Name":"南摩コミュニティセンター","Jusho":"栃木県鹿沼市油田町924-5","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
+,
+{"Name":"南押原コミュニティセンター","Jusho":"栃木県鹿沼市楡木町1080","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+,
+{"Name":"粟野コミュニティセンター","Jusho":"栃木県鹿沼市口粟野1780","kouzui":"○","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
+,
+{"Name":"粕尾コミュニティセンター","Jusho":"栃木県鹿沼市中粕尾273-2","kouzui":"○","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
+,
+{"Name":"永野コミュニティセンター","Jusho":"栃木県鹿沼市上永野770","kouzui":"○","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
+,
+{"Name":"清洲コミュニティセンター","Jusho":"栃木県鹿沼市深程116-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+,
+{"Name":"黒川緑地","Jusho":"栃木県鹿沼市府中町393-154　外","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+,
+{"Name":"千手山公園","Jusho":"栃木県鹿沼市千手町2610","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+,
+{"Name":"御殿山公園","Jusho":"栃木県鹿沼市今宮町1666-1","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+,
+{"Name":"富士山公園","Jusho":"栃木県鹿沼市花岡町81-1","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+,
+{"Name":"晃望台公園","Jusho":"栃木県鹿沼市晃望台20-19","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+,
+{"Name":"西茂呂近隣公園","Jusho":"栃木県鹿沼市西茂呂3-35","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+,
+{"Name":"ふれあい公園","Jusho":"栃木県鹿沼市栄町1-13","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+,
+{"Name":"松原近隣公園","Jusho":"栃木県鹿沼市松原3丁目地内","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+,
+{"Name":"鹿沼運動公園","Jusho":"栃木県鹿沼市旭が丘3164-1","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+,
+{"Name":"児子沼公園","Jusho":"栃木県鹿沼市さつき町14","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+,
+{"Name":"台の原公園","Jusho":"栃木県鹿沼市さつき町2","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+,
+{"Name":"自然の森総合公園","Jusho":"栃木県鹿沼市下石川694-1","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+,
+{"Name":"粟野総合運動公園","Jusho":"栃木県鹿沼市口粟野1222-3","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+,
+{"Name":"旧粟野中学校","Jusho":"栃木県鹿沼市口粟野1812","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+,
+{"Name":"旧粟野第三小学校","Jusho":"栃木県鹿沼市入粟野667-1","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+,
+{"Name":"旧粟野第二小学校","Jusho":"栃木県鹿沼市中粟野1057","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+,
+{"Name":"旧上粕尾小学校","Jusho":"栃木県鹿沼市上粕尾393-1","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+,
+{"Name":"旧西大芦小学校","Jusho":"栃木県鹿沼市草久960","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+,
+{"Name":"旧久我小学校","Jusho":"栃木県鹿沼市上久我60-1","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
 {"Name":"今市高等学校（体育館）","Jusho":"栃木県日光市千本木432","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
 ,
@@ -1084,8 +1218,6 @@
 ,
 {"Name":"駅東公園","Jusho":"栃木県小山市駅東通り2-25","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
 ,
-{"Name":"城北公園","Jusho":"栃木県小山市城北5-12","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
-,
 {"Name":"神久保公園","Jusho":"栃木県小山市神鳥谷2-29","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
 ,
 {"Name":"希望ケ丘公園","Jusho":"栃木県小山市西城南5-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
@@ -1112,7 +1244,7 @@
 ,
 {"Name":"小山運動公園","Jusho":"栃木県小山市向野187","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
 ,
-{"Name":"小山第一小学校","Jusho":"栃木県小山市宮本町1-3-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
+{"Name":"小山第一小学校","Jusho":"栃木県小山市宮本町1-3-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
 ,
 {"Name":"小山第二小学校","Jusho":"栃木県小山市宮本町2-9-20","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
 ,
@@ -1136,37 +1268,39 @@
 ,
 {"Name":"間々田小学校","Jusho":"栃木県小山市間々田1512","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
 ,
-{"Name":"乙女小学校","Jusho":"栃木県小山市乙女1954","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
+{"Name":"乙女小学校","Jusho":"栃木県小山市乙女1954","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
 {"Name":"間々田東小学校","Jusho":"栃木県小山市間々田57-2","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
 ,
-{"Name":"下生井小学校","Jusho":"栃木県小山市下生井1546","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
+{"Name":"下生井小学校","Jusho":"栃木県小山市下生井1546","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"網戸小学校","Jusho":"栃木県小山市網戸1514","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
+{"Name":"網戸小学校","Jusho":"栃木県小山市網戸1514","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"寒川小学校","Jusho":"栃木県小山市中里861","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
+{"Name":"寒川小学校","Jusho":"栃木県小山市中里861","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
 {"Name":"豊田南小学校","Jusho":"栃木県小山市松沼668","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
 ,
-{"Name":"豊田北小学校","Jusho":"栃木県小山市大本808","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
+{"Name":"豊田北小学校","Jusho":"栃木県小山市大本808","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
 ,
-{"Name":"穂積小学校","Jusho":"栃木県小山市萩島27","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
+{"Name":"穂積小学校","Jusho":"栃木県小山市萩島27","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
 ,
-{"Name":"中小学校","Jusho":"栃木県小山市南小林109","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
+{"Name":"中小学校","Jusho":"栃木県小山市南小林109","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
 ,
 {"Name":"羽川小学校","Jusho":"栃木県小山市羽川125","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
 ,
-{"Name":"羽川西小学校","Jusho":"栃木県小山市黒本771-2","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
+{"Name":"羽川西小学校","Jusho":"栃木県小山市黒本771-2","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
 {"Name":"萱橋小学校","Jusho":"栃木県小山市萱橋1169-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
 ,
 {"Name":"絹義務教育学校（旧福良小学校）","Jusho":"栃木県小山市福良2246","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
 ,
-{"Name":"旧梁小学校","Jusho":"栃木県小山市梁67","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
+{"Name":"旧梁小学校","Jusho":"栃木県小山市梁67","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
 ,
 {"Name":"旧延島小学校","Jusho":"栃木県小山市延島1019","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
 ,
-{"Name":"小山中学校","Jusho":"栃木県小山市渋井779-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
+{"Name":"東城南小学校","Jusho":"栃木県小山市東城南3-9-5","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
+,
+{"Name":"小山中学校","Jusho":"栃木県小山市渋井779-1","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
 {"Name":"小山第二中学校","Jusho":"栃木県小山市天神町1-6-36","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
 ,
@@ -1178,7 +1312,7 @@
 ,
 {"Name":"間々田中学校","Jusho":"栃木県小山市間々田2364","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
 ,
-{"Name":"乙女中学校","Jusho":"栃木県小山市乙女1731","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
+{"Name":"乙女中学校","Jusho":"栃木県小山市乙女1731","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
 {"Name":"豊田中学校","Jusho":"栃木県小山市松沼397","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
 ,
@@ -1200,9 +1334,9 @@
 ,
 {"Name":"勤労青少年ホーム","Jusho":"栃木県小山市犬塚3-1-2","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
 ,
-{"Name":"白鴎大学本キャンパス","Jusho":"栃木県小山市大行寺1117","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
+{"Name":"白鴎大学大行寺キャンパス","Jusho":"栃木県小山市大行寺1117","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"白鴎大学東キャンパス","Jusho":"栃木県小山市駅東通り2-2-2","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
+{"Name":"白鴎大学本キャンパス","Jusho":"栃木県小山市駅東通り2-2-2","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
 ,
 {"Name":"小山工業高等専門学校","Jusho":"栃木県小山市中久喜771","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
 ,
@@ -1210,13 +1344,13 @@
 ,
 {"Name":"小山市立文化センター","Jusho":"栃木県小山市中央町1-1-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
 ,
-{"Name":"県立県南体育館","Jusho":"栃木県小山市外城３７１-１","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
+{"Name":"県立県南体育館","Jusho":"栃木県小山市外城371-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
 ,
-{"Name":"県立温水プール館","Jusho":"栃木県小山市外城３７１-１","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
+{"Name":"県立温水プール館","Jusho":"栃木県小山市外城371-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
 ,
 {"Name":"道の駅思川","Jusho":"栃木県小山市下国府塚25-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
 ,
-{"Name":"間々田市民交流センター","Jusho":"栃木県小山市間々田1960-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
+{"Name":"間々田市民交流センター","Jusho":"栃木県小山市間々田1960-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
 ,
 {"Name":"小山城南市民交流センター","Jusho":"栃木県小山市東城南4-1-12","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
 ,
@@ -1350,7 +1484,7 @@
 ,
 {"Name":"中央多目的公園","Jusho":"栃木県大田原市中央2丁目2360番地2","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"福寿草ほほえみセンター","Jusho":"栃木県大田原市中田原383番地2","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"福寿草ほほえみセンター","Jusho":"栃木県大田原市中田原338番地2","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
 {"Name":"金田北中学校","Jusho":"栃木県大田原市市野沢2067番地","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
@@ -1430,7 +1564,7 @@
 ,
 {"Name":"ピアートホール","Jusho":"栃木県大田原市堀之内656番地1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"北滝公会堂","Jusho":"栃木県大田原市北滝593番地","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"北滝公会堂","Jusho":"栃木県大田原市北滝593番地","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
 {"Name":"黒羽・川西地区公民館","Jusho":"栃木県大田原市黒羽田町848","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
@@ -1444,9 +1578,9 @@
 ,
 {"Name":"築地集会所","Jusho":"栃木県大田原市黒羽向町761番地3","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"奥沢公民館","Jusho":"栃木県大田原市黒羽向町1329番地","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"奥沢公民館","Jusho":"栃木県大田原市黒羽向町1329番地","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"黒羽商工会","Jusho":"栃木県大田原市黒羽向町112番地2","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"黒羽商工会","Jusho":"栃木県大田原市黒羽向町112番地2","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"川西高齢者ほほえみセンター","Jusho":"栃木県大田原市黒羽向町409番地1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -1758,6 +1892,42 @@
 ,
 {"Name":"別処山公園","Jusho":"栃木県下野市絹板611-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
 ,
+{"Name":"本郷小学校","Jusho":"栃木県河内郡上三川町東蓼沼251","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+,
+{"Name":"本郷北小学校","Jusho":"栃木県河内郡上三川町西汗1585","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+,
+{"Name":"上三川小学校","Jusho":"栃木県河内郡上三川町上三川4594","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+,
+{"Name":"坂上小学校","Jusho":"栃木県上三川町坂上628","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+,
+{"Name":"北小学校","Jusho":"栃木県河内郡上三川町上蒲生1725","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+,
+{"Name":"明治小学校","Jusho":"栃木県河内郡上三川町大山524","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+,
+{"Name":"明治南小学校","Jusho":"栃木県河内郡上三川町多功1412","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+,
+{"Name":"本郷中学校","Jusho":"栃木県河内郡上三川町東汗520","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+,
+{"Name":"上三川中学校","Jusho":"栃木県河内郡上三川町上三川4279","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+,
+{"Name":"明治中学校","Jusho":"栃木県河内郡上三川町大山25","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+,
+{"Name":"上三川町役場","Jusho":"栃木県河内郡上三川町しらさぎ1-1","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+,
+{"Name":"中央公民館","Jusho":"栃木県河内郡上三川町上三川3970","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+,
+{"Name":"体育センター","Jusho":"栃木県河内郡上三川町上三川4270","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+,
+{"Name":"町立図書館","Jusho":"栃木県河内郡上三川町上三川5040","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+,
+{"Name":"上三川いきいきプラザ","Jusho":"栃木県河内郡上三川町上蒲生127-1","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+,
+{"Name":"上三川ふれあいの家ひまわり","Jusho":"栃木県河内郡上三川町上三川5082-15","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+,
+{"Name":"農村環境改善センター","Jusho":"栃木県河内郡上三川町上郷2140","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+,
+{"Name":"上三川高等学校","Jusho":"栃木県河内郡上三川町多功994-4","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+,
 {"Name":"田野中学校","Jusho":"栃木県益子町大字長堤402","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
 {"Name":"田野小学校","Jusho":"栃木県益子町大字長堤400","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
@@ -1808,7 +1978,7 @@
 ,
 {"Name":"逆川小学校","Jusho":"栃木県芳賀郡茂木町飯2210","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
 ,
-{"Name":"逆川中学校","Jusho":"栃木県芳賀郡茂木町飯1650","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
+{"Name":"旧逆川中学校","Jusho":"栃木県芳賀郡茂木町飯1650","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
 ,
 {"Name":"中川小学校","Jusho":"栃木県芳賀郡茂木町牧野1861","kouzui":"○","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
 ,
@@ -1921,6 +2091,38 @@
 {"Name":"川田集落センター","Jusho":"栃木県下都賀郡野木町大字川田４７４","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
 ,
 {"Name":"飯岡公民館","Jusho":"栃木県塩谷郡塩谷町大字飯岡604-2","kouzui":"×","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+,
+{"Name":"阿久津中学校","Jusho":"栃木県塩谷郡高根沢町大字中阿久津1470","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
+,
+{"Name":"阿久津小学校","Jusho":"栃木県塩谷郡高根沢町大字宝積寺1178","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
+,
+{"Name":"図書館中央館","Jusho":"栃木県塩谷郡高根沢町大字宝積寺1220-2","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
+,
+{"Name":"西小学校","Jusho":"栃木県塩谷郡高根沢町光陽台3-2-3","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
+,
+{"Name":"大谷集落センター","Jusho":"栃木県塩谷郡高根沢町大字大谷922","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
+,
+{"Name":"中央小学校","Jusho":"栃木県塩谷郡高根沢町大字石末2247","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
+,
+{"Name":"町民広場","Jusho":"栃木県塩谷郡高根沢町大字石末1825","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
+,
+{"Name":"高根沢高校","Jusho":"栃木県塩谷郡高根沢町大字文挟32-2","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
+,
+{"Name":"北小学校","Jusho":"栃木県塩谷郡高根沢町大字飯室876","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
+,
+{"Name":"仁井田ふれあい広場","Jusho":"栃木県塩谷郡高根沢町大字平田2012-2","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
+,
+{"Name":"台新田公民館","Jusho":"栃木県塩谷郡高根沢町大字亀梨478","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
+,
+{"Name":"旧東小学校","Jusho":"栃木県塩谷郡高根沢町大字太田715","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
+,
+{"Name":"東小学校・ 北高根沢中学校","Jusho":"栃木県塩谷郡高根沢町大字太田753","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
+,
+{"Name":"桑窪公民館","Jusho":"栃木県塩谷郡高根沢町大字桑窪405","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
+,
+{"Name":"上高根沢小学校","Jusho":"栃木県塩谷郡高根沢町大字上高根沢2080","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
+,
+{"Name":"柏崎公民館","Jusho":"栃木県塩谷郡高根沢町大字中柏崎246-4","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
 ,
 {"Name":"高原公民館","Jusho":"栃木県那須郡那須町大字湯本199-14","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
 ,
