@@ -4,9 +4,26 @@ function ini() {
   		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
   		}).addTo(map);
    map.setView([35.067, 137.189], 6);
-   Geost();
+   
+   /*愛知県*/ chip_map(35.052, 137.175, 5);
+   
 }
 
+function chip_map(x, y, z){
+
+	var chipIcons=[];
+	
+	for (var i = 0; i < z; i++) {
+		chipIcons.push(L.icon.chip({
+		color: "red"
+	}));
+	}
+
+    var stack = L.marker.stack([x, y], {icons: chipIcons, stackOffset: [0, -5]});
+
+    map.addLayer(stack);
+
+}
 
 function Geost(){
 		geost = L.geoJson(st, {
@@ -47,7 +64,5 @@ function geo_st(feature, layer) {
     	popup += '<br>収容人数：' + feature.properties.Capacity;
     }
     
-	//popup += '<br><a href="https://maps.google.co.jp/maps?ll=' + feature.properties.la + "," + feature.properties.ln + "&q=" + feature.properties.la + "," + feature.properties.ln + '" target="_blank">Google マップで見る</a>'
-	popup += '<br><a href="https://maps.google.co.jp/maps?daddr=' + feature.properties.la + "," + feature.properties.ln + '" target="_blank">Google マップでルート検索</a>'
     layer.bindPopup(popup);
 }
