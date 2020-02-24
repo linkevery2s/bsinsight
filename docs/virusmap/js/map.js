@@ -5,23 +5,26 @@ function ini() {
   		}).addTo(map);
    map.setView([35.067, 137.189], 6);
    
-   /*愛知県*/ chip_map(35.052, 137.175, 5);
+   /*愛知県*/ chip_map(35.052, 136.975, 5, 3, 2);
    
 }
 
-function chip_map(x, y, z){
+function chip_map(x, y, z, h, l){
 
 	var chipIcons=[];
-	
-	for (var i = 0; i < z; i++) {
-		chipIcons.push(L.icon.chip({
-		color: "red"
-	}));
-	}
-
+	for (var i = 0; i < z; i++) {chipIcons.push(L.icon.chip({color: "red"}));}
     var stack = L.marker.stack([x, y], {icons: chipIcons, stackOffset: [0, -5]});
-
     map.addLayer(stack);
+
+	var chipIcons2=[];
+	for (var i = 0; i < h; i++) {chipIcons2.push(L.icon.chip({color: "red"}));}
+    var stack2 = L.marker.stack([x, y+0.2], {icons: chipIcons2, stackOffset: [0, -5]});
+    map.addLayer(stack2);
+
+	var chipIcons3=[];
+	for (var i = 0; i < h; i++) {chipIcons3.push(L.icon.chip({color: "red"}));}
+    var stack3 = L.marker.stack([x, y+0.4], {icons: chipIcons3, stackOffset: [0, -5]});
+    map.addLayer(stack3);
 
 }
 
@@ -65,4 +68,14 @@ function geo_st(feature, layer) {
     }
     
     layer.bindPopup(popup);
+}
+
+function line(){
+	var url = window.location.href;
+	location.href = "line://msg/text/"+ url;
+}
+
+function mail(){
+	var url = window.location.href;
+	location.href =  "mailto:?body=URL " + url;
 }

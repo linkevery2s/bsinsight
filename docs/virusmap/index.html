@@ -33,6 +33,16 @@
   	<center>
   			<h1 class="des1">防災INSIGHT<br>感染症WEB</h1>
 
+		<div class="sns">
+<a href="https://twitter.com/share" class="twitter-share-button" data-lang="ja">ツイート</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+<div class="fb-like" data-href="https://linkevery2s.github.io/bsinsight/virusmap/index.html" data-width="" data-layout="button_count" data-action="like" data-size="small" data-share="true"></div>
+<br>
+		<img src ='img/linebutton.png' width='82px' height='20px' alt="LINEで送る" onclick="line()" class="mlc">
+		<img src ="img/mail.png" border ="0" width='82px' height='20px' alt="メールで送る" onclick="mail()" class="mlc">
+		</div>
+		
+
 		<h2>感染症マップ</h2>
 		<div id="map"></div>	
 		
@@ -40,6 +50,71 @@
 
 		<div id ="app">
 		<i class="fas fa-map-marker"></i> このマップについて<br>
+		
+		</div>
+		
+		
+		<h2>感染症法に基づく類型</h2>
+		
+		<div id ="app">
+		<table border="1">
+		<thead>
+    <tr>
+      <th>感染症類型</th>
+      <th>定義</th>
+      <th>主な対応</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>１類感染症</td>
+      <td>感染力、罹患した場合の重篤性等に基づく総合的な観点から見た危険性が極めて高い感染症<br><br>
+      エボラ出血熱、クリミア・コンゴ出血熱、痘そう、南米出血熱、ペスト、マールブルグ病、ラッサ熱
+      </td>
+      <td>患者、疑似症患者及び無症状病原体保有者について入院等の措置を講ずる</td>
+    </tr>
+    <tr>
+      <td>２類感染症</td>
+      <td>感染力、罹患した場合の重篤性等に基づく総合的な観点から見た危険性が高い感染症<br><br>
+      急性灰白髄炎、結核、ジフテリア、重症急性呼吸器症候群（病原体がコロナウイルス属ＳＡＲＳコロナウイルスであるものに限る）、中東呼吸器症候群（病原体がベータコロナウイルス属ＭＥＲＳコロナウイルスであるものに限る。)、鳥インフルエンザ（Ｈ５Ｎ１）、鳥インフルエンザ（H７N９）
+      </td>
+      <td>患者及び一部の疑似症患者について入院等の措置を講ずる</td>
+    </tr>
+    <tr>
+      <td>３類感染症</td>
+      <td>感染力、罹患した場合の重篤性等に基づく総合的な観点から見た危険性は高くないが、特定の職業への就業によって感染症の集団発生を起こし得る感染症<br><br>
+      コレラ、細菌性赤痢、腸管出血性大腸菌感染症、腸チフス、パラチフス
+      </td>
+      <td>患者及び無症状病原体保有者について就業制限等の措置を講ずる</td>
+    </tr>
+    <tr>
+      <td>４類感染症</td>
+      <td>動物、飲食物等の物件を介して人に感染し、国民の健康に影響を与えるおそれのある感染症（ヒトからヒトへの感染はない。）<br><br>
+      ウエストナイル熱、狂犬病、高病原性鳥インフルエンザ、日本脳炎、マラリア、レジオネラ症等の３０感染症
+      </td>
+      <td>媒介動物の輸入規制、消毒、物件の廃棄等の物的措置</td>
+    </tr>
+    <tr>
+      <td>５類感染症</td>
+      <td>国が感染症の発生動向の調査を行い、その結果等に基づいて必要な情報を国民一般や医療関係者に情報提供・公開していくことによって、発生・まん延を防止すべき感染症<br><br>
+      ウイルス性肝炎（Ｅ型及びＡ型を除く）、後天性免疫不全症候群（エイズ）、インフルエンザ、麻しん等の４１感染症
+      </td>
+      <td>発生動向の収集把握と情報の提供</td>
+    </tr>
+    <tr>
+      <td>指定感染症</td>
+      <td>既知の感染症のうち１類～３類に分類されていない感染症であって、１類～３類に準じた対応の必要性が生じた感染症</td>
+      <td>１類～３類感染症に準じた対応（適用する措置は政令で指定する。）</td>
+    </tr>
+    <tr>
+      <td>新感染症</td>
+      <td>ヒトからヒトに感染すると認められる疾病であって、既知の感染症と症状等が明らかに異なり、当該疾病に罹患した場合の病状の程度が重篤であり、かつ、当該疾病のまん延により国民の生命及び健康に重大な影響を与えるおそれがあると認められる感染症</td>
+      <td>都道府県知事が厚生労働大臣の技術的指導・助言を得て個別に応急対応し、政令により症状等の要件を指定した後は１類感染症に準じた対応を行う</td>
+    </tr>
+    </tbody>
+  </table>
+		
+		
 		
 		</div>
 		
@@ -88,13 +163,18 @@
 		</td></tr></table>
 		</div>
 		
-		<h2>参考文献</h2>
+		<h2>関連リンク</h2>
 		<div id ="app2">
 		
 		<a href ="https://www.niid.go.jp/niid/ja/diseases/ka/corona-virus/2019-ncov/9310-2019-ncov-1.html" target="_blank">国立感染症研究所　人に感染するコロナウイルス <i class="fas fa-external-link-alt"></i></a>
 
 		</div>
 
+		<h2>参考文献</h2>
+		<div id ="app2">
+		
+
+		</div>
 
 		<h2>更新履歴</h2>
 		<div id ="app2">
@@ -102,7 +182,6 @@
 
 		</div>
 
-<script type="text/javascript" src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5e301a93ba3992b1"></script>
 
 	<div id="footer">&copy; 仁志
 	</div>
@@ -135,6 +214,9 @@
 });
 
 </script>
+
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v6.0"></script>
 
   </body>
 </html>
