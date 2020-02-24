@@ -191,7 +191,8 @@ h2::after {
   margin: auto;
 }
 
-table {
+/* 指定感染症のテーブル */
+.scroll-table table {
   display: block;
   overflow-x: scroll;
   white-space: nowrap;
@@ -202,12 +203,8 @@ td, th{
 	padding: 10px 10px 10px 10px;
 }
 
-thead th{
-	width: 200px;
-	min-width: 200px;
-}
-
-tbody td{
-	width: 200px;
-	min-width: 200px;
+.tab{
+	width: 300px;
+	min-width: 300px;
+	white-space: normal !important;
 }
