@@ -52,7 +52,9 @@ function ini() {
    /*宮崎県*/ chip_map(32.213, 131.188, 5, 3, 2);
    /*鹿児島県*/ chip_map(31.641, 130.515, 5, 3, 2);
    /*沖縄県*/ chip_map(26.436, 127.996, 5, 3, 2);
-   
+
+chart();
+
 }
 
 function chip_map(x, y, z, h, l){

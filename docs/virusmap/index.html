@@ -25,6 +25,8 @@
     <script src="js/Leaflet.Marker.Stack.js"></script>
 	<script src="js/Leaflet.Icon.Chip.js"></script>
     <script src="js/map.js"></script>
+	<script src="https://cdn.plot.ly/plotly-1.2.0.min.js"></script>
+	<script src="js/chart.js"></script>
   </head>
 
   <body onLoad="ini()">
@@ -43,17 +45,30 @@
 		</div>
 		
 
+		<h2>はじめに</h2>
+		<div id ="app">
+		厚生労働省の報道発表資料をもとに、新型コロナウィルスの統計データを表記しています。
+		
+		</div>
+
+
 		<h2>感染症マップ</h2>
 		<div id="map"></div>	
 		
+
+		<div id ="app2">
+
+		<!-- 都道府県別 -->
+		<div id="todouh" style="width:100%;height:400px;"></div>
 		
 
-		<div id ="app">
-		<i class="fas fa-map-marker"></i> このマップについて<br>
+		<div id="tester" style="width:100%;height:400px;"></div>
+		
 		
 		</div>
-		
-		
+
+
+<!--
 		<h2>感染症法に基づく類型</h2>
 		
 		<div id ="app">
@@ -106,7 +121,7 @@
       都道府県知事が厚生労働大臣の技術的指導・助言を得て個別に応急対応し、政令により症状等の要件を指定した後は１類感染症に準じた対応を行う
       </blockquote>
 
-		</div>
+		</div>-->
 		
 		<h2>手洗い、咳エチケットについて</h2>
 		<div id ="app2">
@@ -124,15 +139,6 @@
 		
 		</div>
 		
-		<h2>関連ツイート</h2>
-		<div id ="app2">
-		
-		新型コロナウィルスに関するツイートを掲載します。<br>
-		
-		<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">マスクが欠かせない時期となりました。マスクはつけ方も大事ですが、捨て方も大事です。マスクの外気に当たる面は、埃やウイルス等で汚れています。マスクを使い終わったらひも部分を持って外し、マスク本体には触らないようにビニール袋に入れ、口を縛って密閉してからゴミ箱に捨てましょう。 <a href="https://t.co/NlsdQS0SCb">pic.twitter.com/NlsdQS0SCb</a></p>&mdash; 警視庁警備部災害対策課 (@MPD_bousai) <a href="https://twitter.com/MPD_bousai/status/1227730094086451200?ref_src=twsrc%5Etfw">February 12, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-		
-		
-		</div>
 
 		<h2>厚生労働省RSS</h2>
 		<div id ="app2">
@@ -171,11 +177,6 @@
 
 		</div>
 
-		<h2>開発者あとがき</h2>
-		<div id ="app2">
-
-
-		</div>
 
 	<div id="footer">&copy; 仁志
 	</div>
