@@ -42,7 +42,7 @@ var trace2 = {
 
 var data = [trace2, trace1];
 
-var layout = {title: "年代別集計", showlegend: false};
+var layout = {title: "年代別集計"};
 
 Plotly.newPlot('nendai', data, layout);
 

@@ -140,6 +140,8 @@ h2::after {
 			padding: 0;
 		}
 		
+		#images{width: 95%;}
+		
 		.sns{
 			width: 95% !important;
 			padding: 5px;
