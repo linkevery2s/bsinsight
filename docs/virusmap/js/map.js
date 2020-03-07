@@ -10,10 +10,19 @@ var todou = new Array(47);var markers = new Array(47); var ido; var keido;var pa
 		map.setView([x, y], z);
 	}
 
-    function aichi_ini() {
+    function w_ini() {
 		start(29.993, 119.179, 4);
 		todou = L.geoJson(aichi, {style: sty,onEachFeature: geo_k});
 		map.addLayer(todou);
+	}
+	
+	function ni_ini(){
+		var map2 = L.map('map2',{zoomControl: false});
+		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
+  		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
+  		}).addTo(map2);
+		L.control.zoom({position: 'topright'}).addTo(map2);
+		map2.setView([38.101, 497.724], 5);
 	}
 
 function sty(feature) {
