@@ -1,0 +1,9 @@
+﻿var aichi={"type":"FeatureCollection","name":"aichi","features":[
+{'type':'Feature','geometry':{'type':'Point','coordinates':[104.326,32.99]},'properties':{'Name':'中国','Kansen':'80552','Shibou':'3042'}}
+,{'type':'Feature','geometry':{'type':'Point','coordinates':[114.172,22.332]},'properties':{'Name':'香港','Kansen':'104','Shibou':'2'}}
+,{'type':'Feature','geometry':{'type':'Point','coordinates':[113.542,22.189]},'properties':{'Name':'マカオ','Kansen':'10','Shibou':'0'}}
+,{'type':'Feature','geometry':{'type':'Point','coordinates':[139.731,35.709]},'properties':{'Name':'日本','Kansen':'348','Shibou':'6'}}
+,{'type':'Feature','geometry':{'type':'Point','coordinates':[127.935,36.483]},'properties':{'Name':'韓国','Kansen':'6284','Shibou':'42'}}
+,{'type':'Feature','geometry':{'type':'Point','coordinates':[120.893,23.704]},'properties':{'Name':'台湾','Kansen':'44','Shibou':'1'}}
+,{'type':'Feature','geometry':{'type':'Point','coordinates':[103.85,1.289]},'properties':{'Name':'シンガポール','Kansen':'117','Shibou':'0'}}
+]};

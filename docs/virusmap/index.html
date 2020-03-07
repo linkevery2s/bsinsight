@@ -33,6 +33,10 @@
     <script src="js/map.js"></script>
 	<script src="https://cdn.plot.ly/plotly-1.2.0.min.js"></script>
 	<script src="js/chart.js"></script>
+	<link rel='stylesheet' href='css/leaflet.css' />
+	<script type='text/javascript' src='js/leaflet.js'></script>
+	<script type='text/javascript'  src='js/map.js'></script>
+	<script src='data/country.geojson'></script>
   </head>
 
   <body onLoad="chart()">
@@ -87,7 +91,7 @@
 
 		<h2>感染症マップ</h2>
 		整備中
-
+		
 		<h2>統計資料</h2>
 		<div id ="app2">
 
@@ -99,6 +103,8 @@
 		
 		</div>
 
+		<h2>世界の感染状況</h2>
+		<div id ="map"></div>
 
 		<h2>感染症法に基づく類型</h2>
 		

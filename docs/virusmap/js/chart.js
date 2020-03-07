@@ -46,7 +46,7 @@ var layout = {title: "年代別集計", showlegend: false};
 
 Plotly.newPlot('nendai', data, layout);
 
-
+aichi_ini();
 
 
 
