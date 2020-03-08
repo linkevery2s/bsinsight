@@ -12,7 +12,7 @@ var todou = new Array(47);var markers = new Array(47); var ido; var keido;var pa
 
     function w_ini() {
 		start(29.993, 119.179, 4);
-		todou = L.geoJson(aichi, {style: sty,onEachFeature: geo_k});
+		todou = L.geoJson(country, {style: sty,onEachFeature: geo_k});
 		map.addLayer(todou);
 	}
 	
