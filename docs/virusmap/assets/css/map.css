@@ -46,3 +46,9 @@ html,body{
   left: 0;
   margin: auto;
 }
+
+/* 日付更新 */
+#day_s{
+	width: 100%;
+	text-align: right;
+}
