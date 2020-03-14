@@ -23,6 +23,7 @@ html,body{
   background: #3f98ef;
   opacity: 0.9;
   border-radius: 50%;
+  z-index: 2;
 }
 #page_top a{
   position: relative;
@@ -30,6 +31,7 @@ html,body{
   width: 50px;
   height: 50px;
   text-decoration: none;
+  border-bottom: none;
   text-align: center;
 }
 #page_top a::before{

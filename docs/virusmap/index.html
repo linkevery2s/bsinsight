@@ -187,7 +187,9 @@
 					</ul>
 				</div>
 			</footer>
-
+		
+		<div id="page_top"><a href="#"></a></div>
+		
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.poptrox.min.js"></script>
@@ -195,6 +197,28 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script>
+			
+				$(function() {
+    				var topBtn = $('#page_top');
+    				topBtn.hide();
 
+    				$(window).scroll(function () {
+
+        			if ($(this).scrollTop() > 100) {
+            			topBtn.fadeIn();
+
+        			} else {
+            			topBtn.fadeOut();
+        			}
+    			});
+
+					topBtn.click(function () {
+						$('body,html').animate({scrollTop: 0}, 1000);
+						return false;
+    				});
+				});
+			
+			</script>
 	</body>
 </html>
