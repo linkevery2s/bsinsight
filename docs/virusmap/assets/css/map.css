@@ -52,3 +52,9 @@ html,body{
 	width: 100%;
 	text-align: right;
 }
+
+/* 人数 */
+#count_c{
+	color: #0000ff;
+	font-weight: bold;
+}

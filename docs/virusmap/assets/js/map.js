@@ -57,7 +57,7 @@ function geo_k(feature, layer) {
 
 function iro1(feature, latlng) {
 	return L.circleMarker(latlng, {
-		radius: 10,
+		radius: 18,
 		fillColor: "#ff0000",
 		color: "#000",
 		weight: 1,
@@ -68,7 +68,7 @@ function iro1(feature, latlng) {
 
 function iro2(feature, latlng) {
 	return L.circleMarker(latlng, {
-		radius: 10,
+		radius: 16,
 		fillColor: "#ff4500",
 		color: "#000",
 		weight: 1,
@@ -79,7 +79,7 @@ function iro2(feature, latlng) {
 
 function iro3(feature, latlng) {
 	return L.circleMarker(latlng, {
-		radius: 10,
+		radius: 14,
 		fillColor: "#ffff00",
 		color: "#000",
 		weight: 1,
@@ -90,7 +90,7 @@ function iro3(feature, latlng) {
 
 function iro4(feature, latlng) {
 	return L.circleMarker(latlng, {
-		radius: 10,
+		radius: 12,
 		fillColor: "#008000",
 		color: "#000",
 		weight: 1,

@@ -1,6 +1,6 @@
 ﻿var country1={"type":"FeatureCollection","name":"country1","features":[
 {'type':'Feature','geometry':{'type':'Point','coordinates':[104.326,32.99]},'properties':{'Name':'中国','Kansen':'80813','Shibou':'3176'}},
-{'type':'Feature','geometry':{'type':'Point','coordinates':[12.568,41.82]},'properties':{'Name':'イタリア','Kansen':'12839','Shibou':'1016'}},
+{'type':'Feature','geometry':{'type':'Point','coordinates':[13.205,42.163]},'properties':{'Name':'イタリア','Kansen':'12839','Shibou':'1016'}},
 {'type':'Feature','geometry':{'type':'Point','coordinates':[47.1,36.398]},'properties':{'Name':'イラン','Kansen':'10075','Shibou':'429'}},
 {'type':'Feature','geometry':{'type':'Point','coordinates':[127.935,36.483]},'properties':{'Name':'韓国','Kansen':'7979','Shibou':'67'}}
 ]};
