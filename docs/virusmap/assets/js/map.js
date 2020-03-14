@@ -1,5 +1,4 @@
-var map;var p;var zoom;var hash;var url;var number;var marker; var markers = []; var gps_button; var hinanj;var geok;var cloud;
-var todou = new Array(47);var markers = new Array(47); var ido; var keido;var para; var par;var back_b;var url_hash;
+var map;var zoom;var url;var todou; var ido; var keido;
 
 	function start(x, y, z){
 		map = L.map('map',{zoomControl: false});
@@ -12,10 +11,18 @@ var todou = new Array(47);var markers = new Array(47); var ido; var keido;var pa
 
     function w_ini() {
 		start(29.993, 139.179, 2);
-		todou = L.geoJson(country, {style: sty,onEachFeature: geo_k});
-		map.addLayer(todou);
+		var count1 = L.geoJson(country1, {style: sty,onEachFeature: geo_k, pointToLayer: iro1});
+		var count2 = L.geoJson(country2, {style: sty,onEachFeature: geo_k, pointToLayer: iro2});
+		var count3 = L.geoJson(country3, {style: sty,onEachFeature: geo_k, pointToLayer: iro3});
+		var count4 = L.geoJson(country4, {style: sty,onEachFeature: geo_k, pointToLayer: iro4});
+		var count5 = L.geoJson(country5, {style: sty,onEachFeature: geo_k, pointToLayer: iro5});
+		map.addLayer(count1);
+		map.addLayer(count2);
+		map.addLayer(count3);
+		map.addLayer(count4);
+		map.addLayer(count5);
 	}
-	
+
 	function ni_ini(){
 		var map2 = L.map('map2',{zoomControl: false});
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
@@ -46,6 +53,61 @@ function geo_k(feature, layer) {
     }
 
     layer.bindPopup(popup);
+}
+
+function iro1(feature, latlng) {
+	return L.circleMarker(latlng, {
+		radius: 10,
+		fillColor: "#ff0000",
+		color: "#000",
+		weight: 1,
+		opacity: 1,
+		fillOpacity: 0.8
+	});
+}
+
+function iro2(feature, latlng) {
+	return L.circleMarker(latlng, {
+		radius: 10,
+		fillColor: "#ff4500",
+		color: "#000",
+		weight: 1,
+		opacity: 1,
+		fillOpacity: 0.8
+	});
+}
+
+function iro3(feature, latlng) {
+	return L.circleMarker(latlng, {
+		radius: 10,
+		fillColor: "#ffff00",
+		color: "#000",
+		weight: 1,
+		opacity: 1,
+		fillOpacity: 0.8
+	});
+}
+
+function iro4(feature, latlng) {
+	return L.circleMarker(latlng, {
+		radius: 10,
+		fillColor: "#008000",
+		color: "#000",
+		weight: 1,
+		opacity: 1,
+		fillOpacity: 0.8
+	});
+}
+
+function iro5(feature, latlng) {
+	return L.circleMarker(latlng, {
+		radius: 10,
+		fillColor: "#0000ff",
+		color: "#000",
+		weight: 1,
+		opacity: 1,
+		fillOpacity: 0.8
+	});
 }
 
 function geo_k2(feature, layer) {

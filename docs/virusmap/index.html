@@ -34,7 +34,11 @@
 	<script src="https://cdn.plot.ly/plotly-1.2.0.min.js"></script>
 	<script src="assets/js/chart.js"></script>
 	<script src='assets/js/map.js'></script>
-	<script src='data/country.geojson'></script>
+	<script src='data/country1.geojson'></script>
+	<script src='data/country2.geojson'></script>
+	<script src='data/country3.geojson'></script>
+	<script src='data/country4.geojson'></script>
+	<script src='data/country5.geojson'></script>
 	<script src='data/japan.geojson'></script>
 
 	</head>
@@ -55,25 +59,25 @@
 					<section id="one">
 						<h2>国内の感染者数</h2>
 
-						<div id = "day_s">※2020.3.13正午時点</div>
+						<div id = "day_s">2020.3.13正午時点</div>
 
 						<table border="1">
 							<tr><td rowspan="4">検査<br>実施<br>人数<br><br>12,060人</td>
-							<td rowspan="4" style="border: solid 1px #a2a2a2; border-right-style: none;">陽性者数<br><br><br><br>674人</td><td colspan="8">　</td></tr>
+							<td rowspan="4" style="border: solid 2px #a2a2a2; border-right-style: none;">陽性者数<br><br><br><br>674人</td><td colspan="8">　</td></tr>
 							
-							<tr><td rowspan="3" style="border: solid 1px #a2a2a2;">無症状<br><br><br>72人</td>
+							<tr><td rowspan="3" style="border: solid 2px #a2a2a2;">無症状<br><br><br>72人</td>
 							
 							<td rowspan="3">有症状<br><br><br>468人</td><td colspan="3">うち入院中</td>
 							
-							<td rowspan="3" style="border: solid 1px #a2a2a2;">死亡　<br><br><br>19人</td>
+							<td rowspan="3" style="border: solid 2px #a2a2a2;">死亡　<br><br><br>19人</td>
 							
-							<td rowspan="3" style="border: solid 1px #a2a2a2;">退院　<br><br><br>115人</td></tr>
+							<td rowspan="3" style="border: solid 2px #a2a2a2;">退院　<br><br><br>115人</td></tr>
 							
-							<tr><td rowspan="2" style="border: solid 1px #a2a2a2;">軽症～<br>中等症<br>268人</td>
+							<tr><td rowspan="2" style="border: solid 2px #a2a2a2;">軽症～<br>中等症<br>268人</td>
 							
-							<td rowspan="2" style="border: solid 1px #a2a2a2;">重症　<br><br>32人</td>
+							<td rowspan="2" style="border: solid 2px #a2a2a2;">重症　<br><br>32人</td>
 							
-							<td rowspan="2" style="border: solid 1px #a2a2a2;">その他<br><br>168人</td></tr>
+							<td rowspan="2" style="border: solid 2px #a2a2a2;">その他<br><br>168人</td></tr>
 						</table>
 						<p>※その他…症状確認中、入院待機中の患者の合計</p>
 
@@ -81,13 +85,13 @@
 
 					<section id="two">
 						<h2>国内感染症マップ</h2>
-							<div id = "day_s">※2020.3.6正午時点</div>
+							<div id = "day_s">2020.3.6正午時点</div>
 							<div id ="map2"></div>
 					</section>
 
 					<section id="three">
 						<h2>統計資料</h2>
-							<div id = "day_s">※2020.3.6正午時点</div>
+							<div id = "day_s">2020.3.13正午時点</div>
 								<!-- 都道府県別 -->
 								<div id="todouh" style="width:100%;height:800px;"></div>
 
@@ -97,8 +101,22 @@
 
 					<section id="four">
 						<h2>世界の感染状況</h2>
-							<div id = "day_s">※2020.3.6正午時点</div>
+							<div id = "day_s">※2020.3.13正午時点</div>
 							<div id ="map"></div>
+								<!-- 色分け -->
+							<br>
+							<div>
+								色分け方法<br>
+								<table border="1" style="border: solid 1px #a2a2a2;">
+								<tr><td>
+								<span style="background-color: #ff0000;">　　</span>　5,000人以上<br>
+								<span style="background-color: #ff4500;">　　</span>　1,000～5,000人<br>
+								<span style="background-color: #ffff00;">　　</span>　100～1,000人<br>
+								<span style="background-color: #008000;">　　</span>　10～99人<br>
+								<span style="background-color: #0000ff;">　　</span>　1～9人
+								</td></tr>
+								</table>
+							</div>
 					</section>
 
 					<section id="five">
