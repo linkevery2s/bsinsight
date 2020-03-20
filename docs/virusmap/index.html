@@ -60,51 +60,64 @@
 						<h2>国内の感染者数</h2>
 
 						<div id = "day_s">2020.3.19正午時点</div>
+						<center>
+						<table>
+							<thead>
+								<tr>
+									<th></th>
+									<th>国内</th>
+									<th>クルーズ船</th>
+									<th>計</th>
+								</tr>
+							</thead>
+							
+							<tbody>
+								<tr>
+									<td>陽性</td>
+									<td class="count_y">907</td>
+									<td class="count_y">712</td>
+									<td class="count_y">1,619</td>
+								</tr>
 
-						<table border="1">
-							<tr><td rowspan="4">検査<br>実施<br>人数<br><br><span id="count_c">14,901人</span></td>
-							<td rowspan="4" style="border: solid 2px #a2a2a2; border-right-style: none;">陽性者数<br><br><br><br><span id="count_c">905人</span></td><td colspan="8">　</td></tr>
-							
-							<tr><td rowspan="3" style="border: solid 2px #a2a2a2;">無症状<br><br><br><span id="count_c">100人</span></td>
-							
-							<td rowspan="3">有症状<br><br><br><span id="count_c">590人</span></td><td colspan="3">入院中</td>
-							
-							<td rowspan="3" style="border: solid 2px #a2a2a2;">死亡　<br><br><br><span id="count_c">31人</span></td>
-							
-							<td rowspan="3" style="border: solid 2px #a2a2a2;">退院　<br><br><br><span id="count_c">184人</span></td></tr>
-							
-							<tr><td rowspan="2" style="border: solid 2px #a2a2a2;">軽症～<br>中等症<br><span id="count_c">356人</span></td>
-							
-							<td rowspan="2" style="border: solid 2px #a2a2a2;">重症　<br><br><span id="count_c">49人</span></td>
-							
-							<td rowspan="2" style="border: solid 2px #a2a2a2;">その他<br><br><span id="count_c">185人</span></td></tr>
+								<tr>
+									<td>無症状</td>
+									<td class="count_y">100</td>
+									<td class="count_y">333</td>
+									<td class="count_y">433</td>
+								</tr>
+
+								<tr>
+									<td>退院</td>
+									<td class="count_y">215</td>
+									<td class="count_y">551</td>
+									<td class="count_y">766</td>
+								</tr>
+
+								<tr>
+									<td>重症</td>
+									<td class="count_y">49</td>
+									<td class="count_y">15</td>
+									<td class="count_y">64</td>
+								</tr>
+
+								<tr>
+									<td>死亡</td>
+									<td class="count_y">31</td>
+									<td class="count_y">7</td>
+									<td class="count_y">38</td>
+								</tr>
+							</tbody>
 						</table>
-						<p>※その他…症状確認中、入院待機中の患者の合計<br>
-						※上記に加えて、空港検疫で1人陽性、無症状6人、症状有無確認中が2人いるため、計914例となる。
-						</p>
-
-						<h3 class="ti">クルーズ船事例</h3>
-
-						<table border="1">
-							<tr><td rowspan="3">人数<br><br><br><span id="count_c">3,711人</span></td>
-							<td rowspan="3" style="border: solid 2px #a2a2a2; border-right-style:none;">陽性者数<br><br><br><span id="count_c">712人</span></td><td colspan="5">　</td></tr>
-							
-							<tr><td rowspan="2" style="border: solid 2px #a2a2a2;">無症状　<br><br><span id="count_c">333人</span></td>
-							
-							<td rowspan="2" style="border-right-style:none;">有症状　<br>ICU<br><span id="count_c">15人</span></td>
-							
-							<td rowspan="2" style="border: solid 2px #a2a2a2;">死亡　　<br><br><span id="count_c">7人</span></td>
-							
-							<td rowspan="2" style="border: solid 2px #a2a2a2;">退院　　<br><br><span id="count_c">551人</span></td></tr>
-						</table>
-
+						</center>
+						<hr>
 						<h3 class="ti">PCR検査数と陽性者数の推移</h3>
 						<div class="flourish-embed flourish-chart" data-src="visualisation/1616330"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
-						
+						<p>※クルーズ船の数は含まれていません。</p>
+						<hr>
 						<h3 class="ti">陽性患者の経過</h3>
 						<div class="flourish-embed flourish-chart" data-src="visualisation/1624390"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
-						<p>※空港検疫者の数は含まれていません。</p>
-
+						<p>※クルーズ船の数は含まれていません。</p>
+						<hr>
 						<h3 class="ti">PCR検査実施件数</h3>
 							<ol>
 								<li>国立感染症研究所　　　　　2,762件</li>
@@ -115,7 +128,7 @@
 								<li>医療機関　　　　　　　　　　 99件</li>
 								<li>計　　　　　　　　　　　 34,922件</li>
 							</ol>
-						<p>※この実施件数には、退院時の確認検査が含まれます。</p>
+						<p>※この実施件数には、退院時の確認検査が含まれています。</p>
 
 					</section>
 
@@ -151,15 +164,13 @@
 							<br>
 							<div>
 								色分け方法<br>
-								<table border="1" style="border: solid 1px #a2a2a2;">
-								<tr><td>
+
 								<span style="margin-left: 5px; background-color: #ff0000;">　　</span>　5,000人以上<br>
 								<span style="margin-left: 5px; background-color: #ff4500;">　　</span>　1,000～5,000人<br>
 								<span style="margin-left: 5px; background-color: #ffff00;">　　</span>　100～1,000人<br>
 								<span style="margin-left: 5px; background-color: #008000;">　　</span>　10～99人<br>
 								<span style="margin-left: 5px; background-color: #0000ff;">　　</span>　1～9人
-								</td></tr>
-								</table>
+
 							</div>
 					</section>
 					
