@@ -1,10 +1,10 @@
 ﻿var country1={"type":"FeatureCollection","name":"country1","features":[
-{'type':'Feature','geometry':{'type':'Point','coordinates':[104.326,32.99]},'properties':{'Name':'中国','Kansen':'80894','Shibou':'3237'}},
-{'type':'Feature','geometry':{'type':'Point','coordinates':[13.205,42.163]},'properties':{'Name':'イタリア','Kansen':'31506','Shibou':'2503'}},
-{'type':'Feature','geometry':{'type':'Point','coordinates':[47.1,36.398]},'properties':{'Name':'イラン','Kansen':'16169','Shibou':'988'}},
-{'type':'Feature','geometry':{'type':'Point','coordinates':[-3.713,40.446]},'properties':{'Name':'スペイン','Kansen':'11178','Shibou':'491'}},
-{'type':'Feature','geometry':{'type':'Point','coordinates':[127.935,36.483]},'properties':{'Name':'韓国','Kansen':'8413','Shibou':'84'}},
-{'type':'Feature','geometry':{'type':'Point','coordinates':[2.373,48.574]},'properties':{'Name':'フランス','Kansen':'7730','Shibou':'175'}},
-{'type':'Feature','geometry':{'type':'Point','coordinates':[12.304,52.536]},'properties':{'Name':'ドイツ','Kansen':'7156','Shibou':'13'}},
-{'type':'Feature','geometry':{'type':'Point','coordinates':[261.914,39.164]},'properties':{'Name':'米国','Kansen':'6362','Shibou':'108'}}
+{'type':'Feature','geometry':{'type':'Point','coordinates':[104.326,32.99]},'properties':{'Name':'中国','Kansen':'80928','Shibou':'3245'}},
+{'type':'Feature','geometry':{'type':'Point','coordinates':[13.205,42.163]},'properties':{'Name':'イタリア','Kansen':'35713','Shibou':'2978'}},
+{'type':'Feature','geometry':{'type':'Point','coordinates':[47.1,36.398]},'properties':{'Name':'イラン','Kansen':'17361','Shibou':'1135'}},
+{'type':'Feature','geometry':{'type':'Point','coordinates':[-3.713,40.446]},'properties':{'Name':'スペイン','Kansen':'13716','Shibou':'598'}},
+{'type':'Feature','geometry':{'type':'Point','coordinates':[127.935,36.483]},'properties':{'Name':'韓国','Kansen':'8565','Shibou':'91'}},
+{'type':'Feature','geometry':{'type':'Point','coordinates':[2.373,48.574]},'properties':{'Name':'フランス','Kansen':'8198','Shibou':'264'}},
+{'type':'Feature','geometry':{'type':'Point','coordinates':[12.304,52.536]},'properties':{'Name':'ドイツ','Kansen':'8198','Shibou':'13'}},
+{'type':'Feature','geometry':{'type':'Point','coordinates':[261.914,39.164]},'properties':{'Name':'米国','Kansen':'7786','Shibou':'150'}}
 ]};

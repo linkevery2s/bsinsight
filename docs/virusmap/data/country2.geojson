@@ -1,9 +1,9 @@
 ﻿var country2={"type":"FeatureCollection","name":"country2","features":[
-{'type':'Feature','geometry':{'type':'Point','coordinates':[8.2275,46.8181]},'properties':{'Name':'スイス','Kansen':'2269','Shibou':'19'}},
-{'type':'Feature','geometry':{'type':'Point','coordinates':[-0.131,51.454]},'properties':{'Name':'英国','Kansen':'1950','Shibou':'60'}},
-{'type':'Feature','geometry':{'type':'Point','coordinates':[4.899,52.335]},'properties':{'Name':'オランダ','Kansen':'1705','Shibou':'43'}},
-{'type':'Feature','geometry':{'type':'Point','coordinates':[14.55,47.5162]},'properties':{'Name':'オーストリア','Kansen':'1332','Shibou':'3'}},
-{'type':'Feature','geometry':{'type':'Point','coordinates':[4.339,50.826]},'properties':{'Name':'ベルギー','Kansen':'1243','Shibou':'5'}},
-{'type':'Feature','geometry':{'type':'Point','coordinates':[10.744,59.944]},'properties':{'Name':'ノルウェー','Kansen':'1169','Shibou':'3'}},
-{'type':'Feature','geometry':{'type':'Point','coordinates':[17.885,59.355]},'properties':{'Name':'スウェーデン','Kansen':'1167','Shibou':'7'}}
+{'type':'Feature','geometry':{'type':'Point','coordinates':[8.2275,46.8181]},'properties':{'Name':'スイス','Kansen':'2772','Shibou':'21'}},
+{'type':'Feature','geometry':{'type':'Point','coordinates':[-0.131,51.454]},'properties':{'Name':'英国','Kansen':'2626','Shibou':'108'}},
+{'type':'Feature','geometry':{'type':'Point','coordinates':[4.899,52.335]},'properties':{'Name':'オランダ','Kansen':'2051','Shibou':'58'}},
+{'type':'Feature','geometry':{'type':'Point','coordinates':[14.55,47.5162]},'properties':{'Name':'オーストリア','Kansen':'1646','Shibou':'4'}},
+{'type':'Feature','geometry':{'type':'Point','coordinates':[4.339,50.826]},'properties':{'Name':'ベルギー','Kansen':'1486','Shibou':'5'}},
+{'type':'Feature','geometry':{'type':'Point','coordinates':[10.744,59.944]},'properties':{'Name':'ノルウェー','Kansen':'1423','Shibou':'3'}},
+{'type':'Feature','geometry':{'type':'Point','coordinates':[17.885,59.355]},'properties':{'Name':'スウェーデン','Kansen':'1279','Shibou':'8'}}
 ]};
