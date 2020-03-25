@@ -10,14 +10,14 @@
   	<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
   	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" >
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="新型コロナウィルスの対策を考えるWEBアプリです。">
+    <meta name="description" content="厚生労働省の報道発表資料をもとに、新型コロナウイルスの感染状況の動きを可視化しました。">
 	<meta property="og:title" content="防災INSIGHT 感染症WEB" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://linkevery2s.github.io/bsinsight/virusmap/index.html" />
     <meta property="og:image" content="https://linkevery2s.github.io/bsinsight/virusmap/images/top.jpg" />
     <meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:title" content="防災INSIGHT 感染症WEB" />
-	<meta name="twitter:description" content="新型コロナウィルスの対策を考えるWEBアプリです。" />
+	<meta name="twitter:description" content="厚生労働省の報道発表資料をもとに、新型コロナウイルスの感染状況の動きを可視化しました。" />
 	<meta name="twitter:image" content="https://linkevery2s.github.io/bsinsight/virusmap/images/top.jpg" />
     <meta name="author" content="仁志">
 	<link rel="stylesheet" href="assets/css/map.css" />
@@ -49,86 +49,28 @@
 				<div class="inner">
 					<a href="#" class="image avatar"><img src="images/avatar.jpg" alt="" /></a>
 					<h1><strong>防災INSIGHT 感染症WEB</strong></h1>
-					<p>厚生労働省の報道発表資料をもとに、新型コロナウィルスの感染状況を視覚化しました。</p>
+					<p>厚生労働省の報道発表資料をもとに、新型コロナウイルスの感染状況を動態として可視化しました。</p>
 				</div>
 			</header>
 
 		<!-- Main -->
 			<div id="main">
 
+					<section id="intro">
+					<h2>はじめに</h2>
+					<p>新型コロナウイルスの感染が世界中に広がっています。不安が広がってやまないですが、退院される方も増えてきていることは事実です。刻一刻と変わるウイルスの感染状況に対し、感染者数などの絶対数ではなく、週ごとに感染の流れを「動態」という形で、ウイルスの特徴などを探れないかと思い、このWEBを立ち上げました。</p>
+					
+					</section>
+
 					<section id="japan">
 						<h2>国内の感染者数</h2>
 
-						<div id = "day_s">2020.3.19正午時点</div>
-						<center>
-						<table>
-							<thead>
-								<tr>
-									<th></th>
-									<th>国内</th>
-									<th>クルーズ船</th>
-									<th>計</th>
-								</tr>
-							</thead>
-							
-							<tbody>
-								<tr>
-									<td>陽性</td>
-									<td class="count_y">907</td>
-									<td class="count_y">712</td>
-									<td class="count_y">1,619</td>
-								</tr>
+						<div class="flourish-embed flourish-chart" data-src="visualisation/1624390"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+						<p>※クルーズ船の数は含まれていません。</p>
 
-								<tr>
-									<td>無症状</td>
-									<td class="count_y">100</td>
-									<td class="count_y">333</td>
-									<td class="count_y">433</td>
-								</tr>
-
-								<tr>
-									<td>退院</td>
-									<td class="count_y">215</td>
-									<td class="count_y">551</td>
-									<td class="count_y">766</td>
-								</tr>
-
-								<tr>
-									<td>重症</td>
-									<td class="count_y">49</td>
-									<td class="count_y">15</td>
-									<td class="count_y">64</td>
-								</tr>
-
-								<tr>
-									<td>死亡</td>
-									<td class="count_y">31</td>
-									<td class="count_y">7</td>
-									<td class="count_y">38</td>
-								</tr>
-							</tbody>
-						</table>
-						</center>
-						<hr>
 						<h3 class="ti">PCR検査数と陽性者数の推移</h3>
 						<div class="flourish-embed flourish-chart" data-src="visualisation/1616330"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 						<p>※クルーズ船の数は含まれていません。</p>
-						<hr>
-						<h3 class="ti">陽性患者の経過</h3>
-						<div class="flourish-embed flourish-chart" data-src="visualisation/1624390"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
-						<p>※クルーズ船の数は含まれていません。</p>
-						<hr>
-						<h3 class="ti">PCR検査実施件数</h3>
-							<ol>
-								<li>国立感染症研究所　　　　　2,762件</li>
-								<li>検疫所　　　　　　　　　　1,905件</li>
-								<li>地方衛生研究所、保健所　 28,685件</li>
-								<li>民間検査会社　　　　　　　　966件</li>
-								<li>大学　　　　　　　　　　　　505件</li>
-								<li>医療機関　　　　　　　　　　 99件</li>
-								<li>計　　　　　　　　　　　 34,922件</li>
-							</ol>
-						<p>※この実施件数には、退院時の確認検査が含まれています。</p>
 
 					</section>
 
@@ -154,6 +96,16 @@
 							<div id = "day_s">2020.3.6正午時点</div>
 								<!-- 年代別 -->
 								<div id="nendai" style="width:100%;height:600px;"></div>
+					</section>
+
+					<section id="Symptoms">
+						<h2>感染者の症状</h2>
+						<blockquote>
+						WHOの報告書「<a href="https://www.who.int/docs/default-source/coronaviruse/who-china-joint-mission-on-covid-19-final-report.pdf">Report of the WHO-China Joint Mission on Coronavirus Disease 2019 (COVID-19)  <i class="fas fa-external-link-alt"></i></a>」では、世界各国の調査チーム及び中国当局の専門家が、2月20日までに中国で感染が確認された5万5,924名の症状について、分析しています。
+						
+						</blockquote>
+						<div class="flourish-embed flourish-chart" data-src="visualisation/1676093"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+					
 					</section>
 
 					<section id="world">
@@ -215,6 +167,7 @@
 					<section id="update">
 						<h2>更新履歴</h2>
 						<p>
+							2020. 3.25 感染動態という形を捉えるWEBに仕様変更<br>
 							2020. 3.20 陽性患者の推移追加<br>
 							2020. 3.18 PCR検査数と陽性者数の推移追加<br>
 							2020. 3.15 クルーズ船事例、季節性インフルエンザ統計追加、日本、世界情勢追加<br>
