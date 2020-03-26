@@ -33,7 +33,7 @@ Plotly.newPlot('todoui', data3, layout3);
 /* 男性 */
 var trace1 = {
   y: ['90代', '80代', '70代','60代', '50代', '40代', '30代', '20代', '10代', '10歳未満'],
-  x: [2,19,28,45,42,22,14,7,1,5],
+  x: [4,6,21,25,27,35,12,11,1,1],
   name: '男性',
   type: 'bar',
   orientation: 'h',
@@ -45,7 +45,7 @@ var trace1 = {
 /* 女性 */
 var trace2 = {
   y: ['90代', '80代', '70代','60代', '50代', '40代', '30代', '20代', '10代', '10歳未満'],
-  x: [1,8,20,26,28,19,17,15,1,1],
+  x: [1,2,9,7,15,10,12,7,2,1],
   name: '女性',
   type: 'bar',
   orientation: 'h',
@@ -56,7 +56,7 @@ var trace2 = {
 
 var data = [trace2, trace1];
 
-var layout = {title: "年代別集計", showlegend: false};
+var layout = {showlegend: false};
 
 Plotly.newPlot('nendai', data, layout);
 
