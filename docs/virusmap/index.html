@@ -10,14 +10,14 @@
   	<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
   	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" >
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="厚生労働省の報道発表資料をもとに、新型コロナウイルスの感染状況の動きを可視化しました。">
+    <meta name="description" content="厚生労働省の報道発表資料をもとに、新型コロナウイルスの感染状況を動態として可視化しました。">
 	<meta property="og:title" content="防災INSIGHT 感染症動態" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://linkevery2s.github.io/bsinsight/virusmap/index.html" />
     <meta property="og:image" content="https://linkevery2s.github.io/bsinsight/virusmap/images/top.jpg" />
     <meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:title" content="防災INSIGHT 感染症動態" />
-	<meta name="twitter:description" content="厚生労働省の報道発表資料をもとに、新型コロナウイルスの感染状況の動きを可視化しました。" />
+	<meta name="twitter:description" content="厚生労働省の報道発表資料をもとに、新型コロナウイルスの感染状況を動態として可視化しました。" />
 	<meta name="twitter:image" content="https://linkevery2s.github.io/bsinsight/virusmap/images/top.jpg" />
     <meta name="author" content="仁志">
 	<link rel="stylesheet" href="assets/css/map.css" />
@@ -27,10 +27,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js" type="text/javascript"></script>
 	<link href="https://leafletjs-cdn.s3.amazonaws.com/content/leaflet/master/leaflet.css" rel="stylesheet" type="text/css" />
     <script src="https://leafletjs-cdn.s3.amazonaws.com/content/leaflet/master/leaflet.js"></script>
-    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
-	<link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
-    <script src="https://unpkg.com/swiper/js/swiper.js"></script>
-	<script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
 	<script src="https://cdn.plot.ly/plotly-1.2.0.min.js"></script>
 	<script src="assets/js/chart.js"></script>
 	<script src='assets/js/map.js'></script>
@@ -55,18 +51,163 @@
 				</div>
 			</header>
 
+		<!-- menu-toggle -->
+		<div id="menu_toggle" onclick="menu_display()"><i class="fa fa-bars" style="line-height:40px;"></i></div>
+
+<div id="menu-content"><span id="modal-close">×</span>
+<center>
+<h1><span>ＭＥＮＵ</span></h1>
+</center>
+
+<ul class="accordion-menu">
+  <li>
+    <div class="dropdownlink" onclick="link(1)"><i class="fa fa-clipboard" aria-hidden="true"></i> はじめに
+    </div>
+  </li>
+  <li>
+    <div class="dropdownlink" onclick="link(2)"><i class="fa fa-clipboard" aria-hidden="true"></i> 国内の感染者数
+    </div>
+  </li>
+  <li>
+    <div class="dropdownlink" onclick="link(3)"><i class="fa fa-clipboard" aria-hidden="true"></i> 都道府県別集計
+    </div>
+  </li>
+  <li>
+    <div class="dropdownlink" onclick="link(4)"><i class="fa fa-clipboard" aria-hidden="true"></i> 年代別集計
+    </div>
+  </li>
+  <li>
+    <div class="dropdownlink" onclick="link(5)"><i class="fa fa-clipboard" aria-hidden="true"></i> 世界の感染状況
+    </div>
+  </li>
+  <li>
+    <div class="dropdownlink" onclick="link(6)"><i class="fa fa-clipboard" aria-hidden="true"></i> 感染者の初期症状
+    </div>
+  </li>
+  <li>
+    <div class="dropdownlink" onclick="link(7)"><i class="fa fa-clipboard" aria-hidden="true"></i> 関連情報
+    </div>
+  </li>
+  <li>
+    <div class="dropdownlink" onclick="link(8)"><i class="fa fa-clipboard" aria-hidden="true"></i> 更新履歴
+    </div>
+  </li>
+</ul>
+
+</div>
+
+
 		<!-- Main -->
 			<div id="main">
 
-					<section id="intro">
+					<section id="intro"><span id ="1"></span>
 					<h2>はじめに</h2>
 					<p>新型コロナウイルスの感染が世界中に広がっています。不安が広がってやまないですが、退院される方も増えてきていることは事実です。刻一刻と変わるウイルスの感染状況に対し、感染者数などの絶対数ではなく、週ごとに感染の流れを「動態」という形で、ウイルスの特徴などを探れないかと思い、このWEBを立ち上げました。</p>
 					
 					</section>
 
-					<section id="japan">
+					<section id="japan"><span id ="2"></span>
 						<h2>国内の感染者数</h2>
 
+						<!-- 国内マップ -->
+						
+	<ul class="jp_map">
+      <li>
+        <a href="map/hokkaido.html#8/43.469/141.987">北海道</a></li>
+      <li>
+        <a href="map/aomori.html#8/40.651/140.724">青森</a></li>
+      <li>
+        <a href="map/iwate.html#8/39.686/141.224">岩手</a></li>
+      <li>
+        <a href="map/miyagi.html#8/38.505/140.707">宮城</a></li>
+      <li>
+        <a href="map/akita.html#8/39.529/140.389">秋田</a></li>
+      <li>
+        <a href="map/yamagata.html#8/38.428/140.026">山形</a></li>
+      <li>
+        <a href="map/fukushima.html#8/37.392/139.883">福島</a></li>
+      <li>
+        <a href="map/ibaragi.html#8/36.271/140.235">茨城</a></li>
+      <li>
+        <a href="map/tochigi.html#8/36.673/139.653">栃木</a></li>
+      <li>
+        <a href="map/gunma.html#8/36.461/138.950">群馬</a></li>
+      <li>
+        <a href="map/saitama.html#8/35.929/139.147">埼玉</a></li>
+      <li>
+        <a href="map/tiba.html#8/35.488/139.966">千葉</a></li>
+      <li>
+        <a href="map/tokyo.html#8/35.595/139.592">東京</a></li>
+      <li>
+        <a href="map/kanagawa.html#8/35.398/139.331">神奈川</a></li>
+      <li>
+        <a href="map/nigata.html#8/37.375/138.735">新潟</a></li>
+      <li>
+        <a href="map/toyama.html#8/36.624/137.016">富山</a></li>
+      <li>
+        <a href="map/ishikawa.html#8/36.844/136.785">石川</a></li>
+      <li>
+        <a href="map/fukui.html#8/35.898/136.192">福井</a></li>
+      <li>
+        <a href="map/yamanashi.html#8/35.532/138.565">山梨</a></li>
+      <li>
+        <a href="map/nagano.html#8/35.960/137.928">長野</a></li>
+      <li>
+        <a href="map/gifu.html#8/35.724/136.890">岐阜</a></li>
+      <li>
+        <a href="map/shizuoka.html#8/35.012/138.214">静岡</a></li>
+      <li>
+        <a href="map/aichi.html#8/35.002/137.200">愛知</a></li>
+      <li>
+        <a href="map/mie.html#8/34.606/136.225">三重</a></li>
+      <li>
+        <a href="map/shiga.html#8/35.255/135.950">滋賀</a></li>
+      <li>
+        <a href="map/kyoto.html#8/35.156/135.368">京都</a></li>
+      <li>
+        <a href="map/osaka.html#8/34.692/135.511">大阪</a></li>
+      <li>
+        <a href="map/hyogo.html#8/35.043/134.484">兵庫</a></li>
+      <li>
+        <a href="map/nara.html#8/34.207/135.818">奈良</a></li>
+      <li>
+        <a href="map/wakayama.html#8/33.975/135.368">和歌山</a></li>
+      <li>
+        <a href="map/tottori.html#8/35.313/133.786">鳥取</a></li>
+      <li>
+        <a href="map/shimane.html#8/34.854/132.347">島根</a></li>
+      <li>
+        <a href="map/okayama.html#8/34.940/133.550">岡山</a></li>
+      <li>
+        <a href="map/hiroshima.html#8/34.556/132.512">広島</a></li>
+      <li>
+        <a href="map/yamaguchi.html#8/34.207/131.550">山口</a></li>
+      <li>
+        <a href="map/tokushima.html#8/33.852/133.923">徳島</a></li>
+      <li>
+        <a href="map/kagawa.html#8/34.057/133.726">香川</a></li>
+      <li>
+        <a href="map/ehime.html#8/33.679/132.764">愛媛</a></li>
+      <li>
+        <a href="map/kochi.html#8/33.390/133.259">高知</a></li>
+      <li>
+        <a href="map/fukuoka.html#8/33.431/130.583">福岡</a></li>
+      <li>
+        <a href="map/saga.html#8/33.170/130.073">佐賀</a></li>
+      <li>
+        <a href="map/nagasaki.html#8/32.875/129.661">長崎</a></li>
+      <li>
+        <a href="map/kumamoto.html#8/32.426/130.759">熊本</a></li>
+      <li>
+        <a href="map/oita.html#8/33.128/131.083">大分</a></li>
+      <li>
+        <a href="map/miyazaki.html#8/32.213/131.188">宮崎</a></li>
+      <li>
+        <a href="map/kagoshima.html#8/31.541/130.715">鹿児島</a></li>
+      <li>
+        <a href="map/okinawa.html#8/26.436/127.996">沖縄</a></li>
+    </ul>
+						<h3 class="ti">陽性患者の推移</h3>
 						<div class="flourish-embed flourish-chart" data-src="visualisation/1624390"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 						<p>※クルーズ船の数は含まれていません。</p>
 
@@ -82,10 +223,8 @@
 							<div id ="map2"></div>
 					</section>-->
 
-					<section id="statis1">
+					<section id="statis1"><span id ="3"></span>
 						<h2>都道府県別集計</h2>
-
-
 
 							<h3 class="ti">新規感染者数の推移</h3>
 								<blockquote>
@@ -100,7 +239,7 @@
 							</div>
 					</section>
 					
-					<section id="statis2">
+					<section id="statis2"><span id ="4"></span>
 						<h2>年代別集計</h2>
 							<div id = "day_s">2020.3.29更新</div>
 								<blockquote>
@@ -112,7 +251,7 @@
 
 
 
-					<section id="world">
+					<section id="world"><span id ="5"></span>
 						<h2>世界の感染状況</h2>
 							<div id = "day_s">※2020.3.19正午時点</div>
 							<div id ="map"></div>
@@ -130,7 +269,7 @@
 							</div>
 					</section>
 					
-					<section id="Symptoms">
+					<section id="Symptoms"><span id ="6"></span>
 						<h2>感染者の初期症状</h2>
 						<blockquote>
 						WHOの報告書「<a href="https://www.who.int/docs/default-source/coronaviruse/who-china-joint-mission-on-covid-19-final-report.pdf">Report of the WHO-China Joint Mission on Coronavirus Disease 2019 (COVID-19)  <i class="fas fa-external-link-alt"></i></a>」では、世界各国の調査チーム及び中国当局の専門家が、2月20日までに中国で感染が確認された5万5,924名の症状について、分析しています。
@@ -152,7 +291,7 @@
 						
 					</section>
 
-					<section id="kanren">
+					<section id="kanren"><span id ="7"></span>
 						<h2>関連情報</h2>
 
 							<div class="row">
@@ -170,7 +309,6 @@
 										<li><a href="https://catalog.data.metro.tokyo.lg.jp/dataset/t000010d0000000068" target="_blank">東京都 新型コロナウイルス患者発表者数 <i class="fas fa-external-link-alt"></i></a></li>
 										<li><a href="http://ktgis.net/mandara/" target="_blank">MANDARA <i class="fas fa-external-link-alt"></i></a></li>
 										<li><a href="https://plot.ly/" target="_blank">plotly <i class="fas fa-external-link-alt"></i></a></li>
-										<li><a href="https://swiperjs.com/" target="_blank">Swiper <i class="fas fa-external-link-alt"></i></a></li>
 									</ul>
 								</div>
 								
@@ -183,7 +321,7 @@
 							
 					</section>
 
-					<section id="update">
+					<section id="update"><span id ="8"></span>
 						<h2>更新履歴</h2>
 						<p>
 							2020. 3.25 感染動態という形を捉えるWEBに仕様変更<br>
@@ -220,6 +358,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/modal.js"></script>
 			<script>
 			
 				$(function() {
