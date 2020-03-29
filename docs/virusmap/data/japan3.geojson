@@ -1,4 +1,9 @@
 ﻿var japan3={"type":"FeatureCollection","name":"japan3","features":[
+{'type':'Feature','geometry':{'type':'Point','coordinates':[134.484,35.043]},'properties':{'Name':'兵庫県','Kansen':'14'}},
+{'type':'Feature','geometry':{'type':'Point','coordinates':[135.368,35.156]},'properties':{'Name':'京都府','Kansen':'13'}},
+{'type':'Feature','geometry':{'type':'Point','coordinates':[141.987,43.469]},'properties':{'Name':'北海道','Kansen':'11'}},
+{'type':'Feature','geometry':{'type':'Point','coordinates':[136.89,35.724]},'properties':{'Name':'岐阜県','Kansen':'11'}},
+{'type':'Feature','geometry':{'type':'Point','coordinates':[131.083,33.128]},'properties':{'Name':'大分県','Kansen':'11'}},
 {'type':'Feature','geometry':{'type':'Point','coordinates':[139.653,36.673]},'properties':{'Name':'栃木県','Kansen':'8'}},
 {'type':'Feature','geometry':{'type':'Point','coordinates':[138.735,37.375]},'properties':{'Name':'新潟県','Kansen':'7'}},
 {'type':'Feature','geometry':{'type':'Point','coordinates':[136.192,35.898]},'properties':{'Name':'福井県','Kansen':'7'}},
