@@ -39,7 +39,9 @@
 	<script src='data/country3.geojson'></script>
 	<script src='data/country4.geojson'></script>
 	<script src='data/country5.geojson'></script>
-	<script src='data/japan.geojson'></script>
+	<script src='data/japan1.geojson'></script>
+	<script src='data/japan2.geojson'></script>
+	<script src='data/japan3.geojson'></script>
 
 	</head>
 	<body class="is-preload" onLoad="chart()">
@@ -62,28 +64,6 @@
 					
 					</section>
 
-					<section id="Symptoms">
-						<h2>感染者の症状</h2>
-						<blockquote>
-						WHOの報告書「<a href="https://www.who.int/docs/default-source/coronaviruse/who-china-joint-mission-on-covid-19-final-report.pdf">Report of the WHO-China Joint Mission on Coronavirus Disease 2019 (COVID-19)  <i class="fas fa-external-link-alt"></i></a>」では、世界各国の調査チーム及び中国当局の専門家が、2月20日までに中国で感染が確認された5万5,924名の症状について、分析しています。
-						
-						</blockquote>
-						<div class="flourish-embed flourish-chart" data-src="visualisation/1676093"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
-						
-						<blockquote>
-						症状が現れるのは、平均5～6日後（潜伏期間5～6日、潜伏範囲1～14日）とのことです。
-						</blockquote>
-						
-						<div class="flourish-embed flourish-chart" data-src="visualisation/1685825"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
-						
-						<blockquote>
-						・軽症：肺炎症状のない又は肺炎患者<br>
-						・重症：呼吸困難、呼吸頻度≧30回/分、酸素飽和度≦93%、Pao2/Fio≦300、24～48時間内肺浸潤≧50%<br>
-						・重篤：呼吸不全、敗血症性ショック、多臓器不全/障害
-						</blockquote>
-						
-					</section>
-
 					<section id="japan">
 						<h2>国内の感染者数</h2>
 
@@ -104,18 +84,25 @@
 
 					<section id="statis1">
 						<h2>都道府県別集計</h2>
-							<div id = "day_s">2020.3.19正午時点</div>
-								<!-- 都道府県別 -->
-								<div id="todouh" style="width:100%;height:800px;"></div>
-								
-								<!-- 季節性インフルエンザ -->
-								<div id="todoui" style="width:100%;height:1000px;"></div>
 
+
+
+							<h3 class="ti">新規感染者数の推移</h3>
+								<blockquote>
+								直近1週間（3/20～3/27）の新規の感染者数をプロットしました。
+								</blockquote>
+								<div id ="map2"></div>
+							<div>
+								色分け方法<br>
+								<span style="margin-left: 5px; background-color: #ff0000;">　　</span>　21人以上<br>
+								<span style="margin-left: 5px; background-color: #ffff00;">　　</span>　11～20人<br>
+								<span style="margin-left: 5px; background-color: #0000ff;">　　</span>　10人未満
+							</div>
 					</section>
 					
 					<section id="statis2">
 						<h2>年代別集計</h2>
-							<div id = "day_s">2020.3.26正午時点</div>
+							<div id = "day_s">2020.3.29更新</div>
 								<blockquote>
 								新規の感染者が最も多い東京都の統計データをもとに、年齢別の感染者数を可視化しました。
 								</blockquote>
@@ -143,11 +130,26 @@
 							</div>
 					</section>
 					
-					<section id="timeline">
-						<h2>日本、世界情勢</h2>
-						現在、情報をまとめています。随時更新...
-						<iframe src="timeline.html" width="100%" height="500px"></iframe>
-					
+					<section id="Symptoms">
+						<h2>感染者の初期症状</h2>
+						<blockquote>
+						WHOの報告書「<a href="https://www.who.int/docs/default-source/coronaviruse/who-china-joint-mission-on-covid-19-final-report.pdf">Report of the WHO-China Joint Mission on Coronavirus Disease 2019 (COVID-19)  <i class="fas fa-external-link-alt"></i></a>」では、世界各国の調査チーム及び中国当局の専門家が、2月20日までに中国で感染が確認された5万5,924名の症状について、分析しています。
+						
+						</blockquote>
+						<div class="flourish-embed flourish-chart" data-src="visualisation/1676093"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+						
+						<blockquote>
+						症状が現れるのは、平均5～6日後（潜伏期間5～6日、潜伏範囲1～14日）とのことです。
+						</blockquote>
+						
+						<div class="flourish-embed flourish-chart" data-src="visualisation/1685825"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+						
+						<blockquote>
+						・軽症：肺炎症状のない又は肺炎患者<br>
+						・重症：呼吸困難、呼吸頻度≧30回/分、酸素飽和度≦93%、Pao2/Fio≦300、24～48時間内肺浸潤≧50%<br>
+						・重篤：呼吸不全、敗血症性ショック、多臓器不全/障害
+						</blockquote>
+						
 					</section>
 
 					<section id="kanren">

@@ -30,8 +30,12 @@ var map;var zoom;var url;var todou; var ido; var keido;
   		}).addTo(map2);
   		L.control.zoom({position: 'topright'}).addTo(map2);
 		map2.setView([38.101, 139.179], 5);
-		todou = L.geoJson(japan, {style: sty,onEachFeature: geo_k2});
-		map2.addLayer(todou);
+		var count1 = L.geoJson(japan1, {style: sty,onEachFeature: geo_k, pointToLayer: iro1});
+		var count2 = L.geoJson(japan2, {style: sty,onEachFeature: geo_k, pointToLayer: iro3});
+		var count3 = L.geoJson(japan3, {style: sty,onEachFeature: geo_k, pointToLayer: iro5});
+		map2.addLayer(count1);
+		map2.addLayer(count2);
+		map2.addLayer(count3);
 	}
 
 function sty(feature) {
@@ -108,21 +112,4 @@ function iro5(feature, latlng) {
 		opacity: 1,
 		fillOpacity: 0.8
 	});
-}
-
-function geo_k2(feature, layer) {
-    var popup;
-    if (feature.properties && feature.properties.Day) {
-        popup = feature.properties.Day;
-    }
-    
-    if (feature.properties && feature.properties.Gaiyou){
-    	popup += '<br>概要：<br>' + feature.properties.Gaiyou;
-    }
-
-    if (feature.properties && feature.properties.Jyoukyou){
-    	popup += '<br><br>濃厚接触者の状況：' + feature.properties.Jyoukyou;
-    }
-
-    layer.bindPopup(popup);
 }
