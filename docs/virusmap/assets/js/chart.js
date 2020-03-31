@@ -37,4 +37,6 @@ w_ini();
 
 ni_ini();
 
+get_kansen();
+
 }

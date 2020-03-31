@@ -113,3 +113,24 @@ function iro5(feature, latlng) {
 		fillOpacity: 0.8
 	});
 }
+
+ function get_kansen(){
+  var xhr = new XMLHttpRequest();
+  xhr.onreadystatechange = function(){
+    if (xhr.readyState === 4 && xhr.status === 200){
+      var json_data = eval( '('+xhr.responseText +')');
+      //var txt = xhr.responseText + '\n\n';
+      txt = "陽性者数：" + json_data.npatients;
+      txt += "退院者：" + json_data.nexits;
+      txt += "入院中：" + json_data.ncurrentpatients;
+      txt += "死亡者：" + json_data.ndeaths;
+
+      var result = document.getElementById('ja_ka');
+      result.innerHTML = txt;
+      document.getElementById('day_s').innerHTML = "最終更新：" + json_data.lastUpdate;
+    }
+  };
+  var url = "https://app.sabae.cc/api/covid19japan.json";
+  xhr.open('GET', url);
+  xhr.send(null);
+};
