@@ -130,7 +130,7 @@ function iro5(feature, latlng) {
       document.getElementById('day_s').innerHTML = "最終更新：" + json_data.lastUpdate;
     }
   };
-  var url = "https://www.stopcovid19.jp/data/covid19japan.json";
+  var url = "https://app.sabae.cc/api/covid19japan.json";
   xhr.open('GET', url);
   xhr.send(null);
 };
