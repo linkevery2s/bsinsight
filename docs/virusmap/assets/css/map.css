@@ -398,22 +398,13 @@ ul.jp_map {
       position: absolute;
       top: 0;
       width: 50%;
-      height: 22%;
-      background-color: #ffffff;
-      color: #000000;
-      font-size: 0.7rem;
+      height: 45%;
+      font-size: 1.2em;
+      font-weight: bold;
+      background-color: #0000ff;
+      color: #ffffff;
     }
 
-    .jp_map li:nth-child(49) {
-      left: 0;
-      position: absolute;
-      top: 23%;
-      width: 50%;
-      height: 22%;
-      background-color: #ffffff;
-      color: #000000;
-      font-size: 0.7rem;
-    }
 
 #menu_toggle{
 	z-index: 5;

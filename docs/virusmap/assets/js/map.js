@@ -121,9 +121,9 @@ function iro5(feature, latlng) {
       var json_data = eval( '('+xhr.responseText +')');
       //var txt = xhr.responseText + '\n\n';
       txt = "陽性者数：" + json_data.npatients;
-      txt += "退院者：" + json_data.nexits;
-      txt += "入院中：" + json_data.ncurrentpatients;
-      txt += "死亡者：" + json_data.ndeaths;
+      txt += "<br>退院者　：" + json_data.nexits;
+      txt += "<br>入院中　：" + json_data.ncurrentpatients;
+      txt += "<br>死亡者　：" + json_data.ndeaths;
 
       var result = document.getElementById('ja_ka');
       result.innerHTML = txt;
