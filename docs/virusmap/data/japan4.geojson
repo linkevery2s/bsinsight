@@ -1,0 +1,7 @@
+﻿var japan4={"type":"FeatureCollection","name":"japan4","features":[
+{'type':'Feature','geometry':{'type':'Point','coordinates':[136.785,36.844]},'properties':{'Name':'石川県','Kansen':'18'}},
+{'type':'Feature','geometry':{'type':'Point','coordinates':[135.818,34.207]},'properties':{'Name':'奈良県','Kansen':'16'}},
+{'type':'Feature','geometry':{'type':'Point','coordinates':[131.083,33.128]},'properties':{'Name':'大分県','Kansen':'14'}},
+{'type':'Feature','geometry':{'type':'Point','coordinates':[140.707,38.505]},'properties':{'Name':'宮城県','Kansen':'11'}},
+{'type':'Feature','geometry':{'type':'Point','coordinates':[138.95,36.461]},'properties':{'Name':'群馬県','Kansen':'10'}}
+]};

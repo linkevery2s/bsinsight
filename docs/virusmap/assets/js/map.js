@@ -31,11 +31,15 @@ var map;var zoom;var url;var todou; var ido; var keido;
   		L.control.zoom({position: 'topright'}).addTo(map2);
 		map2.setView([38.101, 139.179], 5);
 		var count1 = L.geoJson(japan1, {style: sty,onEachFeature: geo_k, pointToLayer: iro1});
-		var count2 = L.geoJson(japan2, {style: sty,onEachFeature: geo_k, pointToLayer: iro3});
-		var count3 = L.geoJson(japan3, {style: sty,onEachFeature: geo_k, pointToLayer: iro5});
+		var count2 = L.geoJson(japan2, {style: sty,onEachFeature: geo_k, pointToLayer: iro2});
+		var count3 = L.geoJson(japan3, {style: sty,onEachFeature: geo_k, pointToLayer: iro3});
+		var count4 = L.geoJson(japan4, {style: sty,onEachFeature: geo_k, pointToLayer: iro4});
+		var count5 = L.geoJson(japan5, {style: sty,onEachFeature: geo_k, pointToLayer: iro5});
 		map2.addLayer(count1);
 		map2.addLayer(count2);
 		map2.addLayer(count3);
+		map2.addLayer(count4);
+		map2.addLayer(count5);
 	}
 
 function sty(feature) {
