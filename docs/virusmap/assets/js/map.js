@@ -131,7 +131,12 @@ function iro5(feature, latlng) {
 
       var result = document.getElementById('ja_ka');
       result.innerHTML = txt;
-      document.getElementById('day_s').innerHTML = "最終更新：" + json_data.lastUpdate;
+      var day1 = json_data.lastUpdate.split("-");
+      
+      var date = new Date("'" + day1[0] + "/" + day1[1] + "/" + day1[2] +"'");
+		date.setDate(date.getDate() + 1);
+		
+      document.getElementById('day_s').innerHTML = "最終更新：" + day1[0] + "." + day1[1] + "." + date.getDate();
     }
   };
   var url = "https://www.stopcovid19.jp/data/covid19japan.json";
