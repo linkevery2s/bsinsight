@@ -25,8 +25,8 @@ var map;var zoom;var url;var todou; var ido; var keido;
 
 	function ni_ini(){
 		var map2 = L.map('map2',{zoomControl: false});
-		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
-  		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
+		L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  		attribution: '&copy; <a href="http://osm.org/copyright" target="_blank">OpenStreetMap</a> contributors'
   		}).addTo(map2);
   		L.control.zoom({position: 'topright'}).addTo(map2);
 		map2.setView([38.101, 139.179], 5);
