@@ -133,10 +133,10 @@ function iro5(feature, latlng) {
       result.innerHTML = txt;
       var day1 = json_data.lastUpdate.split("-");
       
-      var date = new Date("'" + day1[0] + "/" + day1[1] + "/" + day1[2] +"'");
-		date.setDate(date.getDate() + 1);
+      //var date = new Date("'" + day1[0] + "/" + day1[1] + "/" + day1[2] +"'");
+		//date.setDate(date.getDate() + 1);
 		
-      document.getElementById('day_s').innerHTML = "最終更新：" + day1[0] + "." + day1[1] + "." + date.getDate();
+      document.getElementById('day_s').innerHTML = "最終更新：" + day1[0] + "." + day1[1] + "." + day1[2];
     }
   };
   var url = "https://www.stopcovid19.jp/data/covid19japan.json";
