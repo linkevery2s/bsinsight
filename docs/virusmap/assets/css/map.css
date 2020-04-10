@@ -405,13 +405,22 @@ ul.jp_map {
       color: #ffffff;
     }*/
 
-	.col-4 {
-
+	.ja{
+		border-radius: 0.35em;
+		display: block;
+		margin: 0 0 2em 0;
+		padding: 0.5em;
+		width: 100%;
 		color: #ffffff;
 		background-color: #0000ff;
 		font-weight: bold;
 	}
 
+		@media screen and (max-width: 480px) {
+			.ja {
+					font-size: 0.7em;
+			}
+		}
 
 #menu_toggle{
 	z-index: 5;

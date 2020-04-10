@@ -123,19 +123,19 @@ function iro5(feature, latlng) {
   xhr.onreadystatechange = function(){
     if (xhr.readyState === 4 && xhr.status === 200){
       var json_data = eval( '('+xhr.responseText +')');
-      //var txt = xhr.responseText + '\n\n';
-      txt = "日本全国<br>陽性者数：" + json_data.npatients;
+
+      var txt = "日本全国<br>陽性者数：" + json_data.npatients;
       txt += "<br>退院者　：" + json_data.nexits;
       txt += "<br>入院中　：" + json_data.ncurrentpatients;
       txt += "<br>死亡者　：" + json_data.ndeaths;
+      document.getElementById('ja_ka').innerHTML = txt;
 
-      var result = document.getElementById('ja_ka');
-      result.innerHTML = txt;
+
+
+
+
+
       var day1 = json_data.lastUpdate.split("-");
-      
-      //var date = new Date("'" + day1[0] + "/" + day1[1] + "/" + day1[2] +"'");
-		//date.setDate(date.getDate() + 1);
-		
       document.getElementById('day_s').innerHTML = "最終更新：" + day1[0] + "." + day1[1] + "." + day1[2];
     }
   };

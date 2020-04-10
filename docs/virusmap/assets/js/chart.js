@@ -1,6 +1,7 @@
 var TESTER;
 
 function chart(){
+get_kansen();
 
 /* 年代別統計 */
 /* 男性 */
@@ -37,6 +38,6 @@ w_ini();
 
 ni_ini();
 
-get_kansen();
+
 
 }
