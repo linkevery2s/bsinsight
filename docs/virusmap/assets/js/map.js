@@ -25,8 +25,8 @@ var map;var zoom;var url;var todou; var ido; var keido;
 
 	function ni_ini(){
 		var map2 = L.map('map2',{zoomControl: false});
-		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
-  		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
+		L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  		attribution: '&copy; <a href="http://osm.org/copyright" target="_blank">OpenStreetMap</a> contributors'
   		}).addTo(map2);
   		L.control.zoom({position: 'topright'}).addTo(map2);
 		map2.setView([38.101, 139.179], 5);
@@ -133,10 +133,10 @@ function iro5(feature, latlng) {
       result.innerHTML = txt;
       var day1 = json_data.lastUpdate.split("-");
       
-      var date = new Date("'" + day1[0] + "/" + day1[1] + "/" + day1[2] +"'");
-		date.setDate(date.getDate() + 1);
+      //var date = new Date("'" + day1[0] + "/" + day1[1] + "/" + day1[2] +"'");
+		//date.setDate(date.getDate() + 1);
 		
-      document.getElementById('day_s').innerHTML = "最終更新：" + day1[0] + "." + day1[1] + "." + date.getDate();
+      document.getElementById('day_s').innerHTML = "最終更新：" + day1[0] + "." + day1[1] + "." + day1[2];
     }
   };
   var url = "https://www.stopcovid19.jp/data/covid19japan.json";
