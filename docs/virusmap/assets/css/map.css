@@ -81,7 +81,7 @@ h3.ti::before {
   background: #FF3300;
 }
 
-/* 国内マップ */
+/* 国内マップ 
 ul.jp_map {
       position: relative;
       list-style-type: none;
@@ -403,7 +403,14 @@ ul.jp_map {
       font-weight: bold;
       background-color: #0000ff;
       color: #ffffff;
-    }
+    }*/
+
+	.col-4 {
+
+		color: #ffffff;
+		background-color: #0000ff;
+		font-weight: bold;
+	}
 
 
 #menu_toggle{

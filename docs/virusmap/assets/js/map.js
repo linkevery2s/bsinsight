@@ -124,7 +124,7 @@ function iro5(feature, latlng) {
     if (xhr.readyState === 4 && xhr.status === 200){
       var json_data = eval( '('+xhr.responseText +')');
       //var txt = xhr.responseText + '\n\n';
-      txt = "陽性者数：" + json_data.npatients;
+      txt = "日本全国<br>陽性者数：" + json_data.npatients;
       txt += "<br>退院者　：" + json_data.nexits;
       txt += "<br>入院中　：" + json_data.ncurrentpatients;
       txt += "<br>死亡者　：" + json_data.ndeaths;
