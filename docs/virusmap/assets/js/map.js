@@ -125,305 +125,394 @@ function get_kansen(){
 		if (xhr.readyState === 4 && xhr.status === 200){
 			var json_data = eval( '('+xhr.responseText +')');
 
+			/* 全体 */
 			var txt = "日本全国<br>陽性者数：" + json_data.npatients;
 			txt += "<br>退院者　：" + json_data.nexits;
-			txt += "<br>入院中　：" + json_data.ncurrentpatients;
+			txt += "<br>現患者数：" + json_data.ncurrentpatients;
 			txt += "<br>死亡者　：" + json_data.ndeaths;
 			document.getElementById('ja_ka').innerHTML = txt;
 
 			var hokkaido = "北海道<br>陽性者数：" + json_data.area[0].npatients;
 			hokkaido += "<br>退院者　：" + json_data.area[0].nexits;
-			hokkaido += "<br>入院中　：" + json_data.area[0].ncurrentpatients;
+			hokkaido += "<br>現患者数：" + json_data.area[0].ncurrentpatients;
 			hokkaido += "<br>死亡者　：" + json_data.area[0].ndeaths;
 			document.getElementById('ja_hokkaido').innerHTML = hokkaido;
 
 			var aomori = "青森県<br>陽性者数：" + json_data.area[1].npatients;
 			aomori += "<br>退院者　：" + json_data.area[1].nexits;
-			aomori += "<br>入院中　：" + json_data.area[1].ncurrentpatients;
+			aomori += "<br>現患者数：" + json_data.area[1].ncurrentpatients;
 			aomori += "<br>死亡者　：" + json_data.area[1].ndeaths;
 			document.getElementById('ja_aomori').innerHTML = aomori;
 
 			var iwate = "岩手県<br>陽性者数：" + json_data.area[2].npatients;
 			iwate += "<br>退院者　：" + json_data.area[2].nexits;
-			iwate += "<br>入院中　：" + json_data.area[2].ncurrentpatients;
+			iwate += "<br>現患者数：" + json_data.area[2].ncurrentpatients;
 			iwate += "<br>死亡者　：" + json_data.area[2].ndeaths;
 			document.getElementById('ja_iwate').innerHTML = iwate;
 
 			var miyagi = "宮城県<br>陽性者数：" + json_data.area[3].npatients;
 			miyagi += "<br>退院者　：" + json_data.area[3].nexits;
-			miyagi += "<br>入院中　：" + json_data.area[3].ncurrentpatients;
+			miyagi += "<br>現患者数：" + json_data.area[3].ncurrentpatients;
 			miyagi += "<br>死亡者　：" + json_data.area[3].ndeaths;
 			document.getElementById('ja_miyagi').innerHTML = miyagi;
 
 			var akita = "秋田県<br>陽性者数：" + json_data.area[4].npatients;
 			akita += "<br>退院者　：" + json_data.area[4].nexits;
-			akita += "<br>入院中　：" + json_data.area[4].ncurrentpatients;
+			akita += "<br>現患者数：" + json_data.area[4].ncurrentpatients;
 			akita += "<br>死亡者　：" + json_data.area[4].ndeaths;
 			document.getElementById('ja_akita').innerHTML = akita;
 
 			var yamagata = "山形県<br>陽性者数：" + json_data.area[5].npatients;
 			yamagata += "<br>退院者　：" + json_data.area[5].nexits;
-			yamagata += "<br>入院中　：" + json_data.area[5].ncurrentpatients;
+			yamagata += "<br>現患者数：" + json_data.area[5].ncurrentpatients;
 			yamagata += "<br>死亡者　：" + json_data.area[5].ndeaths;
 			document.getElementById('ja_yamagata').innerHTML = yamagata;
 
 			var fukushima = "福島県<br>陽性者数：" + json_data.area[6].npatients;
 			fukushima += "<br>退院者　：" + json_data.area[6].nexits;
-			fukushima += "<br>入院中　：" + json_data.area[6].ncurrentpatients;
+			fukushima += "<br>現患者数：" + json_data.area[6].ncurrentpatients;
 			fukushima += "<br>死亡者　：" + json_data.area[6].ndeaths;
 			document.getElementById('ja_fukushima').innerHTML = fukushima;
 
 			var ibaraki = "茨城県<br>陽性者数：" + json_data.area[7].npatients;
 			ibaraki += "<br>退院者　：" + json_data.area[7].nexits;
-			ibaraki += "<br>入院中　：" + json_data.area[7].ncurrentpatients;
+			ibaraki += "<br>現患者数：" + json_data.area[7].ncurrentpatients;
 			ibaraki += "<br>死亡者　：" + json_data.area[7].ndeaths;
 			document.getElementById('ja_ibaraki').innerHTML = ibaraki;
 
 			var tochigi = "栃木県<br>陽性者数：" + json_data.area[8].npatients;
 			tochigi += "<br>退院者　：" + json_data.area[8].nexits;
-			tochigi += "<br>入院中　：" + json_data.area[8].ncurrentpatients;
+			tochigi += "<br>現患者数：" + json_data.area[8].ncurrentpatients;
 			tochigi += "<br>死亡者　：" + json_data.area[8].ndeaths;
 			document.getElementById('ja_tochigi').innerHTML = tochigi;
 
 			var gunma = "群馬県<br>陽性者数：" + json_data.area[9].npatients;
 			gunma += "<br>退院者　：" + json_data.area[9].nexits;
-			gunma += "<br>入院中　：" + json_data.area[9].ncurrentpatients;
+			gunma += "<br>現患者数：" + json_data.area[9].ncurrentpatients;
 			gunma += "<br>死亡者　：" + json_data.area[9].ndeaths;
 			document.getElementById('ja_gunma').innerHTML = gunma;
 
 			var saitama = "埼玉県<br>陽性者数：" + json_data.area[10].npatients;
 			saitama += "<br>退院者　：" + json_data.area[10].nexits;
-			saitama += "<br>入院中　：" + json_data.area[10].ncurrentpatients;
+			saitama += "<br>現患者数：" + json_data.area[10].ncurrentpatients;
 			saitama += "<br>死亡者　：" + json_data.area[10].ndeaths;
 			document.getElementById('ja_saitama').innerHTML = saitama;
 
 			var tiba = "千葉県<br>陽性者数：" + json_data.area[11].npatients;
 			tiba += "<br>退院者　：" + json_data.area[11].nexits;
-			tiba += "<br>入院中　：" + json_data.area[11].ncurrentpatients;
+			tiba += "<br>現患者数：" + json_data.area[11].ncurrentpatients;
 			tiba += "<br>死亡者　：" + json_data.area[11].ndeaths;
 			document.getElementById('ja_tiba').innerHTML = tiba;
 
 			var tokyo = "東京都<br>陽性者数：" + json_data.area[12].npatients;
 			tokyo += "<br>退院者　：" + json_data.area[12].nexits;
-			tokyo += "<br>入院中　：" + json_data.area[12].ncurrentpatients;
+			tokyo += "<br>現患者数：" + json_data.area[12].ncurrentpatients;
 			tokyo += "<br>死亡者　：" + json_data.area[12].ndeaths;
 			document.getElementById('ja_tokyo').innerHTML = tokyo;
 
 			var kanagawa = "神奈川県<br>陽性者数：" + json_data.area[13].npatients;
 			kanagawa += "<br>退院者　：" + json_data.area[13].nexits;
-			kanagawa += "<br>入院中　：" + json_data.area[13].ncurrentpatients;
-			kanagawa += "<br>死亡者　：" + json_data.area[13].ndeaths;
-			document.getElementById('ja_kanagawa').innerHTML = kanagawa;
-
-			var kanagawa = "神奈川県<br>陽性者数：" + json_data.area[13].npatients;
-			kanagawa += "<br>退院者　：" + json_data.area[13].nexits;
-			kanagawa += "<br>入院中　：" + json_data.area[13].ncurrentpatients;
+			kanagawa += "<br>現患者数：" + json_data.area[13].ncurrentpatients;
 			kanagawa += "<br>死亡者　：" + json_data.area[13].ndeaths;
 			document.getElementById('ja_kanagawa').innerHTML = kanagawa;
 
 			var niigata = "新潟県<br>陽性者数：" + json_data.area[14].npatients;
 			niigata += "<br>退院者　：" + json_data.area[14].nexits;
-			niigata += "<br>入院中　：" + json_data.area[14].ncurrentpatients;
+			niigata += "<br>現患者数：" + json_data.area[14].ncurrentpatients;
 			niigata += "<br>死亡者　：" + json_data.area[14].ndeaths;
 			document.getElementById('ja_niigata').innerHTML = niigata;
 
 			var toyama = "富山県<br>陽性者数：" + json_data.area[15].npatients;
 			toyama += "<br>退院者　：" + json_data.area[15].nexits;
-			toyama += "<br>入院中　：" + json_data.area[15].ncurrentpatients;
+			toyama += "<br>現患者数：" + json_data.area[15].ncurrentpatients;
 			toyama += "<br>死亡者　：" + json_data.area[15].ndeaths;
 			document.getElementById('ja_toyama').innerHTML = toyama;
 
 			var ishikawa = "石川県<br>陽性者数：" + json_data.area[16].npatients;
 			ishikawa += "<br>退院者　：" + json_data.area[16].nexits;
-			ishikawa += "<br>入院中　：" + json_data.area[16].ncurrentpatients;
+			ishikawa += "<br>現患者数：" + json_data.area[16].ncurrentpatients;
 			ishikawa += "<br>死亡者　：" + json_data.area[16].ndeaths;
 			document.getElementById('ja_ishikawa').innerHTML = ishikawa;
 
 			var fukui = "福井県<br>陽性者数：" + json_data.area[17].npatients;
 			fukui += "<br>退院者　：" + json_data.area[17].nexits;
-			fukui += "<br>入院中　：" + json_data.area[17].ncurrentpatients;
+			fukui += "<br>現患者数：" + json_data.area[17].ncurrentpatients;
 			fukui += "<br>死亡者　：" + json_data.area[17].ndeaths;
 			document.getElementById('ja_fukui').innerHTML = fukui;
 
 			var yamanashi = "山梨県<br>陽性者数：" + json_data.area[18].npatients;
 			yamanashi += "<br>退院者　：" + json_data.area[18].nexits;
-			yamanashi += "<br>入院中　：" + json_data.area[18].ncurrentpatients;
+			yamanashi += "<br>現患者数：" + json_data.area[18].ncurrentpatients;
 			yamanashi += "<br>死亡者　：" + json_data.area[18].ndeaths;
 			document.getElementById('ja_yamanashi').innerHTML = yamanashi;
 
 			var nagano = "長野県<br>陽性者数：" + json_data.area[19].npatients;
 			nagano += "<br>退院者　：" + json_data.area[19].nexits;
-			nagano += "<br>入院中　：" + json_data.area[19].ncurrentpatients;
+			nagano += "<br>現患者数：" + json_data.area[19].ncurrentpatients;
 			nagano += "<br>死亡者　：" + json_data.area[19].ndeaths;
 			document.getElementById('ja_nagano').innerHTML = nagano;
 
 			var gifu = "岐阜県<br>陽性者数：" + json_data.area[20].npatients;
 			gifu += "<br>退院者　：" + json_data.area[20].nexits;
-			gifu += "<br>入院中　：" + json_data.area[20].ncurrentpatients;
+			gifu += "<br>現患者数：" + json_data.area[20].ncurrentpatients;
 			gifu += "<br>死亡者　：" + json_data.area[20].ndeaths;
 			document.getElementById('ja_gifu').innerHTML = gifu;
 
 			var shizuoka = "静岡県<br>陽性者数：" + json_data.area[21].npatients;
 			shizuoka += "<br>退院者　：" + json_data.area[21].nexits;
-			shizuoka += "<br>入院中　：" + json_data.area[21].ncurrentpatients;
+			shizuoka += "<br>現患者数：" + json_data.area[21].ncurrentpatients;
 			shizuoka += "<br>死亡者　：" + json_data.area[21].ndeaths;
 			document.getElementById('ja_shizuoka').innerHTML = shizuoka;
 
 			var aichi = "愛知県<br>陽性者数：" + json_data.area[22].npatients;
 			aichi += "<br>退院者　：" + json_data.area[22].nexits;
-			aichi += "<br>入院中　：" + json_data.area[22].ncurrentpatients;
+			aichi += "<br>現患者数：" + json_data.area[22].ncurrentpatients;
 			aichi += "<br>死亡者　：" + json_data.area[22].ndeaths;
 			document.getElementById('ja_aichi').innerHTML = aichi;
 
 			var mie = "三重県<br>陽性者数：" + json_data.area[23].npatients;
 			mie += "<br>退院者　：" + json_data.area[23].nexits;
-			mie += "<br>入院中　：" + json_data.area[23].ncurrentpatients;
+			mie += "<br>現患者数：" + json_data.area[23].ncurrentpatients;
 			mie += "<br>死亡者　：" + json_data.area[23].ndeaths;
 			document.getElementById('ja_mie').innerHTML = mie;
 
 			var shiga = "滋賀県<br>陽性者数：" + json_data.area[24].npatients;
 			shiga += "<br>退院者　：" + json_data.area[24].nexits;
-			shiga += "<br>入院中　：" + json_data.area[24].ncurrentpatients;
+			shiga += "<br>現患者数：" + json_data.area[24].ncurrentpatients;
 			shiga += "<br>死亡者　：" + json_data.area[24].ndeaths;
 			document.getElementById('ja_shiga').innerHTML = shiga;
 
 			var kyoto = "京都府<br>陽性者数：" + json_data.area[25].npatients;
 			kyoto += "<br>退院者　：" + json_data.area[25].nexits;
-			kyoto += "<br>入院中　：" + json_data.area[25].ncurrentpatients;
+			kyoto += "<br>現患者数：" + json_data.area[25].ncurrentpatients;
 			kyoto += "<br>死亡者　：" + json_data.area[25].ndeaths;
 			document.getElementById('ja_kyoto').innerHTML = kyoto;
 
 			var osaka = "大阪府<br>陽性者数：" + json_data.area[26].npatients;
 			osaka += "<br>退院者　：" + json_data.area[26].nexits;
-			osaka += "<br>入院中　：" + json_data.area[26].ncurrentpatients;
+			osaka += "<br>現患者数：" + json_data.area[26].ncurrentpatients;
 			osaka += "<br>死亡者　：" + json_data.area[26].ndeaths;
 			document.getElementById('ja_osaka').innerHTML = osaka;
 
 			var hyogo = "兵庫県<br>陽性者数：" + json_data.area[27].npatients;
 			hyogo += "<br>退院者　：" + json_data.area[27].nexits;
-			hyogo += "<br>入院中　：" + json_data.area[27].ncurrentpatients;
+			hyogo += "<br>現患者数：" + json_data.area[27].ncurrentpatients;
 			hyogo += "<br>死亡者　：" + json_data.area[27].ndeaths;
 			document.getElementById('ja_hyogo').innerHTML = hyogo;
 
 			var nara = "奈良県<br>陽性者数：" + json_data.area[28].npatients;
 			nara += "<br>退院者　：" + json_data.area[28].nexits;
-			nara += "<br>入院中　：" + json_data.area[28].ncurrentpatients;
+			nara += "<br>現患者数：" + json_data.area[28].ncurrentpatients;
 			nara += "<br>死亡者　：" + json_data.area[28].ndeaths;
 			document.getElementById("ja_nara").innerHTML = nara;
 
 			var wakayama = "和歌山県<br>陽性者数：" + json_data.area[29].npatients;
 			wakayama += "<br>退院者　：" + json_data.area[29].nexits;
-			wakayama += "<br>入院中　：" + json_data.area[29].ncurrentpatients;
+			wakayama += "<br>現患者数：" + json_data.area[29].ncurrentpatients;
 			wakayama += "<br>死亡者　：" + json_data.area[29].ndeaths;
 			document.getElementById("ja_wakayama").innerHTML = wakayama;
 
 			var tottori = "鳥取県<br>陽性者数：" + json_data.area[30].npatients;
 			tottori += "<br>退院者　：" + json_data.area[30].nexits;
-			tottori += "<br>入院中　：" + json_data.area[30].ncurrentpatients;
+			tottori += "<br>現患者数：" + json_data.area[30].ncurrentpatients;
 			tottori += "<br>死亡者　：" + json_data.area[30].ndeaths;
 			document.getElementById("ja_tottori").innerHTML = tottori;
 
 			var shimane = "島根県<br>陽性者数：" + json_data.area[31].npatients;
 			shimane += "<br>退院者　：" + json_data.area[31].nexits;
-			shimane += "<br>入院中　：" + json_data.area[31].ncurrentpatients;
+			shimane += "<br>現患者数：" + json_data.area[31].ncurrentpatients;
 			shimane += "<br>死亡者　：" + json_data.area[31].ndeaths;
 			document.getElementById("ja_shimane").innerHTML = shimane;
 
 			var okayama = "岡山県<br>陽性者数：" + json_data.area[32].npatients;
 			okayama += "<br>退院者　：" + json_data.area[32].nexits;
-			okayama += "<br>入院中　：" + json_data.area[32].ncurrentpatients;
+			okayama += "<br>現患者数：" + json_data.area[32].ncurrentpatients;
 			okayama += "<br>死亡者　：" + json_data.area[32].ndeaths;
 			document.getElementById("ja_okayama").innerHTML = okayama;
 
 			var hiroshima = "広島県<br>陽性者数：" + json_data.area[33].npatients;
 			hiroshima += "<br>退院者　：" + json_data.area[33].nexits;
-			hiroshima += "<br>入院中　：" + json_data.area[33].ncurrentpatients;
+			hiroshima += "<br>現患者数：" + json_data.area[33].ncurrentpatients;
 			hiroshima += "<br>死亡者　：" + json_data.area[33].ndeaths;
 			document.getElementById("ja_hiroshima").innerHTML = hiroshima;
 
 			var yamaguchi = "山口県<br>陽性者数：" + json_data.area[34].npatients;
 			yamaguchi += "<br>退院者　：" + json_data.area[34].nexits;
-			yamaguchi += "<br>入院中　：" + json_data.area[34].ncurrentpatients;
+			yamaguchi += "<br>現患者数：" + json_data.area[34].ncurrentpatients;
 			yamaguchi += "<br>死亡者　：" + json_data.area[34].ndeaths;
 			document.getElementById("ja_yamaguchi").innerHTML = yamaguchi;
 
 			var tokushima = "徳島県<br>陽性者数：" + json_data.area[35].npatients;
 			tokushima += "<br>退院者　：" + json_data.area[35].nexits;
-			tokushima += "<br>入院中　：" + json_data.area[35].ncurrentpatients;
+			tokushima += "<br>現患者数：" + json_data.area[35].ncurrentpatients;
 			tokushima += "<br>死亡者　：" + json_data.area[35].ndeaths;
 			document.getElementById("ja_tokushima").innerHTML = tokushima;
 
 			var kagawa = "香川県<br>陽性者数：" + json_data.area[36].npatients;
 			kagawa += "<br>退院者　：" + json_data.area[36].nexits;
-			kagawa += "<br>入院中　：" + json_data.area[36].ncurrentpatients;
+			kagawa += "<br>現患者数：" + json_data.area[36].ncurrentpatients;
 			kagawa += "<br>死亡者　：" + json_data.area[36].ndeaths;
 			document.getElementById("ja_kagawa").innerHTML = kagawa;
 
 			var ehime = "愛媛県<br>陽性者数：" + json_data.area[37].npatients;
 			ehime += "<br>退院者　：" + json_data.area[37].nexits;
-			ehime += "<br>入院中　：" + json_data.area[37].ncurrentpatients;
+			ehime += "<br>現患者数：" + json_data.area[37].ncurrentpatients;
 			ehime += "<br>死亡者　：" + json_data.area[37].ndeaths;
 			document.getElementById("ja_ehime").innerHTML = ehime;
 
 			var kochi = "高知県<br>陽性者数：" + json_data.area[38].npatients;
 			kochi += "<br>退院者　：" + json_data.area[38].nexits;
-			kochi += "<br>入院中　：" + json_data.area[38].ncurrentpatients;
+			kochi += "<br>現患者数：" + json_data.area[38].ncurrentpatients;
 			kochi += "<br>死亡者　：" + json_data.area[38].ndeaths;
 			document.getElementById("ja_kochi").innerHTML = kochi;
 
 			var fukuoka = "福岡県<br>陽性者数：" + json_data.area[39].npatients;
 			fukuoka += "<br>退院者　：" + json_data.area[39].nexits;
-			fukuoka += "<br>入院中　：" + json_data.area[39].ncurrentpatients;
+			fukuoka += "<br>現患者数：" + json_data.area[39].ncurrentpatients;
 			fukuoka += "<br>死亡者　：" + json_data.area[39].ndeaths;
 			document.getElementById("ja_fukuoka").innerHTML = fukuoka;
 
 			var saga = "佐賀県<br>陽性者数：" + json_data.area[40].npatients;
 			saga += "<br>退院者　：" + json_data.area[40].nexits;
-			saga += "<br>入院中　：" + json_data.area[40].ncurrentpatients;
+			saga += "<br>現患者数：" + json_data.area[40].ncurrentpatients;
 			saga += "<br>死亡者　：" + json_data.area[40].ndeaths;
 			document.getElementById("ja_saga").innerHTML = saga;
 
 			var nagasaki = "長崎県<br>陽性者数：" + json_data.area[41].npatients;
 			nagasaki += "<br>退院者　：" + json_data.area[41].nexits;
-			nagasaki += "<br>入院中　：" + json_data.area[41].ncurrentpatients;
+			nagasaki += "<br>現患者数：" + json_data.area[41].ncurrentpatients;
 			nagasaki += "<br>死亡者　：" + json_data.area[41].ndeaths;
 			document.getElementById("ja_nagasaki").innerHTML = nagasaki;
 
 			var kumamoto = "熊本県<br>陽性者数：" + json_data.area[42].npatients;
 			kumamoto += "<br>退院者　：" + json_data.area[42].nexits;
-			kumamoto += "<br>入院中　：" + json_data.area[42].ncurrentpatients;
+			kumamoto += "<br>現患者数：" + json_data.area[42].ncurrentpatients;
 			kumamoto += "<br>死亡者　：" + json_data.area[42].ndeaths;
 			document.getElementById("ja_kumamoto").innerHTML = kumamoto;
 
 			var oita = "大分県<br>陽性者数：" + json_data.area[43].npatients;
 			oita += "<br>退院者　：" + json_data.area[43].nexits;
-			oita += "<br>入院中　：" + json_data.area[43].ncurrentpatients;
+			oita += "<br>現患者数：" + json_data.area[43].ncurrentpatients;
 			oita += "<br>死亡者　：" + json_data.area[43].ndeaths;
 			document.getElementById("ja_oita").innerHTML = oita;
 
 			var miyazaki = "宮崎県<br>陽性者数：" + json_data.area[44].npatients;
 			miyazaki += "<br>退院者　：" + json_data.area[44].nexits;
-			miyazaki += "<br>入院中　：" + json_data.area[44].ncurrentpatients;
+			miyazaki += "<br>現患者数：" + json_data.area[44].ncurrentpatients;
 			miyazaki += "<br>死亡者　：" + json_data.area[44].ndeaths;
 			document.getElementById("ja_miyazaki").innerHTML = miyazaki;
 
 			var kagoshima = "鹿児島県<br>陽性者数：" + json_data.area[45].npatients;
 			kagoshima += "<br>退院者　：" + json_data.area[45].nexits;
-			kagoshima += "<br>入院中　：" + json_data.area[45].ncurrentpatients;
+			kagoshima += "<br>現患者数：" + json_data.area[45].ncurrentpatients;
 			kagoshima += "<br>死亡者　：" + json_data.area[45].ndeaths;
 			document.getElementById("ja_kagoshima").innerHTML = kagoshima;
 
 			var okinawa = "沖縄県<br>陽性者数：" + json_data.area[46].npatients;
 			okinawa += "<br>退院者　：" + json_data.area[46].nexits;
-			okinawa += "<br>入院中　：" + json_data.area[46].ncurrentpatients;
+			okinawa += "<br>現患者数：" + json_data.area[46].ncurrentpatients;
 			okinawa += "<br>死亡者　：" + json_data.area[46].ndeaths;
 			document.getElementById("ja_okinawa").innerHTML = okinawa;
 
+			/* 病床数との比較 */
+			document.getElementById('2ja_ka').innerHTML = "日本全国<br><center>現患者数／病床数<br>" + json_data.ncurrentpatients + "／" + "</center>";
+			document.getElementById('2ja_hokkaido').innerHTML = "北海道<br><center>現患者数／病床数<br>" + json_data.area[0].ncurrentpatients + "／" + "</center>";
+			document.getElementById('2ja_aomori').innerHTML = "青森県<br><center>現患者数／病床数<br>" + json_data.area[1].ncurrentpatients + "／" + "</center>";
+			document.getElementById('2ja_iwate').innerHTML = "岩手県<br><center>現患者数／病床数<br>" + json_data.area[2].ncurrentpatients + "／" + "</center>";
+			document.getElementById('2ja_miyagi').innerHTML = "宮城県<br><center>現患者数／病床数<br>" + json_data.area[3].ncurrentpatients + "／" + "</center>";
+			document.getElementById('2ja_akita').innerHTML = "秋田県<br><center>現患者数／病床数<br>" + json_data.area[4].ncurrentpatients + "／" + "</center>";
+			document.getElementById('2ja_yamagata').innerHTML = "山形県<br><center>現患者数／病床数<br>" + json_data.area[5].ncurrentpatients + "／" + "</center>";
+			document.getElementById('2ja_fukushima').innerHTML = "福島県<br><center>現患者数／病床数<br>" + json_data.area[6].ncurrentpatients + "／" + "</center>";
+			document.getElementById('2ja_ibaraki').innerHTML = "茨城県<br><center>現患者数／病床数<br>" + json_data.area[7].ncurrentpatients + "／" + "</center>";
+			document.getElementById('2ja_tochigi').innerHTML = "栃木県<br><center>現患者数／病床数<br>" + json_data.area[8].ncurrentpatients + "／" + "</center>";
+			document.getElementById('2ja_gunma').innerHTML = "群馬県<br><center>現患者数／病床数<br>" + json_data.area[9].ncurrentpatients + "／" + "</center>";
+			document.getElementById('2ja_saitama').innerHTML = "埼玉県<br><center>現患者数／病床数<br>" + json_data.area[10].ncurrentpatients + "／" + "</center>";
+			document.getElementById('2ja_tiba').innerHTML = "千葉県<br><center>現患者数／病床数<br>" + json_data.area[11].ncurrentpatients + "／" + "</center>";
+			document.getElementById('2ja_tokyo').innerHTML = "東京都<br><center>現患者数／病床数<br>" + json_data.area[12].ncurrentpatients + "／" + "</center>";
+			document.getElementById('2ja_kanagawa').innerHTML = "神奈川県<br><center>現患者数／病床数<br>" + json_data.area[13].ncurrentpatients + "／" + "</center>";
+			document.getElementById('2ja_niigata').innerHTML = "新潟県<br><center>現患者数／病床数<br>" + json_data.area[14].ncurrentpatients + "／" + "</center>";
+			document.getElementById('2ja_toyama').innerHTML = "富山県<br><center>現患者数／病床数<br>" + json_data.area[15].ncurrentpatients + "／" + "</center>";
+			document.getElementById('2ja_ishikawa').innerHTML = "石川県<br><center>現患者数／病床数<br>" + json_data.area[16].ncurrentpatients + "／" + "</center>";
+			document.getElementById('2ja_fukui').innerHTML = "福井県<br><center>現患者数／病床数<br>" + json_data.area[17].ncurrentpatients + "／" + "</center>";
+			document.getElementById('2ja_yamanashi').innerHTML = "山梨県<br><center>現患者数／病床数<br>" + json_data.area[18].ncurrentpatients + "／" + "</center>";
+			document.getElementById('2ja_nagano').innerHTML = "長野県<br><center>現患者数／病床数<br>" + json_data.area[19].ncurrentpatients + "／" + "</center>";
+			document.getElementById('2ja_gifu').innerHTML = "岐阜県<br><center>現患者数／病床数<br>" + json_data.area[20].ncurrentpatients + "／" + "</center>";
+			document.getElementById('2ja_shizuoka').innerHTML = "静岡県<br><center>現患者数／病床数<br>" + json_data.area[21].ncurrentpatients + "／" + "</center>";
+			document.getElementById('2ja_aichi').innerHTML = "愛知県<br><center>現患者数／病床数<br>" + json_data.area[22].ncurrentpatients + "／" + "</center>";
+			document.getElementById('2ja_mie').innerHTML = "三重県<br><center>現患者数／病床数<br>" + json_data.area[23].ncurrentpatients + "／" + "</center>";
+			document.getElementById('2ja_shiga').innerHTML = "滋賀県<br><center>現患者数／病床数<br>" + json_data.area[24].ncurrentpatients + "／" + "</center>";
+			document.getElementById('2ja_kyoto').innerHTML = "京都府<br><center>現患者数／病床数<br>" + json_data.area[25].ncurrentpatients + "／" + "</center>";
+			document.getElementById('2ja_osaka').innerHTML = "大阪府<br><center>現患者数／病床数<br>" + json_data.area[26].ncurrentpatients + "／" + "</center>";
+			document.getElementById('2ja_hyogo').innerHTML = "兵庫県<br><center>現患者数／病床数<br>" + json_data.area[27].ncurrentpatients + "／" + "</center>";
+			document.getElementById("2ja_nara").innerHTML = "奈良県<br><center>現患者数／病床数<br>" + json_data.area[28].ncurrentpatients + "／" + "</center>";
+			document.getElementById("2ja_wakayama").innerHTML = "和歌山県<br><center>現患者数／病床数<br>" + json_data.area[29].ncurrentpatients + "／" + "</center>";
+			document.getElementById("2ja_tottori").innerHTML = "鳥取県<br><center>現患者数／病床数<br>" + json_data.area[30].ncurrentpatients + "／" + "</center>";
+			document.getElementById("2ja_shimane").innerHTML = "島根県<br><center>現患者数／病床数<br>" + json_data.area[31].ncurrentpatients + "／" + "</center>";
+			document.getElementById("2ja_okayama").innerHTML = "岡山県<br><center>現患者数／病床数<br>" + json_data.area[32].ncurrentpatients + "／" + "</center>";
+			document.getElementById("2ja_hiroshima").innerHTML = "広島県<br><center>現患者数／病床数<br>" + json_data.area[33].ncurrentpatients + "／" + "</center>";
+			document.getElementById("2ja_yamaguchi").innerHTML = "山梨県<br><center>現患者数／病床数<br>" + json_data.area[34].ncurrentpatients + "／" + "</center>";
+			document.getElementById("2ja_tokushima").innerHTML = "徳島県<br><center>現患者数／病床数<br>" + json_data.area[35].ncurrentpatients + "／" + "</center>";
+			document.getElementById("2ja_kagawa").innerHTML = "香川県<br><center>現患者数／病床数<br>" + json_data.area[36].ncurrentpatients + "／" + "</center>";
+			document.getElementById("2ja_ehime").innerHTML = "愛媛県<br><center>現患者数／病床数<br>" + json_data.area[37].ncurrentpatients + "／" + "</center>";
+			document.getElementById("2ja_kochi").innerHTML = "高知県<br><center>現患者数／病床数<br>" + json_data.area[38].ncurrentpatients + "／" + "</center>";
+			document.getElementById("2ja_fukuoka").innerHTML = "福岡県<br><center>現患者数／病床数<br>" + json_data.area[39].ncurrentpatients + "／" + "</center>";
+			document.getElementById("2ja_saga").innerHTML = "佐賀県<br><center>現患者数／病床数<br>" + json_data.area[40].ncurrentpatients + "／" + "</center>";
+			document.getElementById("2ja_nagasaki").innerHTML = "長崎県<br><center>現患者数／病床数<br>" + json_data.area[41].ncurrentpatients + "／" + "</center>";
+			document.getElementById("2ja_kumamoto").innerHTML = "熊本県<br><center>現患者数／病床数<br>" + json_data.area[42].ncurrentpatients + "／" + "</center>";
+			document.getElementById("2ja_oita").innerHTML = "大分県<br><center>現患者数／病床数<br>" + json_data.area[43].ncurrentpatients + "／" + "</center>";
+			document.getElementById("2ja_miyazaki").innerHTML ="宮崎県<br><center>現患者数／病床数<br>" + json_data.area[44].ncurrentpatients + "／" + "</center>";
+			document.getElementById("2ja_kagoshima").innerHTML = "鹿児島県<br><center>現患者数／病床数<br>" + json_data.area[45].ncurrentpatients + "／" + "</center>";
+			document.getElementById("2ja_okinawa").innerHTML = "沖縄県<br><center>現患者数／病床数<br>" + json_data.area[46].ncurrentpatients + "／" + "</center>";
 
-
-
-
-
+			/* density */
+			document.getElementById('3ja_hokkaido').innerHTML = hokkaido;
+			document.getElementById('3ja_aomori').innerHTML = aomori;
+			document.getElementById('3ja_iwate').innerHTML = iwate;
+			document.getElementById('3ja_miyagi').innerHTML = miyagi;
+			document.getElementById('3ja_akita').innerHTML = akita;
+			document.getElementById('3ja_yamagata').innerHTML = yamagata;
+			document.getElementById('3ja_fukushima').innerHTML = fukushima;
+			document.getElementById('3ja_ibaraki').innerHTML = ibaraki;
+			document.getElementById('3ja_tochigi').innerHTML = tochigi;
+			document.getElementById('3ja_gunma').innerHTML = gunma;
+			document.getElementById('3ja_saitama').innerHTML = saitama;
+			document.getElementById('3ja_tiba').innerHTML = tiba;
+			document.getElementById('3ja_tokyo').innerHTML = tokyo;
+			document.getElementById('3ja_kanagawa').innerHTML = kanagawa;
+			document.getElementById('3ja_kanagawa').innerHTML = kanagawa;
+			document.getElementById('3ja_niigata').innerHTML = niigata;
+			document.getElementById('3ja_toyama').innerHTML = toyama;
+			document.getElementById('3ja_ishikawa').innerHTML = ishikawa;
+			document.getElementById('3ja_fukui').innerHTML = fukui;
+			document.getElementById('3ja_yamanashi').innerHTML = yamanashi;
+			document.getElementById('3ja_nagano').innerHTML = nagano;
+			document.getElementById('3ja_gifu').innerHTML = gifu;
+			document.getElementById('3ja_shizuoka').innerHTML = shizuoka;
+			document.getElementById('3ja_aichi').innerHTML = aichi;
+			document.getElementById('3ja_mie').innerHTML = mie;
+			document.getElementById('3ja_shiga').innerHTML = shiga;
+			document.getElementById('3ja_kyoto').innerHTML = kyoto;
+			document.getElementById('3ja_osaka').innerHTML = osaka;
+			document.getElementById('3ja_hyogo').innerHTML = hyogo;
+			document.getElementById("3ja_nara").innerHTML = nara;
+			document.getElementById("3ja_wakayama").innerHTML = wakayama;
+			document.getElementById("3ja_tottori").innerHTML = tottori;
+			document.getElementById("3ja_shimane").innerHTML = shimane;
+			document.getElementById("3ja_okayama").innerHTML = okayama;
+			document.getElementById("3ja_hiroshima").innerHTML = hiroshima;
+			document.getElementById("3ja_yamaguchi").innerHTML = yamaguchi;
+			document.getElementById("3ja_tokushima").innerHTML = tokushima;
+			document.getElementById("3ja_kagawa").innerHTML = kagawa;
+			document.getElementById("3ja_ehime").innerHTML = ehime;
+			document.getElementById("3ja_kochi").innerHTML = kochi;
+			document.getElementById("3ja_fukuoka").innerHTML = fukuoka;
+			document.getElementById("3ja_saga").innerHTML = saga;
+			document.getElementById("3ja_nagasaki").innerHTML = nagasaki;
+			document.getElementById("3ja_kumamoto").innerHTML = kumamoto;
+			document.getElementById("3ja_oita").innerHTML = oita;
+			document.getElementById("3ja_miyazaki").innerHTML = miyazaki;
+			document.getElementById("3ja_kagoshima").innerHTML = kagoshima;
+			document.getElementById("3ja_okinawa").innerHTML = okinawa;
 
 
 
@@ -438,3 +527,21 @@ function get_kansen(){
   xhr.open('GET', url);
   xhr.send(null);
 };
+
+function func1(){
+	$("#zentai").show();
+	$("#beds").hide();
+	$("#density").hide();
+}
+
+function func2(){
+	$("#zentai").hide();
+	$("#beds").show();
+	$("#density").hide();
+}
+
+function func3(){
+	$("#zentai").hide();
+	$("#beds").hide();
+	$("#density").show();
+}

@@ -559,3 +559,12 @@ ul.jp_map {
   right: 15px;
   margin-top: -12px;
 }
+
+/* 国内感染者数 */
+#beds{
+	display: none;
+}
+
+#density{
+	display: none;
+}

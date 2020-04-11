@@ -108,7 +108,23 @@
 						<h2>国内の感染者数</h2>
 							<div id = "day_s"></div>
 						<!-- 国内マップ -->
-
+						<br>
+								<div class="row gtr-uniform gtr-50">
+									<div class="col-4 col-12-small">
+										<input type="radio" id="demo-priority-low" onchange="func1()" name="demo-priority" checked>
+										<label for="demo-priority-low">全体</label>
+									</div>
+									<div class="col-4 col-12-small">
+										<input type="radio" id="demo-priority-normal" onchange="func2()" name="demo-priority">
+										<label for="demo-priority-normal">病床数との比較</label>
+									</div>
+									<div class="col-4 col-12-small">
+										<input type="radio" id="demo-priority-high" onchange="func3()" name="demo-priority">
+										<label for="demo-priority-high">感染密度</label>
+									</div>
+								</div>
+						<br>
+						<div id = "zentai">
 							<div class="box alt">
 								<div class="row gtr-50 gtr-uniform">
 									<div class="col-4"><span class="ja" id="ja_ka"></span></div>
@@ -161,6 +177,117 @@
 									<div class="col-4"><span class="ja" id="ja_okinawa"></span></div>
 								</div>
 							</div>
+						</div>
+
+						<div id="beds">
+							<div class="box alt">
+								<div class="row gtr-50 gtr-uniform">
+									<div class="col-4"><span class="ja" id="2ja_ka"></span></div>
+									<div class="col-4"><span class="ja" id="2ja_hokkaido"></span></div>
+									<div class="col-4"><span class="ja" id="2ja_aomori"></span></div>
+									<div class="col-4"><span class="ja" id="2ja_iwate"></span></div>
+									<div class="col-4"><span class="ja" id="2ja_akita"></span></div>
+									<div class="col-4"><span class="ja" id="2ja_fukushima"></span></div>
+									<div class="col-4"><span class="ja" id="2ja_miyagi"></span></div>
+									<div class="col-4"><span class="ja" id="2ja_yamagata"></span></div>
+									<div class="col-4"><span class="ja" id="2ja_ibaraki"></span></div>
+									<div class="col-4"><span class="ja" id="2ja_tochigi"></span></div>
+									<div class="col-4"><span class="ja" id="2ja_gunma"></span></div>
+									<div class="col-4"><span class="ja" id="2ja_saitama"></span></div>
+									<div class="col-4"><span class="ja" id="2ja_tiba"></span></div>
+									<div class="col-4"><span class="ja" id="2ja_tokyo"></span></div>
+									<div class="col-4"><span class="ja" id="2ja_kanagawa"></span></div>
+									<div class="col-4"><span class="ja" id="2ja_niigata"></span></div>
+									<div class="col-4"><span class="ja" id="2ja_toyama"></span></div>
+									<div class="col-4"><span class="ja" id="2ja_ishikawa"></span></div>
+									<div class="col-4"><span class="ja" id="2ja_fukui"></span></div>
+									<div class="col-4"><span class="ja" id="2ja_yamanashi"></span></div>
+									<div class="col-4"><span class="ja" id="2ja_nagano"></span></div>
+									<div class="col-4"><span class="ja" id="2ja_gifu"></span></div>
+									<div class="col-4"><span class="ja" id="2ja_shizuoka"></span></div>
+									<div class="col-4"><span class="ja" id="2ja_aichi"></span></div>
+									<div class="col-4"><span class="ja" id="2ja_mie"></span></div>
+									<div class="col-4"><span class="ja" id="2ja_shiga"></span></div>
+									<div class="col-4"><span class="ja" id="2ja_kyoto"></span></div>
+									<div class="col-4"><span class="ja" id="2ja_osaka"></span></div>
+									<div class="col-4"><span class="ja" id="2ja_hyogo"></span></div>
+									<div class="col-4"><span class="ja" id="2ja_nara"></span></div>
+									<div class="col-4"><span class="ja" id="2ja_wakayama"></span></div>
+									<div class="col-4"><span class="ja" id="2ja_tottori"></span></div>
+									<div class="col-4"><span class="ja" id="2ja_shimane"></span></div>
+									<div class="col-4"><span class="ja" id="2ja_okayama"></span></div>
+									<div class="col-4"><span class="ja" id="2ja_hiroshima"></span></div>
+									<div class="col-4"><span class="ja" id="2ja_yamaguchi"></span></div>
+									<div class="col-4"><span class="ja" id="2ja_tokushima"></span></div>
+									<div class="col-4"><span class="ja" id="2ja_kagawa"></span></div>
+									<div class="col-4"><span class="ja" id="2ja_ehime"></span></div>
+									<div class="col-4"><span class="ja" id="2ja_kochi"></span></div>
+									<div class="col-4"><span class="ja" id="2ja_fukuoka"></span></div>
+									<div class="col-4"><span class="ja" id="2ja_saga"></span></div>
+									<div class="col-4"><span class="ja" id="2ja_nagasaki"></span></div>
+									<div class="col-4"><span class="ja" id="2ja_kumamoto"></span></div>
+									<div class="col-4"><span class="ja" id="2ja_oita"></span></div>
+									<div class="col-4"><span class="ja" id="2ja_miyazaki"></span></div>
+									<div class="col-4"><span class="ja" id="2ja_kagoshima"></span></div>
+									<div class="col-4"><span class="ja" id="2ja_okinawa"></span></div>
+								</div>
+							</div>
+						</div>
+						
+						<div id="density">
+							<div class="box alt">
+								<div class="row gtr-50 gtr-uniform">
+									<div class="col-4"><span class="ja" id="3ja_ka"></span></div>
+									<div class="col-4"><span class="ja" id="3ja_hokkaido"></span></div>
+									<div class="col-4"><span class="ja" id="3ja_aomori"></span></div>
+									<div class="col-4"><span class="ja" id="3ja_iwate"></span></div>
+									<div class="col-4"><span class="ja" id="3ja_akita"></span></div>
+									<div class="col-4"><span class="ja" id="3ja_fukushima"></span></div>
+									<div class="col-4"><span class="ja" id="3ja_miyagi"></span></div>
+									<div class="col-4"><span class="ja" id="3ja_yamagata"></span></div>
+									<div class="col-4"><span class="ja" id="3ja_ibaraki"></span></div>
+									<div class="col-4"><span class="ja" id="3ja_tochigi"></span></div>
+									<div class="col-4"><span class="ja" id="3ja_gunma"></span></div>
+									<div class="col-4"><span class="ja" id="3ja_saitama"></span></div>
+									<div class="col-4"><span class="ja" id="3ja_tiba"></span></div>
+									<div class="col-4"><span class="ja" id="3ja_tokyo"></span></div>
+									<div class="col-4"><span class="ja" id="3ja_kanagawa"></span></div>
+									<div class="col-4"><span class="ja" id="3ja_niigata"></span></div>
+									<div class="col-4"><span class="ja" id="3ja_toyama"></span></div>
+									<div class="col-4"><span class="ja" id="3ja_ishikawa"></span></div>
+									<div class="col-4"><span class="ja" id="3ja_fukui"></span></div>
+									<div class="col-4"><span class="ja" id="3ja_yamanashi"></span></div>
+									<div class="col-4"><span class="ja" id="3ja_nagano"></span></div>
+									<div class="col-4"><span class="ja" id="3ja_gifu"></span></div>
+									<div class="col-4"><span class="ja" id="3ja_shizuoka"></span></div>
+									<div class="col-4"><span class="ja" id="3ja_aichi"></span></div>
+									<div class="col-4"><span class="ja" id="3ja_mie"></span></div>
+									<div class="col-4"><span class="ja" id="3ja_shiga"></span></div>
+									<div class="col-4"><span class="ja" id="3ja_kyoto"></span></div>
+									<div class="col-4"><span class="ja" id="3ja_osaka"></span></div>
+									<div class="col-4"><span class="ja" id="3ja_hyogo"></span></div>
+									<div class="col-4"><span class="ja" id="3ja_nara"></span></div>
+									<div class="col-4"><span class="ja" id="3ja_wakayama"></span></div>
+									<div class="col-4"><span class="ja" id="3ja_tottori"></span></div>
+									<div class="col-4"><span class="ja" id="3ja_shimane"></span></div>
+									<div class="col-4"><span class="ja" id="3ja_okayama"></span></div>
+									<div class="col-4"><span class="ja" id="3ja_hiroshima"></span></div>
+									<div class="col-4"><span class="ja" id="3ja_yamaguchi"></span></div>
+									<div class="col-4"><span class="ja" id="3ja_tokushima"></span></div>
+									<div class="col-4"><span class="ja" id="3ja_kagawa"></span></div>
+									<div class="col-4"><span class="ja" id="3ja_ehime"></span></div>
+									<div class="col-4"><span class="ja" id="3ja_kochi"></span></div>
+									<div class="col-4"><span class="ja" id="3ja_fukuoka"></span></div>
+									<div class="col-4"><span class="ja" id="3ja_saga"></span></div>
+									<div class="col-4"><span class="ja" id="3ja_nagasaki"></span></div>
+									<div class="col-4"><span class="ja" id="3ja_kumamoto"></span></div>
+									<div class="col-4"><span class="ja" id="3ja_oita"></span></div>
+									<div class="col-4"><span class="ja" id="3ja_miyazaki"></span></div>
+									<div class="col-4"><span class="ja" id="3ja_kagoshima"></span></div>
+									<div class="col-4"><span class="ja" id="3ja_okinawa"></span></div>
+								</div>
+							</div>
+						</div>
 
 						<h3 class="ti">陽性患者の推移</h3>
 						<div class="flourish-embed flourish-chart" data-src="visualisation/1624390"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
