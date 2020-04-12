@@ -457,7 +457,7 @@ function get_kansen(){
 			bed[7] = "200";
 			bed[27] = "246";
 			
-			//document.getElementById('2ja_ka').innerHTML = "日本全国<br><center>現患者数／病床数<br>" + json_data.ncurrentpatients + "／" + beds + "</center>";
+			document.getElementById('2ja_ka').style.backgroundColor = '#FFFFFF';
 			document.getElementById('2ja_hokkaido').innerHTML = "北海道<br><center>現患者数／病床数<br>" + json_data.area[0].ncurrentpatients + "／" + bed[0] + "</center>";
 			document.getElementById('2ja_aomori').innerHTML = "青森県<br><center>現患者数／病床数<br>" + json_data.area[1].ncurrentpatients + "／" + bed[1] + "</center>";
 			document.getElementById('2ja_iwate').innerHTML = "岩手県<br><center>現患者数／病床数<br>" + json_data.area[2].ncurrentpatients + "／" + bed[2] + "</center>";
@@ -567,9 +567,11 @@ function get_kansen(){
 				}
 				else if(json_data.area[i].ncurrentpatients > bed[i]*0.2){
 					x[i].style.backgroundColor = '#FFFF00';
+					x[i].style.color = "#000000";
 				}
 				else{
 					x[i].style.backgroundColor = '#CCFF00';
+					x[i].style.color = "#000000";
 				}
 			
 			}
@@ -681,7 +683,7 @@ density[46]="1448000";
 			}
 
 			/* 色分け判定 */
-
+			document.getElementById('3ja_ka').style.backgroundColor = '#FFFFFF';
 			for(var i = 0;  i < 47;  i++){
 			
 				if(mitudo[i] > 10){
@@ -692,9 +694,11 @@ density[46]="1448000";
 				}
 				else if(mitudo[i] > 4){
 					y[i].style.backgroundColor = '#FFFF00';
+					y[i].style.color = "#000000";
 				}
 				else if(mitudo[i] > 1){
 					y[i].style.backgroundColor = '#CCFF00';
+					y[i].style.color = "#000000";
 				}
 				else{
 					y[i].style.backgroundColor = '#0000FF';

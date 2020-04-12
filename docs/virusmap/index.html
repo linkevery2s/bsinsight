@@ -105,6 +105,11 @@
 							<div id = "day_s"></div>
 						<!-- 国内マップ -->
 						<br>
+						<blockquote>
+						・病床数との比較は、入院患者と病床数を比較しリスク度を色分けしました。赤くなるほど、リスクが高いです。<br>
+						・感染密度は、人口10万人あたりの感染者数を表示しています。赤くなるほど、感染の広がりが速い地域です。
+						<br>（出典：病床数は<a href="https://www.stopcovid19.jp/" target="_blank">新型コロナウイルス対策ダッシュボード <i class="fas fa-external-link-alt"></i></a>を参照し、人口統計は<a href="https://resas.go.jp/#/13/13101" target="_blank">RESAS <i class="fas fa-external-link-alt"></i></a>を参照しました。）
+						</blockquote>
 								<div class="row gtr-uniform gtr-50">
 									<div class="col-4 col-12-small">
 										<input type="radio" id="demo-priority-low" onchange="func1()" name="demo-priority" checked>
@@ -285,10 +290,12 @@
 							</div>
 						</div>
 
+						<hr>
 						<h3 class="ti">陽性患者の推移</h3>
 						<div class="flourish-embed flourish-chart" data-src="visualisation/1624390"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 						<p>※クルーズ船の数は含まれていません。</p>
 
+						<hr>
 						<h3 class="ti">PCR検査数と陽性者数の推移</h3>
 						<div class="flourish-embed flourish-chart" data-src="visualisation/1616330"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 						<p>※クルーズ船の数は含まれていません。</p>
@@ -367,7 +374,7 @@
 								<div class="row gtr-50 gtr-uniform">
 									<div class="col-4"><a href="https://www.covid19-yamanaka.com/" target="_blank"><span class="image fit"><img src="images/thumbs/yamanaka.png" alt="" />山中伸弥による新型コロナウイルス情報発信 <i class="fas fa-external-link-alt"></i></span></a></div>
 									<div class="col-4"><a href="https://www.stopcovid19.jp/" target="_blank"><span class="image fit"><img src="images/thumbs/covid-19j.png" alt="" />新型コロナウイルス対策ダッシュボード <i class="fas fa-external-link-alt"></i></span></a></div>
-									<div class="col-4"><a href="https://vdata.nikkei.com/newsgraphics/coronavirus-world-map/" target="_blank"><span class="image fit"><img src="images/thumbs/nikkei.png" alt="" />新型コロナウイルス感染　世界マップ <i class="fas fa-external-link-alt"></i></span></a></div>
+									<div class="col-4"><a href="https://vdata.nikkei.com/newsgraphics/coronavirus-world-map/" target="_blank"><span class="image fit"><img src="images/thumbs/nikkei.png" alt="" />新型コロナウイルス感染　世界マップ（日本経済新聞） <i class="fas fa-external-link-alt"></i></span></a></div>
 									<div class="col-4"><a href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000164708_00001.html" target="_blank"><span class="image fit"><img src="images/thumbs/mhlw.png" alt="" />厚生労働省 新型コロナウイルス感染症について <i class="fas fa-external-link-alt"></i></span></a></div>
 									<div class="col-4"><a href="https://stopcovid19.metro.tokyo.lg.jp/" target="_blank"><span class="image fit"><img src="images/thumbs/tokyo.png" alt="" />東京都 新型コロナウイルス感染症対策サイト <i class="fas fa-external-link-alt"></i></span></a></div>
 									<div class="col-4"><a href="https://cio.go.jp/hosp_monitoring_c19" target="_blank"><span class="image fit"><img src="images/thumbs/ciomedical.png" alt="" />医療提供体制の状況 <i class="fas fa-external-link-alt"></i></span></a></div>
@@ -383,6 +390,7 @@
 										<li><a href="https://fukuno.jig.jp/2788" target="_blank">新型コロナウイルス陽性患者数PDFデータをJSON-API化 <i class="fas fa-external-link-alt"></i></a></li>
 										<li><a href="https://catalog.data.metro.tokyo.lg.jp/dataset/t000010d0000000068" target="_blank">東京都 新型コロナウイルス患者発表者数 <i class="fas fa-external-link-alt"></i></a></li>
 										<li><a href="https://resas.go.jp/#/13/13101" target="_blank">RESAS 地域経済分析システム <i class="fas fa-external-link-alt"></i></a></li>
+										<li><a href="https://www.mhlw.go.jp/bunya/kenkou/kekkaku-kansenshou15/02-02.html" target="_blank">感染症指定医療機関の指定状況</a></li>
 										<li><a href="https://plot.ly/" target="_blank">plotly <i class="fas fa-external-link-alt"></i></a></li>
 									</ul>
 							</div>
@@ -397,7 +405,7 @@
 					<section id="update"><span id ="8"></span>
 						<h2>更新履歴</h2>
 						<p>
-							2020. 4.12 世界の感染状況閉鎖<br>
+							2020. 4.12 世界の感染状況閉鎖、国内感染者数統計追加<br>
 							2020. 4.11 国内感染者数、関連リンク修正<br>
 							2020. 4. 5 全国クラスターマップ追加<br>
 							2020. 3.29 メニューボタン追加<br>
@@ -410,7 +418,7 @@
 							2020. 3. 2 最新情報に更新<br>
 							2020. 3. 1 本WEB公開
 						</p>
-
+						※個人で開発したWEBです。正確な情報は厚生労働省のウェブサイト等をご参照ください。
 					</section>
 
 			</div>
