@@ -118,8 +118,29 @@ function iro5(feature, latlng) {
 	});
 }
 
+var bed = new Array(47);
+
+function get_beds(){
+
+	var xhr = new XMLHttpRequest();
+	xhr.onreadystatechange = function(){
+		if (xhr.readyState === 4 && xhr.status === 200){
+			var json_data = eval( '('+xhr.responseText +')');
+			
+				for(var i = 0;  i < 47;  i++){
+					bed[i] = json_data.area[i].sum;
+				}
+    	}
+  };
+  var url = "https://www.stopcovid19.jp/data/bedforinfection_summary.json";
+  xhr.open('GET', url);
+  xhr.send(null);
+
+}
+
 
 function get_kansen(){
+	get_beds();
 	var xhr = new XMLHttpRequest();
 	xhr.onreadystatechange = function(){
 		if (xhr.readyState === 4 && xhr.status === 200){
@@ -415,108 +436,265 @@ function get_kansen(){
 			document.getElementById("ja_okinawa").innerHTML = okinawa;
 
 			/* 病床数との比較 */
-			document.getElementById('2ja_ka').innerHTML = "日本全国<br><center>現患者数／病床数<br>" + json_data.ncurrentpatients + "／" + "</center>";
-			document.getElementById('2ja_hokkaido').innerHTML = "北海道<br><center>現患者数／病床数<br>" + json_data.area[0].ncurrentpatients + "／" + "</center>";
-			document.getElementById('2ja_aomori').innerHTML = "青森県<br><center>現患者数／病床数<br>" + json_data.area[1].ncurrentpatients + "／" + "</center>";
-			document.getElementById('2ja_iwate').innerHTML = "岩手県<br><center>現患者数／病床数<br>" + json_data.area[2].ncurrentpatients + "／" + "</center>";
-			document.getElementById('2ja_miyagi').innerHTML = "宮城県<br><center>現患者数／病床数<br>" + json_data.area[3].ncurrentpatients + "／" + "</center>";
-			document.getElementById('2ja_akita').innerHTML = "秋田県<br><center>現患者数／病床数<br>" + json_data.area[4].ncurrentpatients + "／" + "</center>";
-			document.getElementById('2ja_yamagata').innerHTML = "山形県<br><center>現患者数／病床数<br>" + json_data.area[5].ncurrentpatients + "／" + "</center>";
-			document.getElementById('2ja_fukushima').innerHTML = "福島県<br><center>現患者数／病床数<br>" + json_data.area[6].ncurrentpatients + "／" + "</center>";
-			document.getElementById('2ja_ibaraki').innerHTML = "茨城県<br><center>現患者数／病床数<br>" + json_data.area[7].ncurrentpatients + "／" + "</center>";
-			document.getElementById('2ja_tochigi').innerHTML = "栃木県<br><center>現患者数／病床数<br>" + json_data.area[8].ncurrentpatients + "／" + "</center>";
-			document.getElementById('2ja_gunma').innerHTML = "群馬県<br><center>現患者数／病床数<br>" + json_data.area[9].ncurrentpatients + "／" + "</center>";
-			document.getElementById('2ja_saitama').innerHTML = "埼玉県<br><center>現患者数／病床数<br>" + json_data.area[10].ncurrentpatients + "／" + "</center>";
-			document.getElementById('2ja_tiba').innerHTML = "千葉県<br><center>現患者数／病床数<br>" + json_data.area[11].ncurrentpatients + "／" + "</center>";
-			document.getElementById('2ja_tokyo').innerHTML = "東京都<br><center>現患者数／病床数<br>" + json_data.area[12].ncurrentpatients + "／" + "</center>";
-			document.getElementById('2ja_kanagawa').innerHTML = "神奈川県<br><center>現患者数／病床数<br>" + json_data.area[13].ncurrentpatients + "／" + "</center>";
-			document.getElementById('2ja_niigata').innerHTML = "新潟県<br><center>現患者数／病床数<br>" + json_data.area[14].ncurrentpatients + "／" + "</center>";
-			document.getElementById('2ja_toyama').innerHTML = "富山県<br><center>現患者数／病床数<br>" + json_data.area[15].ncurrentpatients + "／" + "</center>";
-			document.getElementById('2ja_ishikawa').innerHTML = "石川県<br><center>現患者数／病床数<br>" + json_data.area[16].ncurrentpatients + "／" + "</center>";
-			document.getElementById('2ja_fukui').innerHTML = "福井県<br><center>現患者数／病床数<br>" + json_data.area[17].ncurrentpatients + "／" + "</center>";
-			document.getElementById('2ja_yamanashi').innerHTML = "山梨県<br><center>現患者数／病床数<br>" + json_data.area[18].ncurrentpatients + "／" + "</center>";
-			document.getElementById('2ja_nagano').innerHTML = "長野県<br><center>現患者数／病床数<br>" + json_data.area[19].ncurrentpatients + "／" + "</center>";
-			document.getElementById('2ja_gifu').innerHTML = "岐阜県<br><center>現患者数／病床数<br>" + json_data.area[20].ncurrentpatients + "／" + "</center>";
-			document.getElementById('2ja_shizuoka').innerHTML = "静岡県<br><center>現患者数／病床数<br>" + json_data.area[21].ncurrentpatients + "／" + "</center>";
-			document.getElementById('2ja_aichi').innerHTML = "愛知県<br><center>現患者数／病床数<br>" + json_data.area[22].ncurrentpatients + "／" + "</center>";
-			document.getElementById('2ja_mie').innerHTML = "三重県<br><center>現患者数／病床数<br>" + json_data.area[23].ncurrentpatients + "／" + "</center>";
-			document.getElementById('2ja_shiga').innerHTML = "滋賀県<br><center>現患者数／病床数<br>" + json_data.area[24].ncurrentpatients + "／" + "</center>";
-			document.getElementById('2ja_kyoto').innerHTML = "京都府<br><center>現患者数／病床数<br>" + json_data.area[25].ncurrentpatients + "／" + "</center>";
-			document.getElementById('2ja_osaka').innerHTML = "大阪府<br><center>現患者数／病床数<br>" + json_data.area[26].ncurrentpatients + "／" + "</center>";
-			document.getElementById('2ja_hyogo').innerHTML = "兵庫県<br><center>現患者数／病床数<br>" + json_data.area[27].ncurrentpatients + "／" + "</center>";
-			document.getElementById("2ja_nara").innerHTML = "奈良県<br><center>現患者数／病床数<br>" + json_data.area[28].ncurrentpatients + "／" + "</center>";
-			document.getElementById("2ja_wakayama").innerHTML = "和歌山県<br><center>現患者数／病床数<br>" + json_data.area[29].ncurrentpatients + "／" + "</center>";
-			document.getElementById("2ja_tottori").innerHTML = "鳥取県<br><center>現患者数／病床数<br>" + json_data.area[30].ncurrentpatients + "／" + "</center>";
-			document.getElementById("2ja_shimane").innerHTML = "島根県<br><center>現患者数／病床数<br>" + json_data.area[31].ncurrentpatients + "／" + "</center>";
-			document.getElementById("2ja_okayama").innerHTML = "岡山県<br><center>現患者数／病床数<br>" + json_data.area[32].ncurrentpatients + "／" + "</center>";
-			document.getElementById("2ja_hiroshima").innerHTML = "広島県<br><center>現患者数／病床数<br>" + json_data.area[33].ncurrentpatients + "／" + "</center>";
-			document.getElementById("2ja_yamaguchi").innerHTML = "山梨県<br><center>現患者数／病床数<br>" + json_data.area[34].ncurrentpatients + "／" + "</center>";
-			document.getElementById("2ja_tokushima").innerHTML = "徳島県<br><center>現患者数／病床数<br>" + json_data.area[35].ncurrentpatients + "／" + "</center>";
-			document.getElementById("2ja_kagawa").innerHTML = "香川県<br><center>現患者数／病床数<br>" + json_data.area[36].ncurrentpatients + "／" + "</center>";
-			document.getElementById("2ja_ehime").innerHTML = "愛媛県<br><center>現患者数／病床数<br>" + json_data.area[37].ncurrentpatients + "／" + "</center>";
-			document.getElementById("2ja_kochi").innerHTML = "高知県<br><center>現患者数／病床数<br>" + json_data.area[38].ncurrentpatients + "／" + "</center>";
-			document.getElementById("2ja_fukuoka").innerHTML = "福岡県<br><center>現患者数／病床数<br>" + json_data.area[39].ncurrentpatients + "／" + "</center>";
-			document.getElementById("2ja_saga").innerHTML = "佐賀県<br><center>現患者数／病床数<br>" + json_data.area[40].ncurrentpatients + "／" + "</center>";
-			document.getElementById("2ja_nagasaki").innerHTML = "長崎県<br><center>現患者数／病床数<br>" + json_data.area[41].ncurrentpatients + "／" + "</center>";
-			document.getElementById("2ja_kumamoto").innerHTML = "熊本県<br><center>現患者数／病床数<br>" + json_data.area[42].ncurrentpatients + "／" + "</center>";
-			document.getElementById("2ja_oita").innerHTML = "大分県<br><center>現患者数／病床数<br>" + json_data.area[43].ncurrentpatients + "／" + "</center>";
-			document.getElementById("2ja_miyazaki").innerHTML ="宮崎県<br><center>現患者数／病床数<br>" + json_data.area[44].ncurrentpatients + "／" + "</center>";
-			document.getElementById("2ja_kagoshima").innerHTML = "鹿児島県<br><center>現患者数／病床数<br>" + json_data.area[45].ncurrentpatients + "／" + "</center>";
-			document.getElementById("2ja_okinawa").innerHTML = "沖縄県<br><center>現患者数／病床数<br>" + json_data.area[46].ncurrentpatients + "／" + "</center>";
+			bed[0] = "250";
+			bed[15] = "100";
+			bed[6] = "111";
+			bed[25] = "140";
+			bed[17] = "84";
+			bed[28] = "64";
+			bed[16] = "500";
+			bed[31] = "30";
+			bed[38] = "23";
+			bed[22] = "250";
+			bed[42] = "218";
+			bed[43] = "118";
+			bed[30] = "265";
+			bed[32] = "117";
+			bed[12] = "750";
+			bed[26] = "600";
+			bed[11] = "247";
+			bed[10] = "225";
+			bed[7] = "200";
+			bed[27] = "246";
+			
+			//document.getElementById('2ja_ka').innerHTML = "日本全国<br><center>現患者数／病床数<br>" + json_data.ncurrentpatients + "／" + beds + "</center>";
+			document.getElementById('2ja_hokkaido').innerHTML = "北海道<br><center>現患者数／病床数<br>" + json_data.area[0].ncurrentpatients + "／" + bed[0] + "</center>";
+			document.getElementById('2ja_aomori').innerHTML = "青森県<br><center>現患者数／病床数<br>" + json_data.area[1].ncurrentpatients + "／" + bed[1] + "</center>";
+			document.getElementById('2ja_iwate').innerHTML = "岩手県<br><center>現患者数／病床数<br>" + json_data.area[2].ncurrentpatients + "／" + bed[2] + "</center>";
+			document.getElementById('2ja_miyagi').innerHTML = "宮城県<br><center>現患者数／病床数<br>" + json_data.area[3].ncurrentpatients + "／" + bed[3] + "</center>";
+			document.getElementById('2ja_akita').innerHTML = "秋田県<br><center>現患者数／病床数<br>" + json_data.area[4].ncurrentpatients + "／" + bed[4] + "</center>";
+			document.getElementById('2ja_yamagata').innerHTML = "山形県<br><center>現患者数／病床数<br>" + json_data.area[5].ncurrentpatients + "／" + bed[5] + "</center>";
+			document.getElementById('2ja_fukushima').innerHTML = "福島県<br><center>現患者数／病床数<br>" + json_data.area[6].ncurrentpatients + "／" + bed[6] + "</center>";
+			document.getElementById('2ja_ibaraki').innerHTML = "茨城県<br><center>現患者数／病床数<br>" + json_data.area[7].ncurrentpatients + "／" + bed[7] + "</center>";
+			document.getElementById('2ja_tochigi').innerHTML = "栃木県<br><center>現患者数／病床数<br>" + json_data.area[8].ncurrentpatients + "／" + bed[8] + "</center>";
+			document.getElementById('2ja_gunma').innerHTML = "群馬県<br><center>現患者数／病床数<br>" + json_data.area[9].ncurrentpatients + "／" + bed[9] + "</center>";
+			document.getElementById('2ja_saitama').innerHTML = "埼玉県<br><center>現患者数／病床数<br>" + json_data.area[10].ncurrentpatients + "／" + bed[10] + "</center>";
+			document.getElementById('2ja_tiba').innerHTML = "千葉県<br><center>現患者数／病床数<br>" + json_data.area[11].ncurrentpatients + "／" + bed[11] + "</center>";
+			document.getElementById('2ja_tokyo').innerHTML = "東京都<br><center>現患者数／病床数<br>" + json_data.area[12].ncurrentpatients + "／" + bed[12] + "</center>";
+			document.getElementById('2ja_kanagawa').innerHTML = "神奈川県<br><center>現患者数／病床数<br>" + json_data.area[13].ncurrentpatients + "／" + bed[13] + "</center>";
+			document.getElementById('2ja_niigata').innerHTML = "新潟県<br><center>現患者数／病床数<br>" + json_data.area[14].ncurrentpatients + "／" + bed[14] + "</center>";
+			document.getElementById('2ja_toyama').innerHTML = "富山県<br><center>現患者数／病床数<br>" + json_data.area[15].ncurrentpatients + "／" + bed[15] + "</center>";
+			document.getElementById('2ja_ishikawa').innerHTML = "石川県<br><center>現患者数／病床数<br>" + json_data.area[16].ncurrentpatients + "／" + bed[16] + "</center>";
+			document.getElementById('2ja_fukui').innerHTML = "福井県<br><center>現患者数／病床数<br>" + json_data.area[17].ncurrentpatients + "／" + bed[17] + "</center>";
+			document.getElementById('2ja_yamanashi').innerHTML = "山梨県<br><center>現患者数／病床数<br>" + json_data.area[18].ncurrentpatients + "／" + bed[18] + "</center>";
+			document.getElementById('2ja_nagano').innerHTML = "長野県<br><center>現患者数／病床数<br>" + json_data.area[19].ncurrentpatients + "／" + bed[19] + "</center>";
+			document.getElementById('2ja_gifu').innerHTML = "岐阜県<br><center>現患者数／病床数<br>" + json_data.area[20].ncurrentpatients + "／" + bed[20] + "</center>";
+			document.getElementById('2ja_shizuoka').innerHTML = "静岡県<br><center>現患者数／病床数<br>" + json_data.area[21].ncurrentpatients + "／" + bed[21] + "</center>";
+			document.getElementById('2ja_aichi').innerHTML = "愛知県<br><center>現患者数／病床数<br>" + json_data.area[22].ncurrentpatients + "／" + bed[22] + "</center>";
+			document.getElementById('2ja_mie').innerHTML = "三重県<br><center>現患者数／病床数<br>" + json_data.area[23].ncurrentpatients + "／" + bed[23] + "</center>";
+			document.getElementById('2ja_shiga').innerHTML = "滋賀県<br><center>現患者数／病床数<br>" + json_data.area[24].ncurrentpatients + "／" + bed[24] + "</center>";
+			document.getElementById('2ja_kyoto').innerHTML = "京都府<br><center>現患者数／病床数<br>" + json_data.area[25].ncurrentpatients + "／" + bed[25] + "</center>";
+			document.getElementById('2ja_osaka').innerHTML = "大阪府<br><center>現患者数／病床数<br>" + json_data.area[26].ncurrentpatients + "／" + bed[26] + "</center>";
+			document.getElementById('2ja_hyogo').innerHTML = "兵庫県<br><center>現患者数／病床数<br>" + json_data.area[27].ncurrentpatients + "／" + bed[27] + "</center>";
+			document.getElementById("2ja_nara").innerHTML = "奈良県<br><center>現患者数／病床数<br>" + json_data.area[28].ncurrentpatients + "／" + bed[28] + "</center>";
+			document.getElementById("2ja_wakayama").innerHTML = "和歌山県<br><center>現患者数／病床数<br>" + json_data.area[29].ncurrentpatients + "／" + bed[29] + "</center>";
+			document.getElementById("2ja_tottori").innerHTML = "鳥取県<br><center>現患者数／病床数<br>" + json_data.area[30].ncurrentpatients + "／" + bed[30] + "</center>";
+			document.getElementById("2ja_shimane").innerHTML = "島根県<br><center>現患者数／病床数<br>" + json_data.area[31].ncurrentpatients + "／" + bed[31] + "</center>";
+			document.getElementById("2ja_okayama").innerHTML = "岡山県<br><center>現患者数／病床数<br>" + json_data.area[32].ncurrentpatients + "／" + bed[32] + "</center>";
+			document.getElementById("2ja_hiroshima").innerHTML = "広島県<br><center>現患者数／病床数<br>" + json_data.area[33].ncurrentpatients + "／" + bed[33] + "</center>";
+			document.getElementById("2ja_yamaguchi").innerHTML = "山梨県<br><center>現患者数／病床数<br>" + json_data.area[34].ncurrentpatients + "／" + bed[34] + "</center>";
+			document.getElementById("2ja_tokushima").innerHTML = "徳島県<br><center>現患者数／病床数<br>" + json_data.area[35].ncurrentpatients + "／" + bed[35] + "</center>";
+			document.getElementById("2ja_kagawa").innerHTML = "香川県<br><center>現患者数／病床数<br>" + json_data.area[36].ncurrentpatients + "／" + bed[36] + "</center>";
+			document.getElementById("2ja_ehime").innerHTML = "愛媛県<br><center>現患者数／病床数<br>" + json_data.area[37].ncurrentpatients + "／" + bed[37] + "</center>";
+			document.getElementById("2ja_kochi").innerHTML = "高知県<br><center>現患者数／病床数<br>" + json_data.area[38].ncurrentpatients + "／" + bed[38] + "</center>";
+			document.getElementById("2ja_fukuoka").innerHTML = "福岡県<br><center>現患者数／病床数<br>" + json_data.area[39].ncurrentpatients + "／" + bed[39] + "</center>";
+			document.getElementById("2ja_saga").innerHTML = "佐賀県<br><center>現患者数／病床数<br>" + json_data.area[40].ncurrentpatients + "／" + bed[40] + "</center>";
+			document.getElementById("2ja_nagasaki").innerHTML = "長崎県<br><center>現患者数／病床数<br>" + json_data.area[41].ncurrentpatients + "／" + bed[41] + "</center>";
+			document.getElementById("2ja_kumamoto").innerHTML = "熊本県<br><center>現患者数／病床数<br>" + json_data.area[42].ncurrentpatients + "／" + bed[42] + "</center>";
+			document.getElementById("2ja_oita").innerHTML = "大分県<br><center>現患者数／病床数<br>" + json_data.area[43].ncurrentpatients + "／" + bed[43] + "</center>";
+			document.getElementById("2ja_miyazaki").innerHTML ="宮崎県<br><center>現患者数／病床数<br>" + json_data.area[44].ncurrentpatients + "／" + bed[44] + "</center>";
+			document.getElementById("2ja_kagoshima").innerHTML = "鹿児島県<br><center>現患者数／病床数<br>" + json_data.area[45].ncurrentpatients + "／" + bed[45] + "</center>";
+			document.getElementById("2ja_okinawa").innerHTML = "沖縄県<br><center>現患者数／病床数<br>" + json_data.area[46].ncurrentpatients + "／" + bed[46] + "</center>";
+
+			/* 色分け判定 */
+			var x = new Array(47);
+
+			x[0] = document.getElementById('2ja_hokkaido');
+			x[1] = document.getElementById('2ja_aomori');
+			x[2] = document.getElementById('2ja_iwate');
+			x[3] = document.getElementById('2ja_miyagi');
+			x[4] = document.getElementById('2ja_akita');
+			x[5] = document.getElementById('2ja_yamagata');
+			x[6] = document.getElementById('2ja_fukushima');
+			x[7] = document.getElementById('2ja_ibaraki');
+			x[8] = document.getElementById('2ja_tochigi');
+			x[9] = document.getElementById('2ja_gunma');
+			x[10] = document.getElementById('2ja_saitama');
+			x[11] = document.getElementById('2ja_tiba');
+			x[12] = document.getElementById('2ja_tokyo');
+			x[13] = document.getElementById('2ja_kanagawa');
+			x[14] = document.getElementById('2ja_niigata');
+			x[15] = document.getElementById('2ja_toyama');
+			x[16] = document.getElementById('2ja_ishikawa');
+			x[17] = document.getElementById('2ja_fukui');
+			x[18] = document.getElementById('2ja_yamanashi');
+			x[19] = document.getElementById('2ja_nagano');
+			x[20] = document.getElementById('2ja_gifu');
+			x[21] = document.getElementById('2ja_shizuoka');
+			x[22] = document.getElementById('2ja_aichi');
+			x[23] = document.getElementById('2ja_mie');
+			x[24] = document.getElementById('2ja_shiga');
+			x[25] = document.getElementById('2ja_kyoto');
+			x[26] = document.getElementById('2ja_osaka');
+			x[27] = document.getElementById('2ja_hyogo');
+			x[28] = document.getElementById("2ja_nara");
+			x[29] = document.getElementById("2ja_wakayama");
+			x[30] = document.getElementById("2ja_tottori");
+			x[31] = document.getElementById("2ja_shimane");
+			x[32] = document.getElementById("2ja_okayama");
+			x[33] = document.getElementById("2ja_hiroshima");
+			x[34] = document.getElementById("2ja_yamaguchi");
+			x[35] = document.getElementById("2ja_tokushima");
+			x[36] = document.getElementById("2ja_kagawa");
+			x[37] = document.getElementById("2ja_ehime");
+			x[38] = document.getElementById("2ja_kochi");
+			x[39] = document.getElementById("2ja_fukuoka");
+			x[40] = document.getElementById("2ja_saga");
+			x[41] = document.getElementById("2ja_nagasaki");
+			x[42] = document.getElementById("2ja_kumamoto");
+			x[43] = document.getElementById("2ja_oita");
+			x[44] = document.getElementById("2ja_miyazaki");
+			x[45] = document.getElementById("2ja_kagoshima");
+			x[46] = document.getElementById("2ja_okinawa");
+
+			for(var i = 0;  i < 47;  i++){
+			
+				if(json_data.area[i].ncurrentpatients > bed[i]){
+					x[i].style.backgroundColor = '#FF0000';
+				}
+				else if(json_data.area[i].ncurrentpatients > bed[i]*0.5){
+					x[i].style.backgroundColor = '#FF9900';
+				}
+				else if(json_data.area[i].ncurrentpatients > bed[i]*0.2){
+					x[i].style.backgroundColor = '#FFFF00';
+				}
+				else{
+					x[i].style.backgroundColor = '#CCFF00';
+				}
+			
+			}
 
 			/* density */
-			document.getElementById('3ja_hokkaido').innerHTML = hokkaido;
-			document.getElementById('3ja_aomori').innerHTML = aomori;
-			document.getElementById('3ja_iwate').innerHTML = iwate;
-			document.getElementById('3ja_miyagi').innerHTML = miyagi;
-			document.getElementById('3ja_akita').innerHTML = akita;
-			document.getElementById('3ja_yamagata').innerHTML = yamagata;
-			document.getElementById('3ja_fukushima').innerHTML = fukushima;
-			document.getElementById('3ja_ibaraki').innerHTML = ibaraki;
-			document.getElementById('3ja_tochigi').innerHTML = tochigi;
-			document.getElementById('3ja_gunma').innerHTML = gunma;
-			document.getElementById('3ja_saitama').innerHTML = saitama;
-			document.getElementById('3ja_tiba').innerHTML = tiba;
-			document.getElementById('3ja_tokyo').innerHTML = tokyo;
-			document.getElementById('3ja_kanagawa').innerHTML = kanagawa;
-			document.getElementById('3ja_kanagawa').innerHTML = kanagawa;
-			document.getElementById('3ja_niigata').innerHTML = niigata;
-			document.getElementById('3ja_toyama').innerHTML = toyama;
-			document.getElementById('3ja_ishikawa').innerHTML = ishikawa;
-			document.getElementById('3ja_fukui').innerHTML = fukui;
-			document.getElementById('3ja_yamanashi').innerHTML = yamanashi;
-			document.getElementById('3ja_nagano').innerHTML = nagano;
-			document.getElementById('3ja_gifu').innerHTML = gifu;
-			document.getElementById('3ja_shizuoka').innerHTML = shizuoka;
-			document.getElementById('3ja_aichi').innerHTML = aichi;
-			document.getElementById('3ja_mie').innerHTML = mie;
-			document.getElementById('3ja_shiga').innerHTML = shiga;
-			document.getElementById('3ja_kyoto').innerHTML = kyoto;
-			document.getElementById('3ja_osaka').innerHTML = osaka;
-			document.getElementById('3ja_hyogo').innerHTML = hyogo;
-			document.getElementById("3ja_nara").innerHTML = nara;
-			document.getElementById("3ja_wakayama").innerHTML = wakayama;
-			document.getElementById("3ja_tottori").innerHTML = tottori;
-			document.getElementById("3ja_shimane").innerHTML = shimane;
-			document.getElementById("3ja_okayama").innerHTML = okayama;
-			document.getElementById("3ja_hiroshima").innerHTML = hiroshima;
-			document.getElementById("3ja_yamaguchi").innerHTML = yamaguchi;
-			document.getElementById("3ja_tokushima").innerHTML = tokushima;
-			document.getElementById("3ja_kagawa").innerHTML = kagawa;
-			document.getElementById("3ja_ehime").innerHTML = ehime;
-			document.getElementById("3ja_kochi").innerHTML = kochi;
-			document.getElementById("3ja_fukuoka").innerHTML = fukuoka;
-			document.getElementById("3ja_saga").innerHTML = saga;
-			document.getElementById("3ja_nagasaki").innerHTML = nagasaki;
-			document.getElementById("3ja_kumamoto").innerHTML = kumamoto;
-			document.getElementById("3ja_oita").innerHTML = oita;
-			document.getElementById("3ja_miyazaki").innerHTML = miyazaki;
-			document.getElementById("3ja_kagoshima").innerHTML = kagoshima;
-			document.getElementById("3ja_okinawa").innerHTML = okinawa;
+			var density = Array(47);
+density[0]="5286000";
+density[1]="1263000";
+density[2]="1241000";
+density[3]="2316000";
+density[4]="981000";
+density[5]="1090000";
+density[6]="1864000";
+density[7]="2877000";
+density[8]="1946000";
+density[9]="1952000";
+density[10]="7330000";
+density[11]="6255000";
+density[12]="13822000";
+density[13]="9177000";
+density[14]="2246000";
+density[15]="1050000";
+density[16]="1143000";
+density[17]="774000";
+density[18]="817000";
+density[19]="2063000";
+density[20]="1997000";
+density[21]="3659000";
+density[22]="7537000";
+density[23]="1791000";
+density[24]="1412000";
+density[25]="2591000";
+density[26]="8813000";
+density[27]="5484000";
+density[28]="1339000";
+density[29]="935000";
+density[30]="560000";
+density[31]="680000";
+density[32]="1898000";
+density[33]="2817000";
+density[34]="1370000";
+density[35]="736000";
+density[36]="962000";
+density[37]="1352000";
+density[38]="706000";
+density[39]="5107000";
+density[40]="819000";
+density[41]="1341000";
+density[42]="1757000";
+density[43]="1144000";
+density[44]="1081000";
+density[45]="1614000";
+density[46]="1448000";
 
+			var y = new Array(47);
+			y[0] = document.getElementById('3ja_hokkaido');
+			y[1] = document.getElementById('3ja_aomori');
+			y[2] = document.getElementById('3ja_iwate');
+			y[3] = document.getElementById('3ja_miyagi');
+			y[4] = document.getElementById('3ja_akita');
+			y[5] = document.getElementById('3ja_yamagata');
+			y[6] = document.getElementById('3ja_fukushima');
+			y[7] = document.getElementById('3ja_ibaraki');
+			y[8] = document.getElementById('3ja_tochigi');
+			y[9] = document.getElementById('3ja_gunma');
+			y[10] = document.getElementById('3ja_saitama');
+			y[11] = document.getElementById('3ja_tiba');
+			y[12] = document.getElementById('3ja_tokyo');
+			y[13] = document.getElementById('3ja_kanagawa');
+			y[14] = document.getElementById('3ja_niigata');
+			y[15] = document.getElementById('3ja_toyama');
+			y[16] = document.getElementById('3ja_ishikawa');
+			y[17] = document.getElementById('3ja_fukui');
+			y[18] = document.getElementById('3ja_yamanashi');
+			y[19] = document.getElementById('3ja_nagano');
+			y[20] = document.getElementById('3ja_gifu');
+			y[21] = document.getElementById('3ja_shizuoka');
+			y[22] = document.getElementById('3ja_aichi');
+			y[23] = document.getElementById('3ja_mie');
+			y[24] = document.getElementById('3ja_shiga');
+			y[25] = document.getElementById('3ja_kyoto');
+			y[26] = document.getElementById('3ja_osaka');
+			y[27] = document.getElementById('3ja_hyogo');
+			y[28] = document.getElementById("3ja_nara");
+			y[29] = document.getElementById("3ja_wakayama");
+			y[30] = document.getElementById("3ja_tottori");
+			y[31] = document.getElementById("3ja_shimane");
+			y[32] = document.getElementById("3ja_okayama");
+			y[33] = document.getElementById("3ja_hiroshima");
+			y[34] = document.getElementById("3ja_yamaguchi");
+			y[35] = document.getElementById("3ja_tokushima");
+			y[36] = document.getElementById("3ja_kagawa");
+			y[37] = document.getElementById("3ja_ehime");
+			y[38] = document.getElementById("3ja_kochi");
+			y[39] = document.getElementById("3ja_fukuoka");
+			y[40] = document.getElementById("3ja_saga");
+			y[41] = document.getElementById("3ja_nagasaki");
+			y[42] = document.getElementById("3ja_kumamoto");
+			y[43] = document.getElementById("3ja_oita");
+			y[44] = document.getElementById("3ja_miyazaki");
+			y[45] = document.getElementById("3ja_kagoshima");
+			y[46] = document.getElementById("3ja_okinawa");
 
+			var mitudo = Array(47);
+			
+			for (var i = 0; i < 47; i++){
+				mitudo[i] = Math.round(json_data.area[i].npatients / density[i] * 100000 * 10)/10;
+				y[i].innerHTML = json_data.area[i].name_jp + "<br><center>" + mitudo[i] +"</center>";
+			}
 
+			/* 色分け判定 */
 
+			for(var i = 0;  i < 47;  i++){
+			
+				if(mitudo[i] > 10){
+					y[i].style.backgroundColor = '#FF0000';
+				}
+				else if(mitudo[i] > 5){
+					y[i].style.backgroundColor = '#FF9900';
+				}
+				else{
+					y[i].style.backgroundColor = '#CCFF00';
+				}
+			
+			}
 
 
       var day1 = json_data.lastUpdate.split("-");
@@ -526,7 +704,7 @@ function get_kansen(){
   var url = "https://www.stopcovid19.jp/data/covid19japan.json";
   xhr.open('GET', url);
   xhr.send(null);
-};
+}
 
 function func1(){
 	$("#zentai").show();
