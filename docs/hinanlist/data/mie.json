@@ -14,7 +14,7 @@
 ,
 {"Name":"一身田中学校","Jusho":"三重県津市一身田中野880-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"一身田公民館（一身田出張所）","Jusho":"三重県津市一身田町293-3","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"一身田公民館（一身田出張所）","Jusho":"三重県津市一身田町293-3","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"一身田小学校","Jusho":"三重県津市一身田大古曽355","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -212,7 +212,7 @@
 ,
 {"Name":"草生小学校","Jusho":"三重県津市安濃町草生4209","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"草生公民館","Jusho":"三重県津市安濃町草生4249-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"草生公民館","Jusho":"三重県津市安濃町草生4249-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"村主小学校","Jusho":"三重県津市安濃町連部68","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -386,7 +386,7 @@
 ,
 {"Name":"豊里中学校グラウンド","Jusho":"三重県津市大里睦合町820-1","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"高田本山駐車場","Jusho":"三重県津市大里窪田町2710-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"高田本山駐車場","Jusho":"三重県津市大里窪田町2710-1","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"三重県立看護大学","Jusho":"三重県津市夢が丘一丁目1-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -424,7 +424,7 @@
 ,
 {"Name":"栗真出張所","Jusho":"三重県津市栗真町屋町836-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"上浜南公園","Jusho":"三重県津市上浜町一丁目144","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"上浜南公園","Jusho":"三重県津市上浜町一丁目144","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"ひょうたん池公園","Jusho":"三重県津市上浜町六丁目3-2","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -508,7 +508,7 @@
 ,
 {"Name":"天理教津大教会","Jusho":"三重県津市岩田22-18","kouzui":"○","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"佐伯町公園","Jusho":"三重県津市岩田5","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"佐伯町公園","Jusho":"三重県津市岩田8","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"橋南公民館","Jusho":"三重県津市幸町18-22","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -536,7 +536,7 @@
 ,
 {"Name":"片田田中公園","Jusho":"三重県津市片田田中町1834-4","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"橋南会館","Jusho":"三重県津市柳山津興1535-27","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"橋南会館","Jusho":"三重県津市柳山津興1535-27","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"津興公園","Jusho":"三重県津市下弁財町津興3005","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -660,7 +660,7 @@
 ,
 {"Name":"狐塚地区集会所","Jusho":"三重県津市戸木町3504-3","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"戸木幼稚園","Jusho":"三重県津市戸木町2337","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
+{"Name":"戸木幼稚園","Jusho":"三重県津市戸木町2337","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"戸木地区集会所","Jusho":"三重県津市戸木町2056-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -796,7 +796,7 @@
 ,
 {"Name":"新横山集会所","Jusho":"三重県津市芸濃町中縄510-4","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"新田教育集会所","Jusho":"三重県津市芸濃町雲林院834-17","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"新田教育集会所","Jusho":"三重県津市芸濃町雲林院834-17","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"河原集会所","Jusho":"三重県津市芸濃町雲林院816-17","kouzui":"×","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -822,13 +822,13 @@
 ,
 {"Name":"楠原公民館","Jusho":"三重県津市芸濃町楠原424","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"林川原公民館","Jusho":"三重県津市芸濃町林485-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"林川原公民館","Jusho":"三重県津市芸濃町林485-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"林殿町公民館","Jusho":"三重県津市芸濃町林1784-2","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"林町公民館","Jusho":"三重県津市芸濃町林163-6","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"忍田公民館","Jusho":"三重県津市芸濃町忍田189-3","kouzui":"○","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"忍田公民館","Jusho":"三重県津市芸濃町忍田189-3","kouzui":"○","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"忍田駐車場","Jusho":"三重県津市芸濃町忍田139","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -844,7 +844,7 @@
 ,
 {"Name":"平林公民館","Jusho":"三重県津市芸濃町椋本5502-2","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"殿町教育集会所","Jusho":"三重県津市芸濃町椋本410-15","kouzui":"○","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"殿町教育集会所","Jusho":"三重県津市芸濃町椋本410-15","kouzui":"○","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"殿町教育集会所駐車場","Jusho":"三重県津市芸濃町椋本410-15","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -902,7 +902,7 @@
 ,
 {"Name":"長谷山ハイツ第二期集会所","Jusho":"三重県津市美里町家所8-229","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"長谷山ハイツ１","Jusho":"三重県津市美里町家所154-73","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"長谷山ハイツ１公園","Jusho":"三重県津市美里町家所154-73","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"梅林寺","Jusho":"三重県津市美里町三郷758","kouzui":"○","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -1110,7 +1110,7 @@
 ,
 {"Name":"片野集会所","Jusho":"三重県津市一志町片野254","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"小山集会所","Jusho":"三重県津市一志町小山401-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"小山集会所","Jusho":"三重県津市一志町小山401-1","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"虹が丘集会所","Jusho":"三重県津市一志町虹が丘5-6","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -1122,7 +1122,7 @@
 ,
 {"Name":"高野文化会館","Jusho":"三重県津市一志町高野1170-5","kouzui":"×","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"高野農村公園","Jusho":"三重県津市一志町高野969-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"高野農村公園","Jusho":"三重県津市一志町高野969-1","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"庄村集会所","Jusho":"三重県津市一志町庄村244-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -1168,7 +1168,7 @@
 ,
 {"Name":"的場区集会所","Jusho":"三重県津市白山町川口1165","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"馬場公民館","Jusho":"三重県津市白山町川口1260-3","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"馬場公民館","Jusho":"三重県津市白山町川口1260-2","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"瀬古集会所","Jusho":"三重県津市白山町川口2022","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -1254,11 +1254,11 @@
 ,
 {"Name":"八対野４区公民館","Jusho":"三重県津市白山町八対野1129-4","kouzui":"○","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"八対野５区公民館","Jusho":"三重県津市白山町八対野26","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"八対野５区公民館","Jusho":"三重県津市白山町八対野3321","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"八対野教育文化会館","Jusho":"三重県津市白山町八対野92-2","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"美里区多目的集会所","Jusho":"三重県津市白山町山田野338-3","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"美里区多目的集会所","Jusho":"三重県津市白山町山田野38-3","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"山田野１区公民館","Jusho":"三重県津市白山町山田野934-7","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -1384,11 +1384,11 @@
 ,
 {"Name":"やまなみ会館","Jusho":"三重県津市美杉町下多気2586-6","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"ごんぼ会舘","Jusho":"三重県津市津市下之川5396-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"ごんぼ会舘","Jusho":"三重県津市美杉町下之川5396-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"不動之口公民館","Jusho":"三重県津市津市下之川2039-3","kouzui":"○","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"不動之口公民館","Jusho":"三重県津市美杉町下之川2039-3","kouzui":"○","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"中津集会所","Jusho":"三重県津市津市下之川5060","kouzui":"○","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"中津集会所","Jusho":"三重県津市美杉町下之川5060","kouzui":"○","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"下之川生活改善センター駐車場","Jusho":"三重県津市美杉町下之川1875","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -1532,7 +1532,7 @@
 ,
 {"Name":"百五銀行丸之内本部棟","Jusho":"三重県津市丸之内31-21","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"津市防災物流施設","Jusho":"三重県津市雲出伊倉津町792-1","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"津市雲出地区防災コミュニティセンター","Jusho":"三重県津市雲出伊倉津町792-1","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"相生会館","Jusho":"三重県津市相生町383","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -1549,6 +1549,8 @@
 {"Name":"愛宕会館","Jusho":"三重県津市愛宕町10","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"フラワーロード栄","Jusho":"三重県津市栄町四丁目185-1","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+,
+{"Name":"一身田公民館（一身田出張所）","Jusho":"三重県津市一身田町293-3","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"タカノビル","Jusho":"三重県津市丸之内24-16","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -2716,7 +2718,7 @@
 ,
 {"Name":"長折公園","Jusho":"三重県桑名市江場長折488-22","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"勢似口公園","Jusho":"三重県桑名市江場47","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"勢以口公園","Jusho":"三重県桑名市江場47","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
 {"Name":"鍋屋公園","Jusho":"三重県桑名市本願寺字西裏25-17","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"○","naisui":"×","kazan":"×"}
 ,
@@ -6830,7 +6832,7 @@
 ,
 {"Name":"旧東宮坂","Jusho":"三重県度会郡南伊勢町東宮","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"中道の道","Jusho":"三重県度会郡南伊勢町東宮","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"中道の奥","Jusho":"三重県度会郡南伊勢町東宮","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"(有）石川用地","Jusho":"三重県度会郡南伊勢町河内","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -6957,6 +6959,8 @@
 {"Name":"猪谷","Jusho":"三重県度会郡南伊勢町棚橋竈","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"隠居山","Jusho":"三重県度会郡南伊勢町新桑竈","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+,
+{"Name":"五ヶ所浦津波避難タワー","Jusho":"三重県度会郡南伊勢町五ヶ所浦987","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"田曽浦コミュニティセンター","Jusho":"三重県度会郡南伊勢町田曽浦3948-2","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,

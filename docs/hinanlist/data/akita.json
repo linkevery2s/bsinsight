@@ -648,9 +648,7 @@
 ,
 {"Name":"旧能代北高等学校","Jusho":"秋田県能代市追分町1-36","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"×"}
 ,
-{"Name":"能代工業高等学校グラウンド","Jusho":"秋田県能代市盤若町3-1","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
-,
-{"Name":"能代ふれあいプラザサンピノ","Jusho":"秋田県能代市上町12-32","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"×"}
+{"Name":"能代ふれあいプラザ","Jusho":"秋田県能代市上町12-32","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"×"}
 ,
 {"Name":"中央公民館広場","Jusho":"秋田県能代市追分町4-26","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"×"}
 ,
@@ -694,8 +692,6 @@
 ,
 {"Name":"大瀬街区公園","Jusho":"秋田県能代市字大瀬儘下21-7","kouzui":"×","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"×"}
 ,
-{"Name":"市民球場","Jusho":"秋田県能代市盤若町64-39","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
-,
 {"Name":"向能代小学校グラウンド","Jusho":"秋田県能代市向能代字上野越25-1","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"×"}
 ,
 {"Name":"東雲中学校グラウンド","Jusho":"秋田県能代市向能代字トトメキ106-1","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"×"}
@@ -712,11 +708,11 @@
 ,
 {"Name":"落合１号街区公園","Jusho":"秋田県能代市落合字落合150","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
 ,
-{"Name":"落合２号街区公園","Jusho":"秋田県能代市落合字上前田195","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
+{"Name":"落合２号街区公園","Jusho":"秋田県能代市落合字上前田198","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
 ,
 {"Name":"落合３号街区公園","Jusho":"秋田県能代市落合字下前田204","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
 ,
-{"Name":"落合４号街区公園","Jusho":"秋田県能代市落合字下悪戸150","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
+{"Name":"落合４号街区公園","Jusho":"秋田県能代市落合字下悪土150","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
 ,
 {"Name":"落合５号街区公園","Jusho":"秋田県能代市落合字上釜谷地280","kouzui":"×","gake":"○","takashio":"○","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
 ,
@@ -3149,6 +3145,8 @@
 {"Name":"戸鳥内地区地域特産品生産施設","Jusho":"秋田県北秋田市 阿仁戸鳥内字家ノ前109-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"上杉あいターミナル","Jusho":"秋田県北秋田市 上杉字相染岱174-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+,
+{"Name":"セントラル合川","Jusho":"秋田県北秋田市 新田目字大野80-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"芹田児童遊園地","Jusho":"秋田県にかほ市芹田字中道130-1","kouzui":"×","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,

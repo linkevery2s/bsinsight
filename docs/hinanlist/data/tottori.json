@@ -918,7 +918,7 @@
 ,
 {"Name":"啓成公民館","Jusho":"鳥取県米子市博労町4丁目364","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
 ,
-{"Name":"市民体育館 （どらドラパーク米子市民体育館）","Jusho":"鳥取県米子市東山町106-4","kouzui":"○","gake":"○","takashio":"○","jishin":"×","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
+{"Name":"市民体育館 （どらドラパーク米子市民体育館）","Jusho":"鳥取県米子市東山町106-4","kouzui":"×","gake":"○","takashio":"○","jishin":"×","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
 ,
 {"Name":"東山体育館 （どらドラパーク米子東山体育館）","Jusho":"鳥取県米子市東山町92","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
 ,
@@ -932,7 +932,7 @@
 ,
 {"Name":"米子市公会堂","Jusho":"鳥取県米子市角盤町2丁目61","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
 ,
-{"Name":"明道小学校","Jusho":"鳥取県米子市陽田町74-2","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
+{"Name":"明道小学校","Jusho":"鳥取県米子市陽田町74-2","kouzui":"×","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
 ,
 {"Name":"明道公民館","Jusho":"鳥取県米子市東町124","kouzui":"×","gake":"○","takashio":"○","jishin":"×","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
 ,
@@ -950,7 +950,7 @@
 ,
 {"Name":"就将公民館","Jusho":"鳥取県米子市大谷町1-1","kouzui":"×","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
 ,
-{"Name":"米子市文化ホール","Jusho":"鳥取県米子市末広町293","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
+{"Name":"米子市文化ホール","Jusho":"鳥取県米子市末広町293","kouzui":"×","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
 ,
 {"Name":"義方小学校","Jusho":"鳥取県米子市義方町9-20","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
 ,
@@ -982,13 +982,13 @@
 ,
 {"Name":"加茂中学校","Jusho":"鳥取県米子市両三柳3883","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
 ,
-{"Name":"加茂公民館","Jusho":"鳥取県米子市両三柳3305","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
+{"Name":"加茂公民館","Jusho":"鳥取県米子市両三柳3305","kouzui":"×","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
 ,
 {"Name":"河崎小学校","Jusho":"鳥取県米子市河崎2677","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
 ,
 {"Name":"河崎公民館","Jusho":"鳥取県米子市河崎2620","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
 ,
-{"Name":"加茂体育館","Jusho":"鳥取県米子市河崎3270-2","kouzui":"○","gake":"○","takashio":"○","jishin":"×","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
+{"Name":"加茂体育館","Jusho":"鳥取県米子市河崎3270-2","kouzui":"×","gake":"○","takashio":"○","jishin":"×","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
 ,
 {"Name":"福生東小学校","Jusho":"鳥取県米子市皆生5丁目18-32","kouzui":"×","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
 ,
@@ -1006,21 +1006,19 @@
 ,
 {"Name":"米子市観光センター","Jusho":"鳥取県米子市皆生温泉3丁目1-1","kouzui":"×","gake":"○","takashio":"○","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
 ,
-{"Name":"老人憩の家","Jusho":"鳥取県米子市皆生温泉4丁目17-1","kouzui":"×","gake":"○","takashio":"○","jishin":"×","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
-,
-{"Name":"福米東小学校","Jusho":"鳥取県米子市東福原5丁目7-1","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
+{"Name":"福米東小学校","Jusho":"鳥取県米子市東福原5丁目7-1","kouzui":"×","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
 ,
 {"Name":"福米体育館","Jusho":"鳥取県米子市西福原6丁目1-14","kouzui":"×","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
 ,
 {"Name":"福米東公民館","Jusho":"鳥取県米子市西福原6丁目2-20","kouzui":"×","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
 ,
-{"Name":"米子市勤労青少年ホーム","Jusho":"鳥取県米子市東福原8丁目24-31","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
+{"Name":"米子市勤労青少年ホーム","Jusho":"鳥取県米子市東福原8丁目24-31","kouzui":"×","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
 ,
-{"Name":"福米西小学校","Jusho":"鳥取県米子市西福原8丁目16-62","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
+{"Name":"福米西小学校","Jusho":"鳥取県米子市西福原8丁目16-62","kouzui":"×","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
 ,
 {"Name":"福米中学校","Jusho":"鳥取県米子市新開5丁目9-1","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
 ,
-{"Name":"福米西公民館","Jusho":"鳥取県米子市西福原8丁目17-15","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
+{"Name":"福米西公民館","Jusho":"鳥取県米子市西福原8丁目17-15","kouzui":"×","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
 ,
 {"Name":"彦名小学校","Jusho":"鳥取県米子市彦名町4500-2","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
 ,
@@ -1122,13 +1120,13 @@
 ,
 {"Name":"尚徳公民館","Jusho":"鳥取県米子市榎原1356-1","kouzui":"×","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
 ,
-{"Name":"キッズタウンさくら保育園","Jusho":"鳥取県米子市兼久606-3","kouzui":"×","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
+{"Name":"認定こども園キッズタウンさくら","Jusho":"鳥取県米子市兼久606-3","kouzui":"×","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
 ,
 {"Name":"南部体育館","Jusho":"鳥取県米子市榎原1449-4","kouzui":"×","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
 ,
 {"Name":"永江公民館","Jusho":"鳥取県米子市永江502-4","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
 ,
-{"Name":"成実小学校","Jusho":"鳥取県米子市奈喜良81","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
+{"Name":"成実小学校","Jusho":"鳥取県米子市奈喜良81","kouzui":"×","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
 ,
 {"Name":"成実公民館","Jusho":"鳥取県米子市石井355","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
 ,
@@ -1138,25 +1136,25 @@
 ,
 {"Name":"箕蚊屋小学校","Jusho":"鳥取県米子市下新印204-2","kouzui":"×","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
 ,
-{"Name":"箕蚊屋中学校","Jusho":"鳥取県米子市下新印196-4","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
+{"Name":"箕蚊屋中学校","Jusho":"鳥取県米子市下新印196-4","kouzui":"×","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
 ,
 {"Name":"箕蚊屋体育館","Jusho":"鳥取県米子市下新印1057-2","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
 ,
-{"Name":"春日公民館","Jusho":"鳥取県米子市上新印238-1","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
+{"Name":"春日公民館","Jusho":"鳥取県米子市上新印238-1","kouzui":"×","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
 ,
-{"Name":"春日保育園","Jusho":"鳥取県米子市上新印238","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
+{"Name":"春日保育園","Jusho":"鳥取県米子市上新印238","kouzui":"×","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
 ,
 {"Name":"伯仙小学校","Jusho":"鳥取県米子市尾高418-1","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
 ,
 {"Name":"大高公民館","Jusho":"鳥取県米子市尾高1759-1","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
 ,
-{"Name":"こたか保育園","Jusho":"鳥取県米子市尾高566","kouzui":"×","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
+{"Name":"こたか保育園","Jusho":"鳥取県米子市尾高566","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
 ,
 {"Name":"前田児童館","Jusho":"鳥取県米子市尾高1424-1","kouzui":"×","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
 ,
 {"Name":"前田隣保館","Jusho":"鳥取県米子市尾高1424-11","kouzui":"×","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
 ,
-{"Name":"県公民館","Jusho":"鳥取県米子市河岡5","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
+{"Name":"県公民館","Jusho":"鳥取県米子市河岡5","kouzui":"×","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
 ,
 {"Name":"あがた保育園","Jusho":"鳥取県米子市福万363-4","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
 ,
@@ -1168,19 +1166,19 @@
 ,
 {"Name":"米子市淀江支所庁舎","Jusho":"鳥取県米子市淀江町西原1129-1","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
 ,
-{"Name":"淀江小学校","Jusho":"鳥取県米子市淀江町西原244-2","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
+{"Name":"淀江小学校","Jusho":"鳥取県米子市淀江町西原244-2","kouzui":"×","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
 ,
 {"Name":"淀江中学校","Jusho":"鳥取県米子市淀江町西原660","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
 ,
 {"Name":"淀江体育館","Jusho":"鳥取県米子市淀江町西原805","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
 ,
-{"Name":"大和保育園","Jusho":"鳥取県米子市淀江町中間586-2","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
+{"Name":"大和保育園","Jusho":"鳥取県米子市淀江町中間586-2","kouzui":"×","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
 ,
-{"Name":"淀江公民館大和分館（旧大和公民館）","Jusho":"鳥取県米子市淀江町中間592-1","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
+{"Name":"大和公民館","Jusho":"鳥取県米子市淀江町中間592-1","kouzui":"×","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
 ,
 {"Name":"宇田川保育園","Jusho":"鳥取県米子市淀江町中西尾224-2","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
 ,
-{"Name":"淀江公民館宇田川分館（旧宇田川公民館）","Jusho":"鳥取県米子市淀江町中西尾466","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
+{"Name":"宇田川公民館","Jusho":"鳥取県米子市淀江町中西尾466","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
 ,
 {"Name":"富繁構造改善センター","Jusho":"鳥取県米子市淀江町富繁55-4","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
 ,
@@ -1191,6 +1189,8 @@
 {"Name":"淀江公民館（旧淀江中央公民館）","Jusho":"鳥取県米子市淀江町淀江769","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
 ,
 {"Name":"淀江ゆめ温泉","Jusho":"鳥取県米子市淀江町福岡1547","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
+,
+{"Name":"元米子勤労者体育センター","Jusho":"鳥取県米子市尾高2347-1","kouzui":"○","gake":"○","takashio":"○","jishin":"×","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
 ,
 {"Name":"啓成小学校グラウンド","Jusho":"鳥取県米子市博労町4丁目290","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
@@ -1326,7 +1326,19 @@
 ,
 {"Name":"淀江町児童遊園","Jusho":"鳥取県米子市淀江町淀江681-2","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"米子勤労者体育センター","Jusho":"鳥取県米子市尾高2347番地1","kouzui":"○","gake":"○","takashio":"○","jishin":"×","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
+{"Name":"米子東高等学校 第1・第2体育館、柔道場、 剣道場、多目的ホール","Jusho":"鳥取県米子市勝田町1番地","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
+,
+{"Name":"米子南高等学校 体育館、北体育館、 創作・交流ホール、同窓会館２階","Jusho":"鳥取県米子市長砂町216番地","kouzui":"×","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
+,
+{"Name":"米子西高等学校 第一、第二体育館（柔剣道場含む） トイレ・更衣室、廊下、トレーニング室","Jusho":"鳥取県米子市大谷町200番地","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
+,
+{"Name":"米子高等学校 第1、第2体育館、柔剣道場、 和室（記念館）、会議室・サンルーム","Jusho":"鳥取県米子市橋本30番地1","kouzui":"×","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
+,
+{"Name":"米子工業高等学校 第一体育館","Jusho":"鳥取県米子市博労町四丁目220番地","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
+,
+{"Name":"米子白鳳高等学校 体育館、大講義室、コモンホール","Jusho":"鳥取県米子市淀江町福岡24番地","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
+,
+{"Name":"米子松蔭高等学校 第1、第3体育館","Jusho":"鳥取県米子市二本木316番地1","kouzui":"×","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
 ,
 {"Name":"倉吉市上北条公民館","Jusho":"鳥取県倉吉市新田422-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
 ,
@@ -1956,8 +1968,6 @@
 ,
 {"Name":"小鹿地区多目的研修会施設","Jusho":"鳥取県東伯郡三朝町高橋167-3","kouzui":"○","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"東小学校体育館","Jusho":"鳥取県東伯郡三朝町余戸32-1","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
-,
 {"Name":"三徳地区多目的研修会施設","Jusho":"鳥取県東伯郡三朝町片柴913","kouzui":"○","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"三朝温泉観光商工センター","Jusho":"鳥取県東伯郡三朝町三朝973-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
@@ -1972,7 +1982,7 @@
 ,
 {"Name":"三朝町総合文化ホール","Jusho":"鳥取県東伯郡三朝町大瀬999-2","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"西小学校体育館","Jusho":"鳥取県東伯郡三朝町大瀬1170-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"三朝小学校体育館","Jusho":"鳥取県東伯郡三朝町大瀬1170-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"三朝町高勢公民館","Jusho":"鳥取県東伯郡三朝町小河内978-2","kouzui":"○","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -1987,8 +1997,6 @@
 {"Name":"三朝町竹田公民館","Jusho":"鳥取県東伯郡三朝町穴鴨168-1","kouzui":"○","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"竹田地区町民体育館","Jusho":"鳥取県東伯郡三朝町穴鴨191-2","kouzui":"○","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
-,
-{"Name":"南小学校体育館","Jusho":"鳥取県東伯郡三朝町穴鴨166-2","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"湯梨浜町役場講堂","Jusho":"鳥取県東伯郡湯梨浜町久留１９-１","kouzui":"×","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"×","kazan":"×"}
 ,

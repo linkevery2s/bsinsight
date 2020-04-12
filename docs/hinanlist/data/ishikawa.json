@@ -2208,6 +2208,8 @@
 ,
 {"Name":"志賀町保健福祉センター","Jusho":"石川県羽咋郡志賀町高浜町カの１番地１","kouzui":"×","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"×","kazan":"○"}
 ,
+{"Name":"志賀高等学校","Jusho":"石川県羽咋郡志賀町高浜町ノ170番地","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
+,
 {"Name":"志賀町総合武道館","Jusho":"石川県羽咋郡志賀町町ヘ１の１番地","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
 ,
 {"Name":"地域交流センター","Jusho":"石川県羽咋郡志賀町西山台一丁目１番地","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
@@ -2219,6 +2221,8 @@
 {"Name":"旧福浦小学校","Jusho":"石川県羽咋郡志賀町福浦港４の４番地２","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
 ,
 {"Name":"富来活性化センター","Jusho":"石川県羽咋郡志賀町富来領家町甲の10番地","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
+,
+{"Name":"富来中学校","Jusho":"石川県羽咋郡志賀町富来領家町ハの１番地","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
 ,
 {"Name":"富来防災センター","Jusho":"石川県羽咋郡志賀町富来高田２の41番地","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
 ,

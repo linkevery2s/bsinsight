@@ -586,7 +586,7 @@
 ,
 {"Name":"名古屋市工業研究所","Jusho":"愛知県名古屋市熱田区六番3-4-41","kouzui":"○","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
 ,
-{"Name":"名古屋学院大学 白鳥学舎","Jusho":"愛知県名古屋市熱田区熱田西町1-25","kouzui":"○","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
+{"Name":"名古屋学院大学 名古屋キャンパスしろとり","Jusho":"愛知県名古屋市熱田区熱田西町1-25","kouzui":"○","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
 ,
 {"Name":"野立小学校","Jusho":"愛知県名古屋市熱田区青池町2-21","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
 ,
@@ -722,7 +722,7 @@
 ,
 {"Name":"東築地小学校","Jusho":"愛知県名古屋市港区東築地町26","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
 ,
-{"Name":"東築地コミュニティセンター","Jusho":"愛知県名古屋市港区木場町9-10","kouzui":"○","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
+{"Name":"東築地コミュニティ・多目的センター","Jusho":"愛知県名古屋市港区木場町9-10","kouzui":"○","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
 ,
 {"Name":"東築地学区防災センター","Jusho":"愛知県名古屋市港区木場町9-9","kouzui":"○","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
 ,
@@ -2510,8 +2510,6 @@
 ,
 {"Name":"アネックスコート比翼","Jusho":"愛知県名古屋市中川区一色新町2-101","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"サンソシアM","Jusho":"愛知県名古屋市中川区一色新町3-1406","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
-,
 {"Name":"春田荘1棟","Jusho":"愛知県名古屋市中川区春田2-32","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"春田荘2棟","Jusho":"愛知県名古屋市中川区春田2-32","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
@@ -2853,10 +2851,6 @@
 {"Name":"中部電力株式会社緑営業所","Jusho":"愛知県名古屋市緑区大高町字東正地71-1","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"日比野団地2号棟","Jusho":"愛知県名古屋市熱田区中出町2-22","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
-,
-{"Name":"豊成団地4号棟","Jusho":"愛知県名古屋市中川区豊成町1","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
-,
-{"Name":"豊成団地5号棟","Jusho":"愛知県名古屋市中川区豊成町1","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"ロイヤルピジョン八田","Jusho":"愛知県名古屋市中村区並木2-256","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -3315,6 +3309,20 @@
 {"Name":"市営氷室荘Ａ棟","Jusho":"愛知県名古屋市南区氷室町19","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"市営氷室荘Ｂ棟","Jusho":"愛知県名古屋市南区氷室町19","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+,
+{"Name":"ロジクロス名古屋笠寺","Jusho":"愛知県名古屋市南区東又兵ヱ町 1丁目57番2号","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+,
+{"Name":"川名公園","Jusho":"愛知県名古屋市昭和区川原通 7丁目、川原通 8丁目、花見通 1丁目、広路町 7丁目及び広路町 8丁目","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+,
+{"Name":"名古屋学院大学名古屋キャンパスたいほう言館・恵館","Jusho":"愛知県名古屋市熱田区大宝二丁目 4番45号","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+,
+{"Name":"名古屋市教育館","Jusho":"愛知県名古屋市東区泉一丁目1番4号","kouzui":"○","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
+,
+{"Name":"名古屋市公会堂","Jusho":"愛知県名古屋市昭和区鶴舞一丁目1番3号","kouzui":"○","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
+,
+{"Name":"南陽中央公園","Jusho":"愛知県名古屋市港区東茶屋三丁目","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+,
+{"Name":"光城コミュニティセンター","Jusho":"愛知県名古屋市北区中丸町 3丁目 2番地の 3","kouzui":"○","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
 ,
 {"Name":"大村校区市民館","Jusho":"愛知県豊橋市大村町字地之神7-4","kouzui":"○","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
 ,

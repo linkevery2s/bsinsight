@@ -820,8 +820,6 @@
 ,
 {"Name":"楠木保育園","Jusho":"山口県山口市楠木町1-44","kouzui":"○","gake":"○","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"日本郵政㈱かんぽの宿湯田会議室","Jusho":"山口県山口市神田町1-42","kouzui":"○","gake":"○","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
-,
 {"Name":"障害者支援施設なでしこ園地域交流スペース","Jusho":"山口県山口市朝倉町4-55","kouzui":"○","gake":"○","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"山口刑務所鍛錬場","Jusho":"山口県山口市松美町5-6","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
@@ -1024,6 +1022,8 @@
 ,
 {"Name":"徳地中学校校舎","Jusho":"山口県山口市徳地堀1606-1","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
+{"Name":"山口県立防府高等学校佐波分校体育館","Jusho":"山口県山口市徳地堀2429番地","kouzui":"×","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+,
 {"Name":"小古祖多目的集会所","Jusho":"山口県山口市徳地小古祖831","kouzui":"○","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"徳地地域交流センター八坂分館","Jusho":"山口県山口市徳地八坂975","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
@@ -1119,32 +1119,6 @@
 {"Name":"山口市嘉年体育館","Jusho":"山口県山口市阿東嘉年上3436","kouzui":"×","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"十種ヶ峰青少年自然の家体育館","Jusho":"山口県山口市阿東嘉年下1883-2","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
-,
-{"Name":"亀山公園ふれあい広場","Jusho":"山口県山口市中河原73-1","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"×","kazan":"×"}
-,
-{"Name":"中央公園","Jusho":"山口県山口市中園町7","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"×","kazan":"×"}
-,
-{"Name":"維新百年記念公園","Jusho":"山口県山口市維新公園4-1-1","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"×","kazan":"×"}
-,
-{"Name":"山口市スポーツの森","Jusho":"山口県山口市宮野上237","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"×","kazan":"×"}
-,
-{"Name":"やまぐち リフレッシュパーク","Jusho":"山口県山口市大内長野1107","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"×","kazan":"×"}
-,
-{"Name":"山口大学","Jusho":"山口県山口市吉田1677-1","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"×","kazan":"×"}
-,
-{"Name":"山口南総合センター","Jusho":"山口県山口市名田島1218-1","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"×","kazan":"×"}
-,
-{"Name":"藤尾山公園","Jusho":"山口県山口市佐山","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"×","kazan":"×"}
-,
-{"Name":"河原谷公園","Jusho":"山口県山口市佐山3-4","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"×","kazan":"×"}
-,
-{"Name":"道の駅長門峡","Jusho":"山口県山口市阿東生雲東分47-1","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"×","kazan":"×"}
-,
-{"Name":"阿東運動広場","Jusho":"山口県山口市阿東地福下235-4","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"×","kazan":"×"}
-,
-{"Name":"山村広場","Jusho":"山口県山口市阿東徳佐下46","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"×","kazan":"×"}
-,
-{"Name":"山口市営阿知須合同納骨塔","Jusho":"山口県山口市阿知須649-1","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"×","kazan":"×"}
 ,
 {"Name":"萩東中学校体育館","Jusho":"山口県萩市大字土原556-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
 ,
@@ -1550,7 +1524,7 @@
 ,
 {"Name":"防府市スポーツセンター武道館","Jusho":"山口県防府市大字浜方174-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"防府市スポーツセンター体育館（ソルトアリーナ防府）２階サブアリーナ","Jusho":"山口県防府市大字浜方174-1","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
+{"Name":"防府市スポーツセンター体育館（ソルトアリーナ防府）","Jusho":"山口県防府市大字浜方174-1","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
 ,
 {"Name":"問屋口記念会館","Jusho":"山口県防府市大字新田1973-3","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -1614,7 +1588,7 @@
 ,
 {"Name":"多々良幼稚園","Jusho":"山口県防府市大字大崎161-2","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
 ,
-{"Name":"防府とくぢ農業協同組合右田支所２階会議室","Jusho":"山口県防府市大字高井579","kouzui":"○","gake":"○","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
+{"Name":"山口県農業協同組合旧右田支所２階会議室","Jusho":"山口県防府市大字高井579","kouzui":"○","gake":"○","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
 ,
 {"Name":"ライフケア高砂","Jusho":"山口県防府市大字上右田334","kouzui":"×","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
 ,
@@ -1626,7 +1600,7 @@
 ,
 {"Name":"防府西高等学校　体育館","Jusho":"山口県防府市大字台道36-1","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
 ,
-{"Name":"防府とくぢ農業協同組合大道支所２階会議室","Jusho":"山口県防府市大字台道3585","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
+{"Name":"山口県農業協同組合防府西支所２階会議室","Jusho":"山口県防府市大字台道3585","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
 ,
 {"Name":"高川学園中学校・高等学校屋内運動場","Jusho":"山口県防府市大字台道3635","kouzui":"○","gake":"○","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
 ,
@@ -1636,13 +1610,13 @@
 ,
 {"Name":"開発広場（土田）","Jusho":"山口県防府市敷山町871-13、14","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"アルク牟礼店駐車場","Jusho":"山口県防府市大字江泊1936","kouzui":"×","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"アルク牟礼店駐車場","Jusho":"山口県防府市大字江泊1936","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"周防国衙跡","Jusho":"山口県防府市国衙三丁目6番、7番","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"周防国衙跡","Jusho":"山口県防府市国衙三丁目6番、7番","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"アルク防府店 駐車場","Jusho":"山口県防府市天神1-10-42","kouzui":"×","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"アルク防府店 駐車場","Jusho":"山口県防府市天神1-10-42","kouzui":"×","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"三田尻御茶屋公園","Jusho":"山口県防府市お茶屋町1307-1","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"三田尻御茶屋公園","Jusho":"山口県防府市お茶屋町1307-1","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"×","kazan":"×"}
 ,
 {"Name":"防府市記念モデル児童遊園","Jusho":"山口県防府市三田尻三丁目55-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"○","naisui":"×","kazan":"×"}
 ,
@@ -1678,13 +1652,13 @@
 ,
 {"Name":"旧小野小学校跡地","Jusho":"山口県防府市大字奈美709","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"防府市スポーツセンター体育館（ソルトアリーナ防府）メインアリーナ","Jusho":"山口県防府市大字浜方174番地の1","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
-,
 {"Name":"防府市スポーツセンター野球場","Jusho":"山口県防府市大字浜方182番地の5","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"○","naisui":"×","kazan":"×"}
 ,
 {"Name":"向島運動公園多目的広場","Jusho":"山口県防府市大字向島1713番地の8","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"○","naisui":"×","kazan":"×"}
 ,
 {"Name":"大道中学校","Jusho":"山口県防府市大字台道1124","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"×"}
+,
+{"Name":"右田小学校（２階以上）","Jusho":"山口県防府市大字下右田86-2","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
 ,
 {"Name":"豊井小学校（体育館）","Jusho":"山口県下松市大字豊井1134","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,

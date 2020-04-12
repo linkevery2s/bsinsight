@@ -2126,7 +2126,7 @@
 ,
 {"Name":"高原公民館","Jusho":"栃木県那須郡那須町大字湯本199-14","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
 ,
-{"Name":"那須小学校","Jusho":"栃木県那須郡那須町大字湯本201-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
+{"Name":"旧那須小学校","Jusho":"栃木県那須郡那須町大字湯本201-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
 ,
 {"Name":"旧室野井小学校","Jusho":"栃木県那須郡那須町大字高久乙3371-3","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
 ,
@@ -2148,7 +2148,7 @@
 ,
 {"Name":"黒田原小学校","Jusho":"栃木県那須郡那須町大字寺子乙3968-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
 ,
-{"Name":"黒田原中学校","Jusho":"栃木県那須郡那須町大字寺子丙92","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
+{"Name":"那須中央中学校","Jusho":"栃木県那須郡那須町大字寺子丙92","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
 ,
 {"Name":"那須高等学校","Jusho":"栃木県那須郡那須町大字寺子乙3932-48","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
 ,
@@ -2156,13 +2156,13 @@
 ,
 {"Name":"成沢集落センター","Jusho":"栃木県那須郡那須町大字豊原甲3112-1","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"○","naisui":"×","kazan":"○"}
 ,
-{"Name":"東陽小学校","Jusho":"栃木県那須郡那須町大字芦野2160","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
+{"Name":"旧芦野小学校","Jusho":"栃木県那須郡那須町大字芦野2160","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
 ,
 {"Name":"芦野基幹集落センター","Jusho":"栃木県那須郡那須町大字芦野1867-1","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"○","naisui":"×","kazan":"○"}
 ,
 {"Name":"寄居集落センター","Jusho":"栃木県那須郡那須町大字寄居1032-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
 ,
-{"Name":"東陽中学校","Jusho":"栃木県那須郡那須町大字芦野100","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
+{"Name":"東陽小学校","Jusho":"栃木県那須郡那須町大字芦野100","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
 ,
 {"Name":"旧伊王野小学校","Jusho":"栃木県那須郡那須町大字伊王野1542","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
 ,
@@ -2172,7 +2172,7 @@
 ,
 {"Name":"稲沢地区体育センター","Jusho":"栃木県那須郡那須町大字稲沢978-1","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"○","naisui":"×","kazan":"○"}
 ,
-{"Name":"旧美野沢小学校","Jusho":"栃木県那須郡那須町大字蓑沢563‐4","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
+{"Name":"旧美野沢小学校","Jusho":"栃木県那須郡那須町大字蓑沢563-4","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
 ,
 {"Name":"那須町文化センター","Jusho":"栃木県那須郡那須町大字寺子乙2567-10","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
 ,
@@ -2189,6 +2189,8 @@
 {"Name":"梓地区高齢者生きがいセンター","Jusho":"栃木県那須郡那須町大字梓584","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"○","naisui":"×","kazan":"○"}
 ,
 {"Name":"成沢集落センターグラウンド","Jusho":"栃木県那須郡那須町大字豊原甲3112-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
+,
+{"Name":"那須高原TOWAピュワコテージ","Jusho":"栃木県那須郡那須町大字高久乙3375","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
 ,
 {"Name":"馬頭総合福祉センター","Jusho":"栃木県那須郡那珂川町馬頭560-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
 ,
