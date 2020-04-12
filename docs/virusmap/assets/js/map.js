@@ -687,11 +687,17 @@ density[46]="1448000";
 				if(mitudo[i] > 10){
 					y[i].style.backgroundColor = '#FF0000';
 				}
-				else if(mitudo[i] > 5){
-					y[i].style.backgroundColor = '#FF9900';
+				else if(mitudo[i] > 7){
+					y[i].style.backgroundColor = '#FF6600';
+				}
+				else if(mitudo[i] > 4){
+					y[i].style.backgroundColor = '#FFFF00';
+				}
+				else if(mitudo[i] > 1){
+					y[i].style.backgroundColor = '#CCFF00';
 				}
 				else{
-					y[i].style.backgroundColor = '#CCFF00';
+					y[i].style.backgroundColor = '#0000FF';
 				}
 			
 			}
