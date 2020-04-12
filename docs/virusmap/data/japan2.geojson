@@ -1,7 +1,4 @@
 ﻿var japan2={"type":"FeatureCollection","name":"japan2","features":[
-{'type':'Feature','geometry':{'type':'Point','coordinates':[139.3314,35.398]},'properties':{'Name':'神奈川県','Kansen':'93'}},
-{'type':'Feature','geometry':{'type':'Point','coordinates':[134.484,35.043]},'properties':{'Name':'兵庫県','Kansen':'82'}},
-{'type':'Feature','geometry':{'type':'Point','coordinates':[139.147,35.929]},'properties':{'Name':'埼玉県','Kansen':'65'}},
-{'type':'Feature','geometry':{'type':'Point','coordinates':[135.368,35.156]},'properties':{'Name':'京都府','Kansen':'60'}},
-{'type':'Feature','geometry':{'type':'Point','coordinates':[130.583,33.431]},'properties':{'Name':'福岡県','Kansen':'54'}}
+{'type':'Feature','geometry':{'type':'Point','coordinates':[135.511,34.692]},'properties':{'Name':'大阪府','Kansen':'350'}},
+{'type':'Feature','geometry':{'type':'Point','coordinates':[139.3314,35.398]},'properties':{'Name':'神奈川県','Kansen':'244'}}
 ]};

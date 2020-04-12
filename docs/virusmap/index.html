@@ -79,10 +79,6 @@
     </div>
   </li>
   <li>
-    <div class="dropdownlink" onclick="link(5)"><i class="fa fa-clipboard" aria-hidden="true"></i> 世界の感染状況
-    </div>
-  </li>
-  <li>
     <div class="dropdownlink" onclick="link(6)"><i class="fa fa-clipboard" aria-hidden="true"></i> 感染者の初期症状
     </div>
   </li>
@@ -310,23 +306,23 @@
 
 							<h3 class="ti">新規感染者数の推移</h3>
 								<blockquote>
-								直近1週間（3/28～4/3）の新規の感染者数をプロットしました。
+								直近1週間（4/3～4/10）の新規の感染者数をプロットしました。
 								</blockquote>
 								<div id ="map2"></div>
 								<br>
 							<div>
 								色分け方法<br>
-								<span style="margin-left: 5px; background-color: #ff0000;">　　</span>　100人以上<br>
-								<span style="margin-left: 5px; background-color: #ff4500;">　　</span>　50～99人<br>
-								<span style="margin-left: 5px; background-color: #ffff00;">　　</span>　20～49人<br>
-								<span style="margin-left: 5px; background-color: #008000;">　　</span>　10～19人<br>
-								<span style="margin-left: 5px; background-color: #0000ff;">　　</span>　1～9人
+								<span style="margin-left: 5px; background-color: #ff0000;">　　</span>　900人以上<br>
+								<span style="margin-left: 5px; background-color: #ff4500;">　　</span>　200～899人<br>
+								<span style="margin-left: 5px; background-color: #ffff00;">　　</span>　100～199人<br>
+								<span style="margin-left: 5px; background-color: #008000;">　　</span>　20～99人<br>
+								<span style="margin-left: 5px; background-color: #0000ff;">　　</span>　20人未満
 							</div>
 					</section>
 					
 					<section id="statis2"><span id ="4"></span>
 						<h2>年代別集計</h2>
-							<div id = "day_s">2020.4.3更新</div>
+							<div id = "day_s">2020.4.12更新</div>
 								<blockquote>
 								新規の感染者が最も多い東京都の統計データをもとに、年齢別の感染者数を可視化しました。
 								</blockquote>
@@ -339,24 +335,6 @@
 						<div id = "day_s">随時更新</div>
 						<iframe src="timeline.html" width="100%" height="580px"></iframe>
 					
-					</section>
-
-					<section id="world"><span id ="5"></span>
-						<h2>世界の感染状況</h2>
-							<div id = "day_s">※2020.3.19正午時点</div>
-							<div id ="map"></div>
-								<!-- 色分け -->
-							<br>
-							<div>
-								色分け方法<br>
-
-								<span style="margin-left: 5px; background-color: #ff0000;">　　</span>　5,000人以上<br>
-								<span style="margin-left: 5px; background-color: #ff4500;">　　</span>　1,000～5,000人<br>
-								<span style="margin-left: 5px; background-color: #ffff00;">　　</span>　100～1,000人<br>
-								<span style="margin-left: 5px; background-color: #008000;">　　</span>　10～99人<br>
-								<span style="margin-left: 5px; background-color: #0000ff;">　　</span>　1～9人
-
-							</div>
 					</section>
 					
 					<section id="Symptoms"><span id ="6"></span>
@@ -388,9 +366,12 @@
 								<div class="row gtr-50 gtr-uniform">
 									<div class="col-4"><a href="https://www.covid19-yamanaka.com/" target="_blank"><span class="image fit"><img src="images/thumbs/yamanaka.png" alt="" />山中伸弥による新型コロナウイルス情報発信 <i class="fas fa-external-link-alt"></i></span></a></div>
 									<div class="col-4"><a href="https://www.stopcovid19.jp/" target="_blank"><span class="image fit"><img src="images/thumbs/covid-19j.png" alt="" />新型コロナウイルス対策ダッシュボード <i class="fas fa-external-link-alt"></i></span></a></div>
+									<div class="col-4"><a href="https://vdata.nikkei.com/newsgraphics/coronavirus-world-map/" target="_blank"><span class="image fit"><img src="images/thumbs/nikkei.png" alt="" />新型コロナウイルス感染　世界マップ <i class="fas fa-external-link-alt"></i></span></a></div>
 									<div class="col-4"><a href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000164708_00001.html" target="_blank"><span class="image fit"><img src="images/thumbs/mhlw.png" alt="" />厚生労働省 新型コロナウイルス感染症について <i class="fas fa-external-link-alt"></i></span></a></div>
 									<div class="col-4"><a href="https://stopcovid19.metro.tokyo.lg.jp/" target="_blank"><span class="image fit"><img src="images/thumbs/tokyo.png" alt="" />東京都 新型コロナウイルス感染症対策サイト <i class="fas fa-external-link-alt"></i></span></a></div>
+									<div class="col-4"><a href="https://cio.go.jp/hosp_monitoring_c19" target="_blank"><span class="image fit"><img src="images/thumbs/ciomedical.png" alt="" />医療提供体制の状況 <i class="fas fa-external-link-alt"></i></span></a></div>
 								</div>
+								
 							</div>
 							
 							<div class="row">
@@ -400,6 +381,7 @@
 										<li><a href="https://www.mhlw.go.jp/stf/houdou/index.html" target="_blank">厚生労働省 報道発表資料 <i class="fas fa-external-link-alt"></i></a></li>
 										<li><a href="https://fukuno.jig.jp/2788" target="_blank">新型コロナウイルス陽性患者数PDFデータをJSON-API化 <i class="fas fa-external-link-alt"></i></a></li>
 										<li><a href="https://catalog.data.metro.tokyo.lg.jp/dataset/t000010d0000000068" target="_blank">東京都 新型コロナウイルス患者発表者数 <i class="fas fa-external-link-alt"></i></a></li>
+										<li><a href="https://resas.go.jp/#/13/13101" target="_blank">RESAS 地域経済分析システム <i class="fas fa-external-link-alt"></i></a></li>
 										<li><a href="https://plot.ly/" target="_blank">plotly <i class="fas fa-external-link-alt"></i></a></li>
 									</ul>
 							</div>
@@ -414,6 +396,7 @@
 					<section id="update"><span id ="8"></span>
 						<h2>更新履歴</h2>
 						<p>
+							2020. 4.12 世界の感染状況閉鎖<br>
 							2020. 4.11 国内感染者数、関連リンク修正<br>
 							2020. 4. 5 全国クラスターマップ追加<br>
 							2020. 3.29 メニューボタン追加<br>
