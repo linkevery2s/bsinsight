@@ -456,7 +456,8 @@ function get_kansen(){
 			bed[10] = "225";
 			bed[7] = "200";
 			bed[27] = "246";
-			
+			bed[3] = "78";
+			bed[35] = "130";
 			document.getElementById('2ja_ka').style.backgroundColor = '#FFFFFF';
 			document.getElementById('2ja_hokkaido').innerHTML = "北海道<br><center>現患者数／病床数<br>" + json_data.area[0].ncurrentpatients + "／" + bed[0] + "</center>";
 			document.getElementById('2ja_aomori').innerHTML = "青森県<br><center>現患者数／病床数<br>" + json_data.area[1].ncurrentpatients + "／" + bed[1] + "</center>";
