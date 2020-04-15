@@ -244,3 +244,10 @@ h3.ti::before {
 #density{
 	display: none;
 }
+
+#answer{
+	margin-left: 5px;
+	font-weight: bold;
+	font-size: 2.5em;
+	color: #FF0000;
+}

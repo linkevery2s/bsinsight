@@ -1,4 +1,5 @@
 var map;var zoom;var url;var todou; var ido; var keido;
+var bed = new Array(47); var x = new Array(47); var y = new Array(47); var mitudo = Array(47); var mitudo_total = Array(47);  var density = Array(47);
 
 	function start(x, y, z){
 		map = L.map('map',{zoomControl: false});
@@ -118,7 +119,6 @@ function iro5(feature, latlng) {
 	});
 }
 
-var bed = new Array(47);
 
 function get_beds(){
 
@@ -140,7 +140,9 @@ function get_beds(){
 
 
 function get_kansen(){
+
 	get_beds();
+	
 	var xhr = new XMLHttpRequest();
 	xhr.onreadystatechange = function(){
 		if (xhr.readyState === 4 && xhr.status === 200){
@@ -507,8 +509,6 @@ function get_kansen(){
 			document.getElementById("2ja_okinawa").innerHTML = "沖縄県<br><center>現患者数／病床数<br>" + json_data.area[46].ncurrentpatients + "／" + bed[46] + "</center>";
 
 			/* 色分け判定 */
-			var x = new Array(47);
-
 			x[0] = document.getElementById('2ja_hokkaido');
 			x[1] = document.getElementById('2ja_aomori');
 			x[2] = document.getElementById('2ja_iwate');
@@ -577,7 +577,7 @@ function get_kansen(){
 			}
 
 			/* density */
-			var density = Array(47);
+			
 density[0]="5286000";
 density[1]="1263000";
 density[2]="1241000";
@@ -626,7 +626,7 @@ density[44]="1081000";
 density[45]="1614000";
 density[46]="1448000";
 
-			var y = new Array(47);
+
 			y[0] = document.getElementById('3ja_hokkaido');
 			y[1] = document.getElementById('3ja_aomori');
 			y[2] = document.getElementById('3ja_iwate');
@@ -675,10 +675,10 @@ density[46]="1448000";
 			y[45] = document.getElementById("3ja_kagoshima");
 			y[46] = document.getElementById("3ja_okinawa");
 
-			var mitudo = Array(47);
+
 			
 			for (var i = 0; i < 47; i++){
-				mitudo[i] = Math.round(json_data.area[i].npatients / density[i] * 100000 * 10)/10;
+				mitudo[i] = Math.round(json_data.area[i].ncurrentpatients / density[i] * 100000 * 10)/10;
 				y[i].innerHTML = json_data.area[i].name_jp + "<br><center>" + mitudo[i] +"</center>";
 			}
 
@@ -705,6 +705,10 @@ density[46]="1448000";
 				}
 			
 			}
+			
+			for (var i = 0; i < 47; i++){
+				mitudo_total[i] = Math.round(json_data.area[i].npatients / density[i] * 100000 * 10)/10;
+			}
 
 
       var day1 = json_data.lastUpdate.split("-");
@@ -714,6 +718,41 @@ density[46]="1448000";
   var url = "https://www.stopcovid19.jp/data/covid19japan.json";
   xhr.open('GET', url);
   xhr.send(null);
+}
+
+function calculate(){
+	var select=document.getElementById("demo-category").value;
+
+	if( select == ""){
+		alert("都道府県を選択してください。");
+		exit;
+	}else{}
+	
+	var input_jinko = document.getElementById("jinko").value;
+	
+	if( input_jinko == ""){
+		alert("市町村の人口を入力してください。");
+		exit;
+	}else{}
+	
+	var answer1 = mitudo[select] * input_jinko / 10;
+	
+	var answer2 = mitudo_total[select] * input_jinko / 10;
+	
+	answer1 = Math.round(answer1 * 10)/10;
+	
+	answer2 = Math.round(answer2 * 10)/10;
+	
+	var vari = document.getElementsByName("vari");
+	
+	if( vari[0].checked ){
+
+		document.getElementById("answer").innerHTML = answer2;
+	}else{
+
+		document.getElementById("answer").innerHTML = answer1;
+	}
+	
 }
 
 function func1(){

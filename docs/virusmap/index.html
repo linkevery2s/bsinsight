@@ -66,6 +66,10 @@
     </div>
   </li>
   <li>
+    <div class="dropdownlink" onclick="link(5)"><i class="fa fa-clipboard" aria-hidden="true"></i> 地域分析
+    </div>
+  </li>
+  <li>
     <div class="dropdownlink" onclick="link(3)"><i class="fa fa-clipboard" aria-hidden="true"></i> 都道府県別集計
     </div>
   </li>
@@ -102,7 +106,7 @@
 						<br>
 						<blockquote>
 						・病床数との比較は、入院患者と病床数を比較しリスク度を色分けしました。赤くなるほど、リスクが高いです。<br>
-						・感染密度は、人口10万人あたりの感染者数を表示しています。赤くなるほど、感染の広がりが速い地域です。
+						・感染密度は、人口10万人あたりの感染者数を表示しています。赤くなるほど、感染の広がりが大きい地域です。
 						<br>（出典：病床数は<a href="https://www.stopcovid19.jp/" target="_blank">新型コロナウイルス対策ダッシュボード <i class="fas fa-external-link-alt"></i></a>を参照し、人口統計は<a href="https://resas.go.jp/#/13/13101" target="_blank">RESAS <i class="fas fa-external-link-alt"></i></a>を参照しました。）
 						</blockquote>
 								<div class="row gtr-uniform gtr-50">
@@ -285,11 +289,110 @@
 							</div>
 						</div>
 
-						<hr>
-						<h3 class="ti">陽性患者の推移</h3>
-						<div class="flourish-embed flourish-chart" data-src="visualisation/1624390"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
-						<p>※クルーズ船の数は含まれていません。</p>
+					</section>
 
+					<section id="tiiki"><span id ="5"></span>
+						<h2>地域分析</h2>
+						
+						<p>上記の国内感染者数は、県ごとに病床数や感染密度を比較するものでしたが、これを応用し、市町村ごとの地域分析を試みたいと思います。</p>
+						<blockquote>
+						①陽性者の感染密度又は現患者の感染密度を選択します。<br>
+						②お住まいの都道府県を選択します。<br>
+						③お住まいの市町村の人口（単位：万人）を入力します。<br>
+						④計算するボタンを押します。
+						</blockquote>
+						
+						<p>これにより、感染密度に基づく、統計感染者数が計算されます。実際の感染者数を自治体のウェブサイトから調べてください。もし、実際の感染者数の方が多かった場合、県内でその市町村は感染の広がりが速く、県の対策だけではなく、市町村独自の対策（より厳しいもの）が必要ということになります。<br>
+						県というマクロな視点から、市町村というミクロな視点にクローズアップすることができます。</p>
+						
+							<div class="box alt">
+								<div class="row gtr-50 gtr-uniform">
+
+									<div class="col-4 col-12-small">
+										<input type="radio" id="demo-priority-low2" name="vari" checked>
+										<label for="demo-priority-low2">陽性者の感染密度</label>
+									</div>
+									<div class="col-4 col-12-small">
+										<input type="radio" id="demo-priority-normal2" name="vari">
+										<label for="demo-priority-normal2">現患者の感染密度</label>
+									</div>
+
+									<div class="col-12">
+										<select name="demo-category" id="demo-category">
+											<option value="">- 都道府県選択 -</option>
+											<option value="0">北海道</option>
+											<option value="1">青森県</option>
+											<option value="2">岩手県</option>
+											<option value="3">宮城県</option>
+											<option value="4">秋田県</option>
+											<option value="5">山形県</option>
+											<option value="6">福島県</option>
+											<option value="7">茨城県</option>
+											<option value="8">栃木県</option>
+											<option value="9">群馬県</option>
+											<option value="10">埼玉県</option>
+											<option value="11">千葉県</option>
+											<option value="12">東京都</option>
+											<option value="13">神奈川県</option>
+											<option value="14">新潟県</option>
+											<option value="15">富山県</option>
+											<option value="16">石川県</option>
+											<option value="17">福井県</option>
+											<option value="18">山梨県</option>
+											<option value="19">長野県</option>
+											<option value="20">岐阜県</option>
+											<option value="21">静岡県</option>
+											<option value="22">愛知県</option>
+											<option value="23">三重県</option>
+											<option value="24">滋賀県</option>
+											<option value="25">京都府</option>
+											<option value="26">大阪府</option>
+											<option value="27">兵庫県</option>
+											<option value="28">奈良県</option>
+											<option value="29">和歌山県</option>
+											<option value="30">鳥取県</option>
+											<option value="31">島根県</option>
+											<option value="32">岡山県</option>
+											<option value="33">広島県</option>
+											<option value="34">山口県</option>
+											<option value="35">徳島県</option>
+											<option value="36">香川県</option>
+											<option value="37">愛媛県</option>
+											<option value="38">高知県</option>
+											<option value="39">福岡県</option>
+											<option value="40">佐賀県</option>
+											<option value="41">長崎県</option>
+											<option value="42">熊本県</option>
+											<option value="43">大分県</option>
+											<option value="44">宮崎県</option>
+											<option value="45">鹿児島県</option>
+											<option value="46">沖縄県</option>
+										</select>
+									</div>
+									
+									<div class="col-6 col-12-xsmall">
+										市町村人口<br>
+										<input type="number" name="jinko" id ="jinko" class = "jinko" width="30px">万人
+									</div>
+									<div class="col-6 col-12-xsmall">
+										<ul class="actions">
+											<li><a href="javascript:void(0);" class="button primary" onclick="calculate();">計算する</a></li>
+										</ul>
+									</div>
+									<br>
+									<div class="col-6 col-12-xsmall">
+									統計感染者数：<span id = "answer"></span>人
+									</div>
+									<div class="col-6 col-12-xsmall">
+									</div>
+							</div>
+						</div>
+							<p>
+							この計算手法、さらに応用が可能です。自分の地域だけではなく、隣接する市町村を調べて、感染の広がりが速かった場合、自分の市町村にも広がってくるかもしれないと、早めの対策を打てます。<br>陽性者の感染密度と現患者の感染密度の統計感染者数を比べて大差ない場合、退院の患者が少ないため、医療機関への圧迫の懸念があります。<br>
+							潜在的な感染者もいるかもしれないため、正確ではない可能性もありますが、一つの指標にはなるはずです。<br>
+							皆さんのお住まいの地域はどうなっているでしょうか？<br>
+							目に見えない難敵を「見える化」しましょう！
+							</p>
 					</section>
 
 					<section id="statis1"><span id ="3"></span>
@@ -325,7 +428,11 @@
 						<h2>日本情勢</h2>
 							<div id = "day_s">随時更新</div>
 							<iframe src="timeline.html" width="100%" height="580px"></iframe>
-						
+							
+						<hr>
+						<h3 class="ti">陽性患者の推移</h3>
+						<div class="flourish-embed flourish-chart" data-src="visualisation/1624390"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+						<p>※クルーズ船の数は含まれていません。</p>
 						<hr>
 
 						<h3 class="ti">PCR検査数と陽性者数の推移</h3>
@@ -403,6 +510,7 @@
 					<section id="update"><span id ="8"></span>
 						<h2>更新履歴</h2>
 						<p>
+							2020. 4.15 感染密度を現患者の密度に変更、地域分析追加<br>
 							2020. 4.12 世界の感染状況閉鎖、国内感染者数統計追加<br>
 							2020. 4.11 国内感染者数、関連リンク修正<br>
 							2020. 4. 5 全国クラスターマップ追加<br>
