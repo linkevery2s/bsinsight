@@ -1,5 +1,6 @@
 var map;var zoom;var url;var todou; var ido; var keido;
 var bed = new Array(47); var x = new Array(47); var y = new Array(47); var mitudo = Array(47); var mitudo_total = Array(47);  var density = Array(47);
+var multi = new Array(47);
 
 	function start(x, y, z){
 		map = L.map('map',{zoomControl: false});
@@ -142,6 +143,10 @@ function get_beds(){
 function get_kansen(){
 
 	get_beds();
+	
+	if( bed[1] == "undefined"){
+		get_beds();
+	}else{}
 	
 	var xhr = new XMLHttpRequest();
 	xhr.onreadystatechange = function(){
@@ -460,7 +465,7 @@ function get_kansen(){
 			bed[27] = "246";
 			bed[3] = "78";
 			bed[35] = "130";
-bed[20] = "458";
+			bed[20] = "458";
 
 		document.getElementById('2ja_ka').style.backgroundColor = '#FFFFFF';
 			document.getElementById('2ja_hokkaido').innerHTML = "北海道<br><center>現患者数／病床数<br>" + json_data.area[0].ncurrentpatients + "／" + bed[0] + "</center>";
@@ -775,3 +780,21 @@ function func3(){
 	$("#beds").hide();
 	$("#density").show();
 }
+
+/* 自治体のオープンデータ 
+function get_Municipalities(){
+
+	var xhr = new XMLHttpRequest();
+	xhr.onreadystatechange = function(){
+		if (xhr.readyState === 4 && xhr.status === 200){
+			var json_data = eval( '('+xhr.responseText +')');
+			
+					multi[1] = json_data[0].npatients;
+				
+    	}
+  };
+  var url = "https://www.stopcovid19.jp/data/covid19japan-fast.json";
+  xhr.open('GET', url);
+  xhr.send(null);
+
+}*/
