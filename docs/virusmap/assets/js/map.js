@@ -2,124 +2,6 @@ var map;var zoom;var url;var todou; var ido; var keido;
 var bed = new Array(47); var x = new Array(47); var y = new Array(47); var mitudo = Array(47); var mitudo_total = Array(47);  var density = Array(47);
 var multi = new Array(47);
 
-	function start(x, y, z){
-		map = L.map('map',{zoomControl: false});
-		L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  		attribution: '&copy; <a href="http://osm.org/copyright" target="_blank">OpenStreetMap</a> contributors'
-  		}).addTo(map);
-  		L.control.zoom({position: 'topright'}).addTo(map);
-		map.setView([x, y], z);
-	}
-
-    function w_ini() {
-		start(29.993, 139.179, 2);
-		var count1 = L.geoJson(country1, {style: sty,onEachFeature: geo_k, pointToLayer: iro1});
-		var count2 = L.geoJson(country2, {style: sty,onEachFeature: geo_k, pointToLayer: iro2});
-		var count3 = L.geoJson(country3, {style: sty,onEachFeature: geo_k, pointToLayer: iro3});
-		var count4 = L.geoJson(country4, {style: sty,onEachFeature: geo_k, pointToLayer: iro4});
-		var count5 = L.geoJson(country5, {style: sty,onEachFeature: geo_k, pointToLayer: iro5});
-		map.addLayer(count1);
-		map.addLayer(count2);
-		map.addLayer(count3);
-		map.addLayer(count4);
-		map.addLayer(count5);
-	}
-
-	function ni_ini(){
-		var map2 = L.map('map2',{zoomControl: false});
-		L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  		attribution: '&copy; <a href="http://osm.org/copyright" target="_blank">OpenStreetMap</a> contributors'
-  		}).addTo(map2);
-  		L.control.zoom({position: 'topright'}).addTo(map2);
-		map2.setView([38.101, 139.179], 5);
-		var count1 = L.geoJson(japan1, {style: sty,onEachFeature: geo_k, pointToLayer: iro1});
-		var count2 = L.geoJson(japan2, {style: sty,onEachFeature: geo_k, pointToLayer: iro2});
-		var count3 = L.geoJson(japan3, {style: sty,onEachFeature: geo_k, pointToLayer: iro3});
-		var count4 = L.geoJson(japan4, {style: sty,onEachFeature: geo_k, pointToLayer: iro4});
-		var count5 = L.geoJson(japan5, {style: sty,onEachFeature: geo_k, pointToLayer: iro5});
-		map2.addLayer(count1);
-		map2.addLayer(count2);
-		map2.addLayer(count3);
-		map2.addLayer(count4);
-		map2.addLayer(count5);
-	}
-
-function sty(feature) {
-				return feature.properties && feature.properties.style;
-			}
-
-function geo_k(feature, layer) {
-    var popup;
-    if (feature.properties && feature.properties.Name) {
-        popup = feature.properties.Name;
-    }
-    
-    if (feature.properties && feature.properties.Kansen){
-    	popup += '<br>感染者数：' + feature.properties.Kansen;
-    }
-
-    if (feature.properties && feature.properties.Shibou){
-    	popup += '<br>死亡者数：' + feature.properties.Shibou;
-    }
-
-    layer.bindPopup(popup);
-}
-
-function iro1(feature, latlng) {
-	return L.circleMarker(latlng, {
-		radius: 18,
-		fillColor: "#ff0000",
-		color: "#000",
-		weight: 1,
-		opacity: 1,
-		fillOpacity: 0.8
-	});
-}
-
-function iro2(feature, latlng) {
-	return L.circleMarker(latlng, {
-		radius: 16,
-		fillColor: "#ff4500",
-		color: "#000",
-		weight: 1,
-		opacity: 1,
-		fillOpacity: 0.8
-	});
-}
-
-function iro3(feature, latlng) {
-	return L.circleMarker(latlng, {
-		radius: 14,
-		fillColor: "#ffff00",
-		color: "#000",
-		weight: 1,
-		opacity: 1,
-		fillOpacity: 0.8
-	});
-}
-
-function iro4(feature, latlng) {
-	return L.circleMarker(latlng, {
-		radius: 12,
-		fillColor: "#008000",
-		color: "#000",
-		weight: 1,
-		opacity: 1,
-		fillOpacity: 0.8
-	});
-}
-
-function iro5(feature, latlng) {
-	return L.circleMarker(latlng, {
-		radius: 10,
-		fillColor: "#0000ff",
-		color: "#000",
-		weight: 1,
-		opacity: 1,
-		fillOpacity: 0.8
-	});
-}
-
 
 function get_beds(){
 
@@ -444,28 +326,29 @@ function get_kansen(){
 
 			/* 病床数との比較 */
 			bed[0] = "250";
-			bed[15] = "100";
+			bed[3] = "78";
 			bed[6] = "111";
-			bed[25] = "140";
-			bed[17] = "84";
-			bed[28] = "64";
+			bed[7] = "200";
+			bed[10] = "225";
+			bed[11] = "247";
+			bed[12] = "1000";
+			bed[13] = "174";
+			bed[15] = "100";
 			bed[16] = "500";
-			bed[31] = "30";
-			bed[38] = "23";
+			bed[17] = "84";
+			bed[20] = "458";
 			bed[22] = "300";
+			bed[25] = "140";
+			bed[26] = "600";
+			bed[27] = "246";
+			bed[28] = "64";
+			bed[30] = "293";
+			bed[31] = "30";
+			bed[32] = "120";
+			bed[35] = "130";
+			bed[38] = "23";
 			bed[42] = "218";
 			bed[43] = "118";
-			bed[30] = "265";
-			bed[32] = "117";
-			bed[12] = "1000";
-			bed[26] = "600";
-			bed[11] = "247";
-			bed[10] = "225";
-			bed[7] = "200";
-			bed[27] = "246";
-			bed[3] = "78";
-			bed[35] = "130";
-			bed[20] = "458";
 
 		document.getElementById('2ja_ka').style.backgroundColor = '#FFFFFF';
 			document.getElementById('2ja_hokkaido').innerHTML = "北海道<br><center>現患者数／病床数<br>" + json_data.area[0].ncurrentpatients + "／" + bed[0] + "</center>";

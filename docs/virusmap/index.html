@@ -70,11 +70,11 @@
     </div>
   </li>
   <li>
-    <div class="dropdownlink" onclick="link(3)"><i class="fa fa-clipboard" aria-hidden="true"></i> 都道府県別集計
+    <div class="dropdownlink" onclick="link(4)"><i class="fa fa-clipboard" aria-hidden="true"></i> 年代別集計
     </div>
   </li>
   <li>
-    <div class="dropdownlink" onclick="link(4)"><i class="fa fa-clipboard" aria-hidden="true"></i> 年代別集計
+    <div class="dropdownlink" onclick="link(8)"><i class="fa fa-clipboard" aria-hidden="true"></i> 日本情勢
     </div>
   </li>
   <li>
@@ -394,26 +394,7 @@
 							目に見えない難敵を「見える化」しましょう！
 							</p>
 					</section>
-
-					<section id="statis1"><span id ="3"></span>
-						<h2>都道府県別集計</h2>
-
-							<h3 class="ti">新規感染者数の推移</h3>
-								<blockquote>
-								直近1週間（4/3～4/10）の新規の感染者数をプロットしました。
-								</blockquote>
-								<div id ="map2"></div>
-								<br>
-							<div>
-								色分け方法<br>
-								<span style="margin-left: 5px; background-color: #ff0000;">　　</span>　900人以上<br>
-								<span style="margin-left: 5px; background-color: #ff4500;">　　</span>　200～899人<br>
-								<span style="margin-left: 5px; background-color: #ffff00;">　　</span>　100～199人<br>
-								<span style="margin-left: 5px; background-color: #008000;">　　</span>　20～99人<br>
-								<span style="margin-left: 5px; background-color: #0000ff;">　　</span>　20人未満
-							</div>
-					</section>
-					
+				
 					<section id="statis2"><span id ="4"></span>
 						<h2>年代別集計</h2>
 							<div id = "day_s">2020.4.12更新</div>
@@ -424,19 +405,23 @@
 								<div id="nendai" style="width:100%;height:600px;"></div>
 					</section>
 
-					<section id="timeline">
+					<section id="timeline"><span id ="8"></span>
 						<h2>日本情勢</h2>
 							<div id = "day_s">随時更新</div>
 							<iframe src="timeline.html" width="100%" height="580px"></iframe>
 							
 						<hr>
 						<h3 class="ti">陽性患者の推移</h3>
-						<div class="flourish-embed flourish-chart" data-src="visualisation/1624390"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+						
+						<canvas id="yous"></canvas>
+						
 						<p>※クルーズ船の数は含まれていません。</p>
 						<hr>
 
 						<h3 class="ti">PCR検査数と陽性者数の推移</h3>
-						<div class="flourish-embed flourish-chart" data-src="visualisation/1616330"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+						
+						<canvas id="pcr"></canvas>
+						
 						<p>※クルーズ船の数は含まれていません。</p>
 						<hr>
 						<h3 class="ti">全国クラスターマップ</h3>
@@ -451,16 +436,15 @@
 						<h2>感染者の初期症状</h2>
 						<blockquote>
 						WHOの報告書「<a href="https://www.who.int/docs/default-source/coronaviruse/who-china-joint-mission-on-covid-19-final-report.pdf">Report of the WHO-China Joint Mission on Coronavirus Disease 2019 (COVID-19)  <i class="fas fa-external-link-alt"></i></a>」では、世界各国の調査チーム及び中国当局の専門家が、2月20日までに中国で感染が確認された5万5,924名の症状について、分析しています。
-						
 						</blockquote>
-						<div class="flourish-embed flourish-chart" data-src="visualisation/1676093"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 						
+						<canvas id="bchart" height="300px"></canvas>
+						<br>
 						<blockquote>
 						症状が現れるのは、平均5～6日後（潜伏期間5～6日、潜伏範囲1～14日）とのことです。
 						</blockquote>
-						
-						<div class="flourish-embed flourish-chart" data-src="visualisation/1685825"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
-						
+						<canvas id="chart"></canvas>
+
 						<blockquote>
 						・軽症：肺炎症状のない又は肺炎患者<br>
 						・重症：呼吸困難、呼吸頻度≧30回/分、酸素飽和度≦93%、Pao2/Fio≦300、24～48時間内肺浸潤≧50%<br>
@@ -498,6 +482,7 @@
 										<li><a href="https://www.mhlw.go.jp/bunya/kenkou/kekkaku-kansenshou15/02-02.html" target="_blank">感染症指定医療機関の指定状況</a></li>
 										<li><a href="https://plot.ly/" target="_blank">plotly <i class="fas fa-external-link-alt"></i></a></li>
 										<li><a href="https://www.photo-ac.com/" target="_blank">写真AC <i class="fas fa-external-link-alt"></i></a></li>
+										<li><a href="https://www.chartjs.org/" target="_blank">Chart.js <i class="fas fa-external-link-alt"></i></a></li>
 									</ul>
 							</div>
 								<div class="col-6 col-12-xsmall">
@@ -511,6 +496,7 @@
 					<section id="update"><span id ="8"></span>
 						<h2>更新履歴</h2>
 						<p>
+							2020. 4.17 都道府県別集計閉鎖、グラフ表示変更<br>
 							2020. 4.15 感染密度を現患者の密度に変更、地域分析追加<br>
 							2020. 4.12 世界の感染状況閉鎖、国内感染者数統計追加<br>
 							2020. 4.11 国内感染者数、関連リンク修正<br>
@@ -551,6 +537,8 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"></script>
+			<script src="assets/js/graph.js"></script>
 			<script src="assets/js/modal.js"></script>
 			<script>
 			

@@ -34,10 +34,5 @@ var layout = {showlegend: false};
 
 Plotly.newPlot('nendai', data, layout);
 
-//w_ini();
-
-ni_ini();
-
-
 
 }
