@@ -3,7 +3,7 @@ var bed = new Array(47); var x = new Array(47); var y = new Array(47); var mitud
 var multi = new Array(47);
 
 
-function get_beds(){
+/*function get_beds(){
 
 	var xhr = new XMLHttpRequest();
 	xhr.onreadystatechange = function(){
@@ -19,16 +19,16 @@ function get_beds(){
   xhr.open('GET', url);
   xhr.send(null);
 
-}
+}*/
 
 
 function get_kansen(){
 
-	get_beds();
+	/*get_beds();
 	
 	if( bed[1] == "undefined"){
 		get_beds();
-	}else{}
+	}else{}*/
 	
 	var xhr = new XMLHttpRequest();
 	xhr.onreadystatechange = function(){
@@ -326,29 +326,52 @@ function get_kansen(){
 
 			/* 病床数との比較 */
 			bed[0] = "250";
+			bed[1] = "29";
+			bed[2] = "38";
 			bed[3] = "78";
+			bed[4] = "36";
+			bed[5] = "24";
 			bed[6] = "111";
 			bed[7] = "200";
+			bed[8] = "43";
+			bed[9] = "55";
 			bed[10] = "225";
 			bed[11] = "247";
 			bed[12] = "1000";
 			bed[13] = "174";
+			bed[14] = "71";
 			bed[15] = "100";
 			bed[16] = "500";
 			bed[17] = "84";
+			bed[18] = "30";
+			bed[19] = "52";
 			bed[20] = "458";
+			bed[21] = "55";
 			bed[22] = "300";
+			bed[23] = "66";
+			bed[24] = "40";
 			bed[25] = "140";
 			bed[26] = "600";
 			bed[27] = "246";
 			bed[28] = "64";
+			bed[29] = "45";
 			bed[30] = "293";
 			bed[31] = "30";
 			bed[32] = "120";
+			bed[33] = "30";
+			bed[34] = "42";
 			bed[35] = "130";
+			bed[36] = "31";
+			bed[37] = "29";
 			bed[38] = "23";
+			bed[39] = "80";
+			bed[40] = "28";
+			bed[41] = "38";
 			bed[42] = "218";
 			bed[43] = "118";
+			bed[44] = "31";
+			bed[45] = "53";
+			bed[46] = "24";
 
 		document.getElementById('2ja_ka').style.backgroundColor = '#FFFFFF';
 			document.getElementById('2ja_hokkaido').innerHTML = "北海道<br><center>現患者数／病床数<br>" + json_data.area[0].ncurrentpatients + "／" + bed[0] + "</center>";
@@ -385,7 +408,7 @@ function get_kansen(){
 			document.getElementById("2ja_shimane").innerHTML = "島根県<br><center>現患者数／病床数<br>" + json_data.area[31].ncurrentpatients + "／" + bed[31] + "</center>";
 			document.getElementById("2ja_okayama").innerHTML = "岡山県<br><center>現患者数／病床数<br>" + json_data.area[32].ncurrentpatients + "／" + bed[32] + "</center>";
 			document.getElementById("2ja_hiroshima").innerHTML = "広島県<br><center>現患者数／病床数<br>" + json_data.area[33].ncurrentpatients + "／" + bed[33] + "</center>";
-			document.getElementById("2ja_yamaguchi").innerHTML = "山梨県<br><center>現患者数／病床数<br>" + json_data.area[34].ncurrentpatients + "／" + bed[34] + "</center>";
+			document.getElementById("2ja_yamaguchi").innerHTML = "山口県<br><center>現患者数／病床数<br>" + json_data.area[34].ncurrentpatients + "／" + bed[34] + "</center>";
 			document.getElementById("2ja_tokushima").innerHTML = "徳島県<br><center>現患者数／病床数<br>" + json_data.area[35].ncurrentpatients + "／" + bed[35] + "</center>";
 			document.getElementById("2ja_kagawa").innerHTML = "香川県<br><center>現患者数／病床数<br>" + json_data.area[36].ncurrentpatients + "／" + bed[36] + "</center>";
 			document.getElementById("2ja_ehime").innerHTML = "愛媛県<br><center>現患者数／病床数<br>" + json_data.area[37].ncurrentpatients + "／" + bed[37] + "</center>";
