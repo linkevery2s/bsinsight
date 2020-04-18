@@ -33,6 +33,30 @@ afterDatasetsDraw: function (chart, easing) {
     }
 };
 
+/* 年代別集計 */
+  var nendai = new Chart(document.getElementById("nendai"), {
+    type: 'horizontalBar',
+    data: {
+        labels: ["10歳未満","10代","20代","30代","40代","50代","60代","70代","80代","90代"],
+      datasets: [
+      {
+          label: "男性",
+          data: [31,26,275,393,464,425,318,231,106,26],
+          backgroundColor: "rgb(0, 102, 204, 0.5)"
+      },
+      {
+          label: "女性",
+          data: [14,32,314,275,188,225,140,133,106,51],
+          backgroundColor: "rgb(255, 102, 255, 0.5)"
+      }
+      
+      ]
+    },
+    options: {legend: {display: false} }
+  });
+
+
+
 /* 軽症者の割合 */
   var ch = document.getElementById("chart");
   var myPieChart = new Chart(ch, {

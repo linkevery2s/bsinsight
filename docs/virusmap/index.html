@@ -27,17 +27,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js" type="text/javascript"></script>
 	<link href="https://leafletjs-cdn.s3.amazonaws.com/content/leaflet/master/leaflet.css" rel="stylesheet" type="text/css" />
     <script src="https://leafletjs-cdn.s3.amazonaws.com/content/leaflet/master/leaflet.js"></script>
-	<script src="https://cdn.plot.ly/plotly-1.2.0.min.js"></script>
-	<script src="assets/js/chart.js"></script>
 	<script src='assets/js/map.js'></script>
-	<script src='data/japan1.geojson'></script>
-	<script src='data/japan2.geojson'></script>
-	<script src='data/japan3.geojson'></script>
-	<script src='data/japan4.geojson'></script>
-	<script src='data/japan5.geojson'></script>
 
 	</head>
-	<body class="is-preload" onLoad="chart()">
+	<body class="is-preload" onLoad="get_kansen()">
 
 		<!-- Header -->
 			<header id="header">
@@ -397,12 +390,21 @@
 				
 					<section id="statis2"><span id ="4"></span>
 						<h2>年代別集計</h2>
-							<div id = "day_s">2020.4.12更新</div>
+							<div id = "day_s">2020.4.18更新</div>
 								<blockquote>
-								新規の感染者が最も多い東京都の統計データをもとに、年齢別の感染者数を可視化しました。
+								オープンデータとして公開されている北海道、東京都、福井県、静岡県、岡山県、福岡県の統計データをもとに、年齢別の感染者数を可視化しました。
 								</blockquote>
 								<!-- 年代別 -->
-								<div id="nendai" style="width:100%;height:600px;"></div>
+								<canvas id="nendai" height="200px"></canvas>
+								<br>
+								<p>
+								以下の資料をもとに仁志が加工・編集して作成しました。<br>
+								<a href="https://www.harp.lg.jp/opendata/dataset/1369.html" target="_blank">北海道 新型コロナウイルス感染症に関するデータ <i class="fas fa-external-link-alt"></i></a><br>
+								<a href="https://catalog.data.metro.tokyo.lg.jp/dataset/t000010d0000000068" target="_blank">東京都 新型コロナウイルス陽性患者発表詳細 <i class="fas fa-external-link-alt"></i></a><br>
+								<a href="https://www.pref.fukui.lg.jp/doc/toukei-jouhou/covid-19.html" target="_blank">福井県 新型コロナウイルス感染症情報 <i class="fas fa-external-link-alt"></i></a><br>
+								<a href="https://opendata.pref.shizuoka.jp/dataset/8167.html" target="_blank">静岡県 新型コロナウイルス感染症県内感染動向 <i class="fas fa-external-link-alt"></i></a><br>
+								<a href="https://ckan.open-governmentdata.org/dataset/401000_pref_fukuoka_covid19_patients" target="_blank">福岡県 新型コロナウイルス感染症 陽性患者発表情報 <i class="fas fa-external-link-alt"></i></a>
+								</p>
 					</section>
 
 					<section id="timeline"><span id ="8"></span>
@@ -496,6 +498,7 @@
 					<section id="update"><span id ="8"></span>
 						<h2>更新履歴</h2>
 						<p>
+							2020. 4.18 年代別集計仕様変更<br>
 							2020. 4.17 都道府県別集計閉鎖、グラフ表示変更<br>
 							2020. 4.15 感染密度を現患者の密度に変更、地域分析追加<br>
 							2020. 4.12 世界の感染状況閉鎖、国内感染者数統計追加<br>
