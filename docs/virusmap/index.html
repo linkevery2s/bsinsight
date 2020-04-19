@@ -22,9 +22,7 @@
     <meta name="author" content="仁志">
 	<link rel="stylesheet" href="assets/css/map.css" />
 	<link rel="stylesheet" href="assets/css/main.css" />
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet">
     <link rel="apple-touch-icon" href="https://linkevery2s.github.io/bsinsight/images/apple-touch-icon.png">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js" type="text/javascript"></script>
 	<link href="https://leafletjs-cdn.s3.amazonaws.com/content/leaflet/master/leaflet.css" rel="stylesheet" type="text/css" />
     <script src="https://leafletjs-cdn.s3.amazonaws.com/content/leaflet/master/leaflet.js"></script>
 	<script src='assets/js/map.js'></script>
@@ -457,6 +455,16 @@
 
 					<section id="kanren"><span id ="7"></span>
 						<h2>関連情報</h2>
+							<h3 class="ti">参考画像／動画</h3>
+							<div class="box alt">
+								<div class="row gtr-50 gtr-uniform">
+									<div class="col-4"><a href="images/fulls/who1.jpg" data-lightbox="abc" data-title="症状比較"><img src="images/fulls/who1.jpg" width="100%" alt="症状比較"></a></div>
+									<div class="col-4"><a href="images/fulls/who2.jpg" data-lightbox="abc" data-title="隔離期間"><img src="images/fulls/who2.jpg" width="100%" alt="隔離期間"></a></div>
+									<div class="col-4"><a href="images/fulls/who3.jpg" data-lightbox="abc" data-title="2m"><img src="images/fulls/who3.jpg" width="100%" alt="2m"></a></div>
+									<div class="col-4"><span class="video-link demo-link" data-video-id="AZULaaJm_nI"><img src="images/fulls/8ratio.jpg" width="100%" alt="8割の接触を避ける意味、解説動画"></span></div>
+								</div>
+							</div>
+							<hr>
 							<h3 class="ti">関連リンク</h3>
 							<div class="box alt">
 								<div class="row gtr-50 gtr-uniform">
@@ -466,12 +474,13 @@
 									<div class="col-4"><a href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000164708_00001.html" target="_blank"><span class="image fit"><img src="images/thumbs/mhlw.png" alt="" />厚生労働省 新型コロナウイルス感染症について <i class="fas fa-external-link-alt"></i></span></a></div>
 									<div class="col-4"><a href="https://stopcovid19.metro.tokyo.lg.jp/" target="_blank"><span class="image fit"><img src="images/thumbs/tokyo.png" alt="" />東京都 新型コロナウイルス感染症対策サイト <i class="fas fa-external-link-alt"></i></span></a></div>
 									<div class="col-4"><a href="https://cio.go.jp/hosp_monitoring_c19" target="_blank"><span class="image fit"><img src="images/thumbs/ciomedical.png" alt="" />医療提供体制の状況 <i class="fas fa-external-link-alt"></i></span></a></div>
+									<div class="col-4"><a href="https://corona.go.jp/" target="_blank"><span class="image fit"><img src="images/thumbs/naikaku.png" alt="" />新型コロナウイルス感染症対策 内閣官房 <i class="fas fa-external-link-alt"></i></span></a></div>
 									<div class="col-4"><a href="https://vscovid19.code4japan.org/" target="_blank"><span class="image fit"><img src="images/thumbs/vscovid19.png" alt="" />#民間支援情報ナビ <i class="fas fa-external-link-alt"></i></span></a></div>
 									<div class="col-4"><a href="https://zaikosokuho.com/" target="_blank"><span class="image fit"><img src="images/thumbs/zaikosokuho.png" alt="" />在庫速報.com <i class="fas fa-external-link-alt"></i></span></a></div>
 								</div>
 								
 							</div>
-							
+							<hr>
 							<div class="row">
 							<div class="col-6 col-12-xsmall">
 							<h3 class="ti">参考文献</h3>
@@ -497,6 +506,7 @@
 					<section id="update"><span id ="8"></span>
 						<h2>更新履歴</h2>
 						<p>
+							2020. 4.19 PCR検査実施件数をlog表記に変更、参考画像／動画追加<br>
 							2020. 4.18 年代別集計仕様変更<br>
 							2020. 4.17 都道府県別集計閉鎖、グラフ表示変更<br>
 							2020. 4.15 感染密度を現患者の密度に変更、地域分析追加<br>
@@ -535,6 +545,9 @@
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.poptrox.min.js"></script>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js" type="text/javascript"></script>
+			<script src="assets/js/videoLightning.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
@@ -565,5 +578,14 @@
 				});
 			
 			</script>
+			<script>
+    			$(function() {
+        			$(".video-link").jqueryVideoLightning({
+            			autoplay: 1,
+            			color: "white"
+        			});
+    			});
+			</script>
+
 	</body>
 </html>

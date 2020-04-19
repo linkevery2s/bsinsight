@@ -88,70 +88,73 @@ afterDatasetsDraw: function (chart, easing) {
 var yousei = new Chart(document.getElementById("yous"), {
     type: 'line',
     data: {
-        labels: ["2.28","3.7","3.14","3.21","3.28","4.4","4.11"],
+        labels: ["2.28","3.7","3.14","3.21","3.28","4.4","4.11","4.18"],
       datasets: [
         {
           label: '陽性者',
-          data: [210, 407, 714, 996, 1499, 2935, 6005],
+          data: [210, 407, 714, 996, 1499, 2935, 6005, 9795],
           borderColor: "rgba(0,0,255,0.6)",
           backgroundColor: "rgba(0,0,0,0)"
         },
         {
           label: '無症状・軽症',
-          data: [96, 219, 365, 510, 835, 1558, 3214],
+          data: [96, 219, 365, 510, 835, 1558, 3214, 5107],
           borderColor: "rgba(255,204,0,0.6)",
           backgroundColor: "rgba(0,0,0,0)"
         },
         {
           label: '退院',
-          data: [41, 76, 144, 232, 404, 575, 762],
+          data: [41, 76, 144, 232, 404, 575, 762, 1069],
           borderColor: "rgba(102,204,0,0.6)",
           backgroundColor: "rgba(0,0,0,0)"
         },
         {
           label: '重症',
-          data: [20, 28, 35, 55, 60, 69, 122],
+          data: [20, 28, 35, 55, 60, 69, 122, 211],
           borderColor: "rgba(102,51,204,0.6)",
           backgroundColor: "rgba(0,0,0,0)"
         },
         {
           label: '死亡',
-          data: [4, 6, 21, 35, 49, 69, 94],
+          data: [4, 6, 21, 35, 49, 69, 94, 154],
           borderColor: "rgba(0,255,255,0.6)",
           backgroundColor: "rgba(0,0,0,0)"
         }
       ]
     },
-    options: {legend: {display: false} }
+    options: {
+    		legend: {display: false}
+    }
   });
 
 /* PCR検査数の推移 */
   var pcr = new Chart(document.getElementById("pcr"), {
     type: 'bar',
     data: {
-        labels: ["2.28","3.7","3.14","3.21","3.28","4.4","4.11"],
+        labels: ["2.28","3.7","3.14","3.21","3.28","4.4","4.11","4.18"],
       datasets: [
     		{
       		label: '陽性者数',
-      		data: [210, 407, 714, 996, 1499, 2935, 6005],
+      		data: [210, 407, 714, 996, 1499, 2935, 6005, 9795],
       		backgroundColor: "rgba(130,201,169,0.7)"
     		},
     		{
       		label: '検査実施件数',
-      		data: [2209, 8029, 12919, 18963, 28464, 42882, 74891],
+      		data: [2209, 8029, 12919, 18963, 28464, 42882, 74891, 111325],
       		backgroundColor: "rgba(219,39,91,0.7)"
     		}
       ]
     },
     options: {
     		legend: {display: false},
-scales: {
-   xAxes:[{
-    stacked: true
-   }],
-   yAxes: [{
-    stacked: true
-   }]
-  }
-    		}
-  });
+			scales: {
+   				xAxes:[{
+    		  		stacked: true
+   				}],
+   				yAxes: [{
+    				stacked: true,
+    				type: 'logarithmic'
+   				}]
+  			}
+    }
+});
