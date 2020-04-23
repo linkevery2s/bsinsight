@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>日本情勢</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+<style>
+.main-bdr{
+  border-color: #6bb6ff;
+}
+ 
+.tl-content {
+  position: relative;
+  padding: 0 0 1.5em 1.8em;
+}
+ 
+.tl-content:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 24px;
+  bottom: 0;
+  left: 6px;
+  width: 3px;
+  background: #ccd5db;
+}
+ 
+.tl-content:not(:first-of-type):not(:last-of-type) .tl_marker {
+  background: transparent;
+}
+ 
+.tl-content:last-of-type:before {
+  content: none;
+}
+ 
+.tl-content img{
+  max-width: 100%;
+  height: auto;
+}
+ 
+.tl_label {
+  padding-top: 2px;
+  color: #90969a;
+  font-size: 14px;
+  font-weight: bold;
+}
+ 
+.tl_title {
+  font-size: 1.1em;
+  font-weight: bold;
+  line-height: 1.5;
+}
+ 
+.tl_main {
+  margin-top: 0.5em;
+  padding: 0 0 1.5em;
+  font-size: 0.9em;
+  line-height: 1.6;
+  border-bottom: dashed 1px #ccd5db;
+}
+ 
+.main-bc {
+  background-color: #6bb6ff;
+}
+ 
+.tl_marker {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 6px;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: solid 3px #6bb6ff;
+}
+</style>
+
+  
+</head>
+
+<body>
+
+<div class="tl">
+  <div class="tl-content main-bdr">
+    <div class="tl_label">STEP.1</div>
+    <div class="tl_title">HTML</div>
+    <div class="tl_main">HTMLを書きます</div>
+    <div class="tl_marker main-bdr main-bc"></div>
+  </div>
+  <div class="tl-content main-bdr">
+    <div class="tl_label">STEP.2</div>
+    <div class="tl_title">CSS</div>
+    <div class="tl_main">CSSで装飾します</div>
+    <div class="tl_marker main-bdr main-bc"></div>
+  </div>
+  <div class="tl-content main-bdr">
+    <div class="tl_label">STEP.3</div>
+    <div class="tl_title">サイトをチェック</div>
+    <div class="tl_main">
+      <p>
+        <img src="/img/html-css.jpg" alt="">
+      </p>
+      <p>思い通りにできているかを確認</p>
+    </div>
+    <div class="tl_marker main-bdr main-bc"></div>
+  </div>
+  <div class="tl-content main-bdr">
+    <div class="tl_title">完成！</div>
+    <div class="tl_main"></div>
+    <div class="tl_marker main-bdr main-bc"></div>
+  </div>
+</div>
+
+</body>
+</html>
