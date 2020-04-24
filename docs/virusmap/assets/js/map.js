@@ -117,7 +117,7 @@ function get_kansen(){
 			/* 茨城県 */ bed[7] = "200";
 			/* 栃木県 */ bed[8] = "43";
 			/* 群馬県 */ bed[9] = "55";
-			/* 埼玉県 */ bed[10] = "225";
+			/* 埼玉県 */ bed[10] = "411";
 			/* 千葉県 */ bed[11] = "247";
 			/* 東京都 */ bed[12] = "1000";
 			/* 神奈川 */ bed[13] = "3400";
@@ -146,14 +146,14 @@ function get_kansen(){
 			/* 香川県 */ bed[36] = "131";
 			/* 愛媛県 */ bed[37] = "29";
 			/* 高知県 */ bed[38] = "23";
-			/* 福岡県 */ bed[39] = "80";
+			/* 福岡県 */ bed[39] = "974";
 			/* 佐賀県 */ bed[40] = "50";
 			/* 長崎県 */ bed[41] = "38";
 			/* 熊本県 */ bed[42] = "218";
 			/* 大分県 */ bed[43] = "118";
 			/* 宮崎県 */ bed[44] = "31";
 			/* 鹿児島 */ bed[45] = "53";
-			/* 沖縄県 */ bed[46] = "24";
+			/* 沖縄県 */ bed[46] = "74";
 
 			document.getElementById('2ja_ka').style.backgroundColor = '#FFFFFF';
 			document.getElementById('2ja_hokkaido').innerHTML = "北海道<br><center>現患者数／病床数<br>" + json_data.area[0].ncurrentpatients + "／" + bed[0] + "</center>";
