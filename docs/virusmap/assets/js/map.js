@@ -153,7 +153,7 @@ function get_kansen(){
 			/* 大分県 */ bed[43] = "118";
 			/* 宮崎県 */ bed[44] = "31";
 			/* 鹿児島 */ bed[45] = "53";
-			/* 沖縄県 */ bed[46] = "24";
+			/* 沖縄県 */ bed[46] = "74";
 
 			document.getElementById('2ja_ka').style.backgroundColor = '#FFFFFF';
 			document.getElementById('2ja_hokkaido').innerHTML = "北海道<br><center>現患者数／病床数<br>" + json_data.area[0].ncurrentpatients + "／" + bed[0] + "</center>";
