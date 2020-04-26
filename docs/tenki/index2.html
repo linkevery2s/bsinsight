@@ -3,10 +3,6 @@
 <head>
 <meta charset="utf-8"/>
 <title>警報・注意報地図</title>
-<meta name="apple-mobile-web-app-capable" content="yes"/>
-<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
-<link rel="apple-touch-icon" href="areamap.png"/>
-<meta property="og:image" content="areamap.png">
 <meta name="format-detection" content="telephone=no"/>
 <script src="https://fukuno.jig.jp/fukuno.js"></script>
 <script src="assets/js/jquery.min.js"></script>
@@ -133,17 +129,10 @@ const makeJapanHTML = function() {
 var prefmap = Array(47);
 
 function map_dis(x){
+	prefmap = [0, "1", "2/5", "2/6", "2/7", "2/8", "2/9", "2/10", "3/11", "3/12", "3/13", "3/14", "3/15", "3/16", "3/17", "4/18", "4/19", "4/20", "4/21", "3/22", "3/23", "5/24", "5/25", "5/26", "5/27", "6/28", "6/29", "6/30", "6/31", "6/32", "6/33", "7/34", "7/35", "7/36", "7/37", "7/38", "8/39", "8/40", "8/41", "8/42", "9/43", "9/44", "9/45", "9/46", "9/47", "9/48", "9/49", "9/49" ];
+	open( 'https://tenki.jp/forecast/' + prefmap[x] , "_blank" ) ;
 
-	prefmap = [0, 308, 310, 312, 309, 311, 313, 314, 316, 315, 317, 318, 319, 320, 323, 324, 325, 326, 321, 322, 328, 327, 329, 330, 334, 333, 331, 332, 335, 336, 339, 337, 340, 338, 345, 343, 341, 342, 344, 346, 347, 348, 349, 350, 351, 352, 353];
-	
-	if(x == 1){
-	document.getElementById("map").innerHTML = "<a href='https://www.jma.go.jp/jp/warn/201.html' target='_blank'><img src='https://www.jma.go.jp/jp/warn/imgs/201/99.png' width='100%'></a>";
-	document.getElementById("map").innerHTML += "<br><br><a href='https://www.jma.go.jp/jp/warn/202.html' target='_blank'><img src='https://www.jma.go.jp/jp/warn/imgs/202/99.png' width='100%'></a>";
-	document.getElementById("map").innerHTML += "<br><br><a href='https://www.jma.go.jp/jp/warn/203.html' target='_blank'><img src='https://www.jma.go.jp/jp/warn/imgs/203/99.png' width='100%'></a>";
-	}
-	else{
-	document.getElementById("map").innerHTML = "<a href='https://www.jma.go.jp/jp/warn/" + prefmap[x-1] + ".html' target='_blank'><img src='https://www.jma.go.jp/jp/warn/imgs/" + prefmap[x-1] + "/99.png' width='100%'></a>";
-	}
+
 
 }
 </script>
@@ -243,8 +232,6 @@ h1 a {
 <body>
 
 <div id="japan"></div>
-<br><br>
-<div id ="map"></div>
 
 </body>
 </html>
