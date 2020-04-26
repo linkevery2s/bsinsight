@@ -2738,10 +2738,12 @@ margin-bottom: 15px;
 @media (max-width: 767px) { 
 #map{width: 525px !important;} 
 #tempif{width: 525px !important;}
+#kisyou{height: 700px !important;}
 }
 @media (max-width: 480px) { 
 #map{width: 303px !important;}
 #tempif{width: 303px !important;}
+#kisyou{height: 700px !important;}
 }
 
 
