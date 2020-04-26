@@ -88,35 +88,35 @@ afterDatasetsDraw: function (chart, easing) {
 var yousei = new Chart(document.getElementById("yous"), {
     type: 'line',
     data: {
-        labels: ["2.28","3.7","3.14","3.21","3.28","4.4","4.11","4.18"],
+        labels: ["2.28","3.7","3.14","3.21","3.28","4.4","4.11","4.18","4.25"],
       datasets: [
         {
           label: '陽性者',
-          data: [210, 407, 714, 996, 1499, 2935, 6005, 9795],
+          data: [210, 407, 714, 996, 1499, 2935, 6005, 9795, 12829],
           borderColor: "rgba(0,0,255,0.6)",
           backgroundColor: "rgba(0,0,0,0)"
         },
         {
           label: '無症状・軽症',
-          data: [96, 219, 365, 510, 835, 1558, 3214, 5107],
+          data: [96, 219, 365, 510, 835, 1558, 3214, 5107, 6246],
           borderColor: "rgba(255,204,0,0.6)",
           backgroundColor: "rgba(0,0,0,0)"
         },
         {
           label: '退院',
-          data: [41, 76, 144, 232, 404, 575, 762, 1069],
+          data: [41, 76, 144, 232, 404, 575, 762, 1069, 2662],
           borderColor: "rgba(102,204,0,0.6)",
           backgroundColor: "rgba(0,0,0,0)"
         },
         {
           label: '重症',
-          data: [20, 28, 35, 55, 60, 69, 122, 211],
+          data: [20, 28, 35, 55, 60, 69, 122, 211, 287],
           borderColor: "rgba(102,51,204,0.6)",
           backgroundColor: "rgba(0,0,0,0)"
         },
         {
           label: '死亡',
-          data: [4, 6, 21, 35, 49, 69, 94, 154],
+          data: [4, 6, 21, 35, 49, 69, 94, 154, 334],
           borderColor: "rgba(0,255,255,0.6)",
           backgroundColor: "rgba(0,0,0,0)"
         }
@@ -131,16 +131,16 @@ var yousei = new Chart(document.getElementById("yous"), {
   var pcr = new Chart(document.getElementById("pcr"), {
     type: 'bar',
     data: {
-        labels: ["2.28","3.7","3.14","3.21","3.28","4.4","4.11","4.18"],
+        labels: ["2.28","3.7","3.14","3.21","3.28","4.4","4.11","4.18","4.25"],
       datasets: [
     		{
       		label: '陽性者数',
-      		data: [210, 407, 714, 996, 1499, 2935, 6005, 9795],
+      		data: [210, 407, 714, 996, 1499, 2935, 6005, 9795, 12829],
       		backgroundColor: "rgba(130,201,169,0.7)"
     		},
     		{
       		label: '検査実施件数',
-      		data: [2209, 8029, 12919, 18963, 28464, 42882, 74891, 111325],
+      		data: [2209, 8029, 12919, 18963, 28464, 42882, 74891, 111325, 147454],
       		backgroundColor: "rgba(219,39,91,0.7)"
     		}
       ]
