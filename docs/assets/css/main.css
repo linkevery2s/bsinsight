@@ -2623,7 +2623,7 @@ ul.alt li:before {
 
 @media screen and (max-width: 480px){
 
-	#tenki_ui{height: 260px !important}
+	#tenki_ui{height: 350px !important}
 	#refuge_ui{height: 330px !important}
 }
 
@@ -2738,12 +2738,11 @@ margin-bottom: 15px;
 @media (max-width: 767px) { 
 #map{width: 525px !important;} 
 #tempif{width: 525px !important;}
-#kisyou{height: 700px !important;}
 }
 @media (max-width: 480px) { 
 #map{width: 303px !important;}
 #tempif{width: 303px !important;}
-#kisyou{height: 560px !important;}
+#kisyou{height: 250px !important;}
 }
 
 
@@ -3516,8 +3515,4 @@ dd b{
 #kisyou{
 	width: 100%;
 	height: 1000px;
-}
-
-#tenki_ui{
-	height: 430px;
 }

@@ -134,6 +134,8 @@ var prefmap = Array(47);
 
 function map_dis(x){
 
+	$('body,html').animate({scrollTop:$("#map").offset().top}, 500);
+
 	prefmap = [0, 308, 310, 312, 309, 311, 313, 314, 316, 315, 317, 318, 319, 320, 323, 324, 325, 326, 321, 322, 328, 327, 329, 330, 334, 333, 331, 332, 335, 336, 339, 337, 340, 338, 345, 343, 341, 342, 344, 346, 347, 348, 349, 350, 351, 352, 353];
 	
 	if(x == 1){
@@ -166,14 +168,12 @@ a{
 	height: 67vw;
 	x-background: red;
 	position: relative;
-	background-color: transparent;
 }
 #map{
 	display: inline-block;
 	width: 95vw;
 	x-background: red;
 	position: relative;
-	background-color: transparent;
 }
 #jp0 {
 	border-spacing: 1vw;
