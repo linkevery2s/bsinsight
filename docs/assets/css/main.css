@@ -2617,13 +2617,10 @@ ul.alt li:before {
 
 @media (max-width: 767px) {
 	#yout{width: 100% !important;}
-	#tenki_ui{height: 400px !important;}
 	#refuge_ui{height: 400px !important;}
 }
 
 @media screen and (max-width: 480px){
-
-	#tenki_ui{height: 350px !important}
 	#refuge_ui{height: 330px !important}
 }
 
@@ -2738,12 +2735,15 @@ margin-bottom: 15px;
 @media (max-width: 767px) { 
 #map{width: 525px !important;} 
 #tempif{width: 525px !important;}
+#kisyou{height: 600px !important;}
+#tenki_ui{height: 320px ! important;}
+
 }
 @media (max-width: 480px) { 
 #map{width: 303px !important;}
 #tempif{width: 303px !important;}
 #kisyou{height: 600px !important;}
-#tenki_ui{height: 320px !important;}
+#tenki_ui{height: 320px ! important;}
 }
 
 
