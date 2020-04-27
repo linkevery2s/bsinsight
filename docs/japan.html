@@ -137,12 +137,12 @@ function map_dis(x){
 	prefmap = [0, 308, 310, 312, 309, 311, 313, 314, 316, 315, 317, 318, 319, 320, 323, 324, 325, 326, 321, 322, 328, 327, 329, 330, 334, 333, 331, 332, 335, 336, 339, 337, 340, 338, 345, 343, 341, 342, 344, 346, 347, 348, 349, 350, 351, 352, 353];
 	
 	if(x == 1){
-	document.getElementById("map").innerHTML = "<a href='https://www.jma.go.jp/jp/warn/201.html' target='_blank'><img src='https://www.jma.go.jp/jp/warn/imgs/201/99.png' width='100%'></a>";
-	document.getElementById("map").innerHTML += "<br><br><a href='https://www.jma.go.jp/jp/warn/202.html' target='_blank'><img src='https://www.jma.go.jp/jp/warn/imgs/202/99.png' width='100%'></a>";
-	document.getElementById("map").innerHTML += "<br><br><a href='https://www.jma.go.jp/jp/warn/203.html' target='_blank'><img src='https://www.jma.go.jp/jp/warn/imgs/203/99.png' width='100%'></a>";
+	document.getElementById("map").innerHTML = "<a href='https://www.jma.go.jp/jp/warn/201.html' target='_blank'><img src='https://www.jma.go.jp/jp/warn/imgs/201/99.png' width='45%'></a>";
+	document.getElementById("map").innerHTML += "<a href='https://www.jma.go.jp/jp/warn/202.html' target='_blank'><img src='https://www.jma.go.jp/jp/warn/imgs/202/99.png' style='margin-left:2px' width='45%'></a>";
+	document.getElementById("map").innerHTML += "<br><br><a href='https://www.jma.go.jp/jp/warn/203.html' target='_blank'><img src='https://www.jma.go.jp/jp/warn/imgs/203/99.png' width='45%'></a>";
 	}
 	else{
-	document.getElementById("map").innerHTML = "<a href='https://www.jma.go.jp/jp/warn/" + prefmap[x-1] + ".html' target='_blank'><img src='https://www.jma.go.jp/jp/warn/imgs/" + prefmap[x-1] + "/99.png' width='100%'></a>";
+	document.getElementById("map").innerHTML = "<a href='https://www.jma.go.jp/jp/warn/" + prefmap[x-1] + "_table.html' target='_blank'><img src='https://www.jma.go.jp/jp/warn/imgs/" + prefmap[x-1] + "/99.png' width='100%'></a>";
 	}
 
 }
