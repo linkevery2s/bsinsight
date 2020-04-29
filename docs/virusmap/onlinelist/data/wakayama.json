@@ -1,52 +1,52 @@
 ﻿[
-{"Name":"紀南病院","Jusho":"和歌山県田辺市新庄町46-70","kouzui":"0739-22-5000","gake":"http://www.kinan-hp.tanabe.wakaya","takashio":"×","jishin":"〇","tsunami":"全科（産婦人科除く）","kaji":"なし","naisui":"","kazan":""},
-{"Name":"独立行政法人国立病院機構南和歌山医療センター","Jusho":"和歌山県田辺市たきない町27-1","kouzui":"0739-26-7050","gake":"https://minamiwakayama.hosp.go.jp/","takashio":"×","jishin":"〇","tsunami":"全科","kaji":"","naisui":"","kazan":""}
+{"Name":"紀南病院","Jusho":"和歌山県田辺市新庄町46-70","kouzui":"<a href='tel:0739-22-5000'>0739-22-5000</a>","gake":"<a href='http://www.kinan-hp.tanabe.wakaya' target='_blank'>http://www.kinan-hp.tanabe.wakaya</a>","takhio":"×","jhin":"〇","tsunami":"全科（産婦人科除く）","kaji":"なし","naisui":"","kazan":""},
+{"Name":"独立行政法人国立病院機構南和歌山医療センター","Jusho":"和歌山県田辺市たきない町27-1","kouzui":"<a href='tel:0739-26-7050'>0739-26-7050</a>","gake":"<a href='https://minamiwakayama.hosp.go.jp/' target='_blank'>https://minamiwakayama.hosp.go.jp/</a>","takhio":"×","jhin":"〇","tsunami":"全科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"あきづクリニック","Jusho":"田辺市秋津町189-16","kouzui":"0739-34-3090","gake":"https://www.akizu-clinic.com/","takashio":"〇","jishin":"〇","tsunami":"脳神経内科リハビリ科","kaji":"紀南病院南和歌山医療センター田辺中央病院白浜はまゆう病院","naisui":"","kazan":""}
+{"Name":"あきづクリニック","Jusho":"田辺市秋津町189-16","kouzui":"<a href='tel:0739-34-3090'>0739-34-3090</a>","gake":"<a href='https://www.akizu-clinic.com/' target='_blank'>https://www.akizu-clinic.com/</a>","takhio":"〇","jhin":"〇","tsunami":"脳神経内科リハビリ科","kaji":"紀南病院南和歌山医療センター田辺中央病院白浜はまゆう病院","naisui":"","kazan":""}
 ,
-{"Name":"池畑医院","Jusho":"田辺市湊47-38","kouzui":"0739-25-1217","gake":"","takashio":"×","jishin":"〇","tsunami":"皮フ科","kaji":"","naisui":"","kazan":""}
+{"Name":"池畑医院","Jusho":"田辺市湊47-38","kouzui":"<a href='tel:0739-25-1217'>0739-25-1217</a>","gake":"<a href='' target='_blank'></a>","takhio":"×","jhin":"〇","tsunami":"皮フ科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"医療法人桜菜会まろクリニック","Jusho":"田辺市下万呂393-5","kouzui":"0739-81-1200","gake":"http://maroclinic.sakura.ne.jp/","takashio":"×","jishin":"〇","tsunami":"脳神経外科","kaji":"","naisui":"","kazan":""}
+{"Name":"医療法人桜菜会まろクリニック","Jusho":"田辺市下万呂393-5","kouzui":"<a href='tel:0739-81-1200'>0739-81-1200</a>","gake":"<a href='http://maroclinic.sakura.ne.jp/' target='_blank'>http://maroclinic.sakura.ne.jp/</a>","takhio":"×","jhin":"〇","tsunami":"脳神経外科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"医療法人長嶋医院","Jusho":"田辺市目良32-32","kouzui":"0739-24-3220","gake":"","takashio":"×","jishin":"〇","tsunami":"内科胃腸科","kaji":"","naisui":"","kazan":""}
+{"Name":"医療法人長嶋医院","Jusho":"田辺市目良32-32","kouzui":"<a href='tel:0739-24-3220'>0739-24-3220</a>","gake":"<a href='' target='_blank'></a>","takhio":"×","jhin":"〇","tsunami":"内科胃腸科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"外科内科辻医院","Jusho":"田辺市上屋敷3丁目11番14号","kouzui":"0739-22-0534","gake":"","takashio":"×","jishin":"〇","tsunami":"外科内科","kaji":"","naisui":"","kazan":""}
+{"Name":"外科内科辻医院","Jusho":"田辺市上屋敷3丁目11番14号","kouzui":"<a href='tel:0739-22-0534'>0739-22-0534</a>","gake":"<a href='' target='_blank'></a>","takhio":"×","jhin":"〇","tsunami":"外科内科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"坂口耳鼻咽喉科医院","Jusho":"田辺市あけぼの46-12","kouzui":"0739-22-8741","gake":"","takashio":"×","jishin":"〇","tsunami":"耳鼻咽喉科アレルギー科","kaji":"紀南病院南和歌山医療センター","naisui":"","kazan":""}
+{"Name":"坂口耳鼻咽喉科医院","Jusho":"田辺市あけぼの46-12","kouzui":"<a href='tel:0739-22-8741'>0739-22-8741</a>","gake":"<a href='' target='_blank'></a>","takhio":"×","jhin":"〇","tsunami":"耳鼻咽喉科アレルギー科","kaji":"紀南病院南和歌山医療センター","naisui":"","kazan":""}
 ,
-{"Name":"田辺市本宮さくら診療所","Jusho":"田辺市本宮町本宮921番地の2","kouzui":"0735-42-8101","gake":"","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
+{"Name":"田辺市本宮さくら診療所","Jusho":"田辺市本宮町本宮921番地の2","kouzui":"<a href='tel:0735-42-8101'>0735-42-8101</a>","gake":"<a href='' target='_blank'></a>","takhio":"〇","jhin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"中西内科胃腸科医院","Jusho":"田辺市下屋敷14-2","kouzui":"0739-25-2500","gake":"","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
+{"Name":"中西内科胃腸科医院","Jusho":"田辺市下屋敷14-2","kouzui":"<a href='tel:0739-25-2500'>0739-25-2500</a>","gake":"<a href='' target='_blank'></a>","takhio":"×","jhin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"野の花診療所","Jusho":"田辺市下三栖1817","kouzui":"0739-34-0555","gake":"","takashio":"×","jishin":"〇","tsunami":"内科小児科","kaji":"","naisui":"","kazan":""}
+{"Name":"野の花診療所","Jusho":"田辺市下三栖1817","kouzui":"<a href='tel:0739-34-0555'>0739-34-0555</a>","gake":"<a href='' target='_blank'></a>","takhio":"×","jhin":"〇","tsunami":"内科小児科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"平畑医院","Jusho":"田辺市高雄一丁目5-2","kouzui":"0739-24-0770","gake":"","takashio":"×","jishin":"〇","tsunami":"外科内科","kaji":"紀南病院南和歌山医療センター","naisui":"","kazan":""}
+{"Name":"平畑医院","Jusho":"田辺市高雄一丁目5-2","kouzui":"<a href='tel:0739-24-0770'>0739-24-0770</a>","gake":"<a href='' target='_blank'></a>","takhio":"×","jhin":"〇","tsunami":"外科内科","kaji":"紀南病院南和歌山医療センター","naisui":"","kazan":""}
 ,
-{"Name":"ふくはらこどもクリニック","Jusho":"和歌山県西牟婁郡白浜町3220-9","kouzui":"0739-33-7711","gake":"https://www.fukuhara-kodomo.com/","takashio":"△","jishin":"〇","tsunami":"小児科アレルギー科","kaji":"","naisui":"","kazan":""}
+{"Name":"ふくはらこどもクリニック","Jusho":"和歌山県西牟婁郡白浜町3220-9","kouzui":"<a href='tel:0739-33-7711'>0739-33-7711</a>","gake":"<a href='https://www.fukuhara-kodomo.com/' target='_blank'>https://www.fukuhara-kodomo.com/</a>","takhio":"△","jhin":"〇","tsunami":"小児科アレルギー科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"高野山総合診療所","Jusho":"和歌山県伊都郡高野町大字高野山631番地","kouzui":"0736-56-2911","gake":"http://www.town.koya.wakayama.jp/health/hospital/","takashio":"×","jishin":"〇","tsunami":"内科□","kaji":"高野山総合診療所","naisui":"","kazan":""}
+{"Name":"高野山総合診療所","Jusho":"和歌山県伊都郡高野町大字高野山631番地","kouzui":"<a href='tel:0736-56-2911'>0736-56-2911</a>","gake":"<a href='http://www.town.koya.wakayama.jp/health/hospital/' target='_blank'>http://www.town.koya.wakayama.jp/health/hospital/</a>","takhio":"×","jhin":"〇","tsunami":"内科□","kaji":"高野山総合診療所","naisui":"","kazan":""}
 ,
-{"Name":"富貴診療所","Jusho":"和歌山県伊都郡高野町西富貴46","kouzui":"0736-53-2013","gake":"なし","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"なし","naisui":"","kazan":""}
+{"Name":"富貴診療所","Jusho":"和歌山県伊都郡高野町西富貴46","kouzui":"<a href='tel:0736-53-2013'>0736-53-2013</a>","gake":"<a href='なし' target='_blank'>なし</a>","takhio":"×","jhin":"〇","tsunami":"内科","kaji":"なし","naisui":"","kazan":""}
 ,
-{"Name":"耳鼻咽喉科ごとう医院","Jusho":"和歌山県有田郡湯浅町湯浅128-2","kouzui":"0737-63-3838","gake":"","takashio":"〇","jishin":"〇","tsunami":"耳鼻咽喉科アレルギー科","kaji":"和歌山県立医科大学附属病院（和歌山市紀三井寺811-1）日赤和歌山医療センター（和歌山市小松原通4-20）","naisui":"","kazan":""}
+{"Name":"耳鼻咽喉科ごとう医院","Jusho":"和歌山県有田郡湯浅町湯浅128-2","kouzui":"<a href='tel:0737-63-3838'>0737-63-3838</a>","gake":"<a href='' target='_blank'></a>","takhio":"〇","jhin":"〇","tsunami":"耳鼻咽喉科アレルギー科","kaji":"和歌山県立医科大学附属病院（和歌山市紀三井寺811-1）日赤和歌山医療センター（和歌山市小松原通4-20）","naisui":"","kazan":""}
 ,
-{"Name":"平山内科皮膚泌尿器科","Jusho":"和歌山県有田郡湯浅町湯浅459","kouzui":"0737-63-1103","gake":"","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
+{"Name":"平山内科皮膚泌尿器科","Jusho":"和歌山県有田郡湯浅町湯浅459","kouzui":"<a href='tel:0737-63-1103'>0737-63-1103</a>","gake":"<a href='' target='_blank'></a>","takhio":"〇","jhin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"ゆあさクリニック","Jusho":"和歌山県有田郡有田川町下津野1288-1","kouzui":"0737-52-8880","gake":"","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"済生会有田病院（和歌山県有田郡湯浅町吉川52-6）","naisui":"","kazan":""}
+{"Name":"ゆあさクリニック","Jusho":"和歌山県有田郡有田川町下津野1288-1","kouzui":"<a href='tel:0737-52-8880'>0737-52-8880</a>","gake":"<a href='' target='_blank'></a>","takhio":"〇","jhin":"〇","tsunami":"内科","kaji":"済生会有田病院（和歌山県有田郡湯浅町吉川52-6）","naisui":"","kazan":""}
 ,
-{"Name":"赤ちゃんからの平山こどもクリニック","Jusho":"和歌山県有田郡有田川町天満305-4","kouzui":"0737-52-8666","gake":"http://www.hirayama-kodomo.jp","takashio":"〇","jishin":"〇","tsunami":"小児科小児アレルギー科","kaji":"","naisui":"","kazan":""}
+{"Name":"赤ちゃんからの平山こどもクリニック","Jusho":"和歌山県有田郡有田川町天満305-4","kouzui":"<a href='tel:0737-52-8666'>0737-52-8666</a>","gake":"<a href='http://www.hirayama-kodomo.jp' target='_blank'>http://www.hirayama-kodomo.jp</a>","takhio":"〇","jhin":"〇","tsunami":"小児科小児アレルギー科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"野田医院","Jusho":"和歌山県有田郡有田川町庄574","kouzui":"0737-52-7578","gake":"http://www.naxnet.or.jp/~non/","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
+{"Name":"野田医院","Jusho":"和歌山県有田郡有田川町庄574","kouzui":"<a href='tel:0737-52-7578'>0737-52-7578</a>","gake":"<a href='http://www.naxnet.or.jp/~non/' target='_blank'>http://www.naxnet.or.jp/~non/</a>","takhio":"×","jhin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"和歌山県立こころの医療センター","Jusho":"和歌山県有田郡有田川町庄31","kouzui":"0737-52-3221","gake":"https://www.pref.wakayama.lg.jp/prefg/050112/050112.html","takashio":"×","jishin":"〇","tsunami":"精神科","kaji":"","naisui":"","kazan":""}
+{"Name":"和歌山県立こころの医療センター","Jusho":"和歌山県有田郡有田川町庄31","kouzui":"<a href='tel:0737-52-3221'>0737-52-3221</a>","gake":"<a href='https://www.pref.wakayama.lg.jp/prefg/050112/050112.html' target='_blank'>https://www.pref.wakayama.lg.jp/prefg/050112/050112.html</a>","takhio":"×","jhin":"〇","tsunami":"精神科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"なかむら内科クリニック","Jusho":"和歌山県有田郡有田川町清水379-2","kouzui":"0737-25-9030","gake":"","takashio":"〇","jishin":"〇","tsunami":"内科小児科","kaji":"","naisui":"","kazan":""}
+{"Name":"なかむら内科クリニック","Jusho":"和歌山県有田郡有田川町清水379-2","kouzui":"<a href='tel:0737-25-9030'>0737-25-9030</a>","gake":"<a href='' target='_blank'></a>","takhio":"〇","jhin":"〇","tsunami":"内科小児科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"ひがし内科クリニック","Jusho":"和歌山県日高郡みなべ町東本庄589-1","kouzui":"0739-74-3269","gake":"","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"紀南病院","naisui":"","kazan":""}
+{"Name":"ひがし内科クリニック","Jusho":"和歌山県日高郡みなべ町東本庄589-1","kouzui":"<a href='tel:0739-74-3269'>0739-74-3269</a>","gake":"<a href='' target='_blank'></a>","takhio":"〇","jhin":"〇","tsunami":"内科","kaji":"紀南病院","naisui":"","kazan":""}
 ,
-{"Name":"医療法人健仁会三谷医院","Jusho":"和歌山県西牟婁郡白浜町1400","kouzui":"0739-42-3606","gake":"ps://www.mitani-clinic-shirahama.co","takashio":"×","jishin":"〇","tsunami":"内科消化器科","kaji":"","naisui":"","kazan":""}
+{"Name":"医療法人健仁会三谷医院","Jusho":"和歌山県西牟婁郡白浜町1400","kouzui":"<a href='tel:0739-42-3606'>0739-42-3606</a>","gake":"<a href='ps://www.mitani-clinic-shirahama.co' target='_blank'>ps://www.mitani-clinic-shirahama.co</a>","takhio":"×","jhin":"〇","tsunami":"内科消化器科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"南紀医療福祉センター","Jusho":"和歌山県西牟婁郡上富田町岩田1776-1","kouzui":"0739-47-2175","gake":"https://www.wfj.or.jp/","takashio":"×","jishin":"〇","tsunami":"精神科","kaji":"","naisui":"","kazan":""}
+{"Name":"南紀医療福祉センター","Jusho":"和歌山県西牟婁郡上富田町岩田1776-1","kouzui":"<a href='tel:0739-47-2175'>0739-47-2175</a>","gake":"<a href='https://www.wfj.or.jp/' target='_blank'>https://www.wfj.or.jp/</a>","takhio":"×","jhin":"〇","tsunami":"精神科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"上富田クリニック","Jusho":"和歌山県西牟婁郡上富田町朝来1407-1","kouzui":"0739-47-1100","gake":"","takashio":"×","jishin":"〇","tsunami":"内科眼科外科","kaji":"南和歌山医療センター紀南病院","naisui":"","kazan":""}
+{"Name":"上富田クリニック","Jusho":"和歌山県西牟婁郡上富田町朝来1407-1","kouzui":"<a href='tel:0739-47-1100'>0739-47-1100</a>","gake":"<a href='' target='_blank'></a>","takhio":"×","jhin":"〇","tsunami":"内科眼科外科","kaji":"南和歌山医療センター紀南病院","naisui":"","kazan":""}
 ]
