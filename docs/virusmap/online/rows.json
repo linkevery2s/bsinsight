@@ -18,7 +18,7 @@
 ,{"Name":"札幌厚生病院共済クリニック","Jusho":"札幌市中央区北4条西1丁目共済ビル1階","telephone":"011-232-6518","url":"","syoshin":"×","saishin":"〇","kamei":"内科","niji":"札幌厚生病院（札幌市中央区北3条東8丁目5）"}
 ,{"Name":"アイルこころクリニック","Jusho":"札幌市中央区南1条西6丁目11札幌北辰ﾋﾞﾙ1F","telephone":"011-218-5561","url":"http://airu-mental.com/","syoshin":"×","saishin":"〇","kamei":"精神科・心療内科","niji":"ｽﾄﾚｽｹｱすすきのｸﾘﾆｯｸ（中央区南3条3丁目三信ﾋﾞﾙ4階）岩見沢こころｸﾘﾆｯｸ（岩見沢市2条東15丁目5-2ﾄﾞﾗｯｸﾞｾｲﾑｽ岩見沢店2F）"}
 ,{"Name":"かねし小児科","Jusho":"札幌市中央区北3条西25丁目1-2","telephone":"011-612-0345","url":"","syoshin":"〇","saishin":"〇","kamei":"小児科","niji":"札幌市立病院NTT東日本札幌病院北海道医療センターKKR札幌病院など"}
-,{"Name":"かんわ心療クリニック","Jusho":"北海道札幌市中央区南1条西11丁目1番312号コンチネンタルＷＥＳＴ-Ｓビル4階","telephone":"011-280-8222","url":"https://www.kanwa-mc.com/","syoshin":"×","saishin":"〇","kamei":"心療内科精神科精神腫瘍科","niji":"特になし"}
+,{"Name":"かんわ心療クリニック","Jusho":"北海道札幌市中央区南1条西11丁目1番312号コンチネンタルwＥＳＴ-Ｓビル4階","telephone":"011-280-8222","url":"https://www.kanwa-mc.com/","syoshin":"×","saishin":"〇","kamei":"心療内科精神科精神腫瘍科","niji":"特になし"}
 ,{"Name":"きゅうま内科循環器クリニック","Jusho":"札幌市中央区南1条西14丁目291-81ウィステリア南1条ビル2","telephone":"011-251-7000","url":"https://kyuma-naika.jp/","syoshin":"×","saishin":"〇","kamei":"内科循環器内科","niji":""}
 ,{"Name":"クリニック光のいずみ","Jusho":"北海道札幌市中央区南十七条西十三丁目1?482F","telephone":"011?561?5111","url":"https://www.hikarinoizumi.org/","syoshin":"〇","saishin":"〇","kamei":"内科小児科心療内科","niji":"約束連携機関なし。"}
 ,{"Name":"クリニック・イン・ザ・モーニング","Jusho":"北海道札幌市中央区北4条西16丁目1?3栗林幌西ビル1F","telephone":"011-611-2005","url":"http://www.fortune-favoured.jp/site/","syoshin":"〇","saishin":"〇","kamei":"内科小児科","niji":"NTT東日本札幌病（札幌市中央区南1条西15丁目）"}
@@ -551,7 +551,7 @@
 ,{"Name":"長沼内科消化器科","Jusho":"北海道夕張郡長沼町西町1丁目8-16","telephone":"0123-82-5333","url":"http://www.ryokuryoukai.or.jp/","syoshin":"〇","saishin":"〇","kamei":"内科消化器科","niji":"なし"}
 ,{"Name":"池田内科クリニック","Jusho":"北海道夕張郡長沼町銀座南2丁目2番17号","telephone":"0123-88-2155","url":"","syoshin":"〇","saishin":"〇","kamei":"内科","niji":"町立長沼病院（夕張郡長沼町中央南2丁目2番1号）長沼内科消化器科（夕張郡長沼町西町1丁目8番16号）"}
 ,{"Name":"(医)和漢全人会花月クリニック","Jusho":"北海道樺戸郡新十津川町字花月201番地68","telephone":"0125-74-2021","url":"http://kagetsu-clinic.or.jp","syoshin":"〇","saishin":"〇","kamei":"内科・漢方内科糖尿病内科・消化器内科","niji":"砂川市立病院（北海道砂川市西四条北3-1-1）"}
-,{"Name":"町立沼田厚生クリニック","Jusho":"北海道雨竜郡沼田町南1条1丁目8番25号","telephone":"0164-35-2321","url":"http://wwｗ.dou-kouseiren.com/byouin/numta/","syoshin":"×","saishin":"〇","kamei":"内科外科","niji":"深川市立病院（北海道深川市6条6番1号）旭川厚生病院（北海道旭川市1条通24丁目111番地3）他"}
+,{"Name":"町立沼田厚生クリニック","Jusho":"北海道雨竜郡沼田町南1条1丁目8番25号","telephone":"0164-35-2321","url":"http://www.dou-kouseiren.com/byouin/numta/","syoshin":"×","saishin":"〇","kamei":"内科外科","niji":"深川市立病院（北海道深川市6条6番1号）旭川厚生病院（北海道旭川市1条通24丁目111番地3）他"}
 ,{"Name":"国民健康保険町立和寒病院","Jusho":"北海道上川郡和寒町字西町111番地","telephone":"0165-32-2103","url":"byouin@town.wassamu.hokkaido.jp","syoshin":"〇","saishin":"〇","kamei":"内科小児科外科","niji":"なし"}
 ,{"Name":"町立下川病院","Jusho":"北海道上川郡下川町西町36番地","telephone":"01655-4-2039","url":"s-hospital@town.shimokawa.hokkaido.jp","syoshin":"×","saishin":"〇","kamei":"内科小児科外科","niji":"なし"}
 ,{"Name":"枝幸町国民健康保険歌登診療所","Jusho":"北海道枝幸郡枝幸町歌登南町403番地","telephone":"0163-68-2341","url":"なし","syoshin":"×","saishin":"〇","kamei":"内科外科","niji":"なし"}
@@ -864,7 +864,7 @@
 ,{"Name":"たかはしﾚﾃﾞｨｰｽｸﾘﾆｯｸ","Jusho":"秋田県能代市字鳥小屋59-23","telephone":"0185-55-0033","url":"","syoshin":"〇","saishin":"〇","kamei":"内科産婦人科","niji":"能代厚生医療センター（秋田県能代市落合上前田地内）"}
 ,{"Name":"市立大森病院","Jusho":"秋田県横手市大森町字菅生田245-205","telephone":"0182-26-2141","url":"http://www.oomorihp.jp/","syoshin":"×","saishin":"△","kamei":"標榜全科","niji":""}
 ,{"Name":"ツインクリニック内科・整形外科","Jusho":"横手市横手町字大関越166-1","telephone":"0182-35-2235","url":"http://www.myclinic.ne.jp/twinclinic/pc/","syoshin":"〇","saishin":"〇","kamei":"内科整形外科","niji":"平鹿総合病院（横手市前郷字八ツ口3-1）市立横手病院（横手市根岸町5-31）"}
-,{"Name":"湊クリニック","Jusho":"秋田県横手市条里三丁目1番25号","telephone":"0182-35-1008","url":"?http://ｗｗｗ.minatoclinic,jp/","syoshin":"×","saishin":"〇","kamei":"内科小児科","niji":""}
+,{"Name":"湊クリニック","Jusho":"秋田県横手市条里三丁目1番25号","telephone":"0182-35-1008","url":"?http://www.minatoclinic,jp/","syoshin":"×","saishin":"〇","kamei":"内科小児科","niji":""}
 ,{"Name":"医療法人横手胃腸科クリニック","Jusho":"秋田県横手市清川町13-31","telephone":"0182-35-2222","url":"","syoshin":"〇","saishin":"〇","kamei":"内科","niji":""}
 ,{"Name":"条里プラタナス耳鼻科","Jusho":"秋田県横手市条里1丁目10-17","telephone":"0182-38-8882","url":"https://ent-platanus.com/","syoshin":"×","saishin":"〇","kamei":"耳鼻咽喉科","niji":"市立横手病院(秋田県横手市根岸町5番31号）平鹿総合病院(秋田県横手市前郷字八ツ口3番1)"}
 ,{"Name":"細谷内科医院","Jusho":"秋田県横手市前郷二番町8-18","telephone":"0182-36-2221","url":"http://www.hosoya-naika.com/","syoshin":"〇","saishin":"〇","kamei":"内科","niji":"市立横手病院（秋田県横手市根岸町5番31号）平鹿総合病院（秋田県横手市前郷字八ツ口3番1）"}
@@ -885,7 +885,7 @@
 ,{"Name":"湯沢市立皆瀬診療所","Jusho":"秋田県湯沢市皆瀬字下菅生10番地","telephone":"0183-46-2226","url":"","syoshin":"〇","saishin":"〇","kamei":"内科外科","niji":""}
 ,{"Name":"佐藤外科胃腸科","Jusho":"秋田県湯沢市字沖鶴167-2","telephone":"0183-73-7100","url":"","syoshin":"〇","saishin":"〇","kamei":"内科外科胃腸科肛門科","niji":"雄勝中央病院（湯沢市山田字勇ｹ岡25）"}
 ,{"Name":"菅医院","Jusho":"秋田県湯沢市小野字東堺77-1","telephone":"0183-52-2000","url":"http://sugahsp.wp.xdomain.jp/","syoshin":"×","saishin":"〇","kamei":"内科脳神経外科","niji":"厚生連雄勝中央病院（秋田県湯沢市山田字勇ヶ岡25）"}
-,{"Name":"大湯リハビリ温泉病院","Jusho":"秋田県鹿角市十和田大湯字湯ノ岱16番地2","telephone":"0186-37-3511","url":"http://wwｗ.ink.or.jp/^oyu-reha/index.html","syoshin":"×","saishin":"〇","kamei":"すべての診療科","niji":""}
+,{"Name":"大湯リハビリ温泉病院","Jusho":"秋田県鹿角市十和田大湯字湯ノ岱16番地2","telephone":"0186-37-3511","url":"http://www.ink.or.jp/^oyu-reha/index.html","syoshin":"×","saishin":"〇","kamei":"すべての診療科","niji":""}
 ,{"Name":"なかの消化器内科ｸﾘﾆｯｸ","Jusho":"秋田県鹿角市花輪字下中島81番地2","telephone":"0186-22-7335","url":"","syoshin":"×","saishin":"〇","kamei":"内科","niji":""}
 ,{"Name":"浅野耳鼻いんこう科医院","Jusho":"秋田県由利本荘市表尾崎町17-4","telephone":"015-0802","url":"http://www.asanojibika.com","syoshin":"〇","saishin":"〇","kamei":"耳鼻咽喉科","niji":"由利組合総合病院"}
 ,{"Name":"猪股医院","Jusho":"秋田県由利本荘市給人町6-2","telephone":"0184-22-4800","url":"","syoshin":"×","saishin":"〇","kamei":"内科","niji":"由利組合総合病院（秋田県由利本荘市川口字家後38）"}
@@ -1671,8 +1671,8 @@
 ,{"Name":"桐山クリニック","Jusho":"群馬県高崎市末広町235-8","telephone":"027-310-1234","url":"https://www.kiriyamaclinic.jp","syoshin":"〇","saishin":"〇","kamei":"消化器内科・胃腸内科・内科","niji":"-"}
 ,{"Name":"中島クリニック","Jusho":"群馬県高崎市末広町85-1","telephone":"027-323-2077","url":"http://www.asahi-net.or.jp/~QV7T-NKJM/","syoshin":"〇","saishin":"〇","kamei":"外科・胃腸内科","niji":"-"}
 ,{"Name":"おかじょうクリニック","Jusho":"群馬県高崎市綿貫町1918-7","telephone":"027-395-6116","url":"https://okajo-clinic.com/","syoshin":"〇","saishin":"〇","kamei":"内科","niji":"-"}
-,{"Name":"黒沢病院","Jusho":"群馬県高崎市矢中町187","telephone":"027-352-1166","url":"?http://wwｗ.bishinkai.or.jp","syoshin":"×","saishin":"〇","kamei":"泌尿器科、脳神経外科、外科、内科、整形外科、皮膚科、婦人科、歯科、口腔外科","niji":"黒沢病院附属ヘルスパーククリニック（群馬県高崎市矢中町188）"}
-,{"Name":"黒沢病院附属ヘルスパーククリニック","Jusho":"群馬県高崎市矢中町188","telephone":"027-352-1111","url":"?http://wwｗ.bishinkai.or.jp","syoshin":"×","saishin":"〇","kamei":"泌尿器科、脳神経外科、外科、乳腺外科、内科、循環器内科、整形外科、皮膚科、婦人科、歯科、歯科口腔外科","niji":"黒沢病院（群馬県高崎市矢中町187）"}
+,{"Name":"黒沢病院","Jusho":"群馬県高崎市矢中町187","telephone":"027-352-1166","url":"?http://www.bishinkai.or.jp","syoshin":"×","saishin":"〇","kamei":"泌尿器科、脳神経外科、外科、内科、整形外科、皮膚科、婦人科、歯科、口腔外科","niji":"黒沢病院附属ヘルスパーククリニック（群馬県高崎市矢中町188）"}
+,{"Name":"黒沢病院附属ヘルスパーククリニック","Jusho":"群馬県高崎市矢中町188","telephone":"027-352-1111","url":"?http://www.bishinkai.or.jp","syoshin":"×","saishin":"〇","kamei":"泌尿器科、脳神経外科、外科、乳腺外科、内科、循環器内科、整形外科、皮膚科、婦人科、歯科、歯科口腔外科","niji":"黒沢病院（群馬県高崎市矢中町187）"}
 ,{"Name":"小児科佐藤医院","Jusho":"群馬県高崎市柳川町4","telephone":"027-322-2145","url":"gum0@m6.dion.ne.jp","syoshin":"〇","saishin":"〇","kamei":"小児科","niji":"-"}
 ,{"Name":"小泉小児科医院","Jusho":"群馬県高崎市連雀町127","telephone":"027-322-3985","url":"https://www.koizumi-clinic.jp/","syoshin":"〇","saishin":"〇","kamei":"小児科","niji":"-"}
 ,{"Name":"うめやま医院","Jusho":"群馬県高崎市連雀町133","telephone":"027-328-5500","url":"https://umeyama.jp","syoshin":"〇","saishin":"〇","kamei":"泌尿器","niji":"-"}
@@ -2088,7 +2088,7 @@
 ,{"Name":"内藤クリニック","Jusho":"埼玉県草加市住吉1-2-28","telephone":"048-922-6011","url":"https://www.naitoclinic.net/","syoshin":"〇","saishin":"〇","kamei":"内科","niji":""}
 ,{"Name":"草加すずのきクリニック","Jusho":"埼玉県草加市高砂二丁目17番32号","telephone":"048-922-3377","url":"https://www.souka-suzunoki.net/","syoshin":"×","saishin":"〇","kamei":"心療内科精神科","niji":""}
 ,{"Name":"メディカルトピア草加病院","Jusho":"埼玉県草加市谷塚1-11-18","telephone":"048-928-3111","url":"http://www.mtopia.jp/","syoshin":"×","saishin":"〇","kamei":"全診療科（皮膚科は不可）","niji":""}
-,{"Name":"みなみ草加クリニック","Jusho":"埼玉県草加市新里町107-1","telephone":"048-924-0600","url":"?http://wwｗ.minamisouka.com/","syoshin":"〇","saishin":"〇","kamei":"内科","niji":""}
+,{"Name":"みなみ草加クリニック","Jusho":"埼玉県草加市新里町107-1","telephone":"048-924-0600","url":"?http://www.minamisouka.com/","syoshin":"〇","saishin":"〇","kamei":"内科","niji":""}
 ,{"Name":"柳島クリニック","Jusho":"埼玉県草加市柳島町650番地","telephone":"048-927-7911","url":"http://www.yanagishima-clinic.com/","syoshin":"×","saishin":"〇","kamei":"内科小児科","niji":""}
 ,{"Name":"医療法人泰山会石井外科医院","Jusho":"埼玉県草加市氷川町928","telephone":"048-925-4255","url":"http://www.ishiigeka.jp","syoshin":"×","saishin":"〇","kamei":"外科内科ぺイン","niji":""}
 ,{"Name":"草加すぎうら内科クリニック","Jusho":"埼玉県草加市氷川町2419-2藤城ビル2F","telephone":"048-950-8040","url":"https://soka-sugiura-cl.com","syoshin":"×","saishin":"〇","kamei":"内科","niji":""}
@@ -2101,7 +2101,7 @@
 ,{"Name":"メディカルハブクリニック","Jusho":"埼玉県草加市金明町516-1-1","telephone":"048-943-8292","url":"www.mhub-cl.jp","syoshin":"×","saishin":"〇","kamei":"内科循環器内科","niji":""}
 ,{"Name":"草加グリーンクリニック","Jusho":"埼玉県草加市金明町604-1","telephone":"048-954-7677","url":"http://www.souka-gen-clinic.com","syoshin":"×","saishin":"〇","kamei":"内科","niji":""}
 ,{"Name":"草加市立病院","Jusho":"埼玉県草加市草加二丁目21番1号","telephone":"048-946-2200","url":"http://www.soka-city-hospital.jp","syoshin":"×","saishin":"〇","kamei":"診療科を絞らず対応","niji":""}
-,{"Name":"南埼玉病院","Jusho":"埼玉県越谷市増森252","telephone":"048-965-1151","url":"?http://wwｗ.minamisaitama.com/","syoshin":"×","saishin":"〇","kamei":"精神科心療内科","niji":""}
+,{"Name":"南埼玉病院","Jusho":"埼玉県越谷市増森252","telephone":"048-965-1151","url":"?http://www.minamisaitama.com/","syoshin":"×","saishin":"〇","kamei":"精神科心療内科","niji":""}
 ,{"Name":"花田内科","Jusho":"埼玉県越谷市花田1-21-7","telephone":"048-966-1610","url":"http://www.hanatamedical-clinic.com","syoshin":"〇","saishin":"〇","kamei":"内科小児科","niji":""}
 ,{"Name":"医療法人昊久会松本クリニック","Jusho":"埼玉県越谷市花田1-35-18","telephone":"048-963-4976","url":"http://clinic-matsumoto.jp","syoshin":"×","saishin":"〇","kamei":"内科、小児科、循環器科","niji":""}
 ,{"Name":"まつもと内科","Jusho":"埼玉県越谷市北越谷4-3-12-102","telephone":"048-970-4976","url":"http://www.matsumoto-naika.net/","syoshin":"×","saishin":"〇","kamei":"内科","niji":"越谷市立病院(埼玉県越谷市東越谷10-47-1)"}
@@ -2688,7 +2688,7 @@
 ,{"Name":"アジサイ眼科","Jusho":"千葉県成田市ウイング土屋24番地イオンモール成田2階","telephone":"0476-22-2112","url":"https://www.ajisai-ganka.net","syoshin":"×","saishin":"×","kamei":"眼科","niji":""}
 ,{"Name":"医療法人社団健裕会なかまち泌尿器科クリニック","Jusho":"成田市公津の杜2?27?5-202","telephone":"0476-26-8010090-9297-3178","url":"https://www.nakamachiclinic.com","syoshin":"×","saishin":"〇","kamei":"泌尿器科泌尿器科","niji":"成田赤十字病院（千葉県成田市飯田町90-1）"}
 ,{"Name":"医療法人社団百樹会菅谷クリニック","Jusho":"千葉県成田市馬橋1-17","telephone":"0476-24-4774","url":"","syoshin":"×","saishin":"×","kamei":"","niji":""}
-,{"Name":"岩沢クリニック","Jusho":"成田市飯田町154-8","telephone":"0476-27-1122","url":"?http://wwｗ.iwasawa-cl.jp","syoshin":"×","saishin":"×","kamei":"","niji":""}
+,{"Name":"岩沢クリニック","Jusho":"成田市飯田町154-8","telephone":"0476-27-1122","url":"?http://www.iwasawa-cl.jp","syoshin":"×","saishin":"×","kamei":"","niji":""}
 ,{"Name":"成田病院","Jusho":"千葉県成田市押畑896番地","telephone":"0476-22-1500","url":"https://www.narita-hospital.jp/","syoshin":"×","saishin":"×","kamei":"","niji":""}
 ,{"Name":"国際医療福祉大学成田病院","Jusho":"千葉県成田市畑ケ田852","telephone":"0476-35-5576","url":"http://naritahospital.iuhw.ac.jp/","syoshin":"×","saishin":"〇","kamei":"総合診療科呼吸器内科循環器内科消化器内科血液内科腫瘍内科内分泌代謝内科腎臓内科脳神経内科心療内科感染症内科アレルギー科リウマチ科呼吸器外科心臓外科消化器外科乳腺外科小児外科整形外科脳神経外科形成外科精神科小児科皮膚科泌尿器科産科・婦人科眼科耳鼻咽喉科歯科口腔外科","niji":"―"}
 ,{"Name":"特別養護老人ホーム蓬莱の杜","Jusho":"千葉県成田市川栗842-4","telephone":"0476-35-0380","url":"http://suhamakai.or.jp/","syoshin":"×","saishin":"×","kamei":"内科","niji":""}
@@ -2725,7 +2725,7 @@
 ,{"Name":"袖ヶ浦西クリニック","Jusho":"千葉県習志野市袖ヶ浦1-7-4","telephone":"047-452-1006","url":"http://www.sodegauranishi-clinic.com/","syoshin":"×","saishin":"〇","kamei":"内科小児科","niji":"谷津保健病院（千葉県習志野市谷津4丁目6-16）津田沼中央総合病院（千葉県習志野市谷津1-9-17）千葉県済生会習志野病院（千葉県習志野市泉町1-1-1）習志野第一病院（千葉県習志野市津田沼5-5-25）"}
 ,{"Name":"津田沼中央総合病院","Jusho":"千葉県習志野市谷津1-9-17","telephone":"047-476-5111","url":"http://www.tcgh.jp/","syoshin":"×","saishin":"〇","kamei":"内科循環器科外科消化器科整形外科眼科脳神経外科婦人科皮膚科形成外科小児科泌尿器科","niji":"済生会習志野病院（千葉県習志野市泉町1-1-1）谷津保健病院（千葉県習志野市谷津4-6-16）習志野第一病院（千葉県習志野市津田沼5-5-25）"}
 ,{"Name":"実籾診療所","Jusho":"千葉県習志野市実籾1-5-2","telephone":"047-472-0431","url":"","syoshin":"△","saishin":"△","kamei":"内科","niji":"千葉県済生会習志野病院（千葉県習志野市泉町1-1-1）東京女子医科大学八千代医療センター（千葉県八千代市大和田新田477-96）"}
-,{"Name":"ほしかわクリニック","Jusho":"千葉県習志野市実籾2-15-23","telephone":"047-470-5505","url":"?wwｗ.hoshikawa@hoshikawa-clinic.com","syoshin":"×","saishin":"〇","kamei":"内科","niji":"都度各病院に確認"}
+,{"Name":"ほしかわクリニック","Jusho":"千葉県習志野市実籾2-15-23","telephone":"047-470-5505","url":"?www.hoshikawa@hoshikawa-clinic.com","syoshin":"×","saishin":"〇","kamei":"内科","niji":"都度各病院に確認"}
 ,{"Name":"医療法人社団保健会谷津保健クリニック","Jusho":"千葉県習志野市谷津4-7-34","telephone":"047-409-7000","url":"http://www.yatsu.or.jp/yhc/","syoshin":"×","saishin":"〇","kamei":"内科","niji":""}
 ,{"Name":"医療法人社団保健会谷津保健病院","Jusho":"千葉県習志野市谷津4-6-16","telephone":"047-451-6000","url":"http://www.yatsu.or.jp/","syoshin":"×","saishin":"〇","kamei":"全診療科（注:一部対応していない診療科あり）","niji":""}
 ,{"Name":"医療法人社団汀会津田沼医院","Jusho":"千葉県習志野市津田沼1-18-45","telephone":"047-479-2611","url":"http://www.migiwakai.org","syoshin":"×","saishin":"△","kamei":"泌尿器科内科","niji":"当院"}
@@ -2958,7 +2958,7 @@
 ,{"Name":"さとう内科医院","Jusho":"千葉県八千代市大和田新田251","telephone":"047-481-5115","url":"","syoshin":"×","saishin":"×","kamei":"内科","niji":""}
 ,{"Name":"緑が丘セントラルクリニック","Jusho":"千葉県八千代市緑が丘1-4-1カムザスクエア・エスタシオン2F","telephone":"047-450-6604","url":"http://www.myclinic.ne.jp/central_cl/","syoshin":"×","saishin":"×","kamei":"心療内科精神科","niji":""}
 ,{"Name":"医社）康雄会山﨑内科","Jusho":"千葉県八千代市八千代台西1-6-1扇屋ビル","telephone":"047-480-2722","url":"http://www.yamazakinaika.com","syoshin":"×","saishin":"〇","kamei":"内科","niji":""}
-,{"Name":"医）純仁会もと脳神経・内科クリニック","Jusho":"千葉県八千代市八千代台西9-2-9","telephone":"047-405-7005","url":"?http://wwｗ.moto-clinic.com","syoshin":"〇","saishin":"〇","kamei":"内科、神経内科脳神経外科","niji":"東京女子医大八千代医療センター（千葉県八千代市大和田新田477-96）"}
+,{"Name":"医）純仁会もと脳神経・内科クリニック","Jusho":"千葉県八千代市八千代台西9-2-9","telephone":"047-405-7005","url":"?http://www.moto-clinic.com","syoshin":"〇","saishin":"〇","kamei":"内科、神経内科脳神経外科","niji":"東京女子医大八千代医療センター（千葉県八千代市大和田新田477-96）"}
 ,{"Name":"うのクリニック","Jusho":"千葉県八千代市勝田台2-12-9","telephone":"047-481-1929","url":"http://www.uno-clinic.com","syoshin":"〇","saishin":"〇","kamei":"内科小児科","niji":"未定"}
 ,{"Name":"おおた医院","Jusho":"千葉県我孫子市本町2-2-1セザン本町2F","telephone":"04-7126-0331","url":"https://ota-iin-abiko.on.omisenomikata.jp/","syoshin":"〇","saishin":"〇","kamei":"内科小児科","niji":"おおた医院（千葉県我孫子市本町2-2-1セザン本町2F）"}
 ,{"Name":"我孫子つくし野病院","Jusho":"千葉県我孫子市つくし野131-1","telephone":"04-7184-2211","url":"https://abiko-tsukushino.jp/","syoshin":"×","saishin":"〇","kamei":"内科","niji":"対面診療が必要と判断した場合は自院診察します。コロナ感染疑いの可能性が高い場合は保健所へ連絡します。"}
@@ -3016,7 +3016,7 @@
 ,{"Name":"医療法人それいゆ会四街道さくら病院","Jusho":"千葉県四街道市大日526-1","telephone":"043-422-2081","url":"http://yotsukaidosakurahospital.web.fc2.com/","syoshin":"〇","saishin":"〇","kamei":"内科","niji":"医療法人それいゆ会四街道さくら病院（千葉県四街道市大日526-1）"}
 ,{"Name":"医療法人徳洲会大日徳洲会病院","Jusho":"千葉県四街道市大日933番地","telephone":"043-422-1255","url":"","syoshin":"×","saishin":"〇","kamei":"内科","niji":"再診のみ電話や情報通信機器を用いた診療を実施"}
 ,{"Name":"独立行政法人国立病院機構下志津病院","Jusho":"千葉県四街道市鹿渡934-5","telephone":"043-422-2511","url":"https://www.nsh.gr.jp/","syoshin":"×","saishin":"〇","kamei":"内科、精神科、神経内科、呼吸器内科、消化器内科、循環器内科、アレルギー科、感染症内科、リウマチ科、小児科、外科、整形外科、脳神経外科、皮膚科、眼科、耳鼻いんこう科","niji":"自院にて対応"}
-,{"Name":"医療法人社団誠津会はるかぜ診療所","Jusho":"千葉県四街道市大日549-1C&Mモール1階","telephone":"043-304-3036","url":"?http://wwｗ.harukaze-clinic.com","syoshin":"×","saishin":"〇","kamei":"内科","niji":""}
+,{"Name":"医療法人社団誠津会はるかぜ診療所","Jusho":"千葉県四街道市大日549-1C&Mモール1階","telephone":"043-304-3036","url":"?http://www.harukaze-clinic.com","syoshin":"×","saishin":"〇","kamei":"内科","niji":""}
 ,{"Name":"福王台外科内科","Jusho":"千葉県袖ケ浦市福王台1-10-9","telephone":"0438-62-3881","url":"","syoshin":"×","saishin":"〇","kamei":"内科","niji":""}
 ,{"Name":"(医)恒久会山口医院","Jusho":"千葉県袖ケ浦市奈良輪535-1","telephone":"0438-62-2056","url":"https://koukyu-kai.com/yamaguchi/","syoshin":"×","saishin":"〇","kamei":"整形外科内科","niji":"(医)恒久会山口医院(千葉県袖ケ浦市奈良輪535-1)"}
 ,{"Name":"千葉県袖ケ浦福祉センター診療室","Jusho":"千葉県袖ケ浦市蔵波3108-1","telephone":"0438-62-2746","url":"www.cfj.or.jp/ser_05/index.html","syoshin":"△","saishin":"〇","kamei":"内科","niji":"なし"}
@@ -3685,7 +3685,7 @@
 ,{"Name":"いさ内科クリニック","Jusho":"東京都北区王子1-25-10アルカディア津多屋1F","telephone":"03-3927-1105","url":"","syoshin":"〇","saishin":"〇","kamei":"内科小児科神経内科","niji":""}
 ,{"Name":"いずみ整形外科クリニック","Jusho":"東京都北区赤羽西1-4-15グランデール赤羽","telephone":"03-5948-2911","url":"https://www.izumi-seikei.com/","syoshin":"×","saishin":"〇","kamei":"整形外科","niji":""}
 ,{"Name":"いとう王子神谷内科外科クリニック","Jusho":"東京都北区王子5-5-3ｼｰﾒｿﾞﾝ王子神谷3階","telephone":"03-5959-7705","url":"https://itokc.jp/","syoshin":"〇","saishin":"〇","kamei":"内科小児科外科乳腺外科呼吸器内科消化器内科内視鏡内科皮膚科泌尿器科循環器内科","niji":"基本的に当院で対応する。重症例・治療抵抗例・数的に困難な場合は、東京北医療センター・明理会中央総合病院・帝京大学病院へ紹介しております。"}
-,{"Name":"医療法人社団五十嵐医院","Jusho":"東京都北区赤羽1-49-9","telephone":"03-3901-3131","url":"http://wwｗ.igarashi-iin.com","syoshin":"〇","saishin":"〇","kamei":"皮膚科","niji":""}
+,{"Name":"医療法人社団五十嵐医院","Jusho":"東京都北区赤羽1-49-9","telephone":"03-3901-3131","url":"http://www.igarashi-iin.com","syoshin":"〇","saishin":"〇","kamei":"皮膚科","niji":""}
 ,{"Name":"医療法人社団ATたむら内科クリニック","Jusho":"東京都北区神谷2-25-4","telephone":"03-3598-0888","url":"https://tamura-naikaclinic.com","syoshin":"×","saishin":"〇","kamei":"内科","niji":""}
 ,{"Name":"医療法人社団啓仁会平川胃腸クリニック","Jusho":"東京都北区赤羽西1丁目6-1ビビオ3F","telephone":"03-3900-2232","url":"http://hirakawa-icho.med.gr.jp/","syoshin":"〇","saishin":"〇","kamei":"内科消化器内科放射線科","niji":"東京北医療センター（東京都北区赤羽台4-17-56）"}
 ,{"Name":"医療法人社団康優会染谷メンタルクリニック","Jusho":"東京都北区王子2-12-12松尾ビル1F","telephone":"03-3351-0875","url":"http://www.someyamental.com/","syoshin":"〇","saishin":"〇","kamei":"精神科心療内科","niji":"東京医科歯科大学医学部附属病院（東京都文京区湯島1-5-45）"}
@@ -3734,8 +3734,8 @@
 ,{"Name":"いたばし・ハートクリニック","Jusho":"東京都板橋区板橋1-21-7聖楽ビル1階","telephone":"03-5248-0880","url":"http://www.itabashi-heart.com","syoshin":"×","saishin":"〇","kamei":"内科循環器内科","niji":""}
 ,{"Name":"板橋区役所前診療所","Jusho":"東京都板橋区氷川町1-12コスモディエース3階","telephone":"03-5375-9031","url":"http://ita-shinryojo.jp/","syoshin":"×","saishin":"〇","kamei":"内科","niji":"平成ホームクリニック（東京都板橋区向原三丁目7-7-2階）平成ゆうわクリニック（埼玉県戸田市新曽南4-2-35-1階）"}
 ,{"Name":"板橋すばる眼科","Jusho":"東京都板橋区中板橋20-5-302","telephone":"03-6905-3511","url":"http://www.subaru-eye.com","syoshin":"〇","saishin":"〇","kamei":"眼科","niji":"板橋区医師会病院（東京都板橋区高島平3丁目12-6）"}
-,{"Name":"板橋セントラルクリニック","Jusho":"東京都板橋区小豆沢2-16-15","telephone":"03-3967-1268","url":"http://ｗｗｗ.ims.gr.jp/itabashi.hp/","syoshin":"×","saishin":"〇","kamei":"皮膚科眼科小児科","niji":""}
-,{"Name":"板橋中央総合病院","Jusho":"東京都板橋区小豆沢1-12-7","telephone":"03-3967-1181","url":"http://ｗｗｗ.ims.gr.jp/itabashi.hp/","syoshin":"×","saishin":"〇","kamei":"内科腎臓内科血液内科リウマチ科糖尿病内科脳神経内科呼吸器内科循環器内科消化器内科消化器外科耳鼻科外科呼吸器外科心臓血管外科脳神経外科整形外科腎臓外科泌尿器科産婦人科","niji":""}
+,{"Name":"板橋セントラルクリニック","Jusho":"東京都板橋区小豆沢2-16-15","telephone":"03-3967-1268","url":"http://www.ims.gr.jp/itabashi.hp/","syoshin":"×","saishin":"〇","kamei":"皮膚科眼科小児科","niji":""}
+,{"Name":"板橋中央総合病院","Jusho":"東京都板橋区小豆沢1-12-7","telephone":"03-3967-1181","url":"http://www.ims.gr.jp/itabashi.hp/","syoshin":"×","saishin":"〇","kamei":"内科腎臓内科血液内科リウマチ科糖尿病内科脳神経内科呼吸器内科循環器内科消化器内科消化器外科耳鼻科外科呼吸器外科心臓血管外科脳神経外科整形外科腎臓外科泌尿器科産婦人科","niji":""}
 ,{"Name":"イムス記念病院","Jusho":"東京都板橋区常盤台4-25-5","telephone":"03-3932-9181","url":"http://www.ims.gr.jp/ims-kinen/","syoshin":"×","saishin":"〇","kamei":"全診療科","niji":""}
 ,{"Name":"医療法人社団かのう会かのう耳鼻咽喉科クリニック","Jusho":"東京都板橋区板橋1-53-10-2F2B","telephone":"03-6905-3387","url":"www.kano-jibi.jp","syoshin":"×","saishin":"〇","kamei":"耳鼻科小児耳鼻科","niji":""}
 ,{"Name":"医療法人社団ごんだクリニック","Jusho":"東京都板橋区高島平2-33-1ピーコックストア高島平店2階","telephone":"03-5922-5377","url":"https://gonda-cl.com","syoshin":"×","saishin":"〇","kamei":"内科消化器外科肛門外科","niji":""}
@@ -4505,7 +4505,7 @@
 ,{"Name":"市ヶ尾眼科","Jusho":"神奈川県横浜市青葉区市ケ尾町1054-4秦野ビル2階","telephone":"045-973-2785","url":"http://www.ichigaoganka.com/","syoshin":"〇","saishin":"〇","kamei":"眼科","niji":""}
 ,{"Name":"いまむらメディカルクリニック","Jusho":"神奈川県横浜市青葉区榎が丘1-5青木ビル4階","telephone":"045-984-3053","url":"http://www.imamura-mc.com/","syoshin":"×","saishin":"〇","kamei":"内科泌尿器科皮膚科","niji":""}
 ,{"Name":"医療法人杉原クリニック","Jusho":"神奈川県横浜市青葉区市ケ尾町1154-2","telephone":"045-972-6160","url":"http://www.sugiharaclinic.com","syoshin":"〇","saishin":"〇","kamei":"内科","niji":"昭和大学藤が丘病院（神奈川県横浜市青葉区藤が丘1?30）"}
-,{"Name":"医療法人社団西山内科皮膚科クリニック","Jusho":"神奈川県横浜市青葉区市ケ尾町1062-5グランドハイツ森1階","telephone":"045-971-3010","url":"http://wwｗ.nishiyama-clinic.com","syoshin":"〇","saishin":"〇","kamei":"内科皮膚科小児科","niji":"昭和大学藤が丘病院(横浜市青葉区藤が丘1-30)"}
+,{"Name":"医療法人社団西山内科皮膚科クリニック","Jusho":"神奈川県横浜市青葉区市ケ尾町1062-5グランドハイツ森1階","telephone":"045-971-3010","url":"http://www.nishiyama-clinic.com","syoshin":"〇","saishin":"〇","kamei":"内科皮膚科小児科","niji":"昭和大学藤が丘病院(横浜市青葉区藤が丘1-30)"}
 ,{"Name":"医療法人社団博慈会青葉さわい病院","Jusho":"神奈川県横浜市青葉区元石川町4300","telephone":"045-901-0025","url":"http://www.aoba-sawai.or.jp","syoshin":"〇","saishin":"〇","kamei":"内科整形外科","niji":""}
 ,{"Name":"医療法人輝風たまプラーザ南口眼科","Jusho":"神奈川県横浜市青葉区新石川2-4-16たまプラ南口メディカルセンター3Ｆ","telephone":"045-911-5757","url":"http://www.tamapla-ganka.com/","syoshin":"〇","saishin":"〇","kamei":"眼科","niji":""}
 ,{"Name":"えだ皮膚科クリニック","Jusho":"神奈川県横浜市青葉区荏田北1-2-1platform103","telephone":"045-914-7472","url":"https://www.eda-hifuka.info/","syoshin":"〇","saishin":"〇","kamei":"皮膚科","niji":""}
@@ -5264,7 +5264,7 @@
 ,{"Name":"きむら耳鼻咽喉科","Jusho":"福井県福井市若杉4丁目609","telephone":"0776-36-3387","url":"","syoshin":"×","saishin":"〇","kamei":"耳鼻咽喉科","niji":"再診の継続処方のみ電話対応を行います。処方箋の受け取りには当院窓口までお越しください。対面診療が必要と判断した場合は申し訳ありませんが、電話での処方箋発行はできません。後日来院いただき診察をうけていただくようお願いします。"}
 ,{"Name":"たけうちクリニック","Jusho":"福井県福井市乾徳1-1-17","telephone":"0776-23-1212","url":"https://itp.ne.jp/info/185904350191350620/","syoshin":"×","saishin":"〇","kamei":"心療内科","niji":"福仁会病院（福井県福井市文京5-10-1）"}
 ,{"Name":"耳鼻咽喉科・アレルギー科たなかクリニック","Jusho":"福井県福井市上森田1丁目403番","telephone":"0776-56-7733","url":"http://www.qq.pref.fukui.jp/qq18/qqport/kenmintop/detail/fk1101.php?sisetuid=12220","syoshin":"×","saishin":"〇","kamei":"耳鼻咽喉科アレルギー科","niji":"福井県立病院（福井県福井市四ツ井2丁目8-1）福井大学病院（福井県吉田郡永平寺町松岡下合月23-3）"}
-,{"Name":"たわらまち整形外科・内科クリニック","Jusho":"福井県福井市文京2丁目1番15号","telephone":"0776-22-2666","url":"?ｈｔｔｐｓ：//ｔａｗａｒａｍａｃｈｉ.ｊｐ","syoshin":"〇","saishin":"〇","kamei":"内科整形外科","niji":""}
+,{"Name":"たわらまち整形外科・内科クリニック","Jusho":"福井県福井市文京2丁目1番15号","telephone":"0776-22-2666","url":"?ｈｔｔｐｓ：//ｔａwａｒａｍａｃｈｉ.ｊｐ","syoshin":"〇","saishin":"〇","kamei":"内科整形外科","niji":""}
 ,{"Name":"つくし野病院","Jusho":"福井県福井市川合鷲塚町49-6-1","telephone":"0776-55-1800","url":"","syoshin":"〇","saishin":"〇","kamei":"内科外科整形外科耳鼻科眼科","niji":"福井大学付属病院：福井県吉田郡永平寺町松岡下合月23-3福井赤十字病院：福井県福井市月見2丁目4-1"}
 ,{"Name":"ホーカベレディースクリニック","Jusho":"福井県福井市左内町10-11","telephone":"0776-36-0665","url":"http://www.hookabe.com","syoshin":"×","saishin":"〇","kamei":"産婦人科小児科","niji":"福井県立病院（福井県福井市四ツ井2丁目8-1）福井赤十字病院（福井県福井市月見2丁目4-1）"}
 ,{"Name":"安原医院","Jusho":"福井市東郷二ヶ町36-26","telephone":"0776-41-0018","url":"なし","syoshin":"〇","saishin":"〇","kamei":"内科","niji":"・福井県立病院(福井市四ッ井2丁目8-1)・福井赤十字病院(福井市月見2丁目4番1号)・福井県済生会病院(福井市和田中町舟橋7番地1)"}
@@ -6084,7 +6084,7 @@
 ,{"Name":"わかやまクリニック","Jusho":"岐阜県可児市瀬田847-1","telephone":"0574-60-1171","url":"http://www.wakayama-clinic-kani.com","syoshin":"×","saishin":"〇","kamei":"内科","niji":""}
 ,{"Name":"はたのクリニック","Jusho":"岐阜県可児市下切3808-1","telephone":"0574-62-7501","url":"http://hatano.clinic/index.html","syoshin":"〇","saishin":"〇","kamei":"内科循環器科","niji":""}
 ,{"Name":"さくらこどもリハビリクリニック","Jusho":"岐阜県可児市川合2749番地56","telephone":"0574-66-1217","url":"","syoshin":"×","saishin":"×","kamei":"小児科","niji":""}
-,{"Name":"岐阜県厚生農業協同組合連合会岐阜・西濃医療センター岐北厚生病院","Jusho":"岐阜県山県市高富1187-3","telephone":"0581-22-1811","url":"h?ttp://wwｗ.gihoku.gfkosei.or.jp","syoshin":"×","saishin":"〇","kamei":"全診療科","niji":"当院"}
+,{"Name":"岐阜県厚生農業協同組合連合会岐阜・西濃医療センター岐北厚生病院","Jusho":"岐阜県山県市高富1187-3","telephone":"0581-22-1811","url":"h?ttp://www.gihoku.gfkosei.or.jp","syoshin":"×","saishin":"〇","kamei":"全診療科","niji":"当院"}
 ,{"Name":"にのみやクリニック","Jusho":"岐阜県山県市高富927-1","telephone":"0581-22-1717","url":"","syoshin":"×","saishin":"〇","kamei":"内科","niji":"岐北厚生病院（岐阜県山県市高富1187-4)岐阜赤十字病院（岐阜県岐阜市岩倉町3-36）"}
 ,{"Name":"やまもと整形外科","Jusho":"岐阜県山県市高富2092-1","telephone":"0581-27-0170","url":"","syoshin":"〇","saishin":"〇","kamei":"整形外科リウマチ科","niji":"岐北厚生病院（岐阜県山県市高富1187-4)岐阜赤十字病院（岐阜県岐阜市岩倉町3-37）岐阜大学医学部附属病院（岐阜県岐阜市柳戸1番1）"}
 ,{"Name":"早川胃腸科外科クリニック","Jusho":"岐阜県山県市岩佐783-1","telephone":"0581-52-1212","url":"","syoshin":"〇","saishin":"〇","kamei":"内科","niji":"岐北厚生病院（岐阜県山県市高富1187-4)"}
@@ -6354,7 +6354,7 @@
 ,{"Name":"医療法人東恵会□星ヶ丘マタニティ病院","Jusho":"名古屋市千種区井上町27","telephone":"052-782-6211","url":"http://www.toukeikai.com","syoshin":"×","saishin":"×","kamei":"産婦人科小児科内科心療内科歯科口腔外科","niji":""}
 ,{"Name":"医療法人和伸会□和田内科病院","Jusho":"名古屋市千種区今池南25-5","telephone":"052-732-1118","url":"http://mumingroup.jp/wadanaika/","syoshin":"×","saishin":"×","kamei":"内科","niji":"無し（都度検討）"}
 ,{"Name":"ＣＣクリニック","Jusho":"名古屋市東区泉三丁目21番15号Ｌｉｅｎｄｅｉｚｕｍｉ1階","telephone":"933-0020","url":"https://cc-clinic.com","syoshin":"〇","saishin":"〇","kamei":"内科","niji":"国家公務員共済組合連合会名城病院(愛知県名古屋市中区三の丸1丁目3番1号)"}
-,{"Name":"ＭＩＷＡ内科胃腸科ＣＬＩＮＩＣ葵","Jusho":"名古屋市東区葵二丁目14番14号Ｍ-stageAOI1Ｆ","telephone":"933-1177","url":"http://www.miwaclinic.com/aoi","syoshin":"×","saishin":"〇","kamei":"内科、消化器内科","niji":""}
+,{"Name":"ＭＩwＡ内科胃腸科ＣＬＩＮＩＣ葵","Jusho":"名古屋市東区葵二丁目14番14号Ｍ-stageAOI1Ｆ","telephone":"933-1177","url":"http://www.miwaclinic.com/aoi","syoshin":"×","saishin":"〇","kamei":"内科、消化器内科","niji":""}
 ,{"Name":"おなか内科東白壁クリニック","Jusho":"名古屋市東区芳野一丁目1-15","telephone":"908-3721","url":"http://naoaka-nagoya.com/","syoshin":"〇","saishin":"〇","kamei":"内科小児科","niji":"名古屋医療センター名古屋市東部医療センターなど"}
 ,{"Name":"しらかべ内科糖尿病・高血圧・甲状腺クリニック","Jusho":"名古屋市東区白壁二丁目401","telephone":"265-5305","url":"https://shirakabeclinic.com/","syoshin":"〇","saishin":"〇","kamei":"内科小児科","niji":"名古屋医療センター（名古屋市中区三の丸四丁目1番1号）名古屋市立東部医療センター（名古屋市千種区若水一丁目2番23号）"}
 ,{"Name":"もくれんクリニック","Jusho":"名古屋市東区泉二丁目21番25号高岳院ビル7階","telephone":"934-7122","url":"https://mokurenclinic.jp","syoshin":"×","saishin":"×","kamei":"内科","niji":""}
@@ -6399,7 +6399,7 @@
 ,{"Name":"横井医院","Jusho":"名古屋市西区枇杷島3-9-1","telephone":"531-0308","url":"http://www.yokoi0308.com","syoshin":"×","saishin":"〇","kamei":"耳鼻咽喉科","niji":"名鉄病院（名古屋市西区）中村日赤病院（名古屋市中村区）"}
 ,{"Name":"城西こどもクリニック","Jusho":"名古屋市西区城西四丁目19-10","telephone":"531-4970","url":"https://www.josai-kids-clinic.com/","syoshin":"×","saishin":"〇","kamei":"小児科","niji":"名古屋市立西部医療センター（名古屋市北区平出町1-1-1）"}
 ,{"Name":"須藤医院","Jusho":"名古屋市西区浅間二丁目9-5","telephone":"523-4112","url":"https://www.sudoiin.com/","syoshin":"×","saishin":"〇","kamei":"皮膚科","niji":"名古屋医療センター（愛知県名古屋市中区三の丸4-1-1）"}
-,{"Name":"水野ハートクリニック","Jusho":"名古屋市西区香呑町2丁目70番地","telephone":"523-8101","url":"h?ttp://ｗｗｗ.mizuno-heart-clinic.com","syoshin":"×","saishin":"〇","kamei":"内科循環器内科","niji":""}
+,{"Name":"水野ハートクリニック","Jusho":"名古屋市西区香呑町2丁目70番地","telephone":"523-8101","url":"h?ttp://www.mizuno-heart-clinic.com","syoshin":"×","saishin":"〇","kamei":"内科循環器内科","niji":""}
 ,{"Name":"村上クリニック","Jusho":"名古屋市西区花の木三丁目14番4号","telephone":"531-2271","url":"-?","syoshin":"×","saishin":"〇","kamei":"内科","niji":"名古屋医療センター名古屋市中区三の丸4-1-1名古屋市立西部医療センター名古屋市北区平手町1-1-1名鉄病院名古屋市西区栄生2-26-11名古屋セントラル病院名古屋市中村区太閤3-7-7"}
 ,{"Name":"大野皮膚科クリニック","Jusho":"名古屋市西区香呑町6-67","telephone":"052-531-5553","url":"www.oonohifuka.jp","syoshin":"×","saishin":"×","kamei":"未回答","niji":""}
 ,{"Name":"名古屋形成クリニック","Jusho":"名古屋市西区則武新町2-25-6","telephone":"583-7077","url":"http://www.nkclinic.net","syoshin":"×","saishin":"×","kamei":"形成外科","niji":""}
@@ -6461,7 +6461,7 @@
 ,{"Name":"独立行政法人国立病院機構□名古屋医療センター","Jusho":"名古屋市中区三の丸4-1-1","telephone":"052-951-1111","url":"https://www.nnh.go.jp/","syoshin":"×","saishin":"×","kamei":"総合内科/感染症内科/腎臓内科/膠原病内科・リウマチ科/糖尿病・内分泌内科/血液内科/脳神経内科/呼吸器内科/消化器内科/循環器内科/精神科/小児科/腫瘍内科/放射線治療科/外科/乳腺外科/心臓血管外科/整形外科・リウマチ科/脳神経外科/皮膚科/泌尿器科/産婦人科/眼科/耳鼻咽喉科/歯科口腔外科","niji":""}
 ,{"Name":"国家公務員共済組合連合会□名城病院","Jusho":"名古屋市中区三の丸1-3-1","telephone":"052-201-5311","url":"http://www.meijohosp.jp/","syoshin":"×","saishin":"×","kamei":"全科","niji":""}
 ,{"Name":"医療法人勝又病院","Jusho":"名古屋市中区新栄1-32-22","telephone":"052-241-0408","url":"http://katsumata-hospital.or.jp","syoshin":"×","saishin":"×","kamei":"内科","niji":"名古屋大学医学部付属病院（名古屋市中区）名古屋医療センター（名古屋市中区）東部医療センター（名古屋市千種区）"}
-,{"Name":"ＮＴＴ西日本東海病院","Jusho":"名古屋市中区松原2-17-5","telephone":"052-291-6391","url":"ｈ?ｔｔｐ：／／ｗｗｗ．Ｎｔｔ-ｗｅｓｔ．Ｃｏ．Ｊｐ／ｔｏｋａｉ-ｈｏｓｐ／","syoshin":"×","saishin":"×","kamei":"内科","niji":""}
+,{"Name":"ＮＴＴ西日本東海病院","Jusho":"名古屋市中区松原2-17-5","telephone":"052-291-6391","url":"ｈ?ｔｔｐ：／／www．Ｎｔｔ-wｅｓｔ．Ｃｏ．Ｊｐ／ｔｏｋａｉ-ｈｏｓｐ／","syoshin":"×","saishin":"×","kamei":"内科","niji":""}
 ,{"Name":"いとう内科","Jusho":"昭和区御器所通1-13","telephone":"731-3690","url":"-?","syoshin":"×","saishin":"〇","kamei":"内科、小児科、呼吸器科","niji":""}
 ,{"Name":"いりなか駅前皮フ科ビューティークリニック","Jusho":"名古屋市昭和区隼人町3番4アルページュ杁中1階","telephone":"839-3500","url":"https://irinak-beauty.jp","syoshin":"〇","saishin":"〇","kamei":"皮膚科","niji":""}
 ,{"Name":"いりなか眼科クリニック","Jusho":"名古屋市昭和区隼人町7-10","telephone":"835-1331","url":"http://www.irinakaganka.jp","syoshin":"〇","saishin":"〇","kamei":"眼科","niji":"当院"}
@@ -6616,7 +6616,7 @@
 ,{"Name":"鈴木耳鼻咽喉科医院","Jusho":"名古屋市緑区鳴海町矢切77-1山鳴ビル3Ｆ","telephone":"624-5622","url":"http://suzuki-jibika.nagoya/","syoshin":"×","saishin":"×","kamei":"耳鼻咽喉科","niji":"-"}
 ,{"Name":"医療法人幸寿会□平岩病院","Jusho":"名古屋市緑区鳴海町相原町26","telephone":"052-621-0002","url":"https://www.hiraiwa-hp.jp","syoshin":"〇","saishin":"〇","kamei":"内科","niji":""}
 ,{"Name":"第一なるみ病院","Jusho":"名古屋市緑区細口1-210","telephone":"052-876-8361","url":"http://www.narumikai.or.jp","syoshin":"×","saishin":"×","kamei":"内科外科整形外科","niji":"なし"}
-,{"Name":"医療法人清水会□相生山病院","Jusho":"名古屋市緑区藤塚3-2704","telephone":"052-878-3711","url":"h?ttpｓ://wwｗ.aioiyama.or.jp/","syoshin":"〇","saishin":"〇","kamei":"内科","niji":"藤田医科大学病院（豊明市沓掛町田楽ヶ窪1-98）"}
+,{"Name":"医療法人清水会□相生山病院","Jusho":"名古屋市緑区藤塚3-2704","telephone":"052-878-3711","url":"h?ttpｓ://www.aioiyama.or.jp/","syoshin":"〇","saishin":"〇","kamei":"内科","niji":"藤田医科大学病院（豊明市沓掛町田楽ヶ窪1-98）"}
 ,{"Name":"アスクレピオス診療院","Jusho":"名古屋市名東区代万町3丁目11番1エイジトピア星ヶ丘ドクターズビル2階","telephone":"253-5174","url":"http://asklepios-clinic.jp","syoshin":"×","saishin":"×","kamei":"内科糖尿病内科","niji":""}
 ,{"Name":"いはら内科外科クリニック","Jusho":"名古屋市名東区よもぎ台二丁目616番","telephone":"773-0021","url":"http://www.ihara-clinic.net/","syoshin":"〇","saishin":"〇","kamei":"内科","niji":""}
 ,{"Name":"かなれこどもクリニック","Jusho":"名古屋市名東区猪子石原1丁目208番1","telephone":"760-1800","url":"kanarekodomo.com/","syoshin":"×","saishin":"×","kamei":"小児科","niji":""}
@@ -6987,7 +6987,7 @@
 ,{"Name":"永井医院","Jusho":"愛知県みよし市三好町弥栄11番地4","telephone":"0561-33-5211","url":"http://www.nagai-iin.jp/","syoshin":"×","saishin":"×","kamei":"内科","niji":""}
 ,{"Name":"天王内科","Jusho":"愛知県みよし市三好町天王94番地3","telephone":"0561-32-2002","url":"-?","syoshin":"×","saishin":"〇","kamei":"内科","niji":""}
 ,{"Name":"宇田ファミリークリニック","Jusho":"愛知県みよし市園原四丁目1番地4","telephone":"0561-35-1311","url":"http://www.udacli.com/","syoshin":"×","saishin":"×","kamei":"内科、小児科、循環器内科","niji":"自院、みよし市民病院、豊田厚生病院、トヨタ記念病院、藤田医科大学病院"}
-,{"Name":"みよし市民病院","Jusho":"愛知県みよし市三好町八和田山15番地","telephone":"0561-33-3300","url":"h?ttp://wwｗ.hospital-miyoshi.jp/","syoshin":"×","saishin":"〇","kamei":"全科","niji":"なし"}
+,{"Name":"みよし市民病院","Jusho":"愛知県みよし市三好町八和田山15番地","telephone":"0561-33-3300","url":"h?ttp://www.hospital-miyoshi.jp/","syoshin":"×","saishin":"〇","kamei":"全科","niji":"なし"}
 ,{"Name":"原クリニック","Jusho":"愛知県あま市森4-2-2","telephone":"052-441-1117","url":"-?","syoshin":"〇","saishin":"〇","kamei":"内科・小児科・循環器内科","niji":"名古屋第一赤十字病院（名古屋市中村区道下町3丁目35番地）"}
 ,{"Name":"安藤クリニック","Jusho":"愛知県あま市中萱津道場98番地","telephone":"052-444-1508","url":"-?","syoshin":"〇","saishin":"〇","kamei":"内科循環器内科小児科","niji":"名古屋第一赤十字病院（愛知県名古屋市中村区道下町3-35）あま市民病院（愛知県あま市甚目寺畦田1）名鉄病院（愛知県名古屋市西区栄生2-26-11）海南病院（愛知県弥富市前ヶ須町南本田396）"}
 ,{"Name":"宮地クリニック","Jusho":"愛知県あま市篠田小塚48番地","telephone":"052-444-1064","url":"http://www.miyachi-cl.net/","syoshin":"〇","saishin":"〇","kamei":"内科小児科","niji":""}
@@ -7653,7 +7653,7 @@
 ,{"Name":"うめだ整形外科","Jusho":"大阪府茨木市双葉町6-2フォルテ・ディ・コンフォート2階","telephone":"072-635-3970","url":"https://umedaseikei.com","syoshin":"×","saishin":"〇","kamei":"整形外科リハビリテーション科","niji":"うめだ整形外科（大阪府茨木市双葉町6-2フォルテ・ディ・コンフォート2階）北摂総合病院（大阪府高槻市北柳川町6-24）"}
 ,{"Name":"医療法人宇都山医院","Jusho":"大阪府茨木市星見町10番30号","telephone":"072-634-0202","url":"http://utsuyama-reha.moon.bindcloud.jp/","syoshin":"〇","saishin":"〇","kamei":"内科神経内科リハビリテーション科","niji":"来院して頂きます（未調整）"}
 ,{"Name":"さと在宅クリニック","Jusho":"大阪府茨木市玉櫛2-28-12-1F","telephone":"072-637-1556","url":"","syoshin":"×","saishin":"〇","kamei":"内科","niji":""}
-,{"Name":"医療法人高島整形外科","Jusho":"大阪府茨木市沢良宜西1-13-22","telephone":"072-630-2600","url":"h?ttp://wwｗ.takasima.jp","syoshin":"〇","saishin":"〇","kamei":"整形外科リウマチ科リハビリテーション科","niji":"高槻病院（高槻市古曽部町1-3-13）済生会茨木病院（茨木市見付山2-1-45）"}
+,{"Name":"医療法人高島整形外科","Jusho":"大阪府茨木市沢良宜西1-13-22","telephone":"072-630-2600","url":"h?ttp://www.takasima.jp","syoshin":"〇","saishin":"〇","kamei":"整形外科リウマチ科リハビリテーション科","niji":"高槻病院（高槻市古曽部町1-3-13）済生会茨木病院（茨木市見付山2-1-45）"}
 ,{"Name":"医療法人やまもとクリニック","Jusho":"大阪府茨木市永代町7-10","telephone":"072-645-5166","url":"https://www.yamamoto-c-ibaraki.jp/","syoshin":"×","saishin":"〇","kamei":"内科小児科","niji":"社会医療法人仙養会北摂総合病院（大阪府高槻市北柳川町6?24）大阪府済生会茨木病院（大阪府茨木市見付山2-1-45）"}
 ,{"Name":"平田整形外科クリニック","Jusho":"大阪府茨木市寺田町11-7","telephone":"072-636-6267","url":"http://hirata-seikeigeka.com/","syoshin":"×","saishin":"〇","kamei":"整形外科・リハビリテーション科・外科","niji":"当院にまず受診するように指示いたします。その後必要なら近隣の病院を紹介します。"}
 ,{"Name":"山本内科医院","Jusho":"大阪府茨木市西駅前町10-110","telephone":"072-622-6466","url":"","syoshin":"〇","saishin":"〇","kamei":"内科","niji":"済生会茨木病院（茨木市見付山2-1-45）"}
@@ -8099,7 +8099,7 @@
 ,{"Name":"平生診療所","Jusho":"兵庫県伊丹市梅ノ木6-3-8","telephone":"072-772-8118","url":"http://www.heisei-shinryoujo.com","syoshin":"×","saishin":"〇","kamei":"内科","niji":"市立伊丹病院（兵庫県伊丹市昆陽池1-100）近畿中央病院（兵庫県伊丹市車塚3-1）など"}
 ,{"Name":"さかもと小児科アレルギー科","Jusho":"兵庫県伊丹市伊丹1-7-16-101","telephone":"072-771-6116","url":"http://sakamoto-ped.com/","syoshin":"×","saishin":"〇","kamei":"小児科アレルギー科","niji":""}
 ,{"Name":"とみなが内科クリニック","Jusho":"兵庫県伊丹市車塚2-84-2","telephone":"072-777-3451","url":"https://www.tominagaclinic.com","syoshin":"〇","saishin":"〇","kamei":"内科","niji":"市立伊丹病院（兵庫県伊丹市昆陽池1-100）"}
-,{"Name":"レディースクリニックTaya","Jusho":"兵庫県伊丹市伊丹1-10-14-201-5","telephone":"072-771-7717","url":"https://ｗｗｗ.lc-taya.jp","syoshin":"×","saishin":"〇","kamei":"婦人科","niji":"未定"}
+,{"Name":"レディースクリニックTaya","Jusho":"兵庫県伊丹市伊丹1-10-14-201-5","telephone":"072-771-7717","url":"https://www.lc-taya.jp","syoshin":"×","saishin":"〇","kamei":"婦人科","niji":"未定"}
 ,{"Name":"たにみつ内科","Jusho":"兵庫県伊丹市池尻1-204-2","telephone":"072-772-8888","url":"","syoshin":"×","saishin":"△","kamei":"内科肛門科","niji":""}
 ,{"Name":"いぬいこどもクリニック","Jusho":"兵庫県伊丹市中野北3-6-6","telephone":"072-771-7848","url":"www.inuiclinic.com","syoshin":"△","saishin":"〇","kamei":"小児科","niji":"市立伊丹病院（兵庫県伊丹市昆陽池1-100）近畿中央病院（兵庫県伊丹市車塚3-1）"}
 ,{"Name":"林小児科内科","Jusho":"兵庫県伊丹市荒牧南4-1-72","telephone":"072-777-8843","url":"www.hayashi-clinic.net","syoshin":"×","saishin":"〇","kamei":"内科小児科","niji":"①原則は当院を受診②市立伊丹病院（兵庫県伊丹市昆陽池1-100）"}
@@ -8627,7 +8627,7 @@
 ,{"Name":"広島プルミエクリニック","Jusho":"広島県広島市中区本通7-29アイビービル4階","telephone":"082-569-8800","url":"https://fdoc.jp/clinic/detail/index/id/150080/","syoshin":"〇","saishin":"〇","kamei":"形成外科皮膚科","niji":"広島市民病院（広島県広島市中区基町7-33）"}
 ,{"Name":"医療法人社団秋月会広島中央通り香月産婦人科","Jusho":"広島県広島市中区三川町7番1号","telephone":"082-546-2555","url":"https://www.katsuki-medical.com/","syoshin":"〇","saishin":"〇","kamei":"産婦人科","niji":""}
 ,{"Name":"広島アイクリニック","Jusho":"広島県広島市中区幟町13-4広島マツダビル3F","telephone":"082-223-8822","url":"","syoshin":"×","saishin":"〇","kamei":"眼科","niji":"広島大学病院眼科(広島県広島市南区霞1-2-3)"}
-,{"Name":"ﾘｳﾏﾁ内科銀山町ｸﾘﾆｯｸ","Jusho":"広島市中区幟町13-4広島ﾏﾂﾀﾞﾋﾞﾙ5階","telephone":"082-228-6661","url":"?http://ｗｗｗ.hmh.or.jp/","syoshin":"〇","saishin":"〇","kamei":"ﾘｳﾏﾁ科・内科","niji":"東広島記念病院（東広島市西条町吉行2214）広島生活習慣病・がん健診所大野（廿日市市大野早時3406-5）"}
+,{"Name":"ﾘｳﾏﾁ内科銀山町ｸﾘﾆｯｸ","Jusho":"広島市中区幟町13-4広島ﾏﾂﾀﾞﾋﾞﾙ5階","telephone":"082-228-6661","url":"?http://www.hmh.or.jp/","syoshin":"〇","saishin":"〇","kamei":"ﾘｳﾏﾁ科・内科","niji":"東広島記念病院（東広島市西条町吉行2214）広島生活習慣病・がん健診所大野（廿日市市大野早時3406-5）"}
 ,{"Name":"広島原爆障害対策協議会","Jusho":"広島市中区千田町三丁目8番6号","telephone":"082-243-2451","url":"http://www.genntaikyo.or.jp/","syoshin":"×","saishin":"〇","kamei":"内科","niji":"国家公務員共済組合連合会吉島病院（広島市中区吉島東3-2-33）広島赤十字・原爆病院（広島市中区千田町1-9-6）国家公務員共済組合連合会広島記念病院(広島市中区本川町1-4-3)"}
 ,{"Name":"広島市立舟入市民病院","Jusho":"広島市中区舟入幸町14-11","telephone":"082-232-6195","url":"http://funairi-hospital.jp/","syoshin":"×","saishin":"〇","kamei":"内科外科小児外科小児科","niji":""}
 ,{"Name":"呉中央クリニック整形外科","Jusho":"広島県呉市中央1-5-21","telephone":"0823ｰ32ｰ0011","url":"現在開設中です","syoshin":"〇","saishin":"〇","kamei":"整形外科リウマチ科","niji":"呉中央クリニック整形外科"}
@@ -8814,7 +8814,7 @@
 ,{"Name":"ざおう眼科","Jusho":"広島県福山市南蔵王町5-9-18","telephone":"084-945-8139","url":"","syoshin":"〇","saishin":"〇","kamei":"眼科","niji":"福山市民病院（広島県福山市蔵王町5-23-1）"}
 ,{"Name":"医療法人社団健信会木下メディカルクリニック","Jusho":"広島県福山市沼隈町大字草深1711","telephone":"084-987-1252","url":"","syoshin":"〇","saishin":"〇","kamei":"外科整形外科胃腸科","niji":"保健所へ相談後医療機関を選定"}
 ,{"Name":"はまもと内科クリニック","Jusho":"広島県福山市南蔵王町5-6-9","telephone":"084-943-4976","url":"http://hamamoto-naika.com/","syoshin":"×","saishin":"〇","kamei":"内科","niji":"福山市民病院（広島県福山市蔵王町5-23-1）"}
-,{"Name":"のじまホームクリニック","Jusho":"広島県福山市駅家町万能倉1245-4","telephone":"084-970-1711","url":"?http://wwｗ.nojima-hc.com","syoshin":"×","saishin":"〇","kamei":"内科外科","niji":""}
+,{"Name":"のじまホームクリニック","Jusho":"広島県福山市駅家町万能倉1245-4","telephone":"084-970-1711","url":"?http://www.nojima-hc.com","syoshin":"×","saishin":"〇","kamei":"内科外科","niji":""}
 ,{"Name":"こども発達支援センター","Jusho":"広島県福山市三吉町南二丁目11番22号","telephone":"084-928-1351","url":"http://www.city.fukuyama.hiroshima.jp/soshiki/kodomo/","syoshin":"〇","saishin":"〇","kamei":"小児科小児神経科","niji":""}
 ,{"Name":"（医）徹慈会堀病院","Jusho":"広島県福山市沖野上町3-4-13","telephone":"084-926-3387","url":"http://hori.or.jp/","syoshin":"〇","saishin":"〇","kamei":"耳鼻咽喉科内科","niji":""}
 ,{"Name":"府中市民病院","Jusho":"広島県府中市鵜飼町555番地3","telephone":"0847-45-3300","url":"http://shimin.fuchuhp.jp/","syoshin":"×","saishin":"〇","kamei":"内科精神科小児科整形外科泌尿器科耳鼻咽喉科婦人科","niji":"自院にて対応"}
@@ -8943,7 +8943,7 @@
 ,{"Name":"きはら内科あこ小児科","Jusho":"山口県防府市台道421-2","telephone":"内科0835-33-1120小児科0835-33-1130","url":"","syoshin":"〇","saishin":"〇","kamei":"内科小児科","niji":"山口県立総合医療センター（防府市大字大崎10077）山口赤十字病院（山口県山口市八幡馬場53-1）"}
 ,{"Name":"下松中央病院","Jusho":"山口県下松市古川町三丁目1番1号","telephone":"0833-41-3030","url":"http://ryokuzankai.jp/","syoshin":"×","saishin":"〇","kamei":"内科整形外科","niji":"自院において診療徳山中央病院（山口県周南市孝田町1-1）周南記念病院（山口県下松市生野屋南1-10-1）"}
 ,{"Name":"医療法人社団あいクリニック","Jusho":"山口県下松市西柳3丁目2番34号","telephone":"0833-48-1111","url":"https://www.aiclinic.server-shared.com/","syoshin":"〇","saishin":"〇","kamei":"小児科皮膚科","niji":"徳山中央病院（山口県周南市孝田町1-1）"}
-,{"Name":"周南記念病院","Jusho":"山口県下松市生野屋南一丁目10番1号","telephone":"0833-45-3330","url":"?http://wwｗ.shunan-kinen.jp","syoshin":"×","saishin":"〇","kamei":"内科内科内科内科内科内科内科内科内科内科内科内科内科内科外科外科外科外科外科外科整形外科整形外科整形外科脳神経外科脳神経外科泌尿器科泌尿器科","niji":""}
+,{"Name":"周南記念病院","Jusho":"山口県下松市生野屋南一丁目10番1号","telephone":"0833-45-3330","url":"?http://www.shunan-kinen.jp","syoshin":"×","saishin":"〇","kamei":"内科内科内科内科内科内科内科内科内科内科内科内科内科内科外科外科外科外科外科外科整形外科整形外科整形外科脳神経外科脳神経外科泌尿器科泌尿器科","niji":""}
 ,{"Name":"マサキ外科肛門科","Jusho":"山口県岩国市麻里布町5-3-12","telephone":"0827-22-0088","url":"","syoshin":"〇","saishin":"〇","kamei":"肛門科","niji":"医療センター医師会病院（岩国市室の木町3-6-12）"}
 ,{"Name":"さくらぎ循環器・内科クリニッ","Jusho":"山口県岩国市麻里布町7-2-18岩国ミッドタウンメディカルセンター2F","telephone":"0827-35-5011","url":"","syoshin":"〇","saishin":"〇","kamei":"循環器内科内科","niji":"岩国医療センター（岩国市愛宕町1-1-1）"}
 ,{"Name":"岩国市医療センター医師会病院","Jusho":"山口県岩国市室の木町3丁目6番12号","telephone":"0827-21-3211","url":"http://iwakuni-med.jp","syoshin":"×","saishin":"〇","kamei":"内科小児科整形外科","niji":""}
@@ -9422,7 +9422,7 @@
 ,{"Name":"たちばな歯科医院","Jusho":"愛媛県西条市楢木251-2","telephone":"0897-57-8899","url":"","syoshin":"〇","saishin":"〇","kamei":"歯科・小児歯科・矯正歯科","niji":"村上記念病院（愛媛県西条市大町739）"}
 ,{"Name":"かりやま整形外科","Jusho":"愛媛県西条市大町701-2","telephone":"0897-47-1717","url":"","syoshin":"〇","saishin":"〇","kamei":"整形外科","niji":"かりやま整形外科（愛媛県西条市大町701-2）"}
 ,{"Name":"いんなみ眼科・神経内科","Jusho":"大洲市田口甲380番地1","telephone":"0893-24-0700","url":"","syoshin":"×","saishin":"〇","kamei":"精神科神経内科眼科","niji":""}
-,{"Name":"伊予病院","Jusho":"愛媛県伊予市八倉906番地5","telephone":"089-983-2222","url":"h?ttp://wwｗ/iyohp.jp/","syoshin":"×","saishin":"〇","kamei":"リハ科小児科","niji":""}
+,{"Name":"伊予病院","Jusho":"愛媛県伊予市八倉906番地5","telephone":"089-983-2222","url":"h?ttp://www/iyohp.jp/","syoshin":"×","saishin":"〇","kamei":"リハ科小児科","niji":""}
 ,{"Name":"佐礼谷診療所","Jusho":"愛媛県伊予市中山町佐礼谷甲816番地1","telephone":"089-968-0021","url":"","syoshin":"×","saishin":"〇","kamei":"内科小児科放射線科","niji":"愛媛県立中央病院（愛媛県松山市春日町83）松山市民病院（愛媛県松山市大手町2丁目6-5）"}
 ,{"Name":"栗整形外科病院","Jusho":"愛媛県四国中央市中之庄町398-1","telephone":"0896-24-5550","url":"https://kuri-seikei.com","syoshin":"×","saishin":"〇","kamei":"整形外科","niji":""}
 ,{"Name":"公立学校共済組合四国中央病院","Jusho":"愛媛県四国中央市川之江町2233番地","telephone":"0896-58-3515","url":"http://www.shikoku-ctr-hsp.jp/","syoshin":"×","saishin":"〇","kamei":"内科精神科小児科外科整形外科形成外科産婦人科","niji":"ＨＩＴＯ病院（愛媛県四国中央市上分町788番地1）"}
@@ -9637,7 +9637,7 @@
 ,{"Name":"西藤医院","Jusho":"福岡県福岡市東区雁の巣1-3-4","telephone":"092-608-3110","url":"","syoshin":"〇","saishin":"〇","kamei":"皮膚科泌尿器科漢方内科","niji":""}
 ,{"Name":"永野外科胃腸科医院","Jusho":"福岡県福岡市東区高美台2-4-27","telephone":"092-607-3261","url":"","syoshin":"×","saishin":"〇","kamei":"外科胃腸科内科","niji":"千早病院（福岡県福岡市東区千早2-30-1）福岡和白病院（福岡県福岡市東区和白丘2-2-75）"}
 ,{"Name":"医療法人ＳＳＣ工藤耳鼻咽喉科","Jusho":"東区香椎駅前二丁目12番54号オリジンビル103号","telephone":"663-1550","url":"","syoshin":"〇","saishin":"〇","kamei":"耳鼻咽喉科","niji":""}
-,{"Name":"林眼科病院","Jusho":"福岡県福岡市博多区博多駅前4-23-35","telephone":"092-431-1680","url":"ｗｗｗ.hayashi.or.jp","syoshin":"×","saishin":"〇","kamei":"眼科","niji":""}
+,{"Name":"林眼科病院","Jusho":"福岡県福岡市博多区博多駅前4-23-35","telephone":"092-431-1680","url":"www.hayashi.or.jp","syoshin":"×","saishin":"〇","kamei":"眼科","niji":""}
 ,{"Name":"福岡合同庁舎診療所","Jusho":"博多区博多駅東2-11-1福岡合同庁舎内","telephone":"092-411-2900","url":"","syoshin":"〇","saishin":"〇","kamei":"内科","niji":"浜の町病院（福岡県福岡市中央区長浜3-3-1）"}
 ,{"Name":"医療法人誠仁会籠田医院","Jusho":"福岡県福岡市博多区西春町1-2-16","telephone":"092-501-7535","url":"www.komorita.com","syoshin":"×","saishin":"〇","kamei":"内科","niji":""}
 ,{"Name":"藤原脳神経外科クリニック","Jusho":"博多区千代4丁目29-24三原第3ビル2Ｆ","telephone":"633-3111","url":"","syoshin":"×","saishin":"〇","kamei":"脳神経科","niji":"福岡市民病院脳神経内科、"}
@@ -9735,7 +9735,7 @@
 ,{"Name":"ささき内科・糖尿病クリニック","Jusho":"福岡県福岡市早良区西新5-15-13-1F","telephone":"092-821-3500","url":"https://sasacli.jp","syoshin":"〇","saishin":"〇","kamei":"内科","niji":"福岡大学西新病院（福岡県福岡市早良区祖原15-7）済生会福岡総合病院（福岡県福岡市中央区天神1-3-46）"}
 ,{"Name":"医療法人髙橋脳神経外科","Jusho":"福岡県福岡市早良区飯倉7丁目1-7","telephone":"092-866-0777","url":"https://takahashinouge.com/","syoshin":"×","saishin":"〇","kamei":"脳神経外科","niji":"済生会福岡総合病院（福岡市中央区天神）九州医療センター（福岡市中央区地行浜）"}
 ,{"Name":"武石クリニック","Jusho":"早良区西新一丁目4番28号","telephone":"841-0121","url":"","syoshin":"〇","saishin":"〇","kamei":"小児科呼吸器内科アレルギー科","niji":"九州医療センター（福岡市中央区地行浜1丁目8-1）福岡大学西新病院（福岡市早良区祖原15-7）福岡病院（福岡市南区屋形原4丁目39-1）浜の町病院（福岡市中央区長浜3丁目3-1）"}
-,{"Name":"たける眼科","Jusho":"福岡県福岡市早良区高取1-3-20-201","telephone":"092-846-3121","url":"ｗｗｗ.takeru-eye.com","syoshin":"〇","saishin":"〇","kamei":"眼科","niji":"九州大学病院（福岡県福岡市東区馬出3-1-1）九州医療センター（福岡県福岡市中央区地行浜1-8-1）"}
+,{"Name":"たける眼科","Jusho":"福岡県福岡市早良区高取1-3-20-201","telephone":"092-846-3121","url":"www.takeru-eye.com","syoshin":"〇","saishin":"〇","kamei":"眼科","niji":"九州大学病院（福岡県福岡市東区馬出3-1-1）九州医療センター（福岡県福岡市中央区地行浜1-8-1）"}
 ,{"Name":"ひじおか眼科","Jusho":"福岡県福岡市早良区野芥4-2-15","telephone":"092-407-8122","url":"http://hijioka-ganka.com","syoshin":"〇","saishin":"〇","kamei":"眼科","niji":""}
 ,{"Name":"医療法人本多耳鼻咽喉科医院","Jusho":"福岡県福岡市早良区西新5-1-33","telephone":"092-851-9893","url":"","syoshin":"〇","saishin":"〇","kamei":"耳鼻咽喉科","niji":"九州医療センター（福岡県福岡市中央区地行浜1-8-1）済生会福岡病院（福岡県福岡市中央区天神1-3-46）"}
 ,{"Name":"医療法人まいこクリニックまいこ小児科クリニック","Jusho":"福岡県福岡市早良区有田5-23-25","telephone":"092-874-0033","url":"https://www.maiko-clinic.com/","syoshin":"×","saishin":"〇","kamei":"小児科","niji":""}
@@ -9875,7 +9875,7 @@
 ,{"Name":"加藤眼科医院","Jusho":"佐賀県唐津市西城内6-43","telephone":"0955-72-2009","url":"","syoshin":"〇","saishin":"〇","kamei":"眼科","niji":"当院にて"}
 ,{"Name":"河畔病院","Jusho":"佐賀県唐津市松南町119番地2","telephone":"0955-77-2611","url":"http://www.shouraikai.jp/kahan/","syoshin":"×","saishin":"〇","kamei":"内科外科脳神経外科脳神経内科整形外科消化器内科循環器内科呼吸器内科緩和ケア内科糖尿病内科","niji":"当院にて"}
 ,{"Name":"唐津市民病院きたはた","Jusho":"佐賀県唐津市北波多徳須恵1424-1","telephone":"0955-64-2611","url":"https://www.city.karatsu.lg.jp/kenko/kenko/iryo/kitahata/index.html","syoshin":"×","saishin":"〇","kamei":"内科","niji":""}
-,{"Name":"唐津赤十字病院","Jusho":"佐賀県唐津市和多田2430","telephone":"0955-72-5111","url":"?http://wwｗ.karatsu.jrc.or.jp","syoshin":"×","saishin":"〇","kamei":"内科小児科脳神経外科","niji":""}
+,{"Name":"唐津赤十字病院","Jusho":"佐賀県唐津市和多田2430","telephone":"0955-72-5111","url":"?http://www.karatsu.jrc.or.jp","syoshin":"×","saishin":"〇","kamei":"内科小児科脳神経外科","niji":""}
 ,{"Name":"酒井医院","Jusho":"佐賀県唐津市大名小路5-3","telephone":"0955-72-5445","url":"http://nagomikai.egoism.jp/","syoshin":"〇","saishin":"〇","kamei":"内科外科胃腸科リハビリテーション科","niji":"唐津赤十字病院（佐賀県唐津市和多田2430）済生会唐津病院（佐賀県唐津市元旗町817）医師会医療センター（佐賀県唐津市千代田町2566-11）"}
 ,{"Name":"城内病院","Jusho":"佐賀県唐津市南城内2-17","telephone":"0955-79-8550","url":"https://jyonai-hp.sankenkai.or.jp/","syoshin":"×","saishin":"〇","kamei":"内科","niji":""}
 ,{"Name":"新屋敷病院","Jusho":"佐賀県唐津市相知町町切898-3","telephone":"0955-63-3131","url":"","syoshin":"〇","saishin":"〇","kamei":"内科","niji":"唐津赤十字病院（佐賀県唐津市和多田2430）"}
@@ -9894,7 +9894,7 @@
 ,{"Name":"医療法人まごころ医療館","Jusho":"佐賀県鳥栖市蔵上2丁目210番地","telephone":"0942-87-5002","url":"http://magokoroiryoukan.com/","syoshin":"〇","saishin":"〇","kamei":"内科・整形外科","niji":"医療法人社団如水会今村病院"}
 ,{"Name":"医療法人むらかみ小児科","Jusho":"佐賀県鳥栖市古野町190-10","telephone":"0942-83-2450","url":"","syoshin":"〇","saishin":"〇","kamei":"小児科","niji":"聖マリア病院（福岡県久留米市）"}
 ,{"Name":"大園内科医院","Jusho":"佐賀県鳥栖市萱方町158-10","telephone":"0942-87-8888","url":"http://www.oozono.co.jp","syoshin":"〇","saishin":"〇","kamei":"内科","niji":"やよいがおか鹿毛病院（佐賀県鳥栖市弥生が丘2-143)今村病院（佐賀県鳥栖市轟木町1523-6）"}
-,{"Name":"すむのさと髙尾病院","Jusho":"佐賀県鳥栖市高田町210-1","telephone":"0942-84-8838","url":"?http://wwｗ.koukodou.or.jp/","syoshin":"×","saishin":"〇","kamei":"内科","niji":""}
+,{"Name":"すむのさと髙尾病院","Jusho":"佐賀県鳥栖市高田町210-1","telephone":"0942-84-8838","url":"http://www.koukodou.or.jp/","syoshin":"×","saishin":"〇","kamei":"内科","niji":""}
 ,{"Name":"伊万里整形外科病院","Jusho":"佐賀県伊万里市木須町4450番地","telephone":"0955-23-2504","url":"https://imari-orthopedics-hospital.jimdosite.com/","syoshin":"〇","saishin":"〇","kamei":"整形外科","niji":"伊万里有田共立病院（佐賀県西松浦郡有田町二ノ瀬甲860番地）"}
 ,{"Name":"伊万里篠田皮ふ科・形成外科","Jusho":"佐賀県伊万里市新天町460番地11","telephone":"0955-21-1001","url":"http://www.imari-hifuka.com","syoshin":"〇","saishin":"〇","kamei":"皮膚科形成外科","niji":"佐賀大学医学部附属病院佐賀市鍋島五丁目1番1号国立病院機構佐賀病院佐賀市日の出一丁目20-1佐賀県医療センター好生館佐賀市嘉瀬町大字中原400嬉野医療センター嬉野町大字下宿甲4279-3伊万里有田共立病院有田町二ノ瀬甲860番地佐世保総合医療センター佐世保市平瀬町9-3"}
 ,{"Name":"医療法人たけお内科医院","Jusho":"佐賀県武雄市武雄町大字昭和11-2","telephone":"0954-23-4988","url":"ttp://www2.saganet.ne.jp/neuron","syoshin":"×","saishin":"〇","kamei":"内科","niji":""}
