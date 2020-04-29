@@ -1,3 +1,0 @@
-﻿var japan1={"type":"FeatureCollection","name":"japan1","features":[
-{'type':'Feature','geometry':{'type':'Point','coordinates':[139.592,35.595]},'properties':{'Name':'東京都','Kansen':'938'}}
-]};
