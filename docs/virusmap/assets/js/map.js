@@ -107,7 +107,7 @@ function get_kansen(){
 			document.getElementById('ja_ka').innerHTML = txt;
 			
 			/* 病床数との比較 */
-			/* 北海道 */ bed[0] = "250";
+			/* 北海道 */ bed[0] = "530";
 			/* 青森県 */ bed[1] = "29";
 			/* 岩手県 */ bed[2] = "38";
 			/* 宮城県 */ bed[3] = "278";
