@@ -1,6 +1,6 @@
 var map;var zoom;var url;var todou; var ido; var keido;
 var bed = new Array(47); var syoki = new Array(47); var z = new Array(47); var x = new Array(47); var y = new Array(47); var mitudo = Array(47); var mitudo_total = Array(47);  var density = Array(47);
-var multi = new Array(47); var lastupdate;var multi_n = new Array(47); 
+var multi = new Array(47); var lastupdate;var multi_n = new Array(47); online_pref = Array(47);
 
 
 /*function get_beds(){
@@ -623,3 +623,59 @@ function get_Municipalities(){
   xhr.send(null);
 
 }*/
+
+function online(x){
+
+			online_pref[0] = 'hokkaido';
+			online_pref[1] = 'aomori';
+			online_pref[2] = 'iwate';
+			online_pref[3] = 'miyagi';
+			online_pref[4] = 'akita';
+			online_pref[5] = 'yamagata';
+			online_pref[6] = 'fukushima';
+			online_pref[7] = 'ibaraki';
+			online_pref[8] = 'tochigi';
+			online_pref[9] = 'gunma';
+			online_pref[10] = 'saitama';
+			online_pref[11] = 'tiba';
+			online_pref[12] = 'tokyo';
+			online_pref[13] = 'kanagawa';
+			online_pref[14] = 'niigata';
+			online_pref[15] = 'toyama';
+			online_pref[16] = 'ishikawa';
+			online_pref[17] = 'fukui';
+			online_pref[18] = 'yamanashi';
+			online_pref[19] = 'nagano';
+			online_pref[20] = 'gifu';
+			online_pref[21] = 'shizuoka';
+			online_pref[22] = 'aichi';
+			online_pref[23] = 'mie';
+			online_pref[24] = 'shiga';
+			online_pref[25] = 'kyoto';
+			online_pref[26] = 'osaka';
+			online_pref[27] = 'hyogo';
+			online_pref[28] = 'nara';
+			online_pref[29] = 'wakayama';
+			online_pref[30] = 'tottori';
+			online_pref[31] = 'shimane';
+			online_pref[32] = 'okayama';
+			online_pref[33] = 'hiroshima';
+			online_pref[34] = 'yamaguchi';
+			online_pref[35] = 'tokushima';
+			online_pref[36] = 'kagawa';
+			online_pref[37] = 'ehime';
+			online_pref[38] = 'kochi';
+			online_pref[39] = 'fukuoka';
+			online_pref[40] = 'saga';
+			online_pref[41] = 'nagasaki';
+			online_pref[42] = 'kumamoto';
+			online_pref[43] = 'oita';
+			online_pref[44] = 'miyazaki';
+			online_pref[45] = 'kagoshima';
+			online_pref[46] = 'okinawa';
+
+document.getElementById('onlinemap').innerHTML = "<h3 class='ti'>地図から探す</h3><iframe src = 'onlinemap/" + online_pref[x -1] + ".html' width='100%' height='450px'>";
+
+document.getElementById('onlinelist').innerHTML = "<br><h3 class='ti'>リストから探す</h3><iframe src = 'onlinelist/" + online_pref[x -1] + ".html' width='100%' height='450px'>";
+
+}
