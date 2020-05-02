@@ -34,7 +34,7 @@
 ,
 {"Name":"宮崎中央眼科病院","Jusho":"宮崎県宮崎市清水3丁目6番21号","kouzui":"<a href='tel:0985-24-8661'>0985-24-8661</a>","gake":"<a href='http://www.keimei.or.jp' target='_blank'>http://www.keimei.or.jp</a>","takashio":"×","jishin":"〇","tsunami":"眼科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"市来内科・外科医院","Jusho":"宮崎県宮崎市和知川原2丁目14番池2","kouzui":"<a href='tel:0985-25-1888'>0985-25-1888</a>","gake":"<a href='無' target='_blank'>無</a>","takashio":"×","jishin":"〇","tsunami":"内科・胃腸内科・循環器内科・神経内科","kaji":"無","naisui":"","kazan":""}
+{"Name":"市来内科・外科医院","Jusho":"宮崎県宮崎市和知川原2丁目14番池2","kouzui":"<a href='tel:0985-25-1888'>0985-25-1888</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科・胃腸内科・循環器内科・神経内科","kaji":"無","naisui":"","kazan":""}
 ,
 {"Name":"かんべ胃腸科内科","Jusho":"宮崎県宮崎市橘通東4丁目3-21","kouzui":"<a href='tel:0985-25-2567'>0985-25-2567</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
@@ -184,9 +184,9 @@
 ,
 {"Name":"医療法人秀英会英医院","Jusho":"宮崎県串間市大字奈留5284-3","kouzui":"<a href='tel:0987-74-1187'>0987-74-1187</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科胃腸科","kaji":"宮崎県立日南病院（宮崎県日南市木山1-9-5）串間市民病院（串間市大字西方7917）","naisui":"","kazan":""}
 ,
-{"Name":"いわみ小児科医院","Jusho":"宮崎県西都市大字妻1516-1","kouzui":"<a href='tel:0983-42-1500'>0983-42-1500</a>","gake":"<a href='なし' target='_blank'>なし</a>","takashio":"〇","jishin":"〇","tsunami":"小児科","kaji":"なし","naisui":"","kazan":""}
+{"Name":"いわみ小児科医院","Jusho":"宮崎県西都市大字妻1516-1","kouzui":"<a href='tel:0983-42-1500'>0983-42-1500</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"小児科","kaji":"なし","naisui":"","kazan":""}
 ,
-{"Name":"上野医院","Jusho":"宮崎県西都市大字鹿野田5579番地1","kouzui":"<a href='tel:0983-44-5100'>0983-44-5100</a>","gake":"<a href='なし' target='_blank'>なし</a>","takashio":"×","jishin":"〇","tsunami":"内科腎臓内科","kaji":"未定","naisui":"","kazan":""}
+{"Name":"上野医院","Jusho":"宮崎県西都市大字鹿野田5579番地1","kouzui":"<a href='tel:0983-44-5100'>0983-44-5100</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科腎臓内科","kaji":"未定","naisui":"","kazan":""}
 ,
 {"Name":"大塚病院","Jusho":"宮崎県西都市御舟町2-45","kouzui":"<a href='tel:0983-43-0016'>0983-43-0016</a>","gake":"<a href='http://www.otsuka.or.jp/' target='_blank'>http://www.otsuka.or.jp/</a>","takashio":"〇","jishin":"〇","tsunami":"外科,内科胃腸内科肛門内科形成外科美容外科整形外科","kaji":"なし","naisui":"","kazan":""}
 ,
@@ -196,11 +196,11 @@
 ,
 {"Name":"国民健康保険高原病院","Jusho":"宮崎県西諸県郡高原町大字西麓871番地","kouzui":"<a href='tel:0984-42-1022'>0984-42-1022</a>","gake":"<a href='https://takaharu-hp.com/' target='_blank'>https://takaharu-hp.com/</a>","takashio":"〇","jishin":"〇","tsunami":"内科外科リハビリテーション科","kaji":"小林市立病院（宮崎県小林市細野2235番地3）えびの市立病院（えびの市大字原田3223番地）","naisui":"","kazan":""}
 ,
-{"Name":"たかやま小児科","Jusho":"宮崎県児湯郡高鍋町大字北高鍋4732-8","kouzui":"<a href='tel:0983-23-4423'>0983-23-4423</a>","gake":"<a href='なし' target='_blank'>なし</a>","takashio":"〇","jishin":"〇","tsunami":"小児科","kaji":"県立宮崎病院（宮崎市北高松5-30）宮崎市夜間急病センター（宮崎市北高松町5-5-30）","naisui":"","kazan":""}
+{"Name":"たかやま小児科","Jusho":"宮崎県児湯郡高鍋町大字北高鍋4732-8","kouzui":"<a href='tel:0983-23-4423'>0983-23-4423</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"小児科","kaji":"県立宮崎病院（宮崎市北高松5-30）宮崎市夜間急病センター（宮崎市北高松町5-5-30）","naisui":"","kazan":""}
 ,
-{"Name":"大森内科医院","Jusho":"宮崎県児湯郡高鍋町大字北高鍋1347番地2","kouzui":"<a href='tel:0983-22-0055'>0983-22-0055</a>","gake":"<a href='なし' target='_blank'>なし</a>","takashio":"×","jishin":"〇","tsunami":"内科循環器科腎臓内科小児内科","kaji":"海老原総合病院（宮崎県児湯郡高鍋町大字上江207番地）","naisui":"","kazan":""}
+{"Name":"大森内科医院","Jusho":"宮崎県児湯郡高鍋町大字北高鍋1347番地2","kouzui":"<a href='tel:0983-22-0055'>0983-22-0055</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科循環器科腎臓内科小児内科","kaji":"海老原総合病院（宮崎県児湯郡高鍋町大字上江207番地）","naisui":"","kazan":""}
 ,
-{"Name":"国民健康保険西米良診療所","Jusho":"宮崎県児湯郡西米良村大字村所66番地1","kouzui":"<a href='tel:0983-36-1031'>0983-36-1031</a>","gake":"<a href='なし' target='_blank'>なし</a>","takashio":"〇","jishin":"〇","tsunami":"内科（総合診療）","kaji":"なし","naisui":"","kazan":""}
+{"Name":"国民健康保険西米良診療所","Jusho":"宮崎県児湯郡西米良村大字村所66番地1","kouzui":"<a href='tel:0983-36-1031'>0983-36-1031</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科（総合診療）","kaji":"なし","naisui":"","kazan":""}
 ,
 {"Name":"独立行政法人国立病院機構宮崎病院","Jusho":"宮崎県児湯郡川南町大字川南19403-4","kouzui":"<a href='tel:0983-27-1036'>0983-27-1036</a>","gake":"<a href='https://miyazaki.hosp.go.jp/' target='_blank'>https://miyazaki.hosp.go.jp/</a>","takashio":"×","jishin":"〇","tsunami":"脳神経内科循環器内科循環器内科糖尿・代謝内科整形外科整形外科小児科小児科","kaji":"なし","naisui":"","kazan":""}
 ,

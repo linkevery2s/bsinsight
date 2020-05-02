@@ -14,7 +14,7 @@
 ,
 {"Name":"甲斐内科・漢方内科クリニック","Jusho":"広島県広島市中区大手町2丁目7-2Balcom大手町ビル5階","kouzui":"<a href='tel:082-545-7377'>082-545-7377</a>","gake":"<a href='https://www.kai-kanpo.jp/' target='_blank'>https://www.kai-kanpo.jp/</a>","takashio":"〇","jishin":"〇","tsunami":"内科消化器内科漢方内科","kaji":"土谷総合病院（広島県広島市中区中島町3-30）県立広島病院（広島市南区宇品神田一丁目5-54）広島記念病院（広島県広島市中区本川町一丁目4-3）中電病院（広島県広島市中区大手町3丁目4-27）広島市立広島市民病院（広島県広島市中区基町7-33）広島赤十字・原爆病院（広島県広島市中区千田町1丁目9-6）","naisui":"","kazan":""}
 ,
-{"Name":"鶴見クリニック","Jusho":"広島県広島市中区鶴見町12-20","kouzui":"<a href='tel:082-248-6428'>082-248-6428</a>","gake":"<a href='tsurumi-clinic@tea.ocn.ne.jp' target='_blank'>tsurumi-clinic@tea.ocn.ne.jp</a>","takashio":"〇","jishin":"〇","tsunami":"外科胃腸科","kaji":"広島市民病院（広島市中区基町7-33）","naisui":"","kazan":""}
+{"Name":"鶴見クリニック","Jusho":"広島県広島市中区鶴見町12-20","kouzui":"<a href='tel:082-248-6428'>082-248-6428</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"外科胃腸科","kaji":"広島市民病院（広島市中区基町7-33）","naisui":"","kazan":""}
 ,
 {"Name":"本通トータルヘルス内科クリニック","Jusho":"広島県広島市中区本通7-29アイビービル3F","kouzui":"<a href='tel:082-247-1588'>082-247-1588</a>","gake":"<a href='http://hondori-total-health.jp/' target='_blank'>http://hondori-total-health.jp/</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"広島市民病院（広島県広島市中区基町7-33）中電病院（広島県広島市中区大手町3-4-27）","naisui":"","kazan":""}
 ,
@@ -34,7 +34,7 @@
 ,
 {"Name":"たむらメンタルクリニック","Jusho":"広島県広島市中区大手町3-6-12-4階","kouzui":"<a href='tel:082-545-7676'>082-545-7676</a>","gake":"<a href='http://www.tamura-mc.com/' target='_blank'>http://www.tamura-mc.com/</a>","takashio":"×","jishin":"〇","tsunami":"精神科心療内科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"はるた呼吸器クリニック","Jusho":"広島県広島市中区堺町1-3-10吉田ビル3F","kouzui":"<a href='tel:082-532-0590'>082-532-0590</a>","gake":"<a href='Http://www.haruta-cl.jp/' target='_blank'>Http://www.haruta-cl.jp/</a>","takashio":"×","jishin":"〇","tsunami":"呼吸器内科アレルギー科","kaji":"","naisui":"","kazan":""}
+{"Name":"はるた呼吸器クリニック","Jusho":"広島県広島市中区堺町1-3-10吉田ビル3F","kouzui":"<a href='tel:082-532-0590'>082-532-0590</a>","gake":"<a href='http://www.haruta-cl.jp/' target='_blank'>http://www.haruta-cl.jp/</a>","takashio":"×","jishin":"〇","tsunami":"呼吸器内科アレルギー科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"すみい内科クリニック","Jusho":"広島県広島市中区基町12-8宝ビル101","kouzui":"<a href='tel:082-223-7888'>082-223-7888</a>","gake":"<a href='https://sumii-clinic.org/' target='_blank'>https://sumii-clinic.org/</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
@@ -86,9 +86,9 @@
 ,
 {"Name":"広島市立舟入市民病院","Jusho":"広島市中区舟入幸町14-11","kouzui":"<a href='tel:082-232-6195'>082-232-6195</a>","gake":"<a href='http://funairi-hospital.jp/' target='_blank'>http://funairi-hospital.jp/</a>","takashio":"×","jishin":"〇","tsunami":"内科外科小児外科小児科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"呉中央クリニック整形外科","Jusho":"広島県呉市中央1-5-21","kouzui":"<a href='tel:0823ー32ー0011'>0823ー32ー0011</a>","gake":"<a href='現在開設中です' target='_blank'>現在開設中です</a>","takashio":"〇","jishin":"〇","tsunami":"整形外科リウマチ科","kaji":"呉中央クリニック整形外科","naisui":"","kazan":""}
+{"Name":"呉中央クリニック整形外科","Jusho":"広島県呉市中央1-5-21","kouzui":"<a href='tel:0823ー32ー0011'>0823ー32ー0011</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"整形外科リウマチ科","kaji":"呉中央クリニック整形外科","naisui":"","kazan":""}
 ,
-{"Name":"香川乳腺クリニック","Jusho":"広島県広島市中区三川町1-20-6F","kouzui":"<a href='tel:082-240-1181'>082-240-1181</a>","gake":"<a href='http://www,kagawa@hiroshimabreastcenter.co.jp' target='_blank'>http://www,kagawa@hiroshimabreastcenter.co.jp</a>","takashio":"×","jishin":"〇","tsunami":"乳腺外科","kaji":"広島大学病院（広島市南区霞1-2-3）広島市立広島市民病院（広島市中区基町7-33）広島市立安佐市民（広島市安佐北区可部南二丁目1-1）県立広島病院（広島市南区宇品神田一丁目5番54号）広島総合病院（広島県廿日市市地御前1丁目3?3）呉医療センター（広島県呉市青山町3番1号）","naisui":"","kazan":""}
+{"Name":"香川乳腺クリニック","Jusho":"広島県広島市中区三川町1-20-6F","kouzui":"<a href='tel:082-240-1181'>082-240-1181</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"乳腺外科","kaji":"広島大学病院（広島市南区霞1-2-3）広島市立広島市民病院（広島市中区基町7-33）広島市立安佐市民（広島市安佐北区可部南二丁目1-1）県立広島病院（広島市南区宇品神田一丁目5番54号）広島総合病院（広島県廿日市市地御前1丁目3?3）呉医療センター（広島県呉市青山町3番1号）","naisui":"","kazan":""}
 ,
 {"Name":"うさがわクリニック","Jusho":"広島県広島市中区幟町14-16第2宇佐川ビル2F","kouzui":"<a href='tel:082-224-0388'>082-224-0388</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
@@ -100,7 +100,7 @@
 ,
 {"Name":"津谷内科呼吸器科クリニック","Jusho":"広島県広島市東区牛田早稲田1-6-3","kouzui":"<a href='tel:082-221-5463'>082-221-5463</a>","gake":"<a href='https://tsuyaclinic.net/' target='_blank'>https://tsuyaclinic.net/</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"広島市立広島市民病院（広島市中区基町7番33号）","naisui":"","kazan":""}
 ,
-{"Name":"高橋泌尿器科・皮ふ科クリニック","Jusho":"広島県広島市東区温品7丁目10-11-18","kouzui":"<a href='tel:082-298-0511'>082-298-0511</a>","gake":"<a href='u.and.d.takahashi@purple.plala.or.jp' target='_blank'>u.and.d.takahashi@purple.plala.or.jp</a>","takashio":"×","jishin":"〇","tsunami":"泌尿器科皮膚科","kaji":"JR広島病院（広島県広島市東区二葉の里3丁目1?36)","naisui":"","kazan":""}
+{"Name":"高橋泌尿器科・皮ふ科クリニック","Jusho":"広島県広島市東区温品7丁目10-11-18","kouzui":"<a href='tel:082-298-0511'>082-298-0511</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"泌尿器科皮膚科","kaji":"JR広島病院（広島県広島市東区二葉の里3丁目1?36)","naisui":"","kazan":""}
 ,
 {"Name":"たかた内科クリニック","Jusho":"広島県広島市東区若草町10-11","kouzui":"<a href='tel:082-263-5077'>082-263-5077</a>","gake":"<a href='www.takatanaikaclinic.com/access/' target='_blank'>www.takatanaikaclinic.com/access/</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
@@ -122,7 +122,7 @@
 ,
 {"Name":"田村医院","Jusho":"広島県広島市南区宇品海岸2丁目12-25","kouzui":"<a href='tel:082-251-4043'>082-251-4043</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科胃腸科","kaji":"県立広島病院（広島市南区宇品神田1丁目5-54）広島赤十字原爆病院（広島市中区千田町1丁目9-6）広島市民病院（広島市中区基町7-33）広島大学病院（広島市南区霞1丁目2-3）","naisui":"","kazan":""}
 ,
-{"Name":"医療法人社団福原医院","Jusho":"広島県広島市南区翠一丁目2-11","kouzui":"<a href='tel:082-251-1092'>082-251-1092</a>","gake":"<a href='www006.upp.so-net.ne.jp/fukuhara-iin/' target='_blank'>www006.upp.so-net.ne.jp/fukuhara-iin/</a>","takashio":"〇","jishin":"〇","tsunami":"内科小児外科","kaji":"県立広島病院（広島県広島市南区宇品神田一丁目5-54)広島大学病院（広島県広島市南区霞一丁目2-3）","naisui":"","kazan":""}
+{"Name":"医療法人社団福原医院","Jusho":"広島県広島市南区翠一丁目2-11","kouzui":"<a href='tel:082-251-1092'>082-251-1092</a>","gake":"<a href='http://www006.upp.so-net.ne.jp/fukuhara-iin/' target='_blank'>http://www006.upp.so-net.ne.jp/fukuhara-iin/</a>","takashio":"〇","jishin":"〇","tsunami":"内科小児外科","kaji":"県立広島病院（広島県広島市南区宇品神田一丁目5-54)広島大学病院（広島県広島市南区霞一丁目2-3）","naisui":"","kazan":""}
 ,
 {"Name":"寛田クリニック","Jusho":"広島県広島市南区稲荷町3-202F","kouzui":"<a href='tel:082-261-7030'>082-261-7030</a>","gake":"<a href='http://www.hishokai.or.jp/kanda/' target='_blank'>http://www.hishokai.or.jp/kanda/</a>","takashio":"〇","jishin":"〇","tsunami":"整形外科内科","kaji":"呉整形外科クリニック（広島県呉市宝町2番50号レクレ4F）福山整形外科クリニック（広島県福山市神辺町川北1533）","naisui":"","kazan":""}
 ,
@@ -150,7 +150,7 @@
 ,
 {"Name":"ヒロシマ平松病院","Jusho":"広島県広島市南区比治山本町11-27","kouzui":"<a href='tel:082-256-3650'>082-256-3650</a>","gake":"<a href='http://www.marimokai.or.jp/' target='_blank'>http://www.marimokai.or.jp/</a>","takashio":"×","jishin":"〇","tsunami":"整形外科形成外科歯科口腔外科内科消化器内科呼吸器内科循環器内科外科消化器外科呼吸器外科脳神経外科","kaji":"広島大学病院（広島県広島市南区霞1丁目2-3）県立広島病院（広島県広島市南区宇品神田1丁目5-54）広島市立広島市民病院（広島県広島市中区基町7-33）広島赤十字・原爆病院（広島県広島市中区千田町1丁目9-6）","naisui":"","kazan":""}
 ,
-{"Name":"医療法人稲田皮ふ科クリニック」","Jusho":"広島市南区宇品神田1-6-1","kouzui":"<a href='tel:082-253-2100'>082-253-2100</a>","gake":"<a href='inada.syuuichi@jade.plala.or.jp' target='_blank'>inada.syuuichi@jade.plala.or.jp</a>","takashio":"〇","jishin":"〇","tsunami":"皮膚科","kaji":"県立広島病院（広島市南区宇品神田1-5-54","naisui":"","kazan":""}
+{"Name":"医療法人稲田皮ふ科クリニック」","Jusho":"広島市南区宇品神田1-6-1","kouzui":"<a href='tel:082-253-2100'>082-253-2100</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"皮膚科","kaji":"県立広島病院（広島市南区宇品神田1-5-54","naisui":"","kazan":""}
 ,
 {"Name":"八幡内科","Jusho":"広島県広島市南区松原町9-1福屋広島駅前店10階","kouzui":"<a href='tel:082-568-3050'>082-568-3050</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科消化器科","kaji":"","naisui":"","kazan":""}
 ,
@@ -164,7 +164,7 @@
 ,
 {"Name":"医療法人ひいらぎ会明海耳鼻咽喉科医院","Jusho":"広島県広島市西区古江新町13-36","kouzui":"<a href='tel:082-274--6262'>082-274--6262</a>","gake":"<a href='https://www.myokai-jibika.com/' target='_blank'>https://www.myokai-jibika.com/</a>","takashio":"×","jishin":"〇","tsunami":"耳鼻咽喉科","kaji":"広島市立広島市民病院（広島市中区基町7-33","naisui":"","kazan":""}
 ,
-{"Name":"むらき小児科","Jusho":"広島県広島市西区庚午北2-22-4","kouzui":"<a href='tel:082-527-0215'>082-527-0215</a>","gake":"<a href='muraki-k@utopia.ocn.ne.jp' target='_blank'>muraki-k@utopia.ocn.ne.jp</a>","takashio":"×","jishin":"〇","tsunami":"小児科","kaji":"宝塚市民病院（宝塚市）","naisui":"","kazan":""}
+{"Name":"むらき小児科","Jusho":"広島県広島市西区庚午北2-22-4","kouzui":"<a href='tel:082-527-0215'>082-527-0215</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"小児科","kaji":"宝塚市民病院（宝塚市）","naisui":"","kazan":""}
 ,
 {"Name":"しのだ皮ふ科","Jusho":"広島県広島市西区横川町2-9-22","kouzui":"<a href='tel:082-231-3377'>082-231-3377</a>","gake":"<a href='http://www.shinodaderma.com/' target='_blank'>http://www.shinodaderma.com/</a>","takashio":"〇","jishin":"〇","tsunami":"皮膚科","kaji":"県立広島病院（広島県広島市宇品神田1-5-54）","naisui":"","kazan":""}
 ,
@@ -186,9 +186,9 @@
 ,
 {"Name":"安佐南内科リウマチ科クリニック","Jusho":"広島県広島市安佐南区伴東5丁目21-35","kouzui":"<a href='tel:082-849-6200'>082-849-6200</a>","gake":"<a href='https://www.asaminami-clinic.jp/' target='_blank'>https://www.asaminami-clinic.jp/</a>","takashio":"×","jishin":"〇","tsunami":"内科リウマチ科膠原病科呼吸器科","kaji":"広島協立病院（広島県広島市安佐南区中須2丁目20-20）広島市民病院（広島県広島市中区基町7?33）","naisui":"","kazan":""}
 ,
-{"Name":"広島医療生活協同組合広島共立病院","Jusho":"広島市安佐南区中須2丁目-20-20","kouzui":"<a href='tel:082-879-1111'>082-879-1111</a>","gake":"<a href='.hiroshimairyo.or.jp/outline/template.' target='_blank'>.hiroshimairyo.or.jp/outline/template.</a>","takashio":"〇","jishin":"〇","tsunami":"内科小児科","kaji":"","naisui":"","kazan":""}
+{"Name":"広島医療生活協同組合広島共立病院","Jusho":"広島市安佐南区中須2丁目-20-20","kouzui":"<a href='tel:082-879-1111'>082-879-1111</a>","gake":"<a href='http://www.hiroshimairyo.or.jp/' target='_blank'>http://www.hiroshimairyo.or.jp/</a>","takashio":"〇","jishin":"〇","tsunami":"内科小児科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"医療法人社団聖愛会ぎおん牛田病院","Jusho":"広島県広島市安佐南区西原8丁目29番24号","kouzui":"<a href='tel:082-850-3116'>082-850-3116</a>","gake":"<a href='ww.smile-seiaikai.com/gionushita-ho' target='_blank'>ww.smile-seiaikai.com/gionushita-ho</a>","takashio":"〇","jishin":"〇","tsunami":"・内科（消化器・呼吸器・循環器）・外科、肛門外科・整形外科・皮膚科","kaji":"広島赤十字原爆病院（広島県広島市中区千田町1丁目9番6）","naisui":"","kazan":""}
+{"Name":"医療法人社団聖愛会ぎおん牛田病院","Jusho":"広島県広島市安佐南区西原8丁目29番24号","kouzui":"<a href='tel:082-850-3116'>082-850-3116</a>","gake":"<a href='https://www.smile-seiaikai.com/gionushita-hospital.html' target='_blank'>https://www.smile-seiaikai.com/gionushita-hospital.html</a>","takashio":"〇","jishin":"〇","tsunami":"・内科（消化器・呼吸器・循環器）・外科、肛門外科・整形外科・皮膚科","kaji":"広島赤十字原爆病院（広島県広島市中区千田町1丁目9番6）","naisui":"","kazan":""}
 ,
 {"Name":"たなべ春日野クリニック","Jusho":"広島県広島市安佐南区山本新町2丁目18-9-8信徳ビル1階","kouzui":"<a href='tel:082-554-1447'>082-554-1447</a>","gake":"<a href='tps://www.tanabe-kasugano-clinic.co' target='_blank'>tps://www.tanabe-kasugano-clinic.co</a>","takashio":"〇","jishin":"〇","tsunami":"内科脳神経外科","kaji":"広島市民病院（広島市中区基町7-33）広島医療生活協同組合広島共立病院（広島市安佐南区中須2-20-20）ぎおん牛田病院（広島市安佐南区西原8丁目29-24）","naisui":"","kazan":""}
 ,
@@ -350,7 +350,7 @@
 ,
 {"Name":"戸谷整形外科医院","Jusho":"広島県三原市宮浦3-28-18","kouzui":"<a href='tel:0848-67-1622'>0848-67-1622</a>","gake":"<a href='https://ww.tortho.jp' target='_blank'>https://ww.tortho.jp</a>","takashio":"〇","jishin":"〇","tsunami":"整形外科リハビリテーション科","kaji":"三原赤十字病院（〒723-8512広島県三原市東町2丁目7番1号）興生総合病院（広島県三原市円一町2丁目5番1号）三原医師会病院（〒723-0051広島県三原市宮浦一丁目15番1号）","naisui":"","kazan":""}
 ,
-{"Name":"医）西医院","Jusho":"広島県尾道市手崎町7-16","kouzui":"<a href='tel:0848-23-2437'>0848-23-2437</a>","gake":"<a href='westc@urban.ne.jp' target='_blank'>westc@urban.ne.jp</a>","takashio":"〇","jishin":"〇","tsunami":"内科小児科","kaji":"","naisui":"","kazan":""}
+{"Name":"医）西医院","Jusho":"広島県尾道市手崎町7-16","kouzui":"<a href='tel:0848-23-2437'>0848-23-2437</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科小児科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"尾道市立市民病院","Jusho":"広島県尾道市新高山三丁目1170番地177","kouzui":"<a href='tel:0848-47-1155'>0848-47-1155</a>","gake":"<a href='http://www.onomichi-hospital.jp/' target='_blank'>http://www.onomichi-hospital.jp/</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
@@ -436,7 +436,7 @@
 ,
 {"Name":"医療法人社団成恵会やまてクリニック","Jusho":"広島県福山市神辺町川南1044-4","kouzui":"<a href='tel:084-962-2832'>084-962-2832</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"泌尿器科内科循環器科","kaji":"福山市民病院（広島県福山市蔵王町5-23-1）中国中央病院（広島県福山市御幸町大字上岩成148-13）福山医療センター（広島県福山市沖野上町4丁目14-17）","naisui":"","kazan":""}
 ,
-{"Name":"なかよし小児科","Jusho":"広島県福山市引野町4丁目22-19","kouzui":"<a href='tel:084-943-1774'>084-943-1774</a>","gake":"<a href='nakayoshi-web.com' target='_blank'>nakayoshi-web.com</a>","takashio":"×","jishin":"〇","tsunami":"小児科","kaji":"ケースにより個別対応","naisui":"","kazan":""}
+{"Name":"なかよし小児科","Jusho":"広島県福山市引野町4丁目22-19","kouzui":"<a href='tel:084-943-1774'>084-943-1774</a>","gake":"<a href='http://nakayoshi-web.com' target='_blank'>http://nakayoshi-web.com</a>","takashio":"×","jishin":"〇","tsunami":"小児科","kaji":"ケースにより個別対応","naisui":"","kazan":""}
 ,
 {"Name":"たなかクリニック","Jusho":"広島県福山市駅家町上山守450-5","kouzui":"<a href='tel:084-999-0155'>084-999-0155</a>","gake":"<a href='http://prs-tanaka.com' target='_blank'>http://prs-tanaka.com</a>","takashio":"×","jishin":"〇","tsunami":"皮膚・形成外科","kaji":"福山市民病院・中国中央病院","naisui":"","kazan":""}
 ,
@@ -454,7 +454,7 @@
 ,
 {"Name":"はまもと内科クリニック","Jusho":"広島県福山市南蔵王町5-6-9","kouzui":"<a href='tel:084-943-4976'>084-943-4976</a>","gake":"<a href='http://hamamoto-naika.com/' target='_blank'>http://hamamoto-naika.com/</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"福山市民病院（広島県福山市蔵王町5-23-1）","naisui":"","kazan":""}
 ,
-{"Name":"のじまホームクリニック","Jusho":"広島県福山市駅家町万能倉1245-4","kouzui":"<a href='tel:084-970-1711'>084-970-1711</a>","gake":"<a href='?http://www.nojima-hc.com' target='_blank'>?http://www.nojima-hc.com</a>","takashio":"×","jishin":"〇","tsunami":"内科外科","kaji":"","naisui":"","kazan":""}
+{"Name":"のじまホームクリニック","Jusho":"広島県福山市駅家町万能倉1245-4","kouzui":"<a href='tel:084-970-1711'>084-970-1711</a>","gake":"<a href='http://www.nojima-hc.com' target='_blank'>http://www.nojima-hc.com</a>","takashio":"×","jishin":"〇","tsunami":"内科外科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"こども発達支援センター","Jusho":"広島県福山市三吉町南二丁目11番22号","kouzui":"<a href='tel:084-928-1351'>084-928-1351</a>","gake":"<a href='http://www.city.fukuyama.hiroshima.jp/soshiki/kodomo/' target='_blank'>http://www.city.fukuyama.hiroshima.jp/soshiki/kodomo/</a>","takashio":"〇","jishin":"〇","tsunami":"小児科小児神経科","kaji":"","naisui":"","kazan":""}
 ,
@@ -474,7 +474,7 @@
 ,
 {"Name":"府中中央内科病院","Jusho":"広島県府中市高木町402","kouzui":"<a href='tel:0847-45-3200'>0847-45-3200</a>","gake":"<a href='https://www.doujin-hosp.jp/' target='_blank'>https://www.doujin-hosp.jp/</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"医療法人たかば内科医院","Jusho":"広島県三次市三良坂町三良坂1096-3","kouzui":"<a href='tel:0824-44-2025'>0824-44-2025</a>","gake":"<a href='gsicilian2000@yahoo.co.jp' target='_blank'>gsicilian2000@yahoo.co.jp</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"市立三次中央病院（広島県三次市東酒屋町10531）三次地区医療センター（広島県三次市十日市東3丁目16-1）","naisui":"","kazan":""}
+{"Name":"医療法人たかば内科医院","Jusho":"広島県三次市三良坂町三良坂1096-3","kouzui":"<a href='tel:0824-44-2025'>0824-44-2025</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"市立三次中央病院（広島県三次市東酒屋町10531）三次地区医療センター（広島県三次市十日市東3丁目16-1）","naisui":"","kazan":""}
 ,
 {"Name":"医療法人社団こね森内科医院","Jusho":"広島県三次市十日市東4-1-1","kouzui":"<a href='tel:0824-65-1071'>0824-65-1071</a>","gake":"<a href='http://www.pionet.ne.jp/~konemori/' target='_blank'>http://www.pionet.ne.jp/~konemori/</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"市立三次中央病院","naisui":"","kazan":""}
 ,
@@ -580,7 +580,7 @@
 ,
 {"Name":"津田医院","Jusho":"広島県安芸高田市美土里町1781-9","kouzui":"<a href='tel:0826-54-0699'>0826-54-0699</a>","gake":"<a href='http://www.akitakatamed.or.jp/medi/h016.html' target='_blank'>http://www.akitakatamed.or.jp/medi/h016.html</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"吉田総合病院広島県安芸高田市吉田町吉田3666","naisui":"","kazan":""}
 ,
-{"Name":"医療法人社団吉田会吉田病院","Jusho":"広島県江田島市江田島町津久茂2-6-2","kouzui":"<a href='tel:0823-42-1100'>0823-42-1100</a>","gake":"<a href='yoshida-hospital-hp.jp' target='_blank'>yoshida-hospital-hp.jp</a>","takashio":"〇","jishin":"〇","tsunami":"内科精神科精神科","kaji":"","naisui":"","kazan":""}
+{"Name":"医療法人社団吉田会吉田病院","Jusho":"広島県江田島市江田島町津久茂2-6-2","kouzui":"<a href='tel:0823-42-1100'>0823-42-1100</a>","gake":"<a href='http://yoshida-hospital-hp.jp' target='_blank'>http://yoshida-hospital-hp.jp</a>","takashio":"〇","jishin":"〇","tsunami":"内科精神科精神科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"瀬戸ハイム内科","Jusho":"広島県安芸郡府中町瀬戸ハイム1-2-24","kouzui":"<a href='tel:082-285-0816'>082-285-0816</a>","gake":"<a href='http://www.seto816.com/home/' target='_blank'>http://www.seto816.com/home/</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,

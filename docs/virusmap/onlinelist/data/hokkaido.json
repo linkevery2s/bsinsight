@@ -22,7 +22,7 @@
 ,
 {"Name":"札幌医科大学附属病院","Jusho":"北海道札幌市中央区南1条西16丁目291番地","kouzui":"<a href='tel:011-611-2111'>011-611-2111</a>","gake":"<a href='https://web.sapmed.ac.jp/hospital/' target='_blank'>https://web.sapmed.ac.jp/hospital/</a>","takashio":"×","jishin":"〇","tsunami":"消化器内科免疫リウマチ科循環器・腎臓・代謝内分泌内科呼吸器内科腫瘍血液内科脳神経内科消化器・総合、乳腺内分泌外科心臓血管外科呼吸器外科整形外科脳神経外科婦人科小児科皮膚科形成外科泌尿器科耳鼻咽喉科神経内科放射線治療科麻酔科総合診療科歯科口腔外科リハビリテーション科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"札幌中央病院","Jusho":"北海道札幌市中央区南九条西10丁目1-50","kouzui":"<a href='tel:011-513-0111'>011-513-0111</a>","gake":"<a href='www.sc-h.or.jp' target='_blank'>www.sc-h.or.jp</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"なし","naisui":"","kazan":""}
+{"Name":"札幌中央病院","Jusho":"北海道札幌市中央区南九条西10丁目1-50","kouzui":"<a href='tel:011-513-0111'>011-513-0111</a>","gake":"<a href='https://www.sc-h.or.jp' target='_blank'>https://www.sc-h.or.jp</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"なし","naisui":"","kazan":""}
 ,
 {"Name":"札幌南三条病院","Jusho":"札幌市中央区南3条西6丁目4-2","kouzui":"<a href='tel:011-233-3711'>011-233-3711</a>","gake":"<a href='http://www.h-keiaikai.or.jp/minamisanjo/' target='_blank'>http://www.h-keiaikai.or.jp/minamisanjo/</a>","takashio":"×","jishin":"〇","tsunami":"呼吸器内科呼吸器外科内科","kaji":"","naisui":"","kazan":""}
 ,
@@ -74,7 +74,7 @@
 ,
 {"Name":"レジーナクリニック札幌院","Jusho":"北海道札幌市中央区南一条西5-13-1太陽ビルアネックス6階","kouzui":"<a href='tel:011-596-0956'>011-596-0956</a>","gake":"<a href='https://reginaclinic.jp/' target='_blank'>https://reginaclinic.jp/</a>","takashio":"×","jishin":"〇","tsunami":"美容皮膚科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"愛おおぐろ眼科","Jusho":"札幌市中央区大通西17丁目1-27札幌メディケアセンタービル3階","kouzui":"<a href='tel:011-642-1096'>011-642-1096</a>","gake":"<a href='aiooguro-ganka.jp' target='_blank'>aiooguro-ganka.jp</a>","takashio":"×","jishin":"〇","tsunami":"眼科","kaji":"","naisui":"","kazan":""}
+{"Name":"愛おおぐろ眼科","Jusho":"札幌市中央区大通西17丁目1-27札幌メディケアセンタービル3階","kouzui":"<a href='tel:011-642-1096'>011-642-1096</a>","gake":"<a href='http://www.aiooguro-ganka.jp' target='_blank'>http://www.aiooguro-ganka.jp</a>","takashio":"×","jishin":"〇","tsunami":"眼科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"医大前中川眼科","Jusho":"札幌市中央区大通西16丁目1-30FUYONo.10ビル3階","kouzui":"<a href='tel:011-616-2101'>011-616-2101</a>","gake":"<a href='http://www.nakagawa-ganka.jp/' target='_blank'>http://www.nakagawa-ganka.jp/</a>","takashio":"〇","jishin":"〇","tsunami":"眼科","kaji":"","naisui":"","kazan":""}
 ,
@@ -82,7 +82,7 @@
 ,
 {"Name":"氏家記念こどもクリニック","Jusho":"北海道札幌市中央区大通東3丁目1番1号","kouzui":"<a href='tel:011-281-2811'>011-281-2811</a>","gake":"<a href='http://wwww.tortue-med.jp' target='_blank'>http://wwww.tortue-med.jp</a>","takashio":"〇","jishin":"〇","tsunami":"診療内科小児科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"医療法人財団老蘇会静明館診療所","Jusho":"北海道札幌市中央区南14条西18丁目5-33","kouzui":"<a href='tel:011-215-5069'>011-215-5069</a>","gake":"<a href='www.seimeikan.or.jp' target='_blank'>www.seimeikan.or.jp</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"-","naisui":"","kazan":""}
+{"Name":"医療法人財団老蘇会静明館診療所","Jusho":"北海道札幌市中央区南14条西18丁目5-33","kouzui":"<a href='tel:011-215-5069'>011-215-5069</a>","gake":"<a href='http://www.seimeikan.or.jp' target='_blank'>http://www.seimeikan.or.jp</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"-","naisui":"","kazan":""}
 ,
 {"Name":"若浜医院","Jusho":"札幌市中央区南7条西17丁目1-5","kouzui":"<a href='tel:011-561-6767'>011-561-6767</a>","gake":"<a href='https://www.wakahama-clinic.jp/' target='_blank'>https://www.wakahama-clinic.jp/</a>","takashio":"×","jishin":"〇","tsunami":"内科小児科","kaji":"市立札幌病院（札幌市中央区北11条西13丁目1-1）、愛育病院（札幌市中央区南4条西25丁目2-1）","naisui":"","kazan":""}
 ,
@@ -152,7 +152,7 @@
 ,
 {"Name":"公益財団法人パブリックヘルスリサーチセンター付属健康増進センター札幌商工診療所","Jusho":"札幌市中央区南1条西5丁目15-2","kouzui":"<a href='tel:001-261-6211'>001-261-6211</a>","gake":"<a href='https://www.phrf.jp' target='_blank'>https://www.phrf.jp</a>","takashio":"×","jishin":"〇","tsunami":"婦人科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"行啓通りかこクリニック","Jusho":"札幌市中央区南14条西8丁目5","kouzui":"<a href='tel:011-596-9500'>011-596-9500</a>","gake":"<a href='www.kakoclinic.com/jp' target='_blank'>www.kakoclinic.com/jp</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
+{"Name":"行啓通りかこクリニック","Jusho":"札幌市中央区南14条西8丁目5","kouzui":"<a href='tel:011-596-9500'>011-596-9500</a>","gake":"<a href='http://www.kakoclinic.com/jp' target='_blank'>http://www.kakoclinic.com/jp</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"佐野内科医院","Jusho":"北海道札幌市中央区南5条西15丁目1-6","kouzui":"<a href='tel:011-561-0288'>011-561-0288</a>","gake":"<a href='http://www.sano-naika-clinic.com' target='_blank'>http://www.sano-naika-clinic.com</a>","takashio":"×","jishin":"〇","tsunami":"内科消化器内科","kaji":"","naisui":"","kazan":""}
 ,
@@ -184,7 +184,7 @@
 ,
 {"Name":"中央内科医院","Jusho":"札幌市中央区南7条西15丁目2-1-1","kouzui":"<a href='tel:011-561-6362'>011-561-6362</a>","gake":"<a href='https://c-hakujinkai.com/' target='_blank'>https://c-hakujinkai.com/</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"中橋内科クリニック","Jusho":"札幌市中央区南10条西21丁目7-17","kouzui":"<a href='tel:011-561-3330'>011-561-3330</a>","gake":"<a href='nakahashi-clinic@s-junkanki.or.jp' target='_blank'>nakahashi-clinic@s-junkanki.or.jp</a>","takashio":"×","jishin":"〇","tsunami":"内科循環器内科","kaji":"","naisui":"","kazan":""}
+{"Name":"中橋内科クリニック","Jusho":"札幌市中央区南10条西21丁目7-17","kouzui":"<a href='tel:011-561-3330'>011-561-3330</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科循環器内科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"椿診療所","Jusho":"札幌市中央区南1条西10丁目3番地","kouzui":"<a href='tel:011-281-0808'>011-281-0808</a>","gake":"<a href='http://www.tsubakiclinic.jp/' target='_blank'>http://www.tsubakiclinic.jp/</a>","takashio":"×","jishin":"〇","tsunami":"内科外科","kaji":"","naisui":"","kazan":""}
 ,
@@ -222,7 +222,7 @@
 ,
 {"Name":"かしま内科クリニック","Jusho":"札幌市北区あいの里2条3丁目16-7","kouzui":"<a href='tel:011-778-7031'>011-778-7031</a>","gake":"<a href='http://www13.plala.or.jp/kashimanaika/' target='_blank'>http://www13.plala.or.jp/kashimanaika/</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"くすのきこどもクリニック","Jusho":"札幌市北区北24条西14丁目","kouzui":"<a href='tel:011-717-0415'>011-717-0415</a>","gake":"<a href='kusunoki-clinic.com' target='_blank'>kusunoki-clinic.com</a>","takashio":"×","jishin":"〇","tsunami":"小児科","kaji":"市立札幌病院（札幌市中央区北11条西13丁目）、天使病院（札幌市東区北12条東3丁目1-1）","naisui":"","kazan":""}
+{"Name":"くすのきこどもクリニック","Jusho":"札幌市北区北24条西14丁目","kouzui":"<a href='tel:011-717-0415'>011-717-0415</a>","gake":"<a href='http://kusunoki-clinic.com' target='_blank'>http://kusunoki-clinic.com</a>","takashio":"×","jishin":"〇","tsunami":"小児科","kaji":"市立札幌病院（札幌市中央区北11条西13丁目）、天使病院（札幌市東区北12条東3丁目1-1）","naisui":"","kazan":""}
 ,
 {"Name":"こんの内科・消化器内科クリニック","Jusho":"札幌市北区新琴似2条1丁目1-52","kouzui":"<a href='tel:011-299-4107'>011-299-4107</a>","gake":"<a href='http://shinkotoni-naika.jp/' target='_blank'>http://shinkotoni-naika.jp/</a>","takashio":"×","jishin":"〇","tsunami":"内科・消化器内科","kaji":"イムス札幌消化器中央総合病院(北海道札幌市西区八軒二条西1丁目1-1)","naisui":"","kazan":""}
 ,
@@ -346,7 +346,7 @@
 ,
 {"Name":"医療法人社団奥泉整形外科","Jusho":"札幌市東区北41条東8丁目3-7","kouzui":"<a href='tel:011-731-2161'>011-731-2161</a>","gake":"<a href='http://www.okuizumi-orthopedics.com/' target='_blank'>http://www.okuizumi-orthopedics.com/</a>","takashio":"×","jishin":"〇","tsunami":"整形外科","kaji":"整形外科北新病院（札幌市白石区菊水元町3条3丁目1-18）、東栄病院（札幌市東区北41条東16丁目3-14）","naisui":"","kazan":""}
 ,
-{"Name":"医療社団法人岩田皮膚科","Jusho":"札幌市東区北26条東6丁目1-28","kouzui":"<a href='tel:011-711-0384'>011-711-0384</a>","gake":"<a href='iwatahifuka.com' target='_blank'>iwatahifuka.com</a>","takashio":"×","jishin":"〇","tsunami":"皮膚科","kaji":"市立札幌病院（札幌市中央区北11条西13丁目）","naisui":"","kazan":""}
+{"Name":"医療社団法人岩田皮膚科","Jusho":"札幌市東区北26条東6丁目1-28","kouzui":"<a href='tel:011-711-0384'>011-711-0384</a>","gake":"<a href='http://www.iwatahifuka.com' target='_blank'>http://www.iwatahifuka.com</a>","takashio":"×","jishin":"〇","tsunami":"皮膚科","kaji":"市立札幌病院（札幌市中央区北11条西13丁目）","naisui":"","kazan":""}
 ,
 {"Name":"医療法人社団光星メディカルクリニック","Jusho":"札幌市東区北12条東7丁目メディカルセンター光星2F","kouzui":"<a href='tel:011-704-6887'>011-704-6887</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
@@ -354,7 +354,7 @@
 ,
 {"Name":"医療法人社団曙札幌北14条クリニック","Jusho":"北海道札幌市東区北20条東15丁目4番22号","kouzui":"<a href='tel:011-748-3161'>011-748-3161</a>","gake":"<a href='https://www.kita14-clinic.com/' target='_blank'>https://www.kita14-clinic.com/</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"医療法人社団石田内科小児科医院","Jusho":"北海道札幌市東区北30条東13丁目3-10","kouzui":"<a href='tel:011-753-0380'>011-753-0380</a>","gake":"<a href='なし' target='_blank'>なし</a>","takashio":"×","jishin":"〇","tsunami":"内科小児科","kaji":"","naisui":"","kazan":""}
+{"Name":"医療法人社団石田内科小児科医院","Jusho":"北海道札幌市東区北30条東13丁目3-10","kouzui":"<a href='tel:011-753-0380'>011-753-0380</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科小児科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"医療法人社団東都会東区役所前整形外科","Jusho":"北海道札幌市東区北12条東7丁目1番35号","kouzui":"<a href='tel:011-742-5155'>011-742-5155</a>","gake":"<a href='http://higashikuyakusyomae-seikei.com' target='_blank'>http://higashikuyakusyomae-seikei.com</a>","takashio":"×","jishin":"〇","tsunami":"整形外科","kaji":"なし","naisui":"","kazan":""}
 ,
@@ -380,7 +380,7 @@
 ,
 {"Name":"医療法人菊郷会札幌センチュリー病院","Jusho":"北海道札幌市白石区菊水元町5条3丁目5番10号","kouzui":"<a href='tel:011-871-1121'>011-871-1121</a>","gake":"<a href='http://www.s-century.jp/' target='_blank'>http://www.s-century.jp/</a>","takashio":"×","jishin":"〇","tsunami":"内科、消化器内科、循環器内科、外科、整形外科、乳腺外科、泌尿器科、透析外科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"医療法人菊郷会石橋胃腸病院","Jusho":"札幌市白石区川下3条4丁目2番1号","kouzui":"<a href='tel:011-872-5811'>011-872-5811</a>","gake":"<a href='ishibashi.or.jp' target='_blank'>ishibashi.or.jp</a>","takashio":"×","jishin":"〇","tsunami":"内科消化器内科","kaji":"","naisui":"","kazan":""}
+{"Name":"医療法人菊郷会石橋胃腸病院","Jusho":"札幌市白石区川下3条4丁目2番1号","kouzui":"<a href='tel:011-872-5811'>011-872-5811</a>","gake":"<a href='http://www.ishibashi.or.jp' target='_blank'>http://www.ishibashi.or.jp</a>","takashio":"×","jishin":"〇","tsunami":"内科消化器内科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"医療法人社団明日佳白石明日佳病院","Jusho":"北海道札幌市白石区東札幌5条5丁目2-5","kouzui":"<a href='tel:011-823-5151'>011-823-5151</a>","gake":"<a href='http://www.asuka-gp.or.jp/shiroishi/' target='_blank'>http://www.asuka-gp.or.jp/shiroishi/</a>","takashio":"×","jishin":"〇","tsunami":"内科循環器内科","kaji":"","naisui":"","kazan":""}
 ,
@@ -396,7 +396,7 @@
 ,
 {"Name":"社会医療法人共栄会札幌トロイカ病院","Jusho":"北海道札幌市白石区川下577番地8","kouzui":"<a href='tel:011-873-1221'>011-873-1221</a>","gake":"<a href='http://kyoueikai.or.jp/troika2.html' target='_blank'>http://kyoueikai.or.jp/troika2.html</a>","takashio":"〇","jishin":"〇","tsunami":"精神科内科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"長野病院","Jusho":"北海道札幌市白石区中央3条5丁目4番30号","kouzui":"<a href='tel:011-861-1037'>011-861-1037</a>","gake":"<a href='www.aoikai.jp/naganohsp/' target='_blank'>www.aoikai.jp/naganohsp/</a>","takashio":"×","jishin":"〇","tsunami":"精神科","kaji":"","naisui":"","kazan":""}
+{"Name":"長野病院","Jusho":"北海道札幌市白石区中央3条5丁目4番30号","kouzui":"<a href='tel:011-861-1037'>011-861-1037</a>","gake":"<a href='http://www.aoikai.jp/naganohsp/' target='_blank'>http://www.aoikai.jp/naganohsp/</a>","takashio":"×","jishin":"〇","tsunami":"精神科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"ごう内科クリニック","Jusho":"北海道札幌市白石区栄通21丁目1-16","kouzui":"<a href='tel:011-850-5050'>011-850-5050</a>","gake":"<a href='http://gonaika.com/img/logo.jpg' target='_blank'>http://gonaika.com/img/logo.jpg</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
@@ -422,7 +422,7 @@
 ,
 {"Name":"川下ばく内科","Jusho":"北海道札幌市白石区川下4条5丁目4-14","kouzui":"<a href='tel:011-374-4389'>011-374-4389</a>","gake":"<a href='http://kawashimo-baku-naika.com/' target='_blank'>http://kawashimo-baku-naika.com/</a>","takashio":"×","jishin":"〇","tsunami":"内科内視鏡内科（消化器内科）","kaji":"勤医協中央病院（北海道札幌市東区東苗穂5条1丁目9-1）","naisui":"","kazan":""}
 ,
-{"Name":"田川眼科","Jusho":"札幌市白石区南郷通1丁目北1?1ST相馬ビル2F","kouzui":"<a href='tel:011-864-8671'>011-864-8671</a>","gake":"<a href='tp://www.tagawaganka.com' target='_blank'>tp://www.tagawaganka.com</a>","takashio":"×","jishin":"〇","tsunami":"眼科","kaji":"無し","naisui":"","kazan":""}
+{"Name":"田川眼科","Jusho":"札幌市白石区南郷通1丁目北1?1ST相馬ビル2F","kouzui":"<a href='tel:011-864-8671'>011-864-8671</a>","gake":"<a href='http://www.tagawaganka.com' target='_blank'>http://www.tagawaganka.com</a>","takashio":"×","jishin":"〇","tsunami":"眼科","kaji":"無し","naisui":"","kazan":""}
 ,
 {"Name":"東札幌眼科","Jusho":"北海道札幌市白石区東札幌4条1丁目1-1ラソラ札幌Bタウン2F","kouzui":"<a href='tel:011-821-2100'>011-821-2100</a>","gake":"<a href='https://sapporo-eye-clinic.com/' target='_blank'>https://sapporo-eye-clinic.com/</a>","takashio":"×","jishin":"〇","tsunami":"眼科","kaji":"北海道大学病院札幌市北区北14条西5丁目","naisui":"","kazan":""}
 ,
@@ -450,9 +450,9 @@
 ,
 {"Name":"ゆう内科消化器クリニック","Jusho":"北海道札幌市豊平区月寒東3-11-1-362階","kouzui":"<a href='tel:011-855-2580'>011-855-2580</a>","gake":"<a href='https://yuu-naika.com/' target='_blank'>https://yuu-naika.com/</a>","takashio":"△","jishin":"〇","tsunami":"内科","kaji":"当院","naisui":"","kazan":""}
 ,
-{"Name":"医療法人しもでメンタルクリニック","Jusho":"北海道札幌市豊平区中の島2条1丁目3-25カムオンビル","kouzui":"<a href='tel:011-833-6662'>011-833-6662</a>","gake":"<a href='www.shimode.com' target='_blank'>www.shimode.com</a>","takashio":"〇","jishin":"〇","tsunami":"心療内科精神科","kaji":"旭山病院（北海道札幌市中央区双子山4-3-33）","naisui":"","kazan":""}
+{"Name":"医療法人しもでメンタルクリニック","Jusho":"北海道札幌市豊平区中の島2条1丁目3-25カムオンビル","kouzui":"<a href='tel:011-833-6662'>011-833-6662</a>","gake":"<a href='http://www.shimode.com' target='_blank'>http://www.shimode.com</a>","takashio":"〇","jishin":"〇","tsunami":"心療内科精神科","kaji":"旭山病院（北海道札幌市中央区双子山4-3-33）","naisui":"","kazan":""}
 ,
-{"Name":"医療法人社団あいだクリニック循環器内科","Jusho":"札幌市豊平区平岸5条7丁目8-22第2平岸グランドビル1階","kouzui":"<a href='tel:011-820-1400'>011-820-1400</a>","gake":"<a href='?//www.aida-clinic.info/' target='_blank'>?//www.aida-clinic.info/</a>","takashio":"×","jishin":"〇","tsunami":"内科循環器科","kaji":"","naisui":"","kazan":""}
+{"Name":"医療法人社団あいだクリニック循環器内科","Jusho":"札幌市豊平区平岸5条7丁目8-22第2平岸グランドビル1階","kouzui":"<a href='tel:011-820-1400'>011-820-1400</a>","gake":"<a href='http://www.aida-clinic.info/' target='_blank'>http://www.aida-clinic.info/</a>","takashio":"×","jishin":"〇","tsunami":"内科循環器科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"医療法人社団いちご会美加レディースクリニック","Jusho":"北海道札幌市豊平区平岸3条13丁目5番21号","kouzui":"<a href='tel:011-833-7773'>011-833-7773</a>","gake":"<a href='http://www.mikalady.jp' target='_blank'>http://www.mikalady.jp</a>","takashio":"〇","jishin":"〇","tsunami":"産婦人科","kaji":"札幌医科大学附属病院（北海道札幌市中央区南1条西16丁目291番地）","naisui":"","kazan":""}
 ,
@@ -528,7 +528,7 @@
 ,
 {"Name":"幸内科クリニック","Jusho":"札幌市南区澄川4条6丁目7-35","kouzui":"<a href='tel:011-837-7320'>011-837-7320</a>","gake":"<a href='http://www.saiwai-naika.com' target='_blank'>http://www.saiwai-naika.com</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"医）もなみ内科・呼吸器科クリニック","Jusho":"北海道札幌市南区川沿11条2丁目1-6","kouzui":"<a href='tel:011-571-5311'>011-571-5311</a>","gake":"<a href='無し' target='_blank'>無し</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"無し","naisui":"","kazan":""}
+{"Name":"医）もなみ内科・呼吸器科クリニック","Jusho":"北海道札幌市南区川沿11条2丁目1-6","kouzui":"<a href='tel:011-571-5311'>011-571-5311</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"無し","naisui":"","kazan":""}
 ,
 {"Name":"芸術の森泌尿器科","Jusho":"札幌市南区石山東3丁目1番31号","kouzui":"<a href='tel:011-591-8686'>011-591-8686</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"泌尿器科科","kaji":"市立札幌病院","naisui":"","kazan":""}
 ,
@@ -544,7 +544,7 @@
 ,
 {"Name":"医療法人礼風会五輪橋マタニティクリニック","Jusho":"北海道札幌市南区南39条西11丁目1番30号","kouzui":"<a href='tel:011-585-3110'>011-585-3110</a>","gake":"<a href='https://gorin.or.jp/' target='_blank'>https://gorin.or.jp/</a>","takashio":"×","jishin":"〇","tsunami":"産婦人科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"札幌さがクリニック","Jusho":"北海道札幌市南区川沿1条2丁目7-13","kouzui":"<a href='tel:011-313-2332'>011-313-2332</a>","gake":"<a href='sapporo-saga-clinic.com' target='_blank'>sapporo-saga-clinic.com</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"当院で診療予定","naisui":"","kazan":""}
+{"Name":"札幌さがクリニック","Jusho":"北海道札幌市南区川沿1条2丁目7-13","kouzui":"<a href='tel:011-313-2332'>011-313-2332</a>","gake":"<a href='http://sapporo-saga-clinic.com' target='_blank'>http://sapporo-saga-clinic.com</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"当院で診療予定","naisui":"","kazan":""}
 ,
 {"Name":"発寒中央病院","Jusho":"北海道札幌市西区発寒5条6丁目10-1","kouzui":"<a href='tel:011-661-2111'>011-661-2111</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
@@ -574,7 +574,7 @@
 ,
 {"Name":"医療法人札幌円山整形外科札幌琴似整形外科","Jusho":"北海道札幌市西区琴似4条4丁目1-30","kouzui":"<a href='tel:011-621-2111'>011-621-2111</a>","gake":"<a href='http://kotoni-seikeigeka.jp/' target='_blank'>http://kotoni-seikeigeka.jp/</a>","takashio":"×","jishin":"〇","tsunami":"整形外科、リハビリテーション科、リウマチ科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"医療法人社団さんべ耳鼻咽喉科医院","Jusho":"北海道札幌市西区琴似2条4丁目1-15","kouzui":"<a href='tel:011-643-8968'>011-643-8968</a>","gake":"<a href='無し' target='_blank'>無し</a>","takashio":"〇","jishin":"〇","tsunami":"耳鼻咽喉科","kaji":"さんべ耳鼻咽喉科医院北海道札幌市西区琴似2条4丁目1-15","naisui":"","kazan":""}
+{"Name":"医療法人社団さんべ耳鼻咽喉科医院","Jusho":"北海道札幌市西区琴似2条4丁目1-15","kouzui":"<a href='tel:011-643-8968'>011-643-8968</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"耳鼻咽喉科","kaji":"さんべ耳鼻咽喉科医院北海道札幌市西区琴似2条4丁目1-15","naisui":"","kazan":""}
 ,
 {"Name":"医療法人社団にこにこ小児科クリニック","Jusho":"札幌市西区宮の沢1条4丁目7-20","kouzui":"<a href='tel:011-667-3311'>011-667-3311</a>","gake":"<a href='http://www.niko-niko25.com' target='_blank'>http://www.niko-niko25.com</a>","takashio":"〇","jishin":"〇","tsunami":"小児科","kaji":"NTT東日本札幌病院（札幌市中央区南1条西15丁目）、手稲渓仁会（札幌市手稲区前田1条12丁目1-40）","naisui":"","kazan":""}
 ,
@@ -724,23 +724,23 @@
 ,
 {"Name":"深瀬医院","Jusho":"北海道函館市松川町30番12号","kouzui":"<a href='tel:0138-41-1221'>0138-41-1221</a>","gake":"<a href='http://www.fukase.or.jp/fukase/' target='_blank'>http://www.fukase.or.jp/fukase/</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"なし","naisui":"","kazan":""}
 ,
-{"Name":"第一内科医院","Jusho":"北海道函館市湯川町3丁目21番5号","kouzui":"<a href='tel:0138-57-9401'>0138-57-9401</a>","gake":"<a href='なし' target='_blank'>なし</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"なし","naisui":"","kazan":""}
+{"Name":"第一内科医院","Jusho":"北海道函館市湯川町3丁目21番5号","kouzui":"<a href='tel:0138-57-9401'>0138-57-9401</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"なし","naisui":"","kazan":""}
 ,
-{"Name":"医療法人社団イーストかたやま内科消化器科","Jusho":"北海道函館市日吉町2-8-17","kouzui":"<a href='tel:0138-32-3221'>0138-32-3221</a>","gake":"<a href='なし' target='_blank'>なし</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"なし","naisui":"","kazan":""}
+{"Name":"医療法人社団イーストかたやま内科消化器科","Jusho":"北海道函館市日吉町2-8-17","kouzui":"<a href='tel:0138-32-3221'>0138-32-3221</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"なし","naisui":"","kazan":""}
 ,
-{"Name":"医療法人社団福徳整形外科・外科","Jusho":"北海道函館市湯川町2丁目37-7","kouzui":"<a href='tel:0138-57-0897'>0138-57-0897</a>","gake":"<a href='なし' target='_blank'>なし</a>","takashio":"〇","jishin":"〇","tsunami":"整形外科外科","kaji":"函館中央病院（北海道函館市本町33番2号）函館五稜郭病院（北海道函館市五稜郭町38番3号）","naisui":"","kazan":""}
+{"Name":"医療法人社団福徳整形外科・外科","Jusho":"北海道函館市湯川町2丁目37-7","kouzui":"<a href='tel:0138-57-0897'>0138-57-0897</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"整形外科外科","kaji":"函館中央病院（北海道函館市本町33番2号）函館五稜郭病院（北海道函館市五稜郭町38番3号）","naisui":"","kazan":""}
 ,
-{"Name":"医療法人社団はぎさわ小児クリニック","Jusho":"北海道函館市時任町23-10","kouzui":"<a href='tel:0138-33-1122'>0138-33-1122</a>","gake":"<a href='なし' target='_blank'>なし</a>","takashio":"〇","jishin":"〇","tsunami":"小児科","kaji":"なし","naisui":"","kazan":""}
+{"Name":"医療法人社団はぎさわ小児クリニック","Jusho":"北海道函館市時任町23-10","kouzui":"<a href='tel:0138-33-1122'>0138-33-1122</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"小児科","kaji":"なし","naisui":"","kazan":""}
 ,
 {"Name":"市立函館恵山病院","Jusho":"北海道函館市日ノ浜町15番地1","kouzui":"<a href='tel:0138-85-2001'>0138-85-2001</a>","gake":"<a href='http://www001.upp.so-net.ne.jp/esan_hp/' target='_blank'>http://www001.upp.so-net.ne.jp/esan_hp/</a>","takashio":"×","jishin":"〇","tsunami":"内科外科","kaji":"なし","naisui":"","kazan":""}
 ,
-{"Name":"市立函館南茅部病院","Jusho":"北海道函館市安浦町92番地","kouzui":"<a href='tel:0138-25-3511'>0138-25-3511</a>","gake":"<a href='mk-hp@atlas.plala.or.jp' target='_blank'>mk-hp@atlas.plala.or.jp</a>","takashio":"×","jishin":"〇","tsunami":"内科外科","kaji":"市立函館病院（北海道函館市港町1丁目10番1号）","naisui":"","kazan":""}
+{"Name":"市立函館南茅部病院","Jusho":"北海道函館市安浦町92番地","kouzui":"<a href='tel:0138-25-3511'>0138-25-3511</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科外科","kaji":"市立函館病院（北海道函館市港町1丁目10番1号）","naisui":"","kazan":""}
 ,
 {"Name":"函館渡辺病院","Jusho":"北海道函館市湯川町1丁目31番1号","kouzui":"<a href='tel:0138-59-2221'>0138-59-2221</a>","gake":"<a href='http://www.hakodatewatanabe.or.jp/' target='_blank'>http://www.hakodatewatanabe.or.jp/</a>","takashio":"×","jishin":"〇","tsunami":"内科循環器内科消化器内科外科整形外科皮膚科","kaji":"なし","naisui":"","kazan":""}
 ,
 {"Name":"函館渡辺病院附属ゆのかわメンタルクリニック","Jusho":"北海道函館市湯川町1-29-11","kouzui":"<a href='tel:0138-59-3331'>0138-59-3331</a>","gake":"<a href='http://www.hakodatewatanabe.or.jp' target='_blank'>http://www.hakodatewatanabe.or.jp</a>","takashio":"×","jishin":"〇","tsunami":"精神科","kaji":"なし","naisui":"","kazan":""}
 ,
-{"Name":"函館西部脳神経クリニック","Jusho":"北海道函館市豊川町2-4","kouzui":"<a href='tel:0138-26-1029'>0138-26-1029</a>","gake":"<a href='なし' target='_blank'>なし</a>","takashio":"×","jishin":"〇","tsunami":"脳神経外科内科","kaji":"函館五稜郭病院（北海道函館市五稜郭町38番3号）","naisui":"","kazan":""}
+{"Name":"函館西部脳神経クリニック","Jusho":"北海道函館市豊川町2-4","kouzui":"<a href='tel:0138-26-1029'>0138-26-1029</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"脳神経外科内科","kaji":"函館五稜郭病院（北海道函館市五稜郭町38番3号）","naisui":"","kazan":""}
 ,
 {"Name":"医療法人社団函館脳神経セントラルクリニック","Jusho":"北海道函館市梁川町16番5号","kouzui":"<a href='tel:0138-35-3355'>0138-35-3355</a>","gake":"<a href='https://hakodate-ncc.jp' target='_blank'>https://hakodate-ncc.jp</a>","takashio":"×","jishin":"〇","tsunami":"脳神経外科神経内科","kaji":"なし","naisui":"","kazan":""}
 ,
@@ -754,11 +754,11 @@
 ,
 {"Name":"道南勤医協稜北クリニック","Jusho":"北海道函館市中道2丁目51番1号","kouzui":"<a href='tel:0138-54-3116'>0138-54-3116</a>","gake":"<a href='https://ryohoku-h.hakodate.jp/clinic/' target='_blank'>https://ryohoku-h.hakodate.jp/clinic/</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"医なし","naisui":"","kazan":""}
 ,
-{"Name":"アルファ皮膚科クリニック","Jusho":"北海道函館市本通1丁目7-22メディカルプレイス2Ｆ","kouzui":"<a href='tel:0138-33-7300'>0138-33-7300</a>","gake":"<a href='なし' target='_blank'>なし</a>","takashio":"×","jishin":"〇","tsunami":"皮膚科","kaji":"なし","naisui":"","kazan":""}
+{"Name":"アルファ皮膚科クリニック","Jusho":"北海道函館市本通1丁目7-22メディカルプレイス2Ｆ","kouzui":"<a href='tel:0138-33-7300'>0138-33-7300</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"皮膚科","kaji":"なし","naisui":"","kazan":""}
 ,
-{"Name":"医療法人社団山樹会平山医院","Jusho":"北海道函館市東雲町6番11号","kouzui":"<a href='tel:0138-22-4821'>0138-22-4821</a>","gake":"<a href='なし' target='_blank'>なし</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"なし","naisui":"","kazan":""}
+{"Name":"医療法人社団山樹会平山医院","Jusho":"北海道函館市東雲町6番11号","kouzui":"<a href='tel:0138-22-4821'>0138-22-4821</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"なし","naisui":"","kazan":""}
 ,
-{"Name":"杉並肛門科クリニック","Jusho":"北海道函館市杉並町2番9号","kouzui":"<a href='tel:0138-52-2241'>0138-52-2241</a>","gake":"<a href='なし' target='_blank'>なし</a>","takashio":"〇","jishin":"〇","tsunami":"肛門科","kaji":"社会福祉法人北海道社会事業協会函館病院（北海道函館市駒場町4番6号）","naisui":"","kazan":""}
+{"Name":"杉並肛門科クリニック","Jusho":"北海道函館市杉並町2番9号","kouzui":"<a href='tel:0138-52-2241'>0138-52-2241</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"肛門科","kaji":"社会福祉法人北海道社会事業協会函館病院（北海道函館市駒場町4番6号）","naisui":"","kazan":""}
 ,
 {"Name":"社会福祉法人恩賜財団済生会支部北海道済生会小樽病院","Jusho":"小樽市築港10番1号","kouzui":"<a href='tel:0134-25-4321'>0134-25-4321</a>","gake":"<a href='http://www.saiseikai-otaru.jp' target='_blank'>http://www.saiseikai-otaru.jp</a>","takashio":"×","jishin":"〇","tsunami":"内科内科内科内科内科循環器内科循環器内科脳神経内科脳神経内科脳神経内科緩和ケア内科外科外科外科整形外科整形外科整形外科整形外科整形外科整形外科泌尿器科泌尿器科泌尿器科","kaji":"なし","naisui":"","kazan":""}
 ,
@@ -918,9 +918,9 @@
 ,
 {"Name":"医療法人緑光会野宮病院","Jusho":"北海道岩見沢市5条東18丁目47","kouzui":"<a href='tel:0126-22-3731'>0126-22-3731</a>","gake":"<a href='http://nomiya-hp.or.jp' target='_blank'>http://nomiya-hp.or.jp</a>","takashio":"〇","jishin":"〇","tsunami":"精神科","kaji":"なし","naisui":"","kazan":""}
 ,
-{"Name":"医療法人社団倉増整形外科","Jusho":"北海道岩見沢市2条西7丁目1-3","kouzui":"<a href='tel:0126-22-0288'>0126-22-0288</a>","gake":"<a href='www.kuramasuseikeigeka.jp' target='_blank'>www.kuramasuseikeigeka.jp</a>","takashio":"〇","jishin":"〇","tsunami":"整形外科","kaji":"なし","naisui":"","kazan":""}
+{"Name":"医療法人社団倉増整形外科","Jusho":"北海道岩見沢市2条西7丁目1-3","kouzui":"<a href='tel:0126-22-0288'>0126-22-0288</a>","gake":"<a href='http://www.kuramasuseikeigeka.jp' target='_blank'>http://www.kuramasuseikeigeka.jp</a>","takashio":"〇","jishin":"〇","tsunami":"整形外科","kaji":"なし","naisui":"","kazan":""}
 ,
-{"Name":"医療法人萌佑会岩見沢脳神経外科","Jusho":"北海道岩見沢市8条西19丁目8-6","kouzui":"<a href='tel:0126-20-1001'>0126-20-1001</a>","gake":"<a href='iwamizawanouge.com' target='_blank'>iwamizawanouge.com</a>","takashio":"×","jishin":"△","tsunami":"脳神経外科","kaji":"なし","naisui":"","kazan":""}
+{"Name":"医療法人萌佑会岩見沢脳神経外科","Jusho":"北海道岩見沢市8条西19丁目8-6","kouzui":"<a href='tel:0126-20-1001'>0126-20-1001</a>","gake":"<a href='http://iwamizawanouge.com' target='_blank'>http://iwamizawanouge.com</a>","takashio":"×","jishin":"△","tsunami":"脳神経外科","kaji":"なし","naisui":"","kazan":""}
 ,
 {"Name":"医療法人社団中央医院","Jusho":"北海道岩見沢市6条西6丁目5-2","kouzui":"<a href='tel:0126-22-0472'>0126-22-0472</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"岩見沢市立総合病院（北海道岩見沢市9条西7丁目2番地）北海道中央労災病院（北海道岩見沢市4条東16丁目5番地）","naisui":"","kazan":""}
 ,
@@ -936,11 +936,11 @@
 ,
 {"Name":"医療法人平安会はた形成外科クリニック","Jusho":"北海道岩見沢市2条西6丁目3番3","kouzui":"<a href='tel:0126-32-1311'>0126-32-1311</a>","gake":"<a href='http://www.hata-keiseigeka.com/' target='_blank'>http://www.hata-keiseigeka.com/</a>","takashio":"×","jishin":"〇","tsunami":"形成外科","kaji":"なし","naisui":"","kazan":""}
 ,
-{"Name":"岩見沢こころクリニック","Jusho":"北海道岩見沢市2条東15丁目5-2","kouzui":"<a href='tel:0126-32-0556'>0126-32-0556</a>","gake":"<a href='iwacoco.com' target='_blank'>iwacoco.com</a>","takashio":"×","jishin":"〇","tsunami":"心療内科精神科","kaji":"緑光会野宮病院（北海道岩見沢市5条東18丁目）","naisui":"","kazan":""}
+{"Name":"岩見沢こころクリニック","Jusho":"北海道岩見沢市2条東15丁目5-2","kouzui":"<a href='tel:0126-32-0556'>0126-32-0556</a>","gake":"<a href='http://iwacoco.com' target='_blank'>http://iwacoco.com</a>","takashio":"×","jishin":"〇","tsunami":"心療内科精神科","kaji":"緑光会野宮病院（北海道岩見沢市5条東18丁目）","naisui":"","kazan":""}
 ,
 {"Name":"石塚内科医院","Jusho":"北海道岩見沢市5条東11丁目45番地","kouzui":"<a href='tel:0126-22-1718'>0126-22-1718</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"岩見沢市立総合病院（北海道岩見沢市9条西7丁目2番地）","naisui":"","kazan":""}
 ,
-{"Name":"医療法人社団後藤田医院","Jusho":"北海道網走市新町1丁目2番7号","kouzui":"<a href='tel:0152-44-6811'>0152-44-6811</a>","gake":"<a href='なし' target='_blank'>なし</a>","takashio":"〇","jishin":"〇","tsunami":"外科整形外科","kaji":"JA北海道厚生連網走厚生病院（網走市北6条西1丁目9番地）","naisui":"","kazan":""}
+{"Name":"医療法人社団後藤田医院","Jusho":"北海道網走市新町1丁目2番7号","kouzui":"<a href='tel:0152-44-6811'>0152-44-6811</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"外科整形外科","kaji":"JA北海道厚生連網走厚生病院（網走市北6条西1丁目9番地）","naisui":"","kazan":""}
 ,
 {"Name":"医療法人社団心優会留萌記念病院","Jusho":"北海道留萌市開運町1丁目6番1号","kouzui":"<a href='tel:0164-42-0271'>0164-42-0271</a>","gake":"<a href='http://www.shinyukai-r.or.jp/rumoi/' target='_blank'>http://www.shinyukai-r.or.jp/rumoi/</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"留萌市立病院（北海道留萌市東雲町2丁目16番地1）","naisui":"","kazan":""}
 ,
@@ -952,7 +952,7 @@
 ,
 {"Name":"にっしん泌尿器科クリニック","Jusho":"北海道苫小牧市日新町2丁目6-43","kouzui":"<a href='tel:0144-71-1100'>0144-71-1100</a>","gake":"<a href='http://www..nissin-uro.jp' target='_blank'>http://www..nissin-uro.jp</a>","takashio":"×","jishin":"〇","tsunami":"泌尿器科","kaji":"なし","naisui":"","kazan":""}
 ,
-{"Name":"阿部内科医院","Jusho":"苫小牧市本町1丁目5-12","kouzui":"<a href='tel:0144-36-0066'>0144-36-0066</a>","gake":"<a href='無し' target='_blank'>無し</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"なし","naisui":"","kazan":""}
+{"Name":"阿部内科医院","Jusho":"苫小牧市本町1丁目5-12","kouzui":"<a href='tel:0144-36-0066'>0144-36-0066</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"なし","naisui":"","kazan":""}
 ,
 {"Name":"道北勤医協宗谷医院","Jusho":"北海道稚内市末広3丁目6番5号","kouzui":"<a href='tel:0162-24-1117'>0162-24-1117</a>","gake":"<a href='http://www.dohoku-kinikyo.or.jp/publics/index/156/' target='_blank'>http://www.dohoku-kinikyo.or.jp/publics/index/156/</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"なし","naisui":"","kazan":""}
 ,
@@ -992,7 +992,7 @@
 ,
 {"Name":"名寄市風連国民健康保険診療所","Jusho":"北海道名寄市風連町本町76番地1","kouzui":"<a href='tel:01655-3-2545'>01655-3-2545</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"名寄市立総合病院（名寄市西7条南丁目1番地）","naisui":"","kazan":""}
 ,
-{"Name":"医療法人社団あべクリニック","Jusho":"北海道名寄市西1条南7丁目6番地","kouzui":"<a href='tel:01654-9-7011'>01654-9-7011</a>","gake":"<a href='k-abe@wave.plala.or.jp' target='_blank'>k-abe@wave.plala.or.jp</a>","takashio":"×","jishin":"〇","tsunami":"心療内科精神科","kaji":"名寄市立総合病院（名寄市西7条南丁目1番地）","naisui":"","kazan":""}
+{"Name":"医療法人社団あべクリニック","Jusho":"北海道名寄市西1条南7丁目6番地","kouzui":"<a href='tel:01654-9-7011'>01654-9-7011</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"心療内科精神科","kaji":"名寄市立総合病院（名寄市西7条南丁目1番地）","naisui":"","kazan":""}
 ,
 {"Name":"市立三笠総合病院","Jusho":"北海道三笠市宮本町489番地1","kouzui":"<a href='tel:01267-2-3131'>01267-2-3131</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科小児科","kaji":"なし","naisui":"","kazan":""}
 ,
@@ -1082,9 +1082,9 @@
 ,
 {"Name":"余市クリニック","Jusho":"北海道余市郡余市町山田町201-5","kouzui":"<a href='tel:0135-21-4570'>0135-21-4570</a>","gake":"<a href='http://seijinkai-n.com/yoiti/clinic_yoiti' target='_blank'>http://seijinkai-n.com/yoiti/clinic_yoiti</a>","takashio":"×","jishin":"△","tsunami":"内科","kaji":"なし","naisui":"","kazan":""}
 ,
-{"Name":"医療法人社団田中内科医院","Jusho":"北海道余市郡余市町浜中町205-3","kouzui":"<a href='tel:0135-22-6125'>0135-22-6125</a>","gake":"<a href='www.hokkaido.med.or.jp/yoichi/tanakanaika.html' target='_blank'>www.hokkaido.med.or.jp/yoichi/tanakanaika.html</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"なし","naisui":"","kazan":""}
+{"Name":"医療法人社団田中内科医院","Jusho":"北海道余市郡余市町浜中町205-3","kouzui":"<a href='tel:0135-22-6125'>0135-22-6125</a>","gake":"<a href='http://www.hokkaido.med.or.jp/yoichi/tanakanaika.html' target='_blank'>http://www.hokkaido.med.or.jp/yoichi/tanakanaika.html</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"なし","naisui":"","kazan":""}
 ,
-{"Name":"脳神経外科よいち港南クリニック","Jusho":"北海道余市郡余市町大川町15丁目10番地","kouzui":"<a href='tel:0135-21-5566'>0135-21-5566</a>","gake":"<a href='www.yoichikounan.com' target='_blank'>www.yoichikounan.com</a>","takashio":"×","jishin":"〇","tsunami":"脳神経外科","kaji":"なし","naisui":"","kazan":""}
+{"Name":"脳神経外科よいち港南クリニック","Jusho":"北海道余市郡余市町大川町15丁目10番地","kouzui":"<a href='tel:0135-21-5566'>0135-21-5566</a>","gake":"<a href='http://www.yoichikounan.com' target='_blank'>http://www.yoichikounan.com</a>","takashio":"×","jishin":"〇","tsunami":"脳神経外科","kaji":"なし","naisui":"","kazan":""}
 ,
 {"Name":"国民健康保険町立南幌病院","Jusho":"北海道空知郡南幌町元町2丁目2番1号","kouzui":"<a href='tel:011-378-2111'>011-378-2111</a>","gake":"<a href='http://www.town.nanporo.hokkaido.jp/' target='_blank'>http://www.town.nanporo.hokkaido.jp/</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"なし","naisui":"","kazan":""}
 ,
@@ -1104,15 +1104,15 @@
 ,
 {"Name":"町立沼田厚生クリニック","Jusho":"北海道雨竜郡沼田町南1条1丁目8番25号","kouzui":"<a href='tel:0164-35-2321'>0164-35-2321</a>","gake":"<a href='http://www.dou-kouseiren.com/byouin/numta/' target='_blank'>http://www.dou-kouseiren.com/byouin/numta/</a>","takashio":"×","jishin":"〇","tsunami":"内科外科","kaji":"深川市立病院（北海道深川市6条6番1号）旭川厚生病院（北海道旭川市1条通24丁目111番地3）他","naisui":"","kazan":""}
 ,
-{"Name":"国民健康保険町立和寒病院","Jusho":"北海道上川郡和寒町字西町111番地","kouzui":"<a href='tel:0165-32-2103'>0165-32-2103</a>","gake":"<a href='byouin@town.wassamu.hokkaido.jp' target='_blank'>byouin@town.wassamu.hokkaido.jp</a>","takashio":"〇","jishin":"〇","tsunami":"内科小児科外科","kaji":"なし","naisui":"","kazan":""}
+{"Name":"国民健康保険町立和寒病院","Jusho":"北海道上川郡和寒町字西町111番地","kouzui":"<a href='tel:0165-32-2103'>0165-32-2103</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科小児科外科","kaji":"なし","naisui":"","kazan":""}
 ,
-{"Name":"町立下川病院","Jusho":"北海道上川郡下川町西町36番地","kouzui":"<a href='tel:01655-4-2039'>01655-4-2039</a>","gake":"<a href='s-hospital@town.shimokawa.hokkaido.jp' target='_blank'>s-hospital@town.shimokawa.hokkaido.jp</a>","takashio":"×","jishin":"〇","tsunami":"内科小児科外科","kaji":"なし","naisui":"","kazan":""}
+{"Name":"町立下川病院","Jusho":"北海道上川郡下川町西町36番地","kouzui":"<a href='tel:01655-4-2039'>01655-4-2039</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科小児科外科","kaji":"なし","naisui":"","kazan":""}
 ,
-{"Name":"枝幸町国民健康保険歌登診療所","Jusho":"北海道枝幸郡枝幸町歌登南町403番地","kouzui":"<a href='tel:0163-68-2341'>0163-68-2341</a>","gake":"<a href='なし' target='_blank'>なし</a>","takashio":"×","jishin":"〇","tsunami":"内科外科","kaji":"なし","naisui":"","kazan":""}
+{"Name":"枝幸町国民健康保険歌登診療所","Jusho":"北海道枝幸郡枝幸町歌登南町403番地","kouzui":"<a href='tel:0163-68-2341'>0163-68-2341</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科外科","kaji":"なし","naisui":"","kazan":""}
 ,
 {"Name":"豊富町国民健康保険診療所","Jusho":"北海道天塩郡豊富町東1条8丁目","kouzui":"<a href='tel:0162-82-1515'>0162-82-1515</a>","gake":"<a href='https://www.town.toyotomi.hokkaido.jp/section/toyotomi-hp/index.html' target='_blank'>https://www.town.toyotomi.hokkaido.jp/section/toyotomi-hp/index.html</a>","takashio":"〇","jishin":"〇","tsunami":"内科小児科外科","kaji":"市立稚内病院（北海道稚内市中央4丁目11番6号）","naisui":"","kazan":""}
 ,
-{"Name":"北海道立鬼脇診療所","Jusho":"北海道利尻郡利尻富士町鬼脇字金崎329番地","kouzui":"<a href='tel:0163-83-1341'>0163-83-1341</a>","gake":"<a href='なし' target='_blank'>なし</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"なし","naisui":"","kazan":""}
+{"Name":"北海道立鬼脇診療所","Jusho":"北海道利尻郡利尻富士町鬼脇字金崎329番地","kouzui":"<a href='tel:0163-83-1341'>0163-83-1341</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"なし","naisui":"","kazan":""}
 ,
 {"Name":"小清水赤十字病院","Jusho":"北海道斜里郡小清水町南町2丁目3番3号","kouzui":"<a href='tel:0152-62-2121'>0152-62-2121</a>","gake":"<a href='http://www.phoenix-c.or.jp/~krchp/' target='_blank'>http://www.phoenix-c.or.jp/~krchp/</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"なし","naisui":"","kazan":""}
 ,

@@ -26,7 +26,7 @@
 ,
 {"Name":"東新潟まやま眼科","Jusho":"新潟県新潟市東区中山7-11-11","kouzui":"<a href='tel:025-282-5586'>025-282-5586</a>","gake":"<a href='http://mayamaganka.jp/' target='_blank'>http://mayamaganka.jp/</a>","takashio":"〇","jishin":"〇","tsunami":"眼科","kaji":"新潟市民病院（新潟県新潟市中央区鐘木463番地7）","naisui":"","kazan":""}
 ,
-{"Name":"末広橋病院","Jusho":"新潟県新潟市東区臨港町2-25-1","kouzui":"<a href='tel:025-274-6311'>025-274-6311</a>","gake":"<a href='k-suehiro@nifty.com' target='_blank'>k-suehiro@nifty.com</a>","takashio":"×","jishin":"〇","tsunami":"精神科","kaji":"","naisui":"","kazan":""}
+{"Name":"末広橋病院","Jusho":"新潟県新潟市東区臨港町2-25-1","kouzui":"<a href='tel:025-274-6311'>025-274-6311</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"精神科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"小田医院","Jusho":"新潟県新潟市東区中野山6-1-17","kouzui":"<a href='tel:025-277-9191'>025-277-9191</a>","gake":"<a href='http://www.oda-clinic.jpn.com/' target='_blank'>http://www.oda-clinic.jpn.com/</a>","takashio":"×","jishin":"〇","tsunami":"内科循環器内科","kaji":"","naisui":"","kazan":""}
 ,
@@ -324,7 +324,7 @@
 ,
 {"Name":"山口医院","Jusho":"新潟県三条市東本成寺12番1号","kouzui":"<a href='tel:0256-46-8537'>0256-46-8537</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"済生会三条病院（新潟県三条市大野畑6-18）三条総合病院（新潟県三条市塚目5-1-6）","naisui":"","kazan":""}
 ,
-{"Name":"こころのケア三条クリニック","Jusho":"新潟県三条市鶴田2-1-10","kouzui":"<a href='tel:0256-46-0911'>0256-46-0911</a>","gake":"<a href='ｈｔｔｐｓ：//www.kokoro-sanjo.com/' target='_blank'>ｈｔｔｐｓ：//www.kokoro-sanjo.com/</a>","takashio":"〇","jishin":"〇","tsunami":"心療内科精神科","kaji":"","naisui":"","kazan":""}
+{"Name":"こころのケア三条クリニック","Jusho":"新潟県三条市鶴田2-1-10","kouzui":"<a href='tel:0256-46-0911'>0256-46-0911</a>","gake":"<a href='https://www.kokoro-sanjo.com/' target='_blank'>https://www.kokoro-sanjo.com/</a>","takashio":"〇","jishin":"〇","tsunami":"心療内科精神科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"坪井内科医院","Jusho":"新潟県三条市本町3-6-14","kouzui":"<a href='tel:0256-33-1241'>0256-33-1241</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
@@ -384,7 +384,7 @@
 ,
 {"Name":"医療法人社団齋藤医院","Jusho":"新潟県新発田市豊町2-2-23","kouzui":"<a href='tel:0254-24-1336'>0254-24-1336</a>","gake":"<a href='http://www.saitouiin-shibata.jp' target='_blank'>http://www.saitouiin-shibata.jp</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"新潟県立新発田病院(新潟県新発田市本町1-2-8)","naisui":"","kazan":""}
 ,
-{"Name":"すどう小児クリニック","Jusho":"新潟県新発田市豊町2-9-1","kouzui":"<a href='tel:0254-26-8881'>0254-26-8881</a>","gake":"<a href='予約サイトhttps://www2.i-helios-net.com/pc/hw2_pc_login.php?MID=9172&portal=bnavi' target='_blank'>予約サイトhttps://www2.i-helios-net.com/pc/hw2_pc_login.php?MID=9172&portal=bnavi</a>","takashio":"〇","jishin":"〇","tsunami":"小児科","kaji":"新発田病院(新発田市本町1-2-8）","naisui":"","kazan":""}
+{"Name":"すどう小児クリニック","Jusho":"新潟県新発田市豊町2-9-1","kouzui":"<a href='tel:0254-26-8881'>0254-26-8881</a>","gake":"<a href='https://www2.i-helios-net.com/pc/hw2_pc_login.php?MID=9172&portal=bnavi' target='_blank'>https://www2.i-helios-net.com/pc/hw2_pc_login.php?MID=9172&portal=bnavi</a>","takashio":"〇","jishin":"〇","tsunami":"小児科","kaji":"新発田病院(新発田市本町1-2-8）","naisui":"","kazan":""}
 ,
 {"Name":"新潟県立リウマチセンター","Jusho":"新潟県新発田市本町1-2-8","kouzui":"<a href='tel:0254-23-7751'>0254-23-7751</a>","gake":"<a href='https://www.ra-center.com/' target='_blank'>https://www.ra-center.com/</a>","takashio":"×","jishin":"〇","tsunami":"リウマチ科","kaji":"","naisui":"","kazan":""}
 ,
@@ -604,7 +604,7 @@
 ,
 {"Name":"阿賀町上川診療所","Jusho":"新潟県東蒲原郡阿賀町両郷甲2150番地","kouzui":"<a href='tel:0254-95-2280'>0254-95-2280</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"新潟県立津川病院","Jusho":"新潟県東蒲原郡阿賀町津川200","kouzui":"<a href='tel:0254-92-3311'>0254-92-3311</a>","gake":"<a href='tsugawa-hospital.sakura.ne.jp' target='_blank'>tsugawa-hospital.sakura.ne.jp</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
+{"Name":"新潟県立津川病院","Jusho":"新潟県東蒲原郡阿賀町津川200","kouzui":"<a href='tel:0254-92-3311'>0254-92-3311</a>","gake":"<a href='http://tsugawa-hospital.sakura.ne.jp' target='_blank'>http://tsugawa-hospital.sakura.ne.jp</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"佐藤医院","Jusho":"新潟県三島郡出雲崎町大字川面28-8","kouzui":"<a href='tel:0258-78-2153'>0258-78-2153</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科小児科","kaji":"","naisui":"","kazan":""}
 ,

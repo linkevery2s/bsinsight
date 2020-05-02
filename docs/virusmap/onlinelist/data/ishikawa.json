@@ -48,7 +48,7 @@
 ,
 {"Name":"みなとクリニック","Jusho":"石川県小松市幸町3-92","kouzui":"<a href='tel:0761-20-3710'>0761-20-3710</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科小児科","kaji":"小松市民病院（石川県小松市向本折町ホ60）","naisui":"","kazan":""}
 ,
-{"Name":"国民健康保険小松市民病院粟津診療所","Jusho":"石川県小松市島町カ20番地","kouzui":"<a href='tel:0761-44-2540'>0761-44-2540</a>","gake":"<a href='無' target='_blank'>無</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"国民健康保険小松市民病院","naisui":"","kazan":""}
+{"Name":"国民健康保険小松市民病院粟津診療所","Jusho":"石川県小松市島町カ20番地","kouzui":"<a href='tel:0761-44-2540'>0761-44-2540</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"国民健康保険小松市民病院","naisui":"","kazan":""}
 ,
 {"Name":"森田病院","Jusho":"石川県小松市園町ホ99番地1","kouzui":"<a href='tel:0761-21-1555'>0761-21-1555</a>","gake":"<a href='http://morita-hospital.jp' target='_blank'>http://morita-hospital.jp</a>","takashio":"〇","jishin":"〇","tsunami":"整形外科内科外科","kaji":"","naisui":"","kazan":""}
 ,
@@ -86,7 +86,7 @@
 ,
 {"Name":"藤田医院","Jusho":"石川県羽咋市大町イ部8番地3","kouzui":"<a href='tel:0767-26-1021'>0767-26-1021</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"公立能登総合病院（石川県七尾市藤橋町ア部6番地4）恵寿総合病院（石川県七尾市富岡町94番地）","naisui":"","kazan":""}
 ,
-{"Name":"前田歯科医院","Jusho":"石川県羽咋市柳田町73-37-4","kouzui":"<a href='tel:0767-22-9123'>0767-22-9123</a>","gake":"<a href='なし' target='_blank'>なし</a>","takashio":"〇","jishin":"〇","tsunami":"歯科","kaji":"なし","naisui":"","kazan":""}
+{"Name":"前田歯科医院","Jusho":"石川県羽咋市柳田町73-37-4","kouzui":"<a href='tel:0767-22-9123'>0767-22-9123</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"歯科","kaji":"なし","naisui":"","kazan":""}
 ,
 {"Name":"羽咋診療所","Jusho":"石川県羽咋市柳橋町堂田53-1","kouzui":"<a href='tel:0767-22-5652'>0767-22-5652</a>","gake":"<a href='http://ishikawa-kinikyo.jp/hakui/' target='_blank'>http://ishikawa-kinikyo.jp/hakui/</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"公立羽咋病院城北病院","naisui":"","kazan":""}
 ,
@@ -100,13 +100,13 @@
 ,
 {"Name":"宇野気医院","Jusho":"石川県かほく市宇野気チ33-16","kouzui":"<a href='tel:076-283-0103'>076-283-0103</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"小児科","kaji":"金沢医科大学病院(石川県河北郡内灘町)河北中央病院(石川県河北郡津幡町)","naisui":"","kazan":""}
 ,
-{"Name":"保志場医院","Jusho":"石川県かほく市高松ノ90甲2","kouzui":"<a href='tel:076-281-0069'>076-281-0069</a>","gake":"<a href='無し（電話のみ）' target='_blank'>無し（電話のみ）</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
+{"Name":"保志場医院","Jusho":"石川県かほく市高松ノ90甲2","kouzui":"<a href='tel:076-281-0069'>076-281-0069</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"寺内歯科医院","Jusho":"石川県かほく市宇野気リ22-1","kouzui":"<a href='tel:076-283-0606'>076-283-0606</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"歯科","kaji":"金沢医科大学病院（石川県金沢市宝町13-1）","naisui":"","kazan":""}
 ,
 {"Name":"たに歯科クリニック","Jusho":"石川県白山市相木2-9-8","kouzui":"<a href='tel:076-274-1182'>076-274-1182</a>","gake":"<a href='http://www.tanidental.com/' target='_blank'>http://www.tanidental.com/</a>","takashio":"〇","jishin":"〇","tsunami":"歯科","kaji":"ながしまクリニック（石川県白山市北安田町972-1）","naisui":"","kazan":""}
 ,
-{"Name":"医療法人社団長尾医院","Jusho":"石川県白山市美川永代町ソ248","kouzui":"<a href='tel:076-278-2156'>076-278-2156</a>","gake":"<a href='なし' target='_blank'>なし</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"KKR北陸病院（石川県金沢市泉が丘2丁目13番43号）公立松任石川中央病院（石川県白山市倉光3丁目8番地）石川県済生会金沢病院（石川県金沢市赤土町ニ13?6）","naisui":"","kazan":""}
+{"Name":"医療法人社団長尾医院","Jusho":"石川県白山市美川永代町ソ248","kouzui":"<a href='tel:076-278-2156'>076-278-2156</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"KKR北陸病院（石川県金沢市泉が丘2丁目13番43号）公立松任石川中央病院（石川県白山市倉光3丁目8番地）石川県済生会金沢病院（石川県金沢市赤土町ニ13?6）","naisui":"","kazan":""}
 ,
 {"Name":"公立つるぎ病院","Jusho":"石川県白山市鶴来水戸町ノ1番地","kouzui":"<a href='tel:076-272-1250'>076-272-1250</a>","gake":"<a href='http://www.tsurugihp.jp/' target='_blank'>http://www.tsurugihp.jp/</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"白峰診療所","naisui":"","kazan":""}
 ,
@@ -150,7 +150,7 @@
 ,
 {"Name":"北村内科医院","Jusho":"石川県白山市倉光7丁目41","kouzui":"<a href='tel:076-274-3800'>076-274-3800</a>","gake":"<a href='http://www012.upp.so-net.ne.jp/k-naika/' target='_blank'>http://www012.upp.so-net.ne.jp/k-naika/</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"公立松任石川中央病院（石川県白山市倉光3丁目8番地）","naisui":"","kazan":""}
 ,
-{"Name":"かわい小児科医院","Jusho":"石川県白山市安田町5番地","kouzui":"<a href='tel:076-275-0177'>076-275-0177</a>","gake":"<a href='kawai@imcc.med.com' target='_blank'>kawai@imcc.med.com</a>","takashio":"×","jishin":"〇","tsunami":"小児科内科","kaji":"","naisui":"","kazan":""}
+{"Name":"かわい小児科医院","Jusho":"石川県白山市安田町5番地","kouzui":"<a href='tel:076-275-0177'>076-275-0177</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"小児科内科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"新くりにっく","Jusho":"石川県白山市宮保新町130番地1","kouzui":"<a href='tel:076-276-8001'>076-276-8001</a>","gake":"<a href='http://www.shinclinic.net' target='_blank'>http://www.shinclinic.net</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"松任石川中央病院（石川県白山市倉光3丁目8）","naisui":"","kazan":""}
 ,
@@ -180,7 +180,7 @@
 ,
 {"Name":"ほりかわクリニック","Jusho":"石川県野々市市御経塚2‐270","kouzui":"<a href='tel:076-240-0600'>076-240-0600</a>","gake":"<a href='http://www2.spacelan.ne.jp/~horikawacl/' target='_blank'>http://www2.spacelan.ne.jp/~horikawacl/</a>","takashio":"×","jishin":"〇","tsunami":"耳鼻咽喉科眼科","kaji":"石川県立中央病院（石川県金沢市鞍月2-1）公立松任石川中央病院（石川県白山市倉光3-8）","naisui":"","kazan":""}
 ,
-{"Name":"舩木医院","Jusho":"石川県野々市市太平寺4丁目71番地","kouzui":"<a href='tel:076-248-6686'>076-248-6686</a>","gake":"<a href='なし' target='_blank'>なし</a>","takashio":"×","jishin":"〇","tsunami":"内科外科","kaji":"","naisui":"","kazan":""}
+{"Name":"舩木医院","Jusho":"石川県野々市市太平寺4丁目71番地","kouzui":"<a href='tel:076-248-6686'>076-248-6686</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科外科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"吉光内科医院","Jusho":"石川県野々市市田尻町2","kouzui":"<a href='tel:076-248-7788'>076-248-7788</a>","gake":"<a href='https://yoshimitsu-naika.com/' target='_blank'>https://yoshimitsu-naika.com/</a>","takashio":"〇","jishin":"〇","tsunami":"内科消化器内科糖尿病内科内分泌内科","kaji":"","naisui":"","kazan":""}
 ,
@@ -226,7 +226,7 @@
 ,
 {"Name":"秋山クリニック","Jusho":"石川県河北郡内灘町ハマナス1-8-1","kouzui":"<a href='tel:076-286-8843'>076-286-8843</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"胃腸科内科肛門科","kaji":"秋山クリニック（石川県河北郡内灘町ハマナス1-8-1）","naisui":"","kazan":""}
 ,
-{"Name":"医療法人平成会向クリニック","Jusho":"石川県羽咋郡志賀町富来領家町ハの30","kouzui":"<a href='tel:0767-42-1151'>0767-42-1151</a>","gake":"<a href='ｈｔｔｐs://mukai.clinic' target='_blank'>ｈｔｔｐs://mukai.clinic</a>","takashio":"〇","jishin":"〇","tsunami":"内科小児科","kaji":"町立富来病院（志賀町富来地頭町7-110-1）公立能登総合病院（七尾市藤橋町ア部6番地4）","naisui":"","kazan":""}
+{"Name":"医療法人平成会向クリニック","Jusho":"石川県羽咋郡志賀町富来領家町ハの30","kouzui":"<a href='tel:0767-42-1151'>0767-42-1151</a>","gake":"<a href='https://mukai.clinic' target='_blank'>https://mukai.clinic</a>","takashio":"〇","jishin":"〇","tsunami":"内科小児科","kaji":"町立富来病院（志賀町富来地頭町7-110-1）公立能登総合病院（七尾市藤橋町ア部6番地4）","naisui":"","kazan":""}
 ,
 {"Name":"河崎医院","Jusho":"石川県羽咋郡志賀町高浜町トー1","kouzui":"<a href='tel:767320019'>767320019</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,

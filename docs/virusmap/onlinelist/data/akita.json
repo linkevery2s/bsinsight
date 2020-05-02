@@ -46,7 +46,7 @@
 ,
 {"Name":"さくら小児科医院","Jusho":"秋田県秋田市桜一丁目1?11","kouzui":"<a href='tel:018-825-5560'>018-825-5560</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"小児科アレルギー科","kaji":"秋田赤十字病院（秋田市上北手猿田字苗代沢222-1）市立秋田総合病院（秋田県秋田市川元松丘町4?30）中通総合病院（秋田県秋田市南通みその町3番15号）秋田厚生医療センター（秋田県秋田市飯島西袋1丁目1?1）","naisui":"","kazan":""}
 ,
-{"Name":"鹿嶋医院","Jusho":"秋田市土崎港東四丁目4-70","kouzui":"<a href='tel:018-880-1221'>018-880-1221</a>","gake":"<a href='www.kashima-clinic.or.jp/' target='_blank'>www.kashima-clinic.or.jp/</a>","takashio":"〇","jishin":"〇","tsunami":"内科・外科消化器内科","kaji":"秋田厚生医療センター","naisui":"","kazan":""}
+{"Name":"鹿嶋医院","Jusho":"秋田市土崎港東四丁目4-70","kouzui":"<a href='tel:018-880-1221'>018-880-1221</a>","gake":"<a href='http://www.kashima-clinic.or.jp/' target='_blank'>http://www.kashima-clinic.or.jp/</a>","takashio":"〇","jishin":"〇","tsunami":"内科・外科消化器内科","kaji":"秋田厚生医療センター","naisui":"","kazan":""}
 ,
 {"Name":"あきた腎・膠原病・リウマチクリニック","Jusho":"秋田県秋田市中通2-8-1フォンテ秋田7F","kouzui":"<a href='tel:018-834-0151'>018-834-0151</a>","gake":"<a href='https://www.akita.clinic' target='_blank'>https://www.akita.clinic</a>","takashio":"×","jishin":"〇","tsunami":"内科リウマチ科腎臓内科","kaji":"秋田大学医学部附属病院（秋田県秋田市広面字蓮沼44-2）中通総合病院（秋田県秋田市南通みその町3-15）","naisui":"","kazan":""}
 ,
@@ -66,7 +66,7 @@
 ,
 {"Name":"医療法人小川内科医院","Jusho":"秋田県秋田市中通3丁目3-55","kouzui":"<a href='tel:018-832-4013'>018-832-4013</a>","gake":"<a href='http://www.sakon.or.jp/' target='_blank'>http://www.sakon.or.jp/</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"七海医院（秋田市泉南2-9-20）市立秋田総合病院（秋田市川元松丘町4-30）","naisui":"","kazan":""}
 ,
-{"Name":"あきた乳腺クリニック","Jusho":"秋田県秋田市広面蓮沼23-2","kouzui":"<a href='tel:018-834-0602'>018-834-0602</a>","gake":"<a href='akita-nyusen@ric.hi-ho.ne.jp' target='_blank'>akita-nyusen@ric.hi-ho.ne.jp</a>","takashio":"×","jishin":"〇","tsunami":"乳腺外科","kaji":"秋田大学医学部附属病院秋田赤十字病院","naisui":"","kazan":""}
+{"Name":"あきた乳腺クリニック","Jusho":"秋田県秋田市広面蓮沼23-2","kouzui":"<a href='tel:018-834-0602'>018-834-0602</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"乳腺外科","kaji":"秋田大学医学部附属病院秋田赤十字病院","naisui":"","kazan":""}
 ,
 {"Name":"鎌田循環器科内科クリニック","Jusho":"秋田市広面字蓮沼87-1","kouzui":"<a href='tel:018-834-2121'>018-834-2121</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科循環器科呼吸器科","kaji":"中通総合病院（秋田市南通みその町3-15）秋田大学附属病院（秋田市広面字蓮沼44-2）秋田赤十字病院（秋田市上北手猿田字苗代沢222-1）県立循環器・脳脊椎センター（秋田市千秋久保田町6-1）秋田厚生医療センター（秋田市飯島西袋1-1-1）","naisui":"","kazan":""}
 ,
@@ -76,7 +76,7 @@
 ,
 {"Name":"いちかわ内科クリニック","Jusho":"秋田県秋田市大住三丁目3-48","kouzui":"<a href='tel:018-853-1888'>018-853-1888</a>","gake":"<a href='https://ichikawa-medical.jp' target='_blank'>https://ichikawa-medical.jp</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"市立秋田総合病院（秋田県秋田市川元松丘町4-30）中通総合病院（秋田県秋田市南通みその町3-15）秋田赤十字病院（秋田県秋田市上北手猿田字苗代沢222番地1）","naisui":"","kazan":""}
 ,
-{"Name":"飯島透析クリニック","Jusho":"秋田県秋田市飯島字薬師田360番地","kouzui":"<a href='tel:018-880-5544'>018-880-5544</a>","gake":"<a href='info@iijima-dialysis-clinic.jp' target='_blank'>info@iijima-dialysis-clinic.jp</a>","takashio":"〇","jishin":"〇","tsunami":"泌尿器科、内科","kaji":"秋田厚生医療センター（〒011-0948秋田県秋田市飯島西袋1-1-1）","naisui":"","kazan":""}
+{"Name":"飯島透析クリニック","Jusho":"秋田県秋田市飯島字薬師田360番地","kouzui":"<a href='tel:018-880-5544'>018-880-5544</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"泌尿器科、内科","kaji":"秋田厚生医療センター（〒011-0948秋田県秋田市飯島西袋1-1-1）","naisui":"","kazan":""}
 ,
 {"Name":"えのきこどもクリニック","Jusho":"秋田県秋田市八橋田五郎2丁目13-18","kouzui":"<a href='tel:018-866-0505'>018-866-0505</a>","gake":"<a href='http://www.enokiclinic.net/#tourhttp://www.enokiclinic.net/' target='_blank'>http://www.enokiclinic.net/#tourhttp://www.enokiclinic.net/</a>","takashio":"〇","jishin":"〇","tsunami":"小児科","kaji":"市立秋田総合病院(秋田市）秋田厚生医療センター(秋田市）","naisui":"","kazan":""}
 ,
@@ -96,7 +96,7 @@
 ,
 {"Name":"淡路医院","Jusho":"秋田県能代市大手町7-4","kouzui":"<a href='tel:0185-52-5015'>0185-52-5015</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科循呼胃腸科","kaji":"能代山本医師会病院（能代市桧山字新田沢105-11）","naisui":"","kazan":""}
 ,
-{"Name":"医療法人京回生会わたなべ整形外科","Jusho":"秋田県能代市落合字上悪土207","kouzui":"<a href='tel:0185-52-8881'>0185-52-8881</a>","gake":"<a href='care-net-noshiro@shirakami.or.jp' target='_blank'>care-net-noshiro@shirakami.or.jp</a>","takashio":"〇","jishin":"〇","tsunami":"整形外科リウマチ科リハビリテーション科","kaji":"","naisui":"","kazan":""}
+{"Name":"医療法人京回生会わたなべ整形外科","Jusho":"秋田県能代市落合字上悪土207","kouzui":"<a href='tel:0185-52-8881'>0185-52-8881</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"整形外科リウマチ科リハビリテーション科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"金田医院","Jusho":"能代市二ツ井町比井野94","kouzui":"<a href='tel:0185-73-2511'>0185-73-2511</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"外科内科小児科","kaji":"能代山本医師会病院、能代厚生医療センター","naisui":"","kazan":""}
 ,

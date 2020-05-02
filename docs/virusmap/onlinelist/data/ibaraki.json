@@ -1,5 +1,5 @@
 ﻿[
-{"Name":"総合病院水戸協同病院","Jusho":"茨城県水戸市宮町3丁目2番7号","kouzui":"<a href='tel:029-231-2371'>029-231-2371</a>","gake":"<a href='mito@mitokyodo-hp.jp' target='_blank'>mito@mitokyodo-hp.jp</a>","takashio":"×","jishin":"〇","tsunami":"内科眼科整形外科皮膚科耳鼻咽喉科脳神経外科泌尿器科","kaji":"","naisui":"","kazan":""},
+{"Name":"総合病院水戸協同病院","Jusho":"茨城県水戸市宮町3丁目2番7号","kouzui":"<a href='tel:029-231-2371'>029-231-2371</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科眼科整形外科皮膚科耳鼻咽喉科脳神経外科泌尿器科","kaji":"","naisui":"","kazan":""},
 {"Name":"（医）大橋会大橋病院","Jusho":"茨城県水戸市見川町2131-1560","kouzui":"<a href='tel:029-240-3300'>029-240-3300</a>","gake":"<a href='http:///www.ohhashikai.or.jp' target='_blank'>http:///www.ohhashikai.or.jp</a>","takashio":"〇","jishin":"〇","tsunami":"眼科胃腸科肛門科内科","kaji":"（医）大橋会大橋病院","naisui":"","kazan":""}
 ,
 {"Name":"住吉クリニック病院","Jusho":"茨城県水戸市住吉町193-97","kouzui":"<a href='tel:029-247-2251'>029-247-2251</a>","gake":"<a href='https://www.sumiyoshi-clinic.or.jp/' target='_blank'>https://www.sumiyoshi-clinic.or.jp/</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
@@ -76,7 +76,7 @@
 ,
 {"Name":"佐藤医院","Jusho":"茨城県日立市神峰町1-10-20","kouzui":"<a href='tel:0294-21-2330'>0294-21-2330</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"医療法人財団県南病院","Jusho":"茨城県土浦市中1087","kouzui":"<a href='tel:028-841-1148'>028-841-1148</a>","gake":"<a href='ijika@kennan-hospital.com' target='_blank'>ijika@kennan-hospital.com</a>","takashio":"×","jishin":"〇","tsunami":"全診療科","kaji":"","naisui":"","kazan":""}
+{"Name":"医療法人財団県南病院","Jusho":"茨城県土浦市中1087","kouzui":"<a href='tel:028-841-1148'>028-841-1148</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"全診療科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"土浦厚生病院","Jusho":"茨城県土浦市東若松町3969","kouzui":"<a href='tel:029-821-2200'>029-821-2200</a>","gake":"<a href='http://kasuikai.or.jp/' target='_blank'>http://kasuikai.or.jp/</a>","takashio":"×","jishin":"〇","tsunami":"精神科","kaji":"-","naisui":"","kazan":""}
 ,
@@ -182,11 +182,11 @@
 ,
 {"Name":"とき田クリニック","Jusho":"茨城県下妻市長塚28-1","kouzui":"<a href='tel:0296-44-3232'>0296-44-3232</a>","gake":"<a href='http://www…konanhsp.com' target='_blank'>http://www…konanhsp.com</a>","takashio":"×","jishin":"〇","tsunami":"全診療科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"水海道西部病院","Jusho":"茨城県常総市豊岡町丙685","kouzui":"<a href='tel:0297-24-1211'>0297-24-1211</a>","gake":"<a href='なし' target='_blank'>なし</a>","takashio":"〇","jishin":"〇","tsunami":"内科外科整形外科皮膚科脳神経外科呼吸器内科循環器内科","kaji":"きぬ医師会病院（茨城県常総市新井木町13-3）水海道さくら病院（茨城県常総市水海道森下町4447）","naisui":"","kazan":""}
+{"Name":"水海道西部病院","Jusho":"茨城県常総市豊岡町丙685","kouzui":"<a href='tel:0297-24-1211'>0297-24-1211</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科外科整形外科皮膚科脳神経外科呼吸器内科循環器内科","kaji":"きぬ医師会病院（茨城県常総市新井木町13-3）水海道さくら病院（茨城県常総市水海道森下町4447）","naisui":"","kazan":""}
 ,
 {"Name":"植竹医院","Jusho":"茨城県常総市水海道宝町2841","kouzui":"<a href='tel:0297-23-1135'>0297-23-1135</a>","gake":"<a href='http://www.uetakeiin.com/' target='_blank'>http://www.uetakeiin.com/</a>","takashio":"〇","jishin":"〇","tsunami":"循環器内科消化器内科婦人科小児科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"のぞみが丘診療所","Jusho":"茨城県常総市大生郷3142","kouzui":"<a href='tel:0297-24-0662'>0297-24-0662</a>","gake":"<a href='motoki@vesta.ocn.jp' target='_blank'>motoki@vesta.ocn.jp</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"きぬ医師会病院","naisui":"","kazan":""}
+{"Name":"のぞみが丘診療所","Jusho":"茨城県常総市大生郷3142","kouzui":"<a href='tel:0297-24-0662'>0297-24-0662</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"きぬ医師会病院","naisui":"","kazan":""}
 ,
 {"Name":"医）一路会太田病院","Jusho":"茨城県常陸太田市中城町173番地","kouzui":"<a href='tel:0294-72-1258'>0294-72-1258</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科・呼吸器内科・消化器内科小児科","kaji":"","naisui":"","kazan":""}
 ,
@@ -318,7 +318,7 @@
 ,
 {"Name":"医療法人社団愛友会勝田病院","Jusho":"茨城県ひたちなか市中根5125-2","kouzui":"<a href='tel:029-272-5184'>029-272-5184</a>","gake":"<a href='https://katsuta-aiyukai.jp/' target='_blank'>https://katsuta-aiyukai.jp/</a>","takashio":"×","jishin":"〇","tsunami":"内科、外科、整形外科","kaji":"勝田病院","naisui":"","kazan":""}
 ,
-{"Name":"ひたちなか母と子の病院","Jusho":"茨城県ひたちなか市青葉町19-7","kouzui":"<a href='tel:029-273-2888'>029-273-2888</a>","gake":"<a href='info@hahatoko.com' target='_blank'>info@hahatoko.com</a>","takashio":"×","jishin":"〇","tsunami":"産婦人科","kaji":"×","naisui":"","kazan":""}
+{"Name":"ひたちなか母と子の病院","Jusho":"茨城県ひたちなか市青葉町19-7","kouzui":"<a href='tel:029-273-2888'>029-273-2888</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"産婦人科","kaji":"×","naisui":"","kazan":""}
 ,
 {"Name":"沼田内科クリニック","Jusho":"茨城県ひたちなか市津田2829-5","kouzui":"<a href='tel:029-276-1515'>029-276-1515</a>","gake":"<a href='http://www.numatanaika.com' target='_blank'>http://www.numatanaika.com</a>","takashio":"×","jishin":"〇","tsunami":"内科呼吸器内科消化器内科循環器内科小児科","kaji":"対面診療が必要と考えた場合、まずは自院で対面診療します。その後、必要に応じ高度医療機関に紹介します。","naisui":"","kazan":""}
 ,
@@ -358,11 +358,11 @@
 ,
 {"Name":"住吉クリニック病院付属大宮診療所","Jusho":"茨城県常陸大宮市姥賀町559-5","kouzui":"<a href='tel:0295-53-7733'>0295-53-7733</a>","gake":"<a href='https://www.sumiyoshi-clinic.or.jp/omiya/' target='_blank'>https://www.sumiyoshi-clinic.or.jp/omiya/</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"社会福祉法人恩賜財団済生会支部茨城県済生会水戸済生会総合病院（〒311-4198茨城県水戸市双葉台3丁目3番10号）筑波大学附属病院水戸地域医療教育センターJA茨城厚生連総合病院水戸協同病院（〒310-0015茨城県水戸市宮町3-2-7）,日本赤十字社水戸赤十字病院（〒310-0011水戸市三の丸3丁目12番48号）","naisui":"","kazan":""}
 ,
-{"Name":"医療法人社団有朋会栗田病院","Jusho":"茨城県那珂市豊喰505","kouzui":"<a href='tel:029-298-0175'>029-298-0175</a>","gake":"<a href='yuhokai@yuhokai-kuritah.com' target='_blank'>yuhokai@yuhokai-kuritah.com</a>","takashio":"×","jishin":"〇","tsunami":"精神科","kaji":"","naisui":"","kazan":""}
+{"Name":"医療法人社団有朋会栗田病院","Jusho":"茨城県那珂市豊喰505","kouzui":"<a href='tel:029-298-0175'>029-298-0175</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"精神科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"小豆畑病院","Jusho":"茨城県那珂市菅谷605","kouzui":"<a href='tel:029-295-2611'>029-295-2611</a>","gake":"<a href='http://www.azuhata-hosp.com/' target='_blank'>http://www.azuhata-hosp.com/</a>","takashio":"×","jishin":"〇","tsunami":"内科・外科","kaji":"水戸協同病院（茨城県水戸市宮町3-2-7）水戸赤十字病院（水戸市三の丸3丁目12番48号）水戸ブレインハートセンター（茨城県水戸市青柳町4028）","naisui":"","kazan":""}
 ,
-{"Name":"西山堂慶和病院","Jusho":"茨城県那珂市鴻巣3247-1","kouzui":"<a href='tel:029-295-5121'>029-295-5121</a>","gake":"<a href='keiwa@teishinkai.or.jp' target='_blank'>keiwa@teishinkai.or.jp</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"西山堂病院（茨城県常陸太田市木崎二町931-2）ひたちの中央クリニック（茨城県常陸太田市木崎二町931-6）","naisui":"","kazan":""}
+{"Name":"西山堂慶和病院","Jusho":"茨城県那珂市鴻巣3247-1","kouzui":"<a href='tel:029-295-5121'>029-295-5121</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"西山堂病院（茨城県常陸太田市木崎二町931-2）ひたちの中央クリニック（茨城県常陸太田市木崎二町931-6）","naisui":"","kazan":""}
 ,
 {"Name":"たに内科クリニック","Jusho":"茨城県那珂市古徳397-1","kouzui":"<a href='tel:029-229-07201'>029-229-07201</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
@@ -372,7 +372,7 @@
 ,
 {"Name":"地方独立行政法人茨城県西部医療機構茨城県西部メディカルセンター","Jusho":"茨城県筑西市大塚555番地","kouzui":"<a href='tel:0296-24-9111'>0296-24-9111</a>","gake":"<a href='https://www.iwmo.or.jp/' target='_blank'>https://www.iwmo.or.jp/</a>","takashio":"×","jishin":"〇","tsunami":"内科他","kaji":"自治医科大学附属病院(栃木県下野市薬師寺3311-1）他75医療機関","naisui":"","kazan":""}
 ,
-{"Name":"あけの元気館前クリニック","Jusho":"茨城県筑西市松原1564-5","kouzui":"<a href='tel:0296-52-6333'>0296-52-6333</a>","gake":"<a href='なし' target='_blank'>なし</a>","takashio":"〇","jishin":"〇","tsunami":"内科、外科、小児科","kaji":"","naisui":"","kazan":""}
+{"Name":"あけの元気館前クリニック","Jusho":"茨城県筑西市松原1564-5","kouzui":"<a href='tel:0296-52-6333'>0296-52-6333</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科、外科、小児科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"医療法人社団新井内科医院","Jusho":"茨城県筑西市甲146","kouzui":"<a href='tel:0296-22-2618'>0296-22-2618</a>","gake":"<a href='https://www.arai-medicalclinic.com/' target='_blank'>https://www.arai-medicalclinic.com/</a>","takashio":"〇","jishin":"〇","tsunami":"内科、小児科","kaji":"1：当院外来2：茨城県西部メディカルセンター（茨城県筑西市大塚555）3：協和中央病院（茨城県筑西市門井1676-1）","naisui":"","kazan":""}
 ,
@@ -382,7 +382,7 @@
 ,
 {"Name":"のぎ小児科","Jusho":"茨城県筑西市玉戸1270-1075","kouzui":"<a href='tel:0296-28-8611'>0296-28-8611</a>","gake":"<a href='http://nogi-shounika.com/' target='_blank'>http://nogi-shounika.com/</a>","takashio":"×","jishin":"〇","tsunami":"小児科・内科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"横瀬医院","Jusho":"茨城県筑西市海老ヶ島962-2","kouzui":"<a href='tel:0296-52-0027'>0296-52-0027</a>","gake":"<a href='ありません' target='_blank'>ありません</a>","takashio":"〇","jishin":"〇","tsunami":"内科婦人科","kaji":"","naisui":"","kazan":""}
+{"Name":"横瀬医院","Jusho":"茨城県筑西市海老ヶ島962-2","kouzui":"<a href='tel:0296-52-0027'>0296-52-0027</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科婦人科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"大圃クリニック","Jusho":"茨城県筑西市丙153-4","kouzui":"<a href='tel:0296-21-0123'>0296-21-0123</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"胃腸科、外科","kaji":"協和中央病院（茨城県筑西市門井1676-1)茨城県西部メディカルセンター（茨城県筑西市大塚555）","naisui":"","kazan":""}
 ,

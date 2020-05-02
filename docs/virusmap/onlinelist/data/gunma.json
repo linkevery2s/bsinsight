@@ -1,6 +1,6 @@
 ﻿[
 {"Name":"前橋北病院","Jusho":"群馬県前橋市下細井町692","kouzui":"<a href='tel:027-235-3333'>027-235-3333</a>","gake":"<a href='http://maebashinorte-hospital.jp/index.html' target='_blank'>http://maebashinorte-hospital.jp/index.html</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"-","naisui":"","kazan":""},
-{"Name":"やました内科医院","Jusho":"群馬県前橋市亀泉町606-2","kouzui":"<a href='tel:027-212-0148'>027-212-0148</a>","gake":"<a href='www.yamashita-naika.jp' target='_blank'>www.yamashita-naika.jp</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"前橋赤十字病院（群馬県前橋市朝倉町389?1）","naisui":"","kazan":""}
+{"Name":"やました内科医院","Jusho":"群馬県前橋市亀泉町606-2","kouzui":"<a href='tel:027-212-0148'>027-212-0148</a>","gake":"<a href='http://www.yamashita-naika.jp' target='_blank'>http://www.yamashita-naika.jp</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"前橋赤十字病院（群馬県前橋市朝倉町389?1）","naisui":"","kazan":""}
 ,
 {"Name":"瀬下こどもクリニック","Jusho":"群馬県前橋市元総社町2265番地","kouzui":"<a href='tel:027-255-3350'>027-255-3350</a>","gake":"<a href='http://scc1994.web.fc2.com/' target='_blank'>http://scc1994.web.fc2.com/</a>","takashio":"〇","jishin":"〇","tsunami":"内科小児科","kaji":"群馬中央病院（群馬県前橋市紅雲町一丁目7番13号）","naisui":"","kazan":""}
 ,
@@ -10,7 +10,7 @@
 ,
 {"Name":"フォレスト整形外科スポーツクリニック","Jusho":"群馬県前橋市古市町180-1フォレストモール新前橋内","kouzui":"<a href='tel:027-212-0888'>027-212-0888</a>","gake":"<a href='http://www.forespo.com/' target='_blank'>http://www.forespo.com/</a>","takashio":"×","jishin":"〇","tsunami":"整形外科","kaji":"群馬中央病院（群馬県前橋市紅雲町1-7-13）","naisui":"","kazan":""}
 ,
-{"Name":"須田こどもクリニック","Jusho":"群馬県前橋市後閑町406-2","kouzui":"<a href='tel:027-265-6777'>027-265-6777</a>","gake":"<a href='sudakodomo@taupe.plala.or.jp' target='_blank'>sudakodomo@taupe.plala.or.jp</a>","takashio":"〇","jishin":"〇","tsunami":"小児科、内科","kaji":"-","naisui":"","kazan":""}
+{"Name":"須田こどもクリニック","Jusho":"群馬県前橋市後閑町406-2","kouzui":"<a href='tel:027-265-6777'>027-265-6777</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"小児科、内科","kaji":"-","naisui":"","kazan":""}
 ,
 {"Name":"はしづめ診療所","Jusho":"群馬県前橋市公田町515-1","kouzui":"<a href='tel:027-226-1806'>027-226-1806</a>","gake":"<a href='http://hashizumeclinic2015.g2.xrea.com/access1.html' target='_blank'>http://hashizumeclinic2015.g2.xrea.com/access1.html</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"-","naisui":"","kazan":""}
 ,
@@ -166,7 +166,7 @@
 ,
 {"Name":"リーフこどもアレルギークリニック","Jusho":"群馬県高崎市金古町53-1","kouzui":"<a href='tel:027-388-8111'>027-388-8111</a>","gake":"<a href='http:/wwwleaf-kodomo.com' target='_blank'>http:/wwwleaf-kodomo.com</a>","takashio":"×","jishin":"〇","tsunami":"小児科","kaji":"-","naisui":"","kazan":""}
 ,
-{"Name":"矢崎医院","Jusho":"群馬県高崎市剣崎町1049","kouzui":"<a href='tel:027-344-3511'>027-344-3511</a>","gake":"<a href='yazakikai@mail.gunma.med.or.jp' target='_blank'>yazakikai@mail.gunma.med.or.jp</a>","takashio":"×","jishin":"〇","tsunami":"産婦人科","kaji":"-","naisui":"","kazan":""}
+{"Name":"矢崎医院","Jusho":"群馬県高崎市剣崎町1049","kouzui":"<a href='tel:027-344-3511'>027-344-3511</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"産婦人科","kaji":"-","naisui":"","kazan":""}
 ,
 {"Name":"ひうら医院","Jusho":"群馬県高崎市剣崎町1155-1","kouzui":"<a href='tel:027-344-1175'>027-344-1175</a>","gake":"<a href='https://www.hiura-cl.jp' target='_blank'>https://www.hiura-cl.jp</a>","takashio":"×","jishin":"〇","tsunami":"小児科","kaji":"-","naisui":"","kazan":""}
 ,
@@ -202,7 +202,7 @@
 ,
 {"Name":"サンピエール病院","Jusho":"群馬県高崎市上佐野町786-7","kouzui":"<a href='tel:027-347-1177'>027-347-1177</a>","gake":"<a href='http://www.st-pierre.or.jp/index.html' target='_blank'>http://www.st-pierre.or.jp/index.html</a>","takashio":"×","jishin":"〇","tsunami":"全科","kaji":"-","naisui":"","kazan":""}
 ,
-{"Name":"もてき脳神経外科","Jusho":"群馬県高崎市上小塙町567","kouzui":"<a href='tel:027-343-7788'>027-343-7788</a>","gake":"<a href='suika@suika.or.jp' target='_blank'>suika@suika.or.jp</a>","takashio":"〇","jishin":"〇","tsunami":"脳神経外科・内科神経内科・内科","kaji":"-","naisui":"","kazan":""}
+{"Name":"もてき脳神経外科","Jusho":"群馬県高崎市上小塙町567","kouzui":"<a href='tel:027-343-7788'>027-343-7788</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"脳神経外科・内科神経内科・内科","kaji":"-","naisui":"","kazan":""}
 ,
 {"Name":"上大類病院","Jusho":"群馬県高崎市上大類町759","kouzui":"<a href='tel:027-352-1019'>027-352-1019</a>","gake":"<a href='http://www.juuyakukai.or.jp/hp/index.html' target='_blank'>http://www.juuyakukai.or.jp/hp/index.html</a>","takashio":"〇","jishin":"〇","tsunami":"小児科内科","kaji":"-","naisui":"","kazan":""}
 ,
@@ -214,7 +214,7 @@
 ,
 {"Name":"土岐内科医院","Jusho":"群馬県高崎市上里見町1650-1","kouzui":"<a href='tel:027-374-1278'>027-374-1278</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科内科","kaji":"-","naisui":"","kazan":""}
 ,
-{"Name":"ひだまり診療所","Jusho":"群馬県高崎市乗附町1444-2","kouzui":"<a href='tel:027-384-8113'>027-384-8113</a>","gake":"<a href='www.hidamaricl.jp' target='_blank'>www.hidamaricl.jp</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"-","naisui":"","kazan":""}
+{"Name":"ひだまり診療所","Jusho":"群馬県高崎市乗附町1444-2","kouzui":"<a href='tel:027-384-8113'>027-384-8113</a>","gake":"<a href='http://www.hidamaricl.jp' target='_blank'>http://www.hidamaricl.jp</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"-","naisui":"","kazan":""}
 ,
 {"Name":"城山クリニック","Jusho":"群馬県高崎市城山町2-2-8","kouzui":"<a href='tel:027-327-2759'>027-327-2759</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科小児科","kaji":"-","naisui":"","kazan":""}
 ,
@@ -222,7 +222,7 @@
 ,
 {"Name":"田中眼科医院","Jusho":"群馬県高崎市新町78","kouzui":"<a href='tel:0274-42-5578'>0274-42-5578</a>","gake":"<a href='http://www2.wind.ne.jp/tanakaganka/' target='_blank'>http://www2.wind.ne.jp/tanakaganka/</a>","takashio":"×","jishin":"〇","tsunami":"眼科","kaji":"藤岡総合病院（群馬県藤岡市中栗須813番地1）","naisui":"","kazan":""}
 ,
-{"Name":"真下クリニック","Jusho":"群馬県高崎市新保町1103-1","kouzui":"<a href='tel:027-370-6511'>027-370-6511</a>","gake":"<a href='mashimouoed@at.wakwak.com' target='_blank'>mashimouoed@at.wakwak.com</a>","takashio":"×","jishin":"〇","tsunami":"泌尿器科","kaji":"日高病院（群馬県高崎市中尾町886）黒沢病院（群馬県高崎市矢中町187）","naisui":"","kazan":""}
+{"Name":"真下クリニック","Jusho":"群馬県高崎市新保町1103-1","kouzui":"<a href='tel:027-370-6511'>027-370-6511</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"泌尿器科","kaji":"日高病院（群馬県高崎市中尾町886）黒沢病院（群馬県高崎市矢中町187）","naisui":"","kazan":""}
 ,
 {"Name":"宇都木医院","Jusho":"群馬県高崎市西国分町139-3","kouzui":"<a href='tel:027-372-1404'>027-372-1404</a>","gake":"<a href='utsugi-clinic.com' target='_blank'>utsugi-clinic.com</a>","takashio":"×","jishin":"〇","tsunami":"内科眼科","kaji":"-","naisui":"","kazan":""}
 ,
@@ -242,9 +242,9 @@
 ,
 {"Name":"松本医院","Jusho":"群馬県高崎市相生町35","kouzui":"<a href='tel:027-322-5913'>027-322-5913</a>","gake":"<a href='http://www.myclinic.ne.jp/matsumcl/pc/' target='_blank'>http://www.myclinic.ne.jp/matsumcl/pc/</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"-","naisui":"","kazan":""}
 ,
-{"Name":"黛皮膚科医院","Jusho":"群馬県高崎市台町27-4","kouzui":"<a href='tel:027-324-0417'>027-324-0417</a>","gake":"<a href='www.mayuzumihifuka.com' target='_blank'>www.mayuzumihifuka.com</a>","takashio":"×","jishin":"〇","tsunami":"皮膚科","kaji":"-","naisui":"","kazan":""}
+{"Name":"黛皮膚科医院","Jusho":"群馬県高崎市台町27-4","kouzui":"<a href='tel:027-324-0417'>027-324-0417</a>","gake":"<a href='http://www.mayuzumihifuka.com' target='_blank'>http://www.mayuzumihifuka.com</a>","takashio":"×","jishin":"〇","tsunami":"皮膚科","kaji":"-","naisui":"","kazan":""}
 ,
-{"Name":"かみおこどもクリニック","Jusho":"群馬県高崎市台町35-2","kouzui":"<a href='tel:027-315-3741'>027-315-3741</a>","gake":"<a href='mail@kamiokodomo.clinic' target='_blank'>mail@kamiokodomo.clinic</a>","takashio":"×","jishin":"〇","tsunami":"小児科","kaji":"-","naisui":"","kazan":""}
+{"Name":"かみおこどもクリニック","Jusho":"群馬県高崎市台町35-2","kouzui":"<a href='tel:027-315-3741'>027-315-3741</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"小児科","kaji":"-","naisui":"","kazan":""}
 ,
 {"Name":"北高崎クリニック","Jusho":"群馬県高崎市大橋町158","kouzui":"<a href='tel:027-322-2707'>027-322-2707</a>","gake":"<a href='https://kitatakasaki-clinic.com/' target='_blank'>https://kitatakasaki-clinic.com/</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"-","naisui":"","kazan":""}
 ,
@@ -298,11 +298,11 @@
 ,
 {"Name":"丸山眼科医院","Jusho":"群馬県高崎市片岡町2-6-3","kouzui":"<a href='tel:027-322-7178'>027-322-7178</a>","gake":"<a href='https://clinic-smiledesign.com/' target='_blank'>https://clinic-smiledesign.com/</a>","takashio":"×","jishin":"〇","tsunami":"眼科","kaji":"高崎総合医療センター（群馬県高崎市高松町36）","naisui":"","kazan":""}
 ,
-{"Name":"関越中央病院地域ケアセンター診療所","Jusho":"群馬県高崎市北原町29","kouzui":"<a href='tel:027-373-4088'>027-373-4088</a>","gake":"<a href='www.kan-eteu-hospital.com/care-center/clinic/' target='_blank'>www.kan-eteu-hospital.com/care-center/clinic/</a>","takashio":"×","jishin":"〇","tsunami":"内科、消化器内科","kaji":"-","naisui":"","kazan":""}
+{"Name":"関越中央病院地域ケアセンター診療所","Jusho":"群馬県高崎市北原町29","kouzui":"<a href='tel:027-373-4088'>027-373-4088</a>","gake":"<a href='http://www.kan-etsu-hospital.com/care_center/' target='_blank'>http://www.kan-etsu-hospital.com/care_center/</a>","takashio":"×","jishin":"〇","tsunami":"内科、消化器内科","kaji":"-","naisui":"","kazan":""}
 ,
 {"Name":"山内医院","Jusho":"群馬県高崎市北双葉町7-5","kouzui":"<a href='tel:027-322-6338'>027-322-6338</a>","gake":"<a href='http://www.yamauchi-medical-office.com' target='_blank'>http://www.yamauchi-medical-office.com</a>","takashio":"〇","jishin":"〇","tsunami":"内科・循環器内科","kaji":"-","naisui":"","kazan":""}
 ,
-{"Name":"細谷医院","Jusho":"群馬県高崎市本郷町1443-1","kouzui":"<a href='tel:027-343-6010'>027-343-6010</a>","gake":"<a href='hosoya/ciao.jp' target='_blank'>hosoya/ciao.jp</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"-","naisui":"","kazan":""}
+{"Name":"細谷医院","Jusho":"群馬県高崎市本郷町1443-1","kouzui":"<a href='tel:027-343-6010'>027-343-6010</a>","gake":"<a href='http://hosoya.ciao.jp/' target='_blank'>http://hosoya.ciao.jp/</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"-","naisui":"","kazan":""}
 ,
 {"Name":"土岐医院","Jusho":"群馬県高崎市本郷町65-1","kouzui":"<a href='tel:027-343-6003'>027-343-6003</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科小児科内科内科","kaji":"-","naisui":"","kazan":""}
 ,
@@ -316,7 +316,7 @@
 ,
 {"Name":"黒沢病院附属ヘルスパーククリニック","Jusho":"群馬県高崎市矢中町188","kouzui":"<a href='tel:027-352-1111'>027-352-1111</a>","gake":"<a href='http://www.bishinkai.or.jp' target='_blank'>http://www.bishinkai.or.jp</a>","takashio":"×","jishin":"〇","tsunami":"泌尿器科、脳神経外科、外科、乳腺外科、内科、循環器内科、整形外科、皮膚科、婦人科、歯科、歯科口腔外科","kaji":"黒沢病院（群馬県高崎市矢中町187）","naisui":"","kazan":""}
 ,
-{"Name":"小児科佐藤医院","Jusho":"群馬県高崎市柳川町4","kouzui":"<a href='tel:027-322-2145'>027-322-2145</a>","gake":"<a href='gum0@m6.dion.ne.jp' target='_blank'>gum0@m6.dion.ne.jp</a>","takashio":"〇","jishin":"〇","tsunami":"小児科","kaji":"-","naisui":"","kazan":""}
+{"Name":"小児科佐藤医院","Jusho":"群馬県高崎市柳川町4","kouzui":"<a href='tel:027-322-2145'>027-322-2145</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"小児科","kaji":"-","naisui":"","kazan":""}
 ,
 {"Name":"小泉小児科医院","Jusho":"群馬県高崎市連雀町127","kouzui":"<a href='tel:027-322-3985'>027-322-3985</a>","gake":"<a href='https://www.koizumi-clinic.jp/' target='_blank'>https://www.koizumi-clinic.jp/</a>","takashio":"〇","jishin":"〇","tsunami":"小児科","kaji":"-","naisui":"","kazan":""}
 ,
@@ -402,7 +402,7 @@
 ,
 {"Name":"公立館林厚生病院","Jusho":"群馬県館林市成島町262番地1","kouzui":"<a href='tel:0276-72-3140'>0276-72-3140</a>","gake":"<a href='http://www.tatebayashikoseibyoin.jp/' target='_blank'>http://www.tatebayashikoseibyoin.jp/</a>","takashio":"×","jishin":"〇","tsunami":"内科、循環器内科、内分泌内科、小児科、外科・消化器外科、整形外科、心臓血管外科、脳神経外科、呼吸器外科、皮膚科、泌尿器科、産婦人科、眼科、耳鼻咽喉科、歯科、歯科口腔外科","kaji":"-","naisui":"","kazan":""}
 ,
-{"Name":"海宝病院","Jusho":"群馬県館林市堀工町1269","kouzui":"<a href='tel:0276-74-0811'>0276-74-0811</a>","gake":"<a href='kaiho-hp@nifty.com' target='_blank'>kaiho-hp@nifty.com</a>","takashio":"〇","jishin":"〇","tsunami":"外科内科消化器外科消化器内科内分泌代謝内科肝胆膵内科循環器内科","kaji":"公立館林厚生病院（群馬県館林市成島町262-1）","naisui":"","kazan":""}
+{"Name":"海宝病院","Jusho":"群馬県館林市堀工町1269","kouzui":"<a href='tel:0276-74-0811'>0276-74-0811</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"外科内科消化器外科消化器内科内分泌代謝内科肝胆膵内科循環器内科","kaji":"公立館林厚生病院（群馬県館林市成島町262-1）","naisui":"","kazan":""}
 ,
 {"Name":"渋川中央病院","Jusho":"群馬県渋川市石原508-1","kouzui":"<a href='tel:0279-25-1711'>0279-25-1711</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"産婦人科内科","kaji":"-","naisui":"","kazan":""}
 ,

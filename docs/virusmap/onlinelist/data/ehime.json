@@ -62,7 +62,7 @@
 ,
 {"Name":"北吉田診療所","Jusho":"愛媛県松山市北吉田町1019-1","kouzui":"<a href='tel:089-965-4180'>089-965-4180</a>","gake":"<a href='http://kitayoshida-clinic.biz/' target='_blank'>http://kitayoshida-clinic.biz/</a>","takashio":"〇","jishin":"〇","tsunami":"循環器科・内科・消化器科・小児科","kaji":"済生会松山病院（愛媛県松山市山西町880-2）松山笠置記念心臓血管病院（愛媛県松山市末広町18-2）愛媛医療センター（愛媛県東温市横河原366）平成脳神経外科病院（愛媛県松山市北井門2丁目7-28）野本記念病院（愛媛県松山市三番町5-12-1）松山赤十字病院（愛媛県松山市文京町1）奥島病院（愛媛県松山市道後町2-2-1）渡辺病院（愛媛県松山市空港通7丁目13-3）松山城東病院（愛媛県松山市松末2-19-36）梶浦病院（愛媛県松山市三番町4-4-5）愛媛生協病院（愛媛県松山市来住町1091-1）松山市民病院（愛媛県松山市大手町2-6-5）浦屋病院（愛媛県松山市中一万町5-10）南松山病院（愛媛県松山市朝生田町1丁目3-10）","naisui":"","kazan":""}
 ,
-{"Name":"こみなと胃腸内科","Jusho":"愛媛県松山市北土居3丁目11-32","kouzui":"<a href='tel:089-957-8887'>089-957-8887</a>","gake":"<a href='なし' target='_blank'>なし</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"松山赤十字病院（愛媛県松山市文京町1）愛媛県立中央病院（愛媛県松山市春日町83）","naisui":"","kazan":""}
+{"Name":"こみなと胃腸内科","Jusho":"愛媛県松山市北土居3丁目11-32","kouzui":"<a href='tel:089-957-8887'>089-957-8887</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"松山赤十字病院（愛媛県松山市文京町1）愛媛県立中央病院（愛媛県松山市春日町83）","naisui":"","kazan":""}
 ,
 {"Name":"平松循環器科内科","Jusho":"愛媛県松山市湊町2-1-12","kouzui":"<a href='tel:089-943-2570'>089-943-2570</a>","gake":"<a href='https://itp.ne.jp/info/381568046400000899/' target='_blank'>https://itp.ne.jp/info/381568046400000899/</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"松山赤十字病院（愛媛県松山市文京町1）愛媛県立中央病院（愛媛県松山市春日町83）","naisui":"","kazan":""}
 ,
@@ -88,7 +88,7 @@
 ,
 {"Name":"大手町クリニック","Jusho":"愛媛県松山市大手町一丁目4番地1","kouzui":"<a href='tel:089-931-1374'>089-931-1374</a>","gake":"<a href='https://www.ootemachi.info' target='_blank'>https://www.ootemachi.info</a>","takashio":"〇","jishin":"〇","tsunami":"内科消化器内科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"友愛医院","Jusho":"愛媛県松山市水泥町90-1","kouzui":"<a href='tel:089-976-6262'>089-976-6262</a>","gake":"<a href='なし' target='_blank'>なし</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
+{"Name":"友愛医院","Jusho":"愛媛県松山市水泥町90-1","kouzui":"<a href='tel:089-976-6262'>089-976-6262</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"医療法人結和会松山西病院","Jusho":"愛媛県松山市富久町360番地1","kouzui":"<a href='tel:089-972-3355'>089-972-3355</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科泌尿器科","kaji":"","naisui":"","kazan":""}
 ,
@@ -148,7 +148,7 @@
 ,
 {"Name":"竹内外科胃腸科","Jusho":"愛媛県今治市立花町3-6-36","kouzui":"<a href='tel:0898-22-0132'>0898-22-0132</a>","gake":"<a href='http//takeuchigeka.com' target='_blank'>http//takeuchigeka.com</a>","takashio":"〇","jishin":"〇","tsunami":"外科、内科","kaji":"特になし","naisui":"","kazan":""}
 ,
-{"Name":"平林胃腸クリニック","Jusho":"今治市河南町2丁目6-20","kouzui":"<a href='tel:0898-31-5100'>0898-31-5100</a>","gake":"<a href='なし' target='_blank'>なし</a>","takashio":"〇","jishin":"〇","tsunami":"内科消化器科","kaji":"済生会今治病院（今治市喜田村7丁目1-6）","naisui":"","kazan":""}
+{"Name":"平林胃腸クリニック","Jusho":"今治市河南町2丁目6-20","kouzui":"<a href='tel:0898-31-5100'>0898-31-5100</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科消化器科","kaji":"済生会今治病院（今治市喜田村7丁目1-6）","naisui":"","kazan":""}
 ,
 {"Name":"ｉクリニック内科・呼吸器内科","Jusho":"愛媛県今治市郷新屋敷町3-1-39","kouzui":"<a href='tel:0898-22-1929'>0898-22-1929</a>","gake":"<a href='https://iclinic-health.com' target='_blank'>https://iclinic-health.com</a>","takashio":"×","jishin":"〇","tsunami":"内科，呼吸器内科，放射線科，アレルギー科","kaji":"ｉクリニック内科・呼吸器内科(愛媛県今治市郷新屋敷町3-1-39)","naisui":"","kazan":""}
 ,
@@ -166,7 +166,7 @@
 ,
 {"Name":"波止浜内科・外科","Jusho":"今治市地堀5丁目2番1号","kouzui":"<a href='tel:0898-41-9168'>0898-41-9168</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"大西クリニック","Jusho":"今治市大西町紺原甲827-1","kouzui":"<a href='tel:0898-53-2282'>0898-53-2282</a>","gake":"<a href='oonishi.cl@hi.enjoy.ne.jp' target='_blank'>oonishi.cl@hi.enjoy.ne.jp</a>","takashio":"〇","jishin":"〇","tsunami":"内科外科","kaji":"今治第一病院(今治市宮下町1丁目1-21)","naisui":"","kazan":""}
+{"Name":"大西クリニック","Jusho":"今治市大西町紺原甲827-1","kouzui":"<a href='tel:0898-53-2282'>0898-53-2282</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科外科","kaji":"今治第一病院(今治市宮下町1丁目1-21)","naisui":"","kazan":""}
 ,
 {"Name":"朝倉内科循環器科クリニック","Jusho":"今治市朝倉下甲452-1","kouzui":"<a href='tel:0898-56-2818'>0898-56-2818</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"愛媛県立今治病院(今治市石井町4-5-5)済生会今治病院（今治市喜田村7丁目1-6）","naisui":"","kazan":""}
 ,
@@ -240,7 +240,7 @@
 ,
 {"Name":"公立学校共済組合四国中央病院","Jusho":"愛媛県四国中央市川之江町2233番地","kouzui":"<a href='tel:0896-58-3515'>0896-58-3515</a>","gake":"<a href='http://www.shikoku-ctr-hsp.jp/' target='_blank'>http://www.shikoku-ctr-hsp.jp/</a>","takashio":"×","jishin":"〇","tsunami":"内科精神科小児科外科整形外科形成外科産婦人科","kaji":"ＨＩＴＯ病院（愛媛県四国中央市上分町788番地1）","naisui":"","kazan":""}
 ,
-{"Name":"三島外科胃腸クリニック","Jusho":"愛媛県四国中央市中之庄町116番地","kouzui":"<a href='tel:0896-24-3111'>0896-24-3111</a>","gake":"<a href='mishimaclinic@yahoo.co.jp' target='_blank'>mishimaclinic@yahoo.co.jp</a>","takashio":"×","jishin":"〇","tsunami":"内科腎臓内科胃腸科循環器科泌尿器科皮膚科麻酔科外科ペインクリニック内科","kaji":"","naisui":"","kazan":""}
+{"Name":"三島外科胃腸クリニック","Jusho":"愛媛県四国中央市中之庄町116番地","kouzui":"<a href='tel:0896-24-3111'>0896-24-3111</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科腎臓内科胃腸科循環器科泌尿器科皮膚科麻酔科外科ペインクリニック内科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"山口クリニック","Jusho":"愛媛県四国中央市川之江町1640-1","kouzui":"<a href='tel:0896-57-1060'>0896-57-1060</a>","gake":"<a href='http://yamaguchi-clinic.net/' target='_blank'>http://yamaguchi-clinic.net/</a>","takashio":"〇","jishin":"〇","tsunami":"内科小児科","kaji":"（社医）石川記念会HITO病院（愛媛県四国中央市上分町788番地）公立学校共済組合四国中央病院（愛媛県四国中央市川之江町2233番地）","naisui":"","kazan":""}
 ,

@@ -88,7 +88,7 @@
 ,
 {"Name":"医療法人社団綱島会厚生病院","Jusho":"兵庫県姫路市御立西4丁目1番25号","kouzui":"<a href='tel:079-292-1109'>079-292-1109</a>","gake":"<a href='http://www.kousei-hp.jp/' target='_blank'>http://www.kousei-hp.jp/</a>","takashio":"×","jishin":"〇","tsunami":"内科眼科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"医療法人ひまわり会八家病院","Jusho":"兵庫県姫路市西今宿2丁目9番地50","kouzui":"<a href='tel:079-298-1731'>079-298-1731</a>","gake":"<a href='himawarikaihakka@alpha.ocn.ne.jp' target='_blank'>himawarikaihakka@alpha.ocn.ne.jp</a>","takashio":"×","jishin":"〇","tsunami":"整形外科脳神経外科脳神経内科内科","kaji":"","naisui":"","kazan":""}
+{"Name":"医療法人ひまわり会八家病院","Jusho":"兵庫県姫路市西今宿2丁目9番地50","kouzui":"<a href='tel:079-298-1731'>079-298-1731</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"整形外科脳神経外科脳神経内科内科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"たまきファミリークリニック","Jusho":"兵庫県姫路市新在家本町1丁目3-5","kouzui":"<a href='tel:079-228-8550'>079-228-8550</a>","gake":"<a href='www.tamaki-kodomo.com' target='_blank'>www.tamaki-kodomo.com</a>","takashio":"〇","jishin":"〇","tsunami":"内科小児科アレルギー科リウマチ科","kaji":"姫路赤十字病院(兵庫県姫路市下手野1-12-1)姫路聖マリア病院(兵庫県姫路市仁豊野650)","naisui":"","kazan":""}
 ,
@@ -162,7 +162,7 @@
 ,
 {"Name":"塩澤医院","Jusho":"兵庫県明石市二見町西二見767-1","kouzui":"<a href='tel:078-943-5252'>078-943-5252</a>","gake":"<a href='https://www.motokiclinic.com/index.html' target='_blank'>https://www.motokiclinic.com/index.html</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"明石市立市民病院（兵庫県明石市鷹匠町1-33）明石医療センター（兵庫県明石市大久保町八木743-33）加古川中央市民病院（兵庫県加古川市加古川町本町439）","naisui":"","kazan":""}
 ,
-{"Name":"繁田医院","Jusho":"兵庫県明石市二見町東二見1328番地の1","kouzui":"<a href='tel:078-942-1004'>078-942-1004</a>","gake":"<a href='sigeta-r@s5.dion.ne.jp' target='_blank'>sigeta-r@s5.dion.ne.jp</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"明石医療センター（兵庫県明石市大久保町八木743-33）","naisui":"","kazan":""}
+{"Name":"繁田医院","Jusho":"兵庫県明石市二見町東二見1328番地の1","kouzui":"<a href='tel:078-942-1004'>078-942-1004</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"明石医療センター（兵庫県明石市大久保町八木743-33）","naisui":"","kazan":""}
 ,
 {"Name":"しばはら整形外科スポーツ関節クリニック","Jusho":"兵庫県明石市魚住町錦が丘4-5-1駅前NSビル2階","kouzui":"<a href='tel:078-947-0808'>078-947-0808</a>","gake":"<a href='http://shibahara-seikei.jp/' target='_blank'>http://shibahara-seikei.jp/</a>","takashio":"×","jishin":"〇","tsunami":"整形外科リウマチ科","kaji":"大久保病院（兵庫県明石市大久保町2095-1）明石医療センター（兵庫県明石市大久保町八木743-33）はりま病院（兵庫県加古郡播磨町北野添2丁目1-1-15）","naisui":"","kazan":""}
 ,
@@ -312,13 +312,13 @@
 ,
 {"Name":"なかた内科クリニック","Jusho":"兵庫県西宮市甲子園町3-5","kouzui":"<a href='tel:0798-41-6660'>0798-41-6660</a>","gake":"<a href='https://nakatanaika-clinic.com/' target='_blank'>https://nakatanaika-clinic.com/</a>","takashio":"〇","jishin":"〇","tsunami":"内科循環器内科","kaji":"兵庫県立西宮病院（兵庫県西宮市六湛寺町13-9）明和病院（兵庫県西宮市上鳴尾町4-31）","naisui":"","kazan":""}
 ,
-{"Name":"しもながたクリニック","Jusho":"兵庫県西宮市門戸荘17-18メディック・モンド2F","kouzui":"<a href='tel:0798-53-8200'>0798-53-8200</a>","gake":"<a href='simonagataclinic@ric.hi-ho.ne.jp' target='_blank'>simonagataclinic@ric.hi-ho.ne.jp</a>","takashio":"×","jishin":"〇","tsunami":"内科循環器科","kaji":"西宮市立中央病院（西宮市林田町8-24）県立西宮病院（西宮市六湛寺町113-9）","naisui":"","kazan":""}
+{"Name":"しもながたクリニック","Jusho":"兵庫県西宮市門戸荘17-18メディック・モンド2F","kouzui":"<a href='tel:0798-53-8200'>0798-53-8200</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科循環器科","kaji":"西宮市立中央病院（西宮市林田町8-24）県立西宮病院（西宮市六湛寺町113-9）","naisui":"","kazan":""}
 ,
 {"Name":"かぎおかクリニック","Jusho":"兵庫県西宮市甲子園網引町2-15","kouzui":"<a href='tel:0798-45-4159'>0798-45-4159</a>","gake":"<a href='http://www.kagioka-clinic.com/' target='_blank'>http://www.kagioka-clinic.com/</a>","takashio":"×","jishin":"〇","tsunami":"呼吸器内科","kaji":"明和病院（兵庫県西宮市上鳴尾町4-31）兵庫医科大学病院（兵庫県西宮市武庫川町1-1）西宮市立中央病院（西宮市林田町8-24）","naisui":"","kazan":""}
 ,
 {"Name":"山路クリニック","Jusho":"兵庫県西宮市田中町3-1-208","kouzui":"<a href='tel:0798-34-6650'>0798-34-6650</a>","gake":"<a href='https://www.yamajiclinic.com/' target='_blank'>https://www.yamajiclinic.com/</a>","takashio":"×","jishin":"〇","tsunami":"内科放射線科消化器内科呼吸器内科","kaji":"兵庫県立西宮病院（兵庫県西宮市六湛寺町13-9)","naisui":"","kazan":""}
 ,
-{"Name":"よしおかクリニック泌尿器科","Jusho":"兵庫県西宮市段上町1-2-34","kouzui":"<a href='tel:0798-57-5535'>0798-57-5535</a>","gake":"<a href='mail@yoshioka.clinic' target='_blank'>mail@yoshioka.clinic</a>","takashio":"×","jishin":"〇","tsunami":"泌尿器科","kaji":"西宮市立中央病院（兵庫県西宮市林田町8-24）","naisui":"","kazan":""}
+{"Name":"よしおかクリニック泌尿器科","Jusho":"兵庫県西宮市段上町1-2-34","kouzui":"<a href='tel:0798-57-5535'>0798-57-5535</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"泌尿器科","kaji":"西宮市立中央病院（兵庫県西宮市林田町8-24）","naisui":"","kazan":""}
 ,
 {"Name":"たけはしクリニック","Jusho":"兵庫県西宮市門戸荘14-21エポック門戸","kouzui":"<a href='tel:0798-53-4114'>0798-53-4114</a>","gake":"<a href='http://taiehashi-clinic.jp/' target='_blank'>http://taiehashi-clinic.jp/</a>","takashio":"〇","jishin":"〇","tsunami":"内科脳神経外科","kaji":"西宮市立中央病院（兵庫県西宮市林田町8-24）","naisui":"","kazan":""}
 ,
@@ -414,7 +414,7 @@
 ,
 {"Name":"ひよこキッズクリニック","Jusho":"兵庫県芦屋市月若町8-2-2アマーレ芦屋川1階","kouzui":"<a href='tel:0797-22-1450'>0797-22-1450</a>","gake":"<a href='http://www.hiyokokids-ashiya.com' target='_blank'>http://www.hiyokokids-ashiya.com</a>","takashio":"〇","jishin":"〇","tsunami":"小児科","kaji":"市立芦屋病院（兵庫県芦屋市朝日丘町39-1）兵庫県立西宮病院（兵庫県西宮市六湛寺町13-9）兵庫県立尼崎医療センター（兵庫県尼崎市東難波町2-17-77）甲南医療センター（兵庫県神戸市東灘区鴨子ヶ原1-5-16）など","naisui":"","kazan":""}
 ,
-{"Name":"芦屋たいらクリニック","Jusho":"兵庫県芦屋市川西町6-19","kouzui":"<a href='tel:0797-38-7291'>0797-38-7291</a>","gake":"<a href='http://ｔaira-cl.com' target='_blank'>http://ｔaira-cl.com</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"市立芦屋病院（兵庫県芦屋市朝日丘町39-1）","naisui":"","kazan":""}
+{"Name":"芦屋たいらクリニック","Jusho":"兵庫県芦屋市川西町6-19","kouzui":"<a href='tel:0797-38-7291'>0797-38-7291</a>","gake":"<a href='http://taira-cl.com' target='_blank'>http://taira-cl.com</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"市立芦屋病院（兵庫県芦屋市朝日丘町39-1）","naisui":"","kazan":""}
 ,
 {"Name":"いまむらクリニック","Jusho":"兵庫県芦屋市大原町20-19-2F","kouzui":"<a href='tel:0797-38-6970'>0797-38-6970</a>","gake":"<a href='http://imamuraclinic.jp/' target='_blank'>http://imamuraclinic.jp/</a>","takashio":"〇","jishin":"〇","tsunami":"内科呼吸器内科","kaji":"","naisui":"","kazan":""}
 ,
@@ -478,7 +478,7 @@
 ,
 {"Name":"メイプルこどもクリニック","Jusho":"兵庫県芦屋市岩園町1-7","kouzui":"<a href='tel:0797-25-0911'>0797-25-0911</a>","gake":"<a href='http://www.mapleped.' target='_blank'>http://www.mapleped.</a>","takashio":"〇","jishin":"〇","tsunami":"小児科","kaji":"市立芦屋病院（兵庫県芦屋市朝日ヶ丘町39-1）","naisui":"","kazan":""}
 ,
-{"Name":"芦屋ファミリークリニック","Jusho":"兵庫県芦屋市公光町9-6","kouzui":"<a href='tel:0797-31-5112'>0797-31-5112</a>","gake":"<a href='ashiya-family-clinic.jp' target='_blank'>ashiya-family-clinic.jp</a>","takashio":"〇","jishin":"〇","tsunami":"内科皮膚科形成外科","kaji":"","naisui":"","kazan":""}
+{"Name":"芦屋ファミリークリニック","Jusho":"兵庫県芦屋市公光町9-6","kouzui":"<a href='tel:0797-31-5112'>0797-31-5112</a>","gake":"<a href='http://ashiya-family-clinic.jp' target='_blank'>http://ashiya-family-clinic.jp</a>","takashio":"〇","jishin":"〇","tsunami":"内科皮膚科形成外科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"伊丹恒生脳神経外科病院","Jusho":"兵庫県伊丹市西野1-300-1","kouzui":"<a href='tel:072-781-6600'>072-781-6600</a>","gake":"<a href='http://itami-kousei.jp/' target='_blank'>http://itami-kousei.jp/</a>","takashio":"×","jishin":"〇","tsunami":"脳神経外科消化器外科整形外科循環器内科神経内科","kaji":"","naisui":"","kazan":""}
 ,
@@ -488,7 +488,7 @@
 ,
 {"Name":"むろさきクリニック","Jusho":"兵庫県伊丹市野間1-8-12","kouzui":"<a href='tel:072-770-6688'>072-770-6688</a>","gake":"<a href='https://www.murosakiclinic.com' target='_blank'>https://www.murosakiclinic.com</a>","takashio":"×","jishin":"〇","tsunami":"泌尿器科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"やまもとクリニック泌尿器科","Jusho":"兵庫県伊丹市西野1-81ヴィア・ラテア西野1F","kouzui":"<a href='tel:072-778-7731'>072-778-7731</a>","gake":"<a href='yclinic-hinyoukika.jp' target='_blank'>yclinic-hinyoukika.jp</a>","takashio":"×","jishin":"〇","tsunami":"泌尿器科","kaji":"市立伊丹病院（兵庫県伊丹市昆陽池1-100）","naisui":"","kazan":""}
+{"Name":"やまもとクリニック泌尿器科","Jusho":"兵庫県伊丹市西野1-81ヴィア・ラテア西野1F","kouzui":"<a href='tel:072-778-7731'>072-778-7731</a>","gake":"<a href='http://yclinic-hinyoukika.jp' target='_blank'>http://yclinic-hinyoukika.jp</a>","takashio":"×","jishin":"〇","tsunami":"泌尿器科","kaji":"市立伊丹病院（兵庫県伊丹市昆陽池1-100）","naisui":"","kazan":""}
 ,
 {"Name":"中西皮膚科","Jusho":"兵庫県伊丹市池尻1-27","kouzui":"<a href='tel:072-775-2037'>072-775-2037</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"皮膚科","kaji":"","naisui":"","kazan":""}
 ,
@@ -602,7 +602,7 @@
 ,
 {"Name":"じゅん内科クリニック","Jusho":"兵庫県宝塚市中州1-15-2逆瀬川ビル1F","kouzui":"<a href='tel:0797-76-1888'>0797-76-1888</a>","gake":"<a href='http://www.jun-clinic.net/' target='_blank'>http://www.jun-clinic.net/</a>","takashio":"×","jishin":"〇","tsunami":"内科呼吸器内科","kaji":"宝塚市立病院（兵庫県宝塚市小浜4-5-1）医療法人回生会宝塚病院（兵庫県宝塚市野上2-1-2）","naisui":"","kazan":""}
 ,
-{"Name":"広辻眼科","Jusho":"兵庫県宝塚市野上2-4-19","kouzui":"<a href='tel:0797-72-6586'>0797-72-6586</a>","gake":"<a href='hirotsuji-eye.com' target='_blank'>hirotsuji-eye.com</a>","takashio":"×","jishin":"△","tsunami":"眼科","kaji":"","naisui":"","kazan":""}
+{"Name":"広辻眼科","Jusho":"兵庫県宝塚市野上2-4-19","kouzui":"<a href='tel:0797-72-6586'>0797-72-6586</a>","gake":"<a href='http://hirotsuji-eye.com' target='_blank'>http://hirotsuji-eye.com</a>","takashio":"×","jishin":"△","tsunami":"眼科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"大橋クリニック","Jusho":"兵庫県宝塚市小林2丁目10-17ストリート小林2F","kouzui":"<a href='tel:0797-76-4610'>0797-76-4610</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"精神科","kaji":"","naisui":"","kazan":""}
 ,
@@ -630,7 +630,7 @@
 ,
 {"Name":"李クリニック","Jusho":"兵庫県宝塚市小林5-9-95","kouzui":"<a href='tel:0797-76-2525'>0797-76-2525</a>","gake":"<a href='http://www.leeclinic.jp' target='_blank'>http://www.leeclinic.jp</a>","takashio":"〇","jishin":"〇","tsunami":"内科循環器科糖尿病内科","kaji":"宝塚市立病院（兵庫県宝塚市小浜4-5-1）","naisui":"","kazan":""}
 ,
-{"Name":"柴田内科医院","Jusho":"兵庫県宝塚市小林3丁目8-45","kouzui":"<a href='tel:0797-72-3014'>0797-72-3014</a>","gake":"<a href='shibatanaika.com' target='_blank'>shibatanaika.com</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
+{"Name":"柴田内科医院","Jusho":"兵庫県宝塚市小林3丁目8-45","kouzui":"<a href='tel:0797-72-3014'>0797-72-3014</a>","gake":"<a href='http://www.shibatanaika.com' target='_blank'>http://www.shibatanaika.com</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"田村クリニック","Jusho":"兵庫県宝塚市伊子志1-7-15","kouzui":"<a href='tel:0797-77-3060'>0797-77-3060</a>","gake":"<a href='http://www.tamura-clinic-takarazuka.com' target='_blank'>http://www.tamura-clinic-takarazuka.com</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"宝塚市立病院（兵庫県宝塚市小浜4-5-1）市立伊丹病院（兵庫県伊丹市昆陽池1-100）西宮市立中央病院（兵庫県西宮市林田町8-24）神戸大学医学部附属病院（兵庫県神戸市中央区楠町7-5-2）","naisui":"","kazan":""}
 ,
@@ -706,7 +706,7 @@
 ,
 {"Name":"横山外科胃腸科医院","Jusho":"兵庫県高砂市高砂町朝日町2丁目8-28","kouzui":"<a href='tel:079-442-0377'>079-442-0377</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"外科胃腸科内科整形外科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"藤末医院","Jusho":"兵庫県川西市小花1-3-5","kouzui":"<a href='tel:072-759-2952'>072-759-2952</a>","gake":"<a href='h.fujisue@camel.plala.or.jp' target='_blank'>h.fujisue@camel.plala.or.jp</a>","takashio":"×","jishin":"〇","tsunami":"内科小児科泌尿器科","kaji":"杉町医院（兵庫県川西市小戸1-5-6）〃協立病院（兵庫県川西市中央町16-5）","naisui":"","kazan":""}
+{"Name":"藤末医院","Jusho":"兵庫県川西市小花1-3-5","kouzui":"<a href='tel:072-759-2952'>072-759-2952</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科小児科泌尿器科","kaji":"杉町医院（兵庫県川西市小戸1-5-6）〃協立病院（兵庫県川西市中央町16-5）","naisui":"","kazan":""}
 ,
 {"Name":"山本クリニック","Jusho":"兵庫県川西市小花1-11-19","kouzui":"<a href='tel:072-755-3511'>072-755-3511</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"市立池田病院（大阪府池田市城南3-1-18）","naisui":"","kazan":""}
 ,
@@ -764,7 +764,7 @@
 ,
 {"Name":"くわかど内科","Jusho":"兵庫県川西市西多田2-2-8三栄ビル3階","kouzui":"<a href='tel:072-744-2636'>072-744-2636</a>","gake":"<a href='https://kuwakado-naika.jp/' target='_blank'>https://kuwakado-naika.jp/</a>","takashio":"×","jishin":"〇","tsunami":"内科消化器内科緩和ケア科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"たぐちクリニック","Jusho":"兵庫県川西市見野2丁目15-24","kouzui":"<a href='tel:072-791-5775'>072-791-5775</a>","gake":"<a href='なし' target='_blank'>なし</a>","takashio":"×","jishin":"〇","tsunami":"泌尿器科","kaji":"市立川西病院（兵庫県川西市東畦野5丁目21-1）","naisui":"","kazan":""}
+{"Name":"たぐちクリニック","Jusho":"兵庫県川西市見野2丁目15-24","kouzui":"<a href='tel:072-791-5775'>072-791-5775</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"泌尿器科","kaji":"市立川西病院（兵庫県川西市東畦野5丁目21-1）","naisui":"","kazan":""}
 ,
 {"Name":"ふじおかクリニック","Jusho":"兵庫県川西市清和台東3-1-8-2F","kouzui":"<a href='tel:072-799-8733'>072-799-8733</a>","gake":"<a href='http://www.fujioka-cl.com' target='_blank'>http://www.fujioka-cl.com</a>","takashio":"×","jishin":"〇","tsunami":"耳鼻咽喉科アレルギー科","kaji":"市立池田病院（大阪府池田市城南3-1-18）宝塚市立病院（兵庫県宝塚市小浜4-5-1）","naisui":"","kazan":""}
 ,
@@ -830,7 +830,7 @@
 ,
 {"Name":"中林病院","Jusho":"兵庫県南あわじ市神代國衙1680-1","kouzui":"<a href='tel:0799-42-6200'>0799-42-6200</a>","gake":"<a href='http://www.nakabayashihp.or.jp/' target='_blank'>http://www.nakabayashihp.or.jp/</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"大植病院","Jusho":"兵庫県朝来市多々良木1514","kouzui":"<a href='tel:079-678-1231'>079-678-1231</a>","gake":"<a href='ohue_hospital@shunjin-kai.or.jp' target='_blank'>ohue_hospital@shunjin-kai.or.jp</a>","takashio":"×","jishin":"〇","tsunami":"精神科","kaji":"","naisui":"","kazan":""}
+{"Name":"大植病院","Jusho":"兵庫県朝来市多々良木1514","kouzui":"<a href='tel:079-678-1231'>079-678-1231</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"精神科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"馬庭内科医院","Jusho":"兵庫県朝来市和田山町宮田216","kouzui":"<a href='tel:079-673-2811'>079-673-2811</a>","gake":"<a href='www.shunyokai.or.jp/' target='_blank'>www.shunyokai.or.jp/</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,

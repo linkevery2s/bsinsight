@@ -26,7 +26,7 @@
 ,
 {"Name":"高野山総合診療所","Jusho":"和歌山県伊都郡高野町大字高野山631番地","kouzui":"<a href='tel:0736-56-2911'>0736-56-2911</a>","gake":"<a href='http://www.town.koya.wakayama.jp/health/hospital/' target='_blank'>http://www.town.koya.wakayama.jp/health/hospital/</a>","takashio":"×","jishin":"〇","tsunami":"内科□","kaji":"高野山総合診療所","naisui":"","kazan":""}
 ,
-{"Name":"富貴診療所","Jusho":"和歌山県伊都郡高野町西富貴46","kouzui":"<a href='tel:0736-53-2013'>0736-53-2013</a>","gake":"<a href='なし' target='_blank'>なし</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"なし","naisui":"","kazan":""}
+{"Name":"富貴診療所","Jusho":"和歌山県伊都郡高野町西富貴46","kouzui":"<a href='tel:0736-53-2013'>0736-53-2013</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"なし","naisui":"","kazan":""}
 ,
 {"Name":"耳鼻咽喉科ごとう医院","Jusho":"和歌山県有田郡湯浅町湯浅128-2","kouzui":"<a href='tel:0737-63-3838'>0737-63-3838</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"耳鼻咽喉科アレルギー科","kaji":"和歌山県立医科大学附属病院（和歌山市紀三井寺811-1）日赤和歌山医療センター（和歌山市小松原通4-20）","naisui":"","kazan":""}
 ,
@@ -44,7 +44,7 @@
 ,
 {"Name":"ひがし内科クリニック","Jusho":"和歌山県日高郡みなべ町東本庄589-1","kouzui":"<a href='tel:0739-74-3269'>0739-74-3269</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"紀南病院","naisui":"","kazan":""}
 ,
-{"Name":"医療法人健仁会三谷医院","Jusho":"和歌山県西牟婁郡白浜町1400","kouzui":"<a href='tel:0739-42-3606'>0739-42-3606</a>","gake":"<a href='ps://www.mitani-clinic-shirahama.co' target='_blank'>ps://www.mitani-clinic-shirahama.co</a>","takashio":"×","jishin":"〇","tsunami":"内科消化器科","kaji":"","naisui":"","kazan":""}
+{"Name":"医療法人健仁会三谷医院","Jusho":"和歌山県西牟婁郡白浜町1400","kouzui":"<a href='tel:0739-42-3606'>0739-42-3606</a>","gake":"<a href='https://www.mitani-clinic-shirahama.com' target='_blank'>https://www.mitani-clinic-shirahama.com</a>","takashio":"×","jishin":"〇","tsunami":"内科消化器科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"南紀医療福祉センター","Jusho":"和歌山県西牟婁郡上富田町岩田1776-1","kouzui":"<a href='tel:0739-47-2175'>0739-47-2175</a>","gake":"<a href='https://www.wfj.or.jp/' target='_blank'>https://www.wfj.or.jp/</a>","takashio":"×","jishin":"〇","tsunami":"精神科","kaji":"","naisui":"","kazan":""}
 ,

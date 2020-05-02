@@ -114,7 +114,7 @@
 ,
 {"Name":"鈴木医院","Jusho":"名古屋市北区城東町4丁目84番地","kouzui":"<a href='tel:981-2282'>981-2282</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"精神科内科","kaji":"西部医療センター名古屋医療センター名古屋市立大学病院","naisui":"","kazan":""}
 ,
-{"Name":"澤野医院","Jusho":"名古屋市北区大野町2-23-3","kouzui":"<a href='tel:052-981-6214'>052-981-6214</a>","gake":"<a href='h?ttps://www.wa.cmmufa.jp/?achiha/' target='_blank'>h?ttps://www.wa.cmmufa.jp/?achiha/</a>","takashio":"×","jishin":"×","tsunami":"内科","kaji":"","naisui":"","kazan":""}
+{"Name":"澤野医院","Jusho":"名古屋市北区大野町2-23-3","kouzui":"<a href='tel:052-981-6214'>052-981-6214</a>","gake":"<a href='http://www.wa.commufa.jp/~achiha/' target='_blank'>http://www.wa.commufa.jp/~achiha/</a>","takashio":"×","jishin":"×","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"医療法人湘山会□眼科三宅病院","Jusho":"名古屋市北区大曽根3-14-20","kouzui":"<a href='tel:052-915-8001'>052-915-8001</a>","gake":"<a href='www.miyake-eye.or.jp/' target='_blank'>www.miyake-eye.or.jp/</a>","takashio":"×","jishin":"×","tsunami":"眼科","kaji":"","naisui":"","kazan":""}
 ,
@@ -148,7 +148,7 @@
 ,
 {"Name":"須藤医院","Jusho":"名古屋市西区浅間二丁目9-5","kouzui":"<a href='tel:523-4112'>523-4112</a>","gake":"<a href='https://www.sudoiin.com/' target='_blank'>https://www.sudoiin.com/</a>","takashio":"×","jishin":"〇","tsunami":"皮膚科","kaji":"名古屋医療センター（愛知県名古屋市中区三の丸4-1-1）","naisui":"","kazan":""}
 ,
-{"Name":"水野ハートクリニック","Jusho":"名古屋市西区香呑町2丁目70番地","kouzui":"<a href='tel:523-8101'>523-8101</a>","gake":"<a href='h?ttp://www.mizuno-heart-clinic.com' target='_blank'>h?ttp://www.mizuno-heart-clinic.com</a>","takashio":"×","jishin":"〇","tsunami":"内科循環器内科","kaji":"","naisui":"","kazan":""}
+{"Name":"水野ハートクリニック","Jusho":"名古屋市西区香呑町2丁目70番地","kouzui":"<a href='tel:523-8101'>523-8101</a>","gake":"<a href='http://www.mizuno-heart-clinic.com' target='_blank'>http://www.mizuno-heart-clinic.com</a>","takashio":"×","jishin":"〇","tsunami":"内科循環器内科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"村上クリニック","Jusho":"名古屋市西区花の木三丁目14番4号","kouzui":"<a href='tel:531-2271'>531-2271</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"名古屋医療センター名古屋市中区三の丸4-1-1名古屋市立西部医療センター名古屋市北区平手町1-1-1名鉄病院名古屋市西区栄生2-26-11名古屋セントラル病院名古屋市中村区太閤3-7-7","naisui":"","kazan":""}
 ,
@@ -272,7 +272,7 @@
 ,
 {"Name":"医療法人勝又病院","Jusho":"名古屋市中区新栄1-32-22","kouzui":"<a href='tel:052-241-0408'>052-241-0408</a>","gake":"<a href='http://katsumata-hospital.or.jp' target='_blank'>http://katsumata-hospital.or.jp</a>","takashio":"×","jishin":"×","tsunami":"内科","kaji":"名古屋大学医学部付属病院（名古屋市中区）名古屋医療センター（名古屋市中区）東部医療センター（名古屋市千種区）","naisui":"","kazan":""}
 ,
-{"Name":"ＮＴＴ西日本東海病院","Jusho":"名古屋市中区松原2-17-5","kouzui":"<a href='tel:052-291-6391'>052-291-6391</a>","gake":"<a href='ｈ?ｔｔｐ：／／www．Ｎｔｔ-wｅｓｔ．Ｃｏ．Ｊｐ／ｔｏｋａｉ-ｈｏｓｐ／' target='_blank'>ｈ?ｔｔｐ：／／www．Ｎｔｔ-wｅｓｔ．Ｃｏ．Ｊｐ／ｔｏｋａｉ-ｈｏｓｐ／</a>","takashio":"×","jishin":"×","tsunami":"内科","kaji":"","naisui":"","kazan":""}
+{"Name":"ＮＴＴ西日本東海病院","Jusho":"名古屋市中区松原2-17-5","kouzui":"<a href='tel:052-291-6391'>052-291-6391</a>","gake":"<a href='https://www.ntt-west.co.jp/tokai-hosp/' target='_blank'>https://www.ntt-west.co.jp/tokai-hosp/</a>","takashio":"×","jishin":"×","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"いとう内科","Jusho":"昭和区御器所通1-13","kouzui":"<a href='tel:731-3690'>731-3690</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科、小児科、呼吸器科","kaji":"","naisui":"","kazan":""}
 ,
@@ -468,7 +468,7 @@
 ,
 {"Name":"独立行政法人地域医療機能推進機構□中京病院","Jusho":"名古屋市南区三条1-1-10","kouzui":"<a href='tel:052-691-7151'>052-691-7151</a>","gake":"<a href='https://chukyo.jcho.go.jp/' target='_blank'>https://chukyo.jcho.go.jp/</a>","takashio":"×","jishin":"×","tsunami":"全科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"名南病院","Jusho":"名古屋市南区南陽通5-1-3","kouzui":"<a href='tel:052-691-3171'>052-691-3171</a>","gake":"<a href='h?ttp://ｈｐ.meinan.or.jp/' target='_blank'>h?ttp://ｈｐ.meinan.or.jp/</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"名南ふれあい病院（名古屋市南区豊田5-15-18）","naisui":"","kazan":""}
+{"Name":"名南病院","Jusho":"名古屋市南区南陽通5-1-3","kouzui":"<a href='tel:052-691-3171'>052-691-3171</a>","gake":"<a href='http://hp.meinan.or.jp/' target='_blank'>http://hp.meinan.or.jp/</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"名南ふれあい病院（名古屋市南区豊田5-15-18）","naisui":"","kazan":""}
 ,
 {"Name":"大同病院","Jusho":"名古屋市南区白水町9","kouzui":"<a href='tel:052-611-6261'>052-611-6261</a>","gake":"<a href='https://daidohp.or.jp/' target='_blank'>https://daidohp.or.jp/</a>","takashio":"〇","jishin":"〇","tsunami":"総合内科内分泌内科呼吸器内科循環器内科神経内科腎臓内科消化器内科膠原病・リウマチ科血液内科小児科皮膚科呼吸器・心臓血管外科","kaji":"だいどうクリニック（愛知県名古屋市南区白水町8番地）中央クリニック（東海市東海町5-3）","naisui":"","kazan":""}
 ,
@@ -582,7 +582,7 @@
 ,
 {"Name":"第一なるみ病院","Jusho":"名古屋市緑区細口1-210","kouzui":"<a href='tel:052-876-8361'>052-876-8361</a>","gake":"<a href='http://www.narumikai.or.jp' target='_blank'>http://www.narumikai.or.jp</a>","takashio":"×","jishin":"×","tsunami":"内科外科整形外科","kaji":"なし","naisui":"","kazan":""}
 ,
-{"Name":"医療法人清水会□相生山病院","Jusho":"名古屋市緑区藤塚3-2704","kouzui":"<a href='tel:052-878-3711'>052-878-3711</a>","gake":"<a href='h?ttpｓ://www.aioiyama.or.jp/' target='_blank'>h?ttpｓ://www.aioiyama.or.jp/</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"藤田医科大学病院（豊明市沓掛町田楽ヶ窪1-98）","naisui":"","kazan":""}
+{"Name":"医療法人清水会□相生山病院","Jusho":"名古屋市緑区藤塚3-2704","kouzui":"<a href='tel:052-878-3711'>052-878-3711</a>","gake":"<a href='https://www.aioiyama.or.jp/' target='_blank'>https://www.aioiyama.or.jp/</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"藤田医科大学病院（豊明市沓掛町田楽ヶ窪1-98）","naisui":"","kazan":""}
 ,
 {"Name":"アスクレピオス診療院","Jusho":"名古屋市名東区代万町3丁目11番1エイジトピア星ヶ丘ドクターズビル2階","kouzui":"<a href='tel:253-5174'>253-5174</a>","gake":"<a href='http://asklepios-clinic.jp' target='_blank'>http://asklepios-clinic.jp</a>","takashio":"×","jishin":"×","tsunami":"内科糖尿病内科","kaji":"","naisui":"","kazan":""}
 ,
@@ -688,7 +688,7 @@
 ,
 {"Name":"医療法人健伸会はっとり耳鼻咽喉科","Jusho":"名古屋市天白区野並二丁目440番地","kouzui":"<a href='tel:899-3314'>899-3314</a>","gake":"<a href='http://www.hattori-ent.com' target='_blank'>http://www.hattori-ent.com</a>","takashio":"×","jishin":"〇","tsunami":"耳鼻咽喉科","kaji":"藤田医科大学病院・藤田医科大学ばんたね病院・名古屋市立大学病院・名古屋第二赤十字病院","naisui":"","kazan":""}
 ,
-{"Name":"一ツ山クリニック","Jusho":"名古屋市天白区山根町333番地","kouzui":"<a href='tel:805-3611'>805-3611</a>","gake":"<a href='な?し' target='_blank'>な?し</a>","takashio":"×","jishin":"×","tsunami":"内科","kaji":"","naisui":"","kazan":""}
+{"Name":"一ツ山クリニック","Jusho":"名古屋市天白区山根町333番地","kouzui":"<a href='tel:805-3611'>805-3611</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"×","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"佐井泌尿器科・皮フ科クリニック","Jusho":"名古屋市天白区平針二丁目1906番地ＫＭビル2Ｆ","kouzui":"<a href='tel:847-5110'>847-5110</a>","gake":"<a href='http://www.saiclinic.com' target='_blank'>http://www.saiclinic.com</a>","takashio":"〇","jishin":"〇","tsunami":"皮膚科","kaji":"名古屋記念病院(名古屋市天白区平針4丁目305)名古屋第二赤十字病院(名古屋市昭和区妙見町2-9)名古屋大学附属病院(名古屋市昭和区鶴舞町65)名古屋市立大学附属病院(名古屋市瑞穂区瑞穂町川澄1)","naisui":"","kazan":""}
 ,
@@ -836,7 +836,7 @@
 ,
 {"Name":"高須内科","Jusho":"愛知県半田市一本木町1-15","kouzui":"<a href='tel:0569-28-5888'>0569-28-5888</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"半田市立半田病院（愛知県半田市東洋町2丁目29番地）","naisui":"","kazan":""}
 ,
-{"Name":"医療法人青山外科","Jusho":"愛知県半田市青山2-21-10","kouzui":"<a href='tel:0569-23-8101'>0569-23-8101</a>","gake":"<a href='aoyama-geka.jp?' target='_blank'>aoyama-geka.jp?</a>","takashio":"〇","jishin":"〇","tsunami":"外科整形外科内科皮膚泌尿器科","kaji":"","naisui":"","kazan":""}
+{"Name":"医療法人青山外科","Jusho":"愛知県半田市青山2-21-10","kouzui":"<a href='tel:0569-23-8101'>0569-23-8101</a>","gake":"<a href='http://aoyama-geka.jp' target='_blank'>http://aoyama-geka.jp</a>","takashio":"〇","jishin":"〇","tsunami":"外科整形外科内科皮膚泌尿器科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"杉田医院","Jusho":"愛知県半田市有楽町4-154-4","kouzui":"<a href='tel:0569-22-0571'>0569-22-0571</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"×","tsunami":"内科小児科","kaji":"","naisui":"","kazan":""}
 ,
@@ -846,7 +846,7 @@
 ,
 {"Name":"キッズランドクリニック","Jusho":"愛知県半田市広小路町152-8","kouzui":"<a href='tel:0569-24-1146'>0569-24-1146</a>","gake":"<a href='http://www.kidsland.jp/' target='_blank'>http://www.kidsland.jp/</a>","takashio":"〇","jishin":"〇","tsunami":"小児科アレルギー科","kaji":"半田市立半田病院（愛知県半田市東洋町2丁目29番地）あいち小児保健医療総合センター（愛知県大府市森岡町7-4-26）","naisui":"","kazan":""}
 ,
-{"Name":"森クリニック","Jusho":"愛知県半田市広小路154番地14","kouzui":"<a href='tel:0569-32-3883'>0569-32-3883</a>","gake":"<a href='h?ttp：//www.handa-med.met/compoment/content/article/57-ik-mori-clinic.html' target='_blank'>h?ttp：//www.handa-med.met/compoment/content/article/57-ik-mori-clinic.html</a>","takashio":"×","jishin":"×","tsunami":"呼吸器内科アレルギー科内科","kaji":"","naisui":"","kazan":""}
+{"Name":"森クリニック","Jusho":"愛知県半田市広小路154番地14","kouzui":"<a href='tel:0569-32-3883'>0569-32-3883</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"×","tsunami":"呼吸器内科アレルギー科内科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"みずのファミリークリニック","Jusho":"愛知県半田市宮本町6-216-6","kouzui":"<a href='tel:0569-32-6001'>0569-32-6001</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科小児科","kaji":"自院（駐車場にて受付、診療、会計可）","naisui":"","kazan":""}
 ,
@@ -1324,7 +1324,7 @@
 ,
 {"Name":"宇田ファミリークリニック","Jusho":"愛知県みよし市園原四丁目1番地4","kouzui":"<a href='tel:0561-35-1311'>0561-35-1311</a>","gake":"<a href='http://www.udacli.com/' target='_blank'>http://www.udacli.com/</a>","takashio":"×","jishin":"×","tsunami":"内科、小児科、循環器内科","kaji":"自院、みよし市民病院、豊田厚生病院、トヨタ記念病院、藤田医科大学病院","naisui":"","kazan":""}
 ,
-{"Name":"みよし市民病院","Jusho":"愛知県みよし市三好町八和田山15番地","kouzui":"<a href='tel:0561-33-3300'>0561-33-3300</a>","gake":"<a href='h?ttp://www.hospital-miyoshi.jp/' target='_blank'>h?ttp://www.hospital-miyoshi.jp/</a>","takashio":"×","jishin":"〇","tsunami":"全科","kaji":"なし","naisui":"","kazan":""}
+{"Name":"みよし市民病院","Jusho":"愛知県みよし市三好町八和田山15番地","kouzui":"<a href='tel:0561-33-3300'>0561-33-3300</a>","gake":"<a href='http://www.hospital-miyoshi.jp/' target='_blank'>http://www.hospital-miyoshi.jp/</a>","takashio":"×","jishin":"〇","tsunami":"全科","kaji":"なし","naisui":"","kazan":""}
 ,
 {"Name":"原クリニック","Jusho":"愛知県あま市森4-2-2","kouzui":"<a href='tel:052-441-1117'>052-441-1117</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科・小児科・循環器内科","kaji":"名古屋第一赤十字病院（名古屋市中村区道下町3丁目35番地）","naisui":"","kazan":""}
 ,
