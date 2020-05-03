@@ -52,9 +52,9 @@
 ,
 {"Name":"医療法人清流会新都心小林クリニック","Jusho":"埼玉県さいたま市大宮区吉敷町4-262-8-2F","kouzui":"<a href='tel:048-645-5884'>048-645-5884</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"新都心こどもクリニック","Jusho":"埼玉県さいたま市大宮区吉敷町4-262-10-4F","kouzui":"<a href='tel:048-648-0260'>048-648-0260</a>","gake":"<a href='www.s-akashi.jp' target='_blank'>www.s-akashi.jp</a>","takashio":"×","jishin":"〇","tsunami":"小児科","kaji":"","naisui":"","kazan":""}
+{"Name":"新都心こどもクリニック","Jusho":"埼玉県さいたま市大宮区吉敷町4-262-10-4F","kouzui":"<a href='tel:048-648-0260'>048-648-0260</a>","gake":"<a href='http://www.s-akashi.jp' target='_blank'>http://www.s-akashi.jp</a>","takashio":"×","jishin":"〇","tsunami":"小児科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"医療法人大宮エヴァグリーンクリニック","Jusho":"埼玉県さいたま市大宮区下町2?16?1アクロス3F","kouzui":"<a href='tel:048-647-3203'>048-647-3203</a>","gake":"<a href='omiyaever.jp' target='_blank'>omiyaever.jp</a>","takashio":"〇","jishin":"〇","tsunami":"消化器科・泌尿器科・内科","kaji":"当院・自治医科大学附属さいたま医療センター（埼玉県さいたま市大宮区天沼町1?847）さいたま赤十字病院（埼玉県さいたま市中央区新都心1?5）","naisui":"","kazan":""}
+{"Name":"医療法人大宮エヴァグリーンクリニック","Jusho":"埼玉県さいたま市大宮区下町2?16?1アクロス3F","kouzui":"<a href='tel:048-647-3203'>048-647-3203</a>","gake":"<a href='http://omiyaever.jp' target='_blank'>http://omiyaever.jp</a>","takashio":"〇","jishin":"〇","tsunami":"消化器科・泌尿器科・内科","kaji":"当院・自治医科大学附属さいたま医療センター（埼玉県さいたま市大宮区天沼町1?847）さいたま赤十字病院（埼玉県さいたま市中央区新都心1?5）","naisui":"","kazan":""}
 ,
 {"Name":"のなか内科","Jusho":"埼玉県さいたま市大宮区下町3-7-1グランドミッドタワーズ大宮スカイタワー1階","kouzui":"<a href='tel:048-641-8777'>048-641-8777</a>","gake":"<a href='http://www.nonaka-naika.com/' target='_blank'>http://www.nonaka-naika.com/</a>","takashio":"〇","jishin":"〇","tsunami":"内科消化器内科","kaji":"","naisui":"","kazan":""}
 ,
@@ -78,7 +78,7 @@
 ,
 {"Name":"山内クリニック","Jusho":"埼玉県さいたま市大宮区市桜木町1-9-4エクセレント大宮ビル1階","kouzui":"<a href='tel:048-640-3000'>048-640-3000</a>","gake":"<a href='http://www.yamauchi-clinic.or.jp/' target='_blank'>http://www.yamauchi-clinic.or.jp/</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"大宮井上眼科クリニック","Jusho":"埼玉県さいたま市大宮区桜木町1-8-1ベルヴュオフィス3F","kouzui":"<a href='tel:048-871-9711'>048-871-9711</a>","gake":"<a href='www.inouye-eye.or.jp' target='_blank'>www.inouye-eye.or.jp</a>","takashio":"×","jishin":"〇","tsunami":"眼科","kaji":"","naisui":"","kazan":""}
+{"Name":"大宮井上眼科クリニック","Jusho":"埼玉県さいたま市大宮区桜木町1-8-1ベルヴュオフィス3F","kouzui":"<a href='tel:048-871-9711'>048-871-9711</a>","gake":"<a href='http://www.inouye-eye.or.jp' target='_blank'>http://www.inouye-eye.or.jp</a>","takashio":"×","jishin":"〇","tsunami":"眼科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"谷口整形外科リハビリクリニック","Jusho":"埼玉県さいたま市大宮区上小町649","kouzui":"<a href='tel:048-649-0789'>048-649-0789</a>","gake":"<a href='https://taniguchiseikei.com/' target='_blank'>https://taniguchiseikei.com/</a>","takashio":"〇","jishin":"〇","tsunami":"整形外科","kaji":"","naisui":"","kazan":""}
 ,
@@ -194,7 +194,7 @@
 ,
 {"Name":"こうけつ内科胃腸内科クリニック","Jusho":"埼玉県さいたま市緑区東浦和9-17-14","kouzui":"<a href='tel:048-875-0011'>048-875-0011</a>","gake":"<a href='https://koketsu.clinic/' target='_blank'>https://koketsu.clinic/</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"関根内科医院","Jusho":"埼玉県さいたま市緑区原山1-12-16","kouzui":"<a href='tel:048-882-2925'>048-882-2925</a>","gake":"<a href='sekine-naika.com' target='_blank'>sekine-naika.com</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
+{"Name":"関根内科医院","Jusho":"埼玉県さいたま市緑区原山1-12-16","kouzui":"<a href='tel:048-882-2925'>048-882-2925</a>","gake":"<a href='http://sekine-naika.com' target='_blank'>http://sekine-naika.com</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"医療法人博仁会共済病院","Jusho":"埼玉県さいたま市緑区原山3-15-31","kouzui":"<a href='tel:048-882-2867'>048-882-2867</a>","gake":"<a href='http://www.kyosai-hosp.or.jp/' target='_blank'>http://www.kyosai-hosp.or.jp/</a>","takashio":"×","jishin":"〇","tsunami":"内科外科整形外科婦人科麻酔科","kaji":"","naisui":"","kazan":""}
 ,
@@ -228,7 +228,7 @@
 ,
 {"Name":"医療法人埼玉病院","Jusho":"埼玉県川越市西小仙波町1-8-3","kouzui":"<a href='tel:049-224-5911'>049-224-5911</a>","gake":"<a href='https://saitamahp.or.jp/' target='_blank'>https://saitamahp.or.jp/</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"皆川医院","Jusho":"埼玉県川越市西小仙波町1-5-3","kouzui":"<a href='tel:049-227-0330'>049-227-0330</a>","gake":"<a href='minagawaclinic.com' target='_blank'>minagawaclinic.com</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"三井病院（埼玉県川越市連雀町19-3）","naisui":"","kazan":""}
+{"Name":"皆川医院","Jusho":"埼玉県川越市西小仙波町1-5-3","kouzui":"<a href='tel:049-227-0330'>049-227-0330</a>","gake":"<a href='http://minagawaclinic.jp/' target='_blank'>http://minagawaclinic.jp/</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"三井病院（埼玉県川越市連雀町19-3）","naisui":"","kazan":""}
 ,
 {"Name":"さとうクリニック","Jusho":"埼玉県川越市中原町2-16-3第2武州ビル1F","kouzui":"<a href='tel:049-225-8088'>049-225-8088</a>","gake":"<a href='https://www.sato-cl-kawagoe.jp' target='_blank'>https://www.sato-cl-kawagoe.jp</a>","takashio":"〇","jishin":"〇","tsunami":"内科皮膚科小児科呼吸器科アレルギー科形成外科","kaji":"①埼玉医科大学総合医療センター（〒350-8550埼玉県川越市鴨田1981番地）②防衛医科大学病院（〒359-8513埼玉県所沢市並木3-2）","naisui":"","kazan":""}
 ,
@@ -260,7 +260,7 @@
 ,
 {"Name":"もろ小児科医院","Jusho":"埼玉県川越市宮元町76-31","kouzui":"<a href='tel:049-226-4010'>049-226-4010</a>","gake":"<a href='http://www.moro-shounika.com' target='_blank'>http://www.moro-shounika.com</a>","takashio":"〇","jishin":"〇","tsunami":"小児科アレルギー科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"かわごえ循環器・内科クリニック","Jusho":"埼玉県川越市的場北1-15-10","kouzui":"<a href='tel:049-233-0777'>049-233-0777</a>","gake":"<a href='kawagoe-cv.com' target='_blank'>kawagoe-cv.com</a>","takashio":"〇","jishin":"〇","tsunami":"内科□","kaji":"","naisui":"","kazan":""}
+{"Name":"かわごえ循環器・内科クリニック","Jusho":"埼玉県川越市的場北1-15-10","kouzui":"<a href='tel:049-233-0777'>049-233-0777</a>","gake":"<a href='http://kawagoe-cv.com' target='_blank'>http://kawagoe-cv.com</a>","takashio":"〇","jishin":"〇","tsunami":"内科□","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"石丸皮フ科内科医院","Jusho":"埼玉県川越市的場北1-12-12","kouzui":"<a href='tel:049-231-1310'>049-231-1310</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"皮膚科","kaji":"","naisui":"","kazan":""}
 ,
@@ -272,7 +272,7 @@
 ,
 {"Name":"川越駅前胃腸・肛門クリニック","Jusho":"埼玉県川越市脇田町103番","kouzui":"<a href='tel:049-227-8686'>049-227-8686</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内視鏡内科胃腸内科外科肛門科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"社会医療法人社団尚篤会赤心クリニック","Jusho":"埼玉県川越市脇田本町25-18","kouzui":"<a href='tel:049-242-8601'>049-242-8601</a>","gake":"<a href='www.sekishindo.or.jp/' target='_blank'>www.sekishindo.or.jp/</a>","takashio":"×","jishin":"〇","tsunami":"泌尿器科循環器科","kaji":"赤心堂病院（埼玉県川越市脇田本町25-19）","naisui":"","kazan":""}
+{"Name":"社会医療法人社団尚篤会赤心クリニック","Jusho":"埼玉県川越市脇田本町25-18","kouzui":"<a href='tel:049-242-8601'>049-242-8601</a>","gake":"<a href='http://www.sekishindo.or.jp/' target='_blank'>http://www.sekishindo.or.jp/</a>","takashio":"×","jishin":"〇","tsunami":"泌尿器科循環器科","kaji":"赤心堂病院（埼玉県川越市脇田本町25-19）","naisui":"","kazan":""}
 ,
 {"Name":"赤心堂病院","Jusho":"埼玉県川越市脇田本町25-19","kouzui":"<a href='tel:049-242-1181'>049-242-1181</a>","gake":"<a href='https://www.sekishindo.or.jp' target='_blank'>https://www.sekishindo.or.jp</a>","takashio":"×","jishin":"〇","tsunami":"内科、外科、整形外科、産婦人科、皮膚科、脳外科、形成外科","kaji":"","naisui":"","kazan":""}
 ,
@@ -300,7 +300,7 @@
 ,
 {"Name":"正田整形外科クリニック","Jusho":"埼玉県熊谷市桜木町1-71","kouzui":"<a href='tel:048-599-3622'>048-599-3622</a>","gake":"<a href='https://shoda-orthoclinic.com' target='_blank'>https://shoda-orthoclinic.com</a>","takashio":"×","jishin":"〇","tsunami":"整形外科皮膚科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"西山整形外科リウマチクリニック","Jusho":"埼玉県熊谷市筑波3-202ティアラ214階","kouzui":"<a href='tel:048-598-3777'>048-598-3777</a>","gake":"<a href='website2.infomity.net/8220000663/' target='_blank'>website2.infomity.net/8220000663/</a>","takashio":"×","jishin":"〇","tsunami":"整形外科リウマチ科","kaji":"","naisui":"","kazan":""}
+{"Name":"西山整形外科リウマチクリニック","Jusho":"埼玉県熊谷市筑波3-202ティアラ214階","kouzui":"<a href='tel:048-598-3777'>048-598-3777</a>","gake":"<a href='http://website2.infomity.net/8220000663/' target='_blank'>http://website2.infomity.net/8220000663/</a>","takashio":"×","jishin":"〇","tsunami":"整形外科リウマチ科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"医療法人石川医院","Jusho":"埼玉県熊谷市弥生1丁目50番地","kouzui":"<a href='tel:048-521-0089'>048-521-0089</a>","gake":"<a href='https://medical-clinic-3531.business.site/' target='_blank'>https://medical-clinic-3531.business.site/</a>","takashio":"〇","jishin":"〇","tsunami":"内科、精神科、心療内科","kaji":"","naisui":"","kazan":""}
 ,
@@ -316,7 +316,7 @@
 ,
 {"Name":"医療法人啓清会関東脳神経外科病院","Jusho":"埼玉県熊谷市代1120","kouzui":"<a href='tel:048-521-3133'>048-521-3133</a>","gake":"<a href='http://kantounouge.com/' target='_blank'>http://kantounouge.com/</a>","takashio":"×","jishin":"〇","tsunami":"脳神経外科病院","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"くまがやクリニック","Jusho":"埼玉県熊谷市大原3丁目6番3号","kouzui":"<a href='tel:048-523-0003'>048-523-0003</a>","gake":"<a href='www.kubojima.com/home.html' target='_blank'>www.kubojima.com/home.html</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"埼玉慈恵病院（埼玉県熊谷市石原3-208）熊谷総合病院（埼玉県熊谷市中西4丁目5番1号）深谷赤十字病院（埼玉県深谷市上柴町西5丁目8番地1）","naisui":"","kazan":""}
+{"Name":"くまがやクリニック","Jusho":"埼玉県熊谷市大原3丁目6番3号","kouzui":"<a href='tel:048-523-0003'>048-523-0003</a>","gake":"<a href='http://www.kubojima.com/home.html' target='_blank'>http://www.kubojima.com/home.html</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"埼玉慈恵病院（埼玉県熊谷市石原3-208）熊谷総合病院（埼玉県熊谷市中西4丁目5番1号）深谷赤十字病院（埼玉県深谷市上柴町西5丁目8番地1）","naisui":"","kazan":""}
 ,
 {"Name":"平田クリニック","Jusho":"埼玉県熊谷市肥塚4-205","kouzui":"<a href='tel:048-520-2255'>048-520-2255</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科・小児科","kaji":"","naisui":"","kazan":""}
 ,
@@ -382,7 +382,7 @@
 ,
 {"Name":"北村医院","Jusho":"埼玉県川口市東川口4-19-12","kouzui":"<a href='tel:048-294-6677'>048-294-6677</a>","gake":"<a href='https://kitamuta-iin.net' target='_blank'>https://kitamuta-iin.net</a>","takashio":"〇","jishin":"〇","tsunami":"内科小児科","kaji":"川口市立医療センター埼玉県川口市大字西新井宿180","naisui":"","kazan":""}
 ,
-{"Name":"医療法人社団協友会東川口病院","Jusho":"埼玉県川口市東川口2-10-8","kouzui":"<a href='tel:048-295-1000'>048-295-1000</a>","gake":"<a href='www.e-kawaguchi-hp.jp' target='_blank'>www.e-kawaguchi-hp.jp</a>","takashio":"×","jishin":"〇","tsunami":"全診療科","kaji":"","naisui":"","kazan":""}
+{"Name":"医療法人社団協友会東川口病院","Jusho":"埼玉県川口市東川口2-10-8","kouzui":"<a href='tel:048-295-1000'>048-295-1000</a>","gake":"<a href='http://www.e-kawaguchi-hp.jp' target='_blank'>http://www.e-kawaguchi-hp.jp</a>","takashio":"×","jishin":"〇","tsunami":"全診療科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"平愛クリニック","Jusho":"埼玉県川口市西立野535-1グリーンフォレスト1階","kouzui":"<a href='tel:048-229-2388'>048-229-2388</a>","gake":"<a href='http://heiaiclinic.server-shared.com/' target='_blank'>http://heiaiclinic.server-shared.com/</a>","takashio":"〇","jishin":"〇","tsunami":"内科循環器内科アレルギー科糖尿病内科","kaji":"","naisui":"","kazan":""}
 ,
@@ -470,7 +470,7 @@
 ,
 {"Name":"原眼科医院","Jusho":"埼玉県所沢市緑町4-6-3","kouzui":"<a href='tel:04-2939-8321'>04-2939-8321</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"眼科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"所沢呼吸器科クリニック","Jusho":"埼玉県所沢市東住吉7-8富士山ビル4階","kouzui":"<a href='tel:04-2940-8180'>04-2940-8180</a>","gake":"<a href='www.tokorozawa-kokyuki.com' target='_blank'>www.tokorozawa-kokyuki.com</a>","takashio":"×","jishin":"〇","tsunami":"内科,呼吸器科","kaji":"","naisui":"","kazan":""}
+{"Name":"所沢呼吸器科クリニック","Jusho":"埼玉県所沢市東住吉7-8富士山ビル4階","kouzui":"<a href='tel:04-2940-8180'>04-2940-8180</a>","gake":"<a href='http://www.tokorozawa-kokyuki.com' target='_blank'>http://www.tokorozawa-kokyuki.com</a>","takashio":"×","jishin":"〇","tsunami":"内科,呼吸器科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"みかみこどもクリニック","Jusho":"埼玉県所沢市南住吉21-12","kouzui":"<a href='tel:04-2997-8080'>04-2997-8080</a>","gake":"<a href='https://mikami-kids-clinic.com/' target='_blank'>https://mikami-kids-clinic.com/</a>","takashio":"×","jishin":"〇","tsunami":"小児科","kaji":"","naisui":"","kazan":""}
 ,
@@ -488,7 +488,7 @@
 ,
 {"Name":"医療法人社団和風会所沢中央病院","Jusho":"埼玉県所沢市くすのき台3-18-1","kouzui":"<a href='tel:04-2994-1265'>04-2994-1265</a>","gake":"<a href='http://www.wafukai.or.jp/tch/' target='_blank'>http://www.wafukai.or.jp/tch/</a>","takashio":"×","jishin":"〇","tsunami":"内科外科呼吸器外科脳神経外科眼科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"飯能整形外科病院","Jusho":"埼玉県飯能市東町12-2","kouzui":"<a href='tel:042-975-7575'>042-975-7575</a>","gake":"<a href='www.taiichikai.com' target='_blank'>www.taiichikai.com</a>","takashio":"〇","jishin":"〇","tsunami":"整形外科内科","kaji":"","naisui":"","kazan":""}
+{"Name":"飯能整形外科病院","Jusho":"埼玉県飯能市東町12-2","kouzui":"<a href='tel:042-975-7575'>042-975-7575</a>","gake":"<a href='http://www.taiichikai.com' target='_blank'>http://www.taiichikai.com</a>","takashio":"〇","jishin":"〇","tsunami":"整形外科内科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"東飯能駅前クリニック","Jusho":"埼玉県飯能市柳町3-5","kouzui":"<a href='tel:042-974-6633'>042-974-6633</a>","gake":"<a href='https://www.jinyu-kai.com/higashihannou' target='_blank'>https://www.jinyu-kai.com/higashihannou</a>","takashio":"×","jishin":"〇","tsunami":"内科小児科","kaji":"","naisui":"","kazan":""}
 ,
@@ -552,7 +552,7 @@
 ,
 {"Name":"医療法人社団春日部さくら病院","Jusho":"埼玉県春日部市金崎702番地1","kouzui":"<a href='tel:048-746-7071'>048-746-7071</a>","gake":"<a href='http://www.k-sakurahosp.com/' target='_blank'>http://www.k-sakurahosp.com/</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"独協医科大学埼玉医療センター","naisui":"","kazan":""}
 ,
-{"Name":"さやま脳神経クリニック","Jusho":"埼玉県狭山市柏原1511-1","kouzui":"<a href='tel:04-2900-1880'>04-2900-1880</a>","gake":"<a href='sayama-ns.com/' target='_blank'>sayama-ns.com/</a>","takashio":"〇","jishin":"〇","tsunami":"脳神経外科内科","kaji":"","naisui":"","kazan":""}
+{"Name":"さやま脳神経クリニック","Jusho":"埼玉県狭山市柏原1511-1","kouzui":"<a href='tel:04-2900-1880'>04-2900-1880</a>","gake":"<a href='http://sayama-ns.com/' target='_blank'>http://sayama-ns.com/</a>","takashio":"〇","jishin":"〇","tsunami":"脳神経外科内科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"医療法人時和会中園医院","Jusho":"埼玉県狭山市狭山台4-3-6","kouzui":"<a href='tel:04-2958-1191'>04-2958-1191</a>","gake":"<a href='https://www.nakazonoiin.com/' target='_blank'>https://www.nakazonoiin.com/</a>","takashio":"×","jishin":"〇","tsunami":"眼科内科小児科皮膚科","kaji":"","naisui":"","kazan":""}
 ,
@@ -664,7 +664,7 @@
 ,
 {"Name":"草加きたやクリニック","Jusho":"埼玉県草加市北谷1-22-13北谷ビル1階","kouzui":"<a href='tel:048-941-7800'>048-941-7800</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"呼吸器内科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"メディカルハブクリニック","Jusho":"埼玉県草加市金明町516-1-1","kouzui":"<a href='tel:048-943-8292'>048-943-8292</a>","gake":"<a href='www.mhub-cl.jp' target='_blank'>www.mhub-cl.jp</a>","takashio":"×","jishin":"〇","tsunami":"内科循環器内科","kaji":"","naisui":"","kazan":""}
+{"Name":"メディカルハブクリニック","Jusho":"埼玉県草加市金明町516-1-1","kouzui":"<a href='tel:048-943-8292'>048-943-8292</a>","gake":"<a href='http://www.mhub-cl.jp' target='_blank'>http://www.mhub-cl.jp</a>","takashio":"×","jishin":"〇","tsunami":"内科循環器内科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"草加グリーンクリニック","Jusho":"埼玉県草加市金明町604-1","kouzui":"<a href='tel:048-954-7677'>048-954-7677</a>","gake":"<a href='http://www.souka-gen-clinic.com' target='_blank'>http://www.souka-gen-clinic.com</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
@@ -686,7 +686,7 @@
 ,
 {"Name":"医療法人八東会むろた皮フ科","Jusho":"埼玉県越谷市下間久里790-1","kouzui":"<a href='tel:048-970-4112'>048-970-4112</a>","gake":"<a href='http://www.murota-hifuka.jp' target='_blank'>http://www.murota-hifuka.jp</a>","takashio":"×","jishin":"〇","tsunami":"皮膚科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"弥栄医院","Jusho":"埼玉県越谷市弥栄町1-105-184","kouzui":"<a href='tel:048-974-4407'>048-974-4407</a>","gake":"<a href='www.yasakaiin.com' target='_blank'>www.yasakaiin.com</a>","takashio":"×","jishin":"〇","tsunami":"内科小児科","kaji":"","naisui":"","kazan":""}
+{"Name":"弥栄医院","Jusho":"埼玉県越谷市弥栄町1-105-184","kouzui":"<a href='tel:048-974-4407'>048-974-4407</a>","gake":"<a href='http://www.yasakaiin.com' target='_blank'>http://www.yasakaiin.com</a>","takashio":"×","jishin":"〇","tsunami":"内科小児科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"まこと診療所","Jusho":"埼玉県越谷市南荻島4247番1","kouzui":"<a href='tel:048-967-5888'>048-967-5888</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科・消化器科皮膚科・アレルギー科","kaji":"","naisui":"","kazan":""}
 ,
@@ -772,7 +772,7 @@
 ,
 {"Name":"三浦医院","Jusho":"埼玉県朝霞市幸町1丁目3-2","kouzui":"<a href='tel:048-461-3802'>048-461-3802</a>","gake":"<a href='http://miuraiin.com/index.html' target='_blank'>http://miuraiin.com/index.html</a>","takashio":"〇","jishin":"〇","tsunami":"内科皮膚科小児科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"弁財泌尿器科内科クリニック","Jusho":"埼玉県朝霞市西弁財1ー14ー4","kouzui":"<a href='tel:048-487-8160'>048-487-8160</a>","gake":"<a href='benzaiclinic.com' target='_blank'>benzaiclinic.com</a>","takashio":"×","jishin":"〇","tsunami":"内科泌尿器科","kaji":"","naisui":"","kazan":""}
+{"Name":"弁財泌尿器科内科クリニック","Jusho":"埼玉県朝霞市西弁財1ー14ー4","kouzui":"<a href='tel:048-487-8160'>048-487-8160</a>","gake":"<a href='http://benzaiclinic.com' target='_blank'>http://benzaiclinic.com</a>","takashio":"×","jishin":"〇","tsunami":"内科泌尿器科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"TMGサテライトクリニック朝霞台","Jusho":"埼玉県朝霞市西弁財一丁目8番21号","kouzui":"<a href='tel:048-452-7700'>048-452-7700</a>","gake":"<a href='https://tmgsatellitecl-asakadai.jp/' target='_blank'>https://tmgsatellitecl-asakadai.jp/</a>","takashio":"×","jishin":"〇","tsunami":"内科腎臓内科婦人科","kaji":"TMGあさか医療センター（埼玉県朝霞市溝沼1340-1）","naisui":"","kazan":""}
 ,
@@ -798,7 +798,7 @@
 ,
 {"Name":"志木ファミリークリニック","Jusho":"埼玉県志木市本町5-12-21GRACE1階","kouzui":"<a href='tel:048-487-7681'>048-487-7681</a>","gake":"<a href='https://fcg.world/' target='_blank'>https://fcg.world/</a>","takashio":"〇","jishin":"〇","tsunami":"内科小児科","kaji":"埼玉病院(埼玉県和光市諏訪2-1)","naisui":"","kazan":""}
 ,
-{"Name":"医療法人社団悠友会志木駅前クリニック","Jusho":"埼玉県志木市本町5-21-63","kouzui":"<a href='tel:048-473-8101'>048-473-8101</a>","gake":"<a href='www.shikiekimae-clinic.ne.jp' target='_blank'>www.shikiekimae-clinic.ne.jp</a>","takashio":"×","jishin":"〇","tsunami":"内科透析科","kaji":"","naisui":"","kazan":""}
+{"Name":"医療法人社団悠友会志木駅前クリニック","Jusho":"埼玉県志木市本町5-21-63","kouzui":"<a href='tel:048-473-8101'>048-473-8101</a>","gake":"<a href='http://www.shikiekimae-clinic.ne.jp' target='_blank'>http://www.shikiekimae-clinic.ne.jp</a>","takashio":"×","jishin":"〇","tsunami":"内科透析科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"西川医院","Jusho":"埼玉県志木市本町2-4-46","kouzui":"<a href='tel:048-471-0074'>048-471-0074</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
@@ -816,7 +816,7 @@
 ,
 {"Name":"和光脳神経外科・内科","Jusho":"埼玉県和光市丸山台2-29-1","kouzui":"<a href='tel:048-424-3870'>048-424-3870</a>","gake":"<a href='http://www.wakou-nouge.com/index.html' target='_blank'>http://www.wakou-nouge.com/index.html</a>","takashio":"×","jishin":"〇","tsunami":"脳神経外科内科","kaji":"国立病院機構埼玉病院","naisui":"","kazan":""}
 ,
-{"Name":"和光耳鼻咽喉科医院","Jusho":"埼玉県和光市本町2-6レインボープラザ3階","kouzui":"<a href='tel:048-467-0889'>048-467-0889</a>","gake":"<a href='www.wako-ent.com/keiwa-wako/' target='_blank'>www.wako-ent.com/keiwa-wako/</a>","takashio":"〇","jishin":"〇","tsunami":"耳鼻咽喉科アレルギー科","kaji":"独立行政法人国立病院機構埼玉病院（和光市諏訪2-1）日本大学医学部付属板橋病院（板橋区大谷口上町30-1）","naisui":"","kazan":""}
+{"Name":"和光耳鼻咽喉科医院","Jusho":"埼玉県和光市本町2-6レインボープラザ3階","kouzui":"<a href='tel:048-467-0889'>048-467-0889</a>","gake":"<a href='http://www.wako-ent.com/keiwa-wako/' target='_blank'>http://www.wako-ent.com/keiwa-wako/</a>","takashio":"〇","jishin":"〇","tsunami":"耳鼻咽喉科アレルギー科","kaji":"独立行政法人国立病院機構埼玉病院（和光市諏訪2-1）日本大学医学部付属板橋病院（板橋区大谷口上町30-1）","naisui":"","kazan":""}
 ,
 {"Name":"中川眼科","Jusho":"埼玉県和光市本町2-6レインボープラザ2F","kouzui":"<a href='tel:048-465-1144'>048-465-1144</a>","gake":"<a href='http://www.nakagawa-ganka.com' target='_blank'>http://www.nakagawa-ganka.com</a>","takashio":"×","jishin":"〇","tsunami":"眼科","kaji":"","naisui":"","kazan":""}
 ,
@@ -984,7 +984,7 @@
 ,
 {"Name":"明海大学歯学部□付属明海大学病院","Jusho":"埼玉県坂戸市けやき台1番1号","kouzui":"<a href='tel:049-279-2733'>049-279-2733</a>","gake":"<a href='https://www.meikai.ac.jp/hospital/' target='_blank'>https://www.meikai.ac.jp/hospital/</a>","takashio":"×","jishin":"〇","tsunami":"内科耳鼻いんこう科眼科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"医療法人入江こどもクリニック","Jusho":"埼玉県幸手市幸手151番地1","kouzui":"<a href='tel:0480-44-1155'>0480-44-1155</a>","gake":"<a href='iricli.byoinnavi.jp/sp/index.html' target='_blank'>iricli.byoinnavi.jp/sp/index.html</a>","takashio":"〇","jishin":"〇","tsunami":"小児科","kaji":"済生会栗橋病院（埼玉県久喜市小右衛門714-6）埼玉県立小児医療センター（埼玉県さいたま市中央区新都心1-2）茨城県西南医療センター（茨城県猿島郡境町2190）","naisui":"","kazan":""}
+{"Name":"医療法人入江こどもクリニック","Jusho":"埼玉県幸手市幸手151番地1","kouzui":"<a href='tel:0480-44-1155'>0480-44-1155</a>","gake":"<a href='http://iricli.byoinnavi.jp/sp/index.html' target='_blank'>http://iricli.byoinnavi.jp/sp/index.html</a>","takashio":"〇","jishin":"〇","tsunami":"小児科","kaji":"済生会栗橋病院（埼玉県久喜市小右衛門714-6）埼玉県立小児医療センター（埼玉県さいたま市中央区新都心1-2）茨城県西南医療センター（茨城県猿島郡境町2190）","naisui":"","kazan":""}
 ,
 {"Name":"医療法人慈照会むさしのメディカルクリニック","Jusho":"埼玉県幸手市幸手2807","kouzui":"<a href='tel:0480-40-6001'>0480-40-6001</a>","gake":"<a href='https://musashino-medical.com/' target='_blank'>https://musashino-medical.com/</a>","takashio":"×","jishin":"〇","tsunami":"整形外科内科眼科","kaji":"","naisui":"","kazan":""}
 ,
@@ -1012,7 +1012,7 @@
 ,
 {"Name":"美なみ形成皮フ科","Jusho":"埼玉県吉川市吉川市美南5-31-2-2F","kouzui":"<a href='tel:048-999-6012'>048-999-6012</a>","gake":"<a href='http://www.minamikeisei.com/' target='_blank'>http://www.minamikeisei.com/</a>","takashio":"×","jishin":"〇","tsunami":"皮膚科形成外科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"秋本小児科アレルギー科医院","Jusho":"埼玉県吉川市保1-3-7吉川医療ビル5階","kouzui":"<a href='tel:048-983-1515'>048-983-1515</a>","gake":"<a href='instagram#akimotosyounika' target='_blank'>instagram#akimotosyounika</a>","takashio":"×","jishin":"〇","tsunami":"小児科アレルギー科","kaji":"","naisui":"","kazan":""}
+{"Name":"秋本小児科アレルギー科医院","Jusho":"埼玉県吉川市保1-3-7吉川医療ビル5階","kouzui":"<a href='tel:048-983-1515'>048-983-1515</a>","gake":"<a href='http://instagram#akimotosyounika' target='_blank'>http://instagram#akimotosyounika</a>","takashio":"×","jishin":"〇","tsunami":"小児科アレルギー科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"つしまメンタルクリニック","Jusho":"埼玉県吉川市保1-20-1竹内ビル3F","kouzui":"<a href='tel:048-981-0645'>048-981-0645</a>","gake":"<a href='http://tsushimamental.sakura.ne.jp' target='_blank'>http://tsushimamental.sakura.ne.jp</a>","takashio":"×","jishin":"△","tsunami":"精神科","kaji":"","naisui":"","kazan":""}
 ,

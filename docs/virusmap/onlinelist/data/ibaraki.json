@@ -62,7 +62,7 @@
 ,
 {"Name":"小川医院","Jusho":"茨城県日立市相賀町5-1","kouzui":"<a href='tel:0294-21-0963'>0294-21-0963</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科糖尿病内科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"医療法人聡明会平和台しのはらクリニック","Jusho":"茨城県日立市諏訪町3-8-6","kouzui":"<a href='tel:0294-34-6800'>0294-34-6800</a>","gake":"<a href='www.shinohara-clinic.net/' target='_blank'>www.shinohara-clinic.net/</a>","takashio":"×","jishin":"〇","tsunami":"内科外科脳神経外科整形外科ペインクリニック","kaji":"日立総合病院（茨城県日立市城南町2-1-1）ひたち医療センター（茨城県日立市鮎川町2-8-16）","naisui":"","kazan":""}
+{"Name":"医療法人聡明会平和台しのはらクリニック","Jusho":"茨城県日立市諏訪町3-8-6","kouzui":"<a href='tel:0294-34-6800'>0294-34-6800</a>","gake":"<a href='http://www.shinohara-clinic.net/' target='_blank'>http://www.shinohara-clinic.net/</a>","takashio":"×","jishin":"〇","tsunami":"内科外科脳神経外科整形外科ペインクリニック","kaji":"日立総合病院（茨城県日立市城南町2-1-1）ひたち医療センター（茨城県日立市鮎川町2-8-16）","naisui":"","kazan":""}
 ,
 {"Name":"おおたしろクリニック","Jusho":"茨城県日立市平和町1-17-15","kouzui":"<a href='tel:0294-22-8800'>0294-22-8800</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"日立総合病院（茨城県日立市城南町2-1-1）","naisui":"","kazan":""}
 ,
@@ -168,7 +168,7 @@
 ,
 {"Name":"医療法人同仁会宮田医院","Jusho":"茨城県結城市大字結城30番地","kouzui":"<a href='tel:0296-32-5252'>0296-32-5252</a>","gake":"<a href='https://www.miyataclinic.jp/' target='_blank'>https://www.miyataclinic.jp/</a>","takashio":"〇","jishin":"〇","tsunami":"内科・小児科","kaji":"自治医科大学附属病院（栃木県下野市薬師寺1133-1）新小山市民病院（栃木県小山市大字神鳥谷2251-1）結城病院（茨城県結城市結城9629-1）城西病院（茨城県結城市結城10745-24）","naisui":"","kazan":""}
 ,
-{"Name":"牛尾病院","Jusho":"茨城県龍ヶ崎市馴柴町1-15-1","kouzui":"<a href='tel:0297-66-6111'>0297-66-6111</a>","gake":"<a href='www.ryujinkai.or.jp' target='_blank'>www.ryujinkai.or.jp</a>","takashio":"×","jishin":"〇","tsunami":"内科外科皮膚科整形外科","kaji":"","naisui":"","kazan":""}
+{"Name":"牛尾病院","Jusho":"茨城県龍ヶ崎市馴柴町1-15-1","kouzui":"<a href='tel:0297-66-6111'>0297-66-6111</a>","gake":"<a href='http://www.ryujinkai.or.jp' target='_blank'>http://www.ryujinkai.or.jp</a>","takashio":"×","jishin":"〇","tsunami":"内科外科皮膚科整形外科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"医療法人社団萌春会菊地整形外科","Jusho":"茨城県龍ケ崎市北方町633","kouzui":"<a href='tel:0297-64-6111'>0297-64-6111</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"整形外科","kaji":"","naisui":"","kazan":""}
 ,
@@ -284,7 +284,7 @@
 ,
 {"Name":"小倉医院","Jusho":"茨城県つくば市沼田181","kouzui":"<a href='tel:029-866-0108'>029-866-0108</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"飯田医院（茨城県つくば市沼田101）","naisui":"","kazan":""}
 ,
-{"Name":"前島レディースクリニック","Jusho":"茨城県つくば市松代4-10-12","kouzui":"<a href='tel:029-859-0726'>029-859-0726</a>","gake":"<a href='www1.ttcn.ne.jp/~maejima-L-clinic/' target='_blank'>www1.ttcn.ne.jp/~maejima-L-clinic/</a>","takashio":"×","jishin":"△","tsunami":"婦人科","kaji":"前島レディースクリニック","naisui":"","kazan":""}
+{"Name":"前島レディースクリニック","Jusho":"茨城県つくば市松代4-10-12","kouzui":"<a href='tel:029-859-0726'>029-859-0726</a>","gake":"<a href='http://www1.ttcn.ne.jp/~maejima-L-clinic/' target='_blank'>http://www1.ttcn.ne.jp/~maejima-L-clinic/</a>","takashio":"×","jishin":"△","tsunami":"婦人科","kaji":"前島レディースクリニック","naisui":"","kazan":""}
 ,
 {"Name":"つくばキッズクリニック","Jusho":"茨城県つくば市島名2610-1","kouzui":"<a href='tel:029-836-2825'>029-836-2825</a>","gake":"<a href='https://tsukuba-kids.com/' target='_blank'>https://tsukuba-kids.com/</a>","takashio":"〇","jishin":"〇","tsunami":"小児科小児内分泌内科","kaji":"","naisui":"","kazan":""}
 ,

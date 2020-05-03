@@ -22,7 +22,7 @@
 ,
 {"Name":"瀬川眼科","Jusho":"石川県金沢市寺中町ホ61番地9","kouzui":"<a href='tel:076-266-2222'>076-266-2222</a>","gake":"<a href='http://www.segawa-g.jp' target='_blank'>http://www.segawa-g.jp</a>","takashio":"×","jishin":"〇","tsunami":"眼科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"耳鼻咽喉科安田医院","Jusho":"石川県金沢市高尾南3丁目18番地","kouzui":"<a href='tel:076-296-0960'>076-296-0960</a>","gake":"<a href='www.yasuda-clinic.net' target='_blank'>www.yasuda-clinic.net</a>","takashio":"×","jishin":"〇","tsunami":"耳鼻咽喉科","kaji":"","naisui":"","kazan":""}
+{"Name":"耳鼻咽喉科安田医院","Jusho":"石川県金沢市高尾南3丁目18番地","kouzui":"<a href='tel:076-296-0960'>076-296-0960</a>","gake":"<a href='http://www.yasuda-clinic.net' target='_blank'>http://www.yasuda-clinic.net</a>","takashio":"×","jishin":"〇","tsunami":"耳鼻咽喉科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"山の上クリニック","Jusho":"金沢市山の上町5-5-1","kouzui":"<a href='tel:076-252-2111'>076-252-2111</a>","gake":"<a href='http://http://www.ne.jp/asahi/hilltp-c/med/' target='_blank'>http://http://www.ne.jp/asahi/hilltp-c/med/</a>","takashio":"×","jishin":"〇","tsunami":"整形外科","kaji":"木島病院(金沢市松寺町子41-1）","naisui":"","kazan":""}
 ,
@@ -56,7 +56,7 @@
 ,
 {"Name":"医療法人社団牧野整形外科医院","Jusho":"石川県小松市四丁町ろ3番地1","kouzui":"<a href='tel:0761-43-1236'>0761-43-1236</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"整形外科","kaji":"東野病院（小松市今江町7-468）東病院（小松市大領中町3-121）","naisui":"","kazan":""}
 ,
-{"Name":"十慈医院","Jusho":"石川県小松市龍助町42番地","kouzui":"<a href='tel:0761-22-03333'>0761-22-03333</a>","gake":"<a href='www.juji-clinic.com' target='_blank'>www.juji-clinic.com</a>","takashio":"〇","jishin":"〇","tsunami":"内科胃腸科","kaji":"小松市民病院（石川県小松市向本折町61）","naisui":"","kazan":""}
+{"Name":"十慈医院","Jusho":"石川県小松市龍助町42番地","kouzui":"<a href='tel:0761-22-03333'>0761-22-03333</a>","gake":"<a href='http://www.juji-clinic.com' target='_blank'>http://www.juji-clinic.com</a>","takashio":"〇","jishin":"〇","tsunami":"内科胃腸科","kaji":"小松市民病院（石川県小松市向本折町61）","naisui":"","kazan":""}
 ,
 {"Name":"広崎医院","Jusho":"石川県小松市日吉町51","kouzui":"<a href='tel:0761-23-2465'>0761-23-2465</a>","gake":"<a href='https://www.clinic-sora.jp/' target='_blank'>https://www.clinic-sora.jp/</a>","takashio":"〇","jishin":"〇","tsunami":"消化器内科胃腸内科内視鏡内科内科外科肛門外科皮膚科","kaji":"小松市民病院（石川県小松市向本折町61）","naisui":"","kazan":""}
 ,
@@ -162,7 +162,7 @@
 ,
 {"Name":"眼科わじま医院","Jusho":"石川県小松市幸町3-67","kouzui":"<a href='tel:0761-20-2288'>0761-20-2288</a>","gake":"<a href='http://wajima-eye-clinic.com/' target='_blank'>http://wajima-eye-clinic.com/</a>","takashio":"×","jishin":"〇","tsunami":"眼科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"もりした整形外科クリニック","Jusho":"石川県能美市辰口町654-1","kouzui":"<a href='tel:0761-51-6515'>0761-51-6515</a>","gake":"<a href='www.m-seikei.sakura.ne.jp/main.html' target='_blank'>www.m-seikei.sakura.ne.jp/main.html</a>","takashio":"〇","jishin":"〇","tsunami":"整形外科リウマチ科","kaji":"","naisui":"","kazan":""}
+{"Name":"もりした整形外科クリニック","Jusho":"石川県能美市辰口町654-1","kouzui":"<a href='tel:0761-51-6515'>0761-51-6515</a>","gake":"<a href='http://www.m-seikei.sakura.ne.jp/main.html' target='_blank'>http://www.m-seikei.sakura.ne.jp/main.html</a>","takashio":"〇","jishin":"〇","tsunami":"整形外科リウマチ科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"水本整形外科医院","Jusho":"石川県能美市寺井町や120番地","kouzui":"<a href='tel:0761-57-2511'>0761-57-2511</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"整形外科","kaji":"芳珠記念病院（石川県能美市緑が丘11-71）やわたメディカルセンター（石川県小松市八幡12-7）","naisui":"","kazan":""}
 ,
@@ -194,7 +194,7 @@
 ,
 {"Name":"金沢歯科医院","Jusho":"石川県野々市市押野2-198","kouzui":"<a href='tel:076-259-5363'>076-259-5363</a>","gake":"<a href='https://kanazawadc.amebaownd.com/' target='_blank'>https://kanazawadc.amebaownd.com/</a>","takashio":"〇","jishin":"〇","tsunami":"歯科、小児歯科、、矯正、口腔外科","kaji":"金沢大学付属病院（石川県金沢市宝町13-1）県立中央病院（石川県金沢市鞍月東2丁目1番地）","naisui":"","kazan":""}
 ,
-{"Name":"津山整形外科クリニック","Jusho":"石川県野々市市中林1丁目64街区1番","kouzui":"<a href='tel:076-259-5077'>076-259-5077</a>","gake":"<a href='www.tsuyamaortho.jp' target='_blank'>www.tsuyamaortho.jp</a>","takashio":"〇","jishin":"〇","tsunami":"整形外科リウマチ科","kaji":"公立松任石川中央病院石川県白山市倉光三丁目8番地","naisui":"","kazan":""}
+{"Name":"津山整形外科クリニック","Jusho":"石川県野々市市中林1丁目64街区1番","kouzui":"<a href='tel:076-259-5077'>076-259-5077</a>","gake":"<a href='http://www.tsuyamaortho.jp' target='_blank'>http://www.tsuyamaortho.jp</a>","takashio":"〇","jishin":"〇","tsunami":"整形外科リウマチ科","kaji":"公立松任石川中央病院石川県白山市倉光三丁目8番地","naisui":"","kazan":""}
 ,
 {"Name":"小野木医院","Jusho":"石川県野々市市本町2-18-2","kouzui":"<a href='tel:076-248-0238'>076-248-0238</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"金沢赤十字病院（石川県金沢市三馬2-251）","naisui":"","kazan":""}
 ,

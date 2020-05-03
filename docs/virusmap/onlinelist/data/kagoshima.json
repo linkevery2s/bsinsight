@@ -104,7 +104,7 @@
 ,
 {"Name":"医療法人野間口クリニック","Jusho":"鹿児島市小川町22-6プランドール小川町3","kouzui":"<a href='tel:099-219-4556'>099-219-4556</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"精神科心療内科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"天陽会中央クリニック","Jusho":"鹿児島県鹿児島市泉町16番1号","kouzui":"<a href='tel:0990-225-8650'>0990-225-8650</a>","gake":"<a href='htttps://www.tenyoukai.jp/' target='_blank'>htttps://www.tenyoukai.jp/</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"中央病院（鹿児島県鹿児島市泉町6番7号）","naisui":"","kazan":""}
+{"Name":"天陽会中央クリニック","Jusho":"鹿児島県鹿児島市泉町16番1号","kouzui":"<a href='tel:0990-225-8650'>0990-225-8650</a>","gake":"<a href='https://www.tenyoukai.jp/' target='_blank'>https://www.tenyoukai.jp/</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"中央病院（鹿児島県鹿児島市泉町6番7号）","naisui":"","kazan":""}
 ,
 {"Name":"まつなが耳鼻咽喉科","Jusho":"鹿児島県鹿児島市伊敷6-17-20","kouzui":"<a href='tel:090-218-0133'>090-218-0133</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"耳鼻咽喉科","kaji":"鹿児島医療センター（鹿児島市山下町8-1）","naisui":"","kazan":""}
 ,
@@ -136,7 +136,7 @@
 ,
 {"Name":"鮫島整形外科病院","Jusho":"鹿児島県鹿屋市寿1丁目1-1","kouzui":"<a href='tel:0994-43-2535'>0994-43-2535</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"整形外科リウマチ科リハビリテーション科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"大隅鹿屋病院","Jusho":"鹿児島県鹿屋市新川町6081-1","kouzui":"<a href='tel:0994-40-1111'>0994-40-1111</a>","gake":"<a href='www.kanoya-aishinkai.com' target='_blank'>www.kanoya-aishinkai.com</a>","takashio":"×","jishin":"〇","tsunami":"循環器内科","kaji":"","naisui":"","kazan":""}
+{"Name":"大隅鹿屋病院","Jusho":"鹿児島県鹿屋市新川町6081-1","kouzui":"<a href='tel:0994-40-1111'>0994-40-1111</a>","gake":"<a href='http://www.kanoya-aishinkai.com' target='_blank'>http://www.kanoya-aishinkai.com</a>","takashio":"×","jishin":"〇","tsunami":"循環器内科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"園田病院","Jusho":"鹿児島県枕崎市緑町219","kouzui":"<a href='tel:0993-72-0165'>0993-72-0165</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"眼科","kaji":"","naisui":"","kazan":""}
 ,
@@ -164,7 +164,7 @@
 ,
 {"Name":"池田温泉クリニック","Jusho":"鹿児島県垂水市田神3536番地1","kouzui":"<a href='tel:0994-32-6161'>0994-32-6161</a>","gake":"<a href='http://www.kouaikai.or.jp/' target='_blank'>http://www.kouaikai.or.jp/</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"愛宕山診療所","Jusho":"鹿児島県薩摩川内市入来町副田5950-32","kouzui":"<a href='tel:0996-44-5603'>0996-44-5603</a>","gake":"<a href='atago-yama.jp' target='_blank'>atago-yama.jp</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
+{"Name":"愛宕山診療所","Jusho":"鹿児島県薩摩川内市入来町副田5950-32","kouzui":"<a href='tel:0996-44-5603'>0996-44-5603</a>","gake":"<a href='http://atago-yama.jp' target='_blank'>http://atago-yama.jp</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"医療法人静和会ファミリーＨＰ薩摩","Jusho":"鹿児島県薩摩川内市水引町3247番地1","kouzui":"<a href='tel:0996-26-2211'>0996-26-2211</a>","gake":"<a href='https://www.fh-satsuma.jp/#' target='_blank'>https://www.fh-satsuma.jp/#</a>","takashio":"×","jishin":"〇","tsunami":"精神科心療内科","kaji":"","naisui":"","kazan":""}
 ,

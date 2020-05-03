@@ -30,13 +30,13 @@
 ,
 {"Name":"消化器科・内科井上クリニック","Jusho":"山形県山形市北町3-7-1","kouzui":"<a href='tel:023-681-6080'>023-681-6080</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"消化器内科","kaji":"山形市立病院済生館（山形県山形市七日町1-3-26）東北中央病院（山形県山形市和合町3-2-5）山形県立中央病院（山形県山形市大字青柳1800番地）","naisui":"","kazan":""}
 ,
-{"Name":"さとこ女性クリニック","Jusho":"山形県山形市大字中野4103","kouzui":"<a href='tel:023-687-0213'>023-687-0213</a>","gake":"<a href='www.satoko-clinic.info' target='_blank'>www.satoko-clinic.info</a>","takashio":"×","jishin":"〇","tsunami":"産婦人科","kaji":"山形大学医学部附属病院（山形県山形市飯田西2-2-2）山形県立中央病院（山形県山形市大字青柳1800番地）山形済生病院（山形県山形市沖町79-1）山形市立病院済生館（山形県山形市七日町1-3-26）","naisui":"","kazan":""}
+{"Name":"さとこ女性クリニック","Jusho":"山形県山形市大字中野4103","kouzui":"<a href='tel:023-687-0213'>023-687-0213</a>","gake":"<a href='http://www.satoko-clinic.info' target='_blank'>http://www.satoko-clinic.info</a>","takashio":"×","jishin":"〇","tsunami":"産婦人科","kaji":"山形大学医学部附属病院（山形県山形市飯田西2-2-2）山形県立中央病院（山形県山形市大字青柳1800番地）山形済生病院（山形県山形市沖町79-1）山形市立病院済生館（山形県山形市七日町1-3-26）","naisui":"","kazan":""}
 ,
 {"Name":"内ヶ崎医院","Jusho":"山形県山形市幸町12-50","kouzui":"<a href='tel:023-624-0547'>023-624-0547</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"精神科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"あかねケ丘えんどう耳鼻咽喉科","Jusho":"山形県山形市上町4-14-20","kouzui":"<a href='tel:023-645-7070'>023-645-7070</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"耳鼻咽喉科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"おおたけ医院","Jusho":"山形県山形市南三番町7-18","kouzui":"<a href='tel:023-633-2571'>023-633-2571</a>","gake":"<a href='www.otake-orl.jp' target='_blank'>www.otake-orl.jp</a>","takashio":"×","jishin":"〇","tsunami":"耳鼻咽喉科","kaji":"","naisui":"","kazan":""}
+{"Name":"おおたけ医院","Jusho":"山形県山形市南三番町7-18","kouzui":"<a href='tel:023-633-2571'>023-633-2571</a>","gake":"<a href='http://www.otake-orl.jp' target='_blank'>http://www.otake-orl.jp</a>","takashio":"×","jishin":"〇","tsunami":"耳鼻咽喉科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"しろにし診療所","Jusho":"山形県山形市城西町4-27-25","kouzui":"<a href='tel:023-643-2017'>023-643-2017</a>","gake":"<a href='http://y-mcoop.com/shironishi/' target='_blank'>http://y-mcoop.com/shironishi/</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
@@ -50,7 +50,7 @@
 ,
 {"Name":"かわごえ内科クリニック","Jusho":"山形県山形市松波2-2-9","kouzui":"<a href='tel:023-626-5120'>023-626-5120</a>","gake":"<a href='https://kawagoe-clinic.com' target='_blank'>https://kawagoe-clinic.com</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"山形県立中央病院（山形県山形市大字青柳1800番地）山形市立病院済生館（山形県山形市七日町1-3-26）","naisui":"","kazan":""}
 ,
-{"Name":"川越医院","Jusho":"山形県山形市大手町9-25","kouzui":"<a href='tel:023-641-6467'>023-641-6467</a>","gake":"<a href='www.kawagoeiin.com' target='_blank'>www.kawagoeiin.com</a>","takashio":"×","jishin":"〇","tsunami":"産婦人科内科","kaji":"","naisui":"","kazan":""}
+{"Name":"川越医院","Jusho":"山形県山形市大手町9-25","kouzui":"<a href='tel:023-641-6467'>023-641-6467</a>","gake":"<a href='http://www.kawagoeiin.com' target='_blank'>http://www.kawagoeiin.com</a>","takashio":"×","jishin":"〇","tsunami":"産婦人科内科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"かわしま内科循環器科クリニック","Jusho":"山形県山形市城西町5-29-22","kouzui":"<a href='tel:023-646-7220'>023-646-7220</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"山形市立病院済生館（山形県山形市七日町1-3-26）","naisui":"","kazan":""}
 ,
@@ -74,7 +74,7 @@
 ,
 {"Name":"皮ふ科桜井医院","Jusho":"山形県山形市南原町3-1-3","kouzui":"<a href='tel:023-625-1241'>023-625-1241</a>","gake":"<a href='https://www.sakurai-hifuka.jp' target='_blank'>https://www.sakurai-hifuka.jp</a>","takashio":"×","jishin":"〇","tsunami":"皮膚科","kaji":"山形市立病院済生館（山形県山形市七日町1-3-26）山形大学医学部附属病院（山形県山形市飯田西2-2-2）","naisui":"","kazan":""}
 ,
-{"Name":"あかねケ丘整形外科医院","Jusho":"山形県山形市あかねヶ丘2-10-3","kouzui":"<a href='tel:023-645-7380'>023-645-7380</a>","gake":"<a href='www.akanegaoka.com' target='_blank'>www.akanegaoka.com</a>","takashio":"×","jishin":"〇","tsunami":"整形外科","kaji":"","naisui":"","kazan":""}
+{"Name":"あかねケ丘整形外科医院","Jusho":"山形県山形市あかねヶ丘2-10-3","kouzui":"<a href='tel:023-645-7380'>023-645-7380</a>","gake":"<a href='http://www.akanegaoka.com' target='_blank'>http://www.akanegaoka.com</a>","takashio":"×","jishin":"〇","tsunami":"整形外科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"三條クリニック","Jusho":"山形県山形市寿町14-3","kouzui":"<a href='tel:023-635-5566'>023-635-5566</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
@@ -110,7 +110,7 @@
 ,
 {"Name":"由美子こどもクリニック","Jusho":"山形県山形市大字中野4101","kouzui":"<a href='tel:023-681-4150'>023-681-4150</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"小児科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"中井こども医院","Jusho":"山形県山形市花楯1-16-11","kouzui":"<a href='tel:023-625-7171'>023-625-7171</a>","gake":"<a href='www.nakaikodomo.com' target='_blank'>www.nakaikodomo.com</a>","takashio":"〇","jishin":"〇","tsunami":"小児科","kaji":"","naisui":"","kazan":""}
+{"Name":"中井こども医院","Jusho":"山形県山形市花楯1-16-11","kouzui":"<a href='tel:023-625-7171'>023-625-7171</a>","gake":"<a href='http://www.nakaikodomo.com' target='_blank'>http://www.nakaikodomo.com</a>","takashio":"〇","jishin":"〇","tsunami":"小児科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"長嶋医院","Jusho":"山形県山形市小姓町3-10","kouzui":"<a href='tel:023-641-4166'>023-641-4166</a>","gake":"<a href='https://r.goope.jp/rnagashi' target='_blank'>https://r.goope.jp/rnagashi</a>","takashio":"〇","jishin":"〇","tsunami":"内科胃腸科","kaji":"","naisui":"","kazan":""}
 ,
@@ -388,7 +388,7 @@
 ,
 {"Name":"尾上医院","Jusho":"山形県上山市栄町1-3-11","kouzui":"<a href='tel:023-672-0018'>023-672-0018</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"長岡医院","Jusho":"山形県上山市沢丁9-13","kouzui":"<a href='tel:023-672-0308'>023-672-0308</a>","gake":"<a href='www.nagaokaiin.com' target='_blank'>www.nagaokaiin.com</a>","takashio":"×","jishin":"〇","tsunami":"内科循環器内科","kaji":"","naisui":"","kazan":""}
+{"Name":"長岡医院","Jusho":"山形県上山市沢丁9-13","kouzui":"<a href='tel:023-672-0308'>023-672-0308</a>","gake":"<a href='http://www.nagaokaiin.com' target='_blank'>http://www.nagaokaiin.com</a>","takashio":"×","jishin":"〇","tsunami":"内科循環器内科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"新田クリニック","Jusho":"山形県上山市金生1-15-10","kouzui":"<a href='tel:023-672-8001'>023-672-8001</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"整形外科","kaji":"山形県立中央病院（山形県山形市大字青柳1800）","naisui":"","kazan":""}
 ,
@@ -404,11 +404,11 @@
 ,
 {"Name":"奥山内科循環器科クリニック","Jusho":"山形県村山市駅西19-15","kouzui":"<a href='tel:0237-52-0380'>0237-52-0380</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"小野内科胃腸科クリニック","Jusho":"山形県村山市楯岡五日町14-25","kouzui":"<a href='tel:0237-52-5050'>0237-52-5050</a>","gake":"<a href='ono-clinic.org' target='_blank'>ono-clinic.org</a>","takashio":"×","jishin":"〇","tsunami":"内科胃腸科","kaji":"","naisui":"","kazan":""}
+{"Name":"小野内科胃腸科クリニック","Jusho":"山形県村山市楯岡五日町14-25","kouzui":"<a href='tel:0237-52-5050'>0237-52-5050</a>","gake":"<a href='http://ono-clinic.org' target='_blank'>http://ono-clinic.org</a>","takashio":"×","jishin":"〇","tsunami":"内科胃腸科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"かるべくりにっく","Jusho":"山形県村山市楯岡新町四丁目9番6号","kouzui":"<a href='tel:0237-53-0770'>0237-53-0770</a>","gake":"<a href='http://karubeclinic.com' target='_blank'>http://karubeclinic.com</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"羽根田医院","Jusho":"山形県村山市大字湯野沢1921","kouzui":"<a href='tel:0237-54-3888'>0237-54-3888</a>","gake":"<a href='clinics.medley.life/clinics/5c45258bdcc22a5a' target='_blank'>clinics.medley.life/clinics/5c45258bdcc22a5a</a>","takashio":"〇","jishin":"〇","tsunami":"内科小児科","kaji":"","naisui":"","kazan":""}
+{"Name":"羽根田医院","Jusho":"山形県村山市大字湯野沢1921","kouzui":"<a href='tel:0237-54-3888'>0237-54-3888</a>","gake":"<a href='http://clinics.medley.life/clinics/5c45258bdcc22a5a' target='_blank'>http://clinics.medley.life/clinics/5c45258bdcc22a5a</a>","takashio":"〇","jishin":"〇","tsunami":"内科小児科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"公立置賜長井病院","Jusho":"山形県長井市屋城町2番1号","kouzui":"<a href='tel:0238-84-2161'>0238-84-2161</a>","gake":"<a href='http://www.okitama-hp.or.jp/' target='_blank'>http://www.okitama-hp.or.jp/</a>","takashio":"×","jishin":"〇","tsunami":"全ての診療科（希望患者のみ）","kaji":"※再診のみのため、対面診療が必要と判断した場合は原則当院で診療。","naisui":"","kazan":""}
 ,
@@ -458,7 +458,7 @@
 ,
 {"Name":"宇賀神内科クリニック","Jusho":"山形県東根市神町中央南一丁目6番28号","kouzui":"<a href='tel:0237-53-6961'>0237-53-6961</a>","gake":"<a href='http://ugajin-clinic.main.jp' target='_blank'>http://ugajin-clinic.main.jp</a>","takashio":"〇","jishin":"〇","tsunami":"消化器内科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"大沼医院","Jusho":"山形県東根市神町中央一丁目11-18","kouzui":"<a href='tel:0237-48-2830'>0237-48-2830</a>","gake":"<a href='www.oonuma-iin.com' target='_blank'>www.oonuma-iin.com</a>","takashio":"〇","jishin":"〇","tsunami":"内科小児科","kaji":"北村山公立病院（山形県東根市温泉町2-15-1）山形県立中央病院（山形県山形市大字青柳1800番地）","naisui":"","kazan":""}
+{"Name":"大沼医院","Jusho":"山形県東根市神町中央一丁目11-18","kouzui":"<a href='tel:0237-48-2830'>0237-48-2830</a>","gake":"<a href='http://www.oonuma-iin.com' target='_blank'>http://www.oonuma-iin.com</a>","takashio":"〇","jishin":"〇","tsunami":"内科小児科","kaji":"北村山公立病院（山形県東根市温泉町2-15-1）山形県立中央病院（山形県山形市大字青柳1800番地）","naisui":"","kazan":""}
 ,
 {"Name":"ひがしね耳鼻咽喉科","Jusho":"山形県東根市さくらんぼ駅前二丁目10-27","kouzui":"<a href='tel:0237-43-6633'>0237-43-6633</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"耳鼻咽喉科","kaji":"","naisui":"","kazan":""}
 ,
@@ -534,7 +534,7 @@
 ,
 {"Name":"鈴木内科医院","Jusho":"山形県西村山郡河北町谷地中央2-6-6","kouzui":"<a href='tel:0237-73-3300'>0237-73-3300</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"","kaji":"山形県立河北病院（山形県西村山郡河北町谷地月山堂111）","naisui":"","kazan":""}
 ,
-{"Name":"細谷医院","Jusho":"山形県西村山郡河北町谷地ひな市1-3-5","kouzui":"<a href='tel:0237-72-3032'>0237-72-3032</a>","gake":"<a href='bunanomori.info' target='_blank'>bunanomori.info</a>","takashio":"×","jishin":"〇","tsunami":"内科小児科","kaji":"","naisui":"","kazan":""}
+{"Name":"細谷医院","Jusho":"山形県西村山郡河北町谷地ひな市1-3-5","kouzui":"<a href='tel:0237-72-3032'>0237-72-3032</a>","gake":"<a href='http://bunanomori.info' target='_blank'>http://bunanomori.info</a>","takashio":"×","jishin":"〇","tsunami":"内科小児科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"矢口泌尿器科内科クリニック","Jusho":"山形県西村山郡河北町谷地中央1-3-7","kouzui":"<a href='tel:0237-73-3111'>0237-73-3111</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"泌尿器科","kaji":"山形県立河北病院（山形県西村山郡河北町谷地月山堂111）","naisui":"","kazan":""}
 ,

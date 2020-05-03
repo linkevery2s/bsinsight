@@ -1,6 +1,6 @@
 ﻿[
 {"Name":"いとう内科医院","Jusho":"長崎県長崎市滑石3-25-18","kouzui":"<a href='tel:095-856-6010'>095-856-6010</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科消化器科アレルギー科","kaji":"虹が丘病院（長崎県長崎市虹が丘町1番1号）","naisui":"","kazan":""},
-{"Name":"いなさ内科・胃腸クリニック","Jusho":"長崎県長崎市弁天町13番12号","kouzui":"<a href='tel:095-864-1006'>095-864-1006</a>","gake":"<a href='inasa-clinic.com' target='_blank'>inasa-clinic.com</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
+{"Name":"いなさ内科・胃腸クリニック","Jusho":"長崎県長崎市弁天町13番12号","kouzui":"<a href='tel:095-864-1006'>095-864-1006</a>","gake":"<a href='http://inasa-clinic.com' target='_blank'>http://inasa-clinic.com</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"いわさきJクリニック","Jusho":"長崎県長崎市上町1-27","kouzui":"<a href='tel:095-828-5556'>095-828-5556</a>","gake":"<a href='https://www.iwasakijclinic.com' target='_blank'>https://www.iwasakijclinic.com</a>","takashio":"×","jishin":"〇","tsunami":"呼吸器内科アレルギー科内科","kaji":"済生会長崎病院（長崎県長崎市片淵2-5-1）","naisui":"","kazan":""}
 ,
@@ -12,7 +12,7 @@
 ,
 {"Name":"せいごうクリニック","Jusho":"長崎県長崎市畝刈町1613-85","kouzui":"<a href='tel:095-860-9025'>095-860-9025</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"みね形成外科・美容皮ふクリニック","Jusho":"長崎県長崎市住吉町2-22武田ビル3階","kouzui":"<a href='tel:095-847-0010'>095-847-0010</a>","gake":"<a href='www.mlnekelsel.com' target='_blank'>www.mlnekelsel.com</a>","takashio":"〇","jishin":"〇","tsunami":"形成外科","kaji":"","naisui":"","kazan":""}
+{"Name":"みね形成外科・美容皮ふクリニック","Jusho":"長崎県長崎市住吉町2-22武田ビル3階","kouzui":"<a href='tel:095-847-0010'>095-847-0010</a>","gake":"<a href='http://www.mlnekelsel.com' target='_blank'>http://www.mlnekelsel.com</a>","takashio":"〇","jishin":"〇","tsunami":"形成外科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"医療法人築町クリニック","Jusho":"長崎県長崎市築町3-1","kouzui":"<a href='tel:095-827-3333'>095-827-3333</a>","gake":"<a href='http://tsukimachi-cl.com' target='_blank'>http://tsukimachi-cl.com</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
@@ -62,7 +62,7 @@
 ,
 {"Name":"医療法人哲翁内科医院","Jusho":"長崎県長崎市浜口町13-9","kouzui":"<a href='tel:095-846-5563'>095-846-5563</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科循環器科","kaji":"日本赤十字社長崎原爆病院（長崎県長崎市茂里町3番15号）井上病院（長崎県長崎市宝町6番12号）","naisui":"","kazan":""}
 ,
-{"Name":"安中外科脳神経外科医院","Jusho":"長崎県長崎市丸山町2番6号","kouzui":"<a href='tel:095-823-4813'>095-823-4813</a>","gake":"<a href='www.yasunaka.jp' target='_blank'>www.yasunaka.jp</a>","takashio":"〇","jishin":"〇","tsunami":"脳神経外科外科","kaji":"井上病院（長崎県長崎市宝町6番12号）","naisui":"","kazan":""}
+{"Name":"安中外科脳神経外科医院","Jusho":"長崎県長崎市丸山町2番6号","kouzui":"<a href='tel:095-823-4813'>095-823-4813</a>","gake":"<a href='http://www.yasunaka.jp' target='_blank'>http://www.yasunaka.jp</a>","takashio":"〇","jishin":"〇","tsunami":"脳神経外科外科","kaji":"井上病院（長崎県長崎市宝町6番12号）","naisui":"","kazan":""}
 ,
 {"Name":"三浦産婦人科","Jusho":"長崎県西彼杵郡時津町野田郷25番地1","kouzui":"<a href='tel:095-882-7000'>095-882-7000</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"産婦人科","kaji":"長崎大学病院（長崎県長崎市坂本1丁目7-1）長崎みなとメディカルセンター（長崎県長崎市新地町6-39）","naisui":"","kazan":""}
 ,
@@ -92,13 +92,13 @@
 ,
 {"Name":"医療法人やました内科","Jusho":"長崎県長崎市城山町31-14さとみメディカルビル4F","kouzui":"<a href='tel:095-861-3070'>095-861-3070</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"医療法人白髭内科医院","Jusho":"長崎県長崎市片淵1丁目13-28","kouzui":"<a href='tel:095-822-5620'>095-822-5620</a>","gake":"<a href='www.shirahige.org' target='_blank'>www.shirahige.org</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"長崎みなとメディカルセンター（長崎県長崎市新地町6-39）済生会長崎病院（長崎県長崎市片淵2丁目5番1号）","naisui":"","kazan":""}
+{"Name":"医療法人白髭内科医院","Jusho":"長崎県長崎市片淵1丁目13-28","kouzui":"<a href='tel:095-822-5620'>095-822-5620</a>","gake":"<a href='http://www.shirahige.org' target='_blank'>http://www.shirahige.org</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"長崎みなとメディカルセンター（長崎県長崎市新地町6-39）済生会長崎病院（長崎県長崎市片淵2丁目5番1号）","naisui":"","kazan":""}
 ,
 {"Name":"あしざわ内科","Jusho":"長崎県長崎市小峰町3-13-2F","kouzui":"<a href='tel:095-865-7234'>095-865-7234</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科腎臓内科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"医療法人前川医院","Jusho":"長崎県長崎市大園町5-3","kouzui":"<a href='tel:095-856-2800'>095-856-2800</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科小児科胃腸内科放射線科","kaji":"光晴会病院（長崎県長崎市葉山1丁目3番12号）虹が丘病院（長崎県長崎市虹が丘町1番1号）長崎北病院（西彼杵郡時津町元村郷800番地）","naisui":"","kazan":""}
 ,
-{"Name":"タナカクリニックひふ科・アレルギー科","Jusho":"長崎県長崎市銅座町2番15号ＮＫイリスビル5階","kouzui":"<a href='tel:095-816-1590'>095-816-1590</a>","gake":"<a href='www1.cncm.ne.jp/~yotanaka/' target='_blank'>www1.cncm.ne.jp/~yotanaka/</a>","takashio":"×","jishin":"〇","tsunami":"皮ふ科","kaji":"","naisui":"","kazan":""}
+{"Name":"タナカクリニックひふ科・アレルギー科","Jusho":"長崎県長崎市銅座町2番15号ＮＫイリスビル5階","kouzui":"<a href='tel:095-816-1590'>095-816-1590</a>","gake":"<a href='http://www1.cncm.ne.jp/~yotanaka/' target='_blank'>http://www1.cncm.ne.jp/~yotanaka/</a>","takashio":"×","jishin":"〇","tsunami":"皮ふ科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"松元クリニック","Jusho":"長崎県長崎市新地町1-5","kouzui":"<a href='tel:095-811-1035'>095-811-1035</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"長崎みなとメディカルセンター（長崎県長崎市新地町6-39）","naisui":"","kazan":""}
 ,
@@ -108,7 +108,7 @@
 ,
 {"Name":"長崎みなとメディカルセンター","Jusho":"長崎県長崎市新地町6番39号","kouzui":"<a href='tel:095-822-3251'>095-822-3251</a>","gake":"<a href='http://shibyo.nmh.jp/' target='_blank'>http://shibyo.nmh.jp/</a>","takashio":"×","jishin":"〇","tsunami":"全診療科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"医療法人昭和会長崎あじさい病院","Jusho":"長崎県長崎市大浦町10-40","kouzui":"<a href='tel:095-828-9700（担当）095-828-9713（担当者直通）'>095-828-9700（担当）095-828-9713（担当者直通）</a>","gake":"<a href='www.ajisai-hospital.jp' target='_blank'>www.ajisai-hospital.jp</a>","takashio":"×","jishin":"〇","tsunami":"内科外科眼科脳神経外科","kaji":"","naisui":"","kazan":""}
+{"Name":"医療法人昭和会長崎あじさい病院","Jusho":"長崎県長崎市大浦町10-40","kouzui":"<a href='tel:095-828-9700（担当）095-828-9713（担当者直通）'>095-828-9700（担当）095-828-9713（担当者直通）</a>","gake":"<a href='http://www.ajisai-hospital.jp' target='_blank'>http://www.ajisai-hospital.jp</a>","takashio":"×","jishin":"〇","tsunami":"内科外科眼科脳神経外科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"西田内科胃腸内科医院","Jusho":"長崎県長崎市油屋町6-11","kouzui":"<a href='tel:095-826-0982'>095-826-0982</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"長崎みなとメディカルセンター（長崎県長崎市新地町6-39）済生会長崎病院（長崎県長崎市片淵2丁目5番1号）井上病院（長崎県長崎市宝町6番12号）","naisui":"","kazan":""}
 ,
@@ -118,7 +118,7 @@
 ,
 {"Name":"ながさきハートクリニック","Jusho":"長崎県長崎市恵美須町4番1号","kouzui":"<a href='tel:095-818-4199'>095-818-4199</a>","gake":"<a href='http://www.nagasaki-hc.com' target='_blank'>http://www.nagasaki-hc.com</a>","takashio":"×","jishin":"〇","tsunami":"循環器内科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"医療法人緑風会みどりクリニック","Jusho":"長崎県長崎市城栄町32番20号","kouzui":"<a href='tel:095-844-7191'>095-844-7191</a>","gake":"<a href='midorimidori.jp/midoriclinic/' target='_blank'>midorimidori.jp/midoriclinic/</a>","takashio":"△","jishin":"〇","tsunami":"内科","kaji":"長崎大学病院（長崎県長崎市坂本1丁目7-1）長崎みなとメディカルセンター（長崎県長崎市新地町6-39）","naisui":"","kazan":""}
+{"Name":"医療法人緑風会みどりクリニック","Jusho":"長崎県長崎市城栄町32番20号","kouzui":"<a href='tel:095-844-7191'>095-844-7191</a>","gake":"<a href='http://midorimidori.jp/midoriclinic/' target='_blank'>http://midorimidori.jp/midoriclinic/</a>","takashio":"△","jishin":"〇","tsunami":"内科","kaji":"長崎大学病院（長崎県長崎市坂本1丁目7-1）長崎みなとメディカルセンター（長崎県長崎市新地町6-39）","naisui":"","kazan":""}
 ,
 {"Name":"深沢眼科","Jusho":"長崎県長崎市矢上町4番11号","kouzui":"<a href='tel:095-839-2010、090-4588-6850'>095-839-2010、090-4588-6850</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"眼科","kaji":"","naisui":"","kazan":""}
 ,
@@ -136,7 +136,7 @@
 ,
 {"Name":"医療法人木下内科医院","Jusho":"長崎県長崎市江戸町5番14号","kouzui":"<a href='tel:095-822-9266'>095-822-9266</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"ヨゼフクリニック","Jusho":"長崎県長崎市坂本1丁目6番1号","kouzui":"<a href='tel:095-814-0212'>095-814-0212</a>","gake":"<a href='maple.life.coocan.jp/' target='_blank'>maple.life.coocan.jp/</a>","takashio":"〇","jishin":"〇","tsunami":"心臓血管外科","kaji":"日本赤十字社長崎原爆病院（長崎県長崎市茂里町3番15号）長崎みなとメディカルセンター（長崎県長崎市新地町6-39）聖フランシスコ病院（長崎県長崎市小峰町9-20）国立長崎病院（長崎県長崎市桜木町6-41）","naisui":"","kazan":""}
+{"Name":"ヨゼフクリニック","Jusho":"長崎県長崎市坂本1丁目6番1号","kouzui":"<a href='tel:095-814-0212'>095-814-0212</a>","gake":"<a href='http://maple.life.coocan.jp/' target='_blank'>http://maple.life.coocan.jp/</a>","takashio":"〇","jishin":"〇","tsunami":"心臓血管外科","kaji":"日本赤十字社長崎原爆病院（長崎県長崎市茂里町3番15号）長崎みなとメディカルセンター（長崎県長崎市新地町6-39）聖フランシスコ病院（長崎県長崎市小峰町9-20）国立長崎病院（長崎県長崎市桜木町6-41）","naisui":"","kazan":""}
 ,
 {"Name":"武藤内科循環器内科","Jusho":"長崎県長崎市寄合町3-41","kouzui":"<a href='tel:095-823-1822'>095-823-1822</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科循環器内科","kaji":"","naisui":"","kazan":""}
 ,
@@ -174,7 +174,7 @@
 ,
 {"Name":"井上病院","Jusho":"長崎県長崎市宝町6番12号","kouzui":"<a href='tel:095-844-1281'>095-844-1281</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"たちばなベイクリニック","Jusho":"長崎県長崎市網場町487-8","kouzui":"<a href='tel:095-830-1188'>095-830-1188</a>","gake":"<a href='tachibana-bay.com' target='_blank'>tachibana-bay.com</a>","takashio":"×","jishin":"〇","tsunami":"消化器内科循環器内科内科整形外科眼科","kaji":"済生会長崎病院（長崎県長崎市片淵2丁目5?1）","naisui":"","kazan":""}
+{"Name":"たちばなベイクリニック","Jusho":"長崎県長崎市網場町487-8","kouzui":"<a href='tel:095-830-1188'>095-830-1188</a>","gake":"<a href='http://tachibana-bay.com' target='_blank'>http://tachibana-bay.com</a>","takashio":"×","jishin":"〇","tsunami":"消化器内科循環器内科内科整形外科眼科","kaji":"済生会長崎病院（長崎県長崎市片淵2丁目5?1）","naisui":"","kazan":""}
 ,
 {"Name":"ゆずクリニック","Jusho":"長崎県長崎市鍛冶屋町2番11号銀嶺ビル3Ｆ・4Ｆ","kouzui":"<a href='tel:精神科095-822-3415糖尿病内分泌内科095-895-5560'>精神科095-822-3415糖尿病内分泌内科095-895-5560</a>","gake":"<a href='http://clinic.yuzuriha.or.jp/' target='_blank'>http://clinic.yuzuriha.or.jp/</a>","takashio":"△","jishin":"〇","tsunami":"精神科糖尿病内分泌内科","kaji":"","naisui":"","kazan":""}
 ,
@@ -198,7 +198,7 @@
 ,
 {"Name":"たかお内科クリニック","Jusho":"長崎県長崎市銅座町7番29号","kouzui":"<a href='tel:095-811-0077'>095-811-0077</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"長崎みなとメディカルセンター（長崎県長崎市新地町6-39）十善会病院（長崎県長崎市籠町7番18号）","naisui":"","kazan":""}
 ,
-{"Name":"長崎大学病院","Jusho":"長崎県長崎市坂本1丁目7番1号","kouzui":"<a href='tel:095-819-7231'>095-819-7231</a>","gake":"<a href='www.mh.nagasaki-u.ac.jp' target='_blank'>www.mh.nagasaki-u.ac.jp</a>","takashio":"×","jishin":"〇","tsunami":"精神科小児科皮膚科泌尿器科・腎移植外科眼科麻酔科耳鼻いんこう科放射線科産婦人科心臓血管外科整形外科脳神経外科形成外科歯科小児歯科矯正歯科歯科口腔外科消化器内科消化器外科呼吸器内科循環器内科血液内科内分泌・代謝内科腎臓内科感染症内科呼吸器外科小児外科乳腺・内分泌外科リウマチ科病理診断科救急科移植外科脳神経内科胃・食道外科大腸・肛門外科肝胆膵外科・肝移植外科","kaji":"","naisui":"","kazan":""}
+{"Name":"長崎大学病院","Jusho":"長崎県長崎市坂本1丁目7番1号","kouzui":"<a href='tel:095-819-7231'>095-819-7231</a>","gake":"<a href='http://www.mh.nagasaki-u.ac.jp' target='_blank'>http://www.mh.nagasaki-u.ac.jp</a>","takashio":"×","jishin":"〇","tsunami":"精神科小児科皮膚科泌尿器科・腎移植外科眼科麻酔科耳鼻いんこう科放射線科産婦人科心臓血管外科整形外科脳神経外科形成外科歯科小児歯科矯正歯科歯科口腔外科消化器内科消化器外科呼吸器内科循環器内科血液内科内分泌・代謝内科腎臓内科感染症内科呼吸器外科小児外科乳腺・内分泌外科リウマチ科病理診断科救急科移植外科脳神経内科胃・食道外科大腸・肛門外科肝胆膵外科・肝移植外科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"医療法人陽蘭会広瀬クリニック","Jusho":"長崎県長崎市伊勢町2番31号","kouzui":"<a href='tel:095-828-1355'>095-828-1355</a>","gake":"<a href='https;//hirose-yourankai.jp' target='_blank'>https;//hirose-yourankai.jp</a>","takashio":"×","jishin":"〇","tsunami":"腎臓内科","kaji":"","naisui":"","kazan":""}
 ,
@@ -206,7 +206,7 @@
 ,
 {"Name":"医療法人博雅会田中医院","Jusho":"長崎県佐世保市本島町2-11","kouzui":"<a href='tel:0956-23-5308'>0956-23-5308</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科外科胃腸科皮膚科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"野口内科","Jusho":"長崎県佐世保市奏町2-8石井海陸興業ビル4階","kouzui":"<a href='tel:0956-23-3100'>0956-23-3100</a>","gake":"<a href='noguchi-naika,jp' target='_blank'>noguchi-naika,jp</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"佐世保市総合医療センタ-（長崎県佐世保市平瀬町9-3）佐世保共済病院（長崎県佐世保市島地町10-17）佐世保中央病院（長崎県佐世保市大和町15）","naisui":"","kazan":""}
+{"Name":"野口内科","Jusho":"長崎県佐世保市奏町2-8石井海陸興業ビル4階","kouzui":"<a href='tel:0956-23-3100'>0956-23-3100</a>","gake":"<a href='http://noguchi-naika,jp' target='_blank'>http://noguchi-naika,jp</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"佐世保市総合医療センタ-（長崎県佐世保市平瀬町9-3）佐世保共済病院（長崎県佐世保市島地町10-17）佐世保中央病院（長崎県佐世保市大和町15）","naisui":"","kazan":""}
 ,
 {"Name":"医療法人栄秀会まきの整形外科医院","Jusho":"長崎県佐世保市栄町5番9号サンクル2番館2F","kouzui":"<a href='tel:0956-59-5777'>0956-59-5777</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"整形外科","kaji":"","naisui":"","kazan":""}
 ,
@@ -302,7 +302,7 @@
 ,
 {"Name":"医療法人雄心会たかお循環器内科","Jusho":"長崎県島原市桜町953番地1","kouzui":"<a href='tel:0957-62-6300'>0957-62-6300</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科循環器内科","kaji":"長崎県島原病院（長崎県島原市下川尻町7895番地）","naisui":"","kazan":""}
 ,
-{"Name":"医療法人翔南会山崎産婦人科医院","Jusho":"長崎県島原市湊町350","kouzui":"<a href='tel:0957-64-1103'>0957-64-1103</a>","gake":"<a href='www.yamasaki-iin.com' target='_blank'>www.yamasaki-iin.com</a>","takashio":"×","jishin":"〇","tsunami":"産婦人科","kaji":"","naisui":"","kazan":""}
+{"Name":"医療法人翔南会山崎産婦人科医院","Jusho":"長崎県島原市湊町350","kouzui":"<a href='tel:0957-64-1103'>0957-64-1103</a>","gake":"<a href='http://www.yamasaki-iin.com' target='_blank'>http://www.yamasaki-iin.com</a>","takashio":"×","jishin":"〇","tsunami":"産婦人科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"医療法人宮崎医院","Jusho":"長崎県島原市上の町869番地","kouzui":"<a href='tel:0957-62-2258'>0957-62-2258</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"泌尿器科皮膚科","kaji":"諫早総合病院（長崎県諫早市永昌東町24番1号）長崎県島原病院（長崎県島原市下川尻町7895番地）国立病院機構長崎医療センター（長崎県大村市久原2丁目1001-1）","naisui":"","kazan":""}
 ,
@@ -382,7 +382,7 @@
 ,
 {"Name":"谷川病院","Jusho":"長崎県平戸市田平町山内免400番地","kouzui":"<a href='tel:0950-57-0045'>0950-57-0045</a>","gake":"<a href='http://tanigawa-hospital.jp' target='_blank'>http://tanigawa-hospital.jp</a>","takashio":"×","jishin":"〇","tsunami":"内科皮膚科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"青洲会病院","Jusho":"長崎県平戸市田平町山内免612-4","kouzui":"<a href='tel:0950-57-2155'>0950-57-2155</a>","gake":"<a href='n-seisyukai.jp' target='_blank'>n-seisyukai.jp</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
+{"Name":"青洲会病院","Jusho":"長崎県平戸市田平町山内免612-4","kouzui":"<a href='tel:0950-57-2155'>0950-57-2155</a>","gake":"<a href='http://n-seisyukai.jp' target='_blank'>http://n-seisyukai.jp</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"医療法人光佑会北川病院","Jusho":"長崎県平戸市浦ノ町737番地","kouzui":"<a href='tel:0950-22-2344'>0950-22-2344</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科小児科","kaji":"佐世保市総合医療センター（長崎県佐世保市平瀬町9番地3）北松中央病院（長崎県佐世保市江迎町赤坂299番地）","naisui":"","kazan":""}
 ,
@@ -434,7 +434,7 @@
 ,
 {"Name":"明島整形外科医院","Jusho":"長崎県南島原市布津町乙1859-2","kouzui":"<a href='tel:0957-72-2023'>0957-72-2023</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"整形外科","kaji":"長崎県島原病院（長崎県島原市下川尻町7895番地）泉川病院（長崎県南島原市深江町丁2405）","naisui":"","kazan":""}
 ,
-{"Name":"小嶺整形外科クリニック","Jusho":"長崎県南島原市有家町中須川196-1","kouzui":"<a href='tel:0957-82-1755'>0957-82-1755</a>","gake":"<a href='www.komine-seikei.com' target='_blank'>www.komine-seikei.com</a>","takashio":"×","jishin":"〇","tsunami":"整形外科","kaji":"","naisui":"","kazan":""}
+{"Name":"小嶺整形外科クリニック","Jusho":"長崎県南島原市有家町中須川196-1","kouzui":"<a href='tel:0957-82-1755'>0957-82-1755</a>","gake":"<a href='http://www.komine-seikei.com' target='_blank'>http://www.komine-seikei.com</a>","takashio":"×","jishin":"〇","tsunami":"整形外科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"モロキ内科","Jusho":"長崎県西彼杵郡長与町嬉野1085","kouzui":"<a href='tel:095-883-1105'>095-883-1105</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科小児科","kaji":"長崎みなとメディカルセンター（長崎県長崎市新地町6-39）","naisui":"","kazan":""}
 ,

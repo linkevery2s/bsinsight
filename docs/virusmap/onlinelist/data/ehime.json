@@ -4,7 +4,7 @@
 ,
 {"Name":"戸梶内科医院","Jusho":"愛媛県松山市味酒町1丁目4-12","kouzui":"<a href='tel:089-931-5781'>089-931-5781</a>","gake":"<a href='http://www.tokaji-naika.jp/' target='_blank'>http://www.tokaji-naika.jp/</a>","takashio":"〇","jishin":"〇","tsunami":"内科・循環器内科・呼吸器内科・消化器内科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"ふくだ循環器科内科クリニッ","Jusho":"愛媛県松山市西垣生町478-1","kouzui":"<a href='tel:089-989-3433'>089-989-3433</a>","gake":"<a href='https://www.fukuda.clinic' target='_blank'>https://www.fukuda.clinic</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
+{"Name":"ふくだ循環器科内科クリニック","Jusho":"愛媛県松山市西垣生町478-1","kouzui":"<a href='tel:089-989-3433'>089-989-3433</a>","gake":"<a href='https://www.fukuda.clinic' target='_blank'>https://www.fukuda.clinic</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"ノエルクリニック心臓血管外","Jusho":"愛媛県松山市本町6丁目3-3","kouzui":"<a href='tel:089-925-8811'>089-925-8811</a>","gake":"<a href='https://www.noel-clinic.or.jp' target='_blank'>https://www.noel-clinic.or.jp</a>","takashio":"×","jishin":"〇","tsunami":"心臓血管外科","kaji":"","naisui":"","kazan":""}
 ,
@@ -156,7 +156,7 @@
 ,
 {"Name":"有津むらかみクリニック","Jusho":"今治市伯方町有津甲2335番地","kouzui":"<a href='tel:0897-72-3200'>0897-72-3200</a>","gake":"<a href='http://www.mura-clinic.byouinnavi.jp/' target='_blank'>http://www.mura-clinic.byouinnavi.jp/</a>","takashio":"〇","jishin":"〇","tsunami":"内科小児科","kaji":"今治第一病院(今治市宮下町1丁目1-21)瀬戸内海病院(今治市北宝来町2丁目4-9)","naisui":"","kazan":""}
 ,
-{"Name":"医療法人陽成会広瀬病院","Jusho":"愛媛県今治市喜田村6丁目5-1","kouzui":"<a href='tel:0898-47-0100'>0898-47-0100</a>","gake":"<a href='hirose-youseikai.org/' target='_blank'>hirose-youseikai.org/</a>","takashio":"〇","jishin":"〇","tsunami":"外科整形外科内科","kaji":"広瀬クリニック（愛媛県今治市拝志3-1）","naisui":"","kazan":""}
+{"Name":"医療法人陽成会広瀬病院","Jusho":"愛媛県今治市喜田村6丁目5-1","kouzui":"<a href='tel:0898-47-0100'>0898-47-0100</a>","gake":"<a href='http://hirose-youseikai.org/' target='_blank'>http://hirose-youseikai.org/</a>","takashio":"〇","jishin":"〇","tsunami":"外科整形外科内科","kaji":"広瀬クリニック（愛媛県今治市拝志3-1）","naisui":"","kazan":""}
 ,
 {"Name":"村上耳鼻咽喉科","Jusho":"今治市高市甲267-1","kouzui":"<a href='tel:0898-48-1199'>0898-48-1199</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"耳鼻咽喉科","kaji":"愛媛県立今治病院(今治市石井町4-5-5)今治第一病院(今治市宮下町1丁目1-21)","naisui":"","kazan":""}
 ,
@@ -232,7 +232,7 @@
 ,
 {"Name":"いんなみ眼科・神経内科","Jusho":"大洲市田口甲380番地1","kouzui":"<a href='tel:0893-24-0700'>0893-24-0700</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"精神科神経内科眼科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"伊予病院","Jusho":"愛媛県伊予市八倉906番地5","kouzui":"<a href='tel:089-983-2222'>089-983-2222</a>","gake":"<a href='h?ttp://www/iyohp.jp/' target='_blank'>h?ttp://www/iyohp.jp/</a>","takashio":"×","jishin":"〇","tsunami":"リハ科小児科","kaji":"","naisui":"","kazan":""}
+{"Name":"伊予病院","Jusho":"愛媛県伊予市八倉906番地5","kouzui":"<a href='tel:089-983-2222'>089-983-2222</a>","gake":"<a href='http://www/iyohp.jp/' target='_blank'>http://www/iyohp.jp/</a>","takashio":"×","jishin":"〇","tsunami":"リハ科小児科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"佐礼谷診療所","Jusho":"愛媛県伊予市中山町佐礼谷甲816番地1","kouzui":"<a href='tel:089-968-0021'>089-968-0021</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科小児科放射線科","kaji":"愛媛県立中央病院（愛媛県松山市春日町83）松山市民病院（愛媛県松山市大手町2丁目6-5）","naisui":"","kazan":""}
 ,
@@ -264,7 +264,7 @@
 ,
 {"Name":"Dr.盛次診療所","Jusho":"愛媛県伊予郡松前町筒井1540","kouzui":"<a href='tel:089-961-6262'>089-961-6262</a>","gake":"<a href='http://kirari01.com' target='_blank'>http://kirari01.com</a>","takashio":"×","jishin":"〇","tsunami":"内科精神科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"小泉小児科","Jusho":"愛媛県伊予郡砥部町拾町281-2","kouzui":"<a href='tel:089-958-0648'>089-958-0648</a>","gake":"<a href='itp.ne.jp/info/382277646400000899/' target='_blank'>itp.ne.jp/info/382277646400000899/</a>","takashio":"×","jishin":"〇","tsunami":"小児科","kaji":"","naisui":"","kazan":""}
+{"Name":"小泉小児科","Jusho":"愛媛県伊予郡砥部町拾町281-2","kouzui":"<a href='tel:089-958-0648'>089-958-0648</a>","gake":"<a href='http://itp.ne.jp/info/382277646400000899/' target='_blank'>http://itp.ne.jp/info/382277646400000899/</a>","takashio":"×","jishin":"〇","tsunami":"小児科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"山本クリニック","Jusho":"愛媛県伊予郡砥部町宮内946","kouzui":"<a href='tel:089-962-2036'>089-962-2036</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"松山赤十字病院愛媛県立中央病院","naisui":"","kazan":""}
 ,

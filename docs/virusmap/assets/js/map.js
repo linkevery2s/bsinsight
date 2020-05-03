@@ -1,44 +1,65 @@
 var map;var zoom;var url;var todou; var ido; var keido;
-var bed = new Array(47); var syoki = new Array(47); var z = new Array(47); var x = new Array(47); var y = new Array(47); var mitudo = Array(47); var mitudo_total = Array(47);  var density = Array(47);
-var multi = new Array(47); var lastupdate;var multi_n = new Array(47); online_pref = Array(47);
+var bed = new Array(47); var syoki = new Array(47); var x = new Array(47); var y = new Array(47); var mitudo = new Array(47); var mitudo_total = new Array(47);  var density = new Array(47);
+var multi = new Array(47); var lastupdate;var multi_n = new Array(47); online_pref = new Array(47);
+var yousei = new Array(47); var taiin = new Array(47); var ncurrent = new Array(47); death = new Array(47);
 
-
-/*function get_beds(){
-
-	var xhr = new XMLHttpRequest();
-	xhr.onreadystatechange = function(){
-		if (xhr.readyState === 4 && xhr.status === 200){
-			var json_data = eval( '('+xhr.responseText +')');
-			
-				for(var i = 0;  i < 47;  i++){
-					bed[i] = json_data.area[i].sum;
-				}
-    	}
-  };
-  var url = "https://www.stopcovid19.jp/data/bedforinfection_summary.json";
-  xhr.open('GET', url);
-  xhr.send(null);
-
-}*/
-
+/* 病床数 */
+/* 北海道 */ bed[0] = "530";
+/* 青森県 */ bed[1] = "59";
+/* 岩手県 */ bed[2] = "38";
+/* 宮城県 */ bed[3] = "278";
+/* 秋田県 */ bed[4] = "48";
+/* 山形県 */ bed[5] = "150";
+/* 福島県 */ bed[6] = "311";
+/* 茨城県 */ bed[7] = "375";
+/* 栃木県 */ bed[8] = "241";
+/* 群馬県 */ bed[9] = "350";
+/* 埼玉県 */ bed[10] = "562";
+/* 千葉県 */ bed[11] = "773";
+/* 東京都 */ bed[12] = "3307";
+/* 神奈川 */ bed[13] = "3294";
+/* 新潟県 */ bed[14] = "250";
+/* 富山県 */ bed[15] = "200";
+/* 石川県 */ bed[16] = "500";
+/* 福井県 */ bed[17] = "215";
+/* 山梨県 */ bed[18] = "51";
+/* 長野県 */ bed[19] = "500";
+/* 岐阜県 */ bed[20] = "723";
+/* 静岡県 */ bed[21] = "87";
+/* 愛知県 */ bed[22] = "1650";
+/* 三重県 */ bed[23] = "88";
+/* 滋賀県 */ bed[24] = "150";
+/* 京都府 */ bed[25] = "590";
+/* 大阪府 */ bed[26] = "2639";
+/* 兵庫県 */ bed[27] = "950";
+/* 奈良県 */ bed[28] = "339";
+/* 和歌山 */ bed[29] = "124";
+/* 鳥取県 */ bed[30] = "322";
+/* 島根県 */ bed[31] = "200";
+/* 岡山県 */ bed[32] = "120";
+/* 広島県 */ bed[33] = "249";
+/* 山口県 */ bed[34] = "320";
+/* 徳島県 */ bed[35] = "130";
+/* 香川県 */ bed[36] = "125";
+/* 愛媛県 */ bed[37] = "137";
+/* 高知県 */ bed[38] = "48";
+/* 福岡県 */ bed[39] = "1126";
+/* 佐賀県 */ bed[40] = "279";
+/* 長崎県 */ bed[41] = "38";
+/* 熊本県 */ bed[42] = "218";
+/* 大分県 */ bed[43] = "183";
+/* 宮崎県 */ bed[44] = "81";
+/* 鹿児島 */ bed[45] = "233";
+/* 沖縄県 */ bed[46] = "286";
 
 function get_kansen(){
 
-	/*get_Municipalities();
-	
-	if( multi[0] == "undefined"){
-		get_Municipalities();
-	}else{}
-	
-	if( multi[17] == "undefined"){
-		get_Municipalities();
-	}else{}
 
-	if( multi[21] == "undefined"){
-		get_Municipalities();
-	}else{}*/
 
 	var xhr = new XMLHttpRequest();
+	var url = "https://www.stopcovid19.jp/data/covid19japan.json";
+	xhr.open('GET', url);
+	xhr.send(null);
 	xhr.onreadystatechange = function(){
 		if (xhr.readyState === 4 && xhr.status === 200){
 			var json_data = eval( '('+xhr.responseText +')');
@@ -91,120 +112,41 @@ function get_kansen(){
 			syoki[45] = document.getElementById("ja_kagoshima");
 			syoki[46] = document.getElementById("ja_okinawa");
 
+			/* 厚労省データ格納 */
 			for (var i = 0;  i < 47;  i++){
-			z[i] = json_data.area[i].name_jp +"<br>陽性者：" + json_data.area[i].npatients;
-			z[i] += "<br>退院者：" + json_data.area[i].nexits;
-			z[i] += "<br>現患者：" + json_data.area[i].ncurrentpatients;
-			z[i] += "<br>死亡者：" + json_data.area[i].ndeaths;
-			syoki[i].innerHTML = z[i];
+			yousei[i] = json_data.area[i].npatients;
+			taiin[i] = json_data.area[i].nexits;
+			ncurrent[i] = json_data.area[i].ncurrentpatients;
+			death[i] = json_data.area[i].ndeaths;
+			}
+
+			/* 速報上書き */
+
+
+			/* divに掲載 */
+			for (var i = 0;  i < 47;  i++){
+			syoki[i].innerHTML = json_data.area[i].name_jp + "<br>陽性者：" + yousei[i] + "<br>退院者：" + taiin[i] + "<br>現患者：" + ncurrent[i] + "<br>死亡者：" + death[i];
 			}
 
 			/* 全体 */
-			var txt = "日本全国<br>陽性者：" + json_data.npatients;
-			txt += "<br>退院者：" + json_data.nexits;
-			txt += "<br>現患者：" + json_data.ncurrentpatients;
-			txt += "<br>死亡者：" + json_data.ndeaths;
+			var total_yousei = yousei[0];
+			var total_taiin = taiin[0];
+			var total_ncurrent = ncurrent[0];
+			var total_death = death[0];
+			
+			for (var i = 1;  i < 47;  i++){
+				total_yousei += yousei[i];
+				total_taiin += taiin[i];
+				total_ncurrent += ncurrent[i];
+				total_death += death[i];
+			}
+
+			var txt = "日本全国<br>陽性者：" + total_yousei;
+			txt += "<br>退院者：" + total_taiin;
+			txt += "<br>現患者：" + total_ncurrent;
+			txt += "<br>死亡者：" + total_death;
 			document.getElementById('ja_ka').innerHTML = txt;
 			
-/* 病床数との比較 */
-/* 北海道 */ bed[0] = "530";
-/* 青森県 */ bed[1] = "29";
-/* 岩手県 */ bed[2] = "38";
-/* 宮城県 */ bed[3] = "278";
-/* 秋田県 */ bed[4] = "48";
-/* 山形県 */ bed[5] = "150";
-/* 福島県 */ bed[6] = "311";
-/* 茨城県 */ bed[7] = "430";
-/* 栃木県 */ bed[8] = "130";
-/* 群馬県 */ bed[9] = "350";
-/* 埼玉県 */ bed[10] = "562";
-/* 千葉県 */ bed[11] = "773";
-/* 東京都 */ bed[12] = "3307";
-/* 神奈川 */ bed[13] = "3400";
-/* 新潟県 */ bed[14] = "200";
-/* 富山県 */ bed[15] = "200";
-/* 石川県 */ bed[16] = "500";
-/* 福井県 */ bed[17] = "84";
-/* 山梨県 */ bed[18] = "30";
-/* 長野県 */ bed[19] = "500";
-/* 岐阜県 */ bed[20] = "723";
-/* 静岡県 */ bed[21] = "87";
-/* 愛知県 */ bed[22] = "1650";
-/* 三重県 */ bed[23] = "124";
-/* 滋賀県 */ bed[24] = "150";
-/* 京都府 */ bed[25] = "590";
-/* 大阪府 */ bed[26] = "2239";
-/* 兵庫県 */ bed[27] = "372";
-/* 奈良県 */ bed[28] = "339";
-/* 和歌山 */ bed[29] = "124";
-/* 鳥取県 */ bed[30] = "322";
-/* 島根県 */ bed[31] = "200";
-/* 岡山県 */ bed[32] = "120";
-/* 広島県 */ bed[33] = "249";
-/* 山口県 */ bed[34] = "320";
-/* 徳島県 */ bed[35] = "130";
-/* 香川県 */ bed[36] = "131";
-/* 愛媛県 */ bed[37] = "29";
-/* 高知県 */ bed[38] = "23";
-/* 福岡県 */ bed[39] = "974";
-/* 佐賀県 */ bed[40] = "70";
-/* 長崎県 */ bed[41] = "38";
-/* 熊本県 */ bed[42] = "218";
-/* 大分県 */ bed[43] = "118";
-/* 宮崎県 */ bed[44] = "31";
-/* 鹿児島 */ bed[45] = "53";
-/* 沖縄県 */ bed[46] = "286";
-
-			document.getElementById('2ja_ka').style.backgroundColor = '#FFFFFF';
-			document.getElementById('2ja_hokkaido').innerHTML = "北海道<br><center>現患者数／病床数<br>" + json_data.area[0].ncurrentpatients + "／" + bed[0] + "</center>";
-			document.getElementById('2ja_aomori').innerHTML = "青森県<br><center>現患者数／病床数<br>" + json_data.area[1].ncurrentpatients + "／" + bed[1] + "</center>";
-			document.getElementById('2ja_iwate').innerHTML = "岩手県<br><center>現患者数／病床数<br>" + json_data.area[2].ncurrentpatients + "／" + bed[2] + "</center>";
-			document.getElementById('2ja_miyagi').innerHTML = "宮城県<br><center>現患者数／病床数<br>" + json_data.area[3].ncurrentpatients + "／" + bed[3] + "</center>";
-			document.getElementById('2ja_akita').innerHTML = "秋田県<br><center>現患者数／病床数<br>" + json_data.area[4].ncurrentpatients + "／" + bed[4] + "</center>";
-			document.getElementById('2ja_yamagata').innerHTML = "山形県<br><center>現患者数／病床数<br>" + json_data.area[5].ncurrentpatients + "／" + bed[5] + "</center>";
-			document.getElementById('2ja_fukushima').innerHTML = "福島県<br><center>現患者数／病床数<br>" + json_data.area[6].ncurrentpatients + "／" + bed[6] + "</center>";
-			document.getElementById('2ja_ibaraki').innerHTML = "茨城県<br><center>現患者数／病床数<br>" + json_data.area[7].ncurrentpatients + "／" + bed[7] + "</center>";
-			document.getElementById('2ja_tochigi').innerHTML = "栃木県<br><center>現患者数／病床数<br>" + json_data.area[8].ncurrentpatients + "／" + bed[8] + "</center>";
-			document.getElementById('2ja_gunma').innerHTML = "群馬県<br><center>現患者数／病床数<br>" + json_data.area[9].ncurrentpatients + "／" + bed[9] + "</center>";
-			document.getElementById('2ja_saitama').innerHTML = "埼玉県<br><center>現患者数／病床数<br>" + json_data.area[10].ncurrentpatients + "／" + bed[10] + "</center>";
-			document.getElementById('2ja_tiba').innerHTML = "千葉県<br><center>現患者数／病床数<br>" + json_data.area[11].ncurrentpatients + "／" + bed[11] + "</center>";
-			document.getElementById('2ja_tokyo').innerHTML = "東京都<br><center>現患者数／病床数<br>" + json_data.area[12].ncurrentpatients + "／" + bed[12] + "</center>";
-			document.getElementById('2ja_kanagawa').innerHTML = "神奈川県<br><center>現患者数／病床数<br>" + json_data.area[13].ncurrentpatients + "／" + bed[13] + "</center>";
-			document.getElementById('2ja_niigata').innerHTML = "新潟県<br><center>現患者数／病床数<br>" + json_data.area[14].ncurrentpatients + "／" + bed[14] + "</center>";
-			document.getElementById('2ja_toyama').innerHTML = "富山県<br><center>現患者数／病床数<br>" + json_data.area[15].ncurrentpatients + "／" + bed[15] + "</center>";
-			document.getElementById('2ja_ishikawa').innerHTML = "石川県<br><center>現患者数／病床数<br>" + json_data.area[16].ncurrentpatients + "／" + bed[16] + "</center>";
-			document.getElementById('2ja_fukui').innerHTML = "福井県<br><center>現患者数／病床数<br>" + json_data.area[17].ncurrentpatients + "／" + bed[17] + "</center>";
-			document.getElementById('2ja_yamanashi').innerHTML = "山梨県<br><center>現患者数／病床数<br>" + json_data.area[18].ncurrentpatients + "／" + bed[18] + "</center>";
-			document.getElementById('2ja_nagano').innerHTML = "長野県<br><center>現患者数／病床数<br>" + json_data.area[19].ncurrentpatients + "／" + bed[19] + "</center>";
-			document.getElementById('2ja_gifu').innerHTML = "岐阜県<br><center>現患者数／病床数<br>" + json_data.area[20].ncurrentpatients + "／" + bed[20] + "</center>";
-			document.getElementById('2ja_shizuoka').innerHTML = "静岡県<br><center>現患者数／病床数<br>" + json_data.area[21].ncurrentpatients + "／" + bed[21] + "</center>";
-			document.getElementById('2ja_aichi').innerHTML = "愛知県<br><center>現患者数／病床数<br>" + json_data.area[22].ncurrentpatients + "／" + bed[22] + "</center>";
-			document.getElementById('2ja_mie').innerHTML = "三重県<br><center>現患者数／病床数<br>" + json_data.area[23].ncurrentpatients + "／" + bed[23] + "</center>";
-			document.getElementById('2ja_shiga').innerHTML = "滋賀県<br><center>現患者数／病床数<br>" + json_data.area[24].ncurrentpatients + "／" + bed[24] + "</center>";
-			document.getElementById('2ja_kyoto').innerHTML = "京都府<br><center>現患者数／病床数<br>" + json_data.area[25].ncurrentpatients + "／" + bed[25] + "</center>";
-			document.getElementById('2ja_osaka').innerHTML = "大阪府<br><center>現患者数／病床数<br>" + json_data.area[26].ncurrentpatients + "／" + bed[26] + "</center>";
-			document.getElementById('2ja_hyogo').innerHTML = "兵庫県<br><center>現患者数／病床数<br>" + json_data.area[27].ncurrentpatients + "／" + bed[27] + "</center>";
-			document.getElementById("2ja_nara").innerHTML = "奈良県<br><center>現患者数／病床数<br>" + json_data.area[28].ncurrentpatients + "／" + bed[28] + "</center>";
-			document.getElementById("2ja_wakayama").innerHTML = "和歌山県<br><center>現患者数／病床数<br>" + json_data.area[29].ncurrentpatients + "／" + bed[29] + "</center>";
-			document.getElementById("2ja_tottori").innerHTML = "鳥取県<br><center>現患者数／病床数<br>" + json_data.area[30].ncurrentpatients + "／" + bed[30] + "</center>";
-			document.getElementById("2ja_shimane").innerHTML = "島根県<br><center>現患者数／病床数<br>" + json_data.area[31].ncurrentpatients + "／" + bed[31] + "</center>";
-			document.getElementById("2ja_okayama").innerHTML = "岡山県<br><center>現患者数／病床数<br>" + json_data.area[32].ncurrentpatients + "／" + bed[32] + "</center>";
-			document.getElementById("2ja_hiroshima").innerHTML = "広島県<br><center>現患者数／病床数<br>" + json_data.area[33].ncurrentpatients + "／" + bed[33] + "</center>";
-			document.getElementById("2ja_yamaguchi").innerHTML = "山口県<br><center>現患者数／病床数<br>" + json_data.area[34].ncurrentpatients + "／" + bed[34] + "</center>";
-			document.getElementById("2ja_tokushima").innerHTML = "徳島県<br><center>現患者数／病床数<br>" + json_data.area[35].ncurrentpatients + "／" + bed[35] + "</center>";
-			document.getElementById("2ja_kagawa").innerHTML = "香川県<br><center>現患者数／病床数<br>" + json_data.area[36].ncurrentpatients + "／" + bed[36] + "</center>";
-			document.getElementById("2ja_ehime").innerHTML = "愛媛県<br><center>現患者数／病床数<br>" + json_data.area[37].ncurrentpatients + "／" + bed[37] + "</center>";
-			document.getElementById("2ja_kochi").innerHTML = "高知県<br><center>現患者数／病床数<br>" + json_data.area[38].ncurrentpatients + "／" + bed[38] + "</center>";
-			document.getElementById("2ja_fukuoka").innerHTML = "福岡県<br><center>現患者数／病床数<br>" + json_data.area[39].ncurrentpatients + "／" + bed[39] + "</center>";
-			document.getElementById("2ja_saga").innerHTML = "佐賀県<br><center>現患者数／病床数<br>" + json_data.area[40].ncurrentpatients + "／" + bed[40] + "</center>";
-			document.getElementById("2ja_nagasaki").innerHTML = "長崎県<br><center>現患者数／病床数<br>" + json_data.area[41].ncurrentpatients + "／" + bed[41] + "</center>";
-			document.getElementById("2ja_kumamoto").innerHTML = "熊本県<br><center>現患者数／病床数<br>" + json_data.area[42].ncurrentpatients + "／" + bed[42] + "</center>";
-			document.getElementById("2ja_oita").innerHTML = "大分県<br><center>現患者数／病床数<br>" + json_data.area[43].ncurrentpatients + "／" + bed[43] + "</center>";
-			document.getElementById("2ja_miyazaki").innerHTML ="宮崎県<br><center>現患者数／病床数<br>" + json_data.area[44].ncurrentpatients + "／" + bed[44] + "</center>";
-			document.getElementById("2ja_kagoshima").innerHTML = "鹿児島県<br><center>現患者数／病床数<br>" + json_data.area[45].ncurrentpatients + "／" + bed[45] + "</center>";
-			document.getElementById("2ja_okinawa").innerHTML = "沖縄県<br><center>現患者数／病床数<br>" + json_data.area[46].ncurrentpatients + "／" + bed[46] + "</center>";
-
-			/* 色分け判定 */
 			x[0] = document.getElementById('2ja_hokkaido');
 			x[1] = document.getElementById('2ja_aomori');
 			x[2] = document.getElementById('2ja_iwate');
@@ -252,19 +194,28 @@ function get_kansen(){
 			x[44] = document.getElementById("2ja_miyazaki");
 			x[45] = document.getElementById("2ja_kagoshima");
 			x[46] = document.getElementById("2ja_okinawa");
+			
+			/* 全国を非表示 */
+			document.getElementById('2ja_ka').style.backgroundColor = '#FFFFFF';
 
+			/* divに掲載 */
+			for (var i = 0;  i < 47;  i++){
+			x[i].innerHTML = json_data.area[i].name_jp +"<br><center>現患者数／病床数<br>" + ncurrent[i] + "／" + bed[i] + "</center>";
+			}
+
+			/* 色分け判定 */
 			for(var i = 0;  i < 47;  i++){
-				if(json_data.area[i].ncurrentpatients > bed[i]){
+				if( ncurrent[i] > bed[i]){
 					x[i].style.backgroundColor = '#FF0000';
 				}
-				else if(json_data.area[i].ncurrentpatients > bed[i]*0.5){
+				else if( ncurrent[i] > bed[i]*0.5){
 					x[i].style.backgroundColor = '#FF9900';
 				}
-				else if(json_data.area[i].ncurrentpatients > bed[i]*0.2){
+				else if( ncurrent[i] > bed[i]*0.2){
 					x[i].style.backgroundColor = '#FFFF00';
 					x[i].style.color = "#000000";
 				}
-				else if(json_data.area[i].ncurrentpatients == "0"){
+				else if( ncurrent[i] == "0"){
 					x[i].style.backgroundColor = '#0000FF';
 				}
 				else{
@@ -272,97 +223,6 @@ function get_kansen(){
 					x[i].style.color = "#000000";
 				}
 			}
-
-			/* 速報上書き 
-				if(multi_n[0] > bed[0]){
-					x[0].style.backgroundColor = '#FF0000';
-				}
-				else if(multi_n[0] > bed[0]*0.5){
-					x[0].style.backgroundColor = '#FF9900';
-				}
-				else if(multi_n[0] > bed[0]*0.2){
-					x[0].style.backgroundColor = '#FFFF00';
-					x[0].style.color = "#000000";
-				}
-				else if(multi_n[0] == "0"){
-					x[0].style.backgroundColor = '#0000FF';
-				}
-				else{
-					x[0].style.backgroundColor = '#CCFF00';
-					x[0].style.color = "#000000";
-				}
-				
-				if(multi_n[17] > bed[17]){
-					x[17].style.backgroundColor = '#FF0000';
-				}
-				else if(multi_n[17] > bed[17]*0.5){
-					x[17].style.backgroundColor = '#FF9900';
-				}
-				else if(multi_n[17] > bed[17]*0.2){
-					x[17].style.backgroundColor = '#FFFF00';
-					x[17].style.color = "#000000";
-				}
-				else if(multi_n[17] == "0"){
-					x[17].style.backgroundColor = '#0000FF';
-				}
-				else{
-					x[17].style.backgroundColor = '#CCFF00';
-					x[17].style.color = "#000000";
-				}
-
-				if(multi_n[21] > bed[21]){
-					x[21].style.backgroundColor = '#FF0000';
-				}
-				else if(multi_n[21] > bed[21]*0.5){
-					x[21].style.backgroundColor = '#FF9900';
-				}
-				else if(multi_n[21] > bed[21]*0.2){
-					x[21].style.backgroundColor = '#FFFF00';
-					x[21].style.color = "#000000";
-				}
-				else if(multi_n[21] == "0"){
-					x[21].style.backgroundColor = '#0000FF';
-				}
-				else{
-					x[21].style.backgroundColor = '#CCFF00';
-					x[21].style.color = "#000000";
-				}
-
-				if(multi_n[39] > bed[39]){
-					x[39].style.backgroundColor = '#FF0000';
-				}
-				else if(multi_n[39] > bed[39]*0.5){
-					x[39].style.backgroundColor = '#FF9900';
-				}
-				else if(multi_n[39] > bed[39]*0.2){
-					x[39].style.backgroundColor = '#FFFF00';
-					x[39].style.color = "#000000";
-				}
-				else if(multi_n[39] == "0"){
-					x[39].style.backgroundColor = '#0000FF';
-				}
-				else{
-					x[39].style.backgroundColor = '#CCFF00';
-					x[39].style.color = "#000000";
-				}
-
-				if(multi_n[12] > bed[12]){
-					x[12].style.backgroundColor = '#FF0000';
-				}
-				else if(multi_n[12] > bed[12]*0.5){
-					x[12].style.backgroundColor = '#FF9900';
-				}
-				else if(multi_n[12] > bed[12]*0.2){
-					x[12].style.backgroundColor = '#FFFF00';
-					x[12].style.color = "#000000";
-				}
-				else if(multi_n[12] == "0"){
-					x[12].style.backgroundColor = '#0000FF';
-				}
-				else{
-					x[12].style.backgroundColor = '#CCFF00';
-					x[12].style.color = "#000000";
-				}*/
 
 			/* density */
 			
@@ -463,25 +323,12 @@ density[46]="1448000";
 			y[45] = document.getElementById("3ja_kagoshima");
 			y[46] = document.getElementById("3ja_okinawa");
 
-
-			
+			/* divに掲載 */
 			for (var i = 0; i < 47; i++){
-				mitudo[i] = Math.round(json_data.area[i].ncurrentpatients / density[i] * 100000 * 10)/10;
+				mitudo[i] = Math.round(ncurrent[i] / density[i] * 100000 * 10)/10;
 				y[i].innerHTML = json_data.area[i].name_jp + "<br><center>" + mitudo[i] +"</center>";
 			}
 			
-			/* 速報上書き 
-				mitudo[0] = Math.round(multi_n[0] / density[0] * 100000 * 10)/10;
-				y[0].innerHTML = json_data.area[0].name_jp + "<br><center>" + mitudo[0] +"</center>";
-				mitudo[17] = Math.round(multi_n[17] / density[17] * 100000 * 10)/10;
-				y[17].innerHTML = json_data.area[17].name_jp + "<br><center>" + mitudo[17] +"</center>";
-				mitudo[21] = Math.round(multi_n[21] / density[21] * 100000 * 10)/10;
-				y[21].innerHTML = json_data.area[21].name_jp + "<br><center>" + mitudo[21] +"</center>";
-				mitudo[39] = Math.round(multi_n[39] / density[39] * 100000 * 10)/10;
-				y[39].innerHTML = json_data.area[39].name_jp + "<br><center>" + mitudo[39] +"</center>";
-				mitudo[12] = Math.round(multi_n[12] / density[12] * 100000 * 10)/10;
-				y[12].innerHTML = json_data.area[12].name_jp + "<br><center>" + mitudo[12] +"</center>";*/
-
 			/* 色分け判定 */
 			document.getElementById('3ja_ka').style.backgroundColor = '#FFFFFF';
 			for(var i = 0;  i < 47;  i++){
@@ -508,7 +355,7 @@ density[46]="1448000";
 			
 			/* 地域分析用 */
 			for (var i = 0; i < 47; i++){
-				mitudo_total[i] = Math.round(json_data.area[i].npatients / density[i] * 100000 * 10)/10;
+				mitudo_total[i] = Math.round(yousei[i] / density[i] * 100000 * 10)/10;
 			}
 
 
@@ -516,9 +363,7 @@ density[46]="1448000";
       document.getElementById('day_s').innerHTML = "最終更新：" + day1[0] + "." + day1[1] + "." + day1[2];
     }
   };
-  var url = "https://www.stopcovid19.jp/data/covid19japan.json";
-  xhr.open('GET', url);
-  xhr.send(null);
+
 }
 
 function calculate(){
@@ -640,7 +485,7 @@ function online(x){
 			online_pref[11] = 'tiba';
 			online_pref[12] = 'tokyo';
 			online_pref[13] = 'kanagawa';
-			online_pref[14] = 'niigata';
+			online_pref[14] = 'nigata';
 			online_pref[15] = 'toyama';
 			online_pref[16] = 'ishikawa';
 			online_pref[17] = 'fukui';

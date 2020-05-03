@@ -10,7 +10,7 @@
 ,
 {"Name":"泉野医院","Jusho":"大阪府大阪市都島区都島本通4-20-35","kouzui":"<a href='tel:06-6921-0187'>06-6921-0187</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科小児科","kaji":"東大阪病院（大阪市城東区中央1-7-22）","naisui":"","kazan":""}
 ,
-{"Name":"明生記念病院","Jusho":"大阪府大阪市都島区東野田町2丁目8番12号","kouzui":"<a href='tel:06-6357-5791'>06-6357-5791</a>","gake":"<a href='meiseigrp.jp/meiseikinen.html' target='_blank'>meiseigrp.jp/meiseikinen.html</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"大阪市立総合医療センター（大阪府大阪市都島区都島本通2丁目13番22号）","naisui":"","kazan":""}
+{"Name":"明生記念病院","Jusho":"大阪府大阪市都島区東野田町2丁目8番12号","kouzui":"<a href='tel:06-6357-5791'>06-6357-5791</a>","gake":"<a href='http://meiseigrp.jp/meiseikinen.html' target='_blank'>http://meiseigrp.jp/meiseikinen.html</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"大阪市立総合医療センター（大阪府大阪市都島区都島本通2丁目13番22号）","naisui":"","kazan":""}
 ,
 {"Name":"社会医療法人明生会明生病院","Jusho":"大阪府大阪市都島区東野田町2-4-8","kouzui":"<a href='tel:06-6353-3121'>06-6353-3121</a>","gake":"<a href='http://meiseigrp.jp/meisei.html' target='_blank'>http://meiseigrp.jp/meisei.html</a>","takashio":"×","jishin":"〇","tsunami":"内科整形外科脳神経外科","kaji":"","naisui":"","kazan":""}
 ,
@@ -30,7 +30,7 @@
 ,
 {"Name":"医療法人北星会鎌田クリニック","Jusho":"大阪府大阪市此花区春日出北3-1-4","kouzui":"<a href='tel:06-6962-3481'>06-6962-3481</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科外科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"王内科胃腸科クリニック","Jusho":"大阪府大阪市西区西本町1丁目4-1オリックス本町ビル2F","kouzui":"<a href='tel:06-6541-9896'>06-6541-9896</a>","gake":"<a href='oh-naika.com' target='_blank'>oh-naika.com</a>","takashio":"〇","jishin":"〇","tsunami":"内科・消化器内科","kaji":"日本生命病院（大阪市西区江之子島2-1-54","naisui":"","kazan":""}
+{"Name":"王内科胃腸科クリニック","Jusho":"大阪府大阪市西区西本町1丁目4-1オリックス本町ビル2F","kouzui":"<a href='tel:06-6541-9896'>06-6541-9896</a>","gake":"<a href='http://oh-naika.com' target='_blank'>http://oh-naika.com</a>","takashio":"〇","jishin":"〇","tsunami":"内科・消化器内科","kaji":"日本生命病院（大阪市西区江之子島2-1-54","naisui":"","kazan":""}
 ,
 {"Name":"いぬい小児科","Jusho":"大阪府大阪市西区北堀江2-8-13","kouzui":"<a href='tel:06-6543-0307'>06-6543-0307</a>","gake":"<a href='http://www.mediqube.com/inui/' target='_blank'>http://www.mediqube.com/inui/</a>","takashio":"〇","jishin":"〇","tsunami":"小児科","kaji":"中野こども病院（大阪市旭区新森4-13-17）日本生命病院（大阪市西区江之子島2-1-54）","naisui":"","kazan":""}
 ,
@@ -44,7 +44,7 @@
 ,
 {"Name":"うつぼGardenClinic","Jusho":"大阪府大阪市西区京町堀1-3-13辰巳ビル1階","kouzui":"<a href='tel:06-6136-6408'>06-6136-6408</a>","gake":"<a href='https://utsubo-garden-clinic.com' target='_blank'>https://utsubo-garden-clinic.com</a>","takashio":"〇","jishin":"〇","tsunami":"内科糖尿病内科内分泌内科","kaji":"病状に応じて連携医療機関の中から選択し依頼","naisui":"","kazan":""}
 ,
-{"Name":"大谷クリニック","Jusho":"大阪府大阪市西区京町堀1-9-9","kouzui":"<a href='tel:06-6441-1980'>06-6441-1980</a>","gake":"<a href='www.ohtanicl.com' target='_blank'>www.ohtanicl.com</a>","takashio":"×","jishin":"〇","tsunami":"内科・小児科","kaji":"","naisui":"","kazan":""}
+{"Name":"大谷クリニック","Jusho":"大阪府大阪市西区京町堀1-9-9","kouzui":"<a href='tel:06-6441-1980'>06-6441-1980</a>","gake":"<a href='http://www.ohtanicl.com' target='_blank'>http://www.ohtanicl.com</a>","takashio":"×","jishin":"〇","tsunami":"内科・小児科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"上嶋内科・消化器科クリニック","Jusho":"大阪府大阪市西区北堀江1-5-4四ツ橋サンビル4階","kouzui":"<a href='tel:06-6536-0700'>06-6536-0700</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"消化器内科内科","kaji":"","naisui":"","kazan":""}
 ,
@@ -130,7 +130,7 @@
 ,
 {"Name":"医療法人啓松会飯原医院","Jusho":"大阪府大阪市東淀川区小松3丁目5番31号","kouzui":"<a href='tel:06-6328-2500'>06-6328-2500</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"外科","kaji":"淀川キリスト教病院（大阪市東淀川区柴島1丁目7?50）医誠会病院（大阪市東淀川区菅原6-2-25）済生会吹田病院（大阪府吹田市川園町1-2）","naisui":"","kazan":""}
 ,
-{"Name":"清水クリニック","Jusho":"大阪府大阪市東淀川区瑞光一丁目4番26号","kouzui":"<a href='tel:06-6370-0033'>06-6370-0033</a>","gake":"<a href='h?ttp：//shimizuc-linic.in' target='_blank'>h?ttp：//shimizuc-linic.in</a>","takashio":"〇","jishin":"〇","tsunami":"精神科内科","kaji":"淀川キリスト教病院医誠会病院済生会吹田病院北野病院","naisui":"","kazan":""}
+{"Name":"清水クリニック","Jusho":"大阪府大阪市東淀川区瑞光一丁目4番26号","kouzui":"<a href='tel:06-6370-0033'>06-6370-0033</a>","gake":"<a href='http://shimizuc-linic.in' target='_blank'>http://shimizuc-linic.in</a>","takashio":"〇","jishin":"〇","tsunami":"精神科内科","kaji":"淀川キリスト教病院医誠会病院済生会吹田病院北野病院","naisui":"","kazan":""}
 ,
 {"Name":"横田クリニック","Jusho":"大阪府大阪市東淀川区井高野1-1-29","kouzui":"<a href='tel:06-6340-4158'>06-6340-4158</a>","gake":"<a href='https://www.yokotaclinic.net/' target='_blank'>https://www.yokotaclinic.net/</a>","takashio":"〇","jishin":"〇","tsunami":"内科小児科","kaji":"","naisui":"","kazan":""}
 ,
@@ -176,7 +176,7 @@
 ,
 {"Name":"ボバース記念病院","Jusho":"大阪府大阪市城東区東中浜1-6-5","kouzui":"<a href='tel:06-6962-3131'>06-6962-3131</a>","gake":"<a href='https://www.omichikai.or.jp/bobath/' target='_blank'>https://www.omichikai.or.jp/bobath/</a>","takashio":"×","jishin":"〇","tsunami":"小児神経科小児整形外科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"医療法人悠亜会かわい内科クリニック","Jusho":"大阪府大阪市城東区東中浜3-7-14","kouzui":"<a href='tel:06-6962-3133'>06-6962-3133</a>","gake":"<a href='www.kawai-medical.com' target='_blank'>www.kawai-medical.com</a>","takashio":"〇","jishin":"〇","tsunami":"内科消化器科","kaji":"国立病院機構大阪医療センター（大阪府大阪市中央区法円坂2丁目1-14）済生会野江病院（大阪府大阪市城東区古市1丁目3-25）","naisui":"","kazan":""}
+{"Name":"医療法人悠亜会かわい内科クリニック","Jusho":"大阪府大阪市城東区東中浜3-7-14","kouzui":"<a href='tel:06-6962-3133'>06-6962-3133</a>","gake":"<a href='http://www.kawai-medical.com' target='_blank'>http://www.kawai-medical.com</a>","takashio":"〇","jishin":"〇","tsunami":"内科消化器科","kaji":"国立病院機構大阪医療センター（大阪府大阪市中央区法円坂2丁目1-14）済生会野江病院（大阪府大阪市城東区古市1丁目3-25）","naisui":"","kazan":""}
 ,
 {"Name":"医療法人福田クリニック","Jusho":"大阪府大阪市城東区関目1-3-11","kouzui":"<a href='tel:06-6930-1120'>06-6930-1120</a>","gake":"<a href='https://www.fukuda-c.jp/' target='_blank'>https://www.fukuda-c.jp/</a>","takashio":"〇","jishin":"〇","tsunami":"小児科内科","kaji":"大阪市立総合医療センタ-","naisui":"","kazan":""}
 ,
@@ -284,13 +284,13 @@
 ,
 {"Name":"医療法人志紀会希咲クリニック","Jusho":"大阪府大阪市淀川区十三東2-7-8エルディ十三東駅前ビル3階","kouzui":"<a href='tel:06-6476-7233'>06-6476-7233</a>","gake":"<a href='https://kisaki-clinic.jp/' target='_blank'>https://kisaki-clinic.jp/</a>","takashio":"×","jishin":"〇","tsunami":"婦人科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"（医）誉祐会はりの眼科","Jusho":"大阪府大阪市東淀川区東淡路4-28-14イーズメディテラス2階","kouzui":"<a href='tel:06-6195-5777'>06-6195-5777</a>","gake":"<a href='www.harino-ganka.com' target='_blank'>www.harino-ganka.com</a>","takashio":"×","jishin":"〇","tsunami":"眼科","kaji":"淀川キリスト教病院（大阪府大阪市東淀川区柴島1-7-50）","naisui":"","kazan":""}
+{"Name":"（医）誉祐会はりの眼科","Jusho":"大阪府大阪市東淀川区東淡路4-28-14イーズメディテラス2階","kouzui":"<a href='tel:06-6195-5777'>06-6195-5777</a>","gake":"<a href='http://www.harino-ganka.com' target='_blank'>http://www.harino-ganka.com</a>","takashio":"×","jishin":"〇","tsunami":"眼科","kaji":"淀川キリスト教病院（大阪府大阪市東淀川区柴島1-7-50）","naisui":"","kazan":""}
 ,
 {"Name":"新生クリニック","Jusho":"大阪府大阪市淀川区東三国4-15-13","kouzui":"<a href='tel:06-6391-5061'>06-6391-5061</a>","gake":"<a href='http://xn--u9j2ga3ftb3m002r57oxg5agxd0t1c.com/' target='_blank'>http://xn--u9j2ga3ftb3m002r57oxg5agxd0t1c.com/</a>","takashio":"〇","jishin":"〇","tsunami":"内科小児科","kaji":"淀川キリスト教病院大阪回生病院","naisui":"","kazan":""}
 ,
 {"Name":"清水こどもクリニック","Jusho":"大阪府大阪市淀川区三国本町2-18-30-301","kouzui":"<a href='tel:06-6396-8585'>06-6396-8585</a>","gake":"<a href='http://hiyoko.in.coocan.jp' target='_blank'>http://hiyoko.in.coocan.jp</a>","takashio":"〇","jishin":"〇","tsunami":"小児科","kaji":"淀川キリスト教病院（大阪府大阪市東淀川区柴島1-7-50）","naisui":"","kazan":""}
 ,
-{"Name":"吉村内科クリニック","Jusho":"大阪府大阪市淀川区東三国2-38-3","kouzui":"<a href='tel:06-6396-0388'>06-6396-0388</a>","gake":"<a href='yo-clinic.life.coocan.jp' target='_blank'>yo-clinic.life.coocan.jp</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"当クリニック","naisui":"","kazan":""}
+{"Name":"吉村内科クリニック","Jusho":"大阪府大阪市淀川区東三国2-38-3","kouzui":"<a href='tel:06-6396-0388'>06-6396-0388</a>","gake":"<a href='http://yo-clinic.life.coocan.jp' target='_blank'>http://yo-clinic.life.coocan.jp</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"当クリニック","naisui":"","kazan":""}
 ,
 {"Name":"北大阪医療生活協同組合十三病院","Jusho":"大阪府大阪市淀川区木川西3-4-15","kouzui":"<a href='tel:06-6303-8731'>06-6303-8731</a>","gake":"<a href='http://www.kitaiseikyo.com' target='_blank'>http://www.kitaiseikyo.com</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
@@ -368,7 +368,7 @@
 ,
 {"Name":"梅田内科ファミリークリニック","Jusho":"大阪府大阪市北区梅田1-8-16ヒルトンプラザイースト5階","kouzui":"<a href='tel:06-6341-8008'>06-6341-8008</a>","gake":"<a href='https://umeda-familyclinic.com/' target='_blank'>https://umeda-familyclinic.com/</a>","takashio":"〇","jishin":"〇","tsunami":"内科消化器内科小児科","kaji":"公益財団法人田付興風会医学研究所北野病院（大阪府大阪市北区扇町2-4-20）","naisui":"","kazan":""}
 ,
-{"Name":"にしひら内科クリニック","Jusho":"大阪府大阪市北区中崎西1-4-24","kouzui":"<a href='tel:06-6377-1199'>06-6377-1199</a>","gake":"<a href='www.nishihira-c.com/' target='_blank'>www.nishihira-c.com/</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"北野病院（大阪市北区扇町2丁目4番20号）","naisui":"","kazan":""}
+{"Name":"にしひら内科クリニック","Jusho":"大阪府大阪市北区中崎西1-4-24","kouzui":"<a href='tel:06-6377-1199'>06-6377-1199</a>","gake":"<a href='http://www.nishihira-c.com/' target='_blank'>http://www.nishihira-c.com/</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"北野病院（大阪市北区扇町2丁目4番20号）","naisui":"","kazan":""}
 ,
 {"Name":"医）健優会にしむら内科・糖尿病クリニック","Jusho":"大阪府大阪市北区芝田1丁目10-8山中ビル6階","kouzui":"<a href='tel:06-6375-4976'>06-6375-4976</a>","gake":"<a href='https://nishimura-clinic-dm.com/' target='_blank'>https://nishimura-clinic-dm.com/</a>","takashio":"×","jishin":"〇","tsunami":"内科糖尿病内科","kaji":"","naisui":"","kazan":""}
 ,
@@ -396,7 +396,7 @@
 ,
 {"Name":"しみずクリニック","Jusho":"大阪府大阪市中央区千日前1丁目虹のまち5-3","kouzui":"<a href='tel:06-6211-4320'>06-6211-4320</a>","gake":"<a href='https://clinic-shimizu.net/' target='_blank'>https://clinic-shimizu.net/</a>","takashio":"〇","jishin":"〇","tsunami":"乳腺外科内科眼科","kaji":"大阪医療センター（大阪市中央区法円坂2-1-14）","naisui":"","kazan":""}
 ,
-{"Name":"医療法人葛西形成外科","Jusho":"大阪府大阪市中央区本町3-6-4本町ガーデンシティ2F","kouzui":"<a href='tel:06-6251-2217'>06-6251-2217</a>","gake":"<a href='www.kasaiclinic.co.jp' target='_blank'>www.kasaiclinic.co.jp</a>","takashio":"×","jishin":"〇","tsunami":"形成外科","kaji":"済生会中津病院（大阪市北区）","naisui":"","kazan":""}
+{"Name":"医療法人葛西形成外科","Jusho":"大阪府大阪市中央区本町3-6-4本町ガーデンシティ2F","kouzui":"<a href='tel:06-6251-2217'>06-6251-2217</a>","gake":"<a href='http://www.kasaiclinic.co.jp' target='_blank'>http://www.kasaiclinic.co.jp</a>","takashio":"×","jishin":"〇","tsunami":"形成外科","kaji":"済生会中津病院（大阪市北区）","naisui":"","kazan":""}
 ,
 {"Name":"のりおかクリニック","Jusho":"大阪府大阪市中央区徳井町1-2-2","kouzui":"<a href='tel:06-6943-6005'>06-6943-6005</a>","gake":"<a href='http://norioka-clinic.byoinnavi.jp/pc/' target='_blank'>http://norioka-clinic.byoinnavi.jp/pc/</a>","takashio":"×","jishin":"〇","tsunami":"内科小児科","kaji":"大手前病院（大阪市中央区大手前1-5-34）国立病院機構大阪医療センター（大阪市中央区法円坂2-1-14）","naisui":"","kazan":""}
 ,
@@ -470,7 +470,7 @@
 ,
 {"Name":"宮前医院","Jusho":"堺市堺区綾之町東1丁1-32","kouzui":"<a href='tel:072-232-3387'>072-232-3387</a>","gake":"<a href='http://www.miyamaeiin.com/' target='_blank'>http://www.miyamaeiin.com/</a>","takashio":"×","jishin":"△","tsunami":"耳鼻咽喉科麻酔科ペインクリニック","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"しんとうクリニック","Jusho":"大阪府堺市堺区三宝町2丁131-5","kouzui":"<a href='tel:072-247-7847'>072-247-7847</a>","gake":"<a href='www.shinto-clinic.com' target='_blank'>www.shinto-clinic.com</a>","takashio":"×","jishin":"〇","tsunami":"消化器内科外科","kaji":"清恵会病院（大阪府堺市堺区南安井町1丁1-1）","naisui":"","kazan":""}
+{"Name":"しんとうクリニック","Jusho":"大阪府堺市堺区三宝町2丁131-5","kouzui":"<a href='tel:072-247-7847'>072-247-7847</a>","gake":"<a href='http://www.shinto-clinic.com' target='_blank'>http://www.shinto-clinic.com</a>","takashio":"×","jishin":"〇","tsunami":"消化器内科外科","kaji":"清恵会病院（大阪府堺市堺区南安井町1丁1-1）","naisui":"","kazan":""}
 ,
 {"Name":"かねの小児科医院","Jusho":"大阪府堺市堺区材木町東1-2-13","kouzui":"<a href='tel:072-229-1253'>072-229-1253</a>","gake":"<a href='https://www.kaneno-shounika.com/' target='_blank'>https://www.kaneno-shounika.com/</a>","takashio":"×","jishin":"〇","tsunami":"小児科","kaji":"大阪急性期・総合医療センター(大阪市住吉区万代東3丁目1-56)清恵会病院(堺区南安井町1丁目1-1)堺市立総合医療センター(堺市西区家原寺町1丁目1-1)","naisui":"","kazan":""}
 ,
@@ -628,9 +628,9 @@
 ,
 {"Name":"医療法人和洲会けやきクリニック","Jusho":"大阪府岸和田市下池田町2丁目10番31番","kouzui":"<a href='tel:072-445-8780'>072-445-8780</a>","gake":"<a href='http://washukai-keyakicl.com/' target='_blank'>http://washukai-keyakicl.com/</a>","takashio":"〇","jishin":"〇","tsunami":"内科呼吸器内科アレルギー科糖尿病内科","kaji":"岸和田徳洲会病院（岸和田市加守町4丁目27-1）市立岸和田市民病院（岸和田市額原町1001番地）","naisui":"","kazan":""}
 ,
-{"Name":"医療法人悠由会てい整形外科クリニック","Jusho":"大阪府岸和田市藤井町2-25-3","kouzui":"<a href='tel:072-447-8032'>072-447-8032</a>","gake":"<a href='teiclinic' target='_blank'>teiclinic</a>","takashio":"×","jishin":"〇","tsunami":"整形外科","kaji":"岸和田徳洲会病院、岸和田市民病院","naisui":"","kazan":""}
+{"Name":"医療法人悠由会てい整形外科クリニック","Jusho":"大阪府岸和田市藤井町2-25-3","kouzui":"<a href='tel:072-447-8032'>072-447-8032</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"整形外科","kaji":"岸和田徳洲会病院、岸和田市民病院","naisui":"","kazan":""}
 ,
-{"Name":"医療法人晋救館和田病院","Jusho":"大阪府岸和田市三田町944-1","kouzui":"<a href='tel:072-445-3232'>072-445-3232</a>","gake":"<a href='www.wada-hp.jp/' target='_blank'>www.wada-hp.jp/</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
+{"Name":"医療法人晋救館和田病院","Jusho":"大阪府岸和田市三田町944-1","kouzui":"<a href='tel:072-445-3232'>072-445-3232</a>","gake":"<a href='http://www.wada-hp.jp/' target='_blank'>http://www.wada-hp.jp/</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"橋間診療所","Jusho":"大阪府岸和田市荒木町1-12-1","kouzui":"<a href='tel:072-443-7172'>072-443-7172</a>","gake":"<a href='http://hashima-medicalfitness.com' target='_blank'>http://hashima-medicalfitness.com</a>","takashio":"〇","jishin":"〇","tsunami":"整形外科内科皮膚科","kaji":"","naisui":"","kazan":""}
 ,
@@ -690,7 +690,7 @@
 ,
 {"Name":"医療法人ロングウッド前田クリニック","Jusho":"大阪府吹田市古江台4丁目2-38ディオス北千里2番館2-203号","kouzui":"<a href='tel:06-6832-8635'>06-6832-8635</a>","gake":"<a href='https://www.kitasenri-maeda-cl.com/' target='_blank'>https://www.kitasenri-maeda-cl.com/</a>","takashio":"〇","jishin":"〇","tsunami":"内科、糖尿病内科、循環器内科、内分泌内科","kaji":"関西メディカル病院（〒560-0083大阪府豊中市新千里西町1丁目1番7-2号）","naisui":"","kazan":""}
 ,
-{"Name":"医療法人松田クリニック","Jusho":"大阪府吹田市江ノ木町3番11号第3ロンチェビル4階","kouzui":"<a href='tel:06-6385-8801'>06-6385-8801</a>","gake":"<a href='matsuda-clinic.net' target='_blank'>matsuda-clinic.net</a>","takashio":"〇","jishin":"〇","tsunami":"アレルギー科，皮膚科，形成外科","kaji":"社会福祉法人恩賜財団済生会支部大阪府済生会吹田病院（大阪府吹田市川園町1番2号）社会福祉法人恩賜財団済生会支部大阪府済生会中津病院（大阪市北区芝田2-10-39）","naisui":"","kazan":""}
+{"Name":"医療法人松田クリニック","Jusho":"大阪府吹田市江ノ木町3番11号第3ロンチェビル4階","kouzui":"<a href='tel:06-6385-8801'>06-6385-8801</a>","gake":"<a href='http://matsuda-clinic.net' target='_blank'>http://matsuda-clinic.net</a>","takashio":"〇","jishin":"〇","tsunami":"アレルギー科，皮膚科，形成外科","kaji":"社会福祉法人恩賜財団済生会支部大阪府済生会吹田病院（大阪府吹田市川園町1番2号）社会福祉法人恩賜財団済生会支部大阪府済生会中津病院（大阪市北区芝田2-10-39）","naisui":"","kazan":""}
 ,
 {"Name":"西村クリニック","Jusho":"大阪府吹田市竹見台4-2-6","kouzui":"<a href='tel:06-6871-0231'>06-6871-0231</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"済生会千里病院（大阪府吹田市津雲台1-1-6）国立循環器病研究センター（大阪府吹田市岸部新町6-1）吹田市民病院（大阪府吹田市岸部新町5-7）済生会吹田病院（大阪府吹田市川園町1-2）など","naisui":"","kazan":""}
 ,
@@ -712,7 +712,7 @@
 ,
 {"Name":"市立吹田市民病院","Jusho":"大阪府吹田市岸部新町5番7号","kouzui":"<a href='tel:06-6387-3311'>06-6387-3311</a>","gake":"<a href='https://www.suitamhp.osaka.jp/' target='_blank'>https://www.suitamhp.osaka.jp/</a>","takashio":"×","jishin":"〇","tsunami":"全科","kaji":"当院","naisui":"","kazan":""}
 ,
-{"Name":"水戸医院","Jusho":"大阪府吹田市元町22番14号","kouzui":"<a href='tel:06-6382-3226'>06-6382-3226</a>","gake":"<a href='zwsx.amebaownd.com' target='_blank'>zwsx.amebaownd.com</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"ケースバイケース","naisui":"","kazan":""}
+{"Name":"水戸医院","Jusho":"大阪府吹田市元町22番14号","kouzui":"<a href='tel:06-6382-3226'>06-6382-3226</a>","gake":"<a href='http://zwsx.amebaownd.com' target='_blank'>http://zwsx.amebaownd.com</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"ケースバイケース","naisui":"","kazan":""}
 ,
 {"Name":"ちばクリニック","Jusho":"大阪府吹田市山手町2-9-1","kouzui":"<a href='tel:06-6388-0358'>06-6388-0358</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科小児科","kaji":"患者様の希望、病院の受け入れ等状況によりどこの病院にも紹介可","naisui":"","kazan":""}
 ,
@@ -846,7 +846,7 @@
 ,
 {"Name":"増本医院","Jusho":"大阪府高槻市芥川町2丁目13-29","kouzui":"<a href='tel:072-685-0271'>072-685-0271</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"皮膚科","kaji":"高槻病院（高槻市古曽部町1丁目3番13号）","naisui":"","kazan":""}
 ,
-{"Name":"おかざき眼科","Jusho":"大阪府高槻市芝谷町35-19","kouzui":"<a href='tel:072-689-1444'>072-689-1444</a>","gake":"<a href='www.okazakiganka.com' target='_blank'>www.okazakiganka.com</a>","takashio":"×","jishin":"〇","tsunami":"眼科","kaji":"大阪医科大学高槻病院","naisui":"","kazan":""}
+{"Name":"おかざき眼科","Jusho":"大阪府高槻市芝谷町35-19","kouzui":"<a href='tel:072-689-1444'>072-689-1444</a>","gake":"<a href='http://www.okazakiganka.com' target='_blank'>http://www.okazakiganka.com</a>","takashio":"×","jishin":"〇","tsunami":"眼科","kaji":"大阪医科大学高槻病院","naisui":"","kazan":""}
 ,
 {"Name":"医療法人島津内科クリニック","Jusho":"大阪府高槻市宮野町17-1","kouzui":"<a href='tel:072-675-3003'>072-675-3003</a>","gake":"<a href='http://www.shimazu-clinic.com' target='_blank'>http://www.shimazu-clinic.com</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"高槻病院（大阪府高槻市古曽部町1丁目3番13)第一東和会病院（大阪府高槻市宮野町2-17)","naisui":"","kazan":""}
 ,
@@ -1020,7 +1020,7 @@
 ,
 {"Name":"樫井診療所","Jusho":"大阪府泉佐野市南中樫井481番地","kouzui":"<a href='tel:072-466-8661'>072-466-8661</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"医療法人白雲会リョーヤコマツクリニック","Jusho":"大阪府泉佐野市りんくう往来北1番りんくうゲートタワービル17階","kouzui":"<a href='tel:072-463-7003'>072-463-7003</a>","gake":"<a href='www.rk-clinic.jp' target='_blank'>www.rk-clinic.jp</a>","takashio":"×","jishin":"〇","tsunami":"内科循環器科","kaji":"りんくう総合医療センター（泉佐野市りんくう往来北2-23）市立岸和田市民病院（岸和田市額原町1001番地）岸和田徳洲会病院（岸和田市加守町4-27-1）","naisui":"","kazan":""}
+{"Name":"医療法人白雲会リョーヤコマツクリニック","Jusho":"大阪府泉佐野市りんくう往来北1番りんくうゲートタワービル17階","kouzui":"<a href='tel:072-463-7003'>072-463-7003</a>","gake":"<a href='http://www.rk-clinic.jp' target='_blank'>http://www.rk-clinic.jp</a>","takashio":"×","jishin":"〇","tsunami":"内科循環器科","kaji":"りんくう総合医療センター（泉佐野市りんくう往来北2-23）市立岸和田市民病院（岸和田市額原町1001番地）岸和田徳洲会病院（岸和田市加守町4-27-1）","naisui":"","kazan":""}
 ,
 {"Name":"泉佐野優人会病院","Jusho":"大阪府泉佐野市湊4丁目5番17号","kouzui":"<a href='tel:072-462-2851'>072-462-2851</a>","gake":"<a href='https://yujinkai.or.jp/' target='_blank'>https://yujinkai.or.jp/</a>","takashio":"△","jishin":"△","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
@@ -1116,7 +1116,7 @@
 ,
 {"Name":"医療法人徳洲会野崎徳洲会病院","Jusho":"大阪府大東市谷川2丁目10-50","kouzui":"<a href='tel:072-874-1641'>072-874-1641</a>","gake":"<a href='https://nozaki.tokushukai.or.jp/' target='_blank'>https://nozaki.tokushukai.or.jp/</a>","takashio":"〇","jishin":"〇","tsunami":"全診療科","kaji":"基本的に自院対応","naisui":"","kazan":""}
 ,
-{"Name":"いそのかみ皮フ科","Jusho":"大阪府大東市赤井1-5-202ラプラス住道2階","kouzui":"<a href='tel:072-889-6712'>072-889-6712</a>","gake":"<a href='www.isonokami-hihuka.com' target='_blank'>www.isonokami-hihuka.com</a>","takashio":"〇","jishin":"〇","tsunami":"皮膚科アレルギー科血管外科","kaji":"石切生喜病院皮膚科（大阪府東大阪市弥生町18-28）","naisui":"","kazan":""}
+{"Name":"いそのかみ皮フ科","Jusho":"大阪府大東市赤井1-5-202ラプラス住道2階","kouzui":"<a href='tel:072-889-6712'>072-889-6712</a>","gake":"<a href='http://www.isonokami-hihuka.com' target='_blank'>http://www.isonokami-hihuka.com</a>","takashio":"〇","jishin":"〇","tsunami":"皮膚科アレルギー科血管外科","kaji":"石切生喜病院皮膚科（大阪府東大阪市弥生町18-28）","naisui":"","kazan":""}
 ,
 {"Name":"（医）恵和会恵和会総合クリニック","Jusho":"大阪府大東市末広町7番7号東邦ビル","kouzui":"<a href='tel:072-889-1122'>072-889-1122</a>","gake":"<a href='https://www.keiwakai.org/' target='_blank'>https://www.keiwakai.org/</a>","takashio":"×","jishin":"〇","tsunami":"全科","kaji":"当院で対応","naisui":"","kazan":""}
 ,
@@ -1156,7 +1156,7 @@
 ,
 {"Name":"地方独立行政法人大阪府立病院機構大阪はびきの医療センター","Jusho":"大阪府羽曳野市はびきの3-7-1","kouzui":"<a href='tel:072-957-2121'>072-957-2121</a>","gake":"<a href='http://www.ra.opho.jp/' target='_blank'>http://www.ra.opho.jp/</a>","takashio":"×","jishin":"〇","tsunami":"感染症内科、肺腫瘍内科、呼吸器内科、消化器内科、循環器内科、アレルギー科、小児科、消化器外科、乳腺外科、眼科、呼吸器外科、皮膚科、産婦人科、泌尿器科、耳鼻咽喉科、歯科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"医療法人清晃会ヤスダクリニック","Jusho":"大阪府羽曳野市野々上三丁目4番30号","kouzui":"<a href='tel:072-931-7777'>072-931-7777</a>","gake":"<a href='www.yasucli.jp' target='_blank'>www.yasucli.jp</a>","takashio":"×","jishin":"〇","tsunami":"内科・泌尿器科・外科","kaji":"","naisui":"","kazan":""}
+{"Name":"医療法人清晃会ヤスダクリニック","Jusho":"大阪府羽曳野市野々上三丁目4番30号","kouzui":"<a href='tel:072-931-7777'>072-931-7777</a>","gake":"<a href='http://www.yasucli.jp' target='_blank'>http://www.yasucli.jp</a>","takashio":"×","jishin":"〇","tsunami":"内科・泌尿器科・外科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"医療法人春秋会城山病院","Jusho":"大阪府羽曳野市はびきの2丁目8番1号","kouzui":"<a href='tel:072958-1000'>072958-1000</a>","gake":"<a href='https://www.shiroyama-hsp.or.jp/' target='_blank'>https://www.shiroyama-hsp.or.jp/</a>","takashio":"×","jishin":"〇","tsunami":"全診療科","kaji":"","naisui":"","kazan":""}
 ,

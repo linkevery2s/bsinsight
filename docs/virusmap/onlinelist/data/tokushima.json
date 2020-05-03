@@ -50,7 +50,7 @@
 ,
 {"Name":"豊崎医院","Jusho":"徳島県徳島市北田宮2丁目7-72","kouzui":"<a href='tel:088-631-0500'>088-631-0500</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科外科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"いもと内科クリニック","Jusho":"徳島県徳島市八万町犬山232-1","kouzui":"<a href='tel:088-678-2338'>088-678-2338</a>","gake":"<a href='imoto-clinic.jp/' target='_blank'>imoto-clinic.jp/</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
+{"Name":"いもと内科クリニック","Jusho":"徳島県徳島市八万町犬山232-1","kouzui":"<a href='tel:088-678-2338'>088-678-2338</a>","gake":"<a href='http://imoto-clinic.jp/' target='_blank'>http://imoto-clinic.jp/</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"片岡内科消化器クリニック","Jusho":"徳島県徳島市佐古五番町11-17","kouzui":"<a href='tel:088-611-1251'>088-611-1251</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
@@ -146,7 +146,7 @@
 ,
 {"Name":"仁木訪問診療クリニック","Jusho":"徳島県徳島市中洲町1丁目64-2","kouzui":"<a href='tel:088-611-2128'>088-611-2128</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"徳島県立中央病院（徳島市蔵本町）","naisui":"","kazan":""}
 ,
-{"Name":"山田こどもクリニック","Jusho":"徳島県徳島市南島田町4丁目54-1","kouzui":"<a href='tel:088-634-0013'>088-634-0013</a>","gake":"<a href='yamadakodomo.com/' target='_blank'>yamadakodomo.com/</a>","takashio":"〇","jishin":"〇","tsunami":"小児科","kaji":"","naisui":"","kazan":""}
+{"Name":"山田こどもクリニック","Jusho":"徳島県徳島市南島田町4丁目54-1","kouzui":"<a href='tel:088-634-0013'>088-634-0013</a>","gake":"<a href='http://yamadakodomo.com/' target='_blank'>http://yamadakodomo.com/</a>","takashio":"〇","jishin":"〇","tsunami":"小児科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"原田医院","Jusho":"徳島県徳島市南前川町4丁目48","kouzui":"<a href='tel:088-652-3366'>088-652-3366</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科小児科","kaji":"徳島県立中央病院（徳島市蔵本町）徳島市民病院（徳島市北常三島町）健生病院（徳島市）","naisui":"","kazan":""}
 ,
@@ -244,8 +244,6 @@
 ,
 {"Name":"成田クリニック","Jusho":"徳島県美馬市脇町大字猪尻字東分27-1","kouzui":"<a href='tel:0883-55-0321'>0883-55-0321</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科外科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"佐々木医院","Jusho":"徳島県美馬市美馬町字宗重114-1","kouzui":"<a href='tel:0883-63-2001'>0883-63-2001</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
-,
 {"Name":"サンクリニック","Jusho":"徳島県美馬市美馬町字南荒川71","kouzui":"<a href='tel:0883-63-2277'>0883-63-2277</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"脇町中央医院","Jusho":"徳島県美馬市脇町大字脇町316-2","kouzui":"<a href='tel:0883-52-1529'>0883-52-1529</a>","gake":"<a href='https://byoinnavi.jp/clinic/' target='_blank'>https://byoinnavi.jp/clinic/</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"吉野川医療センター（吉野川市鴨島町）つるぎ町立半田病院（美馬郡つるぎ町）","naisui":"","kazan":""}
@@ -265,8 +263,6 @@
 {"Name":"安宅循環器内科","Jusho":"徳島県三好市池田町サラダ1651-2","kouzui":"<a href='tel:0883-72-6300'>0883-72-6300</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"徳島県立三好病院（三好市池田町）","naisui":"","kazan":""}
 ,
 {"Name":"三野田中病院","Jusho":"徳島県三好市三野町芝生1242-6","kouzui":"<a href='tel:0883-77-2300'>0883-77-2300</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"総合診療","kaji":"","naisui":"","kazan":""}
-,
-{"Name":"浜クリニック","Jusho":"徳島県三好市池田町マチ2443-1","kouzui":"<a href='tel:0883-72-0667'>0883-72-0667</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科外科整形外科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"浜クリニック","Jusho":"徳島県三好市池田町マチ2443-1","kouzui":"<a href='tel:0883-72-0667'>0883-72-0667</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科外科整形","kaji":"徳島県立三好病院（三好市池田町）","naisui":"","kazan":""}
 ,
@@ -328,7 +324,7 @@
 ,
 {"Name":"北島こどもクリニック","Jusho":"徳島県板野郡北島町中村字東堤ノ内19-1","kouzui":"<a href='tel:088-697-2221'>088-697-2221</a>","gake":"<a href='https://kodomo-clinic.net/kitajima/' target='_blank'>https://kodomo-clinic.net/kitajima/</a>","takashio":"〇","jishin":"〇","tsunami":"小児科内科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"健生きたじまクリニック","Jusho":"徳島県板野郡北島町中村字東開14-1","kouzui":"<a href='tel:088-698-9629'>088-698-9629</a>","gake":"<a href='sukusuku.betoku.jp/' target='_blank'>sukusuku.betoku.jp/</a>","takashio":"×","jishin":"〇","tsunami":"小児科","kaji":"","naisui":"","kazan":""}
+{"Name":"健生きたじまクリニック","Jusho":"徳島県板野郡北島町中村字東開14-1","kouzui":"<a href='tel:088-698-9629'>088-698-9629</a>","gake":"<a href='http://sukusuku.betoku.jp/' target='_blank'>http://sukusuku.betoku.jp/</a>","takashio":"×","jishin":"〇","tsunami":"小児科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"中川整形外科","Jusho":"徳島県板野郡藍住町勝瑞字東勝地95-2","kouzui":"<a href='tel:088-641-2288'>088-641-2288</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"整形外科","kaji":"","naisui":"","kazan":""}
 ,

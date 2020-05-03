@@ -74,7 +74,7 @@
 ,
 {"Name":"薩田内科クリニック","Jusho":"神奈川県横浜市神奈川区菅田町2647菅田町メディカルビル1Ｆ","kouzui":"<a href='tel:045-477-4022'>045-477-4022</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科消化器科循環器科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"なかきどクリニック","Jusho":"神奈川県横浜市神奈川区神奈川本町10-4-101","kouzui":"<a href='tel:045-453-1553'>045-453-1553</a>","gake":"<a href='www.nakakidoclinicco.jp' target='_blank'>www.nakakidoclinicco.jp</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"横浜市民病院","naisui":"","kazan":""}
+{"Name":"なかきどクリニック","Jusho":"神奈川県横浜市神奈川区神奈川本町10-4-101","kouzui":"<a href='tel:045-453-1553'>045-453-1553</a>","gake":"<a href='http://www.nakakidoclinicco.jp' target='_blank'>http://www.nakakidoclinicco.jp</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"横浜市民病院","naisui":"","kazan":""}
 ,
 {"Name":"ななしまクリニック","Jusho":"神奈川県横浜市神奈川区七島町161-5","kouzui":"<a href='tel:045-439-7728'>045-439-7728</a>","gake":"<a href='https://www.nanashima-clinic.com/' target='_blank'>https://www.nanashima-clinic.com/</a>","takashio":"×","jishin":"〇","tsunami":"内科小児科","kaji":"けいゆう病院（神奈川県横浜市西区みなとみらい3-7-3）","naisui":"","kazan":""}
 ,
@@ -148,8 +148,6 @@
 ,
 {"Name":"関内いしだ整形外科・脊椎クリニック","Jusho":"神奈川県横浜市中区尾上町3-28横浜国際ビル2階","kouzui":"<a href='tel:045-319-4061'>045-319-4061</a>","gake":"<a href='https://kishidaclinic.com/' target='_blank'>https://kishidaclinic.com/</a>","takashio":"〇","jishin":"〇","tsunami":"整形外科・リハビリテーション科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"関内いしだ整形外科・脊椎クリニック","Jusho":"神奈川県横浜市中区尾上町3-28横浜国際ビル2階","kouzui":"<a href='tel:045-319-4061'>045-319-4061</a>","gake":"<a href='https://kishidaclinic.com' target='_blank'>https://kishidaclinic.com</a>","takashio":"〇","jishin":"〇","tsunami":"整形外科リハビリテーション科","kaji":"","naisui":"","kazan":""}
-,
 {"Name":"関内クリニック","Jusho":"神奈川県横浜市中区本町4-43Ａ-ＰＬＡＣＥ馬車道3Ｆ","kouzui":"<a href='tel:045-201-7676'>045-201-7676</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"くまがい内科・脳神経内科クリニック","Jusho":"神奈川県横浜市中区山下町30-1パークコート山下公園302","kouzui":"<a href='tel:045-228-9823'>045-228-9823</a>","gake":"<a href='https://www.kumagai-clinic.com' target='_blank'>https://www.kumagai-clinic.com</a>","takashio":"〇","jishin":"〇","tsunami":"内科脳神経内科","kaji":"横浜市立みなと赤十字病院（神奈川県横浜市中区新山下3-12-1）","naisui":"","kazan":""}
@@ -218,7 +216,7 @@
 ,
 {"Name":"一般財団法人育生会横浜病院","Jusho":"神奈川県横浜市保土ヶ谷区狩場町200-7","kouzui":"<a href='tel:045-712-9921'>045-712-9921</a>","gake":"<a href='http://ikuseikai-yokohama.com/' target='_blank'>http://ikuseikai-yokohama.com/</a>","takashio":"×","jishin":"〇","tsunami":"内科外科婦人科歯科口腔外科","kaji":"横浜市立市民病院（神奈川県横浜市神奈川区三ツ沢西町1-1）聖隷横浜病院（神奈川県横浜市保土ヶ谷区岩井町215）横浜保土ヶ谷中央病院（横浜市保土ヶ谷区釜台町43-1）イムス横浜狩場脳神経外科病院（横浜市保土ヶ谷区狩場町218-9）","naisui":"","kazan":""}
 ,
-{"Name":"片桐医院","Jusho":"神奈川県横浜市保土ヶ谷区上星川1-6-12","kouzui":"<a href='tel:045-381-0355'>045-381-0355</a>","gake":"<a href='www.hodogaya-med.org/everyone/doctor/doctor03.php?PAGE=0&org_id=78' target='_blank'>www.hodogaya-med.org/everyone/doctor/doctor03.php?PAGE=0&org_id=78</a>","takashio":"×","jishin":"〇","tsunami":"内科外科","kaji":"横浜保土ヶ谷中央病院（神奈川県横浜市保土ヶ谷区釜台43-1）横浜市立市民病院（神奈川県横浜市保土ヶ谷区岡沢町56）","naisui":"","kazan":""}
+{"Name":"片桐医院","Jusho":"神奈川県横浜市保土ヶ谷区上星川1-6-12","kouzui":"<a href='tel:045-381-0355'>045-381-0355</a>","gake":"<a href='http://www.hodogaya-med.org/everyone/doctor/doctor03.php?PAGE=0&org_id=78' target='_blank'>http://www.hodogaya-med.org/everyone/doctor/doctor03.php?PAGE=0&org_id=78</a>","takashio":"×","jishin":"〇","tsunami":"内科外科","kaji":"横浜保土ヶ谷中央病院（神奈川県横浜市保土ヶ谷区釜台43-1）横浜市立市民病院（神奈川県横浜市保土ヶ谷区岡沢町56）","naisui":"","kazan":""}
 ,
 {"Name":"佐伯医院","Jusho":"神奈川県横浜市保土ケ谷区桜ケ丘2丁目2-23","kouzui":"<a href='tel:045-331-0683'>045-331-0683</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科小児科","kaji":"横浜市民病院","naisui":"","kazan":""}
 ,
@@ -226,7 +224,7 @@
 ,
 {"Name":"すみれが丘クリニック","Jusho":"神奈川県横浜市都筑区すみれが丘6-3","kouzui":"<a href='tel:045-592-5050'>045-592-5050</a>","gake":"<a href='http://www.sumiregaoka-cl.com/' target='_blank'>http://www.sumiregaoka-cl.com/</a>","takashio":"×","jishin":"〇","tsunami":"小児科、内科呼吸器科、皮膚科アレルギー科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"ときた内科クリニック","Jusho":"神奈川県横浜市保土ヶ谷区常盤台55-19","kouzui":"<a href='tel:045-744-5525'>045-744-5525</a>","gake":"<a href='www.tokitaclinic.com' target='_blank'>www.tokitaclinic.com</a>","takashio":"〇","jishin":"〇","tsunami":"内科小児科","kaji":"横浜市立市民病院（神奈川県横浜市保土ヶ谷区岡沢町56）横浜保土ヶ谷中央病院（神奈川県横浜市保土ヶ谷区釜台町43-1）","naisui":"","kazan":""}
+{"Name":"ときた内科クリニック","Jusho":"神奈川県横浜市保土ヶ谷区常盤台55-19","kouzui":"<a href='tel:045-744-5525'>045-744-5525</a>","gake":"<a href='http://www.tokitaclinic.com' target='_blank'>http://www.tokitaclinic.com</a>","takashio":"〇","jishin":"〇","tsunami":"内科小児科","kaji":"横浜市立市民病院（神奈川県横浜市保土ヶ谷区岡沢町56）横浜保土ヶ谷中央病院（神奈川県横浜市保土ヶ谷区釜台町43-1）","naisui":"","kazan":""}
 ,
 {"Name":"西谷耳鼻咽喉科クリニック","Jusho":"神奈川県横浜市保土ヶ谷区西谷町1229-1","kouzui":"<a href='tel:045-381-3387'>045-381-3387</a>","gake":"<a href='http://nishiya-ent.com/' target='_blank'>http://nishiya-ent.com/</a>","takashio":"〇","jishin":"〇","tsunami":"耳鼻咽喉科","kaji":"横浜市立市民病院（神奈川県横浜市保土ケ谷区岡沢町56番地）","naisui":"","kazan":""}
 ,
@@ -1030,7 +1028,7 @@
 ,
 {"Name":"鎌倉かまりんヒフクリニック","Jusho":"神奈川県鎌倉市小町2-15-112F","kouzui":"<a href='tel:0467-25-1255'>0467-25-1255</a>","gake":"<a href='https://kamarinhifu.com/' target='_blank'>https://kamarinhifu.com/</a>","takashio":"〇","jishin":"〇","tsunami":"皮膚科アレルギー科","kaji":"鎌倉かまりんヒフクリニック","naisui":"","kazan":""}
 ,
-{"Name":"田中医院","Jusho":"神奈川県鎌倉市常盤648-4スカイ鎌倉2号棟1F","kouzui":"<a href='tel:0467-32-1315'>0467-32-1315</a>","gake":"<a href='htttp://www.tanaka-clinik.net' target='_blank'>htttp://www.tanaka-clinik.net</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"湘南鎌倉総合病院（神奈川県鎌倉市岡本2370-1）大船中央病院（神奈川県鎌倉市大船6-2-24）","naisui":"","kazan":""}
+{"Name":"田中医院","Jusho":"神奈川県鎌倉市常盤648-4スカイ鎌倉2号棟1F","kouzui":"<a href='tel:0467-32-1315'>0467-32-1315</a>","gake":"<a href='http://www.tanaka-clinik.net' target='_blank'>http://www.tanaka-clinik.net</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"湘南鎌倉総合病院（神奈川県鎌倉市岡本2370-1）大船中央病院（神奈川県鎌倉市大船6-2-24）","naisui":"","kazan":""}
 ,
 {"Name":"信愛クリニック","Jusho":"神奈川県鎌倉市大船2-26-10","kouzui":"<a href='tel:0467-48-6678'>0467-48-6678</a>","gake":"<a href='http://shinai-clinic.com/' target='_blank'>http://shinai-clinic.com/</a>","takashio":"〇","jishin":"〇","tsunami":"内科消化器内科心療内科","kaji":"湘南鎌倉総合病院（神奈川県鎌倉市岡本1370-1）大船中央病院（神奈川県鎌倉市大船6-2-24）","naisui":"","kazan":""}
 ,
@@ -1066,7 +1064,7 @@
 ,
 {"Name":"内山クリニック","Jusho":"神奈川県茅ヶ崎市新栄町1?4大黒屋富田ビル3階","kouzui":"<a href='tel:0467ー87ー6511'>0467ー87ー6511</a>","gake":"<a href='https://www.uchiyamaclinic-chigasaki.com/' target='_blank'>https://www.uchiyamaclinic-chigasaki.com/</a>","takashio":"〇","jishin":"〇","tsunami":"内科皮膚科","kaji":"茅ヶ崎市立病院（神奈川県茅ヶ崎市本村5丁目15-1）湘南藤沢徳洲会病院（神奈川県藤沢市辻堂神台1丁目5-1）茅ヶ崎徳州会病院（神奈川県茅ヶ崎市幸町14-1）湘南東部総合病院（神奈川県茅ヶ崎市西久保500番地）","naisui":"","kazan":""}
 ,
-{"Name":"堀越医院","Jusho":"神奈川県茅ヶ崎市共恵2?5?52","kouzui":"<a href='tel:0467-82-4641'>0467-82-4641</a>","gake":"<a href='www.horikoshi-iin.com' target='_blank'>www.horikoshi-iin.com</a>","takashio":"〇","jishin":"〇","tsunami":"小児科","kaji":"茅ヶ崎市立病院（神奈川県茅ヶ崎市本村5丁目15-1）","naisui":"","kazan":""}
+{"Name":"堀越医院","Jusho":"神奈川県茅ヶ崎市共恵2?5?52","kouzui":"<a href='tel:0467-82-4641'>0467-82-4641</a>","gake":"<a href='http://www.horikoshi-iin.com' target='_blank'>http://www.horikoshi-iin.com</a>","takashio":"〇","jishin":"〇","tsunami":"小児科","kaji":"茅ヶ崎市立病院（神奈川県茅ヶ崎市本村5丁目15-1）","naisui":"","kazan":""}
 ,
 {"Name":"小沢整形外科","Jusho":"神奈川県茅ヶ崎市浜見平17-13","kouzui":"<a href='tel:0467-82-5181'>0467-82-5181</a>","gake":"<a href='http://ozawaseikeigeka.wixsite.com/mysite' target='_blank'>http://ozawaseikeigeka.wixsite.com/mysite</a>","takashio":"×","jishin":"〇","tsunami":"整形外科","kaji":"","naisui":"","kazan":""}
 ,
@@ -1158,7 +1156,7 @@
 ,
 {"Name":"湘南葉山デイケアクリニック","Jusho":"神奈川県三浦郡葉山町一色1746-2","kouzui":"<a href='tel:046-876-3811'>046-876-3811</a>","gake":"<a href='https://www.shdc.jp/' target='_blank'>https://www.shdc.jp/</a>","takashio":"×","jishin":"△","tsunami":"総合診療科（内科）小児科リウマチ科","kaji":"葉山ハートセンター（神奈川県三浦郡下山口1898-1）湘南鎌倉総合病院（神奈川県鎌倉市岡本1370-1）","naisui":"","kazan":""}
 ,
-{"Name":"神部医院","Jusho":"神奈川県高座郡寒川町宮山3035","kouzui":"<a href='tel:0467-74-5000'>0467-74-5000</a>","gake":"<a href='kanbeiin5000.byoinnavi.jp' target='_blank'>kanbeiin5000.byoinnavi.jp</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"寒川病院（神奈川県高座郡寒川町宮山193）茅ヶ崎市立病院（神奈川県茅ヶ崎市本村5-15-1）湘南東部総合病院（神奈川県茅ヶ崎市西久保500番地）海老名総合病院（神奈川県海老名市河原1320）","naisui":"","kazan":""}
+{"Name":"神部医院","Jusho":"神奈川県高座郡寒川町宮山3035","kouzui":"<a href='tel:0467-74-5000'>0467-74-5000</a>","gake":"<a href='http://kanbeiin5000.byoinnavi.jp' target='_blank'>http://kanbeiin5000.byoinnavi.jp</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"寒川病院（神奈川県高座郡寒川町宮山193）茅ヶ崎市立病院（神奈川県茅ヶ崎市本村5-15-1）湘南東部総合病院（神奈川県茅ヶ崎市西久保500番地）海老名総合病院（神奈川県海老名市河原1320）","naisui":"","kazan":""}
 ,
 {"Name":"五島クリニック","Jusho":"神奈川県高座郡寒川町倉見2197","kouzui":"<a href='tel:0467-74-8180'>0467-74-8180</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"泌尿器科、内科、皮膚科","kaji":"","naisui":"","kazan":""}
 ,

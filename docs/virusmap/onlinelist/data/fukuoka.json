@@ -46,7 +46,7 @@
 ,
 {"Name":"本城外科整形外科医院","Jusho":"福岡県北九州市八幡西区友田2-4-1","kouzui":"<a href='tel:093-602-5840'>093-602-5840</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"ペインクリニック内科漢方内科麻酔科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"医療法人よしの胃腸内科","Jusho":"北九州市八幡西区楠木二丁目17番11号","kouzui":"<a href='tel:601-5003'>601-5003</a>","gake":"<a href='yoshino-icho.com' target='_blank'>yoshino-icho.com</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"ＪＣＨＯ九州病院（北九州市八幡西区岸の浦一丁目8番1号","naisui":"","kazan":""}
+{"Name":"医療法人よしの胃腸内科","Jusho":"北九州市八幡西区楠木二丁目17番11号","kouzui":"<a href='tel:601-5003'>601-5003</a>","gake":"<a href='http://yoshino-icho.com' target='_blank'>http://yoshino-icho.com</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"ＪＣＨＯ九州病院（北九州市八幡西区岸の浦一丁目8番1号","naisui":"","kazan":""}
 ,
 {"Name":"八木病院","Jusho":"福岡県福岡市東区馬出2-21-25","kouzui":"<a href='tel:092-651-0022'>092-651-0022</a>","gake":"<a href='http://www.yagi.or.jp/' target='_blank'>http://www.yagi.or.jp/</a>","takashio":"×","jishin":"〇","tsunami":"整形外科外科脳神経外科内科循環器内科呼吸器内科神経内科皮膚科糖尿病内科消化器内科腎・高血圧・脳血管内科","kaji":"","naisui":"","kazan":""}
 ,
@@ -70,7 +70,7 @@
 ,
 {"Name":"たつやまファミリークリニック","Jusho":"福岡県福岡市東区香住ヶ丘6-8-14","kouzui":"<a href='tel:092-674-2066'>092-674-2066</a>","gake":"<a href='http://tatsuyama-clinic.com' target='_blank'>http://tatsuyama-clinic.com</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"江口皮ふ科","Jusho":"福岡県福岡市東区青葉7-5-3","kouzui":"<a href='tel:092-710-9339'>092-710-9339</a>","gake":"<a href='eguchi-hifuka.com' target='_blank'>eguchi-hifuka.com</a>","takashio":"×","jishin":"〇","tsunami":"皮膚科","kaji":"福岡東医療センター（福岡県古賀市千鳥1-1-1）久留米大学病院（福岡県久留米市旭町67）","naisui":"","kazan":""}
+{"Name":"江口皮ふ科","Jusho":"福岡県福岡市東区青葉7-5-3","kouzui":"<a href='tel:092-710-9339'>092-710-9339</a>","gake":"<a href='http://eguchi-hifuka.com' target='_blank'>http://eguchi-hifuka.com</a>","takashio":"×","jishin":"〇","tsunami":"皮膚科","kaji":"福岡東医療センター（福岡県古賀市千鳥1-1-1）久留米大学病院（福岡県久留米市旭町67）","naisui":"","kazan":""}
 ,
 {"Name":"太陽の丘クリニック","Jusho":"福岡県福岡市東区蒲田5-7-30","kouzui":"<a href='tel:092-663-2100'>092-663-2100</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"皮膚科内科","kaji":"","naisui":"","kazan":""}
 ,
@@ -92,11 +92,11 @@
 ,
 {"Name":"医療法人ＳＳＣ工藤耳鼻咽喉科","Jusho":"東区香椎駅前二丁目12番54号オリジンビル103号","kouzui":"<a href='tel:663-1550'>663-1550</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"耳鼻咽喉科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"林眼科病院","Jusho":"福岡県福岡市博多区博多駅前4-23-35","kouzui":"<a href='tel:092-431-1680'>092-431-1680</a>","gake":"<a href='www.hayashi.or.jp' target='_blank'>www.hayashi.or.jp</a>","takashio":"×","jishin":"〇","tsunami":"眼科","kaji":"","naisui":"","kazan":""}
+{"Name":"林眼科病院","Jusho":"福岡県福岡市博多区博多駅前4-23-35","kouzui":"<a href='tel:092-431-1680'>092-431-1680</a>","gake":"<a href='http://www.hayashi.or.jp' target='_blank'>http://www.hayashi.or.jp</a>","takashio":"×","jishin":"〇","tsunami":"眼科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"福岡合同庁舎診療所","Jusho":"博多区博多駅東2-11-1福岡合同庁舎内","kouzui":"<a href='tel:092-411-2900'>092-411-2900</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"浜の町病院（福岡県福岡市中央区長浜3-3-1）","naisui":"","kazan":""}
 ,
-{"Name":"医療法人誠仁会籠田医院","Jusho":"福岡県福岡市博多区西春町1-2-16","kouzui":"<a href='tel:092-501-7535'>092-501-7535</a>","gake":"<a href='www.komorita.com' target='_blank'>www.komorita.com</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
+{"Name":"医療法人誠仁会籠田医院","Jusho":"福岡県福岡市博多区西春町1-2-16","kouzui":"<a href='tel:092-501-7535'>092-501-7535</a>","gake":"<a href='http://www.komorita.com' target='_blank'>http://www.komorita.com</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"藤原脳神経外科クリニック","Jusho":"博多区千代4丁目29-24三原第3ビル2Ｆ","kouzui":"<a href='tel:633-3111'>633-3111</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"脳神経科","kaji":"福岡市民病院脳神経内科、","naisui":"","kazan":""}
 ,
@@ -106,7 +106,7 @@
 ,
 {"Name":"医療法人小路丸会勝冶耳鼻咽喉科医院","Jusho":"福岡県福岡市博多区中呉服町3-10","kouzui":"<a href='tel:092-281-6027'>092-281-6027</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"耳鼻咽喉科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"福冨内科クリニック","Jusho":"福岡県福岡市博多区綱場町1-16-2Ｆ","kouzui":"<a href='tel:092-292-8494'>092-292-8494</a>","gake":"<a href='www.fukutomi-clinic.jp' target='_blank'>www.fukutomi-clinic.jp</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
+{"Name":"福冨内科クリニック","Jusho":"福岡県福岡市博多区綱場町1-16-2Ｆ","kouzui":"<a href='tel:092-292-8494'>092-292-8494</a>","gake":"<a href='http://www.fukutomi-clinic.jp' target='_blank'>http://www.fukutomi-clinic.jp</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"安田整形・痛みのクリニック","Jusho":"福岡県福岡市博多区上川端町12-28","kouzui":"<a href='tel:281-7007'>281-7007</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"整形外科","kaji":"","naisui":"","kazan":""}
 ,
@@ -114,7 +114,7 @@
 ,
 {"Name":"はかたペインクリニック外科・麻酔科","Jusho":"福岡県福岡市博多区博多駅前2-1-1-6Ｆ","kouzui":"<a href='tel:092-474-2409'>092-474-2409</a>","gake":"<a href='http://hakata-pain.jp' target='_blank'>http://hakata-pain.jp</a>","takashio":"×","jishin":"〇","tsunami":"ペインクリニック","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"医療法人中尾小児科医院","Jusho":"福岡県福岡市博多区中呉服町1-16","kouzui":"<a href='tel:092-291-4325'>092-291-4325</a>","gake":"<a href='nakao-kids.com' target='_blank'>nakao-kids.com</a>","takashio":"×","jishin":"〇","tsunami":"小児科","kaji":"","naisui":"","kazan":""}
+{"Name":"医療法人中尾小児科医院","Jusho":"福岡県福岡市博多区中呉服町1-16","kouzui":"<a href='tel:092-291-4325'>092-291-4325</a>","gake":"<a href='http://nakao-kids.com' target='_blank'>http://nakao-kids.com</a>","takashio":"×","jishin":"〇","tsunami":"小児科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"うちかど脳神経外科クリニック","Jusho":"福岡県福岡市博多区那珂1-2-3","kouzui":"<a href='tel:092-477-2355'>092-477-2355</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"脳神経外科","kaji":"済生会福岡総合病院（福岡県福岡市中央区天神1-3-46）福岡徳洲会病院（福岡県春日市須玖北4-5）福岡赤十字病院（福岡県福岡市南区大楠3-1-1）","naisui":"","kazan":""}
 ,
@@ -132,9 +132,9 @@
 ,
 {"Name":"はかた心療クリニック","Jusho":"福岡県福岡市博多区博多駅中央街1-1-5F","kouzui":"<a href='tel:092-401-0777'>092-401-0777</a>","gake":"<a href='https://hakata-shinryo-cl.com' target='_blank'>https://hakata-shinryo-cl.com</a>","takashio":"×","jishin":"〇","tsunami":"心療内科精神科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"秋本病院","Jusho":"福岡県福岡市中央区警固1-8-3","kouzui":"<a href='tel:092-771-6361'>092-771-6361</a>","gake":"<a href='www.akimoto-hospital.jp' target='_blank'>www.akimoto-hospital.jp</a>","takashio":"×","jishin":"〇","tsunami":"外科内科","kaji":"","naisui":"","kazan":""}
+{"Name":"秋本病院","Jusho":"福岡県福岡市中央区警固1-8-3","kouzui":"<a href='tel:092-771-6361'>092-771-6361</a>","gake":"<a href='http://www.akimoto-hospital.jp' target='_blank'>http://www.akimoto-hospital.jp</a>","takashio":"×","jishin":"〇","tsunami":"外科内科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"福岡中央病院","Jusho":"福岡市中央区薬院2-6-11","kouzui":"<a href='tel:092-741-0300'>092-741-0300</a>","gake":"<a href='f-central.kouhoukai.or.jp' target='_blank'>f-central.kouhoukai.or.jp</a>","takashio":"×","jishin":"〇","tsunami":"当院の全ての診療科","kaji":"","naisui":"","kazan":""}
+{"Name":"福岡中央病院","Jusho":"福岡市中央区薬院2-6-11","kouzui":"<a href='tel:092-741-0300'>092-741-0300</a>","gake":"<a href='http://f-central.kouhoukai.or.jp' target='_blank'>http://f-central.kouhoukai.or.jp</a>","takashio":"×","jishin":"〇","tsunami":"当院の全ての診療科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"Rパークサイド皮ふ科","Jusho":"中央区荒戸3丁目4番20号パークサイドアイビー1階","kouzui":"<a href='tel:717-9545'>717-9545</a>","gake":"<a href='https://rparksideclinic.com' target='_blank'>https://rparksideclinic.com</a>","takashio":"×","jishin":"〇","tsunami":"皮膚科","kaji":"","naisui":"","kazan":""}
 ,
@@ -144,7 +144,7 @@
 ,
 {"Name":"医療法人阿部医院","Jusho":"福岡県福岡市中央区今川1-2-6","kouzui":"<a href='tel:092-741-7295'>092-741-7295</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科小児科","kaji":"吉村病院（福岡県福岡市早良区西新3-11-27）秋本病院（福岡県福岡市中央区警固1-8-3）","naisui":"","kazan":""}
 ,
-{"Name":"有村内科クリニック","Jusho":"福岡県福岡市中央区荒戸1-5-28","kouzui":"<a href='tel:092-721-6679'>092-721-6679</a>","gake":"<a href='www.arimura-clinic.com' target='_blank'>www.arimura-clinic.com</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"浜の町病院（福岡県福岡市中央区長浜3-3-1）","naisui":"","kazan":""}
+{"Name":"有村内科クリニック","Jusho":"福岡県福岡市中央区荒戸1-5-28","kouzui":"<a href='tel:092-721-6679'>092-721-6679</a>","gake":"<a href='http://www.arimura-clinic.com' target='_blank'>http://www.arimura-clinic.com</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"浜の町病院（福岡県福岡市中央区長浜3-3-1）","naisui":"","kazan":""}
 ,
 {"Name":"アンジェ心療クリニック","Jusho":"福岡県福岡市中央区梅光園2-23-1-201","kouzui":"<a href='tel:092-717-8281'>092-717-8281</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"精神科心療内科","kaji":"","naisui":"","kazan":""}
 ,
@@ -186,11 +186,11 @@
 ,
 {"Name":"林眼科天神クリニック","Jusho":"福岡県福岡市中央区西中洲6-20-2Ｆ","kouzui":"<a href='tel:092-716-3030'>092-716-3030</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"眼科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"林産婦人科医院","Jusho":"福岡県福岡市中央区白金2-3-14","kouzui":"<a href='tel:092-521-8520'>092-521-8520</a>","gake":"<a href='hayasshi-lc.com' target='_blank'>hayasshi-lc.com</a>","takashio":"×","jishin":"〇","tsunami":"産婦人科","kaji":"福岡日赤病院（福岡県福岡市南区）福岡済生会病院（福岡県福岡市中央区）","naisui":"","kazan":""}
+{"Name":"林産婦人科医院","Jusho":"福岡県福岡市中央区白金2-3-14","kouzui":"<a href='tel:092-521-8520'>092-521-8520</a>","gake":"<a href='http://hayasshi-lc.com' target='_blank'>http://hayasshi-lc.com</a>","takashio":"×","jishin":"〇","tsunami":"産婦人科","kaji":"福岡日赤病院（福岡県福岡市南区）福岡済生会病院（福岡県福岡市中央区）","naisui":"","kazan":""}
 ,
-{"Name":"林内科クリニック","Jusho":"福岡県福岡市中央区天神2-3-2-6Ｆ","kouzui":"<a href='tel:092-737-7277'>092-737-7277</a>","gake":"<a href='hayashinaika.jp' target='_blank'>hayashinaika.jp</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"秋本病院（福岡県福岡市中央区）佐田病院（福岡県福岡市中央区）済生会福岡病院（福岡県福岡市中央区）浜の町病院（福岡県福岡市中央区）","naisui":"","kazan":""}
+{"Name":"林内科クリニック","Jusho":"福岡県福岡市中央区天神2-3-2-6Ｆ","kouzui":"<a href='tel:092-737-7277'>092-737-7277</a>","gake":"<a href='http://hayashinaika.jp' target='_blank'>http://hayashinaika.jp</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"秋本病院（福岡県福岡市中央区）佐田病院（福岡県福岡市中央区）済生会福岡病院（福岡県福岡市中央区）浜の町病院（福岡県福岡市中央区）","naisui":"","kazan":""}
 ,
-{"Name":"平尾駅心療クリニック","Jusho":"福岡県福岡市中央区平尾2-5-8-3Ｆ","kouzui":"<a href='tel:092-531-2828'>092-531-2828</a>","gake":"<a href='hiraoki-cl.com/' target='_blank'>hiraoki-cl.com/</a>","takashio":"×","jishin":"〇","tsunami":"精神科","kaji":"","naisui":"","kazan":""}
+{"Name":"平尾駅心療クリニック","Jusho":"福岡県福岡市中央区平尾2-5-8-3Ｆ","kouzui":"<a href='tel:092-531-2828'>092-531-2828</a>","gake":"<a href='http://hiraoki-cl.com/' target='_blank'>http://hiraoki-cl.com/</a>","takashio":"×","jishin":"〇","tsunami":"精神科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"ふくおか睡眠クリニック","Jusho":"福岡県福岡市中央区大名2-10-2-1301","kouzui":"<a href='tel:092-400-2007'>092-400-2007</a>","gake":"<a href='http://www.fukuoka-suimin.org/' target='_blank'>http://www.fukuoka-suimin.org/</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
@@ -210,13 +210,13 @@
 ,
 {"Name":"賴岡クリニック胃腸内科・内視鏡内科","Jusho":"福岡県福岡市中央区渡辺通2-6-12-4F","kouzui":"<a href='tel:092-707-3185'>092-707-3185</a>","gake":"<a href='https://yorioka-clinic.com' target='_blank'>https://yorioka-clinic.com</a>","takashio":"〇","jishin":"〇","tsunami":"胃腸内科内視鏡内科","kaji":"佐田病院（福岡県福岡市中央区渡辺通2-4-28）","naisui":"","kazan":""}
 ,
-{"Name":"（医）やの内科胃腸科クリニック","Jusho":"福岡県福岡市南区玉川町5-19-1F","kouzui":"<a href='tel:512-7560'>512-7560</a>","gake":"<a href='www.yano-clinic.com' target='_blank'>www.yano-clinic.com</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"福岡赤十字病院（福岡県福岡市南区）九州中央病院（福岡県福岡市南区）","naisui":"","kazan":""}
+{"Name":"（医）やの内科胃腸科クリニック","Jusho":"福岡県福岡市南区玉川町5-19-1F","kouzui":"<a href='tel:512-7560'>512-7560</a>","gake":"<a href='http://www.yano-clinic.com' target='_blank'>http://www.yano-clinic.com</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"福岡赤十字病院（福岡県福岡市南区）九州中央病院（福岡県福岡市南区）","naisui":"","kazan":""}
 ,
 {"Name":"（医）真祥会吉永脳神経外科クリニック","Jusho":"福岡県福岡市南区井尻2-22-5","kouzui":"<a href='tel:092-587-1515'>092-587-1515</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"脳神経外科","kaji":"九州中央病院（福岡県福岡市南区）福岡徳洲会病院（福岡県春日市）","naisui":"","kazan":""}
 ,
-{"Name":"くすの木クリニック","Jusho":"南区大橋一丁目7番12号","kouzui":"<a href='tel:562-7234'>562-7234</a>","gake":"<a href='www12.plala.or.jp/comphortree/' target='_blank'>www12.plala.or.jp/comphortree/</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"九州中央病院（福岡市南区塩原3-23-1）福岡県済生会福岡総合病院（福岡市中央区天神1丁目3-46）","naisui":"","kazan":""}
+{"Name":"くすの木クリニック","Jusho":"南区大橋一丁目7番12号","kouzui":"<a href='tel:562-7234'>562-7234</a>","gake":"<a href='http://www12.plala.or.jp/comphortree/' target='_blank'>http://www12.plala.or.jp/comphortree/</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"九州中央病院（福岡市南区塩原3-23-1）福岡県済生会福岡総合病院（福岡市中央区天神1丁目3-46）","naisui":"","kazan":""}
 ,
-{"Name":"けやごう内科・胃腸内科クリニック","Jusho":"南区警弥郷一丁目17番13号","kouzui":"<a href='tel:513-5811'>513-5811</a>","gake":"<a href='keyagou-naika.com' target='_blank'>keyagou-naika.com</a>","takashio":"〇","jishin":"〇","tsunami":"内科胃腸内科","kaji":"九州中央病院（福岡市南区塩原3-23-1）福岡赤十字病院（福岡市南区大楠3丁目1-1）福岡徳洲会会病院（春日市須玖北4-5）等","naisui":"","kazan":""}
+{"Name":"けやごう内科・胃腸内科クリニック","Jusho":"南区警弥郷一丁目17番13号","kouzui":"<a href='tel:513-5811'>513-5811</a>","gake":"<a href='http://keyagou-naika.com' target='_blank'>http://keyagou-naika.com</a>","takashio":"〇","jishin":"〇","tsunami":"内科胃腸内科","kaji":"九州中央病院（福岡市南区塩原3-23-1）福岡赤十字病院（福岡市南区大楠3丁目1-1）福岡徳洲会会病院（春日市須玖北4-5）等","naisui":"","kazan":""}
 ,
 {"Name":"こうだ内科クリニック","Jusho":"福岡県福岡市南区三宅2-10-31","kouzui":"<a href='tel:092-551-6412'>092-551-6412</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"九州中央病院（福岡県福岡市南区塩原3-23-1）福岡赤十字病院（福岡県福岡市南区大楠3-1-1）","naisui":"","kazan":""}
 ,
@@ -276,9 +276,9 @@
 ,
 {"Name":"池田耳鼻咽喉科気管食道科アレルギー科医院","Jusho":"早良区原六丁目29番16号","kouzui":"<a href='tel:851-8610'>851-8610</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"耳鼻咽喉科アレルギー科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"井林眼科クリニック","Jusho":"福岡県福岡市早良区小田部7-19-12","kouzui":"<a href='tel:092-404-5760'>092-404-5760</a>","gake":"<a href='www.ibayashi-clinic.com/' target='_blank'>www.ibayashi-clinic.com/</a>","takashio":"×","jishin":"〇","tsunami":"眼科","kaji":"","naisui":"","kazan":""}
+{"Name":"井林眼科クリニック","Jusho":"福岡県福岡市早良区小田部7-19-12","kouzui":"<a href='tel:092-404-5760'>092-404-5760</a>","gake":"<a href='http://www.ibayashi-clinic.com/' target='_blank'>http://www.ibayashi-clinic.com/</a>","takashio":"×","jishin":"〇","tsunami":"眼科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"おばた内科クリニック","Jusho":"福岡県福岡市早良区田村5-16-38","kouzui":"<a href='tel:092-874-5630'>092-874-5630</a>","gake":"<a href='obata-naika.jp' target='_blank'>obata-naika.jp</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"福西会病院（福岡県福岡市早良区野芥1-2-36）福岡大学病院（福岡県福岡市城南区七隈7-45-1）","naisui":"","kazan":""}
+{"Name":"おばた内科クリニック","Jusho":"福岡県福岡市早良区田村5-16-38","kouzui":"<a href='tel:092-874-5630'>092-874-5630</a>","gake":"<a href='http://obata-naika.jp' target='_blank'>http://obata-naika.jp</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"福西会病院（福岡県福岡市早良区野芥1-2-36）福岡大学病院（福岡県福岡市城南区七隈7-45-1）","naisui":"","kazan":""}
 ,
 {"Name":"くろだクリニック","Jusho":"福岡県福岡市早良区百道浜4-13-2","kouzui":"<a href='tel:092-846-4466'>092-846-4466</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"消化器内科外科","kaji":"","naisui":"","kazan":""}
 ,
@@ -288,7 +288,7 @@
 ,
 {"Name":"武石クリニック","Jusho":"早良区西新一丁目4番28号","kouzui":"<a href='tel:841-0121'>841-0121</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"小児科呼吸器内科アレルギー科","kaji":"九州医療センター（福岡市中央区地行浜1丁目8-1）福岡大学西新病院（福岡市早良区祖原15-7）福岡病院（福岡市南区屋形原4丁目39-1）浜の町病院（福岡市中央区長浜3丁目3-1）","naisui":"","kazan":""}
 ,
-{"Name":"たける眼科","Jusho":"福岡県福岡市早良区高取1-3-20-201","kouzui":"<a href='tel:092-846-3121'>092-846-3121</a>","gake":"<a href='www.takeru-eye.com' target='_blank'>www.takeru-eye.com</a>","takashio":"〇","jishin":"〇","tsunami":"眼科","kaji":"九州大学病院（福岡県福岡市東区馬出3-1-1）九州医療センター（福岡県福岡市中央区地行浜1-8-1）","naisui":"","kazan":""}
+{"Name":"たける眼科","Jusho":"福岡県福岡市早良区高取1-3-20-201","kouzui":"<a href='tel:092-846-3121'>092-846-3121</a>","gake":"<a href='http://www.takeru-eye.com' target='_blank'>http://www.takeru-eye.com</a>","takashio":"〇","jishin":"〇","tsunami":"眼科","kaji":"九州大学病院（福岡県福岡市東区馬出3-1-1）九州医療センター（福岡県福岡市中央区地行浜1-8-1）","naisui":"","kazan":""}
 ,
 {"Name":"ひじおか眼科","Jusho":"福岡県福岡市早良区野芥4-2-15","kouzui":"<a href='tel:092-407-8122'>092-407-8122</a>","gake":"<a href='http://hijioka-ganka.com' target='_blank'>http://hijioka-ganka.com</a>","takashio":"〇","jishin":"〇","tsunami":"眼科","kaji":"","naisui":"","kazan":""}
 ,
@@ -308,11 +308,11 @@
 ,
 {"Name":"医療法人楠病院","Jusho":"福岡県久留米市日吉町115","kouzui":"<a href='tel:0942-35-2725'>0942-35-2725</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科外科整形外科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"新古賀病院","Jusho":"福岡県久留米市天神町120","kouzui":"<a href='tel:0942-38-2222'>0942-38-2222</a>","gake":"<a href='www.tenjinkai.or.jp' target='_blank'>www.tenjinkai.or.jp</a>","takashio":"×","jishin":"〇","tsunami":"内科呼吸器内科循環器内科消化器内科血液内科神経内科外科呼吸器外科消化器外科乳腺外科脳神経外科形成外科膠原病・リウマチ科","kaji":"古賀病院21（福岡県久留米市）聖マリア病院（福岡県久留米市）久留米大学病院（福岡県久留米市）田主丸中央病院（福岡県久留米市）嶋田病院（福岡県小郡市）","naisui":"","kazan":""}
+{"Name":"新古賀病院","Jusho":"福岡県久留米市天神町120","kouzui":"<a href='tel:0942-38-2222'>0942-38-2222</a>","gake":"<a href='http://www.tenjinkai.or.jp' target='_blank'>http://www.tenjinkai.or.jp</a>","takashio":"×","jishin":"〇","tsunami":"内科呼吸器内科循環器内科消化器内科血液内科神経内科外科呼吸器外科消化器外科乳腺外科脳神経外科形成外科膠原病・リウマチ科","kaji":"古賀病院21（福岡県久留米市）聖マリア病院（福岡県久留米市）久留米大学病院（福岡県久留米市）田主丸中央病院（福岡県久留米市）嶋田病院（福岡県小郡市）","naisui":"","kazan":""}
 ,
 {"Name":"高良台リハビリテーション病院","Jusho":"久留米市藤光町965-2","kouzui":"<a href='tel:0942-51-3838'>0942-51-3838</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"医療法人善志会久留米南病院","Jusho":"福岡県久留米市荒木町下荒木1616-1","kouzui":"<a href='tel:0942-26-0100'>0942-26-0100</a>","gake":"<a href='www.kurume-minami.com' target='_blank'>www.kurume-minami.com</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"聖マリア病院（福岡県久留米市津福本町422）","naisui":"","kazan":""}
+{"Name":"医療法人善志会久留米南病院","Jusho":"福岡県久留米市荒木町下荒木1616-1","kouzui":"<a href='tel:0942-26-0100'>0942-26-0100</a>","gake":"<a href='http://www.kurume-minami.com' target='_blank'>http://www.kurume-minami.com</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"聖マリア病院（福岡県久留米市津福本町422）","naisui":"","kazan":""}
 ,
 {"Name":"のぞえ総合心療病院","Jusho":"福岡県久留米市藤山町1730","kouzui":"<a href='tel:0942-22-5311'>0942-22-5311</a>","gake":"<a href='http://nozoe.or.jp/' target='_blank'>http://nozoe.or.jp/</a>","takashio":"×","jishin":"〇","tsunami":"精神科","kaji":"","naisui":"","kazan":""}
 ,
@@ -322,7 +322,7 @@
 ,
 {"Name":"医療法人井上内科医院","Jusho":"福岡県久留米市大善寺南1-21-5","kouzui":"<a href='tel:0942-51-3380'>0942-51-3380</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"新古賀病院（福岡県久留米市天神町120）","naisui":"","kazan":""}
 ,
-{"Name":"医療法人みらい今立内科クリニック","Jusho":"福岡県久留米市西町178-1","kouzui":"<a href='tel:0942-21-3331'>0942-21-3331</a>","gake":"<a href='imadachinaika.com' target='_blank'>imadachinaika.com</a>","takashio":"〇","jishin":"〇","tsunami":"内科消化器内科人工透析内科リハビリテーション科","kaji":"久留米総合病院（福岡県久留米市）新古賀病院（福岡県久留米市）聖マリア病院（福岡県久留米市）","naisui":"","kazan":""}
+{"Name":"医療法人みらい今立内科クリニック","Jusho":"福岡県久留米市西町178-1","kouzui":"<a href='tel:0942-21-3331'>0942-21-3331</a>","gake":"<a href='http://imadachinaika.com' target='_blank'>http://imadachinaika.com</a>","takashio":"〇","jishin":"〇","tsunami":"内科消化器内科人工透析内科リハビリテーション科","kaji":"久留米総合病院（福岡県久留米市）新古賀病院（福岡県久留米市）聖マリア病院（福岡県久留米市）","naisui":"","kazan":""}
 ,
 {"Name":"医療法人いわい会いわい内科胃腸科医院","Jusho":"福岡県久留米市上津1-6-11","kouzui":"<a href='tel:0942-22-0123'>0942-22-0123</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科胃腸科","kaji":"聖マリア病院（福岡県久留米市）新古賀病院（福岡県久留米市天神町120）JCHO久留米総合病院（福岡県久留米市）","naisui":"","kazan":""}
 ,
@@ -420,7 +420,7 @@
 ,
 {"Name":"医療法人柳整形外科医院","Jusho":"福岡県中間市中央5-2-10","kouzui":"<a href='tel:093-243-3380'>093-243-3380</a>","gake":"<a href='http://yanagi-clinic.sakura.ne.jp' target='_blank'>http://yanagi-clinic.sakura.ne.jp</a>","takashio":"×","jishin":"〇","tsunami":"整形外科リウマチ科リハビリテーション科","kaji":"産業医科大学（福岡県北九州市八幡西区）福岡新水巻病院（福岡県遠賀郡水巻町）健愛記念病院（遠賀郡遠賀町）","naisui":"","kazan":""}
 ,
-{"Name":"嶋田病院","Jusho":"福岡県小郡市小郡217-1","kouzui":"<a href='tel:0942-72-2236'>0942-72-2236</a>","gake":"<a href='www.shimadahp.jp' target='_blank'>www.shimadahp.jp</a>","takashio":"×","jishin":"〇","tsunami":"全診療科","kaji":"","naisui":"","kazan":""}
+{"Name":"嶋田病院","Jusho":"福岡県小郡市小郡217-1","kouzui":"<a href='tel:0942-72-2236'>0942-72-2236</a>","gake":"<a href='http://www.shimadahp.jp' target='_blank'>http://www.shimadahp.jp</a>","takashio":"×","jishin":"〇","tsunami":"全診療科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"みぎた眼科","Jusho":"福岡県筑紫野市針摺中央2-15-13","kouzui":"<a href='tel:092-555-5001'>092-555-5001</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"眼科","kaji":"福岡大学筑紫病院（福岡県筑紫野市）福岡大学病院（福岡県福岡市城南区）","naisui":"","kazan":""}
 ,
@@ -432,7 +432,7 @@
 ,
 {"Name":"医療法人文佑会原病院","Jusho":"福岡県大野城市白木原5-1-15","kouzui":"<a href='tel:092-581-1631'>092-581-1631</a>","gake":"<a href='https://www.harahp.com/' target='_blank'>https://www.harahp.com/</a>","takashio":"×","jishin":"〇","tsunami":"内科脳神経内科消化器内科","kaji":"福岡徳洲会病院（福岡県春日市）福岡大学筑紫病院（福岡県筑紫野市）済生会二日市病院（福岡県筑紫野市）福岡大学病院（福岡県福岡市城南区）九州大学病院（福岡県福岡市東区）","naisui":"","kazan":""}
 ,
-{"Name":"ゆうおう内科","Jusho":"大野城市下大利1-13-12","kouzui":"<a href='tel:501-7586'>501-7586</a>","gake":"<a href='shimori.or.jp' target='_blank'>shimori.or.jp</a>","takashio":"〇","jishin":"〇","tsunami":"内科胃腸科腎臓内科","kaji":"福岡県済生会二日市病院（筑紫野市湯町三丁目13番1号）福岡大学筑紫病院（筑紫野市俗明院一丁目1番1号）","naisui":"","kazan":""}
+{"Name":"ゆうおう内科","Jusho":"大野城市下大利1-13-12","kouzui":"<a href='tel:501-7586'>501-7586</a>","gake":"<a href='http://shimori.or.jp' target='_blank'>http://shimori.or.jp</a>","takashio":"〇","jishin":"〇","tsunami":"内科胃腸科腎臓内科","kaji":"福岡県済生会二日市病院（筑紫野市湯町三丁目13番1号）福岡大学筑紫病院（筑紫野市俗明院一丁目1番1号）","naisui":"","kazan":""}
 ,
 {"Name":"医療法人原外科医院","Jusho":"大野城市白木原5-3-11","kouzui":"<a href='tel:591-2122'>591-2122</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科整形外科","kaji":"","naisui":"","kazan":""}
 ,
@@ -446,9 +446,9 @@
 ,
 {"Name":"医療法人あかま整形クリニック","Jusho":"宗像市栄町3-5","kouzui":"<a href='tel:0940-35-6440'>0940-35-6440</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"整形外科","kaji":"蜂須賀病院（宗像市野坂2650）","naisui":"","kazan":""}
 ,
-{"Name":"くりた耳鼻咽喉科","Jusho":"宗像市くりえいと2-3-17","kouzui":"<a href='tel:0940-39-3939'>0940-39-3939</a>","gake":"<a href='www.kuritajibika.com' target='_blank'>www.kuritajibika.com</a>","takashio":"〇","jishin":"〇","tsunami":"耳鼻咽喉科","kaji":"","naisui":"","kazan":""}
+{"Name":"くりた耳鼻咽喉科","Jusho":"宗像市くりえいと2-3-17","kouzui":"<a href='tel:0940-39-3939'>0940-39-3939</a>","gake":"<a href='http://www.kuritajibika.com' target='_blank'>http://www.kuritajibika.com</a>","takashio":"〇","jishin":"〇","tsunami":"耳鼻咽喉科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"なかのクリニック","Jusho":"宗像市赤間駅前1-4-1-5Ｆ","kouzui":"<a href='tel:0940-38-2525'>0940-38-2525</a>","gake":"<a href='nakano.clinic/' target='_blank'>nakano.clinic/</a>","takashio":"〇","jishin":"〇","tsunami":"内科消化器内科","kaji":"宗像医師会病院（福岡県宗像市田熊）","naisui":"","kazan":""}
+{"Name":"なかのクリニック","Jusho":"宗像市赤間駅前1-4-1-5Ｆ","kouzui":"<a href='tel:0940-38-2525'>0940-38-2525</a>","gake":"<a href='http://nakano.clinic/' target='_blank'>http://nakano.clinic/</a>","takashio":"〇","jishin":"〇","tsunami":"内科消化器内科","kaji":"宗像医師会病院（福岡県宗像市田熊）","naisui":"","kazan":""}
 ,
 {"Name":"医療法人林外科医院","Jusho":"宗像市田久4-15-12","kouzui":"<a href='tel:0940-33-5577'>0940-33-5577</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"外科","kaji":"宗像医師会病院（宗像市田熊5-5-3）","naisui":"","kazan":""}
 ,
@@ -470,13 +470,13 @@
 ,
 {"Name":"（医）山近内科医院","Jusho":"宮若市本城569-1","kouzui":"<a href='tel:0949-32-0135'>0949-32-0135</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科、消化器内科","kaji":"現在特定していない","naisui":"","kazan":""}
 ,
-{"Name":"きくち胃腸科内科クリニック","Jusho":"福岡県みやま市瀬高町下庄2175","kouzui":"<a href='tel:0944-63-2223'>0944-63-2223</a>","gake":"<a href='y-kikuchi-clinic.com' target='_blank'>y-kikuchi-clinic.com</a>","takashio":"〇","jishin":"〇","tsunami":"胃腸科内科","kaji":"筑後市立病院（福岡県筑後市大字和泉917-1）ヨコクラ病院（福岡県みやま市高田町濃施480-2）柳川病院（福岡県柳川市筑紫町29）大牟田病院（福岡県大牟田市大字橘1044-1）","naisui":"","kazan":""}
+{"Name":"きくち胃腸科内科クリニック","Jusho":"福岡県みやま市瀬高町下庄2175","kouzui":"<a href='tel:0944-63-2223'>0944-63-2223</a>","gake":"<a href='http://y-kikuchi-clinic.com' target='_blank'>http://y-kikuchi-clinic.com</a>","takashio":"〇","jishin":"〇","tsunami":"胃腸科内科","kaji":"筑後市立病院（福岡県筑後市大字和泉917-1）ヨコクラ病院（福岡県みやま市高田町濃施480-2）柳川病院（福岡県柳川市筑紫町29）大牟田病院（福岡県大牟田市大字橘1044-1）","naisui":"","kazan":""}
 ,
 {"Name":"医療法人東山康生会大鶴脳神経外科","Jusho":"福岡県みやま市瀬高町長田4812-2","kouzui":"<a href='tel:0944-64-4130'>0944-64-4130</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"脳神経外科","kaji":"筑後市立病院（福岡県筑後市和泉917-1）公立八女総合病院（福岡県八女市高塚540-2）","naisui":"","kazan":""}
 ,
 {"Name":"たなか皮ふ科クリニック","Jusho":"みやま市瀬高町上庄744-3","kouzui":"<a href='tel:0944-63-4112'>0944-63-4112</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"皮膚科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"植田医院","Jusho":"みやま市山川町尾野2040","kouzui":"<a href='tel:0944-67-2737'>0944-67-2737</a>","gake":"<a href='www.ueda-clinic-miyama.com' target='_blank'>www.ueda-clinic-miyama.com</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"姉川脳神経外科（久留米市野中町1449-3）ヨコクラ病院（みやま市高田町濃施480番地2）","naisui":"","kazan":""}
+{"Name":"植田医院","Jusho":"みやま市山川町尾野2040","kouzui":"<a href='tel:0944-67-2737'>0944-67-2737</a>","gake":"<a href='http://www.ueda-clinic-miyama.com' target='_blank'>http://www.ueda-clinic-miyama.com</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"姉川脳神経外科（久留米市野中町1449-3）ヨコクラ病院（みやま市高田町濃施480番地2）","naisui":"","kazan":""}
 ,
 {"Name":"みなかぜ病院","Jusho":"福岡県糸島市篠原西1-14-1","kouzui":"<a href='tel:092-322-3261'>092-322-3261</a>","gake":"<a href='http://www.minamikaze.jp/' target='_blank'>http://www.minamikaze.jp/</a>","takashio":"×","jishin":"〇","tsunami":"精神科心療内科","kaji":"","naisui":"","kazan":""}
 ,
@@ -492,7 +492,7 @@
 ,
 {"Name":"水ノ江医院","Jusho":"福岡県那珂川市今光3-11","kouzui":"<a href='tel:092-952-8648'>092-952-8648</a>","gake":"<a href='http://mizunoeiin.jp' target='_blank'>http://mizunoeiin.jp</a>","takashio":"〇","jishin":"〇","tsunami":"内科小児科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"はら耳鼻咽喉科","Jusho":"水巻町頃末北4-7-3","kouzui":"<a href='tel:093-701-8841'>093-701-8841</a>","gake":"<a href='www.hara-net.com' target='_blank'>www.hara-net.com</a>","takashio":"×","jishin":"〇","tsunami":"耳鼻咽喉科","kaji":"産業医科大学病院（北九州市八幡西区医生ヶ丘1番1号）ＪＣＨＯ九州病院（北九州市八幡西区岸の浦一丁目8番1","naisui":"","kazan":""}
+{"Name":"はら耳鼻咽喉科","Jusho":"水巻町頃末北4-7-3","kouzui":"<a href='tel:093-701-8841'>093-701-8841</a>","gake":"<a href='http://www.hara-net.com' target='_blank'>http://www.hara-net.com</a>","takashio":"×","jishin":"〇","tsunami":"耳鼻咽喉科","kaji":"産業医科大学病院（北九州市八幡西区医生ヶ丘1番1号）ＪＣＨＯ九州病院（北九州市八幡西区岸の浦一丁目8番1","naisui":"","kazan":""}
 ,
 {"Name":"水巻クリニック","Jusho":"水巻町頃末南3-13-5","kouzui":"<a href='tel:093-201-8500'>093-201-8500</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"済生会八幡総合病院（北九州市八幡東区春の町五丁目9番27号）九州大学病院（福岡市東区馬出3丁目1-1）","naisui":"","kazan":""}
 ,

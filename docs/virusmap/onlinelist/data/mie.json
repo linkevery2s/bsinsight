@@ -1,6 +1,6 @@
 ﻿[
 {"Name":"うめもとこどもクリニック","Jusho":"三重県津市栄町1-857-1","kouzui":"<a href='tel:059-222-2332'>059-222-2332</a>","gake":"<a href='https://www.umekuri.com/' target='_blank'>https://www.umekuri.com/</a>","takashio":"〇","jishin":"〇","tsunami":"小児科","kaji":"国立病院機構三重病院（三重県津市大里窪田町357番地）","naisui":"","kazan":""},
-{"Name":"奥田医院","Jusho":"三重県津市半田1481-2","kouzui":"<a href='tel:059-225-6488'>059-225-6488</a>","gake":"<a href='okuda-iin.com' target='_blank'>okuda-iin.com</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
+{"Name":"奥田医院","Jusho":"三重県津市半田1481-2","kouzui":"<a href='tel:059-225-6488'>059-225-6488</a>","gake":"<a href='http://okuda-iin.com' target='_blank'>http://okuda-iin.com</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"草川医院","Jusho":"津市大里窪田町1735-1","kouzui":"<a href='tel:059-232-2210'>059-232-2210</a>","gake":"<a href='' target='_blank'></a>","takashio":"△","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
@@ -74,7 +74,7 @@
 ,
 {"Name":"大辻整形外科","Jusho":"松阪市大黒田町1841-1","kouzui":"<a href='tel:0598-25-0031'>0598-25-0031</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"整形外科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"とうご小児科","Jusho":"三重県松阪市光町1070-5","kouzui":"<a href='tel:0598-26-1010'>0598-26-1010</a>","gake":"<a href='tougo-shounika.jp/' target='_blank'>tougo-shounika.jp/</a>","takashio":"〇","jishin":"〇","tsunami":"小児科","kaji":"松阪中央総合病院小児科（三重県松阪市川井町102）","naisui":"","kazan":""}
+{"Name":"とうご小児科","Jusho":"三重県松阪市光町1070-5","kouzui":"<a href='tel:0598-26-1010'>0598-26-1010</a>","gake":"<a href='http://tougo-shounika.jp/' target='_blank'>http://tougo-shounika.jp/</a>","takashio":"〇","jishin":"〇","tsunami":"小児科","kaji":"松阪中央総合病院小児科（三重県松阪市川井町102）","naisui":"","kazan":""}
 ,
 {"Name":"南勢病院","Jusho":"三重県松阪市山室町2275","kouzui":"<a href='tel:0598-29-1721'>0598-29-1721</a>","gake":"<a href='http://www.nansei-hospital.jp/' target='_blank'>http://www.nansei-hospital.jp/</a>","takashio":"×","jishin":"〇","tsunami":"精神科心療内科脳神経内科","kaji":"","naisui":"","kazan":""}
 ,
@@ -132,7 +132,7 @@
 ,
 {"Name":"かつき内科","Jusho":"三重県亀山市東町一丁目2番19号2","kouzui":"<a href='tel:0595-84-5858'>0595-84-5858</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"赤坂クリニック","Jusho":"三重県鳥羽市大明東町2090-305","kouzui":"<a href='tel:0599-21-0001'>0599-21-0001</a>","gake":"<a href='www.akasaka-clinic.com' target='_blank'>www.akasaka-clinic.com</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
+{"Name":"赤坂クリニック","Jusho":"三重県鳥羽市大明東町2090-305","kouzui":"<a href='tel:0599-21-0001'>0599-21-0001</a>","gake":"<a href='http://www.akasaka-clinic.com' target='_blank'>http://www.akasaka-clinic.com</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"鳥羽市立坂手診療所","Jusho":"三重県鳥羽市坂手町178","kouzui":"<a href='tel:0599-26-3746'>0599-26-3746</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科外科小児科","kaji":"備考：初診は、坂手町民のみ実施","naisui":"","kazan":""}
 ,
@@ -168,7 +168,7 @@
 ,
 {"Name":"西口医院","Jusho":"三重県多気郡明和町前野415-8","kouzui":"<a href='tel:0596-55-2207'>0596-55-2207</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"三重ハートセンター","Jusho":"三重県多気郡明和町大字大淀2227-1","kouzui":"<a href='tel:0596-55-8188'>0596-55-8188</a>","gake":"<a href='www.mie-heartcenter.com/' target='_blank'>www.mie-heartcenter.com/</a>","takashio":"×","jishin":"〇","tsunami":"循環器内科心臓血管外科","kaji":"","naisui":"","kazan":""}
+{"Name":"三重ハートセンター","Jusho":"三重県多気郡明和町大字大淀2227-1","kouzui":"<a href='tel:0596-55-8188'>0596-55-8188</a>","gake":"<a href='http://www.mie-heartcenter.com/' target='_blank'>http://www.mie-heartcenter.com/</a>","takashio":"×","jishin":"〇","tsunami":"循環器内科心臓血管外科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"大台厚生病院","Jusho":"三重県多気郡大台町上三瀬663-2","kouzui":"<a href='tel:0598-82-1313'>0598-82-1313</a>","gake":"<a href='http://www.miekosei.or.jp/5_okh/index.html' target='_blank'>http://www.miekosei.or.jp/5_okh/index.html</a>","takashio":"×","jishin":"〇","tsunami":"内科整形外科脳神経外科胃腸内科眼科泌尿器科耳鼻いんこう科皮膚科","kaji":"","naisui":"","kazan":""}
 ,

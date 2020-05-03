@@ -62,7 +62,7 @@
 ,
 {"Name":"医療法人青心会郡山青藍病院","Jusho":"奈良県大和郡山市本庄町1-1","kouzui":"<a href='tel:0743-56-8000'>0743-56-8000</a>","gake":"<a href='https://www.seiran.or.jp/' target='_blank'>https://www.seiran.or.jp/</a>","takashio":"×","jishin":"×","tsunami":"-","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"医療法人厚生会奈良厚生会病院","Jusho":"奈良県大和郡山市椎木町769-3","kouzui":"<a href='tel:0743-56-5678'>0743-56-5678</a>","gake":"<a href='www.nara-koseikai.or.jp/' target='_blank'>www.nara-koseikai.or.jp/</a>","takashio":"×","jishin":"〇","tsunami":"内科整形外科皮膚科","kaji":"","naisui":"","kazan":""}
+{"Name":"医療法人厚生会奈良厚生会病院","Jusho":"奈良県大和郡山市椎木町769-3","kouzui":"<a href='tel:0743-56-5678'>0743-56-5678</a>","gake":"<a href='http://www.nara-koseikai.or.jp/' target='_blank'>http://www.nara-koseikai.or.jp/</a>","takashio":"×","jishin":"〇","tsunami":"内科整形外科皮膚科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"独立行政法人国立病院機構やまと精神医療センター","Jusho":"奈良県大和郡山市小泉町2815番地","kouzui":"<a href='tel:0743-52-3081'>0743-52-3081</a>","gake":"<a href='https://yamato.hosp.go.jp' target='_blank'>https://yamato.hosp.go.jp</a>","takashio":"×","jishin":"〇","tsunami":"精神科","kaji":"","naisui":"","kazan":""}
 ,
@@ -84,8 +84,6 @@
 ,
 {"Name":"奈良県立医科大学附属病院","Jusho":"奈良県橿原市","kouzui":"<a href='tel:0744-22-3051'>0744-22-3051</a>","gake":"<a href='http://www.naramed-u.ac.jp/hospital/' target='_blank'>http://www.naramed-u.ac.jp/hospital/</a>","takashio":"×","jishin":"〇","tsunami":"各診療科・専門外来・センター","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"奈良県立医科大学附属病院","Jusho":"奈良県橿原市","kouzui":"<a href='tel:0744-22-3051'>0744-22-3051</a>","gake":"<a href='http://www.naramed-u.ac.jp/hospital/' target='_blank'>http://www.naramed-u.ac.jp/hospital/</a>","takashio":"×","jishin":"〇","tsunami":"各診療科・専門外来・センター","kaji":"","naisui":"","kazan":""}
-,
 {"Name":"（医）ひのうえ会ひがみリウマチ・糖尿病内科クリニック","Jusho":"奈良県橿原市葛本町701","kouzui":"<a href='tel:0744-22-1185'>0744-22-1185</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科リウマチ科糖尿病内科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"菊川医院","Jusho":"奈良県橿原市上品寺町380-22","kouzui":"<a href='tel:0744-23-0202'>0744-23-0202</a>","gake":"<a href='http;//www.clinic-hp.com/' target='_blank'>http;//www.clinic-hp.com/</a>","takashio":"〇","jishin":"〇","tsunami":"内科外科胃腸科リハビリ","kaji":"","naisui":"","kazan":""}
@@ -96,7 +94,7 @@
 ,
 {"Name":"クリニック神宮前","Jusho":"奈良県橿原市内膳町5丁目4-41","kouzui":"<a href='tel:0744-23-8568'>0744-23-8568</a>","gake":"<a href='http:://clinic-takami.com/' target='_blank'>http:://clinic-takami.com/</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"神宮前こころのクリニック","Jusho":"奈良県橿原市久米町569","kouzui":"<a href='tel:0744-47-3935'>0744-47-3935</a>","gake":"<a href='jingume-cocoro-clinic.com' target='_blank'>jingume-cocoro-clinic.com</a>","takashio":"×","jishin":"〇","tsunami":"精神科心療内科","kaji":"","naisui":"","kazan":""}
+{"Name":"神宮前こころのクリニック","Jusho":"奈良県橿原市久米町569","kouzui":"<a href='tel:0744-47-3935'>0744-47-3935</a>","gake":"<a href='http://jingume-cocoro-clinic.com' target='_blank'>http://jingume-cocoro-clinic.com</a>","takashio":"×","jishin":"〇","tsunami":"精神科心療内科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"医療法人吉川医院","Jusho":"奈良県橿原市中曽司町175","kouzui":"<a href='tel:0744-22-0174'>0744-22-0174</a>","gake":"<a href='http://www.yoshikawa-clinic.or.jp/' target='_blank'>http://www.yoshikawa-clinic.or.jp/</a>","takashio":"〇","jishin":"〇","tsunami":"内科小児科","kaji":"","naisui":"","kazan":""}
 ,
@@ -116,7 +114,7 @@
 ,
 {"Name":"たに小児科医院","Jusho":"奈良県橿原市北八木町","kouzui":"<a href='tel:0744-25-5335'>0744-25-5335</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"小児科アレルギー科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"医療法人桐山医院","Jusho":"奈良県橿原市大軽町123","kouzui":"<a href='tel:0744-28-3456'>0744-28-3456</a>","gake":"<a href='s://itp.ne.jp/info/2937350411182417' target='_blank'>s://itp.ne.jp/info/2937350411182417</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
+{"Name":"医療法人桐山医院","Jusho":"奈良県橿原市大軽町123","kouzui":"<a href='tel:0744-28-3456'>0744-28-3456</a>","gake":"<a href='http://itp.ne.jp/info/2937350411182417' target='_blank'>http://itp.ne.jp/info/2937350411182417</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"内藤内科医院","Jusho":"奈良県桜井市川合268","kouzui":"<a href='tel:0744-42-0211'>0744-42-0211</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
@@ -170,8 +168,6 @@
 ,
 {"Name":"医療法人風尚会やました医院","Jusho":"奈良県生駒市南田原町1039","kouzui":"<a href='tel:0743-71-8234'>0743-71-8234</a>","gake":"<a href='http://www.yamashitanougeka.com' target='_blank'>http://www.yamashitanougeka.com</a>","takashio":"×","jishin":"〇","tsunami":"脳神経外科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"医療法人風尚会やました医院","Jusho":"奈良県生駒市南田原町1039","kouzui":"<a href='tel:0743-71-8234'>0743-71-8234</a>","gake":"<a href='http://www.yamashitanougeka.com' target='_blank'>http://www.yamashitanougeka.com</a>","takashio":"×","jishin":"〇","tsunami":"脳神経外科","kaji":"","naisui":"","kazan":""}
-,
 {"Name":"岡クリニック","Jusho":"奈良県生駒市北新町1-20-3","kouzui":"<a href='tel:0743-72-1122'>0743-72-1122</a>","gake":"<a href='https://www.vill.totsukawa.lg.jp/' target='_blank'>https://www.vill.totsukawa.lg.jp/</a>","takashio":"×","jishin":"〇","tsunami":"精神科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"医療法人和田クリニック","Jusho":"奈良県香芝市下田西1丁目10-17アバンギャルド1F","kouzui":"<a href='tel:0745-78-1700'>0745-78-1700</a>","gake":"<a href='https://www.wada-ciinic.jp/' target='_blank'>https://www.wada-ciinic.jp/</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
@@ -182,7 +178,7 @@
 ,
 {"Name":"医療法人澤田医院","Jusho":"奈良県香芝市五位堂5-155","kouzui":"<a href='tel:0745-76-2177'>0745-76-2177</a>","gake":"<a href='https://www.sawada-clinic.net' target='_blank'>https://www.sawada-clinic.net</a>","takashio":"×","jishin":"〇","tsunami":"内科小児科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"西本内科","Jusho":"奈良県香芝市旭ケ丘4丁目2-1","kouzui":"<a href='tel:0745ー71-2122'>0745ー71-2122</a>","gake":"<a href='www.2122.jp' target='_blank'>www.2122.jp</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
+{"Name":"西本内科","Jusho":"奈良県香芝市旭ケ丘4丁目2-1","kouzui":"<a href='tel:0745ー71-2122'>0745ー71-2122</a>","gake":"<a href='http://www.2122.jp' target='_blank'>http://www.2122.jp</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"かわしま内科外科こどもクリニック","Jusho":"奈良県香芝市旭ケ丘2丁目30-4","kouzui":"<a href='tel:0745ー79-1155'>0745ー79-1155</a>","gake":"<a href='https://cotoapli.jp/kawashima/sindex.php' target='_blank'>https://cotoapli.jp/kawashima/sindex.php</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
@@ -192,13 +188,7 @@
 ,
 {"Name":"医療法人康成会旭ヶ丘クリニック","Jusho":"奈良県香芝市旭ヶ丘5-36-1","kouzui":"<a href='tel:0745-71-5600'>0745-71-5600</a>","gake":"<a href='https://www.kouseikai-med.com/asahigaoka/' target='_blank'>https://www.kouseikai-med.com/asahigaoka/</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"医療法人康成会旭ヶ丘クリニック","Jusho":"奈良県香芝市旭ヶ丘5-36-1","kouzui":"<a href='tel:0745-71-5600'>0745-71-5600</a>","gake":"<a href='https://www.kouseikai-med.com/asahigaoka/' target='_blank'>https://www.kouseikai-med.com/asahigaoka/</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
-,
-{"Name":"医療法人興生会吉本整形外科・外科病院","Jusho":"奈良県葛城市疋田676番地1","kouzui":"<a href='tel:0745-69-5353'>0745-69-5353</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"整形外科内科脳神経外科","kaji":"","naisui":"","kazan":""}
-,
 {"Name":"医療法人興生会吉本整形外科・外科病院","Jusho":"奈良県葛城市疋田676番地1","kouzui":"<a href='tel:0745-69-5353'>0745-69-5353</a>","gake":"<a href='https://www.yoshimoto-seikei.com/' target='_blank'>https://www.yoshimoto-seikei.com/</a>","takashio":"×","jishin":"〇","tsunami":"整形外科内科脳神経外科","kaji":"","naisui":"","kazan":""}
-,
-{"Name":"医療法人興生会吉本整形外科・外科病院","Jusho":"奈良県葛城市疋田676番地1","kouzui":"<a href='tel:0745-69-5353'>0745-69-5353</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"整形外科内科脳神経外科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"鵜山医院","Jusho":"奈良県葛城市新庄16","kouzui":"<a href='tel:0745-69-2070'>0745-69-2070</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
@@ -210,7 +200,7 @@
 ,
 {"Name":"医療法人拓誠会辻村病院","Jusho":"奈良県宇陀市菟田野松井7番地の1","kouzui":"<a href='tel:0745-84-2133'>0745-84-2133</a>","gake":"<a href='http://www.tsujimurahp.jp/' target='_blank'>http://www.tsujimurahp.jp/</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"吉井整形外科医院","Jusho":"奈良県宇陀市榛原福地374-1","kouzui":"<a href='tel:0745-82-2888'>0745-82-2888</a>","gake":"<a href='www.yoshii-seikei.or.jp' target='_blank'>www.yoshii-seikei.or.jp</a>","takashio":"〇","jishin":"〇","tsunami":"整形外科内科リウマチ科","kaji":"","naisui":"","kazan":""}
+{"Name":"吉井整形外科医院","Jusho":"奈良県宇陀市榛原福地374-1","kouzui":"<a href='tel:0745-82-2888'>0745-82-2888</a>","gake":"<a href='http://www.yoshii-seikei.or.jp' target='_blank'>http://www.yoshii-seikei.or.jp</a>","takashio":"〇","jishin":"〇","tsunami":"整形外科内科リウマチ科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"宇陀市国民健康保険直営東里診療所","Jusho":"奈良県宇陀市室生上笠間2982-1","kouzui":"<a href='tel:0745ー92-3741'>0745ー92-3741</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科小児科整形外科","kaji":"","naisui":"","kazan":""}
 ,
@@ -221,8 +211,6 @@
 {"Name":"山本診療科","Jusho":"奈良県宇陀市榛原ひのき坂2丁目1?9","kouzui":"<a href='tel:0745-82-6707'>0745-82-6707</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科小児科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"医療法人智光会城井内科医院","Jusho":"奈良県宇陀市榛原下井足12-1","kouzui":"<a href='tel:0745-96-9680'>0745-96-9680</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
-,
-{"Name":"福井療院","Jusho":"奈良県奈良市室生大野2253","kouzui":"<a href='tel:0745-92-2006'>0745-92-2006</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科整形外科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"山添村国民健康保険東山診療所","Jusho":"奈良県山辺郡山添村大字桐山62-1","kouzui":"<a href='tel:0743-86-0441'>0743-86-0441</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
@@ -264,7 +252,7 @@
 ,
 {"Name":"武内クリニック","Jusho":"奈良県北葛城郡王寺町元町2丁目2479-1","kouzui":"<a href='tel:0745-72-1618'>0745-72-1618</a>","gake":"<a href='https://www.dr-takeuchi.cm' target='_blank'>https://www.dr-takeuchi.cm</a>","takashio":"〇","jishin":"〇","tsunami":"内科外科消化器内科整形外科リハビリテーション科小児外科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"別府レディースクリニック","Jusho":"奈良県北葛城郡王寺町久度2-3-1リーベル王寺3階","kouzui":"<a href='tel:0745ー34-2000'>0745ー34-2000</a>","gake":"<a href='tp://beppu-ladies-clinic.p2.bindsite.j' target='_blank'>tp://beppu-ladies-clinic.p2.bindsite.j</a>","takashio":"×","jishin":"〇","tsunami":"婦人科精神科心療内科","kaji":"","naisui":"","kazan":""}
+{"Name":"別府レディースクリニック","Jusho":"奈良県北葛城郡王寺町久度2-3-1リーベル王寺3階","kouzui":"<a href='tel:0745ー34-2000'>0745ー34-2000</a>","gake":"<a href='http://beppu-ladies-clinic.p2.bindsite.j' target='_blank'>http://beppu-ladies-clinic.p2.bindsite.j</a>","takashio":"×","jishin":"〇","tsunami":"婦人科精神科心療内科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"あおき小児科","Jusho":"奈良県北葛城郡王寺町王寺2-4-7王寺クリニックスクエア3F","kouzui":"<a href='tel:0745-33-7100'>0745-33-7100</a>","gake":"<a href='http://aoki-cl.or.jp/' target='_blank'>http://aoki-cl.or.jp/</a>","takashio":"×","jishin":"〇","tsunami":"小児科","kaji":"","naisui":"","kazan":""}
 ,

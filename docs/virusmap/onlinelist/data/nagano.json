@@ -28,7 +28,7 @@
 ,
 {"Name":"北原メンタルクリニック","Jusho":"長野県長野市稲里町中央4-15-7","kouzui":"<a href='tel:026-286-0007'>026-286-0007</a>","gake":"<a href='http://www.kitahara-mc.com/' target='_blank'>http://www.kitahara-mc.com/</a>","takashio":"×","jishin":"〇","tsunami":"精神科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"瀬原田クリニック","Jusho":"長野県長野市篠ノ井布施五明3313","kouzui":"<a href='tel:026-299-5511'>026-299-5511</a>","gake":"<a href='www.seharadaclinic.com' target='_blank'>www.seharadaclinic.com</a>","takashio":"×","jishin":"△","tsunami":"内科、外科皮膚科消化器科","kaji":"","naisui":"","kazan":""}
+{"Name":"瀬原田クリニック","Jusho":"長野県長野市篠ノ井布施五明3313","kouzui":"<a href='tel:026-299-5511'>026-299-5511</a>","gake":"<a href='http://www.seharadaclinic.com' target='_blank'>http://www.seharadaclinic.com</a>","takashio":"×","jishin":"△","tsunami":"内科、外科皮膚科消化器科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"くめた整形外科クリニック","Jusho":"長野県長野市篠ノ井杵渕50-5","kouzui":"<a href='tel:026-290-5511'>026-290-5511</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"整形外科","kaji":"","naisui":"","kazan":""}
 ,
@@ -38,7 +38,7 @@
 ,
 {"Name":"酒井医院","Jusho":"長野県長野市篠ノ井布施高田863","kouzui":"<a href='tel:026-292-0255'>026-292-0255</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"クリニックコスモス長野","Jusho":"長野県長野市小島田町380","kouzui":"<a href='tel:026-285-2671'>026-285-2671</a>","gake":"<a href='www.cosmosnet.or.jp' target='_blank'>www.cosmosnet.or.jp</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"長野赤十字病院（長野県長野市若里5-22-1）厚生連南長野医療センター篠ノ井総合病院（長野県長野市篠ノ井会666-1）厚生連長野松代総合病院（長野県長野市松代町松代183）","naisui":"","kazan":""}
+{"Name":"クリニックコスモス長野","Jusho":"長野県長野市小島田町380","kouzui":"<a href='tel:026-285-2671'>026-285-2671</a>","gake":"<a href='http://www.cosmosnet.or.jp' target='_blank'>http://www.cosmosnet.or.jp</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"長野赤十字病院（長野県長野市若里5-22-1）厚生連南長野医療センター篠ノ井総合病院（長野県長野市篠ノ井会666-1）厚生連長野松代総合病院（長野県長野市松代町松代183）","naisui":"","kazan":""}
 ,
 {"Name":"篠ノ井鈴木医院","Jusho":"長野県長野市里島88","kouzui":"<a href='tel:026-261-1515'>026-261-1515</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"厚生連南長野医療センター篠ノ井総合病院（長野県長野市篠ノ井会666-1）","naisui":"","kazan":""}
 ,
@@ -110,11 +110,11 @@
 ,
 {"Name":"信州大学医学部附属病院","Jusho":"長野県松本市旭3-1-1","kouzui":"<a href='tel:0263-35-4600'>0263-35-4600</a>","gake":"<a href='https://wwwhp.md.shinshu-u.ac.jp/' target='_blank'>https://wwwhp.md.shinshu-u.ac.jp/</a>","takashio":"×","jishin":"〇","tsunami":"全診療科","kaji":"-","naisui":"","kazan":""}
 ,
-{"Name":"松本市立病院","Jusho":"長野県松本市波田4417番地180","kouzui":"<a href='tel:0263-92-3027'>0263-92-3027</a>","gake":"<a href='www.hp-hata.com' target='_blank'>www.hp-hata.com</a>","takashio":"〇","jishin":"〇","tsunami":"内科外科整形外科小児科婦人科泌尿器科脳神経外科総合診療科眼科耳鼻咽喉科皮膚科","kaji":"","naisui":"","kazan":""}
+{"Name":"松本市立病院","Jusho":"長野県松本市波田4417番地180","kouzui":"<a href='tel:0263-92-3027'>0263-92-3027</a>","gake":"<a href='http://www.hp-hata.com' target='_blank'>http://www.hp-hata.com</a>","takashio":"〇","jishin":"〇","tsunami":"内科外科整形外科小児科婦人科泌尿器科脳神経外科総合診療科眼科耳鼻咽喉科皮膚科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"松南病院","Jusho":"長野県松本市笹部3丁目13番29号","kouzui":"<a href='tel:0263-25-2303'>0263-25-2303</a>","gake":"<a href='http://www.washinkai.jp' target='_blank'>http://www.washinkai.jp</a>","takashio":"×","jishin":"〇","tsunami":"精神科心療内科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"医療法人芳洲会村井病院","Jusho":"長野県松本市村井町西2-15-1","kouzui":"<a href='tel:0263-58-2244'>0263-58-2244</a>","gake":"<a href='www.murai-h.or.jp/' target='_blank'>www.murai-h.or.jp/</a>","takashio":"×","jishin":"〇","tsunami":"精神科","kaji":"社会医療法人財団慈泉会相澤病院（長野県松本市本庄2-5-1）","naisui":"","kazan":""}
+{"Name":"医療法人芳洲会村井病院","Jusho":"長野県松本市村井町西2-15-1","kouzui":"<a href='tel:0263-58-2244'>0263-58-2244</a>","gake":"<a href='http://www.murai-h.or.jp/' target='_blank'>http://www.murai-h.or.jp/</a>","takashio":"×","jishin":"〇","tsunami":"精神科","kaji":"社会医療法人財団慈泉会相澤病院（長野県松本市本庄2-5-1）","naisui":"","kazan":""}
 ,
 {"Name":"医療法人青雲会倉田病院","Jusho":"長野県松本市寿北8丁目21番2号","kouzui":"<a href='tel:0263-58-2033'>0263-58-2033</a>","gake":"<a href='http://seiunkai.or.jp/' target='_blank'>http://seiunkai.or.jp/</a>","takashio":"×","jishin":"〇","tsunami":"精神科内科","kaji":"","naisui":"","kazan":""}
 ,
@@ -122,7 +122,7 @@
 ,
 {"Name":"一之瀬脳神経外科病院","Jusho":"長野県松本市島立2093","kouzui":"<a href='tel:0263-48-3300'>0263-48-3300</a>","gake":"<a href='https://inh.or.jp/' target='_blank'>https://inh.or.jp/</a>","takashio":"×","jishin":"〇","tsunami":"脳神経外科神経内科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"松本中川病院","Jusho":"長野県松本市野溝西2丁目3番16号","kouzui":"<a href='tel:0263-28-5500'>0263-28-5500</a>","gake":"<a href='www.mnh2001.jp/' target='_blank'>www.mnh2001.jp/</a>","takashio":"×","jishin":"〇","tsunami":"糖尿病内科内科内科神経内科内科外科整形外科内科眼科","kaji":"","naisui":"","kazan":""}
+{"Name":"松本中川病院","Jusho":"長野県松本市野溝西2丁目3番16号","kouzui":"<a href='tel:0263-28-5500'>0263-28-5500</a>","gake":"<a href='http://www.mnh2001.jp/' target='_blank'>http://www.mnh2001.jp/</a>","takashio":"×","jishin":"〇","tsunami":"糖尿病内科内科内科神経内科内科外科整形外科内科眼科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"社会医療法人財団慈泉会相澤東病院","Jusho":"長野県松本市本庄2丁目11番16号","kouzui":"<a href='tel:0263-33-2500'>0263-33-2500</a>","gake":"<a href='http://www.ai-hosp.or.jp/higashi/index.html' target='_blank'>http://www.ai-hosp.or.jp/higashi/index.html</a>","takashio":"×","jishin":"〇","tsunami":"内科消化器内科脳神経内科","kaji":"","naisui":"","kazan":""}
 ,
@@ -216,7 +216,7 @@
 ,
 {"Name":"加藤医院","Jusho":"長野県飯田市鈴加町1丁目20番地","kouzui":"<a href='tel:0265-22-1964'>0265-22-1964</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"飯田病院（長野県飯田市大通1-15）","naisui":"","kazan":""}
 ,
-{"Name":"かみさと耳鼻咽喉科医院","Jusho":"長野県飯田市上郷飯沼779","kouzui":"<a href='tel:0265-52-3933'>0265-52-3933</a>","gake":"<a href='www.kamisato-ent.com' target='_blank'>www.kamisato-ent.com</a>","takashio":"〇","jishin":"〇","tsunami":"耳鼻咽喉科","kaji":"飯田市立病院（長野県飯田市八幡町438）","naisui":"","kazan":""}
+{"Name":"かみさと耳鼻咽喉科医院","Jusho":"長野県飯田市上郷飯沼779","kouzui":"<a href='tel:0265-52-3933'>0265-52-3933</a>","gake":"<a href='http://www.kamisato-ent.com' target='_blank'>http://www.kamisato-ent.com</a>","takashio":"〇","jishin":"〇","tsunami":"耳鼻咽喉科","kaji":"飯田市立病院（長野県飯田市八幡町438）","naisui":"","kazan":""}
 ,
 {"Name":"木下クリニック","Jusho":"長野県飯田市鼎切石4087-6","kouzui":"<a href='tel:0265-56-2566'>0265-56-2566</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"飯田市立病院（長野県飯田市八幡町438）飯田病院（長野県飯田市大通1-15）健和会病院（長野県飯田市鼎中平1936）輝山会記念病院（長野県飯田市毛賀1707）","naisui":"","kazan":""}
 ,
@@ -224,11 +224,11 @@
 ,
 {"Name":"健和会飯田中央診療所","Jusho":"長野県飯田市鼎上山1552-1","kouzui":"<a href='tel:0265-56-4828'>0265-56-4828</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"健和会病院（長野県飯田市鼎中平1936）","naisui":"","kazan":""}
 ,
-{"Name":"小坂クリニック","Jusho":"長野県飯田市座光寺3496-1","kouzui":"<a href='tel:0265-24-3933'>0265-24-3933</a>","gake":"<a href='kosakacl.main.jp' target='_blank'>kosakacl.main.jp</a>","takashio":"〇","jishin":"〇","tsunami":"内科小児科消化器内科","kaji":"飯田市立病院（長野県飯田市八幡町438）","naisui":"","kazan":""}
+{"Name":"小坂クリニック","Jusho":"長野県飯田市座光寺3496-1","kouzui":"<a href='tel:0265-24-3933'>0265-24-3933</a>","gake":"<a href='http://kosakacl.main.jp' target='_blank'>http://kosakacl.main.jp</a>","takashio":"〇","jishin":"〇","tsunami":"内科小児科消化器内科","kaji":"飯田市立病院（長野県飯田市八幡町438）","naisui":"","kazan":""}
 ,
 {"Name":"後藤医院（伝馬町）","Jusho":"長野県飯田市伝馬町2丁目32番地","kouzui":"<a href='tel:0265-24-6557'>0265-24-6557</a>","gake":"<a href='https://iida-gotoclinic.com' target='_blank'>https://iida-gotoclinic.com</a>","takashio":"×","jishin":"〇","tsunami":"内科脳神経内科皮膚科","kaji":"飯田病院（長野県飯田市大通1-15）","naisui":"","kazan":""}
 ,
-{"Name":"さの小児科医院","Jusho":"長野県飯田市羽場坂町2345-8","kouzui":"<a href='tel:0265-48-5351'>0265-48-5351</a>","gake":"<a href='sanoyokosyounika.com' target='_blank'>sanoyokosyounika.com</a>","takashio":"×","jishin":"〇","tsunami":"小児科","kaji":"飯田市立病院（長野県飯田市八幡町438）","naisui":"","kazan":""}
+{"Name":"さの小児科医院","Jusho":"長野県飯田市羽場坂町2345-8","kouzui":"<a href='tel:0265-48-5351'>0265-48-5351</a>","gake":"<a href='http://sanoyokosyounika.com' target='_blank'>http://sanoyokosyounika.com</a>","takashio":"×","jishin":"〇","tsunami":"小児科","kaji":"飯田市立病院（長野県飯田市八幡町438）","naisui":"","kazan":""}
 ,
 {"Name":"清水医院","Jusho":"長野県飯田市三日市場1065-5","kouzui":"<a href='tel:0265-25-7152'>0265-25-7152</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"精神科","kaji":"飯田病院（長野県飯田市大通1-15）","naisui":"","kazan":""}
 ,
@@ -240,13 +240,13 @@
 ,
 {"Name":"曽我医院","Jusho":"長野県飯田市鼎東鼎20-2","kouzui":"<a href='tel:0265-22-1653'>0265-22-1653</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"宝クリニック","Jusho":"長野県飯田市鼎名古熊2511","kouzui":"<a href='tel:0265-22-4114'>0265-22-4114</a>","gake":"<a href='takara-clinic.jp' target='_blank'>takara-clinic.jp</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"飯田市立病院（長野県飯田市八幡町438）","naisui":"","kazan":""}
+{"Name":"宝クリニック","Jusho":"長野県飯田市鼎名古熊2511","kouzui":"<a href='tel:0265-22-4114'>0265-22-4114</a>","gake":"<a href='http://takara-clinic.jp' target='_blank'>http://takara-clinic.jp</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"飯田市立病院（長野県飯田市八幡町438）","naisui":"","kazan":""}
 ,
 {"Name":"中島耳鼻咽喉科医院","Jusho":"長野県飯田市高羽町4丁目2番地15","kouzui":"<a href='tel:0265-22-1187'>0265-22-1187</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"耳鼻咽喉科","kaji":"飯田市立病院（長野県飯田市八幡町438）","naisui":"","kazan":""}
 ,
 {"Name":"西澤産婦人科クリニック","Jusho":"長野県飯田市本町4丁目5番地","kouzui":"<a href='tel:0265-24-3800'>0265-24-3800</a>","gake":"<a href='https://nishizawa-hp.jp' target='_blank'>https://nishizawa-hp.jp</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"飯田市立病院（長野県飯田市八幡町438）","naisui":"","kazan":""}
 ,
-{"Name":"のむら内科医院","Jusho":"長野県飯田市上郷飯沼1808-1","kouzui":"<a href='tel:0265-23-7000'>0265-23-7000</a>","gake":"<a href='www.myclinic.ne.jp/nomurahp/pc' target='_blank'>www.myclinic.ne.jp/nomurahp/pc</a>","takashio":"〇","jishin":"〇","tsunami":"内科小児科","kaji":"飯田市立病院（長野県飯田市八幡町438）飯田病院（長野県飯田市大通1-15輝山会記念病院（長野県飯田市毛賀1707）","naisui":"","kazan":""}
+{"Name":"のむら内科医院","Jusho":"長野県飯田市上郷飯沼1808-1","kouzui":"<a href='tel:0265-23-7000'>0265-23-7000</a>","gake":"<a href='http://www.myclinic.ne.jp/nomurahp/pc' target='_blank'>http://www.myclinic.ne.jp/nomurahp/pc</a>","takashio":"〇","jishin":"〇","tsunami":"内科小児科","kaji":"飯田市立病院（長野県飯田市八幡町438）飯田病院（長野県飯田市大通1-15輝山会記念病院（長野県飯田市毛賀1707）","naisui":"","kazan":""}
 ,
 {"Name":"波多野医院","Jusho":"長野県飯田市伝馬町1丁目46番地","kouzui":"<a href='tel:0265-22-0666'>0265-22-0666</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"飯田市立病院（長野県飯田市八幡町438）","naisui":"","kazan":""}
 ,
@@ -474,7 +474,7 @@
 ,
 {"Name":"柿下クリニック","Jusho":"長野県大町市常盤3541番地14","kouzui":"<a href='tel:0261-21-1230'>0261-21-1230</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科小児科","kaji":"市立大町総合病院(長野県大町市大町3130）北アルプス医療センターあづみ病院（長野県北安曇郡池田町池田3207-1","naisui":"","kazan":""}
 ,
-{"Name":"かさぎ皮ふ科","Jusho":"長野県大町市大町3303番地13","kouzui":"<a href='tel:0261-23-7723'>0261-23-7723</a>","gake":"<a href='kasagihihuka.omachi.org/' target='_blank'>kasagihihuka.omachi.org/</a>","takashio":"×","jishin":"△","tsunami":"皮膚科","kaji":"市立大町総合病院(長野県大町市大町3130）北アルプス医療センターあづみ病院（長野県北安曇郡池田町池田3207-1","naisui":"","kazan":""}
+{"Name":"かさぎ皮ふ科","Jusho":"長野県大町市大町3303番地13","kouzui":"<a href='tel:0261-23-7723'>0261-23-7723</a>","gake":"<a href='http://kasagihihuka.omachi.org/' target='_blank'>http://kasagihihuka.omachi.org/</a>","takashio":"×","jishin":"△","tsunami":"皮膚科","kaji":"市立大町総合病院(長野県大町市大町3130）北アルプス医療センターあづみ病院（長野県北安曇郡池田町池田3207-1","naisui":"","kazan":""}
 ,
 {"Name":"永井眼科医院","Jusho":"長野県大町市大町3152番地","kouzui":"<a href='tel:0261-22-1555'>0261-22-1555</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"眼科","kaji":"","naisui":"","kazan":""}
 ,
@@ -520,9 +520,9 @@
 ,
 {"Name":"耳鼻咽喉科吉江医院","Jusho":"長野県塩尻市大門3番町2-10","kouzui":"<a href='tel:0263-52-0978'>0263-52-0978</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"耳鼻咽喉科","kaji":"相澤病院（松本市本庄2-5-1）まつもと医療センター（松本市村井町南2-20-30）","naisui":"","kazan":""}
 ,
-{"Name":"佐久総合病院","Jusho":"長野県佐久市臼田197番地","kouzui":"<a href='tel:0267-82-3131'>0267-82-3131</a>","gake":"<a href='ml' target='_blank'>ml</a>","takashio":"×","jishin":"〇","tsunami":"全科","kaji":"佐久医療センター","naisui":"","kazan":""}
+{"Name":"佐久総合病院","Jusho":"長野県佐久市臼田197番地","kouzui":"<a href='tel:0267-82-3131'>0267-82-3131</a>","gake":"<a href='l' target='_blank'>l</a>","takashio":"×","jishin":"〇","tsunami":"全科","kaji":"佐久医療センター","naisui":"","kazan":""}
 ,
-{"Name":"佐久総合病院佐久医療センター","Jusho":"長野県佐久市中込3400番地28","kouzui":"<a href='tel:0267-62-8181'>0267-62-8181</a>","gake":"<a href='ml' target='_blank'>ml</a>","takashio":"×","jishin":"〇","tsunami":"全科","kaji":"","naisui":"","kazan":""}
+{"Name":"佐久総合病院佐久医療センター","Jusho":"長野県佐久市中込3400番地28","kouzui":"<a href='tel:0267-62-8181'>0267-62-8181</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"全科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"医療法人三世会金澤病","Jusho":"長野県佐久市岩村田804番地","kouzui":"<a href='tel:0267-67-2048'>0267-67-2048</a>","gake":"<a href='http://www.avis.ne.jp/~kanaza/' target='_blank'>http://www.avis.ne.jp/~kanaza/</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"佐久市立国保浅間総合病院(長野県佐久市岩村田1862-1)","naisui":"","kazan":""}
 ,
@@ -594,7 +594,7 @@
 ,
 {"Name":"ふじもり医院","Jusho":"長野県安曇野市豊科5959","kouzui":"<a href='tel:0263-72-2011'>0263-72-2011</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"小児科","kaji":"安曇野赤十字病院（長野県安曇野市豊科5685）長野県立こども病院（長野県安曇野市豊科3100）松本市立病院（長野県松本市波田4417-180）","naisui":"","kazan":""}
 ,
-{"Name":"前角整形外科医院","Jusho":"長野県安曇野市穂高8263-1","kouzui":"<a href='tel:0263-82-1478'>0263-82-1478</a>","gake":"<a href='www.maezumiseikeigeka.com/' target='_blank'>www.maezumiseikeigeka.com/</a>","takashio":"×","jishin":"〇","tsunami":"整形外科リウマチ科","kaji":"","naisui":"","kazan":""}
+{"Name":"前角整形外科医院","Jusho":"長野県安曇野市穂高8263-1","kouzui":"<a href='tel:0263-82-1478'>0263-82-1478</a>","gake":"<a href='http://www.maezumiseikeigeka.com/' target='_blank'>http://www.maezumiseikeigeka.com/</a>","takashio":"×","jishin":"〇","tsunami":"整形外科リウマチ科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"こばやし内科クリニック","Jusho":"長野県安曇野市豊科高家5441-1","kouzui":"<a href='tel:0263-71-1117'>0263-71-1117</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
@@ -608,7 +608,7 @@
 ,
 {"Name":"塔の原内川医院","Jusho":"長野県安曇野市明科中川手2243-2","kouzui":"<a href='tel:0263-81-2121'>0263-81-2121</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科小児科アレルギー科","kaji":"安曇野赤十字病院（長野県安曇野市豊科5685）北アルプス医療センターあづみ病院（長野県北安曇郡池田町3207-1）","naisui":"","kazan":""}
 ,
-{"Name":"佐久総合病院小海分院","Jusho":"長野県南佐久郡小海町豊里78番地","kouzui":"<a href='tel:0267-92-2077'>0267-92-2077</a>","gake":"<a href='ml' target='_blank'>ml</a>","takashio":"×","jishin":"〇","tsunami":"全科","kaji":"佐久医療センター","naisui":"","kazan":""}
+{"Name":"佐久総合病院小海分院","Jusho":"長野県南佐久郡小海町豊里78番地","kouzui":"<a href='tel:0267-92-2077'>0267-92-2077</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"全科","kaji":"佐久医療センター","naisui":"","kazan":""}
 ,
 {"Name":"国民健康保険川上村診療所","Jusho":"長野県南佐久郡川上村原308","kouzui":"<a href='tel:0267-97-3216'>0267-97-3216</a>","gake":"<a href='http://www.vill.kawakami.nagano.jp/www/index.html' target='_blank'>http://www.vill.kawakami.nagano.jp/www/index.html</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"佐久総合病院（長野県佐久市臼田197）佐久総合病院小海分院（長野県南佐久郡小海町大字豊里78）佐久医療センター（長野県佐久市中込3400-29）","naisui":"","kazan":""}
 ,
@@ -704,7 +704,7 @@
 ,
 {"Name":"中塚内科循環器科医院","Jusho":"長野県下伊那郡松川町元大島3775-3","kouzui":"<a href='tel:0265-34-1188'>0265-34-1188</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科小児科循環器内科アレルギー科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"松川町上片桐診療所","Jusho":"長野県下伊那郡松川町上片桐2849-3","kouzui":"<a href='tel:0265-37-2010'>0265-37-2010</a>","gake":"<a href='www.daita.net' target='_blank'>www.daita.net</a>","takashio":"〇","jishin":"×","tsunami":"内科","kaji":"下伊那赤十字病院（長野県松川町元大島3159-1）","naisui":"","kazan":""}
+{"Name":"松川町上片桐診療所","Jusho":"長野県下伊那郡松川町上片桐2849-3","kouzui":"<a href='tel:0265-37-2010'>0265-37-2010</a>","gake":"<a href='http://www.daita.net' target='_blank'>http://www.daita.net</a>","takashio":"〇","jishin":"×","tsunami":"内科","kaji":"下伊那赤十字病院（長野県松川町元大島3159-1）","naisui":"","kazan":""}
 ,
 {"Name":"ＪＡ長野厚生連下伊那厚生病院","Jusho":"長野県下伊那郡高森町吉田481番地13","kouzui":"<a href='tel:0265-35-7511'>0265-35-7511</a>","gake":"<a href='http://shimoina-hp.jp' target='_blank'>http://shimoina-hp.jp</a>","takashio":"×","jishin":"〇","tsunami":"内科皮膚科耳鼻咽喉科泌尿器科婦人科","kaji":"-","naisui":"","kazan":""}
 ,
@@ -724,13 +724,13 @@
 ,
 {"Name":"阿智村清内路診療所","Jusho":"長野県下伊那郡阿智村清内路90-1","kouzui":"<a href='tel:0265-46-2114'>0265-46-2114</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科小児科","kaji":"飯田市立病院（長野県飯田市八幡町438）飯田病院（長野県飯田市大通1-15）健和会病院（長野県飯田市鼎中平1936）","naisui":"","kazan":""}
 ,
-{"Name":"飯田病院附属阿智診療所","Jusho":"長野県下伊那郡阿智村駒場465","kouzui":"<a href='tel:0265-43-4180'>0265-43-4180</a>","gake":"<a href='www.iida.or.jp/' target='_blank'>www.iida.or.jp/</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"飯田病院（長野県飯田市大通1-15）","naisui":"","kazan":""}
+{"Name":"飯田病院附属阿智診療所","Jusho":"長野県下伊那郡阿智村駒場465","kouzui":"<a href='tel:0265-43-4180'>0265-43-4180</a>","gake":"<a href='http://www.iida.or.jp/' target='_blank'>http://www.iida.or.jp/</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"飯田病院（長野県飯田市大通1-15）","naisui":"","kazan":""}
 ,
 {"Name":"下條診療所","Jusho":"長野県下伊那郡下條村陽皐1番地","kouzui":"<a href='tel:0260-27-1191'>0260-27-1191</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科外科","kaji":"輝山会記念病院（長野県飯田市毛賀1707）","naisui":"","kazan":""}
 ,
 {"Name":"売木村国保直営診療所","Jusho":"長野県下伊那郡売木村695","kouzui":"<a href='tel:0260-28-2014'>0260-28-2014</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"長野県立阿南病院（長野県下伊那郡阿南町條2009-1）飯田市立病院（長野県飯田市八幡町438）","naisui":"","kazan":""}
 ,
-{"Name":"泰阜村診療所","Jusho":"長野県下伊那郡泰阜村3256-1","kouzui":"<a href='tel:0260-26-2003'>0260-26-2003</a>","gake":"<a href='vill.yasuoka.nagano.jp/' target='_blank'>vill.yasuoka.nagano.jp/</a>","takashio":"×","jishin":"〇","tsunami":"内科外科","kaji":"","naisui":"","kazan":""}
+{"Name":"泰阜村診療所","Jusho":"長野県下伊那郡泰阜村3256-1","kouzui":"<a href='tel:0260-26-2003'>0260-26-2003</a>","gake":"<a href='http://vill.yasuoka.nagano.jp/' target='_blank'>http://vill.yasuoka.nagano.jp/</a>","takashio":"×","jishin":"〇","tsunami":"内科外科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"木下医院","Jusho":"長野県下伊那郡喬木村3255","kouzui":"<a href='tel:0265-33-2023'>0265-33-2023</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"外科内科","kaji":"飯田市立病院（長野県飯田市八幡町438）","naisui":"","kazan":""}
 ,

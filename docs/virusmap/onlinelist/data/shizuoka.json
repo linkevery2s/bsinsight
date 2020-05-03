@@ -304,11 +304,11 @@
 ,
 {"Name":"富士いきいき病院","Jusho":"静岡県富士市天間1640-1","kouzui":"<a href='tel:（代）0545-73-1919（内科）0545-73-1918'>（代）0545-73-1919（内科）0545-73-1918</a>","gake":"<a href='https://www.iki-iki-hp.com/' target='_blank'>https://www.iki-iki-hp.com/</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"当院対応","naisui":"","kazan":""}
 ,
-{"Name":"磐田在宅医療クリニック","Jusho":"静岡県磐田市見付1752-5","kouzui":"<a href='tel:0538-31-3904'>0538-31-3904</a>","gake":"<a href='www.iwata-zaitaku.com' target='_blank'>www.iwata-zaitaku.com</a>","takashio":"〇","jishin":"〇","tsunami":"全科","kaji":"基本的に自院にて対応","naisui":"","kazan":""}
+{"Name":"磐田在宅医療クリニック","Jusho":"静岡県磐田市見付1752-5","kouzui":"<a href='tel:0538-31-3904'>0538-31-3904</a>","gake":"<a href='http://www.iwata-zaitaku.com' target='_blank'>http://www.iwata-zaitaku.com</a>","takashio":"〇","jishin":"〇","tsunami":"全科","kaji":"基本的に自院にて対応","naisui":"","kazan":""}
 ,
 {"Name":"耳鼻咽喉科・気管食道科山下医院","Jusho":"静岡県磐田市二之宮東19-6","kouzui":"<a href='tel:0538-34-3387'>0538-34-3387</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"耳鼻咽喉科","kaji":"磐田市立総合病院","naisui":"","kazan":""}
 ,
-{"Name":"ハートセンター磐田","Jusho":"静岡県磐田市見付1819-91","kouzui":"<a href='tel:0538-39-1111'>0538-39-1111</a>","gake":"<a href='www.heartcenter-iwata.com' target='_blank'>www.heartcenter-iwata.com</a>","takashio":"×","jishin":"〇","tsunami":"内科循環器内科","kaji":"","naisui":"","kazan":""}
+{"Name":"ハートセンター磐田","Jusho":"静岡県磐田市見付1819-91","kouzui":"<a href='tel:0538-39-1111'>0538-39-1111</a>","gake":"<a href='http://www.heartcenter-iwata.com' target='_blank'>http://www.heartcenter-iwata.com</a>","takashio":"×","jishin":"〇","tsunami":"内科循環器内科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"ふたばクリニック","Jusho":"静岡県磐田市新貝2122-2","kouzui":"<a href='tel:0538-21-0077'>0538-21-0077</a>","gake":"<a href='https://futaba-clinic.jp/' target='_blank'>https://futaba-clinic.jp/</a>","takashio":"〇","jishin":"〇","tsunami":"内科リウマチ科","kaji":"なし（当院を対面受診すること）","naisui":"","kazan":""}
 ,
@@ -324,7 +324,7 @@
 ,
 {"Name":"岡田医院","Jusho":"静岡県掛川市天王町50","kouzui":"<a href='tel:0537-24-1261'>0537-24-1261</a>","gake":"<a href='https://okadaiin.net/' target='_blank'>https://okadaiin.net/</a>","takashio":"〇","jishin":"〇","tsunami":"内科外科消化器内科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"おの耳鼻咽喉科","Jusho":"静岡県掛川市宮脇2-11-8","kouzui":"<a href='tel:0537-21-3311'>0537-21-3311</a>","gake":"<a href='www.onojibi.jp' target='_blank'>www.onojibi.jp</a>","takashio":"〇","jishin":"〇","tsunami":"耳鼻咽喉科","kaji":"中東遠総合医療センター（静岡県掛川市菖蒲ヶ池1-1）","naisui":"","kazan":""}
+{"Name":"おの耳鼻咽喉科","Jusho":"静岡県掛川市宮脇2-11-8","kouzui":"<a href='tel:0537-21-3311'>0537-21-3311</a>","gake":"<a href='http://www.onojibi.jp' target='_blank'>http://www.onojibi.jp</a>","takashio":"〇","jishin":"〇","tsunami":"耳鼻咽喉科","kaji":"中東遠総合医療センター（静岡県掛川市菖蒲ヶ池1-1）","naisui":"","kazan":""}
 ,
 {"Name":"掛川市・袋井市病院企業団立中東遠総合医療センター","Jusho":"静岡県掛川市菖蒲ケ池1番地の1","kouzui":"<a href='tel:0537-21-5555'>0537-21-5555</a>","gake":"<a href='https://www.chutoen-hp.shizuoka.jp/' target='_blank'>https://www.chutoen-hp.shizuoka.jp/</a>","takashio":"×","jishin":"〇","tsunami":"総合内科糖尿病・内分泌内科腎臓内科血液・腫瘍内科脳神経内科呼吸器内科消化器内科循環器内科外科消化器外科血管外科乳腺外科小児外科呼吸器外科整形外科リウマチ科脳神経外科小児科産婦人科泌尿器科皮膚科眼科耳鼻いんこう科麻酔科歯科口腔外科救急科","kaji":"特になし","naisui":"","kazan":""}
 ,
@@ -354,7 +354,7 @@
 ,
 {"Name":"阿部医院","Jusho":"静岡県御前崎市池新田3543","kouzui":"<a href='tel:0537-86-7001'>0537-86-7001</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科小児科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"おまえざき痛みのクリニック","Jusho":"静岡県御前崎市池新田2446-1","kouzui":"<a href='tel:0537-29-7341'>0537-29-7341</a>","gake":"<a href='www.omaezaki-pc.net' target='_blank'>www.omaezaki-pc.net</a>","takashio":"〇","jishin":"〇","tsunami":"ペインクリニック外科","kaji":"","naisui":"","kazan":""}
+{"Name":"おまえざき痛みのクリニック","Jusho":"静岡県御前崎市池新田2446-1","kouzui":"<a href='tel:0537-29-7341'>0537-29-7341</a>","gake":"<a href='http://www.omaezaki-pc.net' target='_blank'>http://www.omaezaki-pc.net</a>","takashio":"〇","jishin":"〇","tsunami":"ペインクリニック外科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"篠原医院","Jusho":"静岡県菊川市下平川1508","kouzui":"<a href='tel:0537-73-3555'>0537-73-3555</a>","gake":"<a href='http://scl.mdja.jp' target='_blank'>http://scl.mdja.jp</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"中東遠総合医療センター（静岡県掛川市菖蒲ヶ池1-1）菊川市立総合病院（静岡県菊川市東横地1632）市立御前崎総合病院（静岡県御前崎市池新田2060）","naisui":"","kazan":""}
 ,
