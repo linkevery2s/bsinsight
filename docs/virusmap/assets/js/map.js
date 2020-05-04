@@ -2,6 +2,8 @@ var map;var zoom;var url;var todou; var ido; var keido;
 var bed = new Array(47); var syoki = new Array(47); var x = new Array(47); var y = new Array(47); var mitudo = new Array(47); var mitudo_total = new Array(47);  var density = new Array(47);
 var multi = new Array(47); var lastupdate;var multi_n = new Array(47); online_pref = new Array(47);
 var yousei = new Array(47); var taiin = new Array(47); var ncurrent = new Array(47); death = new Array(47);
+var soku_yousei = new Array(47); var soku_taiin = new Array(47); var soku_ncurrent = new Array(47); soku_death = new Array(47);
+var j;
 
 /* 病床数 */
 /* 北海道 */ bed[0] = "530";
@@ -16,7 +18,7 @@ var yousei = new Array(47); var taiin = new Array(47); var ncurrent = new Array(
 /* 群馬県 */ bed[9] = "350";
 /* 埼玉県 */ bed[10] = "562";
 /* 千葉県 */ bed[11] = "773";
-/* 東京都 */ bed[12] = "3307";
+/* 東京都 */ bed[12] = "2865";
 /* 神奈川 */ bed[13] = "3294";
 /* 新潟県 */ bed[14] = "250";
 /* 富山県 */ bed[15] = "200";
@@ -54,8 +56,25 @@ var yousei = new Array(47); var taiin = new Array(47); var ncurrent = new Array(
 
 function get_kansen(){
 
+	/* 速報 */
+	var xhr2 = new XMLHttpRequest();
+	var url2 = "https://www.stopcovid19.jp/data/covid19japan-fast.json";
+	xhr2.open('GET', url2);
+	xhr2.send(null);
+	xhr2.onreadystatechange = function(){
+		if (xhr2.readyState === 4 && xhr2.status === 200){
+			var json_data2 = eval( '('+xhr2.responseText +')');
 
+		}else{}
+		
+			for ( j = 0;  j < 17;  j++){
+				soku_yousei[j] = json_data2[j].npatients;
+				soku_taiin[j] = json_data2[j].nexits;
+				soku_ncurrent[j] = json_data2[j].ncurrentpatients;
+				soku_death[j] = json_data2[j].ndeaths;
+			}
 
+	/* 厚労省データ */
 	var xhr = new XMLHttpRequest();
 	var url = "https://www.stopcovid19.jp/data/covid19japan.json";
 	xhr.open('GET', url);
@@ -114,13 +133,28 @@ function get_kansen(){
 
 			/* 厚労省データ格納 */
 			for (var i = 0;  i < 47;  i++){
-			yousei[i] = json_data.area[i].npatients;
-			taiin[i] = json_data.area[i].nexits;
-			ncurrent[i] = json_data.area[i].ncurrentpatients;
-			death[i] = json_data.area[i].ndeaths;
+				yousei[i] = json_data.area[i].npatients;
+				taiin[i] = json_data.area[i].nexits;
+				ncurrent[i] = json_data.area[i].ncurrentpatients;
+				death[i] = json_data.area[i].ndeaths;
 			}
 
 			/* 速報上書き */
+			/* 北海道 */
+			yousei[0] = soku_yousei[0];
+			taiin[0] = soku_taiin[0];
+			ncurrent[0] = soku_ncurrent[0];
+			death[0] = soku_death[0];
+			/* 福島県 */
+			yousei[6] = soku_yousei[1];
+			taiin[6] = soku_taiin[1];
+			ncurrent[6] = soku_ncurrent[1];
+			death[6] = soku_death[1];
+			/* 東京都 */
+			yousei[12] = soku_yousei[5];
+			taiin[12] = soku_taiin[5];
+			ncurrent[12] = soku_ncurrent[5];
+			death[12] = soku_death[5];
 
 
 			/* divに掲載 */
@@ -362,7 +396,9 @@ density[46]="1448000";
       var day1 = json_data.lastUpdate.split("-");
       document.getElementById('day_s').innerHTML = "最終更新：" + day1[0] + "." + day1[1] + "." + day1[2];
     }
-  };
+  };/* xhrの末端 */
+
+	};/* xhr2の末端 */
 
 }
 
