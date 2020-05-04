@@ -67,7 +67,7 @@ function get_kansen(){
 
 		}else{}
 		
-			for ( j = 0;  j < 17;  j++){
+			for ( j = 0;  j < 18;  j++){
 				soku_yousei[j] = json_data2[j].npatients;
 				soku_taiin[j] = json_data2[j].nexits;
 				soku_ncurrent[j] = json_data2[j].ncurrentpatients;
@@ -200,6 +200,36 @@ function get_kansen(){
 			taiin[26] = soku_taiin[11];
 			ncurrent[26] = soku_ncurrent[11];
 			death[26] = soku_death[11];
+			/* 兵庫県 */
+			yousei[27] = soku_yousei[12];
+			taiin[27] = soku_taiin[12];
+			ncurrent[27] = soku_ncurrent[12];
+			death[27] = soku_death[12];
+			/* 奈良県 */
+			yousei[28] = soku_yousei[13];
+			taiin[28] = soku_taiin[13];
+			ncurrent[28] = soku_ncurrent[13];
+			death[28] = soku_death[13];
+			/* 和歌山県 */
+			yousei[29] = soku_yousei[14];
+			taiin[29] = soku_taiin[14];
+			ncurrent[29] = soku_ncurrent[14];
+			death[29] = soku_death[14];
+			/* 山口県 */
+			yousei[34] = soku_yousei[15];
+			taiin[34] = soku_taiin[15];
+			ncurrent[34] = soku_ncurrent[15];
+			death[34] = soku_death[15];
+			/* 福岡県 */
+			yousei[39] = soku_yousei[16];
+			taiin[39] = soku_taiin[16];
+			ncurrent[39] = soku_ncurrent[16];
+			death[39] = soku_death[16];
+			/* 熊本県 */
+			yousei[42] = soku_yousei[17];
+			taiin[42] = soku_taiin[17];
+			ncurrent[42] = soku_ncurrent[17];
+			death[42] = soku_death[17];
 
 			/* divに掲載 */
 			for (var i = 0;  i < 47;  i++){
