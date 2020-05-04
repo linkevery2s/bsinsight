@@ -150,12 +150,56 @@ function get_kansen(){
 			taiin[6] = soku_taiin[1];
 			ncurrent[6] = soku_ncurrent[1];
 			death[6] = soku_death[1];
+			/* 群馬県 */
+			yousei[9] = soku_yousei[2];
+			taiin[9] = soku_taiin[2];
+			ncurrent[9] = soku_ncurrent[2];
+			death[9] = soku_death[2];
+			/* 埼玉県 */
+			yousei[10] = soku_yousei[3];
+			taiin[10] = soku_taiin[3];
+			ncurrent[10] = soku_ncurrent[3];
+			death[10] = soku_death[3];
+			/* 千葉県 */
+			yousei[11] = soku_yousei[4];
+			taiin[11] = soku_taiin[4];
+			ncurrent[11] = soku_ncurrent[4];
+			death[11] = soku_death[4];
 			/* 東京都 */
 			yousei[12] = soku_yousei[5];
 			taiin[12] = soku_taiin[5];
 			ncurrent[12] = soku_ncurrent[5];
 			death[12] = soku_death[5];
-
+			/* 富山県 */
+			yousei[15] = soku_yousei[6];
+			taiin[15] = soku_taiin[6];
+			ncurrent[15] = soku_ncurrent[6];
+			death[15] = soku_death[6];
+			/* 福井県 */
+			yousei[17] = soku_yousei[7];
+			taiin[17] = soku_taiin[7];
+			ncurrent[17] = soku_ncurrent[7];
+			death[17] = soku_death[7];
+			/* 長野県 */
+			yousei[19] = soku_yousei[8];
+			taiin[19] = soku_taiin[8];
+			ncurrent[19] = soku_ncurrent[8];
+			death[19] = soku_death[8];
+			/* 岐阜県 */
+			yousei[20] = soku_yousei[9];
+			taiin[20] = soku_taiin[9];
+			ncurrent[20] = soku_ncurrent[9];
+			death[20] = soku_death[9];
+			/* 静岡県 */
+			yousei[21] = soku_yousei[10];
+			taiin[21] = soku_taiin[10];
+			ncurrent[21] = soku_ncurrent[10];
+			death[21] = soku_death[10];
+			/* 大阪府 */
+			yousei[26] = soku_yousei[11];
+			taiin[26] = soku_taiin[11];
+			ncurrent[26] = soku_ncurrent[11];
+			death[26] = soku_death[11];
 
 			/* divに掲載 */
 			for (var i = 0;  i < 47;  i++){
