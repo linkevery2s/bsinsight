@@ -20,7 +20,6 @@ ul.jp_map {
       font-size: 0.5rem;
       border: solid rgba(27, 31, 34, 0.85) 1px;
       box-sizing: border-box;
-padding: 0;
     }
     
     .jp_map li:nth-child(1) {
