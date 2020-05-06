@@ -16,7 +16,6 @@ ul.jp_map {
     .jp_map li {
       width: 7%;
       height: 10%;
-padding-top:1px;
       background-color: #088A29;
       font-size: 0.5rem;
       border: solid rgba(27, 31, 34, 0.85) 1px;
@@ -28,7 +27,7 @@ padding-top:1px;
       top: 0;
       left: 85%;
       width: 15%;
-height: 9%;
+      height: 9%;
     }
     
     .jp_map li:nth-child(2) {
