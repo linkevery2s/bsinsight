@@ -16,7 +16,7 @@ ul.jp_map {
     .jp_map li {
       width: 7%;
       height: 10%;
-line-height: 8%;
+line-height: 10%;
       background-color: #088A29;
       font-size: 0.5rem;
       border: solid rgba(27, 31, 34, 0.85) 1px;
