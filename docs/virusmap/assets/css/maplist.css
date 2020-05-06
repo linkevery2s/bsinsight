@@ -17,10 +17,10 @@ ul.jp_map {
       width: 7%;
       height: 10%;
       background-color: #088A29;
-      font-size: 0.4rem;
+      font-size: 0.5rem;
       border: solid rgba(27, 31, 34, 0.85) 1px;
       box-sizing: border-box;
-padding-top: 0;
+padding-top: 0 !important;
     }
     
     .jp_map li:nth-child(1) {
