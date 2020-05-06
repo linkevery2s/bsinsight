@@ -55,6 +55,11 @@ html,body{
 	text-align: right;
 }
 
+#ji_day{
+	width: 100%;
+	display: none;
+}
+
 /* 人数 */
 #count_c{
 	color: #0000ff;
@@ -262,3 +267,10 @@ h3.ti::before {
   border-radius: 10px;
 }
 
+#jititai{
+	padding: 2px 5px 2px 5px;
+	border-radius: 5px;
+	cursor: pointer;
+	color: #fff;
+	background-color: rgba(73, 191, 157, 1.0);
+}

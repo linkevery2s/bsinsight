@@ -2,7 +2,7 @@ var map;var zoom;var url;var todou; var ido; var keido;
 var bed = new Array(47); var syoki = new Array(47); var x = new Array(47); var y = new Array(47); var mitudo = new Array(47); var mitudo_total = new Array(47);  var density = new Array(47);
 var multi = new Array(47); var lastupdate;var multi_n = new Array(47); online_pref = new Array(47);
 var yousei = new Array(47); var taiin = new Array(47); var ncurrent = new Array(47); death = new Array(47);
-var soku_yousei = new Array(47); var soku_taiin = new Array(47); var soku_ncurrent = new Array(47); soku_death = new Array(47);
+var soku_yousei = new Array(47); var soku_taiin = new Array(47); var soku_ncurrent = new Array(47); soku_death = new Array(47); var soku_update = new Array(47); var ji_update;
 var j;
 
 /* 病床数 */
@@ -72,6 +72,7 @@ function get_kansen(){
 				soku_taiin[j] = json_data2[j].nexits;
 				soku_ncurrent[j] = json_data2[j].ncurrentpatients;
 				soku_death[j] = json_data2[j].ndeaths;
+				soku_update[j] = json_data2[j].lastUpdate.split("-");
 			}
 
 	/* 厚労省データ */
@@ -145,91 +146,109 @@ function get_kansen(){
 			taiin[0] = soku_taiin[0];
 			ncurrent[0] = soku_ncurrent[0];
 			death[0] = soku_death[0];
+			ji_update = "北海道：" + soku_update[0][0] +"."+soku_update[0][1]+"."+soku_update[0][2];
 			/* 福島県 */
 			yousei[6] = soku_yousei[1];
 			taiin[6] = soku_taiin[1];
 			ncurrent[6] = soku_ncurrent[1];
 			death[6] = soku_death[1];
+			ji_update += "<br>福島県：" + soku_update[1][0] +"."+soku_update[1][1]+"."+soku_update[1][2];
 			/* 群馬県 */
 			yousei[9] = soku_yousei[2];
 			taiin[9] = soku_taiin[2];
 			ncurrent[9] = soku_ncurrent[2];
 			death[9] = soku_death[2];
+			ji_update += "<br>群馬県：" + soku_update[2][0] +"."+soku_update[2][1]+"."+soku_update[2][2];
 			/* 埼玉県 */
 			yousei[10] = soku_yousei[3];
 			taiin[10] = soku_taiin[3];
 			ncurrent[10] = soku_ncurrent[3];
 			death[10] = soku_death[3];
+			ji_update += "<br>埼玉県：" + soku_update[3][0] +"."+soku_update[3][1]+"."+soku_update[3][2];
 			/* 千葉県 */
 			yousei[11] = soku_yousei[4];
 			taiin[11] = soku_taiin[4];
 			ncurrent[11] = soku_ncurrent[4];
 			death[11] = soku_death[4];
+			ji_update += "<br>千葉県：" + soku_update[4][0] +"."+soku_update[4][1]+"."+soku_update[4][2];
 			/* 東京都 */
 			yousei[12] = soku_yousei[5];
 			taiin[12] = soku_taiin[5];
 			ncurrent[12] = soku_ncurrent[5];
 			death[12] = soku_death[5];
+			ji_update += "<br>東京都：" + soku_update[5][0] +"."+soku_update[5][1]+"."+soku_update[5][2];
 			/* 富山県 */
 			yousei[15] = soku_yousei[6];
 			taiin[15] = soku_taiin[6];
 			ncurrent[15] = soku_ncurrent[6];
 			death[15] = soku_death[6];
+			ji_update += "<br>富山県：" + soku_update[6][0] +"."+soku_update[6][1]+"."+soku_update[6][2];
 			/* 福井県 */
 			yousei[17] = soku_yousei[7];
 			taiin[17] = soku_taiin[7];
 			ncurrent[17] = soku_ncurrent[7];
 			death[17] = soku_death[7];
+			ji_update += "<br>福井県：" + soku_update[7][0] +"."+soku_update[7][1]+"."+soku_update[7][2];
 			/* 長野県 */
 			yousei[19] = soku_yousei[8];
 			taiin[19] = soku_taiin[8];
 			ncurrent[19] = soku_ncurrent[8];
 			death[19] = soku_death[8];
+			ji_update += "<br>長野県：" + soku_update[8][0] +"."+soku_update[8][1]+"."+soku_update[8][2];
 			/* 岐阜県 */
 			yousei[20] = soku_yousei[9];
 			taiin[20] = soku_taiin[9];
 			ncurrent[20] = soku_ncurrent[9];
 			death[20] = soku_death[9];
+			ji_update += "<br>岐阜県：" + soku_update[9][0] +"."+soku_update[9][1]+"."+soku_update[9][2];
 			/* 静岡県 */
 			yousei[21] = soku_yousei[10];
 			taiin[21] = soku_taiin[10];
 			ncurrent[21] = soku_ncurrent[10];
 			death[21] = soku_death[10];
+			ji_update += "<br>静岡県：" + soku_update[10][0] +"."+soku_update[10][1]+"."+soku_update[10][2];
 			/* 大阪府 */
 			yousei[26] = soku_yousei[11];
 			taiin[26] = soku_taiin[11];
 			ncurrent[26] = soku_ncurrent[11];
 			death[26] = soku_death[11];
+			ji_update += "<br>大阪府：" + soku_update[11][0] +"."+soku_update[11][1]+"."+soku_update[11][2];
 			/* 兵庫県 */
 			yousei[27] = soku_yousei[12];
 			taiin[27] = soku_taiin[12];
 			ncurrent[27] = soku_ncurrent[12];
 			death[27] = soku_death[12];
+			ji_update += "<br>兵庫県：" + soku_update[12][0] +"."+soku_update[12][1]+"."+soku_update[12][2];
 			/* 奈良県 */
 			yousei[28] = soku_yousei[13];
 			taiin[28] = soku_taiin[13];
 			ncurrent[28] = soku_ncurrent[13];
 			death[28] = soku_death[13];
+			ji_update += "<br>奈良県：" + soku_update[13][0] +"."+soku_update[13][1]+"."+soku_update[13][2];
 			/* 和歌山県 */
 			yousei[29] = soku_yousei[14];
 			taiin[29] = soku_taiin[14];
 			ncurrent[29] = soku_ncurrent[14];
 			death[29] = soku_death[14];
+			ji_update += "<br>和歌山県：" + soku_update[14][0] +"."+soku_update[14][1]+"."+soku_update[14][2];
 			/* 山口県 */
 			yousei[34] = soku_yousei[15];
 			taiin[34] = soku_taiin[15];
 			ncurrent[34] = soku_ncurrent[15];
 			death[34] = soku_death[15];
+			ji_update += "<br>山口県：" + soku_update[15][0] +"."+soku_update[15][1]+"."+soku_update[15][2];
 			/* 福岡県 */
 			yousei[39] = soku_yousei[16];
 			taiin[39] = soku_taiin[16];
 			ncurrent[39] = soku_ncurrent[16];
 			death[39] = soku_death[16];
+			ji_update += "<br>福岡県：" + soku_update[16][0] +"."+soku_update[16][1]+"."+soku_update[16][2];
 			/* 熊本県 */
 			yousei[42] = soku_yousei[17];
 			taiin[42] = soku_taiin[17];
 			ncurrent[42] = soku_ncurrent[17];
 			death[42] = soku_death[17];
+			ji_update += "<br>熊本県：" + soku_update[17][0] +"."+soku_update[17][1]+"."+soku_update[17][2];
 
 			/* divに掲載 */
 			for (var i = 0;  i < 47;  i++){
@@ -468,7 +487,11 @@ density[46]="1448000";
 
 
       var day1 = json_data.lastUpdate.split("-");
-      document.getElementById('day_s').innerHTML = "最終更新：" + day1[0] + "." + day1[1] + "." + day1[2];
+      document.getElementById('day').innerHTML = "厚生労働省：" + day1[0] + "." + day1[1] + "." + day1[2];
+      
+      document.getElementById('ji_day').innerHTML = ji_update;
+      
+
     }
   };/* xhrの末端 */
 
@@ -529,56 +552,6 @@ function func3(){
 	$("#density").show();
 }
 
-/* 自治体のオープンデータ 
-function get_Municipalities(){
-
-	var xhr = new XMLHttpRequest();
-	xhr.onreadystatechange = function(){
-		if (xhr.readyState === 4 && xhr.status === 200){
-			var json_data = eval( '('+xhr.responseText +')');
-
-			multi[0] = "北海道<br>陽性者：" + json_data[0].npatients;
-			multi[0] += "<br>退院者：" + json_data[0].nexits;
-			multi[0] += "<br>現患者：" + json_data[0].ncurrentpatients;
-			multi[0] += "<br>死亡者：" + json_data[0].ndeaths;
-			multi_n[0] = json_data[0].ncurrentpatients;
-			
-			multi[17] = "福井県<br>陽性者：" + json_data[1].npatients;
-			multi[17] += "<br>退院者：" + json_data[1].nexits;
-			multi[17] += "<br>現患者：" + json_data[1].ncurrentpatients;
-			multi[17] += "<br>死亡者：" + json_data[1].ndeaths;
-			multi_n[17] = json_data[1].ncurrentpatients;
-			
-			multi[21] = "静岡県<br>陽性者：" + json_data[2].npatients;
-			multi[21] += "<br>退院者：" + json_data[2].nexits;
-			multi[21] += "<br>現患者：" + json_data[2].ncurrentpatients;
-			multi[21] += "<br>死亡者：" + json_data[2].ndeaths;
-			multi_n[21] = json_data[2].ncurrentpatients;
-
-			multi[39] = "福岡県<br>陽性者：" + json_data[3].npatients;
-			multi[39] += "<br>退院者：" + json_data[3].nexits;
-			multi[39] += "<br>現患者：" + json_data[3].ncurrentpatients;
-			multi[39] += "<br>死亡者：" + json_data[3].ndeaths;
-			multi_n[39] = json_data[3].ncurrentpatients;
-
-			multi[12] = "東京都<br>陽性者：" + json_data[4].npatients;
-			multi[12] += "<br>退院者：" + json_data[4].nexits;
-			multi[12] += "<br>現患者：" + json_data[4].ncurrentpatients;
-			multi[12] += "<br>死亡者：" + json_data[4].ndeaths;
-			multi_n[12] = json_data[4].ncurrentpatients;
-
-			lastupdate = "<br>北海道：" + json_data[0].lastUpdate;
-			lastupdate += "<br>福井県：" + json_data[1].lastUpdate;
-			lastupdate += "<br>福岡県：" + json_data[2].lastUpdate;
-			lastupdate += "<br>東京都：" + json_data[3].lastUpdate;
-    	}
-  };
-  var url = "https://www.stopcovid19.jp/data/covid19japan-fast.json";
-  xhr.open('GET', url);
-  xhr.send(null);
-
-}*/
-
 function online(x){
 
 			online_pref[0] = 'hokkaido';
@@ -632,5 +605,11 @@ function online(x){
 document.getElementById('onlinemap').innerHTML = "<h3 class='ti'>地図から探す</h3><iframe src = 'onlinemap/" + online_pref[x -1] + ".html' width='100%' height='450px'>";
 
 document.getElementById('onlinelist').innerHTML = "<br><h3 class='ti'>リストから探す</h3><iframe src = 'onlinelist/" + online_pref[x -1] + ".html' width='100%' height='450px'>";
+
+}
+
+function ji_day(){
+
+	$("#ji_day").slideToggle(500);
 
 }
