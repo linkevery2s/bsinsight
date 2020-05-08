@@ -67,7 +67,7 @@ function get_kansen(){
 
 		}else{}
 		
-			for ( j = 0;  j < 16;  j++){
+			for ( j = 0;  j < 17;  j++){
 				soku_yousei[j] = json_data2[j].npatients;
 				soku_taiin[j] = json_data2[j].nexits;
 				soku_ncurrent[j] = json_data2[j].ncurrentpatients;
@@ -219,36 +219,36 @@ function get_kansen(){
 			ncurrent[27] = soku_ncurrent[11];
 			death[27] = soku_death[11];
 			ji_update += "<br>兵庫県：" + soku_update[11][0] +"."+soku_update[11][1]+"."+soku_update[11][2];
-			/* 奈良県
-			yousei[28] = soku_yousei[13];
-			taiin[28] = soku_taiin[13];
-			ncurrent[28] = soku_ncurrent[13];
-			death[28] = soku_death[13];
-			ji_update += "<br>奈良県：" + soku_update[13][0] +"."+soku_update[13][1]+"."+soku_update[13][2]; */
+			/* 奈良県 */
+			yousei[28] = soku_yousei[12];
+			taiin[28] = soku_taiin[12];
+			ncurrent[28] = soku_ncurrent[12];
+			death[28] = soku_death[12];
+			ji_update += "<br>奈良県：" + soku_update[12][0] +"."+soku_update[12][1]+"."+soku_update[12][2];
 			/* 和歌山県 */
-			yousei[29] = soku_yousei[12];
-			taiin[29] = soku_taiin[12];
-			ncurrent[29] = soku_ncurrent[12];
-			death[29] = soku_death[12];
-			ji_update += "<br>和歌山県：" + soku_update[12][0] +"."+soku_update[12][1]+"."+soku_update[12][2];
+			yousei[29] = soku_yousei[13];
+			taiin[29] = soku_taiin[13];
+			ncurrent[29] = soku_ncurrent[13];
+			death[29] = soku_death[13];
+			ji_update += "<br>和歌山県：" + soku_update[13][0] +"."+soku_update[13][1]+"."+soku_update[13][2];
 			/* 山口県 */
-			yousei[34] = soku_yousei[13];
-			taiin[34] = soku_taiin[13];
-			ncurrent[34] = soku_ncurrent[13];
-			death[34] = soku_death[13];
-			ji_update += "<br>山口県：" + soku_update[13][0] +"."+soku_update[13][1]+"."+soku_update[13][2];
+			yousei[34] = soku_yousei[14];
+			taiin[34] = soku_taiin[14];
+			ncurrent[34] = soku_ncurrent[14];
+			death[34] = soku_death[14];
+			ji_update += "<br>山口県：" + soku_update[14][0] +"."+soku_update[14][1]+"."+soku_update[14][2];
 			/* 福岡県 */
-			yousei[39] = soku_yousei[14];
-			taiin[39] = soku_taiin[14];
-			ncurrent[39] = soku_ncurrent[14];
-			death[39] = soku_death[14];
-			ji_update += "<br>福岡県：" + soku_update[14][0] +"."+soku_update[14][1]+"."+soku_update[14][2];
+			yousei[39] = soku_yousei[15];
+			taiin[39] = soku_taiin[15];
+			ncurrent[39] = soku_ncurrent[15];
+			death[39] = soku_death[15];
+			ji_update += "<br>福岡県：" + soku_update[15][0] +"."+soku_update[15][1]+"."+soku_update[15][2];
 			/* 熊本県 */
-			yousei[42] = soku_yousei[15];
-			taiin[42] = soku_taiin[15];
-			ncurrent[42] = soku_ncurrent[15];
-			death[42] = soku_death[15];
-			ji_update += "<br>熊本県：" + soku_update[15][0] +"."+soku_update[15][1]+"."+soku_update[15][2];
+			yousei[42] = soku_yousei[16];
+			taiin[42] = soku_taiin[16];
+			ncurrent[42] = soku_ncurrent[16];
+			death[42] = soku_death[16];
+			ji_update += "<br>熊本県：" + soku_update[16][0] +"."+soku_update[16][1]+"."+soku_update[16][2];
 
 			/* divに掲載 */
 			for (var i = 0;  i < 47;  i++){
