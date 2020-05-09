@@ -282,7 +282,7 @@ function get_kansen(){
 			}
 			
 			/* 山口県 */
-			else if( soku_name[j] == "Ymaguchi" ){
+			else if( soku_name[j] == "Yamaguchi" ){
 			yousei[34] = soku_yousei[j];
 			taiin[34] = soku_taiin[j];
 			ncurrent[34] = soku_ncurrent[j];
