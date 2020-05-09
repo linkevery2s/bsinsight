@@ -2,8 +2,8 @@ var map;var zoom;var url;var todou; var ido; var keido;
 var bed = new Array(47); var syoki = new Array(47); var x = new Array(47); var y = new Array(47); var mitudo = new Array(47); var mitudo_total = new Array(47);  var density = new Array(47);
 var multi = new Array(47); var lastupdate;var multi_n = new Array(47); online_pref = new Array(47);
 var yousei = new Array(47); var taiin = new Array(47); var ncurrent = new Array(47); death = new Array(47);
-var soku_yousei = new Array(47); var soku_taiin = new Array(47); var soku_ncurrent = new Array(47); soku_death = new Array(47); var soku_update = new Array(47); var ji_update;
-var j;
+var soku_yousei = new Array(47); var soku_taiin = new Array(47); var soku_ncurrent = new Array(47); soku_death = new Array(47); var soku_update = new Array(47); var soku_name = new Array(47); var ji_update;
+var j; var sokuho;
 
 /* 病床数 */
 /* 北海道 */ bed[0] = "530";
@@ -54,6 +54,9 @@ var j;
 /* 鹿児島 */ bed[45] = "233";
 /* 沖縄県 */ bed[46] = "286";
 
+/* 速報の都道府県の数 */
+sokuho = "17";
+
 function get_kansen(){
 
 	/* 速報 */
@@ -67,7 +70,8 @@ function get_kansen(){
 
 		}else{}
 		
-			for ( j = 0;  j < 17;  j++){
+			for ( j = 0;  j < sokuho;  j++){
+				soku_name[j] = json_data2[j].name;
 				soku_yousei[j] = json_data2[j].npatients;
 				soku_taiin[j] = json_data2[j].nexits;
 				soku_ncurrent[j] = json_data2[j].ncurrentpatients;
@@ -141,115 +145,172 @@ function get_kansen(){
 			}
 
 			/* 速報上書き */
+			for ( j = 0 ; j < sokuho ; j++){
 			/* 北海道 */
-			yousei[0] = soku_yousei[0];
-			taiin[0] = soku_taiin[0];
-			ncurrent[0] = soku_ncurrent[0];
-			death[0] = soku_death[0];
-			ji_update = "北海道：" + soku_update[0][0] +"."+soku_update[0][1]+"."+soku_update[0][2];
+			if( soku_name[j] == "Hokkaido" ){
+			yousei[0] = soku_yousei[j];
+			taiin[0] = soku_taiin[j];
+			ncurrent[0] = soku_ncurrent[j];
+			death[0] = soku_death[j];
+			ji_update = "北海道：" + soku_update[j][0] +"."+soku_update[j][1]+"."+soku_update[j][2];
+			}
+			
 			/* 福島県 */
-			yousei[6] = soku_yousei[1];
-			taiin[6] = soku_taiin[1];
-			ncurrent[6] = soku_ncurrent[1];
-			death[6] = soku_death[1];
-			ji_update += "<br>福島県：" + soku_update[1][0] +"."+soku_update[1][1]+"."+soku_update[1][2];
-			/* 群馬県
-			yousei[9] = soku_yousei[2];
-			taiin[9] = soku_taiin[2];
-			ncurrent[9] = soku_ncurrent[2];
-			death[9] = soku_death[2];
-			ji_update += "<br>群馬県：" + soku_update[2][0] +"."+soku_update[2][1]+"."+soku_update[2][2]; */
-			/* 埼玉県 */
-			yousei[10] = soku_yousei[2];
-			taiin[10] = soku_taiin[2];
-			ncurrent[10] = soku_ncurrent[2];
-			death[10] = soku_death[2];
-			ji_update += "<br>埼玉県：" + soku_update[2][0] +"."+soku_update[2][1]+"."+soku_update[2][2];
-			/* 千葉県 */
-			yousei[11] = soku_yousei[3];
-			taiin[11] = soku_taiin[3];
-			ncurrent[11] = soku_ncurrent[3];
-			death[11] = soku_death[3];
-			ji_update += "<br>千葉県：" + soku_update[3][0] +"."+soku_update[3][1]+"."+soku_update[3][2];
-			/* 東京都 */
-			yousei[12] = soku_yousei[4];
-			taiin[12] = soku_taiin[4];
-			ncurrent[12] = soku_ncurrent[4];
-			death[12] = soku_death[4];
-			ji_update += "<br>東京都：" + soku_update[4][0] +"."+soku_update[4][1]+"."+soku_update[4][2];
-			/* 富山県 */
-			yousei[15] = soku_yousei[5];
-			taiin[15] = soku_taiin[5];
-			ncurrent[15] = soku_ncurrent[5];
-			death[15] = soku_death[5];
-			ji_update += "<br>富山県：" + soku_update[5][0] +"."+soku_update[5][1]+"."+soku_update[5][2];
-			/* 福井県 */
-			yousei[17] = soku_yousei[6];
-			taiin[17] = soku_taiin[6];
-			ncurrent[17] = soku_ncurrent[6];
-			death[17] = soku_death[6];
-			ji_update += "<br>福井県：" + soku_update[6][0] +"."+soku_update[6][1]+"."+soku_update[6][2];
-			/* 長野県 */
-			yousei[19] = soku_yousei[7];
-			taiin[19] = soku_taiin[7];
-			ncurrent[19] = soku_ncurrent[7];
-			death[19] = soku_death[7];
-			ji_update += "<br>長野県：" + soku_update[7][0] +"."+soku_update[7][1]+"."+soku_update[7][2];
-			/* 岐阜県 */
-			yousei[20] = soku_yousei[8];
-			taiin[20] = soku_taiin[8];
-			ncurrent[20] = soku_ncurrent[8];
-			death[20] = soku_death[8];
-			ji_update += "<br>岐阜県：" + soku_update[8][0] +"."+soku_update[8][1]+"."+soku_update[8][2];
-			/* 静岡県 */
-			yousei[21] = soku_yousei[9];
-			taiin[21] = soku_taiin[9];
-			ncurrent[21] = soku_ncurrent[9];
-			death[21] = soku_death[9];
-			ji_update += "<br>静岡県：" + soku_update[9][0] +"."+soku_update[9][1]+"."+soku_update[9][2];
-			/* 大阪府 */
-			yousei[26] = soku_yousei[10];
-			taiin[26] = soku_taiin[10];
-			ncurrent[26] = soku_ncurrent[10];
-			death[26] = soku_death[10];
-			ji_update += "<br>大阪府：" + soku_update[10][0] +"."+soku_update[10][1]+"."+soku_update[10][2];
-			/* 兵庫県 */
-			yousei[27] = soku_yousei[11];
-			taiin[27] = soku_taiin[11];
-			ncurrent[27] = soku_ncurrent[11];
-			death[27] = soku_death[11];
-			ji_update += "<br>兵庫県：" + soku_update[11][0] +"."+soku_update[11][1]+"."+soku_update[11][2];
-			/* 奈良県 */
-			yousei[28] = soku_yousei[12];
-			taiin[28] = soku_taiin[12];
-			ncurrent[28] = soku_ncurrent[12];
-			death[28] = soku_death[12];
-			ji_update += "<br>奈良県：" + soku_update[12][0] +"."+soku_update[12][1]+"."+soku_update[12][2];
-			/* 和歌山県 */
-			yousei[29] = soku_yousei[13];
-			taiin[29] = soku_taiin[13];
-			ncurrent[29] = soku_ncurrent[13];
-			death[29] = soku_death[13];
-			ji_update += "<br>和歌山県：" + soku_update[13][0] +"."+soku_update[13][1]+"."+soku_update[13][2];
-			/* 山口県 */
-			yousei[34] = soku_yousei[14];
-			taiin[34] = soku_taiin[14];
-			ncurrent[34] = soku_ncurrent[14];
-			death[34] = soku_death[14];
-			ji_update += "<br>山口県：" + soku_update[14][0] +"."+soku_update[14][1]+"."+soku_update[14][2];
-			/* 福岡県 */
-			yousei[39] = soku_yousei[15];
-			taiin[39] = soku_taiin[15];
-			ncurrent[39] = soku_ncurrent[15];
-			death[39] = soku_death[15];
-			ji_update += "<br>福岡県：" + soku_update[15][0] +"."+soku_update[15][1]+"."+soku_update[15][2];
-			/* 熊本県 */
-			yousei[42] = soku_yousei[16];
-			taiin[42] = soku_taiin[16];
-			ncurrent[42] = soku_ncurrent[16];
-			death[42] = soku_death[16];
-			ji_update += "<br>熊本県：" + soku_update[16][0] +"."+soku_update[16][1]+"."+soku_update[16][2];
+			else if( soku_name[j] == "Fukushima" ){
+			yousei[6] = soku_yousei[j];
+			taiin[6] = soku_taiin[j];
+			ncurrent[6] = soku_ncurrent[j];
+			death[6] = soku_death[j];
+			ji_update += "<br>福島県：" + soku_update[j][0] +"."+soku_update[j][1]+"."+soku_update[j][2];
+			} 
 
+			/* 群馬県 */
+			else if( soku_name[j] == "Gunma" ){
+			yousei[9] = soku_yousei[j];
+			taiin[9] = soku_taiin[j];
+			ncurrent[9] = soku_ncurrent[j];
+			death[9] = soku_death[j];
+			ji_update += "<br>群馬県：" + soku_update[j][0] +"."+soku_update[j][1]+"."+soku_update[j][2]; 
+			}
+			
+			/* 埼玉県 */
+			else if( soku_name[j] == "Saitama" ){
+			yousei[10] = soku_yousei[j];
+			taiin[10] = soku_taiin[j];
+			ncurrent[10] = soku_ncurrent[j];
+			death[10] = soku_death[j];
+			ji_update += "<br>埼玉県：" + soku_update[j][0] +"."+soku_update[j][1]+"."+soku_update[j][2];
+			}
+
+			/* 千葉県 */
+			else if( soku_name[j] == "Chiba" ){
+			yousei[11] = soku_yousei[j];
+			taiin[11] = soku_taiin[j];
+			ncurrent[11] = soku_ncurrent[j];
+			death[11] = soku_death[j];
+			ji_update += "<br>千葉県：" + soku_update[j][0] +"."+soku_update[j][1]+"."+soku_update[j][2];
+			}
+
+			/* 東京都 */
+			else if( soku_name[j] == "Tokyo" ){
+			yousei[12] = soku_yousei[j];
+			taiin[12] = soku_taiin[j];
+			ncurrent[12] = soku_ncurrent[j];
+			death[12] = soku_death[j];
+			ji_update += "<br>東京都：" + soku_update[j][0] +"."+soku_update[j][1]+"."+soku_update[j][2];
+			}
+			
+			/* 富山県 */
+			else if( soku_name[j] == "Toyama" ){
+			yousei[15] = soku_yousei[j];
+			taiin[15] = soku_taiin[j];
+			ncurrent[15] = soku_ncurrent[j];
+			death[15] = soku_death[j];
+			ji_update += "<br>富山県：" + soku_update[j][0] +"."+soku_update[j][1]+"."+soku_update[j][2];
+			}
+			
+			/* 福井県 */
+			else if( soku_name[j] == "Fukui" ){
+			yousei[17] = soku_yousei[j];
+			taiin[17] = soku_taiin[j];
+			ncurrent[17] = soku_ncurrent[j];
+			death[17] = soku_death[j];
+			ji_update += "<br>福井県：" + soku_update[j][0] +"."+soku_update[j][1]+"."+soku_update[j][2];
+			}
+			
+			/* 長野県 */
+			else if( soku_name[j] == "Nagano" ){
+			yousei[19] = soku_yousei[j];
+			taiin[19] = soku_taiin[j];
+			ncurrent[19] = soku_ncurrent[j];
+			death[19] = soku_death[j];
+			ji_update += "<br>長野県：" + soku_update[j][0] +"."+soku_update[j][1]+"."+soku_update[j][2];
+			}
+			
+			/* 岐阜県 */
+			else if( soku_name[j] == "Gifu" ){
+			yousei[20] = soku_yousei[j];
+			taiin[20] = soku_taiin[j];
+			ncurrent[20] = soku_ncurrent[j];
+			death[20] = soku_death[j];
+			ji_update += "<br>岐阜県：" + soku_update[j][0] +"."+soku_update[j][1]+"."+soku_update[j][2];
+			}
+			
+			/* 静岡県 */
+			else if( soku_name[j] == "Shizuoka" ){
+			yousei[21] = soku_yousei[j];
+			taiin[21] = soku_taiin[j];
+			ncurrent[21] = soku_ncurrent[j];
+			death[21] = soku_death[j];
+			ji_update += "<br>静岡県：" + soku_update[j][0] +"."+soku_update[j][1]+"."+soku_update[j][2];
+			}
+			
+			/* 大阪府 */
+			else if( soku_name[j] == "Osaka" ){
+			yousei[26] = soku_yousei[j];
+			taiin[26] = soku_taiin[j];
+			ncurrent[26] = soku_ncurrent[j];
+			death[26] = soku_death[j];
+			ji_update += "<br>大阪府：" + soku_update[j][0] +"."+soku_update[j][1]+"."+soku_update[j][2];
+			}
+			
+			/* 兵庫県 */
+			else if( soku_name[j] == "Hyogo" ){
+			yousei[27] = soku_yousei[j];
+			taiin[27] = soku_taiin[j];
+			ncurrent[27] = soku_ncurrent[j];
+			death[27] = soku_death[j];
+			ji_update += "<br>兵庫県：" + soku_update[j][0] +"."+soku_update[j][1]+"."+soku_update[j][2];
+			}
+			
+			/* 奈良県 */
+			else if( soku_name[j] == "Nara" ){
+			yousei[28] = soku_yousei[j];
+			taiin[28] = soku_taiin[j];
+			ncurrent[28] = soku_ncurrent[j];
+			death[28] = soku_death[j];
+			ji_update += "<br>奈良県：" + soku_update[j][0] +"."+soku_update[j][1]+"."+soku_update[j][2];
+			}
+			
+			/* 和歌山県 */
+			else if( soku_name[j] == "Wakayama" ){
+			yousei[29] = soku_yousei[j];
+			taiin[29] = soku_taiin[j];
+			ncurrent[29] = soku_ncurrent[j];
+			death[29] = soku_death[j];
+			ji_update += "<br>和歌山県：" + soku_update[j][0] +"."+soku_update[j][1]+"."+soku_update[j][2];
+			}
+			
+			/* 山口県 */
+			else if( soku_name[j] == "Ymaguchi" ){
+			yousei[34] = soku_yousei[j];
+			taiin[34] = soku_taiin[j];
+			ncurrent[34] = soku_ncurrent[j];
+			death[34] = soku_death[j];
+			ji_update += "<br>山口県：" + soku_update[j][0] +"."+soku_update[j][1]+"."+soku_update[j][2];
+			}
+			
+			/* 福岡県 */
+			else if( soku_name[j] == "Fukuoka" ){
+			yousei[39] = soku_yousei[j];
+			taiin[39] = soku_taiin[j];
+			ncurrent[39] = soku_ncurrent[j];
+			death[39] = soku_death[j];
+			ji_update += "<br>福岡県：" + soku_update[j][0] +"."+soku_update[j][1]+"."+soku_update[j][2];
+			}
+			
+			/* 熊本県 */
+			else if( soku_name[j] == "Kumamoto" ){
+			yousei[42] = soku_yousei[j];
+			taiin[42] = soku_taiin[j];
+			ncurrent[42] = soku_ncurrent[j];
+			death[42] = soku_death[j];
+			ji_update += "<br>熊本県：" + soku_update[j][0] +"."+soku_update[j][1]+"."+soku_update[j][2];
+			}
+			else{}
+			
+			}/*j末端*/
+			
 			/* divに掲載 */
 			for (var i = 0;  i < 47;  i++){
 			syoki[i].innerHTML = json_data.area[i].name_jp + "<br>陽性者：" + yousei[i] + "<br>退院者：" + taiin[i] + "<br>現患者：" + ncurrent[i] + "<br>死亡者：" + death[i];
