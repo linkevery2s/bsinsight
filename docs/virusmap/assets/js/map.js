@@ -54,9 +54,6 @@ var j; var sokuho;
 /* 鹿児島 */ bed[45] = "233";
 /* 沖縄県 */ bed[46] = "286";
 
-/* 速報の都道府県の数 */
-sokuho = "17";
-
 function get_kansen(){
 
 	/* 速報 */
@@ -69,7 +66,9 @@ function get_kansen(){
 			var json_data2 = eval( '('+xhr2.responseText +')');
 
 		}else{}
-		
+			/* 要素数カウント */
+			sokuho = json_data2.length;
+			
 			for ( j = 0;  j < sokuho;  j++){
 				soku_name[j] = json_data2[j].name;
 				soku_yousei[j] = json_data2[j].npatients;
@@ -326,7 +325,9 @@ function get_kansen(){
 				total_yousei += yousei[i];
 				total_taiin += taiin[i];
 				total_ncurrent += ncurrent[i];
-				total_death += death[i];
+					if( death[i] =="不明" ){
+					}else{
+				total_death += death[i];}
 			}
 
 			var txt = "日本全国<br>陽性者：" + total_yousei;
