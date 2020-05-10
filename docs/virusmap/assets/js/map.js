@@ -74,7 +74,7 @@ function get_kansen(){
 				soku_yousei[j] = json_data2[j].npatients;
 				soku_taiin[j] = json_data2[j].nexits;
 				soku_ncurrent[j] = json_data2[j].ncurrentpatients;
-				soku_death[j] = json_data2[j].ndeaths;
+				soku_death[j] = json_data2[j].ndeaths;た
 				soku_update[j] = json_data2[j].lastUpdate.split("-");
 			}
 
@@ -325,7 +325,7 @@ function get_kansen(){
 				total_yousei += yousei[i];
 				total_taiin += taiin[i];
 				total_ncurrent += ncurrent[i];
-					if( death[i] =="不明" ){
+					if( death[i] =="-" ){
 					}else{
 				total_death += death[i];}
 			}
