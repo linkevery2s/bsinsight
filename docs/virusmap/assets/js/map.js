@@ -325,8 +325,8 @@ function get_kansen(){
 				total_yousei += yousei[i];
 				total_taiin += taiin[i];
 				total_ncurrent += ncurrent[i];
-					if( death[i] == "-" ){
-					}else{alert(death[i]);
+					if( death[i] == "不明" ){
+					}else{
 				total_death += death[i];}
 			}
 
