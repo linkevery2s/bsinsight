@@ -140,7 +140,7 @@ function get_kansen(){
 				yousei[i] = json_data.area[i].npatients;
 				taiin[i] = json_data.area[i].nexits;
 				ncurrent[i] = json_data.area[i].ncurrentpatients;
-				death[i] = json_data.area[i].ndeaths;
+				death[i] = yousei[i] - taiin[i] - ncurrent[i];
 			}
 
 			/* 速報上書き */
