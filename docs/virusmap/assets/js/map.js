@@ -1,58 +1,64 @@
 var map;var zoom;var url;var todou; var ido; var keido;
-var bed = new Array(47); var syoki = new Array(47); var x = new Array(47); var y = new Array(47); var mitudo = new Array(47); var mitudo_total = new Array(47);  var density = new Array(47);
+var bed = new Array(47); var hos_bed = new Array(47); var yado_bed = new Array(47); var syoki = new Array(47); var x = new Array(47); var y = new Array(47); var mitudo = new Array(47); var mitudo_total = new Array(47);  var density = new Array(47);
 var multi = new Array(47); var lastupdate;var multi_n = new Array(47); online_pref = new Array(47);
 var yousei = new Array(47); var taiin = new Array(47); var ncurrent = new Array(47); death = new Array(47);
 var soku_yousei = new Array(47); var soku_taiin = new Array(47); var soku_ncurrent = new Array(47); soku_death = new Array(47); var soku_update = new Array(47); var soku_name = new Array(47); var ji_update;
 var j; var sokuho;
 
 /* 病床数 */
-/* 北海道 */ bed[0] = "530";
-/* 青森県 */ bed[1] = "59";
-/* 岩手県 */ bed[2] = "38";
-/* 宮城県 */ bed[3] = "278";
-/* 秋田県 */ bed[4] = "48";
-/* 山形県 */ bed[5] = "150";
-/* 福島県 */ bed[6] = "311";
-/* 茨城県 */ bed[7] = "375";
-/* 栃木県 */ bed[8] = "241";
-/* 群馬県 */ bed[9] = "350";
-/* 埼玉県 */ bed[10] = "562";
-/* 千葉県 */ bed[11] = "773";
-/* 東京都 */ bed[12] = "4800";
-/* 神奈川 */ bed[13] = "3294";
-/* 新潟県 */ bed[14] = "450";
-/* 富山県 */ bed[15] = "200";
-/* 石川県 */ bed[16] = "340";
-/* 福井県 */ bed[17] = "215";
-/* 山梨県 */ bed[18] = "51";
-/* 長野県 */ bed[19] = "500";
-/* 岐阜県 */ bed[20] = "723";
-/* 静岡県 */ bed[21] = "200";
-/* 愛知県 */ bed[22] = "1650";
-/* 三重県 */ bed[23] = "88";
-/* 滋賀県 */ bed[24] = "150";
-/* 京都府 */ bed[25] = "590";
-/* 大阪府 */ bed[26] = "2639";
-/* 兵庫県 */ bed[27] = "950";
-/* 奈良県 */ bed[28] = "339";
-/* 和歌山 */ bed[29] = "124";
-/* 鳥取県 */ bed[30] = "322";
-/* 島根県 */ bed[31] = "200";
-/* 岡山県 */ bed[32] = "120";
-/* 広島県 */ bed[33] = "249";
-/* 山口県 */ bed[34] = "320";
-/* 徳島県 */ bed[35] = "130";
-/* 香川県 */ bed[36] = "125";
-/* 愛媛県 */ bed[37] = "137";
-/* 高知県 */ bed[38] = "48";
-/* 福岡県 */ bed[39] = "1126";
-/* 佐賀県 */ bed[40] = "279";
-/* 長崎県 */ bed[41] = "38";
-/* 熊本県 */ bed[42] = "1023";
-/* 大分県 */ bed[43] = "183";
-/* 宮崎県 */ bed[44] = "81";
-/* 鹿児島 */ bed[45] = "233";
-/* 沖縄県 */ bed[46] = "286";
+/* 北海道 */ hos_bed[0] = 499;yado_bed[0]=260;
+/* 青森県 */ hos_bed[1] = 99;yado_bed[1]=30;
+/* 岩手県 */ hos_bed[2] = 38;yado_bed[2]=0;
+/* 宮城県 */ hos_bed[3] = 388;yado_bed[3]=200;
+/* 秋田県 */ hos_bed[4] = 105;yado_bed[4]=16;
+/* 山形県 */ hos_bed[5] = 150;yado_bed[5]=0;
+/* 福島県 */ hos_bed[6] = 229;yado_bed[6]=200;
+/* 茨城県 */ hos_bed[7] = 151;yado_bed[7]=175;
+/* 栃木県 */ hos_bed[8] = 130;yado_bed[8]=111;
+/* 群馬県 */ hos_bed[9] = 152;yado_bed[9]=150;
+/* 埼玉県 */ hos_bed[10] = 575;yado_bed[10]=1055;
+/* 千葉県 */ hos_bed[11] = 807;yado_bed[11]=526;
+/* 東京都 */ hos_bed[12] = 2000;yado_bed[12]=2800;
+/* 神奈川 */ hos_bed[13] = 1082;yado_bed[13]=2303;
+/* 新潟県 */ hos_bed[14] = 400;yado_bed[14]=50;
+/* 富山県 */ hos_bed[15] = 205;yado_bed[15]=100;
+/* 石川県 */ hos_bed[16] = 170;yado_bed[16]=170;
+/* 福井県 */ hos_bed[17] = 122;yado_bed[17]=115;
+/* 山梨県 */ hos_bed[18] = 80;yado_bed[18]=21;
+/* 長野県 */ hos_bed[19] = 300;yado_bed[19]=200;
+/* 岐阜県 */ hos_bed[20] = 353;yado_bed[20]=265;
+/* 静岡県 */ hos_bed[21] = 200;yado_bed[21]=0;
+/* 愛知県 */ hos_bed[22] = 500;yado_bed[22]=1300;
+/* 三重県 */ hos_bed[23] = 171;yado_bed[23]=64;
+/* 滋賀県 */ hos_bed[24] = 109;yado_bed[24]=62;
+/* 京都府 */ hos_bed[25] = 252;yado_bed[25]=338;
+/* 大阪府 */ hos_bed[26] = 1074;yado_bed[26]=1565;
+/* 兵庫県 */ hos_bed[27] = 509;yado_bed[27]=578;
+/* 奈良県 */ hos_bed[28] = 240;yado_bed[28]=108;
+/* 和歌山 */ hos_bed[29] = 117;yado_bed[29]=0;
+/* 鳥取県 */ hos_bed[30] = 322;yado_bed[30]=412;
+/* 島根県 */ hos_bed[31] = 253;yado_bed[31]=45;
+/* 岡山県 */ hos_bed[32] = 117;yado_bed[32]=0;
+/* 広島県 */ hos_bed[33] = 194;yado_bed[33]=130;
+/* 山口県 */ hos_bed[34] = 320;yado_bed[34]=594;
+/* 徳島県 */ hos_bed[35] = 130;yado_bed[35]=200;
+/* 香川県 */ hos_bed[36] = 43;yado_bed[36]=101;
+/* 愛媛県 */ hos_bed[37] = 70;yado_bed[37]=67;
+/* 高知県 */ hos_bed[38] = 77;yado_bed[38]=16;
+/* 福岡県 */ hos_bed[39] = 430;yado_bed[39]=826;
+/* 佐賀県 */ hos_bed[40] = 111;yado_bed[40]=230;
+/* 長崎県 */ hos_bed[41] = 102;yado_bed[41]=0;
+/* 熊本県 */ hos_bed[42] = 312;yado_bed[42]=711;
+/* 大分県 */ hos_bed[43] = 258;yado_bed[43]=65;
+/* 宮崎県 */ hos_bed[44] = 1061;yado_bed[44]=150;
+/* 鹿児島 */ hos_bed[45] = 253;yado_bed[45]=188;
+/* 沖縄県 */ hos_bed[46] = 225;yado_bed[46]=262;
+
+for ( var k = 0; k < 47; k++){
+
+	bed[k] = hos_bed[k] + yado_bed[k];
+
+}
 
 function get_kansen(){
 
@@ -266,8 +272,8 @@ function get_kansen(){
 			else if( soku_name[j] == "Nara" ){
 			yousei[28] = soku_yousei[j];
 			taiin[28] = soku_taiin[j];
-			ncurrent[28] = soku_ncurrent[j];
 			death[28] = soku_death[j];
+			ncurrent[28] = soku_yousei[j] - soku_taiin[j] - soku_death[j]; /* 宿泊療養者がいるため、数合わせ */
 			ji_update += "<br>奈良県：" + soku_update[j][0] +"."+soku_update[j][1]+"."+soku_update[j][2];
 			}
 			
