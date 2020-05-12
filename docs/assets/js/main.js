@@ -433,7 +433,7 @@ else if (ua.match(/Android ([\.\d]+)/)) {
 	$("#pc").hide();
 }
 else {
-	$("#keitai").hide();
+	
 }
 
 sindosokuhou();
@@ -524,21 +524,6 @@ $("#krs").show();
 
 var url = "https://linkevery2s.github.io/bsinsight/";
 
-function mailt(){
-	location.href =  "mailto:?body=%e9%98%b2%e7%81%bdINSIGHT%20%22%e3%81%9d%e3%81%ae%e6%99%82%22%e3%81%a9%e3%81%86%e3%81%99%e3%82%8b%ef%bc%9f%0d%0ahttps%3a%2f%2flinkevery2s%2egithub%2eio%2fbsinsight%2f%0d%0a%0d%0a%e3%81%84%e3%81%96%e3%81%a8%e3%81%84%e3%81%86%e6%99%82%e3%81%ae%e9%98%b2%e7%81%bd%e3%82%a2%e3%83%97%e3%83%aa%e3%81%a7%e3%81%99%e3%80%82%0d%0a%0d%0a%e7%81%bd%e5%ae%b3%e3%81%ab%e8%a6%8b%e8%88%9e%e3%82%8f%e3%82%8c%e3%81%9f%e6%99%82%e3%80%81%e3%81%a9%e3%81%86%e8%a1%8c%e5%8b%95%e3%81%99%e3%82%8c%e3%81%b0%e8%89%af%e3%81%84%e3%81%ae%e3%81%8b%ef%bc%9f%0d%0a%0d%0a%e5%ad%a6%e7%bf%92%e3%82%b3%e3%83%b3%e3%83%86%e3%83%b3%e3%83%84%e3%80%81%e9%81%bf%e9%9b%a3%e6%83%85%e5%a0%b1%e3%80%81%e6%b0%97%e8%b1%a1%e6%83%85%e5%a0%b1%e3%81%aa%e3%81%a9%e3%80%81%e9%98%b2%e7%81%bd%e3%81%ab%e9%96%a2%e3%81%99%e3%82%8b%e3%81%82%e3%82%89%e3%82%86%e3%82%8b%e6%83%85%e5%a0%b1%e3%81%8c%e6%8e%b2%e8%bc%89%e3%81%95%e3%82%8c%e3%81%a6%e3%81%84%e3%81%be%e3%81%99%e3%80%82%0d%0a%0d%0a%e3%81%9c%e3%81%b2%e3%80%81%e4%b8%80%e5%ba%a6%e3%80%81%e4%bd%bf%e3%81%a3%e3%81%a6%e3%81%bf%e3%81%a6%e3%81%8f%e3%81%a0%e3%81%95%e3%81%84%ef%bc%81%e4%bb%81%e5%bf%97%2e";
-}
-
-function linet(){
-	location.href = "line://msg/text/%e9%98%b2%e7%81%bdINSIGHT%20%22%e3%81%9d%e3%81%ae%e6%99%82%22%e3%81%a9%e3%81%86%e3%81%99%e3%82%8b%ef%bc%9f%0d%0ahttps%3a%2f%2flinkevery2s%2egithub%2eio%2fbsinsight%2f%0d%0a%0d%0a%e3%81%84%e3%81%96%e3%81%a8%e3%81%84%e3%81%86%e6%99%82%e3%81%ae%e9%98%b2%e7%81%bd%e3%82%a2%e3%83%97%e3%83%aa%e3%81%a7%e3%81%99%e3%80%82%0d%0a%0d%0a%e7%81%bd%e5%ae%b3%e3%81%ab%e8%a6%8b%e8%88%9e%e3%82%8f%e3%82%8c%e3%81%9f%e6%99%82%e3%80%81%e3%81%a9%e3%81%86%e8%a1%8c%e5%8b%95%e3%81%99%e3%82%8c%e3%81%b0%e8%89%af%e3%81%84%e3%81%ae%e3%81%8b%ef%bc%9f%0d%0a%0d%0a%e5%ad%a6%e7%bf%92%e3%82%b3%e3%83%b3%e3%83%86%e3%83%b3%e3%83%84%e3%80%81%e9%81%bf%e9%9b%a3%e6%83%85%e5%a0%b1%e3%80%81%e6%b0%97%e8%b1%a1%e6%83%85%e5%a0%b1%e3%81%aa%e3%81%a9%e3%80%81%e9%98%b2%e7%81%bd%e3%81%ab%e9%96%a2%e3%81%99%e3%82%8b%e3%81%82%e3%82%89%e3%82%86%e3%82%8b%e6%83%85%e5%a0%b1%e3%81%8c%e6%8e%b2%e8%bc%89%e3%81%95%e3%82%8c%e3%81%a6%e3%81%84%e3%81%be%e3%81%99%e3%80%82%0d%0a%0d%0a%e3%81%9c%e3%81%b2%e3%80%81%e4%b8%80%e5%ba%a6%e3%80%81%e4%bd%bf%e3%81%a3%e3%81%a6%e3%81%bf%e3%81%a6%e3%81%8f%e3%81%a0%e3%81%95%e3%81%84%ef%bc%81%e4%bb%81%e5%bf%97%2e";
-}
-
-function twt(){
-	location.href = "https://twitter.com/share?url=" + url;
-}
-
-function fbt(){
-	location.href = "https://www.facebook.com/sharer/sharer.php?u=" + url;
-}
 
 var $window = $(window);
 var $year = $('#js-year');
@@ -618,51 +603,6 @@ function calendarHeading(year, month){
     				location.href = "map/hinanmap.html#17/" +ido + "/" + keido;
 				}
 
-$(function(){
-  var seiza = [
-    "避難場所が知りたい",
-    "雨雲レーダーを見たい",
-    "ハザードマップを見たい",
-    "明日の天気は？",
-    "災害情報を知りたい",
-    "災害の種類について学びたい",
-    "何が必要なの？",
-    "非常時の持ち出しリストを見たい",
-    "子供たちの学習ツールについて知りたい",
-    "医療情報について知りたい",
-    //"防災用語を学びたい",
-    "安否確認について知りたい",
-    "気象情報を見たい"
-  ];
-  $("#kens").autocomplete({
-    source: seiza,
-    minLength: 0
-  });
-});
-
-
-function explorer(){
-	
-	var ktext = document.forms.form1.kens.value;
-	
-	if( ktext == "避難場所が知りたい" ){location.href = "./#refuge";ktext = null;}
-	else if( ktext == "雨雲レーダーを見たい" ){location.href = "./#weather";ktext = null;}
-	else if( ktext == "ハザードマップを見たい" ){location.href = "./#soutei";ktext = null;}
-	else if( ktext == "明日の天気は？" ){location.href = "./#weather";ktext = null;}
-	else if( ktext == "災害情報を知りたい" ){location.href = "./#refuge";ktext = null;}
-	else if( ktext == "災害の種類について学びたい" ){location.href = "./#type";ktext = null;}
-	else if( ktext == "何が必要なの？" ){location.href = "./#need";ktext = null;}
-	else if( ktext == "非常時の持ち出しリストを見たい" ){location.href = "./#mochidashi";ktext = null;}
-	else if( ktext == "子供たちの学習ツールについて知りたい" ){location.href = "./#manabu";ktext = null;}
-	else if( ktext == "医療情報について知りたい" ){location.href = "./#medical";ktext = null;}
-	else if( ktext == "防災用語を学びたい" ){location.href = "./#bsword";ktext = null;}
-	else if( ktext == "安否確認について知りたい" ){location.href = "./#anpi";ktext = null;}
-	else if( ktext == "気象情報を見たい" ){location.href = "./#weather";ktext = null;}
-	else{
-	
-	}
-	
-}
 
 function ktsearch(){
 
