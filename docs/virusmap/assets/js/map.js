@@ -160,6 +160,15 @@ function get_kansen(){
 			ji_update = "北海道：" + soku_update[j][0] +"."+soku_update[j][1]+"."+soku_update[j][2];
 			}
 			
+			/* 宮城県 */
+			else if( soku_name[j] == "Miyagi" ){
+			yousei[3] = soku_yousei[j];
+			taiin[3] = soku_taiin[j];
+			ncurrent[3] = soku_ncurrent[j];
+			death[3] = soku_death[j];
+			ji_update += "<br>宮城県：" + soku_update[j][0] +"."+soku_update[j][1]+"."+soku_update[j][2];
+			} 
+
 			/* 福島県 */
 			else if( soku_name[j] == "Fukushima" ){
 			yousei[6] = soku_yousei[j];
