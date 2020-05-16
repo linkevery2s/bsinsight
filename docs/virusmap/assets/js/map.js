@@ -2,8 +2,8 @@ var map;var zoom;var url;var todou; var ido; var keido;
 var bed = new Array(47); var hos_bed = new Array(47); var yado_bed = new Array(47); var syoki = new Array(47); var x = new Array(47); var y = new Array(47); var mitudo = new Array(47); var mitudo_total = new Array(47);  var density = new Array(47);
 var multi = new Array(47); var lastupdate;var multi_n = new Array(47); online_pref = new Array(47);
 var yousei = new Array(47); var taiin = new Array(47); var ncurrent = new Array(47); death = new Array(47);
-var soku_yousei = new Array(47); var soku_taiin = new Array(47); var soku_ncurrent = new Array(47); soku_death = new Array(47); var soku_update = new Array(47); var soku_name = new Array(47); var ji_update;
-var j; var sokuho;
+var soku_yousei = new Array(47); var soku_taiin = new Array(47); var soku_ncurrent = new Array(47); soku_death = new Array(47); var soku_update = new Array(47); var soku_name = new Array(47); var ji_update; var kensa = new Array(47); var h = new Array(47);
+var j; var sokuho; var zentai_youso;
 
 /* 病床数 */
 /* 北海道 */ hos_bed[0] = 499;yado_bed[0]=260;
@@ -92,7 +92,7 @@ function get_kansen(){
 	xhr.onreadystatechange = function(){
 		if (xhr.readyState === 4 && xhr.status === 200){
 			var json_data = eval( '('+xhr.responseText +')');
-
+			
 			syoki[0] = document.getElementById('ja_hokkaido');
 			syoki[1] = document.getElementById('ja_aomori');
 			syoki[2] = document.getElementById('ja_iwate');
@@ -143,6 +143,7 @@ function get_kansen(){
 
 			/* 厚労省データ格納 */
 			for (var i = 0;  i < 47;  i++){
+				kensa[i] = json_data.area[i].ninspections;
 				yousei[i] = json_data.area[i].npatients;
 				taiin[i] = json_data.area[i].nexits;
 				ncurrent[i] = json_data.area[i].ncurrentpatients;
@@ -337,7 +338,7 @@ function get_kansen(){
 			
 			/* divに掲載 */
 			for (var i = 0;  i < 47;  i++){
-			syoki[i].innerHTML = json_data.area[i].name_jp + "<br>陽性者：" + yousei[i] + "<br>退院者：" + taiin[i] + "<br>現患者：" + ncurrent[i] + "<br>死亡者：" + death[i];
+			syoki[i].innerHTML = json_data.area[i].name_jp + "<br>検査数：" + kensa[i] + "<br>陽性者：" + yousei[i] + "<br>退院者：" + taiin[i] + "<br>現患者：" + ncurrent[i] + "<br>死亡者：" + death[i];
 			}
 
 			/* 全体 */
@@ -355,7 +356,8 @@ function get_kansen(){
 				total_death += death[i];}
 			}
 
-			var txt = "日本全国<br>陽性者：" + total_yousei;
+			var txt = "日本全国<br>検査数：" + json_data.ninspections;
+			txt += "<br>陽性者：" + total_yousei;
 			txt += "<br>退院者：" + total_taiin;
 			txt += "<br>現患者：" + total_ncurrent;
 			txt += "<br>死亡者：" + total_death;
@@ -414,7 +416,7 @@ function get_kansen(){
 
 			/* divに掲載 */
 			for (var i = 0;  i < 47;  i++){
-			x[i].innerHTML = json_data.area[i].name_jp +"<br><center>現患者数／病床数<br>" + ncurrent[i] + "／" + bed[i] + "</center>";
+			x[i].innerHTML = json_data.area[i].name_jp +"<br><center>現患者数／病床数<br>" + ncurrent[i] + "／" + bed[i] + "</center>医療病床：" + hos_bed[i] + "<br>宿泊施設：" + yado_bed[i];
 			}
 
 			/* 色分け判定 */
@@ -487,7 +489,6 @@ density[43]="1144000";
 density[44]="1081000";
 density[45]="1614000";
 density[46]="1448000";
-
 
 			y[0] = document.getElementById('3ja_hokkaido');
 			y[1] = document.getElementById('3ja_aomori');
@@ -566,20 +567,127 @@ density[46]="1448000";
 				}
 			
 			}
-			
+
 			/* 地域分析用 */
 			for (var i = 0; i < 47; i++){
 				mitudo_total[i] = Math.round(yousei[i] / density[i] * 100000 * 10)/10;
 			}
 
+			/* 陽性率 */
+			h[0] = document.getElementById('yous_hokkaido');
+			h[1] = document.getElementById('yous_aomori');
+			h[2] = document.getElementById('yous_iwate');
+			h[3] = document.getElementById('yous_miyagi');
+			h[4] = document.getElementById('yous_akita');
+			h[5] = document.getElementById('yous_yamagata');
+			h[6] = document.getElementById('yous_fukushima');
+			h[7] = document.getElementById('yous_ibaraki');
+			h[8] = document.getElementById('yous_tochigi');
+			h[9] = document.getElementById('yous_gunma');
+			h[10] = document.getElementById('yous_saitama');
+			h[11] = document.getElementById('yous_tiba');
+			h[12] = document.getElementById('yous_tokyo');
+			h[13] = document.getElementById('yous_kanagawa');
+			h[14] = document.getElementById('yous_niigata');
+			h[15] = document.getElementById('yous_toyama');
+			h[16] = document.getElementById('yous_ishikawa');
+			h[17] = document.getElementById('yous_fukui');
+			h[18] = document.getElementById('yous_yamanashi');
+			h[19] = document.getElementById('yous_nagano');
+			h[20] = document.getElementById('yous_gifu');
+			h[21] = document.getElementById('yous_shizuoka');
+			h[22] = document.getElementById('yous_aichi');
+			h[23] = document.getElementById('yous_mie');
+			h[24] = document.getElementById('yous_shiga');
+			h[25] = document.getElementById('yous_kyoto');
+			h[26] = document.getElementById('yous_osaka');
+			h[27] = document.getElementById('yous_hyogo');
+			h[28] = document.getElementById("yous_nara");
+			h[29] = document.getElementById("yous_wakayama");
+			h[30] = document.getElementById("yous_tottori");
+			h[31] = document.getElementById("yous_shimane");
+			h[32] = document.getElementById("yous_okayama");
+			h[33] = document.getElementById("yous_hiroshima");
+			h[34] = document.getElementById("yous_yamaguchi");
+			h[35] = document.getElementById("yous_tokushima");
+			h[36] = document.getElementById("yous_kagawa");
+			h[37] = document.getElementById("yous_ehime");
+			h[38] = document.getElementById("yous_kochi");
+			h[39] = document.getElementById("yous_fukuoka");
+			h[40] = document.getElementById("yous_saga");
+			h[41] = document.getElementById("yous_nagasaki");
+			h[42] = document.getElementById("yous_kumamoto");
+			h[43] = document.getElementById("yous_oita");
+			h[44] = document.getElementById("yous_miyazaki");
+			h[45] = document.getElementById("yous_kagoshima");
+			h[46] = document.getElementById("yous_okinawa");
+
+	/* 陽性率　厚労省 */
+	var xhr3 = new XMLHttpRequest();
+	var url3 = "https://www.stopcovid19.jp/data/covid19japan-all.json";
+	xhr3.open('GET', url3);
+	xhr3.send(null);
+	xhr3.onreadystatechange = function(){
+		if (xhr3.readyState === 4 && xhr3.status === 200){
+			var json_data3 = eval( '('+xhr3.responseText +')');
+			/* 要素数カウント */
+			zentai_youso = json_data3.length;
+
+			/* 日本全国非表示 */
+			document.getElementById('yous_ka').style.backgroundColor = '#FFFFFF';
+
+				/* 都道府県 */
+				for( i = 0; i < 47; i++){
+					//var total_y = json_data3[zentai_youso - 1].area[i].npatients / json_data3[zentai_youso - 1].area[i].ninspections * 100;
+					//total_y = Math.round(total_y * 10)/10;
+
+					if( json_data3[zentai_youso - 1].area[i].ninspections - json_data3[zentai_youso - 7].area[i].ninspections == 0){
+						y_7 = 0;
+					}else{
+					var y_7 = (json_data3[zentai_youso - 1].area[i].npatients - json_data3[zentai_youso - 7].area[i].npatients ) / (json_data3[zentai_youso - 1].area[i].ninspections - json_data3[zentai_youso - 7].area[i].ninspections) * 100;
+					y_7 = Math.round(y_7 * 10)/10;
+					}
+					
+					/* 検査数の変動がありマイナスになったら */
+					if ( y_7 < 0){
+						y_7 = "-";
+					}else{}
+					
+					if ( json_data3[zentai_youso - 1].area[i].ninspections - json_data3[zentai_youso - 2].area[i].ninspections == 0 ){
+						y_2 = 0;
+					}else{
+					var y_2 = (json_data3[zentai_youso - 1].area[i].npatients - json_data3[zentai_youso - 2].area[i].npatients ) / (json_data3[zentai_youso - 1].area[i].ninspections - json_data3[zentai_youso - 2].area[i].ninspections) * 100;
+					y_2 = Math.round(y_2 * 10)/10;
+					}
+					
+					/* 検査数の変動がありマイナスになったら */
+					if ( y_2 < 0){
+						y_2 = "-";
+					}else{}
+
+					/* 陽性率が7％以上 */
+					if ( y_7 > 7 && y_2 > 7){ /* 両方 */
+						h[i].style.backgroundColor = '#FF0000';
+					}else if( y_7 > 7 || y_2 > 7){ /* 片方 */
+						h[i].style.backgroundColor = '#FFFF00';
+						h[i].style.color = "#000000";
+					}else{}
+
+					h[i].innerHTML = "<center>陽　性　率</center>";
+					h[i].innerHTML += "７日間：" + y_7;
+					h[i].innerHTML += "<br>直　近：" + y_2;
+				}
+		}
+
+    	};/* xhr3末端 */
 
       var day1 = json_data.lastUpdate.split("-");
       document.getElementById('day').innerHTML = "厚生労働省：" + day1[0] + "." + day1[1] + "." + day1[2];
       
       document.getElementById('ji_day').innerHTML = ji_update;
       
-
     }
+
   };/* xhrの末端 */
 
 	};/* xhr2の末端 */

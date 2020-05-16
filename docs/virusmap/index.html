@@ -99,6 +99,7 @@
 					<p>新型コロナウイルスの感染が世界中に広がっています。不安が広がってやまないですが、退院される方も増えてきていることは事実です。刻一刻と変わるウイルスの感染状況に対し、感染者数などの絶対数だけではなく、感染の流れを「動態」という形で、ウイルスの特徴などを探れないかと思い、このWEBを立ち上げました。</p>
 					☆更新履歴☆
 						<div id="upr">
+							2020. 5.16 検査数/陽性率/医療病床/宿泊施設 表記、年代別集計/陽性者数の推移閉鎖<br>
 							2020. 5.14 民間企業の取り組み追加<br>
 							2020. 5. 6 自治体の更新履歴表示<br>
 							2020. 5. 4 18都道府県速報値に変更<br>
@@ -131,9 +132,10 @@
 						<!-- 国内マップ -->
 						<br>
 						<blockquote>
+						・陽性率は、１週間の平均値と直近の陽性率を計算し、７％以上か否かで色分けしています。<br>
 						・病床数との比較は、入院患者と病床数（宿泊施設含む）を比較しリスク度を色分けしました。赤くなるほど、リスクが高いです。<br>
-						・感染密度は、人口10万人あたりの感染者数を表示しています。赤くなるほど、感染の広がりが大きい地域です。
-						<br>（出典：病床数は<a href="https://www.stopcovid19.jp/" target="_blank">新型コロナウイルス対策ダッシュボード <i class="fas fa-external-link-alt"></i></a>を参照し、人口統計は<a href="https://resas.go.jp/#/13/13101" target="_blank">RESAS <i class="fas fa-external-link-alt"></i></a>を参照しました。）<br>
+						・感染密度は、人口10万人あたりの現患者数を表示しています。赤くなるほど、感染の広がりが大きい地域です。<br>
+						（出典：病床数は<a href="https://www.stopcovid19.jp/" target="_blank">新型コロナウイルス対策ダッシュボード <i class="fas fa-external-link-alt"></i></a>を参照し、人口統計は<a href="https://resas.go.jp/#/13/13101" target="_blank">RESAS <i class="fas fa-external-link-alt"></i></a>を参照しました。）<br>
 						・「自治体表示切替」に掲載の都道府県は速報値（自治体の更新）となっています。
 						</blockquote>
 								<div class="row gtr-uniform gtr-50">
@@ -154,54 +156,54 @@
 						<div id = "zentai">
 							<div class="box alt">
 								<div class="row gtr-50 gtr-uniform">
-									<div class="col-4"><span class="ja" id="ja_ka"></span></div>
-									<div class="col-4"><span class="ja" id="ja_hokkaido"></span></div>
-									<div class="col-4"><span class="ja" id="ja_aomori"></span></div>
-									<div class="col-4"><span class="ja" id="ja_iwate"></span></div>
-									<div class="col-4"><span class="ja" id="ja_akita"></span></div>
-									<div class="col-4"><span class="ja" id="ja_fukushima"></span></div>
-									<div class="col-4"><span class="ja" id="ja_miyagi"></span></div>
-									<div class="col-4"><span class="ja" id="ja_yamagata"></span></div>
-									<div class="col-4"><span class="ja" id="ja_ibaraki"></span></div>
-									<div class="col-4"><span class="ja" id="ja_tochigi"></span></div>
-									<div class="col-4"><span class="ja" id="ja_gunma"></span></div>
-									<div class="col-4"><span class="ja" id="ja_saitama"></span></div>
-									<div class="col-4"><span class="ja" id="ja_tiba"></span></div>
-									<div class="col-4"><span class="ja" id="ja_tokyo"></span></div>
-									<div class="col-4"><span class="ja" id="ja_kanagawa"></span></div>
-									<div class="col-4"><span class="ja" id="ja_niigata"></span></div>
-									<div class="col-4"><span class="ja" id="ja_toyama"></span></div>
-									<div class="col-4"><span class="ja" id="ja_ishikawa"></span></div>
-									<div class="col-4"><span class="ja" id="ja_fukui"></span></div>
-									<div class="col-4"><span class="ja" id="ja_yamanashi"></span></div>
-									<div class="col-4"><span class="ja" id="ja_nagano"></span></div>
-									<div class="col-4"><span class="ja" id="ja_gifu"></span></div>
-									<div class="col-4"><span class="ja" id="ja_shizuoka"></span></div>
-									<div class="col-4"><span class="ja" id="ja_aichi"></span></div>
-									<div class="col-4"><span class="ja" id="ja_mie"></span></div>
-									<div class="col-4"><span class="ja" id="ja_shiga"></span></div>
-									<div class="col-4"><span class="ja" id="ja_kyoto"></span></div>
-									<div class="col-4"><span class="ja" id="ja_osaka"></span></div>
-									<div class="col-4"><span class="ja" id="ja_hyogo"></span></div>
-									<div class="col-4"><span class="ja" id="ja_nara"></span></div>
-									<div class="col-4"><span class="ja" id="ja_wakayama"></span></div>
-									<div class="col-4"><span class="ja" id="ja_tottori"></span></div>
-									<div class="col-4"><span class="ja" id="ja_shimane"></span></div>
-									<div class="col-4"><span class="ja" id="ja_okayama"></span></div>
-									<div class="col-4"><span class="ja" id="ja_hiroshima"></span></div>
-									<div class="col-4"><span class="ja" id="ja_yamaguchi"></span></div>
-									<div class="col-4"><span class="ja" id="ja_tokushima"></span></div>
-									<div class="col-4"><span class="ja" id="ja_kagawa"></span></div>
-									<div class="col-4"><span class="ja" id="ja_ehime"></span></div>
-									<div class="col-4"><span class="ja" id="ja_kochi"></span></div>
-									<div class="col-4"><span class="ja" id="ja_fukuoka"></span></div>
-									<div class="col-4"><span class="ja" id="ja_saga"></span></div>
-									<div class="col-4"><span class="ja" id="ja_nagasaki"></span></div>
-									<div class="col-4"><span class="ja" id="ja_kumamoto"></span></div>
-									<div class="col-4"><span class="ja" id="ja_oita"></span></div>
-									<div class="col-4"><span class="ja" id="ja_miyazaki"></span></div>
-									<div class="col-4"><span class="ja" id="ja_kagoshima"></span></div>
-									<div class="col-4"><span class="ja" id="ja_okinawa"></span></div>
+									<div class="col-4"><span class="ja" id="ja_ka"></span><span class="ja" id="yous_ka"></span></div>
+									<div class="col-4"><span class="ja" id="ja_hokkaido"></span><span class="ja" id="yous_hokkaido"></span></div>
+									<div class="col-4"><span class="ja" id="ja_aomori"></span><span class="ja" id="yous_aomori"></span></div>
+									<div class="col-4"><span class="ja" id="ja_iwate"></span><span class="ja" id="yous_iwate"></span></div>
+									<div class="col-4"><span class="ja" id="ja_akita"></span><span class="ja" id="yous_akita"></span></div>
+									<div class="col-4"><span class="ja" id="ja_fukushima"></span><span class="ja" id="yous_fukushima"></span></div>
+									<div class="col-4"><span class="ja" id="ja_miyagi"></span><span class="ja" id="yous_miyagi"></span></div>
+									<div class="col-4"><span class="ja" id="ja_yamagata"></span><span class="ja" id="yous_yamagata"></span></div>
+									<div class="col-4"><span class="ja" id="ja_ibaraki"></span><span class="ja" id="yous_ibaraki"></span></div>
+									<div class="col-4"><span class="ja" id="ja_tochigi"></span><span class="ja" id="yous_tochigi"></span></div>
+									<div class="col-4"><span class="ja" id="ja_gunma"></span><span class="ja" id="yous_gunma"></span></div>
+									<div class="col-4"><span class="ja" id="ja_saitama"></span><span class="ja" id="yous_saitama"></span></div>
+									<div class="col-4"><span class="ja" id="ja_tiba"></span><span class="ja" id="yous_tiba"></span></div>
+									<div class="col-4"><span class="ja" id="ja_tokyo"></span><span class="ja" id="yous_tokyo"></span></div>
+									<div class="col-4"><span class="ja" id="ja_kanagawa"></span><span class="ja" id="yous_kanagawa"></span></div>
+									<div class="col-4"><span class="ja" id="ja_niigata"></span><span class="ja" id="yous_niigata"></span></div>
+									<div class="col-4"><span class="ja" id="ja_toyama"></span><span class="ja" id="yous_toyama"></span></div>
+									<div class="col-4"><span class="ja" id="ja_ishikawa"></span><span class="ja" id="yous_ishikawa"></span></div>
+									<div class="col-4"><span class="ja" id="ja_fukui"></span><span class="ja" id="yous_fukui"></span></div>
+									<div class="col-4"><span class="ja" id="ja_yamanashi"></span><span class="ja" id="yous_yamanashi"></span></div>
+									<div class="col-4"><span class="ja" id="ja_nagano"></span><span class="ja" id="yous_nagano"></span></div>
+									<div class="col-4"><span class="ja" id="ja_gifu"></span><span class="ja" id="yous_gifu"></span></div>
+									<div class="col-4"><span class="ja" id="ja_shizuoka"></span><span class="ja" id="yous_shizuoka"></span></div>
+									<div class="col-4"><span class="ja" id="ja_aichi"></span><span class="ja" id="yous_aichi"></span></div>
+									<div class="col-4"><span class="ja" id="ja_mie"></span><span class="ja" id="yous_mie"></span></div>
+									<div class="col-4"><span class="ja" id="ja_shiga"></span><span class="ja" id="yous_shiga"></span></div>
+									<div class="col-4"><span class="ja" id="ja_kyoto"></span><span class="ja" id="yous_kyoto"></span></div>
+									<div class="col-4"><span class="ja" id="ja_osaka"></span><span class="ja" id="yous_osaka"></span></div>
+									<div class="col-4"><span class="ja" id="ja_hyogo"></span><span class="ja" id="yous_hyogo"></span></div>
+									<div class="col-4"><span class="ja" id="ja_nara"></span><span class="ja" id="yous_nara"></span></div>
+									<div class="col-4"><span class="ja" id="ja_wakayama"></span><span class="ja" id="yous_wakayama"></span></div>
+									<div class="col-4"><span class="ja" id="ja_tottori"></span><span class="ja" id="yous_tottori"></span></div>
+									<div class="col-4"><span class="ja" id="ja_shimane"></span><span class="ja" id="yous_shimane"></span></div>
+									<div class="col-4"><span class="ja" id="ja_okayama"></span><span class="ja" id="yous_okayama"></span></div>
+									<div class="col-4"><span class="ja" id="ja_hiroshima"></span><span class="ja" id="yous_hiroshima"></span></div>
+									<div class="col-4"><span class="ja" id="ja_yamaguchi"></span><span class="ja" id="yous_yamaguchi"></span></div>
+									<div class="col-4"><span class="ja" id="ja_tokushima"></span><span class="ja" id="yous_tokushima"></span></div>
+									<div class="col-4"><span class="ja" id="ja_kagawa"></span><span class="ja" id="yous_kagawa"></span></div>
+									<div class="col-4"><span class="ja" id="ja_ehime"></span><span class="ja" id="yous_ehime"></span></div>
+									<div class="col-4"><span class="ja" id="ja_kochi"></span><span class="ja" id="yous_kochi"></span></div>
+									<div class="col-4"><span class="ja" id="ja_fukuoka"></span><span class="ja" id="yous_fukuoka"></span></div>
+									<div class="col-4"><span class="ja" id="ja_saga"></span><span class="ja" id="yous_saga"></span></div>
+									<div class="col-4"><span class="ja" id="ja_nagasaki"></span><span class="ja" id="yous_nagasaki"></span></div>
+									<div class="col-4"><span class="ja" id="ja_kumamoto"></span><span class="ja" id="yous_kumamoto"></span></div>
+									<div class="col-4"><span class="ja" id="ja_oita"></span><span class="ja" id="yous_oita"></span></div>
+									<div class="col-4"><span class="ja" id="ja_miyazaki"></span><span class="ja" id="yous_miyazaki"></span></div>
+									<div class="col-4"><span class="ja" id="ja_kagoshima"></span><span class="ja" id="yous_kagoshima"></span></div>
+									<div class="col-4"><span class="ja" id="ja_okinawa"></span><span class="ja" id="yous_okinawa"></span></div>
 								</div>
 							</div>
 						</div>
@@ -536,45 +538,13 @@
 						<iframe src="enterprise.html" width="100%" height="450px"></iframe>
 					</section>
 
-
-					<section id="statis2"><span id ="4"></span>
-						<h2>年代別集計</h2>
-							<div id = "day_s">2020.5.3更新</div>
-								<blockquote>
-								オープンデータとして公開されている北海道、東京都、福井県、静岡県、岡山県、福岡県の統計データをもとに、年齢別の感染者数を可視化しました。
-								</blockquote>
-								<!-- 年代別 -->
-								<canvas id="nendai" height="300px"></canvas>
-								<br>
-								<p>
-								以下の資料をもとに仁志が加工・編集して作成しました。<br>
-								<a href="https://www.harp.lg.jp/opendata/dataset/1369.html" target="_blank">北海道 新型コロナウイルス感染症に関するデータ <i class="fas fa-external-link-alt"></i></a><br>
-								<a href="https://catalog.data.metro.tokyo.lg.jp/dataset/t000010d0000000068" target="_blank">東京都 新型コロナウイルス陽性患者発表詳細 <i class="fas fa-external-link-alt"></i></a><br>
-								<a href="https://www.pref.fukui.lg.jp/doc/toukei-jouhou/covid-19.html" target="_blank">福井県 新型コロナウイルス感染症情報 <i class="fas fa-external-link-alt"></i></a><br>
-								<a href="https://opendata.pref.shizuoka.jp/dataset/8167.html" target="_blank">静岡県 新型コロナウイルス感染症県内感染動向 <i class="fas fa-external-link-alt"></i></a><br>
-								<a href="https://ckan.open-governmentdata.org/dataset/401000_pref_fukuoka_covid19_patients" target="_blank">福岡県 新型コロナウイルス感染症 陽性患者発表情報 <i class="fas fa-external-link-alt"></i></a>
-								</p>
-					</section>
-
 					<section id="timeline"><span id ="8"></span>
 						<h2>日本情勢</h2>
 							<div id = "day_s">随時更新</div>
 							<iframe src="timeline.html" width="100%" height="580px"></iframe>
 							
 						<hr>
-						<h3 class="ti">陽性患者の推移</h3>
-						
-						<canvas id="yous" height="200px"></canvas>
-						
-						<p>※クルーズ船の数は含まれていません。</p>
-						<hr>
 
-						<h3 class="ti">PCR検査数と陽性者数の推移</h3>
-						
-						<canvas id="pcr" height="200px"></canvas>
-						
-						<p>※クルーズ船の数は含まれていません。</p>
-						<hr>
 						<h3 class="ti">全国クラスターマップ</h3>
 							<blockquote>
 							厚生労働省の<a href ="https://www.mhlw.go.jp/content/10900000/000618504.pdf" target="_blank">全国クラスターマップ  <i class="fas fa-external-link-alt"></i></a>をWEBにしました。

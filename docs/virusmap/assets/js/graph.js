@@ -33,7 +33,7 @@ afterDatasetsDraw: function (chart, easing) {
     }
 };
 
-/* 年代別集計 */
+/* 年代別集計 
   var nendai = new Chart(document.getElementById("nendai"), {
     type: 'horizontalBar',
     data: {
@@ -53,7 +53,7 @@ afterDatasetsDraw: function (chart, easing) {
       ]
     },
     options: {legend: {display: false} }
-  });
+  });*/
 
 
 
@@ -84,7 +84,7 @@ afterDatasetsDraw: function (chart, easing) {
     options: {legend: {display: false} }
   });
 
-/* 陽性患者等の推移 */
+/* 陽性患者等の推移
 var yousei = new Chart(document.getElementById("yous"), {
     type: 'line',
     data: {
@@ -125,9 +125,9 @@ var yousei = new Chart(document.getElementById("yous"), {
     options: {
     		legend: {display: false}
     }
-  });
+  }); */
 
-/* PCR検査数の推移 */
+/* PCR検査数の推移 
   var pcr = new Chart(document.getElementById("pcr"), {
     type: 'bar',
     data: {
@@ -157,4 +157,5 @@ var yousei = new Chart(document.getElementById("yous"), {
    				}]
   			}
     }
-});
+}); */
+
