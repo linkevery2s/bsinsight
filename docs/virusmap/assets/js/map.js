@@ -654,7 +654,7 @@ density[46]="1448000";
 					}else{}
 					
 					if ( json_data3[zentai_youso - 1].area[i].ninspections - json_data3[zentai_youso - 2].area[i].ninspections == 0 ){
-						y_2 = 0;
+						y_2 = "-";
 					}else{
 					var y_2 = (json_data3[zentai_youso - 1].area[i].npatients - json_data3[zentai_youso - 2].area[i].npatients ) / (json_data3[zentai_youso - 1].area[i].ninspections - json_data3[zentai_youso - 2].area[i].ninspections) * 100;
 					y_2 = Math.round(y_2 * 10)/10;
