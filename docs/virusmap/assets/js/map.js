@@ -642,7 +642,7 @@ density[46]="1448000";
 					//total_y = Math.round(total_y * 10)/10;
 
 					if( json_data3[zentai_youso - 1].area[i].ninspections - json_data3[zentai_youso - 7].area[i].ninspections == 0){
-						y_7 = 0;
+						y_7 = "-";
 					}else{
 					var y_7 = (json_data3[zentai_youso - 1].area[i].npatients - json_data3[zentai_youso - 7].area[i].npatients ) / (json_data3[zentai_youso - 1].area[i].ninspections - json_data3[zentai_youso - 7].area[i].ninspections) * 100;
 					y_7 = Math.round(y_7 * 10)/10;
