@@ -6,7 +6,7 @@
 ,
 {"Name":"浅間神社","Jusho":"静岡県静岡市葵区宮ケ崎町102-1","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"城内中学校","Jusho":"静岡県静岡市葵区駿府町1-107","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"城内中学校","Jusho":"静岡県静岡市葵区駿府町1-107","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
 ,
 {"Name":"新通小学校","Jusho":"静岡県静岡市葵区駒形通2-4-47","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
 ,
@@ -22,7 +22,7 @@
 ,
 {"Name":"南安倍公園","Jusho":"静岡県静岡市駿河区南安倍三丁目556","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"特別支援教育センター","Jusho":"静岡県静岡市葵区一番町50","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"特別支援教育センター","Jusho":"静岡県静岡市葵区一番町50","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
 ,
 {"Name":"住吉公園","Jusho":"静岡県静岡市葵区住吉町二丁目53番地、一番町105番地","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -44,7 +44,9 @@
 ,
 {"Name":"西草深公園","Jusho":"静岡県静岡市葵区西草深町27番9号","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"静岡大学附属小・中学校","Jusho":"静岡県静岡市葵区駿府町1-94","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"静岡大学附属静岡小学校","Jusho":"静岡県静岡市葵区駿府町1-94","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+,
+{"Name":"静岡大学付属静岡中学校","Jusho":"静岡県静岡市葵区駿府町1-86","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"静岡大成中学・高等学校","Jusho":"静岡県静岡市葵区鷹匠2-4-18","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -258,7 +260,7 @@
 ,
 {"Name":"水見色小学校","Jusho":"静岡県静岡市葵区水見色1040-3","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"小布杉分校","Jusho":"静岡県静岡市葵区小布杉1756番地の1","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"中藁科小学校小布杉分校","Jusho":"静岡県静岡市葵区小布杉1756番地の1","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"中藁科こども園","Jusho":"静岡県静岡市葵区大原1237","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -487,8 +489,6 @@
 {"Name":"入江生涯学習交流館","Jusho":"静岡県静岡市清水区入江三丁目8番12号","kouzui":"○","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
 ,
 {"Name":"清水第八中学校","Jusho":"静岡県静岡市清水区追分4-2429","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
-,
-{"Name":"入江こども園","Jusho":"静岡県静岡市清水区入江1-13-15","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"清水浜田小学校","Jusho":"静岡県静岡市清水区浜田町11-1","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -2160,8 +2160,6 @@
 ,
 {"Name":"笠梅公会堂","Jusho":"静岡県磐田市向笠竹之内7-30","kouzui":"×","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"向笠竹之内公会堂","Jusho":"静岡県磐田市向笠竹之内544-5","kouzui":"×","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
-,
 {"Name":"篠原公会堂","Jusho":"静岡県磐田市篠原413-2","kouzui":"×","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"寺谷新田公会堂","Jusho":"静岡県磐田市寺谷新田78-3","kouzui":"×","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
@@ -2235,6 +2233,8 @@
 {"Name":"権現町公会堂","Jusho":"静岡県磐田市見付590-1","kouzui":"×","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"幸町会館","Jusho":"静岡県磐田市見付3581-4","kouzui":"×","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+,
+{"Name":"富丘原新田公会堂","Jusho":"静岡県磐田市富丘887-4","kouzui":"×","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"メルローズⅠ階段踊り場廊下","Jusho":"静岡県磐田市二之宮1137-1","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -2452,11 +2452,11 @@
 ,
 {"Name":"㈱古山鋼材屋上","Jusho":"静岡県磐田市南平松11-3","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"マンションBEY　VIEW階段踊り場廊下","Jusho":"静岡県磐田市福田3407-7","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"マンションBEY　VIEW階段踊り場廊下","Jusho":"静岡県磐田市福田中島3407-7","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"マンションSEA　VIEW階段踊り場廊下","Jusho":"静岡県磐田市福田3408-2","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"マンションSEA　VIEW階段踊り場廊下","Jusho":"静岡県磐田市福田中島3408-2","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"川研ファインケミカル㈱研究棟屋上","Jusho":"静岡県磐田市塩新田582−7","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"川研ファインケミカル㈱研究棟屋上","Jusho":"静岡県磐田市塩新田582-7","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"グループホーム竜洋の家廊下・屋上","Jusho":"静岡県磐田市掛塚1778-2","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -2467,6 +2467,8 @@
 {"Name":"城山中学校","Jusho":"静岡県磐田市見付263-3","kouzui":"○","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"磐田北小学校","Jusho":"静岡県磐田市見付2352","kouzui":"○","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+,
+{"Name":"富士見小学校","Jusho":"静岡県磐田市富士見町4-9-5","kouzui":"○","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"ワークピア磐田","Jusho":"静岡県磐田市見付2989-3","kouzui":"○","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -2524,6 +2526,8 @@
 ,
 {"Name":"豊田北部小学校","Jusho":"静岡県磐田市加茂1026","kouzui":"○","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
+{"Name":"豊田東小学校","Jusho":"静岡県磐田市高見丘57","kouzui":"○","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+,
 {"Name":"豊田中学校","Jusho":"静岡県磐田市加茂243","kouzui":"○","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"豊田南小学校","Jusho":"静岡県磐田市森下300","kouzui":"○","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
@@ -2541,6 +2545,8 @@
 {"Name":"豊岡南部会館","Jusho":"静岡県磐田市掛下1410","kouzui":"×","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"豊岡東交流センター","Jusho":"静岡県磐田市敷地1187-3","kouzui":"○","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+,
+{"Name":"見付交流センター","Jusho":"静岡県磐田市見付2385-10","kouzui":"○","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"中港タワー","Jusho":"静岡県焼津市中港5-463","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -2710,7 +2716,7 @@
 ,
 {"Name":"つくし会館２階","Jusho":"静岡県掛川市長谷433","kouzui":"○","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"立花公園","Jusho":"静岡県掛川市長谷24722","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"立花公園","Jusho":"静岡県掛川市長谷247-2","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"末広公会堂","Jusho":"静岡県掛川市大池778-5","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -2760,7 +2766,7 @@
 ,
 {"Name":"亀の甲公会堂","Jusho":"静岡県掛川市亀の甲1-13-7","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"神代地公民館","Jusho":"静岡県掛川市南2-8-6","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"神代地公民館","Jusho":"静岡県掛川市南2-8-7","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"駅南公園","Jusho":"静岡県掛川市南2-58","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -2988,7 +2994,7 @@
 ,
 {"Name":"西郷小学校２階","Jusho":"静岡県掛川市上西郷2606-2","kouzui":"○","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"美人ケ谷公民館","Jusho":"静岡県掛川市上西郷4029","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"美人ケ谷公民館","Jusho":"静岡県掛川市上西郷4029","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"三笠幼稚園","Jusho":"静岡県掛川市上西郷4116","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -3104,7 +3110,7 @@
 ,
 {"Name":"吉岡公民館","Jusho":"静岡県掛川市吉岡947-1","kouzui":"×","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"大満寺跡地","Jusho":"静岡県掛川市吉岡984","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"大満寺跡地","Jusho":"静岡県掛川市吉岡982","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"大塚古墳公園","Jusho":"静岡県掛川市高田1298-1","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -3174,7 +3180,7 @@
 ,
 {"Name":"成行八幡宮裏山","Jusho":"静岡県掛川市千浜4531","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"お地蔵様（高義神社）","Jusho":"静岡県掛川市千浜4968","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"お地蔵様（高義神社）","Jusho":"静岡県掛川市千浜5029-1","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"国浜コミュニティ防災センター","Jusho":"静岡県掛川市国安741","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -3258,7 +3264,7 @@
 ,
 {"Name":"中地区コミュニティ防災センター","Jusho":"静岡県掛川市中3891-1","kouzui":"×","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"公文公会堂","Jusho":"静岡県掛川市中3313","kouzui":"×","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"公文公会堂","Jusho":"静岡県掛川市中2980","kouzui":"×","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"下方公会堂","Jusho":"静岡県掛川市中3526-1","kouzui":"×","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -3405,6 +3411,12 @@
 {"Name":"家代の里学習館プラザ","Jusho":"静岡県掛川市家代の里二丁目4-1","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"三浦製材所","Jusho":"静岡県掛川市日坂12","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+,
+{"Name":"永源寺","Jusho":"静岡県掛川市各和1925","kouzui":"○","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+,
+{"Name":"上屋敷公会堂","Jusho":"静岡県掛川市大池2300-12","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+,
+{"Name":"大工町公民館","Jusho":"静岡県掛川市横須賀189","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"藤枝地区交流センター","Jusho":"静岡県藤枝市五十海3-12-1","kouzui":"○","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -5262,6 +5274,8 @@
 ,
 {"Name":"三倉小学校","Jusho":"静岡県周智郡森町三倉740","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
 ,
+{"Name":"三倉総合センター","Jusho":"静岡県周智郡森町三倉827-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
+,
 {"Name":"泉陽中学校","Jusho":"静岡県周智郡森町問詰259","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
 ,
 {"Name":"天方小学校","Jusho":"静岡県周智郡森町大鳥居220-2","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
@@ -5270,21 +5284,21 @@
 ,
 {"Name":"森小学校","Jusho":"静岡県周智郡森町森125","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
 ,
-{"Name":"森町総合体育館","Jusho":"静岡県周智郡森町森92-8","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
+{"Name":"森町総合体育館","Jusho":"静岡県周智郡森町森92-8","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
 ,
-{"Name":"遠江総合高校","Jusho":"静岡県周智郡森町森2085","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"遠江総合高等学校","Jusho":"静岡県周智郡森町森2085","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"森町文化会館","Jusho":"静岡県周智郡森町森1485","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
+{"Name":"森町文化会館","Jusho":"静岡県周智郡森町森1485","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
 ,
-{"Name":"一宮総合センター","Jusho":"静岡県周智郡森町一宮1845-10","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
+{"Name":"一宮総合センター","Jusho":"静岡県周智郡森町一宮1845-10","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
 ,
 {"Name":"旭が丘中学校","Jusho":"静岡県周智郡森町谷中556","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
 ,
 {"Name":"宮園小学校","Jusho":"静岡県周智郡森町谷中650","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
 ,
-{"Name":"園田総合センター","Jusho":"静岡県周智郡森町谷中513-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
+{"Name":"園田総合センター","Jusho":"静岡県周智郡森町谷中513-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
 ,
 {"Name":"飯田小学校","Jusho":"静岡県周智郡森町飯田3310-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
 ,
-{"Name":"飯田総合センター","Jusho":"静岡県周智郡森町飯田4040-28","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
+{"Name":"飯田総合センター","Jusho":"静岡県周智郡森町飯田4040-28","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ]

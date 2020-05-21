@@ -2,7 +2,7 @@
 {"Name":"久松小学校 （洪水：２階以上）","Jusho":"鳥取県鳥取市東町2-201","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"},
 {"Name":"北中学校 （洪水：２階以上）","Jusho":"鳥取県鳥取市東町3-371-1","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"久松会館 （久松地区公民館） （久松会館体育館） （洪水：２階以上）","Jusho":"鳥取県鳥取市東町3-371-2","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"久松会館 （久松地区公民館） （久松会館体育館） （洪水：２階以上）","Jusho":"鳥取県鳥取市東町3-371-2","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"醇風小学校 （洪水：２階以上）","Jusho":"鳥取県鳥取市西町5-353","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -42,7 +42,7 @@
 ,
 {"Name":"城北体育館","Jusho":"鳥取県鳥取市丸山町310-1","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"城北地区公民館","Jusho":"鳥取県鳥取市田園町4-223-1","kouzui":"×","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"城北地区公民館","Jusho":"鳥取県鳥取市青葉町3-121-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"城北小学校 （洪水：２階以上）","Jusho":"鳥取県鳥取市田園町4-324","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -68,7 +68,7 @@
 ,
 {"Name":"南中学校 （洪水：２階以上）","Jusho":"鳥取県鳥取市興南町91","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"美保小学校 （洪水：２階以上）","Jusho":"鳥取県鳥取市吉成1-10-25","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"美保小学校 （洪水：３階以上）","Jusho":"鳥取県鳥取市吉成1-10-25","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"美保地区公民館","Jusho":"鳥取県鳥取市吉成2-5-22","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -76,7 +76,7 @@
 ,
 {"Name":"勤労青少年ホーム","Jusho":"鳥取県鳥取市吉成3-1-3","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"美保南小学校 （洪水：３階以上）","Jusho":"鳥取県鳥取市宮長200-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"美保南小学校 （洪水：２階以上）","Jusho":"鳥取県鳥取市宮長200-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"美保南地区公民館 （洪水：２階以上）","Jusho":"鳥取県鳥取市叶286","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -94,17 +94,17 @@
 ,
 {"Name":"倉田地区公民館","Jusho":"鳥取県鳥取市八坂365-2","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"神戸小学校","Jusho":"鳥取県鳥取市中砂見936","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"（旧）神戸小学校","Jusho":"鳥取県鳥取市中砂見936","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"神戸地区公民館","Jusho":"鳥取県鳥取市下砂見751-1","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"江山中学校 （洪水：２階以上）","Jusho":"鳥取県鳥取市倭文65","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"（旧）江山中学校 （洪水：２階以上）","Jusho":"鳥取県鳥取市倭文65","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"大和地区公民館 （洪水：２階以上）","Jusho":"鳥取県鳥取市倭文76-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"大和体育館","Jusho":"鳥取県鳥取市倭文121-2","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"美和小学校 （洪水：２階以上）","Jusho":"鳥取県鳥取市竹生64","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"江山学園 （洪水：２階以上）","Jusho":"鳥取県鳥取市竹生64","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"美穂地区公民館 （洪水：２階以上）","Jusho":"鳥取県鳥取市朝月22","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -134,7 +134,7 @@
 ,
 {"Name":"松保体育館","Jusho":"鳥取県鳥取市里仁560-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"布勢総合運動公園 「コカ・コーラ ボトラーズジャパンスポーツパーク」 （洪水：２階以上）","Jusho":"鳥取県鳥取市布勢146-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"布勢総合運動公園 「コカ・コーラ ボトラーズジャパンスポーツパーク」鳥取県民体育館 （洪水：２階以上）","Jusho":"鳥取県鳥取市布勢146-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"松保地区公民館","Jusho":"鳥取県鳥取市布勢543-3","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -146,9 +146,9 @@
 ,
 {"Name":"湖南地区公民館","Jusho":"鳥取県鳥取市吉岡温泉町894-14","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"末恒体育館","Jusho":"鳥取県鳥取市伏野1986-6","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"末恒体育館","Jusho":"鳥取県鳥取市伏野1986-6","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"末恒地区公民館","Jusho":"鳥取県鳥取市伏野1986-32","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"末恒地区公民館","Jusho":"鳥取県鳥取市伏野1986-32","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"末恒小学校","Jusho":"鳥取県鳥取市伏野2256-61","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -162,7 +162,7 @@
 ,
 {"Name":"湖山小学校","Jusho":"鳥取県鳥取市湖山町南1-656","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"鳥取緑風高等学校（洪水：２階以上）","Jusho":"鳥取県鳥取市湖山町南3-848","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"鳥取緑風高等学校（洪水：２階以上）","Jusho":"鳥取県鳥取市湖山町南3-848","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"湖山地区公民館","Jusho":"鳥取県鳥取市湖山町北1-202-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -194,7 +194,7 @@
 ,
 {"Name":"米里小学校 （洪水：２階以上）","Jusho":"鳥取県鳥取市古郡家75-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"米里地区公民館 （洪水：２階以上）","Jusho":"鳥取県鳥取市古郡家79-4","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"米里地区公民館","Jusho":"鳥取県鳥取市古郡家79-4","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"米里体育館","Jusho":"鳥取県鳥取市古郡家81-4","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -216,15 +216,15 @@
 ,
 {"Name":"大茅体育館","Jusho":"鳥取県鳥取市国府町栃本463","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"成器地区公民館","Jusho":"鳥取県鳥取市国府町中河原68-6","kouzui":"○","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"成器地区公民館","Jusho":"鳥取県鳥取市国府町中河原68-5","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"成器体育館","Jusho":"鳥取県鳥取市国府町中河原69","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"国府東小学校","Jusho":"鳥取県鳥取市国府町谷3","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"谷地区公民館","Jusho":"鳥取県鳥取市国府町糸谷13","kouzui":"○","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"（旧）谷地区公民館","Jusho":"鳥取県鳥取市国府町糸谷13","kouzui":"○","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"国府地区保健センター","Jusho":"鳥取県鳥取市国府町糸谷15-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"谷地区公民館","Jusho":"鳥取県鳥取市国府町糸谷15-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"国府町コミュニティセンター","Jusho":"鳥取県鳥取市国府町庁380","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -252,7 +252,7 @@
 ,
 {"Name":"河原町コミュニティセンター","Jusho":"鳥取県鳥取市河原町渡一木277-1","kouzui":"×","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"河原地区公民館","Jusho":"鳥取県鳥取市河原町長瀬45-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"河原地区公民館（洪水：２階以上）","Jusho":"鳥取県鳥取市河原町長瀬45-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"国英地区公民館（洪水：１階以上）","Jusho":"鳥取県鳥取市河原町山手459-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -260,7 +260,7 @@
 ,
 {"Name":"河原町総合体育館","Jusho":"鳥取県鳥取市河原町曳田20-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"八上地区公民館","Jusho":"鳥取県鳥取市河原町曳田186-21","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"八上地区公民館（洪水：１階以上）","Jusho":"鳥取県鳥取市河原町曳田186-21","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"河原中学校 （洪水：３階以上）","Jusho":"鳥取県鳥取市河原町曳田298","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -314,7 +314,7 @@
 ,
 {"Name":"瑞穂地区公民館 （洪水：２階以上）","Jusho":"鳥取県鳥取市気高町下坂本48-4","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"酒津漁村センター （酒津地区公民館）","Jusho":"鳥取県鳥取市気高町酒津359-1","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"酒津漁村センター （酒津地区公民館）","Jusho":"鳥取県鳥取市気高町酒津359-1","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"宝木地区公民館","Jusho":"鳥取県鳥取市気高町宝木904","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -464,7 +464,7 @@
 ,
 {"Name":"青葉公園","Jusho":"鳥取県鳥取市青葉町3-382-5","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"グランデ公園","Jusho":"鳥取県鳥取市覚寺79-7","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"グランデ公園","Jusho":"鳥取県鳥取市覚寺79-7","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"中ノ郷小学校 （グラウンド）","Jusho":"鳥取県鳥取市円護寺268","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"○","naisui":"×","kazan":"×"}
 ,
@@ -476,7 +476,7 @@
 ,
 {"Name":"北園３号公園","Jusho":"鳥取県鳥取市北園2-24","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"北園妙見公園","Jusho":"鳥取県鳥取市北園2-138","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"北園妙見公園","Jusho":"鳥取県鳥取市北園2-138","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"滝山公共空地","Jusho":"鳥取県鳥取市滝山431-16","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -562,11 +562,11 @@
 ,
 {"Name":"千代川倉田緑地","Jusho":"鳥取県鳥取市円通寺","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"神戸小学校 （グラウンド）","Jusho":"鳥取県鳥取市中砂見936","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"（旧）神戸小学校 （グラウンド）","Jusho":"鳥取県鳥取市中砂見936","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"江山中学校 （グラウンド）","Jusho":"鳥取県鳥取市倭文65","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"（旧）江山中学校 （グラウンド）","Jusho":"鳥取県鳥取市倭文65","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"美和小学校 （グラウンド）","Jusho":"鳥取県鳥取市竹生64","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"江山学園 （グラウンド）","Jusho":"鳥取県鳥取市竹生64","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"○","naisui":"×","kazan":"×"}
 ,
 {"Name":"美穂スポーツ広場","Jusho":"鳥取県鳥取市朝月12-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -596,11 +596,11 @@
 ,
 {"Name":"高住公共空地","Jusho":"鳥取県鳥取市高住725-5","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"湖山池公園 （子どもの遊びゾーン）","Jusho":"鳥取県鳥取市高住","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"湖山池公園 （子どもの遊びゾーン）","Jusho":"鳥取県鳥取市高住","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"○","naisui":"×","kazan":"×"}
 ,
 {"Name":"湖南学園 （グラウンド）","Jusho":"鳥取県鳥取市六反田1-5","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"湖山池公園 （休憩ゾーン）","Jusho":"鳥取県鳥取市金沢","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"湖山池公園 （休憩ゾーン）","Jusho":"鳥取県鳥取市金沢・福井","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"○","naisui":"×","kazan":"×"}
 ,
 {"Name":"(旧)湖南中学校 （グラウンド）","Jusho":"鳥取県鳥取市吉岡温泉町789-1","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -646,7 +646,7 @@
 ,
 {"Name":"湖山町南３公共空地","Jusho":"鳥取県鳥取市湖山町南3-185-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"鳥取緑風高等学校 （グラウンド）","Jusho":"鳥取県鳥取市湖山町南3-848","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"鳥取緑風高等学校 （グラウンド）","Jusho":"鳥取県鳥取市湖山町南3-848","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"○","naisui":"×","kazan":"×"}
 ,
 {"Name":"湖東中学校 （グラウンド）","Jusho":"鳥取県鳥取市湖山町北6-323","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"○","naisui":"×","kazan":"×"}
 ,
@@ -674,7 +674,7 @@
 ,
 {"Name":"南安長２公共空地","Jusho":"鳥取県鳥取市南安長2-14","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"重箱緑地","Jusho":"鳥取県鳥取市浜坂288-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"重箱緑地","Jusho":"鳥取県鳥取市浜坂288-1","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"○","naisui":"×","kazan":"×"}
 ,
 {"Name":"浜坂小学校 （グラウンド）","Jusho":"鳥取県鳥取市浜坂1-14-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"○","naisui":"×","kazan":"×"}
 ,
@@ -732,7 +732,7 @@
 ,
 {"Name":"玉鉾公園","Jusho":"鳥取県鳥取市国府町玉鉾87-13","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"国府地区保健センター （駐車場・ 屋内ふれあい広場）","Jusho":"鳥取県鳥取市国府町糸谷15-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"谷地区公民館 （駐車場・ 屋内ふれあい広場）","Jusho":"鳥取県鳥取市国府町糸谷15-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"高岡運動場","Jusho":"鳥取県鳥取市国府町高岡507-3","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -742,7 +742,7 @@
 ,
 {"Name":"美歎運動場","Jusho":"鳥取県鳥取市国府町美歎350-1","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"国府町コミュニティセンター （駐車場）","Jusho":"鳥取県鳥取市国府町庁380","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"国府町コミュニティセンター （駐車場）","Jusho":"鳥取県鳥取市国府町庁380","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"国府中学校 （グラウンド）","Jusho":"鳥取県鳥取市国府町町屋720","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"○","naisui":"×","kazan":"×"}
 ,
@@ -754,7 +754,7 @@
 ,
 {"Name":"宮ノ下小学校 （グラウンド）","Jusho":"鳥取県鳥取市国府町宮下26","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"国府町宮下公園","Jusho":"鳥取県鳥取市国府町宮下1064","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"国府町宮下公園","Jusho":"鳥取県鳥取市国府町宮下1064","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"国府町いなば公園","Jusho":"鳥取県鳥取市国府町宮下1226","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -786,7 +786,7 @@
 ,
 {"Name":"河原スポーツ広場","Jusho":"鳥取県鳥取市河原町長瀬45-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"千代川河川敷","Jusho":"鳥取県鳥取市河原町袋河原","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"千代川河川敷","Jusho":"鳥取県鳥取市河原町袋河原","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"○","naisui":"×","kazan":"×"}
 ,
 {"Name":"布袋多目的広場","Jusho":"鳥取県鳥取市河原町布袋132-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -812,7 +812,7 @@
 ,
 {"Name":"小畑広場","Jusho":"鳥取県鳥取市河原町小畑458-2","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"金屋農村公園","Jusho":"鳥取県鳥取市用瀬町金屋368","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"金屋農村公園","Jusho":"鳥取県鳥取市用瀬町金屋368","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"社スポーツ広場","Jusho":"鳥取県鳥取市用瀬町宮原84-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -824,7 +824,7 @@
 ,
 {"Name":"屋住運動場","Jusho":"鳥取県鳥取市用瀬町屋住210","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"用瀬小学校 （グラウンド）","Jusho":"鳥取県鳥取市用瀬町用瀬75-1","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"用瀬小学校 （グラウンド）","Jusho":"鳥取県鳥取市用瀬町用瀬75-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"用瀬町総合支所 （駐車場）","Jusho":"鳥取県鳥取市用瀬町用瀬832","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,

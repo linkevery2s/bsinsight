@@ -1,5 +1,5 @@
 ﻿[
-{"Name":"愛宕山老人福祉センター","Jusho":"岩手県盛岡市愛宕下14","kouzui":"○","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"},
+{"Name":"愛宕山老人福祉センター","Jusho":"岩手県盛岡市愛宕町14-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"},
 {"Name":"仁王小学校体育館 （大規模火災時は屋外運動場）","Jusho":"岩手県盛岡市本町通2-18-1","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
 ,
 {"Name":"盛岡城跡公園(岩手公園）","Jusho":"岩手県盛岡市内丸1-37","kouzui":"○","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
@@ -192,7 +192,7 @@
 ,
 {"Name":"太田地区活動センター","Jusho":"岩手県盛岡市中太田深持9","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"繋小・中学校体育館 （大規模火災時は屋外運動場）","Jusho":"岩手県盛岡市繋字舘市114-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"繋小学校体育館 （大規模火災時は屋外運動場）","Jusho":"岩手県盛岡市繋字舘市114-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
 {"Name":"つなぎ地区活動センター","Jusho":"岩手県盛岡市繋字堂ヶ沢36-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -230,7 +230,7 @@
 ,
 {"Name":"飯岡中学校体育館 （大規模火災時は屋外運動場）","Jusho":"岩手県盛岡市下飯岡6-51-1","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"上飯岡児童センター","Jusho":"岩手県盛岡市上飯岡16-26","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"飯岡児童センター","Jusho":"岩手県盛岡市下飯岡11-321","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"羽場小学校体育館 （大規模火災時は屋外運動場）","Jusho":"岩手県盛岡市羽場17-55-2","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
@@ -271,6 +271,8 @@
 {"Name":"湯沢中央公園","Jusho":"岩手県盛岡市湯沢東1-1","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
 {"Name":"湯沢地域交流活性化センター","Jusho":"岩手県盛岡市湯沢西三丁目４-14","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+,
+{"Name":"永井地域交流活性化センター","Jusho":"岩手県盛岡市永井23-14-1","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"勤労福祉会館","Jusho":"岩手県盛岡市紺屋町2-9","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
 ,

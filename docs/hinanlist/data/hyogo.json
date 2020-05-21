@@ -1662,9 +1662,11 @@
 ,
 {"Name":"（市立）小田中学校","Jusho":"兵庫県尼崎市長洲中通1-10-1","kouzui":"○","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
 ,
-{"Name":"尼崎市立中央北生涯学習プラザ","Jusho":"兵庫県尼崎市東難波町2-14-1","kouzui":"○","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
+{"Name":"（市立）中央北生涯学習プラザ","Jusho":"兵庫県尼崎市東難波町2-14-1","kouzui":"○","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
 ,
-{"Name":"尼崎市立大庄北生涯学習プラザ","Jusho":"兵庫県尼崎市大島3-9-25","kouzui":"○","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
+{"Name":"（市立）大庄北生涯学習プラザ","Jusho":"兵庫県尼崎市大島3-9-25","kouzui":"○","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
+,
+{"Name":"（市立）武庫西生涯学習プラザ","Jusho":"兵庫県尼崎市武庫の里1-13-29","kouzui":"○","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
 ,
 {"Name":"朝霧中学校","Jusho":"兵庫県明石市大蔵谷奥4-1","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"×"}
 ,
@@ -4718,8 +4720,6 @@
 ,
 {"Name":"福良波止の浜公園","Jusho":"兵庫県南あわじ市福良乙1652-1","kouzui":"×","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"福良児童公園","Jusho":"兵庫県南あわじ市福良甲512-2","kouzui":"×","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
-,
 {"Name":"賀集八幡公園","Jusho":"兵庫県南あわじ市賀集八幡698-1","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
 ,
 {"Name":"潮美台西公園","Jusho":"兵庫県南あわじ市潮美台1-27","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"×"}
@@ -4745,6 +4745,10 @@
 {"Name":"伊賀野公園","Jusho":"兵庫県南あわじ市北阿万伊賀野575-9","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
 {"Name":"沼島緑地おのころ公園","Jusho":"兵庫県南あわじ市沼島753-1","kouzui":"×","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+,
+{"Name":"国立淡路青少年交流の家　つどいの広場","Jusho":"兵庫県南あわじ市阿万塩屋町737-39","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"×"}
+,
+{"Name":"国立淡路青少年交流の家　職員宿舎敷地","Jusho":"兵庫県南あわじ市阿万西町569-1","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"×"}
 ,
 {"Name":"兵庫県立津名高等学校運動場","Jusho":"兵庫県淡路市志筑249-1","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"×"}
 ,
@@ -5170,127 +5174,135 @@
 ,
 {"Name":"兵庫県立東播磨高等学校 （グラウンド）","Jusho":"兵庫県加古郡稲美町中一色594-2","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
 ,
-{"Name":"城西公園","Jusho":"兵庫県加古郡播磨町野添城2-68","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
+{"Name":"城西公園","Jusho":"兵庫県播磨町野添城2-68","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
 ,
-{"Name":"城東公園","Jusho":"兵庫県加古郡播磨町野添城1-36","kouzui":"×","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
+{"Name":"城東公園","Jusho":"兵庫県播磨町野添城1-36","kouzui":"×","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
 ,
-{"Name":"宮の裏公園","Jusho":"兵庫県加古郡播磨町上野添2-1844","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
+{"Name":"宮の裏公園","Jusho":"兵庫県播磨町上野添2-1844","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
 ,
-{"Name":"駅西公園","Jusho":"兵庫県加古郡播磨町北野添2-1590","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
+{"Name":"駅西公園","Jusho":"兵庫県播磨町北野添2-1590","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
 ,
-{"Name":"鹿ノ川東公園","Jusho":"兵庫県加古郡播磨町東野添2-36","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
+{"Name":"鹿ノ川東公園","Jusho":"兵庫県播磨町東野添2-36","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
 ,
-{"Name":"北池広場","Jusho":"兵庫県加古郡播磨町東野添3-696-86","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
+{"Name":"北池広場","Jusho":"兵庫県播磨町東野添3-696-86","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
 ,
-{"Name":"鹿ノ川公園","Jusho":"兵庫県加古郡播磨町西野添1-130","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
+{"Name":"鹿ノ川公園","Jusho":"兵庫県播磨町西野添1-130","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
 ,
-{"Name":"瓜生公園","Jusho":"兵庫県加古郡播磨町西野添2-62","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
+{"Name":"瓜生公園","Jusho":"兵庫県播磨町西野添2-62","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
 ,
-{"Name":"蓮池公園","Jusho":"兵庫県加古郡播磨町西野添4-68","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
+{"Name":"蓮池公園","Jusho":"兵庫県播磨町西野添4-68","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
 ,
-{"Name":"大西東公園","Jusho":"兵庫県加古郡播磨町西野添3-122","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
+{"Name":"大西東公園","Jusho":"兵庫県播磨町西野添3-122","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
 ,
-{"Name":"大西公園","Jusho":"兵庫県加古郡播磨町西野添5-178","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
+{"Name":"大西公園","Jusho":"兵庫県播磨町西野添5-178","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
 ,
-{"Name":"大中公園","Jusho":"兵庫県加古郡播磨町大中2-252-1","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
+{"Name":"大中公園","Jusho":"兵庫県播磨町大中2-252-1","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
 ,
-{"Name":"田中公園","Jusho":"兵庫県加古郡播磨町南野添2-60","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
+{"Name":"田中公園","Jusho":"兵庫県播磨町南野添2-60","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
 ,
-{"Name":"古田公園","Jusho":"兵庫県加古郡播磨町古田2-460-3","kouzui":"×","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"古田公園","Jusho":"兵庫県播磨町古田2-460-3","kouzui":"×","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"古田西公園","Jusho":"兵庫県加古郡播磨町古田3-1181-4","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"古田西公園","Jusho":"兵庫県播磨町古田3-1181-4","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"二子北公園","Jusho":"兵庫県加古郡播磨町二子533-2","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
+{"Name":"二子北公園","Jusho":"兵庫県播磨町二子533-2","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
 ,
-{"Name":"長池公園","Jusho":"兵庫県加古郡播磨町二子417-1","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
+{"Name":"長池公園","Jusho":"兵庫県播磨町二子417-1","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
 ,
-{"Name":"向ヶ池公園","Jusho":"兵庫県加古郡播磨町東本荘1-350-10","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
+{"Name":"向ヶ池公園","Jusho":"兵庫県播磨町東本荘1-350-10","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
 ,
-{"Name":"川端公園","Jusho":"兵庫県加古郡播磨町南大中2-110-5","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
+{"Name":"川端公園","Jusho":"兵庫県播磨町南大中2-110-5","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
 ,
-{"Name":"宮北公園","Jusho":"兵庫県加古郡播磨町宮北3-473-5","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"宮北公園","Jusho":"兵庫県播磨町宮北3-473-5","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"平松公園","Jusho":"兵庫県加古郡播磨町北本荘3-940-2","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
+{"Name":"平松公園","Jusho":"兵庫県播磨町北本荘3-940-2","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
 ,
-{"Name":"水田川西公園","Jusho":"兵庫県加古郡播磨町宮西1-101-1","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"水田川西公園","Jusho":"兵庫県播磨町宮西1-101-1","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"宮西公園","Jusho":"兵庫県加古郡播磨町宮西2-61-2","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"宮西公園","Jusho":"兵庫県播磨町宮西2-61-2","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"新島中央公園","Jusho":"兵庫県加古郡播磨町新島46-1","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
+{"Name":"新島中央公園","Jusho":"兵庫県播磨町新島46-1","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
 ,
-{"Name":"浜田公園 （自由広場）","Jusho":"兵庫県加古郡播磨町本荘70-1","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
+{"Name":"浜田公園 （自由広場）","Jusho":"兵庫県播磨町本荘70-1","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
 ,
-{"Name":"野添北公園","Jusho":"兵庫県加古郡播磨町上野添2-1900","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"×"}
+{"Name":"野添北公園","Jusho":"兵庫県播磨町上野添2-1900","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"×"}
 ,
-{"Name":"大中遺跡公園","Jusho":"兵庫県加古郡播磨町大中1-387-1","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"×"}
+{"Name":"大中遺跡公園","Jusho":"兵庫県播磨町大中1-387-1","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"×"}
 ,
-{"Name":"エバーホテルはりま加古川 （1Fロビー）","Jusho":"兵庫県加古郡播磨町南野添3-1-1","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"エバーホテルはりま加古川 （1Fロビー）","Jusho":"兵庫県播磨町南野添3-1-1","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"播磨小学校 （校舎3F以上）","Jusho":"兵庫県加古郡播磨町宮北1-3-10","kouzui":"○","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
+{"Name":"播磨小学校 （校舎3F以上）","Jusho":"兵庫県播磨町宮北1-3-10","kouzui":"○","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
 ,
-{"Name":"播磨西小学校 （校舎3F以上）","Jusho":"兵庫県加古郡播磨町北本荘4-5-1","kouzui":"○","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
+{"Name":"播磨西小学校 （校舎3F以上）","Jusho":"兵庫県播磨町北本荘4-5-1","kouzui":"○","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
 ,
-{"Name":"播磨南小学校 （校舎3F以上）","Jusho":"兵庫県加古郡播磨町古宮5-11-10","kouzui":"○","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
+{"Name":"播磨南小学校 （校舎3F以上）","Jusho":"兵庫県播磨町古宮5-11-10","kouzui":"○","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
 ,
-{"Name":"播磨南中学校 （校舎3F以上）","Jusho":"兵庫県加古郡播磨町古宮5-10-1","kouzui":"○","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
+{"Name":"播磨南中学校 （校舎3F以上）","Jusho":"兵庫県播磨町古宮5-10-1","kouzui":"○","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
 ,
-{"Name":"セフレ播磨 （3F以上）","Jusho":"兵庫県加古郡播磨町南野添3-10-11","kouzui":"○","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
+{"Name":"セフレ播磨 （3F以上）","Jusho":"兵庫県播磨町南野添3-10-11","kouzui":"○","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
 ,
-{"Name":"サンシティ本荘壱番館 （3F以上）","Jusho":"兵庫県加古郡播磨町南野添3-5-1","kouzui":"○","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
+{"Name":"サンシティ本荘壱番館 （3F以上）","Jusho":"兵庫県播磨町南野添3-5-1","kouzui":"○","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
 ,
-{"Name":"サンシティ本荘弐番館 （3F以上）","Jusho":"兵庫県加古郡播磨町南野添3-5-2","kouzui":"○","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
+{"Name":"サンシティ本荘弐番館 （3F以上）","Jusho":"兵庫県播磨町南野添3-5-2","kouzui":"○","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
 ,
-{"Name":"エバーホテルはりま加古川 （3F以上）","Jusho":"兵庫県加古郡播磨町南野添3-1-1","kouzui":"○","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
+{"Name":"エバーホテルはりま加古川 （3F以上）","Jusho":"兵庫県播磨町南野添3-1-1","kouzui":"○","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
 ,
-{"Name":"播磨町塵芥処理センター （2F以上）","Jusho":"兵庫県加古郡播磨町新島59","kouzui":"×","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
+{"Name":"播磨町塵芥処理センター （2F以上）","Jusho":"兵庫県播磨町新島59","kouzui":"×","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
 ,
-{"Name":"加古郡衛生センター （2F以上）","Jusho":"兵庫県加古郡播磨町新島60","kouzui":"×","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
+{"Name":"加古郡衛生センター （2F以上）","Jusho":"兵庫県播磨町新島60","kouzui":"×","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
 ,
-{"Name":"播磨小学校 （グラウンド）","Jusho":"兵庫県加古郡播磨町宮北1-3-10","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
+{"Name":"播磨小学校 （グラウンド）","Jusho":"兵庫県播磨町宮北1-3-10","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
 ,
-{"Name":"蓮池小学校 （グラウンド）","Jusho":"兵庫県加古郡播磨町西野添4-3-1","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"×"}
+{"Name":"蓮池小学校 （グラウンド）","Jusho":"兵庫県播磨町西野添4-3-1","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"×"}
 ,
-{"Name":"播磨西小学校 （グラウンド）","Jusho":"兵庫県加古郡播磨町北本荘4-5-1","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
+{"Name":"播磨西小学校 （グラウンド）","Jusho":"兵庫県播磨町北本荘4-5-1","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
 ,
-{"Name":"播磨南小学校 （グラウンド）","Jusho":"兵庫県加古郡播磨町古宮5-11-10","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
+{"Name":"播磨南小学校 （グラウンド）","Jusho":"兵庫県播磨町古宮5-11-10","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
 ,
-{"Name":"播磨中学校 （グラウンド）","Jusho":"兵庫県加古郡播磨町南大中1-6-50","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"×"}
+{"Name":"播磨中学校 （グラウンド）","Jusho":"兵庫県播磨町南大中1-6-50","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"×"}
 ,
-{"Name":"播磨南中学校 （グラウンド）","Jusho":"兵庫県加古郡播磨町古宮5-10-1","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
+{"Name":"播磨南中学校 （グラウンド）","Jusho":"兵庫県播磨町古宮5-10-1","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
 ,
-{"Name":"県立東はりま特別支援学校 （グラウンド）","Jusho":"兵庫県加古郡播磨町北古田1-17-17","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
+{"Name":"県立東はりま特別支援学校 （グラウンド）","Jusho":"兵庫県播磨町北古田1-17-17","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
 ,
-{"Name":"播磨小学校 （校舎・体育館）","Jusho":"兵庫県加古郡播磨町宮北1-3-10","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
+{"Name":"播磨小学校 （校舎・体育館）","Jusho":"兵庫県播磨町宮北1-3-10","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
 ,
-{"Name":"蓮池小学校 （校舎・体育館）","Jusho":"兵庫県加古郡播磨町西野添4-3-1","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
+{"Name":"蓮池小学校 （校舎・体育館）","Jusho":"兵庫県播磨町西野添4-3-1","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
 ,
-{"Name":"播磨西小学校 （校舎・体育館）","Jusho":"兵庫県加古郡播磨町北本荘4-5-1","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
+{"Name":"播磨西小学校 （校舎・体育館）","Jusho":"兵庫県播磨町北本荘4-5-1","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
 ,
-{"Name":"播磨南小学校 （校舎・体育館）","Jusho":"兵庫県加古郡播磨町古宮5-11-10","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
+{"Name":"播磨南小学校 （校舎・体育館）","Jusho":"兵庫県播磨町古宮5-11-10","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
 ,
-{"Name":"播磨中学校 （校舎・体育館）","Jusho":"兵庫県加古郡播磨町南大中1-6-50","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
+{"Name":"播磨中学校 （校舎・体育館）","Jusho":"兵庫県播磨町南大中1-6-50","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
 ,
-{"Name":"播磨南中学校 （校舎・体育館）","Jusho":"兵庫県加古郡播磨町古宮5-10-1","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
+{"Name":"播磨南中学校 （校舎・体育館）","Jusho":"兵庫県播磨町古宮5-10-1","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
 ,
-{"Name":"県立東はりま特別支援学校 （校舎・体育館）","Jusho":"兵庫県加古郡播磨町北古田1-17-17","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
+{"Name":"県立東はりま特別支援学校 （校舎・体育館）","Jusho":"兵庫県播磨町北古田1-17-17","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
 ,
-{"Name":"県立播磨南高等学校 （体育館）","Jusho":"兵庫県加古郡播磨町古宮4-3-1","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
+{"Name":"県立播磨南高等学校 （体育館）","Jusho":"兵庫県播磨町古宮4-3-1","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
 ,
-{"Name":"中央公民館","Jusho":"兵庫県加古郡播磨町東本荘1-5-40","kouzui":"○","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
+{"Name":"中央公民館","Jusho":"兵庫県播磨町東本荘1-5-40","kouzui":"○","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
 ,
-{"Name":"東部コミュニティセンター","Jusho":"兵庫県加古郡播磨町二子418-3","kouzui":"○","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
+{"Name":"東部コミュニティセンター","Jusho":"兵庫県播磨町二子418-3","kouzui":"○","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
 ,
-{"Name":"西部コミュニティセンター","Jusho":"兵庫県加古郡播磨町古田1-1-11","kouzui":"○","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
+{"Name":"西部コミュニティセンター","Jusho":"兵庫県播磨町古田1-1-11","kouzui":"○","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
 ,
-{"Name":"野添コミュニティセンター","Jusho":"兵庫県加古郡播磨町西野添1-14-17","kouzui":"○","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
+{"Name":"野添コミュニティセンター","Jusho":"兵庫県播磨町西野添1-14-17","kouzui":"○","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
 ,
-{"Name":"南部コミュニティセンター","Jusho":"兵庫県加古郡播磨町北本荘2-6-30","kouzui":"○","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
+{"Name":"南部コミュニティセンター","Jusho":"兵庫県播磨町北本荘2-6-30","kouzui":"○","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
 ,
-{"Name":"北池公園","Jusho":"兵庫県加古郡播磨町東野添3-696-49","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
+{"Name":"北池公園","Jusho":"兵庫県播磨町東野添3-696-49","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
 ,
-{"Name":"土山駅南ガーデンプラザ","Jusho":"兵庫県加古郡播磨町北野添2-1604-6","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
+{"Name":"土山駅南ガーデンプラザ","Jusho":"兵庫県播磨町北野添2-1604-6","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
 ,
-{"Name":"BiVi土山 （であいの広場、2F通路）","Jusho":"兵庫県加古郡播磨町北野添2-1-2","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"BiVi土山 （であいの広場、2F通路）","Jusho":"兵庫県播磨町北野添2-1-2","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+,
+{"Name":"石ヶ池公園","Jusho":"兵庫県播磨町北本荘4-477","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
+,
+{"Name":"住友精化株式会社グラウンド","Jusho":"兵庫県播磨町宮西3-1326-3","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+,
+{"Name":"住友精化株式会社テニスコート","Jusho":"兵庫県播磨町宮西3-1326-10","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+,
+{"Name":"住友精化株式会社 コミュニケーションセンターURUOI館","Jusho":"兵庫県播磨町本荘4-11-36","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"就業改善センター","Jusho":"兵庫県神崎郡市川町西川辺177","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,

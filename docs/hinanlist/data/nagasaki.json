@@ -3386,8 +3386,6 @@
 ,
 {"Name":"土井ノ浦地区集会所","Jusho":"長崎県南松浦郡新上五島町若松郷833番地2地先","kouzui":"○","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
 ,
-{"Name":"佐尾地区集会所","Jusho":"長崎県南松浦郡新上五島町桐古里郷44番地1","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
-,
 {"Name":"桐古里集会所","Jusho":"長崎県南松浦郡新上五島町桐古里郷429番地1","kouzui":"○","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
 ,
 {"Name":"築地地区集会所","Jusho":"長崎県南松浦郡新上五島町宿ノ浦郷66番地","kouzui":"○","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
@@ -3488,8 +3486,6 @@
 ,
 {"Name":"浜ノ浦児童館","Jusho":"長崎県南松浦郡新上五島町続浜ノ浦郷406番地10","kouzui":"×","gake":"○","takashio":"○","jishin":"×","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
 ,
-{"Name":"飯ノ瀬戸公民館","Jusho":"長崎県南松浦郡新上五島町飯ノ瀬戸郷182番地3","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
-,
 {"Name":"上五島石油備蓄記念会館","Jusho":"長崎県南松浦郡新上五島町青方郷1549番地6","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
 ,
 {"Name":"青方小学校体育館","Jusho":"長崎県南松浦郡新上五島町青方郷1460番地1","kouzui":"×","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
@@ -3519,8 +3515,6 @@
 {"Name":"似首公民館","Jusho":"長崎県南松浦郡新上五島町似首郷373番地10","kouzui":"○","gake":"×","takashio":"○","jishin":"×","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
 ,
 {"Name":"小串公民館","Jusho":"長崎県南松浦郡新上五島町小串郷420番地3","kouzui":"○","gake":"○","takashio":"○","jishin":"×","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
-,
-{"Name":"上小串公民館","Jusho":"長崎県南松浦郡新上五島町小串郷1596番地2","kouzui":"○","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
 ,
 {"Name":"新魚目高齢者生活福祉センターやすらぎの里","Jusho":"長崎県南松浦郡新上五島町小串郷1448番地","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
 ,
@@ -3553,8 +3547,6 @@
 {"Name":"北魚目体育館","Jusho":"長崎県南松浦郡新上五島町小串郷770番地","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
 ,
 {"Name":"北魚目小学校体育館","Jusho":"長崎県南松浦郡新上五島町小串郷1665番地","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
-,
-{"Name":"仲知体育館","Jusho":"長崎県南松浦郡新上五島町津和崎郷892番地","kouzui":"○","gake":"○","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
 ,
 {"Name":"津和崎体育館","Jusho":"長崎県南松浦郡新上五島町津和崎郷476番地","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
 ,

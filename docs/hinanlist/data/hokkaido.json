@@ -1298,15 +1298,13 @@
 ,
 {"Name":"ラビスタ函館ベイ","Jusho":"北海道函館市豊川町12-6","kouzui":"×","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"ホテルショコラ函館","Jusho":"北海道函館市大手町1-1","kouzui":"×","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
-,
 {"Name":"市営旭町団地","Jusho":"北海道函館市旭町1-14","kouzui":"×","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"道営住宅旭森団地１号棟","Jusho":"北海道函館市旭町8-1","kouzui":"×","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"あさひ小学校","Jusho":"北海道函館市大森町6-11","kouzui":"×","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
-,
 {"Name":"函館市役所","Jusho":"北海道函館市東雲町4-13","kouzui":"×","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+,
+{"Name":"あさひ小学校","Jusho":"北海道函館市大森町6-11","kouzui":"×","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"ホテル函館ロイヤル","Jusho":"北海道函館市大森町16-9","kouzui":"×","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -1320,7 +1318,7 @@
 ,
 {"Name":"コンフォートホテル函館","Jusho":"北海道函館市若松町16-3","kouzui":"×","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"ホテルグランティア函館駅前","Jusho":"北海道函館市若松町21-3","kouzui":"×","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"ルートイングランティア函館駅前","Jusho":"北海道函館市若松町21-3","kouzui":"×","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"函館中央郵便局","Jusho":"北海道函館市新川町1-6","kouzui":"×","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -1338,7 +1336,7 @@
 ,
 {"Name":"ビジネスホテルよしずみ","Jusho":"北海道函館市松川町6-12","kouzui":"×","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"ハイツチャフル","Jusho":"北海道函館市万代町11-20","kouzui":"×","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"ハイツチャフル","Jusho":"北海道函館市万代町11-1","kouzui":"×","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"市営松川団地1","Jusho":"北海道函館市松川町30-1","kouzui":"×","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -1352,7 +1350,7 @@
 ,
 {"Name":"真宗大谷派萬年寺","Jusho":"北海道函館市万代町7-22","kouzui":"×","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"北海道ガス株式会社函館支店","Jusho":"北海道函館市万代町8","kouzui":"×","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"北海道ガス株式会社函館支店","Jusho":"北海道函館市万代町8-1","kouzui":"×","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"万年橋小学校","Jusho":"北海道函館市吉川町6-22","kouzui":"×","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -1376,7 +1374,7 @@
 ,
 {"Name":"エスセーナ港町","Jusho":"北海道函館市港町1丁目26-1","kouzui":"×","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"市営港２丁目団地１号棟","Jusho":"北海道函館市港町2丁目7","kouzui":"×","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"市営港２丁目団地１号棟","Jusho":"北海道函館市港町2丁目7-1","kouzui":"×","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"市営港２丁目団地２号棟","Jusho":"北海道函館市港町2丁目7-2","kouzui":"×","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -1396,8 +1394,6 @@
 ,
 {"Name":"巴中学校（旧的場中学校）","Jusho":"北海道函館市的場町12-7","kouzui":"×","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"千代ヶ岱小学校","Jusho":"北海道函館市千代台町10-7","kouzui":"×","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
-,
 {"Name":"函館中部高等学校","Jusho":"北海道函館市時任町11-3","kouzui":"×","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"中島小学校","Jusho":"北海道函館市中島町30-5","kouzui":"×","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
@@ -1410,7 +1406,7 @@
 ,
 {"Name":"梁川公園","Jusho":"北海道函館市梁川町24","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"遺愛アリーナ","Jusho":"北海道函館市杉並町23-11","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"遺愛アリーナ（遺愛学院体育館）","Jusho":"北海道函館市杉並町23-11","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"柏野小学校","Jusho":"北海道函館市松陰町5-10","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -1420,7 +1416,7 @@
 ,
 {"Name":"函館工業高等学校","Jusho":"北海道函館市川原町5-13","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"金堀小学校","Jusho":"北海道函館市金堀町3-1","kouzui":"×","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"大森浜小学校（旧金堀小学校）","Jusho":"北海道函館市金堀町3-1","kouzui":"×","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"駒場小学校","Jusho":"北海道函館市駒場町1-6","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -1458,6 +1454,8 @@
 ,
 {"Name":"函館アリーナ","Jusho":"北海道函館市湯川町1丁目32-2","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
+{"Name":"函館市民会館","Jusho":"北海道函館市湯川町1丁目32-1","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+,
 {"Name":"高丘小学校","Jusho":"北海道函館市高丘町3-2","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"函館工業高等専門学校","Jusho":"北海道函館市戸倉町14-1","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
@@ -1466,9 +1464,9 @@
 ,
 {"Name":"見晴公園　※広域","Jusho":"北海道函館市見晴町56","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"上湯川小学校","Jusho":"北海道函館市上湯川町295","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
-,
 {"Name":"緑のセンター（見晴公園内）","Jusho":"北海道函館市見晴町56","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+,
+{"Name":"上湯川小学校","Jusho":"北海道函館市上湯川町295","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"高松町会館","Jusho":"北海道函館市高松町505-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -1481,8 +1479,6 @@
 {"Name":"旭岡小学校","Jusho":"北海道函館市西旭岡町1丁目33-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"旭岡中学校","Jusho":"北海道函館市西旭岡町3丁目5","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
-,
-{"Name":"亀尾小学校","Jusho":"北海道函館市亀尾町28","kouzui":"×","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"鱒川小・中学校","Jusho":"北海道函館市鱒川町91","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -1546,6 +1542,8 @@
 ,
 {"Name":"亀田中学校","Jusho":"北海道函館市美原3丁目30-3","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
+{"Name":"函館市亀田交流プラザ","Jusho":"北海道函館市美原1丁目26-12","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+,
 {"Name":"石川公園","Jusho":"北海道函館市石川町5-65","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"鍛神小学校","Jusho":"北海道函館市鍛治2丁目46-4","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
@@ -1580,19 +1578,19 @@
 ,
 {"Name":"汐首神社境内","Jusho":"北海道函館市汐首町362","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
+{"Name":"瀬田来町26番地裏 高台　(退避スペース）","Jusho":"北海道函館市瀬田来町26付近","kouzui":"×","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+,
 {"Name":"瀬田来会館","Jusho":"北海道函館市瀬田来町325","kouzui":"×","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"瀬田来神社境内","Jusho":"北海道函館市瀬田来町370-1","kouzui":"×","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"日新中学校（体育館）","Jusho":"北海道函館市泊町126","kouzui":"×","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"瀬田来町26番地裏 高台　(退避スペース）","Jusho":"北海道函館市瀬田来町26付近","kouzui":"×","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"泊町16番地裏 高台　(市道泊・館町線）","Jusho":"北海道函館市泊町16付近","kouzui":"×","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"宮川神社境内","Jusho":"北海道函館市浜町630","kouzui":"×","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"戸井生涯学習センター","Jusho":"北海道函館市浜町366-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
-,
-{"Name":"泊町16番地裏 高台　(市道泊・館町線）","Jusho":"北海道函館市泊町16付近","kouzui":"×","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"新二見町12番地裏 高台(憩いの丘公園）","Jusho":"北海道函館市新二見町15付近","kouzui":"×","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -1604,25 +1602,17 @@
 ,
 {"Name":"日浦会館","Jusho":"北海道函館市日浦町82","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"高岸寺","Jusho":"北海道函館市豊浦町208","kouzui":"×","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
-,
-{"Name":"尻岸内八幡神社","Jusho":"北海道函館市大澗町194","kouzui":"×","gake":"○","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
-,
 {"Name":"日浦町90番地裏 高台　(退避スペース）","Jusho":"北海道函館市日浦町90付近","kouzui":"×","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"豊浦町18番地裏 高台　(市道豊浦線）","Jusho":"北海道函館市豊浦町18付近","kouzui":"×","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"恵山町635番地裏 高台(市道中野桑原2号線）","Jusho":"北海道函館市恵山町635付近","kouzui":"×","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"高岸寺","Jusho":"北海道函館市豊浦町208","kouzui":"×","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+,
+{"Name":"尻岸内八幡神社","Jusho":"北海道函館市大澗町194","kouzui":"×","gake":"○","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"尻岸内会館","Jusho":"北海道函館市大澗町146-2","kouzui":"×","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"中浜会館","Jusho":"北海道函館市中浜町101-5","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
-,
-{"Name":"女那川町52番地裏 高台　(退避スペース）","Jusho":"北海道函館市女那川町52付近","kouzui":"×","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
-,
-{"Name":"女那川町85番地裏 高台　(退避スペース）","Jusho":"北海道函館市女那川町85付近","kouzui":"×","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
-,
-{"Name":"女那川町91番地裏 高台　(退避スペース）","Jusho":"北海道函館市女那川町91付近","kouzui":"×","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"えさん小学校","Jusho":"北海道函館市中浜町79","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"○"}
 ,
@@ -1630,9 +1620,15 @@
 ,
 {"Name":"女那川会館","Jusho":"北海道函館市女那川町1","kouzui":"×","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"恵山コミュニティセンター","Jusho":"北海道函館市日ノ浜町154","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"○"}
+{"Name":"女那川町52番地裏 高台　(退避スペース）","Jusho":"北海道函館市女那川町52付近","kouzui":"×","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+,
+{"Name":"女那川町85番地裏 高台　(退避スペース）","Jusho":"北海道函館市女那川町85付近","kouzui":"×","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+,
+{"Name":"女那川町91番地裏 高台　(退避スペース）","Jusho":"北海道函館市女那川町91付近","kouzui":"×","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"恵山クリーンセンター","Jusho":"北海道函館市高岱町428-1","kouzui":"×","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+,
+{"Name":"恵山コミュニティセンター","Jusho":"北海道函館市日ノ浜町154","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"○"}
 ,
 {"Name":"高聖寺","Jusho":"北海道函館市古武井町222","kouzui":"×","gake":"○","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -1644,17 +1640,37 @@
 ,
 {"Name":"禅龍寺","Jusho":"北海道函館市恵山町451-2","kouzui":"×","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
+{"Name":"恵山町635番地裏 高台(市道中野桑原2号線）","Jusho":"北海道函館市恵山町635付近","kouzui":"×","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+,
 {"Name":"御崎会館","Jusho":"北海道函館市恵山町663-2","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"古部町423番地裏　高台（退避スペース）","Jusho":"北海道函館市古部町270-2","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"ホテル恵風","Jusho":"北海道函館市恵山岬町61-2","kouzui":"×","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+,
+{"Name":"元村町32番地裏　高台　(退避スペース）","Jusho":"北海道函館市元村町32付近","kouzui":"×","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+,
+{"Name":"富浦町126番地裏 高台　(退避スペース）","Jusho":"北海道函館市富浦町126付近","kouzui":"×","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+,
+{"Name":"新八幡町会館","Jusho":"北海道函館市新八幡町71-1","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+,
+{"Name":"椴法華小学校","Jusho":"北海道函館市新八幡町86-1","kouzui":"×","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"○"}
+,
+{"Name":"椴法華総合センター","Jusho":"北海道函館市新浜町156-1","kouzui":"×","gake":"○","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"○"}
+,
+{"Name":"椴法華中学校","Jusho":"北海道函館市新浜町151-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+,
+{"Name":"銚子会館","Jusho":"北海道函館市銚子町46-2","kouzui":"×","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+,
+{"Name":"銚子町94番地裏 高台　(退避スペース）","Jusho":"北海道函館市銚子町94付近","kouzui":"×","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+,
+{"Name":"古部町423番地裏　高台（退避スペース）","Jusho":"北海道函館市古部町270-2","kouzui":"×","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"古部会館","Jusho":"北海道函館市古部町422","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"尾札部町28番地裏 高台　(見日林道）","Jusho":"北海道函館市尾札部町28付近","kouzui":"×","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"尾札部中学校（体育館）","Jusho":"北海道函館市尾札部町2023","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"○"}
-,
 {"Name":"尾札部町119番地裏 高台　(見日林道）","Jusho":"北海道函館市尾札部町119付近","kouzui":"×","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+,
+{"Name":"尾札部中学校（体育館）","Jusho":"北海道函館市尾札部町2023","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"○"}
 ,
 {"Name":"磨光小学校","Jusho":"北海道函館市尾札部町1609-1","kouzui":"×","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"○"}
 ,
@@ -1672,9 +1688,13 @@
 ,
 {"Name":"安浦稲荷神社境内","Jusho":"北海道函館市安浦町302","kouzui":"×","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
+{"Name":"臼尻町60番地裏 高台(尾札部バイパス）","Jusho":"北海道函館市臼尻町60付近","kouzui":"×","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+,
 {"Name":"臼尻小学校","Jusho":"北海道函館市臼尻町595","kouzui":"×","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"南茅部スポーツセンター","Jusho":"北海道函館市臼尻町604-1","kouzui":"×","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+,
+{"Name":"豊崎町79番地裏 高台　(退避スペース）","Jusho":"北海道函館市豊崎町258付近","kouzui":"×","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"臼尻中学校（校舎）","Jusho":"北海道函館市豊崎町205","kouzui":"×","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -1682,33 +1702,11 @@
 ,
 {"Name":"南かやべ保養センター","Jusho":"北海道函館市大船町832-1","kouzui":"×","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"臼尻町60番地裏 高台(尾札部バイパス）","Jusho":"北海道函館市臼尻町60付近","kouzui":"×","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
-,
-{"Name":"豊崎町79番地裏 高台　(退避スペース）","Jusho":"北海道函館市豊崎町258付近","kouzui":"×","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
-,
 {"Name":"大船町239番地裏 高台(市道大船高台1号線）","Jusho":"北海道函館市大船町239付近","kouzui":"×","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
-,
-{"Name":"大船町381番地裏 高台(緑地広場）","Jusho":"北海道函館市大船町388付近","kouzui":"×","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"緑地広場","Jusho":"北海道函館市大船町388-76","kouzui":"×","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"ホテル恵風","Jusho":"北海道函館市恵山岬町61-2","kouzui":"×","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
-,
-{"Name":"元村町32番地裏　高台　(退避スペース）","Jusho":"北海道函館市元村町32付近","kouzui":"×","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
-,
-{"Name":"新八幡町会館","Jusho":"北海道函館市新八幡町71-1","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
-,
-{"Name":"椴法華小学校","Jusho":"北海道函館市新八幡町86-1","kouzui":"×","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"○"}
-,
-{"Name":"椴法華総合センター","Jusho":"北海道函館市新浜町156-1","kouzui":"×","gake":"○","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"○"}
-,
-{"Name":"椴法華中学校","Jusho":"北海道函館市新浜町151-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
-,
-{"Name":"銚子会館","Jusho":"北海道函館市銚子町46-2","kouzui":"×","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
-,
-{"Name":"富浦町126番地裏 高台　(退避スペース）","Jusho":"北海道函館市富浦町126付近","kouzui":"×","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
-,
-{"Name":"銚子町94番地裏 高台　(退避スペース）","Jusho":"北海道函館市銚子町94付近","kouzui":"×","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"大船町381番地裏 高台(緑地広場）","Jusho":"北海道函館市大船町388付近","kouzui":"×","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"忍路中央小学校グラウンド","Jusho":"北海道小樽市忍路1-171","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -1736,7 +1734,7 @@
 ,
 {"Name":"望洋台小学校グラウンド","Jusho":"北海道小樽市望洋台1-8-25","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"豊倉小学校グラウンド","Jusho":"北海道小樽市朝里川温泉1-231","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"旧豊倉小学校グラウンド","Jusho":"北海道小樽市朝里川温泉1-231","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"朝里小学校グラウンド","Jusho":"北海道小樽市新光2-6-1","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -1756,7 +1754,7 @@
 ,
 {"Name":"菁園中学校グラウンド","Jusho":"北海道小樽市花園5-4-2","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"松ヶ枝中学校グラウンド","Jusho":"北海道小樽市松ヶ枝2-4-1","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"松ヶ枝中学校グラウンド","Jusho":"北海道小樽市最上1-31-1","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"向陽中学校グラウンド","Jusho":"北海道小樽市天神1-7-11","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -3419,8 +3417,6 @@
 {"Name":"ゆうばり文化スポーツセンター","Jusho":"北海道夕張市若菜2","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
 ,
 {"Name":"ケアハウスレインボーヒルズ","Jusho":"北海道夕張市日吉16-4","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
-,
-{"Name":"市民研修センター","Jusho":"北海道夕張市清水沢宮前町1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
 ,
 {"Name":"ゆうばり小学校","Jusho":"北海道夕張市清水沢清陵町14","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
 ,
@@ -7590,43 +7586,93 @@
 ,
 {"Name":"山村広場多目的グランド","Jusho":"北海道茅部郡鹿部町字宮浜369","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"石倉小学校","Jusho":"北海道森町字石倉町283","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"旧赤井川小学校グラウンド","Jusho":"北海道森町字赤井川117-1","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"石谷小学校","Jusho":"北海道森町字蛯谷町153","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"駒ヶ岳小学校","Jusho":"北海道森町字駒ヶ岳453","kouzui":"×","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"鷲ノ木生活館","Jusho":"北海道森町字富士見町109","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"駒ヶ岳小学校グラウンド","Jusho":"北海道森町字駒ヶ岳452-2","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"鷲ノ木小学校","Jusho":"北海道森町字鳥崎町195","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"○"}
+{"Name":"尾白内小学校","Jusho":"北海道森町字尾白内町948","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"みどりヶ丘会館","Jusho":"北海道森町字上台町330","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"尾白内小学校グラウンド","Jusho":"北海道森町字尾白内町948","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"上台地区活性化センター","Jusho":"北海道森町字上台町326-18","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"尾白内運動広場","Jusho":"北海道森町字尾白内町929-1・2","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"森町民体育館","Jusho":"北海道森町字清澄町24-2","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"○"}
+{"Name":"尾白内南部生活改善センター","Jusho":"北海道森町字尾白内町1046","kouzui":"○","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
 ,
-{"Name":"サンビレッジ森","Jusho":"北海道森町字清澄町25-6","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"○"}
+{"Name":"森町農業集落センター","Jusho":"北海道森町字白川38","kouzui":"○","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
 ,
-{"Name":"常盤福祉会館","Jusho":"北海道森町字常盤町97-2","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"森町漁村センター","Jusho":"北海道森町字港町185-3","kouzui":"×","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"さわやかセンター・砂原","Jusho":"北海道森町字砂原西4丁目234-4","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"森町公民館","Jusho":"北海道森町字御幸町132","kouzui":"×","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"○"}
 ,
-{"Name":"さわら小学校","Jusho":"北海道森町字砂原1丁目41-1","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"森小学校","Jusho":"北海道森町字清澄町27-1","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
 ,
-{"Name":"砂原中学校","Jusho":"北海道森町字砂原2丁目188-14","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"森小学校グラウンド","Jusho":"北海道森町字清澄町27-1","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"砂原特別母と子の家","Jusho":"北海道森町字砂原3丁目35","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"みどりヶ丘会館","Jusho":"北海道森町字上台町330","kouzui":"×","gake":"○","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"森町郷土館","Jusho":"北海道森町字砂原4丁目147","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"森町上台地区活性化支援センター","Jusho":"北海道森町字上台町326-18","kouzui":"○","gake":"○","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
 ,
-{"Name":"森町ふれあいの森","Jusho":"北海道森町字砂原3丁目242","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"森町民体育館","Jusho":"北海道森町字清澄町24-2","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"○"}
 ,
-{"Name":"開拓会館","Jusho":"北海道森町字砂原東4丁目1-106","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"サンビレッジ森","Jusho":"北海道森町字清澄町25-6","kouzui":"○","gake":"×","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"○","kazan":"○"}
 ,
-{"Name":"森町公民館","Jusho":"北海道森町字御幸町132","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"○"}
+{"Name":"森川・姫川生活改善センター","Jusho":"北海道森町字森川町208","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
 ,
-{"Name":"森小学校","Jusho":"北海道森町字清澄町27-1","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"○"}
+{"Name":"道の駅ＹＯＵ・遊・もり","Jusho":"北海道森町字上台町326-18","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"森中学校","Jusho":"北海道森町字上台町326-1","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"○"}
+{"Name":"森中学校","Jusho":"北海道森町字上台町326-1","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
+,
+{"Name":"森中学校グラウンド","Jusho":"北海道森町字上台町326-1","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+,
+{"Name":"常盤福祉会館","Jusho":"北海道森町字常盤町97-2","kouzui":"○","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
+,
+{"Name":"鷲ノ木小学校","Jusho":"北海道森町字鳥崎町195","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"○"}
+,
+{"Name":"鷲ノ木小学校グラウンド","Jusho":"北海道森町字鳥崎町195-6","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+,
+{"Name":"鷲ノ木生活館","Jusho":"北海道森町字富士見町109","kouzui":"○","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
+,
+{"Name":"鷲ノ木史跡公園会館","Jusho":"北海道森町字鷲ノ木町168-1","kouzui":"×","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+,
+{"Name":"石谷小学校","Jusho":"北海道森町字蛯谷町153","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
+,
+{"Name":"石谷小学校グラウンド","Jusho":"北海道森町字蛯谷町153・155","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+,
+{"Name":"石倉小学校","Jusho":"北海道森町字石倉町283","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
+,
+{"Name":"石倉小学校グラウンド","Jusho":"北海道森町字石倉町280-1","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+,
+{"Name":"濁川小学校","Jusho":"北海道森町字濁川201","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
+,
+{"Name":"濁川小学校グラウンド","Jusho":"北海道森町字濁川201-1","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+,
+{"Name":"濁川活性化センター","Jusho":"北海道森町字濁川231","kouzui":"○","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
+,
+{"Name":"さわやかセンター・砂原","Jusho":"北海道森町字砂原西4丁目234-4","kouzui":"×","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+,
+{"Name":"砂原中学校","Jusho":"北海道森町字砂原2丁目188-14","kouzui":"×","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"×","kazan":"×"}
+,
+{"Name":"さわら小学校","Jusho":"北海道森町字砂原1丁目41-1","kouzui":"×","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"×","kazan":"×"}
+,
+{"Name":"さわら幼稚園","Jusho":"北海道森町字砂原1丁目27-2","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+,
+{"Name":"森町砂原公民館","Jusho":"北海道森町字砂原1丁目31-3","kouzui":"×","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+,
+{"Name":"道の駅つど～る・プラザ・さわら","Jusho":"北海道森町字砂原2丁目358-1　他","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+,
+{"Name":"森町総合運動公園","Jusho":"北海道森町字砂原1丁目22-1　他","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+,
+{"Name":"砂原特別母と子の家","Jusho":"北海道森町字砂原3丁目35","kouzui":"×","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+,
+{"Name":"森町ふれあいの森","Jusho":"北海道森町字砂原3丁目242","kouzui":"×","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+,
+{"Name":"森町郷土館","Jusho":"北海道森町字砂原4丁目147","kouzui":"×","gake":"○","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+,
+{"Name":"彦澗集落センター","Jusho":"北海道森町字砂原5丁目140","kouzui":"×","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+,
+{"Name":"開拓会館","Jusho":"北海道森町字砂原東4丁目1-106","kouzui":"○","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
 ,
 {"Name":"東部生活館","Jusho":"北海道二海郡八雲町東町42-1","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -8084,7 +8130,7 @@
 ,
 {"Name":"米岡自治振興会館","Jusho":"北海道奥尻郡奥尻町字米岡232-1","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"ホテル緑館","Jusho":"北海道奥尻郡奥尻町字湯浜300","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"神威脇生活改善センター","Jusho":"北海道奥尻郡奥尻町字湯浜83","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"○","naisui":"×","kazan":"×"}
 ,
 {"Name":"美利河交流センター","Jusho":"北海道瀬棚郡今金町字美利河230-3","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
 ,
@@ -9226,19 +9272,19 @@
 ,
 {"Name":"上砂川町立上砂川中学校校舎","Jusho":"北海道空知郡上砂川町字鶉267-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
 ,
-{"Name":"上砂川町立上砂川中学校屋内体育館","Jusho":"北海道空知郡上砂川町字鶉267-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
-,
 {"Name":"上砂川町立上砂川中学校グラウンド","Jusho":"北海道空知郡上砂川町字鶉267-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
+,
+{"Name":"上砂川町立上砂川中学校屋内体育館","Jusho":"北海道空知郡上砂川町字鶉267-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
 ,
 {"Name":"上砂川町立中央小学校校舎","Jusho":"北海道空知郡上砂川町字鶉308","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
 ,
-{"Name":"上砂川町立中央小学校屋内体育館","Jusho":"北海道空知郡上砂川町字鶉308","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
-,
 {"Name":"上砂川町立中央小学校グラウンド","Jusho":"北海道空知郡上砂川町字鶉308","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
+,
+{"Name":"上砂川町立中央小学校屋内体育館","Jusho":"北海道空知郡上砂川町字鶉308","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
 ,
 {"Name":"上砂川勤労者体育センター","Jusho":"北海道空知郡上砂川町字上砂川町127-7","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
 ,
-{"Name":"双葉保育園","Jusho":"北海道空知郡上砂川町字鶉266-1","kouzui":"○","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
+{"Name":"認定こども園ふたば","Jusho":"北海道空知郡上砂川町字鶉283-4","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
 ,
 {"Name":"上砂川町デイサービスセンター","Jusho":"北海道空知郡上砂川町字上砂川22-16","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
 ,
@@ -9256,7 +9302,7 @@
 ,
 {"Name":"朝駒集会所","Jusho":"北海道空知郡上砂川町字上砂川3-21","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
 ,
-{"Name":"上砂川町高齢者用住宅集会室","Jusho":"北海道空知郡上砂川町字西山8-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
+{"Name":"産業活性化センター","Jusho":"北海道空知郡上砂川町字上砂川町254-4","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
 ,
 {"Name":"由仁保育園","Jusho":"北海道夕張郡由仁町本町318番地","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"×"}
 ,
@@ -9691,6 +9737,118 @@
 {"Name":"旧清川小学校グラウンド","Jusho":"北海道上川町字清川108","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
 ,
 {"Name":"層雲峡中央プロムナード広場","Jusho":"北海道上川町字層雲峡","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
+,
+{"Name":"地域人材育成研修交流センター","Jusho":"北海道美瑛町字旭第２","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
+,
+{"Name":"旭老人いこいの家","Jusho":"北海道美瑛町字旭北星","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
+,
+{"Name":"北瑛小麦の丘体験交流施設","Jusho":"北海道美瑛町字北瑛第２","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
+,
+{"Name":"北瑛行政区会館","Jusho":"北海道美瑛町字北瑛第２","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
+,
+{"Name":"大村転作研修センター","Jusho":"北海道美瑛町字大村村山","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
+,
+{"Name":"美田研修センター","Jusho":"北海道美瑛町字美田第２","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
+,
+{"Name":"五稜会館","Jusho":"北海道美瑛町字五稜第５","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
+,
+{"Name":"二股行政区会館","Jusho":"北海道美瑛町字二股富美","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
+,
+{"Name":"西美体験交流館","Jusho":"北海道美瑛町字瑠辺蘂第２","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
+,
+{"Name":"ルベシベ集落センター","Jusho":"北海道美瑛町字瑠辺蘂第２","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
+,
+{"Name":"美馬牛小学校","Jusho":"北海道美瑛町美馬牛南２丁目","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
+,
+{"Name":"美馬牛中学校","Jusho":"北海道美瑛町美馬牛北３丁目","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
+,
+{"Name":"美馬牛千歳会館","Jusho":"北海道美瑛町美馬牛北３丁目","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
+,
+{"Name":"新星地域推進センター","Jusho":"北海道美瑛町字新星第２","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
+,
+{"Name":"四季の交流館","Jusho":"北海道美瑛町字新星緑ヶ丘","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
+,
+{"Name":"福富行政区会館","Jusho":"北海道美瑛町字福富福美沢","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
+,
+{"Name":"三愛総合会館","Jusho":"北海道美瑛町字三愛みどり","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
+,
+{"Name":"水沢転作研修センター","Jusho":"北海道美瑛町字水沢","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
+,
+{"Name":"美沢小学校","Jusho":"北海道美瑛町字美沢中央","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
+,
+{"Name":"美沢行政区会館","Jusho":"北海道美瑛町字美沢中央","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
+,
+{"Name":"美沢へき地保育所","Jusho":"北海道美瑛町字美沢中央","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
+,
+{"Name":"藤野行政区会館","Jusho":"北海道美瑛町字藤野中央","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
+,
+{"Name":"新区画行政区会館","Jusho":"北海道美瑛町字新区画向上","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
+,
+{"Name":"農業技術研修センター","Jusho":"北海道美瑛町字美瑛原野５線","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
+,
+{"Name":"置杵牛農産物加工交流施設","Jusho":"北海道美瑛町字置杵牛中央","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
+,
+{"Name":"置杵牛児童館","Jusho":"北海道美瑛町字置杵牛中央","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
+,
+{"Name":"美瑛町農業担い手研修センター","Jusho":"北海道美瑛町字下宇莫別朝日","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
+,
+{"Name":"下宇莫別へき地保育所","Jusho":"北海道美瑛町字下宇莫別朝日","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
+,
+{"Name":"本勝寺","Jusho":"北海道美瑛町字下宇莫別第３","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
+,
+{"Name":"（旧）宇莫別小学校","Jusho":"北海道美瑛町字中宇莫別第２","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
+,
+{"Name":"明徳小学校","Jusho":"北海道美瑛町字朗根内","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
+,
+{"Name":"朗根内へき地保育所","Jusho":"北海道美瑛町字朗根内","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
+,
+{"Name":"朗根内老人の家","Jusho":"北海道美瑛町字朗根内","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
+,
+{"Name":"（旧）俵真布小学校","Jusho":"北海道美瑛町字俵真布中央","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
+,
+{"Name":"俵真布行政区会館","Jusho":"北海道美瑛町字俵真布中央","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
+,
+{"Name":"大雪青少年交流の家","Jusho":"北海道美瑛町字白金","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
+,
+{"Name":"白金保養センター","Jusho":"北海道美瑛町字白金","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
+,
+{"Name":"十勝岳火山砂防情報センター","Jusho":"北海道美瑛町字白金","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
+,
+{"Name":"美瑛小学校","Jusho":"北海道美瑛町西町２丁目","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
+,
+{"Name":"四季の情報館","Jusho":"北海道美瑛町本町１丁目","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
+,
+{"Name":"丘のまち交流館bi.yell","Jusho":"北海道美瑛町本町１丁目","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
+,
+{"Name":"美瑛町農業協同組合","Jusho":"北海道美瑛町中町２丁目","kouzui":"○","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
+,
+{"Name":"美瑛高等学校","Jusho":"北海道美瑛町旭町１丁目","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
+,
+{"Name":"保育センター","Jusho":"北海道美瑛町東町３丁目","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
+,
+{"Name":"町民センター","Jusho":"北海道美瑛町寿町２丁目","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
+,
+{"Name":"美瑛東小学校","Jusho":"北海道美瑛町丸山２丁目","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
+,
+{"Name":"スポーツセンター","Jusho":"北海道美瑛町丸山１丁目","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
+,
+{"Name":"美瑛中学校","Jusho":"北海道美瑛町字美瑛原野４線","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
+,
+{"Name":"北区行政区会館","Jusho":"北海道美瑛町大町１丁目","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
+,
+{"Name":"なかよし児童館","Jusho":"北海道美瑛町西町３丁目","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
+,
+{"Name":"青葉幼稚園","Jusho":"北海道美瑛町栄町３丁目","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
+,
+{"Name":"総合交流促進施設","Jusho":"北海道美瑛町本町１丁目","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
+,
+{"Name":"観音寺","Jusho":"北海道美瑛町本町２丁目","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
+,
+{"Name":"慶雲寺","Jusho":"北海道美瑛町中町２丁目","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
+,
+{"Name":"光明寺","Jusho":"北海道美瑛町旭町１丁目","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
+,
+{"Name":"全休寺","Jusho":"北海道美瑛町旭町２丁目","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
 ,
 {"Name":"新井牧場   菊地 地先","Jusho":"北海道上富良野町新井牧場","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"○","kazan":"○"}
 ,

@@ -1,102 +1,104 @@
 ﻿[
-{"Name":"中山中学校","Jusho":"宮城県仙台市青葉区中山6-16-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"},
-{"Name":"中山小学校","Jusho":"宮城県仙台市青葉区中山1-6-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"中山中学校","Jusho":"宮城県仙台市青葉区中山6-16-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"},
+{"Name":"中山小学校","Jusho":"宮城県仙台市青葉区中山1-6-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"北仙台中学校","Jusho":"宮城県仙台市青葉区東勝山2-31-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"北仙台中学校","Jusho":"宮城県仙台市青葉区東勝山2-31-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"台原小学校","Jusho":"宮城県仙台市青葉区台原5-16-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"台原小学校","Jusho":"宮城県仙台市青葉区台原5-16-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"旭丘小学校","Jusho":"宮城県仙台市青葉区旭ケ丘3-27-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"旭丘小学校","Jusho":"宮城県仙台市青葉区旭ケ丘3-27-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"荒巻小学校","Jusho":"宮城県仙台市青葉区荒巻神明町21-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"荒巻小学校","Jusho":"宮城県仙台市青葉区荒巻神明町21-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"国見小学校","Jusho":"宮城県仙台市青葉区国見2-16-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"国見小学校","Jusho":"宮城県仙台市青葉区国見2-16-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"三条中学校","Jusho":"宮城県仙台市青葉区三条町3-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"三条中学校","Jusho":"宮城県仙台市青葉区三条町3-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"通町小学校","Jusho":"宮城県仙台市青葉区通町1-1-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"通町小学校","Jusho":"宮城県仙台市青葉区通町1-1-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"小松島小学校","Jusho":"宮城県仙台市青葉区小松島2-1-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"小松島小学校","Jusho":"宮城県仙台市青葉区小松島2-1-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"八幡小学校","Jusho":"宮城県仙台市青葉区八幡2-9-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"木町通小学校","Jusho":"宮城県仙台市青葉区木町通1-7-36","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"上杉山中学校","Jusho":"宮城県仙台市青葉区上杉6-7-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"上杉山中学校","Jusho":"宮城県仙台市青葉区上杉6-7-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"五城中学校","Jusho":"宮城県仙台市青葉区東照宮1-3-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"五城中学校","Jusho":"宮城県仙台市青葉区東照宮1-3-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"片平丁小学校","Jusho":"宮城県仙台市青葉区片平1-7-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"折立小学校","Jusho":"宮城県仙台市青葉区折立4-2-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"折立小学校","Jusho":"宮城県仙台市青葉区折立4-2-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"川平小学校","Jusho":"宮城県仙台市青葉区川平3-36-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"川平小学校","Jusho":"宮城県仙台市青葉区川平3-36-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"東六番丁小学校","Jusho":"宮城県仙台市青葉区宮町1-2-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"北六番丁小学校","Jusho":"宮城県仙台市青葉区宮町4-4-17","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"広瀬小学校","Jusho":"宮城県仙台市青葉区下愛子字二本松40","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"広瀬小学校","Jusho":"宮城県仙台市青葉区下愛子字二本松40","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"広瀬中学校","Jusho":"宮城県仙台市青葉区愛子中央1-9-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"広瀬中学校","Jusho":"宮城県仙台市青葉区愛子中央1-9-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"上愛子小学校","Jusho":"宮城県仙台市青葉区上愛子字白沢14","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"上愛子小学校","Jusho":"宮城県仙台市青葉区上愛子字白沢14","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"作並小学校","Jusho":"宮城県仙台市青葉区作並字北子原6","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"旧作並小学校","Jusho":"宮城県仙台市青葉区作並字北子原6","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"作並小学校新川分校","Jusho":"宮城県仙台市青葉区新川字北野尻34","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"旧作並小学校新川分校","Jusho":"宮城県仙台市青葉区新川字北野尻34","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"大倉小学校","Jusho":"宮城県仙台市青葉区大倉字墓前1","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"旧大倉小学校","Jusho":"宮城県仙台市青葉区大倉字墓前1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"川前小学校","Jusho":"宮城県仙台市青葉区芋沢字赤坂16","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"川前小学校","Jusho":"宮城県仙台市青葉区芋沢字赤坂16","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"大沢小学校","Jusho":"宮城県仙台市青葉区芋沢字長坂22","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"大沢小学校","Jusho":"宮城県仙台市青葉区芋沢字長坂22","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"大沢中学校","Jusho":"宮城県仙台市青葉区赤坂1-2-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"大沢中学校","Jusho":"宮城県仙台市青葉区赤坂1-2-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"吉成小学校","Jusho":"宮城県仙台市青葉区吉成1-12-2","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"吉成小学校","Jusho":"宮城県仙台市青葉区吉成1-12-2","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"吉成中学校","Jusho":"宮城県仙台市青葉区吉成1-12-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"吉成中学校","Jusho":"宮城県仙台市青葉区吉成1-12-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"南吉成小学校","Jusho":"宮城県仙台市青葉区南吉成5-18-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"南吉成小学校","Jusho":"宮城県仙台市青葉区南吉成5-18-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"第一中学校","Jusho":"宮城県仙台市青葉区八幡4-16-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"第二中学校","Jusho":"宮城県仙台市青葉区木町通2-4-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"栗生小学校","Jusho":"宮城県仙台市青葉区栗生6-6-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"栗生小学校","Jusho":"宮城県仙台市青葉区栗生6-6-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"上杉山通小学校","Jusho":"宮城県仙台市青葉区上杉1-10-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"北仙台小学校","Jusho":"宮城県仙台市青葉区東勝山3-6-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"北仙台小学校","Jusho":"宮城県仙台市青葉区東勝山3-6-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"桜丘中学校","Jusho":"宮城県仙台市青葉区桜ケ丘8-2-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"桜丘中学校","Jusho":"宮城県仙台市青葉区桜ケ丘8-2-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"立町小学校","Jusho":"宮城県仙台市青葉区立町8-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"五橋中学校","Jusho":"宮城県仙台市青葉区五橋2-2-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"台原中学校","Jusho":"宮城県仙台市青葉区台原5-19-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"台原中学校","Jusho":"宮城県仙台市青葉区台原5-19-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"南吉成中学校","Jusho":"宮城県仙台市青葉区南吉成5-18-2","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"南吉成中学校","Jusho":"宮城県仙台市青葉区南吉成5-18-2","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"折立中学校","Jusho":"宮城県仙台市青葉区折立3-19-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"折立中学校","Jusho":"宮城県仙台市青葉区折立3-19-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"仙台高等学校","Jusho":"宮城県仙台市青葉区国見6-52-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"仙台高等学校","Jusho":"宮城県仙台市青葉区国見6-52-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"仙台青陵中等教育学校","Jusho":"宮城県仙台市青葉区国見ケ丘7-144","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"仙台青陵中等教育学校","Jusho":"宮城県仙台市青葉区国見ケ丘7-144","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"東二番丁小学校","Jusho":"宮城県仙台市青葉区一番町2-1-4","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"広陵中学校","Jusho":"宮城県仙台市青葉区熊ヶ根字石積1-2","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"広陵中学校","Jusho":"宮城県仙台市青葉区熊ヶ根字石積1-2","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"愛子小学校","Jusho":"宮城県仙台市青葉区上愛子字新宮前1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"愛子小学校","Jusho":"宮城県仙台市青葉区上愛子字新宮前1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"錦ケ丘小学校","Jusho":"宮城県仙台市青葉区錦ケ丘7-28-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"錦ケ丘小学校","Jusho":"宮城県仙台市青葉区錦ケ丘7-28-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"台原森林公園","Jusho":"宮城県仙台市","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"錦ケ丘中学校","Jusho":"宮城県仙台市青葉区錦ケ丘1-1-7","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"西公園","Jusho":"宮城県 仙台市","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"台原森林公園","Jusho":"宮城県仙台市台原森林公園","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+,
+{"Name":"西公園","Jusho":"宮城県仙台市桜ヶ岡公園","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
 {"Name":"通町公園","Jusho":"宮城県仙台市青葉区青葉町183-2","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -200,23 +202,23 @@
 ,
 {"Name":"高砂中学校（洪水は2階以上・津波は3階以上）","Jusho":"宮城県仙台市宮城野区白鳥1-32-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"高砂市民センター","Jusho":"宮城県仙台市宮城野区高砂1-24-9","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"高砂市民センター（洪水は2階以上）","Jusho":"宮城県仙台市宮城野区高砂1-24-9","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"岩切東コミュニティ・センター","Jusho":"宮城県仙台市宮城野区岩切字青津目137-8","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"仙台冷蔵倉庫仙台港第三タワー","Jusho":"宮城県仙台市宮城野区蒲生字須賀前8","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"仙台冷蔵倉庫仙台港第三タワー（津波は屋上）","Jusho":"宮城県仙台市宮城野区蒲生字須賀前8","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"キリンビール","Jusho":"宮城県仙台市宮城野区港2-2-1","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"キリンビール（津波は2階以上）","Jusho":"宮城県仙台市宮城野区港2-2-1","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"中野五丁目津波避難タワー","Jusho":"宮城県仙台市宮城野区中野5-2","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"日鐵住金建材津波避難タワー","Jusho":"宮城県仙台市宮城野区港1-3-1","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"日鉄建材津波避難タワー","Jusho":"宮城県仙台市宮城野区港1-3-1","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"仙台港国際ビジネスサポートセンター(アクセル)","Jusho":"宮城県仙台市宮城野区港3-1-3","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"仙台港国際ビジネスサポートセンター(アクセル)（津波は3階以上）","Jusho":"宮城県仙台市宮城野区港3-1-3","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"仙台うみの杜水族館","Jusho":"宮城県仙台市宮城野区中野4-6","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"仙台うみの杜水族館（津波は2階以上）","Jusho":"宮城県仙台市宮城野区中野4-6","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"センコー㈱東北主管支店仙台港PDセンター","Jusho":"宮城県仙台市宮城野区港2-1-11","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"センコー㈱東北主管支店仙台港PDセンター（津波は2階以上）","Jusho":"宮城県仙台市宮城野区港2-1-11","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"港南津波避難タワー","Jusho":"宮城県仙台市宮城野区蒲生字南城道田5-4","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -224,9 +226,9 @@
 ,
 {"Name":"南蒲生津波避難タワー","Jusho":"宮城県仙台市宮城野区蒲生字鍋沼40-9","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"岡田津波避難ビル","Jusho":"宮城県仙台市宮城野区蒲生字前通13-1","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"岡田津波避難ビル（津波は2階以上）","Jusho":"宮城県仙台市宮城野区蒲生字前通13-1","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"避難の丘","Jusho":"宮城県仙台市宮城野区蒲生字八郎兵エ谷地第二39-2","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"避難の丘","Jusho":"宮城県仙台市宮城野区蒲生字八郎兵エ谷地第二39-2","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"宮城野原公園総合運動場","Jusho":"宮城県仙台市宮城野区宮城野2-11-6","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
@@ -260,9 +262,7 @@
 ,
 {"Name":"古城小学校","Jusho":"宮城県仙台市若林区古城2-1-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"七郷小学校","Jusho":"宮城県仙台市若林区荒井字堀添53-2","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
-,
-{"Name":"荒浜小学校（津波は3階以上）","Jusho":"宮城県仙台市若林区荒浜字新堀端32-1","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"七郷小学校","Jusho":"宮城県仙台市若林区荒井3-17-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"沖野小学校（洪水は2階以上）","Jusho":"宮城県仙台市若林区沖野3-20-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -276,7 +276,7 @@
 ,
 {"Name":"六郷中学校（洪水は2階以上）","Jusho":"宮城県仙台市若林区六郷13-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"七郷中学校","Jusho":"宮城県仙台市若林区荒井字遠藤9-3","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"七郷中学校","Jusho":"宮城県仙台市若林区荒井8-1-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"沖野中学校","Jusho":"宮城県仙台市若林区沖野2-29-50","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -290,33 +290,37 @@
 ,
 {"Name":"蒲町中学校","Jusho":"宮城県仙台市若林区蒲町9-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
+{"Name":"荒井小学校","Jusho":"宮城県仙台市若林区伊在3-2-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+,
 {"Name":"冒険広場（避難の丘）","Jusho":"宮城県仙台市若林区井土字開発139-1","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"避難の丘","Jusho":"宮城県仙台市若林区荒浜字川向52-1","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"避難の丘","Jusho":"宮城県仙台市若林区荒浜字川向52-1","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"避難の丘","Jusho":"宮城県仙台市若林区藤塚字土手外17-1","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"避難の丘","Jusho":"宮城県仙台市若林区藤塚字土手外17-1","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"避難階段（仙台１）","Jusho":"宮城県仙台市若林区荒井字神屋敷西地内","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"避難階段（仙台１）","Jusho":"宮城県仙台市仙台東部道路　18.7ｋ-18.8ｋ間","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"避難階段（仙台２）","Jusho":"宮城県仙台市若林区荒井字藤田地内","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"避難階段（仙台２）","Jusho":"宮城県仙台市仙台東部道路　18.3ｋ-18.4ｋ間","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"避難階段（仙台３）","Jusho":"宮城県仙台市若林区三本塚字赤沼西地内","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"避難階段（仙台３）","Jusho":"宮城県仙台市仙台東部道路　16.8ｋ-16.9ｋ間","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"避難階段（仙台４）","Jusho":"宮城県仙台市若林区二木字二木前地内","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"避難階段（仙台４）","Jusho":"宮城県仙台市仙台東部道路　15.9ｋ-16.0ｋ間","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"避難階段（仙台５）","Jusho":"宮城県仙台市若林区今泉字中村東地内","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"避難階段（仙台５）","Jusho":"宮城県仙台市仙台東部道路　15.3ｋ-15.4ｋ間","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"井土津波避難タワー","Jusho":"宮城県仙台市若林区井土字宅地47-2","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
+{"Name":"震災遺構 荒浜小学校（津波は4階以上）","Jusho":"宮城県仙台市若林区荒浜字新堀端32-1","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+,
 {"Name":"三本塚長屋敷津波避難タワー","Jusho":"宮城県仙台市若林区三本塚字中谷地44","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"種次津波避難ビル","Jusho":"宮城県仙台市若林区種次字中屋敷52","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"種次津波避難ビル（津波は3階以上）","Jusho":"宮城県仙台市若林区種次字中屋敷52","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"二木津波避難ビル","Jusho":"宮城県仙台市若林区二木字山王77-2","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"二木津波避難ビル（津波は2階以上）","Jusho":"宮城県仙台市若林区二木字山王77-2","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"三本塚津波避難ビル（津波は3階以上）","Jusho":"宮城県仙台市若林区三本塚字権太49-2","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"三本塚津波避難ビル（津波は3階以上）","Jusho":"宮城県仙台市若林区三本塚字権太49-2","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"笹屋敷津波避難ビル（津波は3階以上）","Jusho":"宮城県仙台市若林区荒井字笹屋敷157-6","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"笹屋敷津波避難ビル（津波は3階以上）","Jusho":"宮城県仙台市若林区荒井字笹屋敷157-6","kouzui":"×","gake":"×","takashio":"×","jishin":"×","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"広瀬川若林緑地 広瀬川中河原緑地","Jusho":"宮城県仙台市若林区若林4、若林7","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
@@ -342,225 +346,225 @@
 ,
 {"Name":"南小泉公園","Jusho":"宮城県仙台市若林区古城3-209-7 外","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"向山小学校","Jusho":"宮城県 仙台市太白区向山3-19-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"向山小学校","Jusho":"宮城県仙台市太白区向山3-19-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"愛宕中学校","Jusho":"宮城県 仙台市太白区萩ケ丘9-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"愛宕中学校","Jusho":"宮城県仙台市太白区萩ケ丘9-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"大野田小学校","Jusho":"宮城県 仙台市太白区大野田字六反田10-5","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"大野田小学校","Jusho":"宮城県仙台市太白区大野田5-27-2","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"郡山中学校","Jusho":"宮城県 仙台市太白区郡山5-10-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"郡山中学校","Jusho":"宮城県仙台市太白区郡山5-10-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"八本松小学校","Jusho":"宮城県 仙台市太白区八本松1-16-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"八本松小学校","Jusho":"宮城県仙台市太白区八本松1-16-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"長町中学校","Jusho":"宮城県 仙台市太白区鹿野1-8-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"長町中学校","Jusho":"宮城県仙台市太白区鹿野1-8-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"西多賀小学校","Jusho":"宮城県 仙台市太白区西多賀2-3-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"西多賀小学校","Jusho":"宮城県仙台市太白区西多賀2-3-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"八木山小学校","Jusho":"宮城県 仙台市太白区八木山本町1-40-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"八木山小学校","Jusho":"宮城県仙台市太白区八木山本町1-40-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"八木山南小学校","Jusho":"宮城県 仙台市太白区八木山南5-3-2","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"八木山南小学校","Jusho":"宮城県仙台市太白区八木山南5-3-2","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"芦口小学校","Jusho":"宮城県 仙台市太白区芦の口1-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"芦口小学校","Jusho":"宮城県仙台市太白区芦の口1-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"金剛沢小学校","Jusho":"宮城県 仙台市太白区金剛沢1-1-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"金剛沢小学校","Jusho":"宮城県仙台市太白区金剛沢1-1-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"山田中学校","Jusho":"宮城県 仙台市太白区山田北前町36-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"山田中学校","Jusho":"宮城県仙台市太白区山田北前町36-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"太白小学校","Jusho":"宮城県 仙台市太白区太白1-5-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"太白小学校","Jusho":"宮城県仙台市太白区太白1-5-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"生出中学校","Jusho":"宮城県 仙台市太白区茂庭字中ノ瀬西2-2","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"生出中学校","Jusho":"宮城県仙台市太白区茂庭字中ノ瀬西2-2","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"中田小学校（洪水は2階以上）","Jusho":"宮城県 仙台市太白区中田4-1-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"中田小学校（洪水は2階以上）","Jusho":"宮城県仙台市太白区中田4-1-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"四郎丸小学校（洪水は2階以上）","Jusho":"宮城県 仙台市太白区四郎丸字吹上6-3","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"四郎丸小学校（洪水は2階以上）","Jusho":"宮城県仙台市太白区四郎丸字吹上6-3","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"袋原小学校（洪水は2階以上）","Jusho":"宮城県 仙台市太白区中田町字法地南4-2","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"袋原小学校（洪水は2階以上）","Jusho":"宮城県仙台市太白区中田町字法地南4-2","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"長町小学校","Jusho":"宮城県 仙台市太白区長町4-6-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"長町小学校","Jusho":"宮城県仙台市太白区長町4-6-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"鹿野小学校","Jusho":"宮城県 仙台市太白区鹿野2-9-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"鹿野小学校","Jusho":"宮城県仙台市太白区鹿野2-9-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"上野山小学校","Jusho":"宮城県 仙台市太白区上野山1-20-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"上野山小学校","Jusho":"宮城県仙台市太白区上野山1-20-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"西多賀中学校","Jusho":"宮城県 仙台市太白区西多賀3-10-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"西多賀中学校","Jusho":"宮城県仙台市太白区西多賀3-10-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"袋原中学校（洪水は2階以上）","Jusho":"宮城県 仙台市太白区袋原4-27-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"袋原中学校（洪水は2階以上）","Jusho":"宮城県仙台市太白区袋原4-27-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"郡山小学校","Jusho":"宮城県 仙台市太白区郡山字行新田1-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"郡山小学校","Jusho":"宮城県仙台市太白区郡山字行新田1-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"茂庭台小学校","Jusho":"宮城県 仙台市太白区茂庭台4-17-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"茂庭台小学校","Jusho":"宮城県仙台市太白区茂庭台4-17-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"馬場小学校","Jusho":"宮城県 仙台市太白区秋保町馬場字町北25","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"馬場小学校","Jusho":"宮城県仙台市太白区秋保町馬場字町北25","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"秋保小学校","Jusho":"宮城県 仙台市太白区秋保町長袋字町15","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"秋保小学校","Jusho":"宮城県仙台市太白区秋保町長袋字町15","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"湯元小学校","Jusho":"宮城県 仙台市太白区秋保町湯向29-3","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"湯元小学校","Jusho":"宮城県仙台市太白区秋保町湯向29-3","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"秋保中学校","Jusho":"宮城県 仙台市太白区秋保町長袋字大原45-5","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"秋保中学校","Jusho":"宮城県仙台市太白区秋保町長袋字大原45-5","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"東四郎丸小学校（洪水は2階以上）","Jusho":"宮城県 仙台市太白区四郎丸字昭和北1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"東四郎丸小学校（洪水は2階以上）","Jusho":"宮城県仙台市太白区四郎丸字昭和北1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"西中田小学校","Jusho":"宮城県 仙台市太白区西中田7-7-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"西中田小学校","Jusho":"宮城県仙台市太白区西中田7-7-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"長町南小学校","Jusho":"宮城県 仙台市太白区長町7-23-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"長町南小学校","Jusho":"宮城県仙台市太白区長町7-23-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"旧坪沼小学校","Jusho":"宮城県 仙台市太白区坪沼字長田中9-1","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"旧坪沼小学校","Jusho":"宮城県仙台市太白区坪沼字長田中9-1","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"富沢中学校","Jusho":"宮城県 仙台市太白区富沢2-4-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"富沢中学校","Jusho":"宮城県仙台市太白区富沢2-4-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"人来田小学校","Jusho":"宮城県 仙台市太白区人来田1-1-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"人来田小学校","Jusho":"宮城県仙台市太白区人来田1-1-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"東長町小学校","Jusho":"宮城県 仙台市太白区郡山6-5-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"東長町小学校","Jusho":"宮城県仙台市太白区郡山6-5-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"中田中学校（洪水は2階以上）","Jusho":"宮城県 仙台市太白区中田5-15-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"中田中学校（洪水は2階以上）","Jusho":"宮城県仙台市太白区中田5-15-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"八木山中学校","Jusho":"宮城県 仙台市太白区八木山東2-27-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"八木山中学校","Jusho":"宮城県仙台市太白区八木山東2-27-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"人来田中学校","Jusho":"宮城県 仙台市太白区人来田1-35-1","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"人来田中学校","Jusho":"宮城県仙台市太白区人来田1-35-1","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"生出小学校","Jusho":"宮城県 仙台市太白区茂庭字中ノ瀬西5-2","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"生出小学校","Jusho":"宮城県仙台市太白区茂庭字中ノ瀬西5-2","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"茂庭台中学校","Jusho":"宮城県 仙台市太白区茂庭台5-3-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"茂庭台中学校","Jusho":"宮城県仙台市太白区茂庭台5-3-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"生出小学校赤石分校","Jusho":"宮城県 仙台市太白区茂庭字合ノ沢南31","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"生出小学校赤石分校","Jusho":"宮城県仙台市太白区茂庭字合ノ沢南31","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"柳生中学校","Jusho":"宮城県 仙台市太白区柳生3-7-3","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"柳生中学校","Jusho":"宮城県仙台市太白区柳生3-7-3","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"柳生小学校","Jusho":"宮城県 仙台市太白区柳生字台畑100","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"柳生小学校","Jusho":"宮城県仙台市太白区柳生字台畑100","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"富沢小学校","Jusho":"宮城県 仙台市太白区富沢字中河原17-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"富沢小学校","Jusho":"宮城県仙台市太白区富沢字中河原17-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"広瀬川八本松緑地 広瀬川飯田緑地","Jusho":"宮城県 仙台市太白区八本松1、東郡山1","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"広瀬川八本松緑地 広瀬川飯田緑地","Jusho":"宮城県仙台市太白区八本松1、東郡山1","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"三神峯公園","Jusho":"宮城県 仙台市太白区三神峯一丁目","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"三神峯公園","Jusho":"宮城県仙台市太白区三神峯一丁目","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"広瀬川愛宕緑地","Jusho":"宮城県 仙台市太白区越路地内","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"広瀬川愛宕緑地","Jusho":"宮城県仙台市太白区越路地内","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"宮城県仙台南高等学校","Jusho":"宮城県 仙台市太白区根岸町14-1","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"宮城県仙台南高等学校","Jusho":"宮城県仙台市太白区根岸町14-1","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"東北郵政研修センター","Jusho":"宮城県 仙台市太白区八木山本町2-11-1","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"東北郵政研修センター","Jusho":"宮城県仙台市太白区八木山本町2-11-1","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"仙台城南高等学校グラウンド","Jusho":"宮城県 仙台市太白区八木山香澄町19-212","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"仙台城南高等学校グラウンド","Jusho":"宮城県仙台市太白区八木山香澄町19-212","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"宮城大学食産業学部","Jusho":"宮城県 仙台市太白区旗立2-2-1","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"宮城大学食産業学部","Jusho":"宮城県仙台市太白区旗立2-2-1","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"東北工業大学青葉山総合グラウンド","Jusho":"宮城県 仙台市太白区鈎取字御堂平37","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"東北工業大学青葉山総合グラウンド","Jusho":"宮城県仙台市太白区鈎取字御堂平37","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"八本松公園","Jusho":"宮城県 仙台市太白区八本松2-1-64外","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"八本松公園","Jusho":"宮城県仙台市太白区八本松2-1-64外","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"中田中央公園","Jusho":"宮城県 仙台市太白区東中田5-13","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"中田中央公園","Jusho":"宮城県仙台市太白区東中田5-13","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"根白石小学校","Jusho":"宮城県 仙台市泉区根白石字杉下前15","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"根白石小学校","Jusho":"宮城県仙台市泉区根白石字杉下前15","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"高森小学校","Jusho":"宮城県 仙台市泉区高森3-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"高森小学校","Jusho":"宮城県仙台市泉区高森3-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"将監小学校","Jusho":"宮城県 仙台市泉区将監3-10-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"将監小学校","Jusho":"宮城県仙台市泉区将監3-10-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"将監中央小学校","Jusho":"宮城県 仙台市泉区将監10-3-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"将監中央小学校","Jusho":"宮城県仙台市泉区将監10-3-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"向陽台小学校","Jusho":"宮城県 仙台市泉区向陽台5-6-12","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"向陽台小学校","Jusho":"宮城県仙台市泉区向陽台5-6-12","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"七北田小学校","Jusho":"宮城県 仙台市泉区七北田字東裏90","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"七北田小学校","Jusho":"宮城県仙台市泉区七北田字東裏90","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"七北田中学校","Jusho":"宮城県 仙台市泉区七北田字東裏100","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"七北田中学校","Jusho":"宮城県仙台市泉区七北田字東裏100","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"松森小学校","Jusho":"宮城県 仙台市泉区鶴が丘2-2","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"松森小学校","Jusho":"宮城県仙台市泉区鶴が丘2-2","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"黒松小学校","Jusho":"宮城県 仙台市泉区黒松3-11-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"黒松小学校","Jusho":"宮城県仙台市泉区黒松3-11-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"八乙女中学校","Jusho":"宮城県 仙台市泉区旭丘堤2-1-1","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"八乙女中学校","Jusho":"宮城県仙台市泉区旭丘堤2-1-1","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"南光台小学校","Jusho":"宮城県 仙台市泉区南光台7-10-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"南光台小学校","Jusho":"宮城県仙台市泉区南光台7-10-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"南光台東小学校","Jusho":"宮城県 仙台市泉区南光台東2-16-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"南光台東小学校","Jusho":"宮城県仙台市泉区南光台東2-16-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"南光台中学校","Jusho":"宮城県 仙台市泉区南光台7-24-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"南光台中学校","Jusho":"宮城県仙台市泉区南光台7-24-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"泉ケ丘小学校","Jusho":"宮城県 仙台市泉区明通4-12-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"泉ケ丘小学校","Jusho":"宮城県仙台市泉区明通4-12-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"加茂小学校","Jusho":"宮城県 仙台市泉区加茂4-3","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"加茂小学校","Jusho":"宮城県仙台市泉区加茂4-3","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"八乙女小学校","Jusho":"宮城県 仙台市泉区松森字不動148","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"八乙女小学校","Jusho":"宮城県仙台市泉区松森字不動148","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"鶴が丘小学校","Jusho":"宮城県 仙台市泉区鶴が丘1-350","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"鶴が丘小学校","Jusho":"宮城県仙台市泉区鶴が丘1-350","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"寺岡中学校","Jusho":"宮城県 仙台市泉区寺岡2-13-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"寺岡中学校","Jusho":"宮城県仙台市泉区寺岡2-13-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"南中山小学校","Jusho":"宮城県 仙台市泉区南中山2-24-14","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"南中山小学校","Jusho":"宮城県仙台市泉区南中山2-24-14","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"虹の丘小学校","Jusho":"宮城県 仙台市泉区虹の丘1-10-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"虹の丘小学校","Jusho":"宮城県仙台市泉区虹の丘1-10-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"長命ケ丘中学校","Jusho":"宮城県 仙台市泉区長命ケ丘2-11-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"長命ケ丘中学校","Jusho":"宮城県仙台市泉区長命ケ丘2-11-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"加茂中学校","Jusho":"宮城県 仙台市泉区加茂3-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"加茂中学校","Jusho":"宮城県仙台市泉区加茂3-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"館小学校","Jusho":"宮城県 仙台市泉区館7-1-17","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"館小学校","Jusho":"宮城県仙台市泉区館7-1-17","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"住吉台小学校","Jusho":"宮城県 仙台市泉区住吉台西4-1-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"住吉台小学校","Jusho":"宮城県仙台市泉区住吉台西4-1-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"野村小学校","Jusho":"宮城県 仙台市泉区野村字東原前7","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"野村小学校","Jusho":"宮城県仙台市泉区野村字東原前7","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"実沢小学校","Jusho":"宮城県 仙台市泉区実沢字一本橋20","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"実沢小学校","Jusho":"宮城県仙台市泉区実沢字一本橋20","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"福岡小学校","Jusho":"宮城県 仙台市泉区福岡字堰添10","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"福岡小学校","Jusho":"宮城県仙台市泉区福岡字堰添10","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"高森中学校","Jusho":"宮城県 仙台市泉区高森6-2","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"高森中学校","Jusho":"宮城県仙台市泉区高森6-2","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"泉松陵小学校","Jusho":"宮城県 仙台市泉区松陵3-35","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"泉松陵小学校","Jusho":"宮城県仙台市泉区松陵3-35","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"北中山小学校","Jusho":"宮城県 仙台市泉区北中山2-27-5","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"北中山小学校","Jusho":"宮城県仙台市泉区北中山2-27-5","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"桂小学校","Jusho":"宮城県 仙台市泉区桂3-1-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"桂小学校","Jusho":"宮城県仙台市泉区桂3-1-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"鶴が丘中学校","Jusho":"宮城県 仙台市泉区鶴が丘2-1-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"鶴が丘中学校","Jusho":"宮城県仙台市泉区鶴が丘2-1-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"松陵中学校","Jusho":"宮城県 仙台市泉区松陵5-32","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"松陵中学校","Jusho":"宮城県仙台市泉区松陵5-32","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"南光台東中学校","Jusho":"宮城県 仙台市泉区南光台東3-1-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"南光台東中学校","Jusho":"宮城県仙台市泉区南光台東3-1-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"向陽台中学校","Jusho":"宮城県 仙台市泉区市名坂字天神沢38-4","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"向陽台中学校","Jusho":"宮城県仙台市泉区市名坂字天神沢38-4","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"将監東中学校","Jusho":"宮城県 仙台市泉区将監3-2-15","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"将監東中学校","Jusho":"宮城県仙台市泉区将監3-2-15","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"将監中学校","Jusho":"宮城県 仙台市泉区将監9-12-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"将監中学校","Jusho":"宮城県仙台市泉区将監9-12-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"将監西小学校","Jusho":"宮城県 仙台市泉区将監10-29-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"将監西小学校","Jusho":"宮城県仙台市泉区将監10-29-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"高森東小学校","Jusho":"宮城県 仙台市泉区高森7-1-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"高森東小学校","Jusho":"宮城県仙台市泉区高森7-1-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"長命ケ丘小学校","Jusho":"宮城県 仙台市泉区長命ケ丘5-14-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"長命ケ丘小学校","Jusho":"宮城県仙台市泉区長命ケ丘5-14-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"南中山中学校","Jusho":"宮城県 仙台市泉区南中山2-26-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"南中山中学校","Jusho":"宮城県仙台市泉区南中山2-26-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"寺岡小学校","Jusho":"宮城県 仙台市泉区寺岡2-14-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"寺岡小学校","Jusho":"宮城県仙台市泉区寺岡2-14-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"住吉台中学校","Jusho":"宮城県 仙台市泉区住吉台西4-1-2","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"住吉台中学校","Jusho":"宮城県仙台市泉区住吉台西4-1-2","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"根白石中学校","Jusho":"宮城県 仙台市泉区根白石字東鹿野54","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"根白石中学校","Jusho":"宮城県仙台市泉区根白石字東鹿野54","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"館中学校","Jusho":"宮城県 仙台市泉区館6-17-1","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"館中学校","Jusho":"宮城県仙台市泉区館6-17-1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"仙台商業高等学校","Jusho":"宮城県 仙台市泉区七北田字古内75","kouzui":"×","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"仙台商業高等学校","Jusho":"宮城県仙台市泉区七北田字古内75","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"市名坂小学校（洪水は2階以上）","Jusho":"宮城県 仙台市泉区市名坂字高玉1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"市名坂小学校（洪水は2階以上）","Jusho":"宮城県仙台市泉区市名坂字高玉1","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"七北田公園","Jusho":"宮城県 仙台市泉区七北田字柳78","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
+{"Name":"七北田公園","Jusho":"宮城県仙台市泉区七北田字柳78","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
-{"Name":"将監公園","Jusho":"宮城県 仙台市泉区将監10-28-117","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"将監公園","Jusho":"宮城県仙台市泉区将監10-28-117","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"長命ケ丘公園","Jusho":"宮城県 仙台市泉区長命ケ丘5-14-2外","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"長命ケ丘公園","Jusho":"宮城県仙台市泉区長命ケ丘5-14-2外","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"東北学院大学泉キャンパス","Jusho":"宮城県 仙台市泉区天神沢2-1-1","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"東北学院大学泉キャンパス","Jusho":"宮城県仙台市泉区天神沢2-1-1","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"宮城県泉松陵高等学校","Jusho":"宮城県 仙台市泉区鶴が丘4-26-1","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"宮城県泉松陵高等学校","Jusho":"宮城県仙台市泉区鶴が丘4-26-1","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"黒松二丁目公園","Jusho":"宮城県 仙台市泉区黒松2-2-30外","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"黒松二丁目公園","Jusho":"宮城県仙台市泉区黒松2-2-30外","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"南光台南二丁目公園","Jusho":"宮城県 仙台市泉区南光台南2-1-350","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"南光台南二丁目公園","Jusho":"宮城県仙台市泉区南光台南2-1-350","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"南光台三丁目公園","Jusho":"宮城県 仙台市泉区南光台3-1 地内","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"南光台三丁目公園","Jusho":"宮城県仙台市泉区南光台3-1 地内","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"泉中央公園","Jusho":"宮城県 仙台市泉区泉中央2-18-3","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"泉中央公園","Jusho":"宮城県仙台市泉区泉中央2-18-3","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"石巻小学校","Jusho":"宮城県石巻市泉町一丁目1-2","kouzui":"○","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
 ,

@@ -32,7 +32,7 @@
 ,
 {"Name":"木崎コミュニティセンター","Jusho":"新潟県新潟市北区木崎3227番地","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
 ,
-{"Name":"笹山小学校","Jusho":"新潟県新潟市北区笹山1457番地","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
+{"Name":"笹山公民館","Jusho":"新潟県新潟市北区笹山2058番地","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"木崎保育園","Jusho":"新潟県新潟市北区横井279番地","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
 ,
@@ -86,7 +86,7 @@
 ,
 {"Name":"桃山小学校","Jusho":"新潟県新潟市東区桃山町２丁目204番地","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
 ,
-{"Name":"山の下中学校","Jusho":"新潟県新潟市東区秋葉通２丁目3722番地７","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
+{"Name":"山の下中学校","Jusho":"新潟県新潟市東区秋葉通２丁目3722番７号","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
 ,
 {"Name":"新潟朝鮮初中級学校","Jusho":"新潟県新潟市東区空港西２丁目14番１号","kouzui":"○","gake":"×","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
 ,
@@ -136,9 +136,7 @@
 ,
 {"Name":"東中野山小学校","Jusho":"新潟県新潟市東区猿ヶ馬場９番地","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
 ,
-{"Name":"東石山中学校","Jusho":"新潟県新潟市東区西野1197番地","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
-,
-{"Name":"東石山コミュニティハウス","Jusho":"新潟県新潟市東区岡山149番地6","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"東石山中学校","Jusho":"新潟県新潟市東区若葉町2丁目16番1号","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
 ,
 {"Name":"浜浦小学校","Jusho":"新潟県新潟市中央区浜浦町１丁目１番地","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
 ,
@@ -210,9 +208,9 @@
 ,
 {"Name":"新潟商業高等学校","Jusho":"新潟県新潟市中央区白山浦２丁目68番２号","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
 ,
-{"Name":"北越高等学校（体育館）","Jusho":"新潟県新潟市中央区米山５丁目１２-１","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
+{"Name":"北越高等学校（体育館）","Jusho":"新潟県新潟市中央区米山５丁目１２-１","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
 ,
-{"Name":"北部総合コミュニティセンター","Jusho":"新潟県新潟市中央区附船町１丁目4385-１","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
+{"Name":"北部総合コミュニティセンター","Jusho":"新潟県新潟市中央区稲荷町３５１１-１","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
 ,
 {"Name":"駅南コミュニティセンター","Jusho":"新潟県新潟市中央区米山４丁目12-20","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
 ,
@@ -546,7 +544,7 @@
 ,
 {"Name":"赤塚小学校","Jusho":"新潟県新潟市西区赤塚4478番地","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
 ,
-{"Name":"新潟国際情報大学","Jusho":"新潟県新潟市西区みずき野３丁目１番１号","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
+{"Name":"新潟国際情報大学（体育館）","Jusho":"新潟県新潟市西区みずき野３丁目１番１号","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
 ,
 {"Name":"小瀬小学校","Jusho":"新潟県新潟市西区小瀬637番地","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
 ,
@@ -558,6 +556,8 @@
 ,
 {"Name":"新通小学校","Jusho":"新潟県新潟市西区坂井東６丁目18番１号","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
 ,
+{"Name":"新通つばさ小学校","Jusho":"新潟県新潟市西区大野137番地","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
+,
 {"Name":"坂井東小学校","Jusho":"新潟県新潟市西区坂井東５丁目17番１号","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
 ,
 {"Name":"坂井輪中学校","Jusho":"新潟県新潟市西区寺尾上３丁目１番36号","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
@@ -568,7 +568,7 @@
 ,
 {"Name":"小新中学校","Jusho":"新潟県新潟市西区小新西３丁目18番１号","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
 ,
-{"Name":"新潟工業高等学校","Jusho":"新潟県新潟市西区小新西１丁目５番１号","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
+{"Name":"新潟工業高等学校","Jusho":"新潟県新潟市西区小新西１丁目５番１号","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
 ,
 {"Name":"小針小学校","Jusho":"新潟県新潟市西区小針２丁目36番１号","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}
 ,
@@ -672,9 +672,7 @@
 ,
 {"Name":"潟東中学校","Jusho":"新潟県新潟市西蒲区三方250番地","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
 ,
-{"Name":"潟東体育館","Jusho":"新潟県新潟市西蒲区三方２番地","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
-,
-{"Name":"潟東農村環境改善センター","Jusho":"新潟県新潟市西蒲区三方１番地","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
+{"Name":"潟東地域コミュニティセンター","Jusho":"新潟県新潟市西蒲区三方２番地","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
 ,
 {"Name":"中之口東小学校","Jusho":"新潟県新潟市西蒲区小吉1100","kouzui":"○","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}
 ,
@@ -1030,13 +1028,13 @@
 ,
 {"Name":"月潟出張所駐車場","Jusho":"新潟県新潟市南区月潟535番地","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"月潟商工会脇駐車場","Jusho":"新潟県新潟市南区大別当當2668番地","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"月潟商工会脇駐車場","Jusho":"新潟県新潟市南区大別當2668番地","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"西萱場農村公園","Jusho":"新潟県新潟市南区西萱場95番地５","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"木滑農村公園","Jusho":"新潟県新潟市南区木滑2104番地１","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
-{"Name":"大別当児童遊園","Jusho":"新潟県新潟市南区大別当659番地２","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+{"Name":"大別当児童遊園","Jusho":"新潟県新潟市南区大別當659番地2","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"月潟農村公園","Jusho":"新潟県新潟市南区月潟223番地","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
@@ -1131,6 +1129,8 @@
 {"Name":"中之口出張所駐車場","Jusho":"新潟県新潟市西蒲区中之口626番地","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"スポレック中之口駐車場","Jusho":"新潟県新潟市西蒲区中之口298番地","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
+,
+{"Name":"篠原幸三郎家住宅前広場","Jusho":"新潟県新潟市西蒲区五ケ浜2452番地","kouzui":"×","gake":"○","takashio":"×","jishin":"×","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"城山運動公園","Jusho":"新潟県新潟市西蒲区峰岡580番地","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"○","naisui":"×","kazan":"×"}
 ,
@@ -1675,8 +1675,6 @@
 {"Name":"旧野田小学校グラウンド","Jusho":"新潟県柏崎市野田656番地1付近","kouzui":"×","gake":"×","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"別俣コミュニティセンター","Jusho":"新潟県柏崎市久米1089番地2","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
-,
-{"Name":"高柳中学校","Jusho":"新潟県柏崎市高柳町岡野町1516番地","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
 {"Name":"高柳小学校","Jusho":"新潟県柏崎市高柳町岡野町1485番地3","kouzui":"○","gake":"○","takashio":"×","jishin":"○","tsunami":"×","kaji":"×","naisui":"×","kazan":"×"}
 ,
