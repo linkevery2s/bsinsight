@@ -1,5 +1,6 @@
 var map;var p;var zoom;var hash;var url;var number;var marker; var markers = []; var gps_button; var hinanj;var geok;var cloud;
 var todou = new Array(47);var markers = new Array(47); var ido; var keido;var para; var par;var back_b;var url_hash;
+var qr_code; var qr_url;
 
 var lastup = "2020年05月21日";
 
@@ -12,8 +13,10 @@ var lastup = "2020年05月21日";
 		L.control.zoom({position: 'topright'}).addTo(map);
 		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}, {position: 'topright'}).addTo( map );
 		back_b = L.easyButton('fa-undo', function(){rn();}, {position: 'topright'}).addTo(map);
+		qr_code = L.easyButton('fa-qrcode', function(){qr();}, {position: 'topright'}).addTo(map);
 		url_hash = location.hash;
 		if(url_hash === ""){map.setView([x, y], z);}
+		
 	}
 
 function map_ini2() {
@@ -468,7 +471,7 @@ function geo_k(feature, layer) {
     if (feature.properties && feature.properties.kazan){
     	popup += '　火山：<span id = "pop_moji">' + feature.properties.kazan + '</span>';
     }
-
+		
     layer.bindPopup(popup);
 }
 
@@ -578,6 +581,20 @@ function geo_m(feature, layer) {
 
 
     layer.bindPopup(popup);
+}
+
+function qr(){
+
+	$("#qrcode").empty();
+	qr_url = location.href;
+
+	jQuery('#qrcode').qrcode({
+		text: qr_url
+	});	
+	
+	$("#fulloverlay").slideToggle(500);
+	$("#qr_c").slideToggle(500);
+	
 }
 
 var a = 0; var way1; var way2;
