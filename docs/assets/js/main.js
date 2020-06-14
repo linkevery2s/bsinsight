@@ -440,8 +440,6 @@ sindosokuhou();
 
 kisyou_ame();
 
-rader_now();
-
 }
 
 function eq(){
