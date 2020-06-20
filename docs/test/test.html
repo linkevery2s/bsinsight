@@ -35,15 +35,15 @@ var kensaku;
 		if(kensaku == ""){
 			
 		}else{
-    		tokyo();
+    		todou(12);
     	}
     
     }
 
-function tokyo(){
+function todou(x){
 
 	$(document).ready(function () {
-   		$.getJSON("https://linkevery2s.github.io/bsinsight/test/data/tokyo.json", function(data){
+   		$.getJSON("https://linkevery2s.github.io/bsinsight/test/data/" + x + ".json", function(data){
         	for(var i in data){
         		if(data[i].Jusho.indexOf(kensaku) != -1) {
         		$("#output").append("<li class='link'>" + data[i].Name + "<br>" + data[i].Jusho + "<br>" + data[i].saigai + "</li>");
