@@ -49,20 +49,15 @@ function rader_now(){
 
 	var rader_date = year + "" + month + "" + date + "" + hour + "" + a + "" + b;
 	
-	document.getElementById('rader_now3').innerHTML = "<img src = 'https://www.jma.go.jp/jp/radnowc/imgs/radar/000/" + rader_date + "-00.png' width = '100%'>";
+ 
+        document.getElementById('rader_now2').innerHTML = "下の画像をタップすると、気象庁のウェブサイトに遷移します。<br><a href ='https://www.jma.go.jp/jp/radnowc/' target='_blank'><img src = 'https://www.jma.go.jp/jp/radnowc/imgs/radar/000/" + rader_date + "-00.png' alt = '気象庁のレーダー・ナウキャストへのリンク' width = '100%'></a>";
 
+	
 }
 
 /* Windy */
 function windy_ame(){
 	document.getElementById('rader_now1').innerHTML = '<iframe width="100%" height="500" src="https://embed.windy.com/embed2.html?lat=37.003&lon=136.978&zoom=5&level=surface&overlay=rain&menu=&message=true&marker=&calendar=&pressure=true&type=map&location=coordinates&detail=&detailLat=37.003&detailLon=136.978&metricWind=default&metricTemp=default&radarRange=-1" frameborder="0" id="yout"></iframe>';
-
-}
-
-/* yahoo */
-function yahoo_ame(){
-
-	document.getElementById('rader_now2').innerHTML = '<iframe width="100%" height="560" src="ymap.html" frameborder="0" id="yout"></iframe>';
 
 }
 
@@ -72,6 +67,5 @@ rader_now();
 
 windy_ame();
 
-yahoo_ame();
 
 }

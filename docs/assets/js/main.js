@@ -438,7 +438,7 @@ else {
 
 sindosokuhou();
 
-kisyou_ame();
+rader();
 
 }
 
@@ -708,10 +708,4 @@ function ktsearch(){
   var url = "https://api.p2pquake.net/v1/human-readable";
   xhr.open('GET', url);
   xhr.send(null);
-}
-
-function kisyou_ame(){
-
-	document.getElementById('amerader').innerHTML = '<iframe width="555" height="500" src="https://embed.windy.com/embed2.html?lat=37.003&lon=136.978&zoom=5&level=surface&overlay=rain&menu=&message=true&marker=&calendar=&pressure=true&type=map&location=coordinates&detail=&detailLat=37.003&detailLon=136.978&metricWind=default&metricTemp=default&radarRange=-1" frameborder="0" id="yout"></iframe>';
-
 }
