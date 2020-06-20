@@ -16,14 +16,21 @@
 
 <script src="js/jquery-3.5.1.min.js"></script>
 <script type="text/javascript">
+var kensaku;
 
 $('#text').change(function() {
+
+	kensaku = document.getElementById("text").value;
+	
+	if(kensaku == ""){
+	$("#output").empty();
+	}else{
     search();
+    }
 });
 
 function search(){
 $("#output").empty();
-var kensaku = document.getElementById("text").value;
 
 $(document).ready(function () {
     $.getJSON("https://linkevery2s.github.io/bsinsight/test/data/tokyo.json", function(data){
