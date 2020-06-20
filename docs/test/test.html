@@ -4,19 +4,23 @@
 <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" >
 <title>日本全国避難リスト</title>
 <link href="css/main.css" rel="stylesheet">
-<style>
-html,body{margin: 0; padding:0;}
 
-</style>
 </head>
 <body>
-<input id ="text" placeholder="都道府県、市町村から絞り込み検索" style="width:99%; height:50px; font-size:20px;"/>
-<br><input type ="button" value ="検索"  style="margin-top: 5px; width:100%; font-size: 20px;" onclick="search()">
+<center>
+<input id ="text" placeholder="都道府県、市町村から絞り込み検索"/>
+</center>
+<!--<br><input type ="button" value ="検索"  style="margin-top: 5px; width:100%; font-size: 20px;" onclick="search()">-->
 <ul id ="output"></ul>
 
 
 <script src="js/jquery-3.5.1.min.js"></script>
 <script type="text/javascript">
+
+$('#text').change(function() {
+    search();
+});
+
 function search(){
 $("#output").empty();
 var kensaku = document.getElementById("text").value;
@@ -25,16 +29,15 @@ $(document).ready(function () {
     $.getJSON("https://linkevery2s.github.io/bsinsight/hinanlist/data/tokyo.json", function(data){
         for(var i in data){
         	if(data[i].Jusho.indexOf(kensaku) != -1) {
-        	$("#output").append("<li>" + data[i].Name + "<br>" + data[i].Jusho + "</li>");
+        	$("#output").append("<li class='link'>" + data[i].Name + "<br>" + data[i].Jusho + "</li>");
         	}
         }
     });
 });
 
-
-
-
 }
+
+
 </script>
 </body>
 </html>
