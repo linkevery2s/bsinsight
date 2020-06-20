@@ -10,7 +10,7 @@
 <center>
 <input id ="text" placeholder="都道府県、市町村から絞り込み検索"/>
 </center>
-<!--<br><input type ="button" value ="検索"  style="margin-top: 5px; width:100%; font-size: 20px;" onclick="search()">-->
+<input type ="button" value ="検索"  style="margin-top: 5px; width:100%; font-size: 20px;" onclick="search()">
 <ul id ="output"></ul>
 
 
@@ -18,7 +18,7 @@
 <script type="text/javascript">
 var kensaku;
 
-$('#text').change(function() {
+/*$('#text').change(function() {
 
 	kensaku = document.getElementById("text").value;
 	
@@ -27,20 +27,30 @@ $('#text').change(function() {
 	}else{
     search();
     }
-});
+});*/
 
-function search(){
-$("#output").empty();
+	function search(){
+		kensaku = document.getElementById("text").value;
+		$("#output").empty();
+		if(kensaku == ""){
+			
+		}else{
+    		tokyo();
+    	}
+    
+    }
 
-$(document).ready(function () {
-    $.getJSON("https://linkevery2s.github.io/bsinsight/test/data/tokyo.json", function(data){
-        for(var i in data){
-        	if(data[i].Jusho.indexOf(kensaku) != -1) {
-        	$("#output").append("<li class='link'>" + data[i].Name + "<br>" + data[i].Jusho + "<br>" + data[i].saigai + "</li>");
+function tokyo(){
+
+	$(document).ready(function () {
+   		$.getJSON("https://linkevery2s.github.io/bsinsight/test/data/tokyo.json", function(data){
+        	for(var i in data){
+        		if(data[i].Jusho.indexOf(kensaku) != -1) {
+        		$("#output").append("<li class='link'>" + data[i].Name + "<br>" + data[i].Jusho + "<br>" + data[i].saigai + "</li>");
+        		}
         	}
-        }
-    });
-});
+    	});
+	});
 
 }
 
