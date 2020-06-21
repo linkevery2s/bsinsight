@@ -12,7 +12,7 @@ html,body{
 	z-index: 1;
 }
 
-	
+
 #header{
 	margin: 0; padding: 0;
 	width: 100%;
@@ -74,4 +74,9 @@ li:nth-child(odd) {
 .link:last-child{
 	/*最後のリンクに下線を付ける*/
 	border-bottom-width: 2px;
+}
+
+.saig{
+	color: #FF0000;
+	font-weight: bold;
 }
