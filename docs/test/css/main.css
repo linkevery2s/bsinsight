@@ -26,11 +26,13 @@ html,body{
 
 .kensaku_button{
 	margin-top: 5px;
-	width:100%;
+	width:98%;
 	font-size: 20px;
+	border-radius: 5px;
 	padding: 5px 0 5px 0;
 	color: #ffffff;
 	background: #0033CC;
+	cursor: pointer;
 }
 
 input[type="submit"],input[type="button"] {
