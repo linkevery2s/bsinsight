@@ -65,7 +65,7 @@ function rader(){
 
 windy_ame();
 
-/*rader_now();*/
+rader_now();
 
 
 }

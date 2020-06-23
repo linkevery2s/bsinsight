@@ -3517,3 +3517,7 @@ dd b{
 width: 100%;
 height: 1000px;
 }
+
+#kisyou_no a{
+	border: none;
+}
