@@ -1,5 +1,7 @@
 ﻿[
-{"Name":"こしの内科クリニック","Jusho":"石川県金沢市朝霧台1丁目176番","kouzui":"<a href='tel:076-260-0500'>076-260-0500</a>","gake":"<a href='http://www.kma.jp/kosino/' target='_blank'>http://www.kma.jp/kosino/</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"みずほ病院（石川県河北郡津幡町字潟端422番地1）","naisui":"","kazan":""},
+{"Name":"金沢聖霊総合病院","Jusho":"石川県金沢市長町1丁目5番30号","kouzui":"<a href='tel:076-231-1295'>076-231-1295</a>","gake":"<a href='http://www.kanazawa-seirei.jp/' target='_blank'>http://www.kanazawa-seirei.jp/</a>","takashio":"〇","jishin":"〇","tsunami":"内科整形外科産婦人科小児科","kaji":"","naisui":"","kazan":""},
+{"Name":"こしの内科クリニック","Jusho":"石川県金沢市朝霧台1丁目176番","kouzui":"<a href='tel:076-260-0500'>076-260-0500</a>","gake":"<a href='http://www.kma.jp/kosino/' target='_blank'>http://www.kma.jp/kosino/</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"みずほ病院（石川県河北郡津幡町字潟端422番地1）","naisui":"","kazan":""}
+,
 {"Name":"金澤なかでクリニック","Jusho":"金沢市近岡町294番地7","kouzui":"<a href='tel:076-239-1010'>076-239-1010</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"内科泌尿器科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"城北病院","Jusho":"石川県金沢市京町20番3号","kouzui":"<a href='tel:076-251-6111'>076-251-6111</a>","gake":"<a href='http://jouhoku-hosp.com/' target='_blank'>http://jouhoku-hosp.com/</a>","takashio":"×","jishin":"〇","tsunami":"全科","kaji":"","naisui":"","kazan":""}
@@ -168,7 +170,7 @@
 ,
 {"Name":"よしだ小児科クリニック","Jusho":"石川県能美市松が岡3-67","kouzui":"<a href='tel:0761-51-6100'>0761-51-6100</a>","gake":"<a href='' target='_blank'></a>","takashio":"〇","jishin":"〇","tsunami":"小児科","kaji":"当院、よしだ小児科クリニックにて、個室あるいはお車で対面診療ができます","naisui":"","kazan":""}
 ,
-{"Name":"やなせ医院","Jusho":"石川県能美市浜町カ157番地","kouzui":"<a href='tel:0761-55-0166'>0761-55-0166</a>","gake":"<a href='http//yanase-cl.jp' target='_blank'>http//yanase-cl.jp</a>","takashio":"×","jishin":"〇","tsunami":"内科小児科","kaji":"","naisui":"","kazan":""}
+{"Name":"やなせ医院","Jusho":"石川県能美市浜町カ157番地","kouzui":"<a href='tel:0761-55-0166'>0761-55-0166</a>","gake":"<a href='http://yanase-cl.jp' target='_blank'>http://yanase-cl.jp</a>","takashio":"×","jishin":"〇","tsunami":"内科小児科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"医療法人社団上田眼科医院","Jusho":"石川県能美市寺井町レ104-4","kouzui":"<a href='tel:0761-57-0012'>0761-57-0012</a>","gake":"<a href='http://www.ueda-eye-clinic.jp' target='_blank'>http://www.ueda-eye-clinic.jp</a>","takashio":"×","jishin":"〇","tsunami":"眼科","kaji":"","naisui":"","kazan":""}
 ,

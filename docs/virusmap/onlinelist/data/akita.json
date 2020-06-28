@@ -1,5 +1,7 @@
 ﻿[
-{"Name":"今村病院","Jusho":"秋田県秋田市下新城中野字琵琶沼124番地1","kouzui":"<a href='tel:018-873-3011'>018-873-3011</a>","gake":"<a href='https://www.kyukokai.com/kyukokai/imamura/' target='_blank'>https://www.kyukokai.com/kyukokai/imamura/</a>","takashio":"〇","jishin":"〇","tsunami":"精神科","kaji":"","naisui":"","kazan":""},
+{"Name":"御野場病院","Jusho":"秋田県秋田市御野場二丁目14番1号","kouzui":"<a href='tel:018-839-6141'>018-839-6141</a>","gake":"<a href='https://www.seikankai.or.jp/' target='_blank'>https://www.seikankai.or.jp/</a>","takashio":"〇","jishin":"〇","tsunami":"内科神経内科リハビリテーション科","kaji":"","naisui":"","kazan":""},
+{"Name":"今村病院","Jusho":"秋田県秋田市下新城中野字琵琶沼124番地1","kouzui":"<a href='tel:018-873-3011'>018-873-3011</a>","gake":"<a href='https://www.kyukokai.com/kyukokai/imamura/' target='_blank'>https://www.kyukokai.com/kyukokai/imamura/</a>","takashio":"〇","jishin":"〇","tsunami":"精神科","kaji":"","naisui":"","kazan":""}
+,
 {"Name":"市立秋田総合病院","Jusho":"秋田県秋田市川元松丘町4番30号","kouzui":"<a href='tel:018-823-4171'>018-823-4171</a>","gake":"<a href='http://akita-city-hospital.jp/' target='_blank'>http://akita-city-hospital.jp/</a>","takashio":"×","jishin":"〇","tsunami":"全科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"中通総合病院","Jusho":"秋田県秋田市南通みその町3番15号","kouzui":"<a href='tel:018-833-1122'>018-833-1122</a>","gake":"<a href='http://www.meiwakai.or.jp/nakadori/' target='_blank'>http://www.meiwakai.or.jp/nakadori/</a>","takashio":"×","jishin":"△","tsunami":"すべての診療科","kaji":"","naisui":"","kazan":""}

@@ -1,5 +1,7 @@
 ﻿[
-{"Name":"いのまたクリニック","Jusho":"名古屋市千種区四谷通1-13ノア四ツ谷1階","kouzui":"<a href='tel:052-734-8788'>052-734-8788</a>","gake":"<a href='http://motoyama-inomataclinic.jp' target='_blank'>http://motoyama-inomataclinic.jp</a>","takashio":"〇","jishin":"〇","tsunami":"内科小児科","kaji":"","naisui":"","kazan":""},
+{"Name":"イノコシ外科内科リハビリテーション室","Jusho":"名古屋市千種区宮根台一丁目5番4号","kouzui":"<a href='tel:771-2611'>771-2611</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"外科・内科","kaji":"東海病院（千種区）・東部医療センター（千種区）・名古屋ハートセンター（東区）","naisui":"","kazan":""},
+{"Name":"いのまたクリニック","Jusho":"名古屋市千種区四谷通1-13ノア四ツ谷1階","kouzui":"<a href='tel:052-734-8788'>052-734-8788</a>","gake":"<a href='http://motoyama-inomataclinic.jp' target='_blank'>http://motoyama-inomataclinic.jp</a>","takashio":"〇","jishin":"〇","tsunami":"内科小児科","kaji":"","naisui":"","kazan":""}
+,
 {"Name":"こころからだクリニック","Jusho":"名古屋市千種区今池一丁目2番7号フルヘルス健康文化館7階","kouzui":"<a href='tel:733-5561'>733-5561</a>","gake":"<a href='https://kokoro-karada-cl.com/' target='_blank'>https://kokoro-karada-cl.com/</a>","takashio":"×","jishin":"〇","tsunami":"心療内科、精神科、漢方内科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"さくらの丘クリニック","Jusho":"名古屋市千種区桜が丘113番地","kouzui":"<a href='tel:789-1115'>789-1115</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"×","tsunami":"内科","kaji":"","naisui":"","kazan":""}
@@ -1056,7 +1058,7 @@
 ,
 {"Name":"三村医院","Jusho":"愛知県西尾市住吉町3丁目12番地","kouzui":"<a href='tel:0563-56-0220'>0563-56-0220</a>","gake":"<a href='http://www.ibikinet.com/' target='_blank'>http://www.ibikinet.com/</a>","takashio":"×","jishin":"〇","tsunami":"耳鼻咽喉科アレルギー科","kaji":"藤田医科大学岡崎医療センター（愛知県岡崎市針崎町字五反田1番地）","naisui":"","kazan":""}
 ,
-{"Name":"西尾病院","Jusho":"愛知県西尾市和泉町22","kouzui":"<a href='tel:0563-57-5138'>0563-57-5138</a>","gake":"<a href='http://.nishio-hp.or.jp' target='_blank'>http://.nishio-hp.or.jp</a>","takashio":"×","jishin":"〇","tsunami":"内科外科","kaji":"病院に来てもらう","naisui":"","kazan":""}
+{"Name":"西尾病院","Jusho":"愛知県西尾市和泉町22","kouzui":"<a href='tel:0563-57-5138'>0563-57-5138</a>","gake":"<a href='http://nishio-hp.or.jp' target='_blank'>http://nishio-hp.or.jp</a>","takashio":"×","jishin":"〇","tsunami":"内科外科","kaji":"病院に来てもらう","naisui":"","kazan":""}
 ,
 {"Name":"西尾市民病院","Jusho":"愛知県西尾市熊味町上泡原6番地","kouzui":"<a href='tel:0563-56-3171'>0563-56-3171</a>","gake":"<a href='https://hospital.city.nishio.aichi.jp/' target='_blank'>https://hospital.city.nishio.aichi.jp/</a>","takashio":"×","jishin":"×","tsunami":"内科・小児科・外科・整形外科・形成外科・脳神経外科・呼吸器外科・皮膚科・泌尿器科・産婦人科・眼科・耳鼻咽喉科・精神科","kaji":"","naisui":"","kazan":""}
 ,
@@ -1070,7 +1072,7 @@
 ,
 {"Name":"常滑市民病院","Jusho":"愛知県常滑市飛香台3丁目3番地の3","kouzui":"<a href='tel:0569-35-3170'>0569-35-3170</a>","gake":"<a href='http://www.tokonamecityhospital.jp/' target='_blank'>http://www.tokonamecityhospital.jp/</a>","takashio":"×","jishin":"×","tsunami":"内科外科整形外科小児科婦人科皮膚科泌尿器科眼科耳鼻科脳外科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"医療法人永仁会佐藤病院","Jusho":"愛知県江南市上奈良町緑48番地","kouzui":"<a href='tel:0587-54-6611'>0587-54-6611</a>","gake":"<a href='http//www.sato-hp.jp' target='_blank'>http//www.sato-hp.jp</a>","takashio":"×","jishin":"×","tsunami":"①内科②外科","kaji":"","naisui":"","kazan":""}
+{"Name":"医療法人永仁会佐藤病院","Jusho":"愛知県江南市上奈良町緑48番地","kouzui":"<a href='tel:0587-54-6611'>0587-54-6611</a>","gake":"<a href='http://www.sato-hp.jp' target='_blank'>http://www.sato-hp.jp</a>","takashio":"×","jishin":"×","tsunami":"①内科②外科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"（医）双寿会塚原外科・内科","Jusho":"愛知県小牧市中央二丁目185番地","kouzui":"<a href='tel:0568-77-3175'>0568-77-3175</a>","gake":"<a href='http://soujukai.or.jp/tsukahara' target='_blank'>http://soujukai.or.jp/tsukahara</a>","takashio":"×","jishin":"〇","tsunami":"内科、小児科","kaji":"なし","naisui":"","kazan":""}
 ,

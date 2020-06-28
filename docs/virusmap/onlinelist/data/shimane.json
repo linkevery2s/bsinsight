@@ -1,5 +1,7 @@
 ﻿[
-{"Name":"東部島根医療福祉センター","Jusho":"島根県松江市東生馬町15-1","kouzui":"<a href='tel:0852-36-8011'>0852-36-8011</a>","gake":"<a href='http://www.sw-shimasei.jp/' target='_blank'>http://www.sw-shimasei.jp/</a>","takashio":"×","jishin":"〇","tsunami":"整形外科、リハビリテーション科、脳神経小児科、小児科、内科、耳鼻咽喉科、皮膚科、歯科","kaji":"","naisui":"","kazan":""},
+{"Name":"松江赤十字病院","Jusho":"島根県松江市母衣町200","kouzui":"<a href='tel:0852-24-2111'>0852-24-2111</a>","gake":"<a href='https://www.matsue.jrc.or.jp' target='_blank'>https://www.matsue.jrc.or.jp</a>","takashio":"×","jishin":"〇","tsunami":"全科","kaji":"","naisui":"","kazan":""},
+{"Name":"東部島根医療福祉センター","Jusho":"島根県松江市東生馬町15-1","kouzui":"<a href='tel:0852-36-8011'>0852-36-8011</a>","gake":"<a href='http://www.sw-shimasei.jp/' target='_blank'>http://www.sw-shimasei.jp/</a>","takashio":"×","jishin":"〇","tsunami":"整形外科、リハビリテーション科、脳神経小児科、小児科、内科、耳鼻咽喉科、皮膚科、歯科","kaji":"","naisui":"","kazan":""}
+,
 {"Name":"鹿島病院","Jusho":"島根県松江市鹿島町名分243-1","kouzui":"<a href='tel:0852-82-2627'>0852-82-2627</a>","gake":"<a href='https://www.kashima-hosp.or.jp/' target='_blank'>https://www.kashima-hosp.or.jp/</a>","takashio":"×","jishin":"〇","tsunami":"HPをご覧ください","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"松江記念病院","Jusho":"島根県松江市上乃木三丁目4番1号","kouzui":"<a href='tel:0852-27-8111(代表）'>0852-27-8111(代表）</a>","gake":"<a href='http://www.souken-kai.or.jp/' target='_blank'>http://www.souken-kai.or.jp/</a>","takashio":"〇","jishin":"〇","tsunami":"外科、内科、小児科、歯科口腔外科","kaji":"松江赤十字病院（島根県松江市母衣町200）松江市立病院（島根県松江市乃白町32-1）松江医療センター（島根県松江市上乃木5-8-31）","naisui":"","kazan":""}

@@ -1,5 +1,7 @@
 ﻿[
-{"Name":"青森市民病院","Jusho":"青森県青森市勝田1丁目14番20号","kouzui":"<a href='tel:017-734-2171'>017-734-2171</a>","gake":"<a href='https://www.city.aomori.aomori.jp/byouin/top.html' target='_blank'>https://www.city.aomori.aomori.jp/byouin/top.html</a>","takashio":"×","jishin":"〇","tsunami":"全科","kaji":"","naisui":"","kazan":""},
+{"Name":"国立病院機構青森病院","Jusho":"青森県青森市浪岡大字女鹿沢字平野155-1","kouzui":"<a href='tel:0172-62-4055'>0172-62-4055</a>","gake":"<a href='https://aomori.hosp.go.jp/' target='_blank'>https://aomori.hosp.go.jp/</a>","takashio":"×","jishin":"〇","tsunami":"各診療科","kaji":"","naisui":"","kazan":""},
+{"Name":"青森市民病院","Jusho":"青森県青森市勝田1丁目14番20号","kouzui":"<a href='tel:017-734-2171'>017-734-2171</a>","gake":"<a href='https://www.city.aomori.aomori.jp/byouin/top.html' target='_blank'>https://www.city.aomori.aomori.jp/byouin/top.html</a>","takashio":"×","jishin":"〇","tsunami":"全科","kaji":"","naisui":"","kazan":""}
+,
 {"Name":"青森市立浪岡病院","Jusho":"青森県青森市浪岡大字浪岡字平野180","kouzui":"<a href='tel:0172-62-3111'>0172-62-3111</a>","gake":"<a href='https://www.city.aomori.aomori.jp/koho-kocho/shiseijouhou/aomorishi-konnamati/koukyoushisetsu/itiran/namiokabyouin.html' target='_blank'>https://www.city.aomori.aomori.jp/koho-kocho/shiseijouhou/aomorishi-konnamati/koukyoushisetsu/itiran/namiokabyouin.html</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"医療法人雄心会都青森新市病院","Jusho":"青森県青森市石江3丁目1番地","kouzui":"<a href='tel:017-757-8750'>017-757-8750</a>","gake":"<a href='http://aomorishintoshi-hp.yushinkai.jp/' target='_blank'>http://aomorishintoshi-hp.yushinkai.jp/</a>","takashio":"×","jishin":"〇","tsunami":"全診療科","kaji":"","naisui":"","kazan":""}

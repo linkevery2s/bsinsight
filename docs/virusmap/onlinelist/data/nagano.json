@@ -1,5 +1,7 @@
 ﻿[
-{"Name":"長野市民病院","Jusho":"長野県長野市大字富竹1333番地1","kouzui":"<a href='tel:026-295-1199'>026-295-1199</a>","gake":"<a href='https://www.hospital.nagano.nagano.jp/' target='_blank'>https://www.hospital.nagano.nagano.jp/</a>","takashio":"×","jishin":"〇","tsunami":"標榜科","kaji":"","naisui":"","kazan":""},
+{"Name":"東長野病院","Jusho":"長野県長野市上野2丁目477番地","kouzui":"<a href='tel:026-296-1111'>026-296-1111</a>","gake":"<a href='http://enagano-hosp.jp/' target='_blank'>http://enagano-hosp.jp/</a>","takashio":"×","jishin":"〇","tsunami":"内科小児科呼吸器科アレルギー科外科消化器科循環器科","kaji":"","naisui":"","kazan":""},
+{"Name":"長野市民病院","Jusho":"長野県長野市大字富竹1333番地1","kouzui":"<a href='tel:026-295-1199'>026-295-1199</a>","gake":"<a href='https://www.hospital.nagano.nagano.jp/' target='_blank'>https://www.hospital.nagano.nagano.jp/</a>","takashio":"×","jishin":"〇","tsunami":"標榜科","kaji":"","naisui":"","kazan":""}
+,
 {"Name":"長野県厚生農業協同組合連合会長野松代総合総合病院","Jusho":"長野県長野市松代町松代183番地","kouzui":"<a href='tel:026-278-2031'>026-278-2031</a>","gake":"<a href='http://ww.nagano-matsushiro.or.jp' target='_blank'>http://ww.nagano-matsushiro.or.jp</a>","takashio":"×","jishin":"〇","tsunami":"内科呼吸器内科循環器内科消化器内科神経内科皮膚科アレルギー科リウマチ科小児科精神科心療内科外科呼吸器外科心臓血管外科泌尿器科脳神経外科整形外科形成外科眼科耳鼻咽喉科産婦人科リハビリテーション科放射線科麻酔科歯科口腔外科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"長野県厚生農業協同組合連合会長野松代総合病院附属若穂病院","Jusho":"長野県長野市若穂綿内7615-1","kouzui":"<a href='tel:026-282-7111'>026-282-7111</a>","gake":"<a href='http://ww.nagano-matsushiro.or.jp' target='_blank'>http://ww.nagano-matsushiro.or.jp</a>","takashio":"×","jishin":"〇","tsunami":"内科小児科外科整形外科皮膚科泌尿器科脳神経外科","kaji":"","naisui":"","kazan":""}
@@ -690,7 +692,7 @@
 ,
 {"Name":"つどいのクリニック柿田","Jusho":"長野県上伊那郡飯島町飯島2550-5","kouzui":"<a href='tel:0265-98-8608'>0265-98-8608</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"精神科心療内科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"長田内科循環器科医院","Jusho":"長野県上伊那郡南箕輪村3717","kouzui":"<a href='tel:0265-72-4043'>0265-72-4043</a>","gake":"<a href='http//www:osada-iin.com/' target='_blank'>http//www:osada-iin.com/</a>","takashio":"×","jishin":"〇","tsunami":"内科循環器科消化器内科小児科","kaji":"","naisui":"","kazan":""}
+{"Name":"長田内科循環器科医院","Jusho":"長野県上伊那郡南箕輪村3717","kouzui":"<a href='tel:0265-72-4043'>0265-72-4043</a>","gake":"<a href='http://www.osada-iin.com/' target='_blank'>http://www.osada-iin.com/</a>","takashio":"×","jishin":"〇","tsunami":"内科循環器科消化器内科小児科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"堀田内科クリニック","Jusho":"長野県上伊那郡南箕輪村5587-2","kouzui":"<a href='tel:0265-72-3980'>0265-72-3980</a>","gake":"<a href='http://www.hotta-clinic.jp' target='_blank'>http://www.hotta-clinic.jp</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"伊那中央病院（長野県伊那市小四郎久保1313-1）","naisui":"","kazan":""}
 ,

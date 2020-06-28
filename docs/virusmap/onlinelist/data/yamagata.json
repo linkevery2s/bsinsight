@@ -1,5 +1,7 @@
 ﻿[
-{"Name":"山形厚生病院","Jusho":"山形県山形市大字菅沢字鬼越255","kouzui":"<a href='tel:023-645-8118'>023-645-8118</a>","gake":"<a href='http://tmw.or.jp/Hospital/' target='_blank'>http://tmw.or.jp/Hospital/</a>","takashio":"×","jishin":"〇","tsunami":"精神科内科","kaji":"-","naisui":"","kazan":""},
+{"Name":"井出眼科病院","Jusho":"山形県山形市香澄町3-6-13","kouzui":"<a href='tel:023-641-3111'>023-641-3111</a>","gake":"<a href='http://www.ideganka.or.jp/' target='_blank'>http://www.ideganka.or.jp/</a>","takashio":"〇","jishin":"〇","tsunami":"眼科","kaji":"","naisui":"","kazan":""},
+{"Name":"山形厚生病院","Jusho":"山形県山形市大字菅沢字鬼越255","kouzui":"<a href='tel:023-645-8118'>023-645-8118</a>","gake":"<a href='http://tmw.or.jp/Hospital/' target='_blank'>http://tmw.or.jp/Hospital/</a>","takashio":"×","jishin":"〇","tsunami":"精神科内科","kaji":"-","naisui":"","kazan":""}
+,
 {"Name":"公立学校共済組合東北中央病院","Jusho":"山形県山形市和合町3丁目2番5号","kouzui":"<a href='tel:023-623-5111'>023-623-5111</a>","gake":"<a href='https://tohoku-ctr-hsp.com/' target='_blank'>https://tohoku-ctr-hsp.com/</a>","takashio":"×","jishin":"〇","tsunami":"整形外科外科呼吸器内科循環器内科循環器内科消化器肝臓内科消化器肝臓内科消化器肝臓内科消化器肝臓内科糖尿病内科外科外科外科整形外科整形外科整形外科整形外科整形外科整形外科婦人科眼科耳鼻咽喉科歯科","kaji":"医師の判断で地域のかかりつけ医を紹介","naisui":"","kazan":""}
 ,
 {"Name":"医療法人徳洲会山形徳洲会病院","Jusho":"山形県山形市清住町2丁目3-51","kouzui":"<a href='tel:023-647-3434'>023-647-3434</a>","gake":"<a href='http://www.yamatoku-hp.jp/' target='_blank'>http://www.yamatoku-hp.jp/</a>","takashio":"〇","jishin":"〇","tsunami":"整形外科","kaji":"湘南鎌倉総合病院（神奈川県鎌倉市岡本1370番1）","naisui":"","kazan":""}

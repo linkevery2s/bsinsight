@@ -1,5 +1,7 @@
 ﻿[
-{"Name":"神田すこやかクリニック","Jusho":"東京都千代田区神田須田町1-30-1-104","kouzui":"<a href='tel:03-6206-0153'>03-6206-0153</a>","gake":"<a href='http://www.kanda-sukoyaka.com' target='_blank'>http://www.kanda-sukoyaka.com</a>","takashio":"〇","jishin":"×","tsunami":"内科小児科","kaji":"国立国際医療研究センター病院（新宿区戸山1-21-1）","naisui":"","kazan":""},
+{"Name":"医療法人社団恒正会そねクリニック丸の内","Jusho":"東京都千代田区丸の内一丁目8番2号?鋼ビルディング地下1階","kouzui":"<a href='tel:03-6212-3888'>03-6212-3888</a>","gake":"<a href='https://www.soneclinic-marunouchi.com/' target='_blank'>https://www.soneclinic-marunouchi.com/</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""},
+{"Name":"神田すこやかクリニック","Jusho":"東京都千代田区神田須田町1-30-1-104","kouzui":"<a href='tel:03-6206-0153'>03-6206-0153</a>","gake":"<a href='http://www.kanda-sukoyaka.com' target='_blank'>http://www.kanda-sukoyaka.com</a>","takashio":"〇","jishin":"×","tsunami":"内科小児科","kaji":"国立国際医療研究センター病院（新宿区戸山1-21-1）","naisui":"","kazan":""}
+,
 {"Name":"麹町皮ふ科・形成外科クリニック","Jusho":"東京都千代田区平河町1-4-5平和第一ビル地下1階","kouzui":"<a href='tel:03-6261-2458'>03-6261-2458</a>","gake":"<a href='https://kojihifu.com/' target='_blank'>https://kojihifu.com/</a>","takashio":"〇","jishin":"〇","tsunami":"皮膚科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"国家公務員共済組合連合会九段坂病院","Jusho":"東京都千代田区九段南1-6-12","kouzui":"<a href='tel:03-3262-9191'>03-3262-9191</a>","gake":"<a href='http://www.kudanzaka.com/' target='_blank'>http://www.kudanzaka.com/</a>","takashio":"×","jishin":"〇","tsunami":"内科外科整形外科皮膚科泌尿器科婦人科耳鼻咽喉科眼科","kaji":"自院にて対応","naisui":"","kazan":""}
@@ -234,7 +236,7 @@
 ,
 {"Name":"(医)千秋双葉会茗荷谷耳鼻咽喉科・アレルギー科","Jusho":"東京都文京区小石川5-5-2バンビビル2階","kouzui":"<a href='tel:03-3944-8711'>03-3944-8711</a>","gake":"<a href='http://myogadani-ent.com/' target='_blank'>http://myogadani-ent.com/</a>","takashio":"〇","jishin":"〇","tsunami":"耳鼻咽喉科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"医療法人社団藤翔会加藤内科胃腸科クリニック","Jusho":"東京都文京区本駒込6-1-21コロナ社第三ビル一階","kouzui":"<a href='tel:03-5319-1470'>03-5319-1470</a>","gake":"<a href='http//www.katoh-climic.jp' target='_blank'>http//www.katoh-climic.jp</a>","takashio":"×","jishin":"〇","tsunami":"内科小児科胃腸内科消化器内科","kaji":"寺田医院（文京区西方）","naisui":"","kazan":""}
+{"Name":"医療法人社団藤翔会加藤内科胃腸科クリニック","Jusho":"東京都文京区本駒込6-1-21コロナ社第三ビル一階","kouzui":"<a href='tel:03-5319-1470'>03-5319-1470</a>","gake":"<a href='http://www.katoh-climic.jp' target='_blank'>http://www.katoh-climic.jp</a>","takashio":"×","jishin":"〇","tsunami":"内科小児科胃腸内科消化器内科","kaji":"寺田医院（文京区西方）","naisui":"","kazan":""}
 ,
 {"Name":"医療法人社団中野小児科内科","Jusho":"東京都文京区白山1-33-23ベルメゾン文京白山1F","kouzui":"<a href='tel:03-5805-8551'>03-5805-8551</a>","gake":"<a href='https://www.nakano-shounikanaika.com/' target='_blank'>https://www.nakano-shounikanaika.com/</a>","takashio":"×","jishin":"〇","tsunami":"内科小児科","kaji":"","naisui":"","kazan":""}
 ,

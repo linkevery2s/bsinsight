@@ -1,5 +1,7 @@
 ﻿[
-{"Name":"千手堂病院","Jusho":"岐阜県岐阜市千手堂中町1丁目25","kouzui":"<a href='tel:058-251-3218'>058-251-3218</a>","gake":"<a href='http://www.senjyudo.com/' target='_blank'>http://www.senjyudo.com/</a>","takashio":"〇","jishin":"〇","tsunami":"内科外科整形外科","kaji":"","naisui":"","kazan":""},
+{"Name":"岐阜清流病院","Jusho":"岐阜県岐阜市川部3丁目25番地","kouzui":"<a href='tel:058-239-8111'>058-239-8111</a>","gake":"<a href='http://www.skhosp.or.jp/' target='_blank'>http://www.skhosp.or.jp/</a>","takashio":"×","jishin":"〇","tsunami":"内科、整形外科、脳神経外科、リハビリテーション科","kaji":"","naisui":"","kazan":""},
+{"Name":"千手堂病院","Jusho":"岐阜県岐阜市千手堂中町1丁目25","kouzui":"<a href='tel:058-251-3218'>058-251-3218</a>","gake":"<a href='http://www.senjyudo.com/' target='_blank'>http://www.senjyudo.com/</a>","takashio":"〇","jishin":"〇","tsunami":"内科外科整形外科","kaji":"","naisui":"","kazan":""}
+,
 {"Name":"岐阜市民病院","Jusho":"岐阜県岐阜市鹿島町7丁目1番地","kouzui":"<a href='tel:058-251-1101'>058-251-1101</a>","gake":"<a href='http://gmhosp.jp/' target='_blank'>http://gmhosp.jp/</a>","takashio":"×","jishin":"〇","tsunami":"全診療科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"近石病院","Jusho":"岐阜県岐阜市光町2丁目46番地","kouzui":"<a href='tel:058-232-2111'>058-232-2111</a>","gake":"<a href='http://touhoukai.or.jp' target='_blank'>http://touhoukai.or.jp</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}

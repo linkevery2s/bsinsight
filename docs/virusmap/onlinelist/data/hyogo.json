@@ -1,5 +1,7 @@
 ﻿[
-{"Name":"国家公務員共済組合連合会六甲病院","Jusho":"兵庫県神戸市灘区土山町5-1","kouzui":"<a href='tel:078-851-8558'>078-851-8558</a>","gake":"<a href='https://rokkouhp.jp/' target='_blank'>https://rokkouhp.jp/</a>","takashio":"×","jishin":"〇","tsunami":"内科外科整形外科緩和ケア内科泌尿器科眼科耳鼻咽喉科","kaji":"","naisui":"","kazan":""},
+{"Name":"中井病院","Jusho":"兵庫県神戸市灘区大内通6-1-3","kouzui":"<a href='tel:078-861-1856'>078-861-1856</a>","gake":"<a href='http://www.nakai-hp.jp/' target='_blank'>http://www.nakai-hp.jp/</a>","takashio":"△","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""},
+{"Name":"国家公務員共済組合連合会六甲病院","Jusho":"兵庫県神戸市灘区土山町5-1","kouzui":"<a href='tel:078-851-8558'>078-851-8558</a>","gake":"<a href='https://rokkouhp.jp/' target='_blank'>https://rokkouhp.jp/</a>","takashio":"×","jishin":"〇","tsunami":"内科外科整形外科緩和ケア内科泌尿器科眼科耳鼻咽喉科","kaji":"","naisui":"","kazan":""}
+,
 {"Name":"井上病院","Jusho":"兵庫県神戸市兵庫区上沢通3丁目1-4","kouzui":"<a href='tel:078-521-0015'>078-521-0015</a>","gake":"<a href='http://www.inoue-hosp.jp/' target='_blank'>http://www.inoue-hosp.jp/</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"社会医療法人榮昌会吉田病院","Jusho":"兵庫県神戸市兵庫区大開通9丁目2-6","kouzui":"<a href='tel:078-576-2773'>078-576-2773</a>","gake":"<a href='http://www.yoshida-hp.or.jp/u/about.html' target='_blank'>http://www.yoshida-hp.or.jp/u/about.html</a>","takashio":"×","jishin":"〇","tsunami":"脳神経外科脳神経内科循環器内科","kaji":"","naisui":"","kazan":""}
@@ -618,7 +620,7 @@
 ,
 {"Name":"岸本医院","Jusho":"兵庫県宝塚市鹿塩2丁目11-10","kouzui":"<a href='tel:0798-52-0210'>0798-52-0210</a>","gake":"<a href='http://www.ne.jp/asahi/kishimoto/clinic/' target='_blank'>http://www.ne.jp/asahi/kishimoto/clinic/</a>","takashio":"〇","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
-{"Name":"川上診療所","Jusho":"兵庫県宝塚市仁川北3-3-10","kouzui":"<a href='tel:0798-51-7341'>0798-51-7341</a>","gake":"<a href='http//www.kawakami-cl.net' target='_blank'>http//www.kawakami-cl.net</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
+{"Name":"川上診療所","Jusho":"兵庫県宝塚市仁川北3-3-10","kouzui":"<a href='tel:0798-51-7341'>0798-51-7341</a>","gake":"<a href='http://www.kawakami-cl.net' target='_blank'>http://www.kawakami-cl.net</a>","takashio":"×","jishin":"〇","tsunami":"内科","kaji":"","naisui":"","kazan":""}
 ,
 {"Name":"たわらもと内科・糖尿病内科","Jusho":"兵庫県宝塚市逆瀬川1丁目11-1アピア21階","kouzui":"<a href='tel:0797-62-6221'>0797-62-6221</a>","gake":"<a href='http://tawaramoto-cl.com' target='_blank'>http://tawaramoto-cl.com</a>","takashio":"〇","jishin":"〇","tsunami":"内科糖尿病内科","kaji":"宝塚第一病院(兵庫県宝塚市向月町19-5)","naisui":"","kazan":""}
 ,
@@ -862,7 +864,7 @@
 ,
 {"Name":"正条クリニック","Jusho":"兵庫県たつの市揖保川町山津屋9","kouzui":"<a href='tel:0791-72-2033'>0791-72-2033</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"〇","tsunami":"内科小児科","kaji":"-","naisui":"","kazan":""}
 ,
-{"Name":"医療法人社団緑風会龍野中央病院","Jusho":"兵庫県□たつの市龍野町島田667番地","kouzui":"<a href='tel:0791-62-1301'>0791-62-1301</a>","gake":"<a href='http//:tatsuno-central-hospital.jp' target='_blank'>http//:tatsuno-central-hospital.jp</a>","takashio":"△","jishin":"△","tsunami":"内科","kaji":"-","naisui":"","kazan":""}
+{"Name":"医療法人社団緑風会龍野中央病院","Jusho":"兵庫県□たつの市龍野町島田667番地","kouzui":"<a href='tel:0791-62-1301'>0791-62-1301</a>","gake":"<a href='http://tatsuno-central-hospital.jp' target='_blank'>http://tatsuno-central-hospital.jp</a>","takashio":"△","jishin":"△","tsunami":"内科","kaji":"-","naisui":"","kazan":""}
 ,
 {"Name":"医療法人社団景珠会八重垣病院","Jusho":"兵庫県たつの市新宮町井野原531-2","kouzui":"<a href='tel:0791-75-1222'>0791-75-1222</a>","gake":"<a href='' target='_blank'></a>","takashio":"×","jishin":"△","tsunami":"外科内科皮膚科眼科","kaji":"当院での対面診療","naisui":"","kazan":""}
 ,
