@@ -3,7 +3,7 @@ var bed = new Array(47); var hos_bed = new Array(47); var yado_bed = new Array(4
 var multi = new Array(47); var lastupdate;var multi_n = new Array(47); online_pref = new Array(47);
 var yousei = new Array(47); var taiin = new Array(47); var ncurrent = new Array(47); death = new Array(47);
 var soku_yousei = new Array(47); var soku_taiin = new Array(47); var soku_ncurrent = new Array(47); soku_death = new Array(47); var soku_update = new Array(47); var soku_name = new Array(47); var ji_update; var kensa = new Array(47); var h = new Array(47);
-var j; var sokuho; var zentai_youso;
+var j; var sokuho; var zentai_youso; var heavy = new Array(47);
 
 /* 病床数 */
 /* 北海道 */ hos_bed[0] = 499;yado_bed[0]=260;
@@ -146,6 +146,7 @@ function get_kansen(){
 				kensa[i] = json_data.area[i].ninspections;
 				yousei[i] = json_data.area[i].npatients;
 				taiin[i] = json_data.area[i].nexits;
+				heavy[i] = json_data.area[i].nheavycurrentpatients;
 				ncurrent[i] = json_data.area[i].ncurrentpatients;
 				death[i] = yousei[i] - taiin[i] - ncurrent[i];
 			}
@@ -416,7 +417,7 @@ function get_kansen(){
 
 			/* divに掲載 */
 			for (var i = 0;  i < 47;  i++){
-			x[i].innerHTML = json_data.area[i].name_jp +"<br><center>現患者数／病床数<br>" + ncurrent[i] + "／" + bed[i] + "</center>医療病床：" + hos_bed[i] + "<br>宿泊施設：" + yado_bed[i];
+			x[i].innerHTML = json_data.area[i].name_jp +"<br><center>現患者数／病床数<br>" + ncurrent[i] + "／" + bed[i] + "</center>重症者数：" + heavy[i] +  "<br>医療病床：" + hos_bed[i] + "<br>宿泊施設：" + yado_bed[i];
 			}
 
 			/* 色分け判定 */
