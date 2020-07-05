@@ -1,0 +1,40 @@
+﻿var url={"type":"FeatureCollection","name":"nigata","features":[
+{"type":"Feature","geometry":{"type":"Point","coordinates":[139.0363889,37.91611111]},"properties":{"Name":"新潟市","Jusho":"https://www.city.niigata.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.2186111,37.91638889]},"properties":{"Name":"新潟市 北区","Jusho":"https://www.city.niigata.lg.jp/kita/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.0925915,37.92477958]},"properties":{"Name":"新潟市 東区","Jusho":"https://www.city.niigata.lg.jp/higashi/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.0363889,37.91611111]},"properties":{"Name":"新潟市 中央区","Jusho":"https://www.city.niigata.lg.jp/chuo/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.0941667,37.86777778]},"properties":{"Name":"新潟市 江南区","Jusho":"https://www.city.niigata.lg.jp/konan/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.1144444,37.78861111]},"properties":{"Name":"新潟市 秋葉区","Jusho":"https://www.city.niigata.lg.jp/akiha/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.0191667,37.76583333]},"properties":{"Name":"新潟市 南区","Jusho":"https://www.city.niigata.lg.jp/minami/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[138.9716667,37.87388889]},"properties":{"Name":"新潟市 西区","Jusho":"https://www.city.niigata.lg.jp/nishi/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[138.8891667,37.76055556]},"properties":{"Name":"新潟市 西蒲区","Jusho":"https://www.city.niigata.lg.jp/nishikan/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[138.8388889,37.43638889]},"properties":{"Name":"長岡市","Jusho":"https://www.city.nagaoka.niigata.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[138.9616667,37.63638889]},"properties":{"Name":"三条市","Jusho":"https://www.city.sanjo.niigata.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[138.5588889,37.37194444]},"properties":{"Name":"柏崎市","Jusho":"https://www.city.kashiwazaki.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.3277778,37.95083333]},"properties":{"Name":"新発田市","Jusho":"http://www.city.shibata.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[138.795,37.31444444]},"properties":{"Name":"小千谷市","Jusho":"https://www.city.ojiya.niigata.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.0402778,37.66638889]},"properties":{"Name":"加茂市","Jusho":"http://www.city.kamo.niigata.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[138.7555556,37.1275]},"properties":{"Name":"十日町市","Jusho":"http://www.city.tokamachi.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[138.9127778,37.53138889]},"properties":{"Name":"見附市","Jusho":"http://www.city.mitsuke.niigata.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.48,38.22416667]},"properties":{"Name":"村上市","Jusho":"https://www.city.murakami.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[138.88,37.68611111]},"properties":{"Name":"燕市","Jusho":"http://www.city.tsubame.niigata.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[137.8627778,37.03888889]},"properties":{"Name":"糸魚川市","Jusho":"https://www.city.itoigawa.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[138.2533423,37.02526874]},"properties":{"Name":"妙高市","Jusho":"https://www.city.myoko.niigata.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.1825,37.74472222]},"properties":{"Name":"五泉市","Jusho":"https://www.city.gosen.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[138.2361111,37.14805556]},"properties":{"Name":"上越市","Jusho":"https://www.city.joetsu.niigata.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.2258333,37.83444444]},"properties":{"Name":"阿賀野市","Jusho":"http://www.city.agano.niigata.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[138.3683333,38.01805556]},"properties":{"Name":"佐渡市","Jusho":"https://www.city.sado.niigata.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[138.9616667,37.23027778]},"properties":{"Name":"魚沼市","Jusho":"https://www.city.uonuma.niigata.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[138.8761111,37.06555556]},"properties":{"Name":"南魚沼市","Jusho":"http://www.city.minamiuonuma.niigata.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.4102778,38.05972222]},"properties":{"Name":"胎内市","Jusho":"http://www.city.tainai.niigata.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.2744444,37.97444444]},"properties":{"Name":"聖籠町","Jusho":"http://www.town.seiro.niigata.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[138.8552778,37.69111111]},"properties":{"Name":"弥彦村","Jusho":"http://www.vill.yahiko.niigata.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.0580556,37.69888889]},"properties":{"Name":"田上町","Jusho":"http://www.town.tagami.niigata.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.4586111,37.67555556]},"properties":{"Name":"阿賀町","Jusho":"http://www.town.aga.niigata.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[138.7094444,37.53083333]},"properties":{"Name":"出雲崎町","Jusho":"https://www.town.izumozaki.niigata.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[138.8175,36.93388889]},"properties":{"Name":"湯沢町","Jusho":"https://www.town.yuzawa.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[138.6525,37.01416667]},"properties":{"Name":"津南町","Jusho":"https://www.town.tsunan.niigata.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[138.6225,37.42222222]},"properties":{"Name":"刈羽村","Jusho":"http://www.vill.kariwa.niigata.jp/www/index.jsp"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.565,38.08944444]},"properties":{"Name":"関川村","Jusho":"http://www.vill.sekikawa.niigata.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.2547222,38.46833333]},"properties":{"Name":"粟島浦村","Jusho":"http://www.vill.awashimaura.lg.jp/"}}
+]};

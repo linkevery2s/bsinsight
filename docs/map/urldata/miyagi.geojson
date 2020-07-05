@@ -1,0 +1,42 @@
+﻿var url={"type":"FeatureCollection","name":"miyagi","features":[
+{"type":"Feature","geometry":{"type":"Point","coordinates":[140.8697222,38.26805556]},"properties":{"Name":"仙台市","Jusho":"https://www.city.sendai.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.8705556,38.26916667]},"properties":{"Name":"仙台市 青葉区","Jusho":"https://www.city.sendai.jp/aobaku/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.9102778,38.26638889]},"properties":{"Name":"仙台市 宮城野区","Jusho":"https://www.city.sendai.jp/miyaginoku/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.9008333,38.24416667]},"properties":{"Name":"仙台市 若林区","Jusho":"https://www.city.sendai.jp/wakabayashiku/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.8772222,38.22444444]},"properties":{"Name":"仙台市 太白区","Jusho":"https://www.city.sendai.jp/taihakuku/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.8813889,38.32638889]},"properties":{"Name":"仙台市 泉区","Jusho":"https://www.city.sendai.jp/izumiku/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[141.3027778,38.43416667]},"properties":{"Name":"石巻市","Jusho":"https://www.city.ishinomaki.lg.jp/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[141.0222222,38.31444444]},"properties":{"Name":"塩竈市","Jusho":"https://www.city.shiogama.miyagi.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[141.57,38.90833333]},"properties":{"Name":"気仙沼市","Jusho":"https://www.kesennuma.miyagi.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.6197222,38.00222222]},"properties":{"Name":"白石市","Jusho":"https://www.city.shiroishi.miyagi.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.8919444,38.17166667]},"properties":{"Name":"名取市","Jusho":"https://www.city.natori.miyagi.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.7819444,37.97722222]},"properties":{"Name":"角田市","Jusho":"http://www.city.kakuda.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[141.0044444,38.29388889]},"properties":{"Name":"多賀城市","Jusho":"https://www.city.tagajo.miyagi.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.87,38.10444444]},"properties":{"Name":"岩沼市","Jusho":"https://www.city.iwanuma.miyagi.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[141.1877778,38.69194444]},"properties":{"Name":"登米市","Jusho":"https://www.city.tome.miyagi.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[141.0213889,38.73027778]},"properties":{"Name":"栗原市","Jusho":"https://www.kuriharacity.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[141.2105556,38.42638889]},"properties":{"Name":"東松島市","Jusho":"https://www.city.higashimatsushima.miyagi.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.9555556,38.57722222]},"properties":{"Name":"大崎市","Jusho":"https://www.city.osaki.miyagi.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.8952778,38.4]},"properties":{"Name":"富谷市","Jusho":"https://www.tomiya-city.miyagi.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.6588889,38.09805556]},"properties":{"Name":"蔵王町","Jusho":"https://www.town.zao.miyagi.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.4416667,37.99305556]},"properties":{"Name":"七ヶ宿町","Jusho":"https://town.shichikashuku.miyagi.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.7308333,38.04944444]},"properties":{"Name":"大河原町","Jusho":"https://www.town.ogawara.miyagi.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.7225,38.11861111]},"properties":{"Name":"村田町","Jusho":"http://www.town.murata.miyagi.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.7658333,38.05638889]},"properties":{"Name":"柴田町","Jusho":"https://www.town.shibata.miyagi.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.6436111,38.17777778]},"properties":{"Name":"川崎町","Jusho":"http://www.town.kawasaki.miyagi.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.7655556,37.91138889]},"properties":{"Name":"丸森町","Jusho":"http://www.town.marumori.miyagi.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.8527778,38.03777778]},"properties":{"Name":"亘理町","Jusho":"https://www.town.watari.miyagi.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.8777778,37.9625]},"properties":{"Name":"山元町","Jusho":"https://www.town.yamamoto.miyagi.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[141.0691667,38.38138889]},"properties":{"Name":"松島町","Jusho":"https://www.town.miyagi-matsushima.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[141.0594444,38.30472222]},"properties":{"Name":"七ヶ浜町","Jusho":"https://www.shichigahama.com/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.9755556,38.33027778]},"properties":{"Name":"利府町","Jusho":"https://www.town.rifu.miyagi.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.8863889,38.4375]},"properties":{"Name":"大和町","Jusho":"https://www.town.taiwa.miyagi.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[141.0044444,38.42444444]},"properties":{"Name":"大郷町","Jusho":"https://www.town.miyagi-osato.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.8802778,38.4675]},"properties":{"Name":"大衡村","Jusho":"http://www.village.ohira.miyagi.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.85,38.54888889]},"properties":{"Name":"色麻町","Jusho":"http://www.town.shikama.miyagi.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.855,38.57194444]},"properties":{"Name":"加美町","Jusho":"http://www.town.kami.miyagi.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[141.1283333,38.53972222]},"properties":{"Name":"涌谷町","Jusho":"http://www.town.wakuya.miyagi.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[141.0569444,38.54444444]},"properties":{"Name":"美里町","Jusho":"http://www.town.misato.miyagi.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[141.4444444,38.44555556]},"properties":{"Name":"女川町","Jusho":"http://www.town.onagawa.miyagi.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[141.4463889,38.67777778]},"properties":{"Name":"南三陸町","Jusho":"https://www.town.minamisanriku.miyagi.jp/"}}
+]};

@@ -1,0 +1,22 @@
+﻿var url={"type":"FeatureCollection","name":"ehime","features":[
+{"type":"Feature","geometry":{"type":"Point","coordinates":[132.7655556,33.83916667]},"properties":{"Name":"松山市","Jusho":"https://www.city.matsuyama.ehime.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[132.9977778,34.06611111]},"properties":{"Name":"今治市","Jusho":"https://www.city.imabari.ehime.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[132.5605556,33.22333333]},"properties":{"Name":"宇和島市","Jusho":"https://www.city.uwajima.ehime.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[132.4233333,33.46305556]},"properties":{"Name":"八幡浜市","Jusho":"http://www.city.yawatahama.ehime.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[133.2833333,33.96027778]},"properties":{"Name":"新居浜市","Jusho":"https://www.city.niihama.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[133.1811111,33.91972222]},"properties":{"Name":"西条市","Jusho":"https://www.city.saijo.ehime.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[132.5447222,33.50638889]},"properties":{"Name":"大洲市","Jusho":"https://www.city.ozu.ehime.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[132.7038889,33.7575]},"properties":{"Name":"伊予市","Jusho":"https://www.city.iyo.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[133.5491667,33.98083333]},"properties":{"Name":"四国中央市","Jusho":"https://www.city.shikokuchuo.ehime.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[132.5111111,33.36305556]},"properties":{"Name":"西予市","Jusho":"https://www.city.seiyo.ehime.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[132.8719444,33.79111111]},"properties":{"Name":"東温市","Jusho":"https://www.city.toon.ehime.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[133.2044444,34.2575]},"properties":{"Name":"上島町","Jusho":"https://www.town.kamijima.lg.jp"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[132.9016667,33.65555556]},"properties":{"Name":"久万高原町","Jusho":"https://www.kumakogen.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[132.7113889,33.7875]},"properties":{"Name":"松前町","Jusho":"https://www.town.masaki.ehime.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[132.7922222,33.74916667]},"properties":{"Name":"砥部町","Jusho":"https://www.town.tobe.ehime.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[132.6580556,33.53305556]},"properties":{"Name":"内子町","Jusho":"https://www.town.uchiko.ehime.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[132.3541667,33.48833333]},"properties":{"Name":"伊方町","Jusho":"https://www.town.ikata.ehime.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[132.7108333,33.22722222]},"properties":{"Name":"松野町","Jusho":"https://www.town.matsuno.ehime.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[132.6841667,33.25583333]},"properties":{"Name":"鬼北町","Jusho":"https://www.town.kihoku.ehime.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[132.5833333,32.96222222]},"properties":{"Name":"愛南町","Jusho":"https://www.town.ainan.ehime.jp/"}}
+]};

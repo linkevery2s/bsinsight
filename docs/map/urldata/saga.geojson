@@ -1,0 +1,22 @@
+﻿var url={"type":"FeatureCollection","name":"saga","features":[
+{"type":"Feature","geometry":{"type":"Point","coordinates":[130.3008333,33.26333333]},"properties":{"Name":"佐賀市","Jusho":"https://www.city.saga.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[129.9686111,33.45]},"properties":{"Name":"唐津市","Jusho":"https://www.city.karatsu.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.5061111,33.37777778]},"properties":{"Name":"鳥栖市","Jusho":"https://www.city.tosu.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.1102778,33.28861111]},"properties":{"Name":"多久市","Jusho":"https://www.city.taku.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[129.8808333,33.26472222]},"properties":{"Name":"伊万里市","Jusho":"https://www.city.imari.saga.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.0191667,33.19388889]},"properties":{"Name":"武雄市","Jusho":"https://www.city.takeo.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.0986111,33.10416667]},"properties":{"Name":"鹿島市","Jusho":"https://www.city.saga-kashima.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.2016667,33.25055556]},"properties":{"Name":"小城市","Jusho":"https://www.city.ogi.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.06,33.12777778]},"properties":{"Name":"嬉野市","Jusho":"https://www.city.ureshino.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.3730556,33.31083333]},"properties":{"Name":"神埼市","Jusho":"https://www.city.kanzaki.saga.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.3988889,33.32111111]},"properties":{"Name":"吉野ヶ里町","Jusho":"https://www.town.yoshinogari.saga.jp/redirect.php"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.5230556,33.42694444]},"properties":{"Name":"基山町","Jusho":"https://www.town.kiyama.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.4261111,33.31944444]},"properties":{"Name":"上峰町","Jusho":"https://www.town.kamimine.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.4544444,33.325]},"properties":{"Name":"みやき町","Jusho":"https://www.town.miyaki.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[129.8747222,33.47222222]},"properties":{"Name":"玄海町","Jusho":"https://www.town.genkai.saga.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[129.8491667,33.21055556]},"properties":{"Name":"有田町","Jusho":"https://www.town.arita.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.1161111,33.21388889]},"properties":{"Name":"大町町","Jusho":"http://www.town.omachi.saga.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.1572222,33.22055556]},"properties":{"Name":"江北町","Jusho":"https://www.town.kouhoku.saga.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.1433333,33.18083333]},"properties":{"Name":"白石町","Jusho":"https://www.town.shiroishi.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.1791667,33.01944444]},"properties":{"Name":"太良町","Jusho":"https://www.town.tara.lg.jp/"}}
+]};

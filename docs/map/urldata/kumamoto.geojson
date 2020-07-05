@@ -1,0 +1,52 @@
+﻿var url={"type":"FeatureCollection","name":"kumamoto","features":[
+{"type":"Feature","geometry":{"type":"Point","coordinates":[130.7080556,32.80333333]},"properties":{"Name":"熊本市","Jusho":"https://www.city.kumamoto.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.708129,32.80328437]},"properties":{"Name":"熊本市 中央区","Jusho":"https://www.city.kumamoto.jp/chuo/default.aspx"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.7672631,32.78026533]},"properties":{"Name":"熊本市 東区","Jusho":"https://www.city.kumamoto.jp/higashi/default.aspx"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.6475529,32.77648925]},"properties":{"Name":"熊本市 西区","Jusho":"https://www.city.kumamoto.jp/nishi/default.aspx"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.6789092,32.71526057]},"properties":{"Name":"熊本市 南区","Jusho":"https://www.city.kumamoto.jp/minami/default.aspx"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.694254,32.9036181]},"properties":{"Name":"熊本市 北区","Jusho":"https://www.city.kumamoto.jp/kita/default.aspx"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.6019444,32.5075]},"properties":{"Name":"八代市","Jusho":"https://www.city.yatsushiro.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.7625,32.21]},"properties":{"Name":"人吉市","Jusho":"https://www.city.hitoyoshi.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.4333333,32.98666667]},"properties":{"Name":"荒尾市","Jusho":"https://www.city.arao.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.4088889,32.21194444]},"properties":{"Name":"水俣市","Jusho":"https://www.city.minamata.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.5597222,32.92805556]},"properties":{"Name":"玉名市","Jusho":"https://www.city.tamana.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.6913889,33.01666667]},"properties":{"Name":"山鹿市","Jusho":"https://www.city.yamaga.kumamoto.jp/www/toppage/0000000000000/APM03000.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.8130556,32.97972222]},"properties":{"Name":"菊池市","Jusho":"https://www.city.kikuchi.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.6586359,32.68722715]},"properties":{"Name":"宇土市","Jusho":"https://www.city.uto.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.4305556,32.5875]},"properties":{"Name":"上天草市","Jusho":"https://www.city.kamiamakusa.kumamoto.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.6841667,32.64777778]},"properties":{"Name":"宇城市","Jusho":"https://www.city.uki.kumamoto.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[131.1213889,32.95222222]},"properties":{"Name":"阿蘇市","Jusho":"http://www.city.aso.kumamoto.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.1930556,32.45861111]},"properties":{"Name":"天草市","Jusho":"https://www.city.amakusa.kumamoto.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.7897222,32.88583333]},"properties":{"Name":"合志市","Jusho":"https://www.city.koshi.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.7888889,32.63972222]},"properties":{"Name":"美里町","Jusho":"https://www.town.kumamoto-misato.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.6286111,32.91888889]},"properties":{"Name":"玉東町","Jusho":"http://www.town.gyokuto.kumamoto.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.5413889,33.06166667]},"properties":{"Name":"南関町","Jusho":"http://www.town.nankan.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.4527778,32.92972222]},"properties":{"Name":"長洲町","Jusho":"https://www.town.nagasu.lg.jp/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.6058333,32.97805556]},"properties":{"Name":"和水町","Jusho":"https://www.town.nagomi.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.8683333,32.87888889]},"properties":{"Name":"大津町","Jusho":"https://www.town.ozu.kumamoto.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.8286111,32.8625]},"properties":{"Name":"菊陽町","Jusho":"https://www.town.kikuyo.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[131.0708333,33.09833333]},"properties":{"Name":"南小国町","Jusho":"http://www.town.minamioguni.kumamoto.jp/renew.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[131.0683333,33.12138889]},"properties":{"Name":"小国町","Jusho":"https://www.town.kumamoto-oguni.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[131.2169444,32.99555556]},"properties":{"Name":"産山村","Jusho":"http://www.ubuyama-v.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[131.1219444,32.82722222]},"properties":{"Name":"高森町","Jusho":"http://www.town.takamori.kumamoto.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.9030556,32.83472222]},"properties":{"Name":"西原村","Jusho":"http://www.vill.nishihara.kumamoto.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[131.0313889,32.8225]},"properties":{"Name":"南阿蘇村","Jusho":"https://www.vill.minamiaso.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.8019444,32.71444444]},"properties":{"Name":"御船町","Jusho":"https://www.town.mifune.kumamoto.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.7572222,32.74]},"properties":{"Name":"嘉島町","Jusho":"https://www.town.kumamoto-kashima.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.8163889,32.79138889]},"properties":{"Name":"益城町","Jusho":"https://www.town.mashiki.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.8116667,32.65138889]},"properties":{"Name":"甲佐町","Jusho":"https://www.town.kosa.kumamoto.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.99,32.685]},"properties":{"Name":"山都町","Jusho":"https://www.town.kumamoto-yamato.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.6736111,32.5825]},"properties":{"Name":"氷川町","Jusho":"http://www.hikawacyou.hinokuni-net.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.4930556,32.29888889]},"properties":{"Name":"芦北町","Jusho":"https://www.ashikita-t.kumamoto-sgn.jp/www/toppage/0000000000000/APM03000.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.4402778,32.23388889]},"properties":{"Name":"津奈木町","Jusho":"http://www.town.tsunagi.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.8411111,32.20111111]},"properties":{"Name":"錦町","Jusho":"http://www.nishiki-machi.com/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.9358333,32.26416667]},"properties":{"Name":"多良木町","Jusho":"https://www.town.taragi.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.9811111,32.27611111]},"properties":{"Name":"湯前町","Jusho":"https://www.town.yunomae.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[131.0094444,32.31444444]},"properties":{"Name":"水上村","Jusho":"https://www.vill.mizukami.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.7980556,32.23527778]},"properties":{"Name":"相良村","Jusho":"https://www.vill.sagara.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.8277778,32.39694444]},"properties":{"Name":"五木村","Jusho":"https://www.vill.itsuki.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.7672222,32.24638889]},"properties":{"Name":"山江村","Jusho":"https://www.vill.yamae.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.6513889,32.25277778]},"properties":{"Name":"球磨村","Jusho":"https://www.kumamura.com/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.8980556,32.24027778]},"properties":{"Name":"あさぎり町","Jusho":"https://www.town.asagiri.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.0547222,32.51305556]},"properties":{"Name":"苓北町","Jusho":"https://reihoku-kumamoto.jp/"}}
+]};

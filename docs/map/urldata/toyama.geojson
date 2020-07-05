@@ -1,0 +1,17 @@
+﻿var url={"type":"FeatureCollection","name":"toyama","features":[
+{"type":"Feature","geometry":{"type":"Point","coordinates":[137.2136111,36.69583333]},"properties":{"Name":"富山市","Jusho":"https://www.city.toyama.toyama.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[137.0261111,36.75416667]},"properties":{"Name":"高岡市","Jusho":"https://www.city.takaoka.toyama.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[137.4091667,36.8275]},"properties":{"Name":"魚津市","Jusho":"https://www.city.uozu.toyama.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.9863889,36.85722222]},"properties":{"Name":"氷見市","Jusho":"https://www.city.himi.toyama.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[137.3411111,36.76444444]},"properties":{"Name":"滑川市","Jusho":"https://www.city.namerikawa.toyama.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[137.4491667,36.87361111]},"properties":{"Name":"黒部市","Jusho":"https://www.city.kurobe.toyama.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.9622222,36.6475]},"properties":{"Name":"砺波市","Jusho":"https://www.city.tonami.toyama.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.8686111,36.67555556]},"properties":{"Name":"小矢部市","Jusho":"http://www.city.oyabe.toyama.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.9194444,36.58777778]},"properties":{"Name":"南砺市","Jusho":"https://www.city.nanto.toyama.jp/cms-sypher/www/index.jsp"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[137.0997222,36.71222222]},"properties":{"Name":"射水市","Jusho":"https://www.city.imizu.toyama.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[137.3075,36.70361111]},"properties":{"Name":"舟橋村","Jusho":"http://www.vill.funahashi.toyama.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[137.3625,36.69833333]},"properties":{"Name":"上市町","Jusho":"https://www.town.kamiichi.toyama.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[137.3136111,36.66333333]},"properties":{"Name":"立山町","Jusho":"https://www.town.tateyama.toyama.jp/pub/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[137.5022222,36.93361111]},"properties":{"Name":"入善町","Jusho":"https://www.town.nyuzen.toyama.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[137.56,36.94638889]},"properties":{"Name":"朝日町","Jusho":"https://www.town.asahi.toyama.jp/"}}
+]};

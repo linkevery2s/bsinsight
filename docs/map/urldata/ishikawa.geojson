@@ -1,0 +1,21 @@
+﻿var url={"type":"FeatureCollection","name":"ishikawa","features":[
+{"type":"Feature","geometry":{"type":"Point","coordinates":[136.6566667,36.56083333]},"properties":{"Name":"金沢市","Jusho":"https://www4.city.kanazawa.lg.jp/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.9672222,37.04305556]},"properties":{"Name":"七尾市","Jusho":"https://www.city.nanao.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.4455556,36.40861111]},"properties":{"Name":"小松市","Jusho":"https://www.city.komatsu.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.8991667,37.39055556]},"properties":{"Name":"輪島市","Jusho":"https://www.city.wajima.ishikawa.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[137.2602778,37.43638889]},"properties":{"Name":"珠洲市","Jusho":"https://www.city.suzu.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.315,36.30277778]},"properties":{"Name":"加賀市","Jusho":"https://www.city.kaga.ishikawa.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.7788889,36.89361111]},"properties":{"Name":"羽咋市","Jusho":"https://www.city.hakui.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.7066667,36.72]},"properties":{"Name":"かほく市","Jusho":"http://www.city.kahoku.ishikawa.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.5655556,36.51444444]},"properties":{"Name":"白山市","Jusho":"http://www.city.hakusan.ishikawa.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.4961111,36.4375]},"properties":{"Name":"能美市","Jusho":"https://www.city.nomi.ishikawa.jp/www/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.6097222,36.51944444]},"properties":{"Name":"野々市市","Jusho":"https://www.city.nonoichi.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.5422222,36.46861111]},"properties":{"Name":"川北町","Jusho":"http://www.town.kawakita.ishikawa.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.7283333,36.66861111]},"properties":{"Name":"津幡町","Jusho":"https://www.town.tsubata.ishikawa.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.645,36.65361111]},"properties":{"Name":"内灘町","Jusho":"http://www.town.uchinada.lg.jp/webapps/www/index.jsp"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.7780556,37.00638889]},"properties":{"Name":"志賀町","Jusho":"https://www.town.shika.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.7977778,36.86277778]},"properties":{"Name":"宝達志水町","Jusho":"http://www.hodatsushimizu.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.9016667,36.98888889]},"properties":{"Name":"中能登町","Jusho":"https://www.town.nakanoto.ishikawa.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.9125,37.23111111]},"properties":{"Name":"穴水町","Jusho":"http://www.town.anamizu.ishikawa.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[137.15,37.30666667]},"properties":{"Name":"能登町","Jusho":"https://www.town.noto.lg.jp/www/total_top.jsp"}}
+]};

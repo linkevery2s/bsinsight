@@ -1,0 +1,39 @@
+﻿var url={"type":"FeatureCollection","name":"kyoto","features":[
+{"type":"Feature","geometry":{"type":"Point","coordinates":[135.7683333,35.01166667]},"properties":{"Name":"京都市","Jusho":"https://www.city.kyoto.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.7541667,35.04111111]},"properties":{"Name":"京都市 北区","Jusho":"https://www.city.kyoto.lg.jp/kita/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.7566667,35.02972222]},"properties":{"Name":"京都市 上京区","Jusho":"https://www.city.kyoto.lg.jp/kamigyo/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.7785389,35.04860433]},"properties":{"Name":"京都市 左京区","Jusho":"https://www.city.kyoto.lg.jp/sakyo/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.7513889,35.01]},"properties":{"Name":"京都市 中京区","Jusho":"https://www.city.kyoto.lg.jp/nakagyo/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.7763889,34.99694444]},"properties":{"Name":"京都市 東山区","Jusho":"https://www.city.kyoto.lg.jp/higasiyama/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.7555556,34.9875]},"properties":{"Name":"京都市 下京区","Jusho":"https://www.city.kyoto.lg.jp/shimogyo/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.7466667,34.97666667]},"properties":{"Name":"京都市 南区","Jusho":"https://www.city.kyoto.lg.jp/minami/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.7158333,35.01027778]},"properties":{"Name":"京都市 右京区","Jusho":"https://www.city.kyoto.lg.jp/ukyo/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.7613889,34.93611111]},"properties":{"Name":"京都市 伏見区","Jusho":"https://www.city.kyoto.lg.jp/fushimi/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.8136111,34.9725]},"properties":{"Name":"京都市 山科区","Jusho":"https://www.city.kyoto.lg.jp/yamasina/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.6933333,34.985]},"properties":{"Name":"京都市 西京区","Jusho":"https://www.city.kyoto.lg.jp/nisikyo/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.1263889,35.29666667]},"properties":{"Name":"福知山市","Jusho":"http://www.city.fukuchiyama.kyoto.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.3861111,35.47472222]},"properties":{"Name":"舞鶴市","Jusho":"https://www.city.maizuru.kyoto.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.2586111,35.29888889]},"properties":{"Name":"綾部市","Jusho":"https://www.city.ayabe.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.7997222,34.88444444]},"properties":{"Name":"宇治市","Jusho":"https://www.city.uji.kyoto.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.1955556,35.53555556]},"properties":{"Name":"宮津市","Jusho":"http://www.city.miyazu.kyoto.jp/www/normal_top.jsp"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.5738889,35.01361111]},"properties":{"Name":"亀岡市","Jusho":"https://www.city.kameoka.kyoto.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.78,34.85305556]},"properties":{"Name":"城陽市","Jusho":"https://www.city.joyo.kyoto.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.6983333,34.94861111]},"properties":{"Name":"向日市","Jusho":"https://www.city.muko.kyoto.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.6955556,34.92666667]},"properties":{"Name":"長岡京市","Jusho":"https://www.city.nagaokakyo.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.7077778,34.87555556]},"properties":{"Name":"八幡市","Jusho":"https://www.city.yawata.kyoto.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.7677778,34.81444444]},"properties":{"Name":"京田辺市","Jusho":"https://www.kyotanabe.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.0611111,35.62416667]},"properties":{"Name":"京丹後市","Jusho":"https://www.city.kyotango.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.47,35.10722222]},"properties":{"Name":"南丹市","Jusho":"https://www.city.nantan.kyoto.jp/www/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.8208333,34.73694444]},"properties":{"Name":"木津川市","Jusho":"https://www.city.kizugawa.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.6886111,34.90277778]},"properties":{"Name":"大山崎町","Jusho":"https://www.town.oyamazaki.kyoto.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.7327778,34.88138889]},"properties":{"Name":"久御山町","Jusho":"https://www.town.kumiyama.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.8033333,34.79861111]},"properties":{"Name":"井手町","Jusho":"http://www.town.ide.kyoto.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.8569444,34.85277778]},"properties":{"Name":"宇治田原町","Jusho":"https://www.town.ujitawara.kyoto.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.9394444,34.76055556]},"properties":{"Name":"笠置町","Jusho":"https://www.town.kasagi.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.905,34.79583333]},"properties":{"Name":"和束町","Jusho":"http://www.town.wazuka.kyoto.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.7858333,34.76083333]},"properties":{"Name":"精華町","Jusho":"https://www.town.seika.kyoto.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.9938889,34.77277778]},"properties":{"Name":"南山城村","Jusho":"http://www.vill.minamiyamashiro.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.4233333,35.16444444]},"properties":{"Name":"京丹波町","Jusho":"https://www.town.kyotamba.kyoto.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.2727778,35.67527777]},"properties":{"Name":"伊根町","Jusho":"http://www.town.ine.kyoto.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.1527778,35.56527778]},"properties":{"Name":"与謝野町","Jusho":"http://www.town-yosano.jp/wwwg/index.jsp"}}
+]};

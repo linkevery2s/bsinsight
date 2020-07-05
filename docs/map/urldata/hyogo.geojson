@@ -1,0 +1,52 @@
+﻿var url={"type":"FeatureCollection","name":"hyogo","features":[
+{"type":"Feature","geometry":{"type":"Point","coordinates":[135.1955556,34.69]},"properties":{"Name":"神戸市","Jusho":"https://www.city.kobe.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.2655556,34.72027778]},"properties":{"Name":"神戸市 東灘区","Jusho":"https://www.city.kobe.lg.jp/ward/kuyakusho/higashinada/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.2394444,34.7125]},"properties":{"Name":"神戸市 灘区","Jusho":"https://www.city.kobe.lg.jp/kuyakusho/nadaku/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.1652778,34.68055556]},"properties":{"Name":"神戸市 兵庫区","Jusho":"https://www.city.kobe.lg.jp/kuyakusho/hyogoku/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.1508333,34.66555556]},"properties":{"Name":"神戸市 長田区","Jusho":"https://www.city.kobe.lg.jp/kuyakusho/nagataku/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.1302778,34.65027778]},"properties":{"Name":"神戸市 須磨区","Jusho":"https://www.city.kobe.lg.jp/kuyakusho/sumaku/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.0569444,34.63055556]},"properties":{"Name":"神戸市 垂水区","Jusho":"https://www.city.kobe.lg.jp/kuyakusho/tarumiku/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.1444444,34.72722222]},"properties":{"Name":"神戸市 北区","Jusho":"https://www.city.kobe.lg.jp/kuyakusho/kitaku/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.1977778,34.695]},"properties":{"Name":"神戸市 中央区","Jusho":"https://www.city.kobe.lg.jp/kuyakusho/chuoku/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.9816667,34.68305556]},"properties":{"Name":"神戸市 西区","Jusho":"https://www.city.kobe.lg.jp/kuyakusho/nishiku/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.6855556,34.81527778]},"properties":{"Name":"姫路市","Jusho":"https://www.city.himeji.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.4063889,34.73333333]},"properties":{"Name":"尼崎市","Jusho":"https://www.city.amagasaki.hyogo.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.9975,34.64305556]},"properties":{"Name":"明石市","Jusho":"https://www.city.akashi.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.3419444,34.73777778]},"properties":{"Name":"西宮市","Jusho":"https://www.nishi.or.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.8955556,34.3425]},"properties":{"Name":"洲本市","Jusho":"https://www.city.sumoto.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.3044444,34.72694444]},"properties":{"Name":"芦屋市","Jusho":"http://www.city.ashiya.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.4008333,34.78416667]},"properties":{"Name":"伊丹市","Jusho":"http://www.city.itami.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.4680556,34.80361111]},"properties":{"Name":"相生市","Jusho":"https://www.city.aioi.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.82,35.54444444]},"properties":{"Name":"豊岡市","Jusho":"https://www.city.toyooka.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.8413889,34.75694444]},"properties":{"Name":"加古川市","Jusho":"https://www.city.kakogawa.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.3902778,34.755]},"properties":{"Name":"赤穂市","Jusho":"https://www.city.ako.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.9694444,34.99333333]},"properties":{"Name":"西脇市","Jusho":"https://www.city.nishiwaki.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.3602778,34.8]},"properties":{"Name":"宝塚市","Jusho":"http://www.city.takarazuka.hyogo.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.99,34.79666667]},"properties":{"Name":"三木市","Jusho":"https://www.city.miki.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.7905556,34.76583333]},"properties":{"Name":"高砂市","Jusho":"http://www.city.takasago.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.4172222,34.83]},"properties":{"Name":"川西市","Jusho":"https://www.city.kawanishi.hyogo.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.9316667,34.85305556]},"properties":{"Name":"小野市","Jusho":"https://www.city.ono.hyogo.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.2252778,34.88944444]},"properties":{"Name":"三田市","Jusho":"https://www.city.sanda.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.8419444,34.92777778]},"properties":{"Name":"加西市","Jusho":"http://www.city.kasai.hyogo.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.2191667,35.07583333]},"properties":{"Name":"丹波篠山市","Jusho":"https://www.city.tambasasayama.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.7675,35.40472222]},"properties":{"Name":"養父市","Jusho":"https://www.city.yabu.hyogo.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.0358333,35.17722222]},"properties":{"Name":"丹波市","Jusho":"https://www.city.tamba.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.7791667,34.29583333]},"properties":{"Name":"南あわじ市","Jusho":"https://www.city.minamiawaji.hyogo.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.8530556,35.33972222]},"properties":{"Name":"朝来市","Jusho":"https://www.city.asago.hyogo.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.9147222,34.44]},"properties":{"Name":"淡路市","Jusho":"https://www.city.awaji.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.5494444,35.00444444]},"properties":{"Name":"宍粟市","Jusho":"https://www.city.shiso.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.9736111,34.9175]},"properties":{"Name":"加東市","Jusho":"https://www.city.kato.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.5455556,34.85805556]},"properties":{"Name":"たつの市","Jusho":"https://www.city.tatsuno.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.3761111,34.895]},"properties":{"Name":"猪名川町","Jusho":"https://www.town.inagawa.lg.jp/renewal/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.9233333,35.05027778]},"properties":{"Name":"多可町","Jusho":"http://www.takacho.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.9136111,34.74888889]},"properties":{"Name":"稲美町","Jusho":"https://www.town.hyogo-inami.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.8680556,34.71527778]},"properties":{"Name":"播磨町","Jusho":"https://www.town.harima.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.7630556,34.98944444]},"properties":{"Name":"市川町","Jusho":"https://www.town.ichikawa.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.7602778,34.95027778]},"properties":{"Name":"福崎町","Jusho":"https://www.town.fukusaki.hyogo.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.7394444,35.06416667]},"properties":{"Name":"神河町","Jusho":"https://www.town.kamikawa.hyogo.jp/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.5780556,34.83361111]},"properties":{"Name":"太子町","Jusho":"http://www.town.hyogo-taishi.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.3561111,34.87361111]},"properties":{"Name":"上郡町","Jusho":"http://www.town.kamigori.hyogo.jp/cms-sypher/www/index.jsp"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.3558333,35.00416667]},"properties":{"Name":"佐用町","Jusho":"https://www.town.sayo.lg.jp/cms-sypher/www/normal_top.jsp"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.6291667,35.63222222]},"properties":{"Name":"香美町","Jusho":"https://www.town.mikata-kami.lg.jp/www/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.4491667,35.62333333]},"properties":{"Name":"新温泉町","Jusho":"https://www.town.shinonsen.hyogo.jp/"}}
+]};

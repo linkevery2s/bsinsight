@@ -1,0 +1,27 @@
+﻿var url={"type":"FeatureCollection","name":"akita","features":[
+{"type":"Feature","geometry":{"type":"Point","coordinates":[140.1025,39.71972222]},"properties":{"Name":"秋田市","Jusho":"https://www.city.akita.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.0266667,40.21222222]},"properties":{"Name":"能代市","Jusho":"https://www.city.noshiro.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.5533333,39.31055556]},"properties":{"Name":"横手市","Jusho":"https://www.city.yokote.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.5647222,40.27166667]},"properties":{"Name":"大館市","Jusho":"https://www.city.odate.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.8477778,39.88666667]},"properties":{"Name":"男鹿市","Jusho":"http://www.city.oga.akita.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.495,39.16388889]},"properties":{"Name":"湯沢市","Jusho":"http://www.city-yuzawa.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.7883333,40.21583333]},"properties":{"Name":"鹿角市","Jusho":"https://www.city.kazuno.akita.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.0488889,39.38583333]},"properties":{"Name":"由利本荘市","Jusho":"https://www.city.yurihonjo.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.9888889,39.88333333]},"properties":{"Name":"潟上市","Jusho":"http://www.city.katagami.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.4755556,39.45305556]},"properties":{"Name":"大仙市","Jusho":"https://www.city.daisen.akita.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.3708333,40.22611111]},"properties":{"Name":"北秋田市","Jusho":"https://www.city.kitaakita.akita.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.9077778,39.20305556]},"properties":{"Name":"にかほ市","Jusho":"https://www.city.nikaho.akita.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.7305556,39.7]},"properties":{"Name":"仙北市","Jusho":"https://www.city.semboku.akita.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.7469444,40.32777778]},"properties":{"Name":"小坂町","Jusho":"https://www.town.kosaka.akita.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.2958333,40.06333333]},"properties":{"Name":"上小阿仁村","Jusho":"https://www.vill.kamikoani.akita.jp/forms/top/top.aspx"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.2619444,40.27833333]},"properties":{"Name":"藤里町","Jusho":"https://www.town.fujisato.akita.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.005,40.10166667]},"properties":{"Name":"三種町","Jusho":"https://www.town.mitane.akita.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.0386111,40.31888889]},"properties":{"Name":"八峰町","Jusho":"http://www.town.happou.akita.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.1116667,39.94416667]},"properties":{"Name":"五城目町","Jusho":"https://www.town.gojome.akita.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.0733333,39.94944444]},"properties":{"Name":"八郎潟町","Jusho":"https://www.town.hachirogata.akita.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.0816667,39.91416667]},"properties":{"Name":"井川町","Jusho":"http://www.town.ikawa.akita.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.96,40.01777778]},"properties":{"Name":"大潟村","Jusho":"https://www.ogata.or.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.5825,39.46166667]},"properties":{"Name":"美郷町","Jusho":"https://www.town.misato.akita.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.4130556,39.19944444]},"properties":{"Name":"羽後町","Jusho":"https://www.town.ugo.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.6488889,39.17888889]},"properties":{"Name":"東成瀬村","Jusho":"http://www.higashinaruse.com/"}}
+]};

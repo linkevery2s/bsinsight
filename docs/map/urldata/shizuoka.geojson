@@ -1,0 +1,47 @@
+﻿var url={"type":"FeatureCollection","name":"shizuoka","features":[
+{"type":"Feature","geometry":{"type":"Point","coordinates":[138.3827778,34.97555556]},"properties":{"Name":"静岡市","Jusho":"https://www.city.shizuoka.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[138.3830556,34.97527778]},"properties":{"Name":"静岡市 葵区","Jusho":"https://www.city.shizuoka.lg.jp/aoi.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[138.4041667,34.96055556]},"properties":{"Name":"静岡市 駿河区","Jusho":"https://www.city.shizuoka.lg.jp/suruga.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[138.4897222,35.01583333]},"properties":{"Name":"静岡市 清水区","Jusho":"https://www.city.shizuoka.lg.jp/shimizu.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[137.7266667,34.71083333]},"properties":{"Name":"浜松市","Jusho":"https://www.city.hamamatsu.shizuoka.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[137.7266667,34.71111111]},"properties":{"Name":"浜松市 中区","Jusho":"https://www.city.hamamatsu.shizuoka.jp/c-shinko/ward/nakaku/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[137.7916667,34.74138889]},"properties":{"Name":"浜松市 東区","Jusho":"https://www.city.hamamatsu.shizuoka.jp/e-shinko/ward/higashiku/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[137.6452778,34.69277778]},"properties":{"Name":"浜松市 西区","Jusho":"https://www.city.hamamatsu.shizuoka.jp/w-shinko/ward/nishiku/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[137.7522222,34.66722222]},"properties":{"Name":"浜松市 南区","Jusho":"https://www.city.hamamatsu.shizuoka.jp/s-shinko/ward/minamiku/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[137.6511111,34.80611111]},"properties":{"Name":"浜松市 北区","Jusho":"https://www.city.hamamatsu.shizuoka.jp/n-shinko/ward/kitaku/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[137.79,34.79305556]},"properties":{"Name":"浜松市 浜北区","Jusho":"https://www.city.hamamatsu.shizuoka.jp/hk-shinko/ward/hamakitaku/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[137.8161111,34.87277778]},"properties":{"Name":"浜松市 天竜区","Jusho":"https://www.city.hamamatsu.shizuoka.jp/tn-shinko/ward/tenryuku/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[138.8636111,35.09555556]},"properties":{"Name":"沼津市","Jusho":"https://www.city.numazu.shizuoka.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.0716667,35.09611111]},"properties":{"Name":"熱海市","Jusho":"https://www.city.atami.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[138.9186111,35.11861111]},"properties":{"Name":"三島市","Jusho":"https://www.city.mishima.shizuoka.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[138.6213889,35.22222222]},"properties":{"Name":"富士宮市","Jusho":"http://www.city.fujinomiya.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.1019444,34.96583333]},"properties":{"Name":"伊東市","Jusho":"https://www.city.ito.shizuoka.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[138.1761111,34.83638889]},"properties":{"Name":"島田市","Jusho":"https://www.city.shimada.shizuoka.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[138.6763889,35.16138889]},"properties":{"Name":"富士市","Jusho":"https://www.city.fuji.shizuoka.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[137.8513889,34.71777778]},"properties":{"Name":"磐田市","Jusho":"https://www.city.iwata.shizuoka.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[138.3230556,34.86694444]},"properties":{"Name":"焼津市","Jusho":"https://www.city.yaizu.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[137.9983333,34.76861111]},"properties":{"Name":"掛川市","Jusho":"https://www.city.kakegawa.shizuoka.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[138.2577778,34.8675]},"properties":{"Name":"藤枝市","Jusho":"https://www.city.fujieda.shizuoka.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[138.935,35.30861111]},"properties":{"Name":"御殿場市","Jusho":"https://www.city.gotemba.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[137.925,34.75027778]},"properties":{"Name":"袋井市","Jusho":"https://www.city.fukuroi.shizuoka.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[138.9452778,34.67944444]},"properties":{"Name":"下田市","Jusho":"https://www.city.shimoda.shizuoka.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[138.9066667,35.17388889]},"properties":{"Name":"裾野市","Jusho":"https://www.city.susono.shizuoka.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[137.5316667,34.71861111]},"properties":{"Name":"湖西市","Jusho":"https://www.city.kosai.shizuoka.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[138.9469444,34.97666667]},"properties":{"Name":"伊豆市","Jusho":"http://www.city.izu.shizuoka.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[138.1280556,34.63805556]},"properties":{"Name":"御前崎市","Jusho":"https://www.city.omaezaki.shizuoka.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[138.0841667,34.75777778]},"properties":{"Name":"菊川市","Jusho":"https://www.city.kikugawa.shizuoka.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[138.9288889,35.02777778]},"properties":{"Name":"伊豆の国市","Jusho":"https://www.city.izunokuni.shizuoka.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[138.2247222,34.74]},"properties":{"Name":"牧之原市","Jusho":"https://www.city.makinohara.shizuoka.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.0413889,34.77277778]},"properties":{"Name":"東伊豆町","Jusho":"https://www.town.higashiizu.shizuoka.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[138.9875,34.75722222]},"properties":{"Name":"河津町","Jusho":"https://www.town.kawazu.shizuoka.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[138.8591667,34.65055556]},"properties":{"Name":"南伊豆町","Jusho":"https://www.town.minamiizu.shizuoka.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[138.7788889,34.75305556]},"properties":{"Name":"松崎町","Jusho":"https://www.town.matsuzaki.shizuoka.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[138.7752778,34.77166667]},"properties":{"Name":"西伊豆町","Jusho":"https://www.town.nishiizu.shizuoka.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[138.9533333,35.08888888]},"properties":{"Name":"函南町","Jusho":"https://www.town.kannami.shizuoka.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[138.9027778,35.09916667]},"properties":{"Name":"清水町","Jusho":"http://www.town.shimizu.shizuoka.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[138.8972222,35.13777778]},"properties":{"Name":"長泉町","Jusho":"https://www.town.nagaizumi.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[138.9875,35.36]},"properties":{"Name":"小山町","Jusho":"http://www.fuji-oyama.jp/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[138.2519444,34.77083333]},"properties":{"Name":"吉田町","Jusho":"http://www.town.yoshida.shizuoka.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[138.0816667,35.04694444]},"properties":{"Name":"川根本町","Jusho":"https://www.town.kawanehon.shizuoka.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[137.9272222,34.83555556]},"properties":{"Name":"森町","Jusho":"https://www.town.morimachi.shizuoka.jp/"}}
+]};

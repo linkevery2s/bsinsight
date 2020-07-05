@@ -1,0 +1,62 @@
+﻿var url={"type":"FeatureCollection","name":"tiba","features":[
+{"type":"Feature","geometry":{"type":"Point","coordinates":[140.1063889,35.60722222]},"properties":{"Name":"千葉市","Jusho":"https://www.city.chiba.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.1247222,35.60888889]},"properties":{"Name":"千葉市 中央区","Jusho":"https://www.city.chiba.jp/chuo/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.0691667,35.66277778]},"properties":{"Name":"千葉市 花見川区","Jusho":"https://www.city.chiba.jp/hanamigawa/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.1072222,35.63638889]},"properties":{"Name":"千葉市 稲毛区","Jusho":"https://www.city.chiba.jp/inage/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.1555556,35.63416667]},"properties":{"Name":"千葉市 若葉区","Jusho":"https://www.city.chiba.jp/wakaba/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.1763889,35.56027778]},"properties":{"Name":"千葉市 緑区","Jusho":"https://www.city.chiba.jp/midori/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.0630556,35.64027778]},"properties":{"Name":"千葉市 美浜区","Jusho":"https://www.city.chiba.jp/mihama/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.8266667,35.73472222]},"properties":{"Name":"銚子市","Jusho":"https://www.city.choshi.chiba.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.9311111,35.72194444]},"properties":{"Name":"市川市","Jusho":"https://www.city.ichikawa.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.9825,35.69472222]},"properties":{"Name":"船橋市","Jusho":"https://www.city.funabashi.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.87,34.99666667]},"properties":{"Name":"館山市","Jusho":"https://www.city.tateyama.chiba.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.9169444,35.37611111]},"properties":{"Name":"木更津市","Jusho":"https://www.city.kisarazu.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.9030556,35.78777778]},"properties":{"Name":"松戸市","Jusho":"https://www.city.matsudo.chiba.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.8747222,35.955]},"properties":{"Name":"野田市","Jusho":"https://www.city.noda.chiba.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.2880556,35.42833333]},"properties":{"Name":"茂原市","Jusho":"https://www.city.mobara.chiba.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.3183333,35.77666667]},"properties":{"Name":"成田市","Jusho":"https://www.city.narita.chiba.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.2238889,35.72388889]},"properties":{"Name":"佐倉市","Jusho":"https://www.city.sakura.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.3661111,35.56]},"properties":{"Name":"東金市","Jusho":"https://www.city.togane.chiba.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.6466667,35.72027778]},"properties":{"Name":"旭市","Jusho":"http://www.city.asahi.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.0266667,35.68083333]},"properties":{"Name":"習志野市","Jusho":"https://www.city.narashino.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.9763889,35.86805556]},"properties":{"Name":"柏市","Jusho":"https://www.city.kashiwa.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.3211111,35.1525]},"properties":{"Name":"勝浦市","Jusho":"https://www.city.katsuura.lg.jp/forms/top/top.aspx"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.1155556,35.49805556]},"properties":{"Name":"市原市","Jusho":"https://www.city.ichihara.chiba.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.9025,35.85611111]},"properties":{"Name":"流山市","Jusho":"https://www.city.nagareyama.chiba.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.0997222,35.7225]},"properties":{"Name":"八千代市","Jusho":"http://www.city.yachiyo.chiba.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.0283333,35.86416667]},"properties":{"Name":"我孫子市","Jusho":"https://www.city.abiko.chiba.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.0988889,35.11416667]},"properties":{"Name":"鴨川市","Jusho":"http://www.city.kamogawa.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.0008333,35.77694444]},"properties":{"Name":"鎌ケ谷市","Jusho":"https://www.city.kamagaya.chiba.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.9025,35.33055556]},"properties":{"Name":"君津市","Jusho":"https://www.city.kimitsu.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.8569444,35.30416667]},"properties":{"Name":"富津市","Jusho":"https://www.city.futtsu.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.9016667,35.65361111]},"properties":{"Name":"浦安市","Jusho":"http://www.city.urayasu.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.1683333,35.67]},"properties":{"Name":"四街道市","Jusho":"https://www.city.yotsukaido.chiba.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.9547222,35.43]},"properties":{"Name":"袖ケ浦市","Jusho":"https://www.city.sodegaura.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.3183333,35.66583333]},"properties":{"Name":"八街市","Jusho":"https://www.city.yachimata.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.1458333,35.83222222]},"properties":{"Name":"印西市","Jusho":"https://www.city.inzai.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.0563889,35.79166667]},"properties":{"Name":"白井市","Jusho":"http://www.city.shiroi.chiba.jp/toppage.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.3430556,35.72666667]},"properties":{"Name":"富里市","Jusho":"https://www.city.tomisato.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.8402778,35.04333333]},"properties":{"Name":"南房総市","Jusho":"https://www.city.minamiboso.chiba.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.5644444,35.70777778]},"properties":{"Name":"匝瑳市","Jusho":"https://www.city.sosa.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.4991667,35.89777778]},"properties":{"Name":"香取市","Jusho":"https://www.city.katori.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.4136111,35.60277778]},"properties":{"Name":"山武市","Jusho":"https://www.city.sammu.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.3852778,35.25388889]},"properties":{"Name":"いすみ市","Jusho":"http://www.city.isumi.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.3211111,35.52166667]},"properties":{"Name":"大網白里市","Jusho":"http://www.city.oamishirasato.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.2694444,35.725]},"properties":{"Name":"酒々井町","Jusho":"https://www.town.shisui.chiba.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.2438889,35.84083333]},"properties":{"Name":"栄町","Jusho":"http://www.town.sakae.chiba.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.4052778,35.90166667]},"properties":{"Name":"神崎町","Jusho":"https://www.town.kozaki.chiba.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.4677778,35.73555556]},"properties":{"Name":"多古町","Jusho":"https://www.town.tako.chiba.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.6688889,35.83722222]},"properties":{"Name":"東庄町","Jusho":"https://www.town.tohnosho.chiba.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.4405556,35.535]},"properties":{"Name":"九十九里町","Jusho":"https://www.town.kujukuri.chiba.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.4141667,35.69305556]},"properties":{"Name":"芝山町","Jusho":"https://www.town.shibayama.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.5041667,35.66555556]},"properties":{"Name":"横芝光町","Jusho":"https://www.town.yokoshibahikari.chiba.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.3688889,35.37277778]},"properties":{"Name":"一宮町","Jusho":"https://www.town.ichinomiya.chiba.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.3191667,35.36111111]},"properties":{"Name":"睦沢町","Jusho":"http://www.town.mutsuzawa.chiba.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.3541667,35.41222222]},"properties":{"Name":"長生村","Jusho":"https://www.vill.chosei.chiba.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.3744444,35.45444444]},"properties":{"Name":"白子町","Jusho":"https://www.town.shirako.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.2269444,35.43111111]},"properties":{"Name":"長柄町","Jusho":"https://www.town.nagara.chiba.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.2372222,35.38666667]},"properties":{"Name":"長南町","Jusho":"https://www.town.chonan.chiba.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.2455556,35.285]},"properties":{"Name":"大多喜町","Jusho":"https://www.town.otaki.chiba.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.3486111,35.19166667]},"properties":{"Name":"御宿町","Jusho":"http://www.town.onjuku.chiba.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.8355556,35.11111111]},"properties":{"Name":"鋸南町","Jusho":"https://www.town.kyonan.chiba.jp/"}}
+]};

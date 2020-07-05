@@ -1,0 +1,76 @@
+﻿var url={"type":"FeatureCollection","name":"fukuoka","features":[
+{"type":"Feature","geometry":{"type":"Point","coordinates":[130.8752778,33.88333333]},"properties":{"Name":"北九州市","Jusho":"https://www.city.kitakyushu.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.9597222,33.94111111]},"properties":{"Name":"北九州市 門司区","Jusho":"https://www.city.kitakyushu.lg.jp/moji/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.8111111,33.90555556]},"properties":{"Name":"北九州市 若松区","Jusho":"https://www.city.kitakyushu.lg.jp/wakamatsu/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.8297222,33.89333333]},"properties":{"Name":"北九州市 戸畑区","Jusho":"https://www.city.kitakyushu.lg.jp/tobata/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.8736111,33.88083333]},"properties":{"Name":"北九州市 小倉北区","Jusho":"https://www.city.kitakyushu.lg.jp/kokurakita/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.8847222,33.84638889]},"properties":{"Name":"北九州市 小倉南区","Jusho":"https://www.city.kitakyushu.lg.jp/kokuraminami/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.8119444,33.86361111]},"properties":{"Name":"北九州市 八幡東区","Jusho":"https://www.city.kitakyushu.lg.jp/yahatahigashi/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.7602778,33.86138889]},"properties":{"Name":"北九州市 八幡西区","Jusho":"https://www.city.kitakyushu.lg.jp/yahatanishi/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.4016667,33.59]},"properties":{"Name":"福岡市","Jusho":"https://www.city.fukuoka.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.4175,33.61777778]},"properties":{"Name":"福岡市 東区","Jusho":"https://www.city.fukuoka.lg.jp/higashi/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.415,33.59138889]},"properties":{"Name":"福岡市 博多区","Jusho":"https://www.city.fukuoka.lg.jp/hakata/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.3930556,33.58916667]},"properties":{"Name":"福岡市 中央区","Jusho":"https://www.city.fukuoka.lg.jp/chuo/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.4266667,33.56166667]},"properties":{"Name":"福岡市 南区","Jusho":"https://www.city.fukuoka.lg.jp/minami/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.3230556,33.58277778]},"properties":{"Name":"福岡市 西区","Jusho":"https://www.city.fukuoka.lg.jp/nishi/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.37,33.57583333]},"properties":{"Name":"福岡市 城南区","Jusho":"https://www.city.fukuoka.lg.jp/jonan/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.3483333,33.58194444]},"properties":{"Name":"福岡市 早良区","Jusho":"https://www.city.fukuoka.lg.jp/sawara/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.4461111,33.03027778]},"properties":{"Name":"大牟田市","Jusho":"https://www.city.omuta.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.5083333,33.31944444]},"properties":{"Name":"久留米市","Jusho":"https://www.city.kurume.fukuoka.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.7297222,33.74388889]},"properties":{"Name":"直方市","Jusho":"https://www.city.nogata.fukuoka.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.6913889,33.64583333]},"properties":{"Name":"飯塚市","Jusho":"https://www.city.iizuka.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.8061111,33.63888889]},"properties":{"Name":"田川市","Jusho":"https://www.joho.tagawa.fukuoka.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.4061111,33.16305556]},"properties":{"Name":"柳川市","Jusho":"https://www.city.yanagawa.fukuoka.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.5577778,33.21194444]},"properties":{"Name":"八女市","Jusho":"http://www.city.yame.fukuoka.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.5022222,33.21222222]},"properties":{"Name":"筑後市","Jusho":"https://www.city.chikugo.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.3838889,33.20666667]},"properties":{"Name":"大川市","Jusho":"http://www.city.okawa.fukuoka.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.9830556,33.72861111]},"properties":{"Name":"行橋市","Jusho":"http://www.city.yukuhashi.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[131.1302778,33.61166667]},"properties":{"Name":"豊前市","Jusho":"https://www.city.buzen.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.7091667,33.81666667]},"properties":{"Name":"中間市","Jusho":"http://www.city.nakama.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.5555556,33.39638889]},"properties":{"Name":"小郡市","Jusho":"https://www.city.ogori.fukuoka.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.5155556,33.49638889]},"properties":{"Name":"筑紫野市","Jusho":"https://www.city.chikushino.fukuoka.jp/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.4702778,33.53277778]},"properties":{"Name":"春日市","Jusho":"https://www.city.kasuga.fukuoka.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.4788889,33.53638889]},"properties":{"Name":"大野城市","Jusho":"http://www.city.onojo.fukuoka.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.5405556,33.80555556]},"properties":{"Name":"宗像市","Jusho":"https://www.city.munakata.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.5238889,33.51277778]},"properties":{"Name":"太宰府市","Jusho":"http://www.city.dazaifu.lg.jp"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.47,33.72888889]},"properties":{"Name":"古賀市","Jusho":"https://www.city.koga.fukuoka.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.4911111,33.76694444]},"properties":{"Name":"福津市","Jusho":"https://www.city.fukutsu.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.755,33.34722222]},"properties":{"Name":"うきは市","Jusho":"http://www.city.ukiha.fukuoka.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.6666667,33.72361111]},"properties":{"Name":"宮若市","Jusho":"https://www.city.miyawaka.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.7116667,33.56333333]},"properties":{"Name":"嘉麻市","Jusho":"https://www.city.kama.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.6655556,33.42333333]},"properties":{"Name":"朝倉市","Jusho":"http://www.city.asakura.lg.jp/www/toppage/0000000000000/APM03000.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.4747222,33.1525]},"properties":{"Name":"みやま市","Jusho":"https://www.city.miyama.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.1955556,33.55722222]},"properties":{"Name":"糸島市","Jusho":"https://www.city.itoshima.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.4222222,33.49944444]},"properties":{"Name":"那珂川町","Jusho":"https://www.city.nakagawa.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.5111111,33.56777778]},"properties":{"Name":"宇美町","Jusho":"https://www.town.umi.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.5263889,33.62388889]},"properties":{"Name":"篠栗町","Jusho":"https://www.town.sasaguri.fukuoka.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.4797222,33.59138889]},"properties":{"Name":"志免町","Jusho":"https://www.town.shime.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.5072222,33.58722222]},"properties":{"Name":"須恵町","Jusho":"https://www.town.sue.fukuoka.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.4466667,33.71527778]},"properties":{"Name":"新宮町","Jusho":"https://www.town.shingu.fukuoka.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.5,33.64666667]},"properties":{"Name":"久山町","Jusho":"https://www.town.hisayama.fukuoka.jp/fullflash/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.4805556,33.61083333]},"properties":{"Name":"粕屋町","Jusho":"https://www.town.kasuya.fukuoka.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.6638889,33.89388889]},"properties":{"Name":"芦屋町","Jusho":"https://www.town.ashiya.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.6947222,33.85472222]},"properties":{"Name":"水巻町","Jusho":"https://www.town.mizumaki.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.6113889,33.85361111]},"properties":{"Name":"岡垣町","Jusho":"https://www.town.okagaki.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.6683333,33.84805556]},"properties":{"Name":"遠賀町","Jusho":"http://www.town.onga.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.7127778,33.6925]},"properties":{"Name":"小竹町","Jusho":"http://town.kotake.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.6741667,33.79194444]},"properties":{"Name":"鞍手町","Jusho":"http://www.town.kurate.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.6780556,33.57888889]},"properties":{"Name":"桂川町","Jusho":"http://www.town.keisen.fukuoka.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.5952778,33.45694444]},"properties":{"Name":"筑前町","Jusho":"https://www.town.chikuzen.fukuoka.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.87,33.39722222]},"properties":{"Name":"東峰村","Jusho":"http://www1.vill.toho.fukuoka.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.6225,33.3725]},"properties":{"Name":"大刀洗町","Jusho":"https://www.town.tachiarai.fukuoka.jp/opening/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.4397222,33.21055556]},"properties":{"Name":"大木町","Jusho":"https://www.town.ooki.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.5513889,33.24138889]},"properties":{"Name":"広川町","Jusho":"http://www.town.hirokawa.fukuoka.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.8472222,33.66805556]},"properties":{"Name":"香春町","Jusho":"https://www.town.kawara.fukuoka.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.8541667,33.57166667]},"properties":{"Name":"添田町","Jusho":"https://www.town.soeda.fukuoka.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.7791667,33.65277778]},"properties":{"Name":"糸田町","Jusho":"http://www.town.itoda.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.8152778,33.6]},"properties":{"Name":"川崎町","Jusho":"https://www.town-kawasaki.com/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.8522222,33.61222222]},"properties":{"Name":"大任町","Jusho":"http://www.town.oto.fukuoka.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.8708333,33.61666667]},"properties":{"Name":"赤村","Jusho":"http://www.akamura.net/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.78,33.68333333]},"properties":{"Name":"福智町","Jusho":"https://www.town.fukuchi.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.9805556,33.77611111]},"properties":{"Name":"苅田町","Jusho":"https://www.town.kanda.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.9205556,33.69916667]},"properties":{"Name":"みやこ町","Jusho":"https://www.town.miyako.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[131.1761111,33.60277778]},"properties":{"Name":"吉富町","Jusho":"https://www.town.yoshitomi.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[131.1644444,33.57833333]},"properties":{"Name":"上毛町","Jusho":"https://www.town.koge.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[131.0561111,33.65611111]},"properties":{"Name":"築上町","Jusho":"https://www.town.chikujo.fukuoka.jp/"}}
+]};

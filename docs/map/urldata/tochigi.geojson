@@ -1,0 +1,27 @@
+﻿var url={"type":"FeatureCollection","name":"tochigi","features":[
+{"type":"Feature","geometry":{"type":"Point","coordinates":[139.8827778,36.55527778]},"properties":{"Name":"宇都宮市","Jusho":"https://www.city.utsunomiya.tochigi.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.4497222,36.34027778]},"properties":{"Name":"足利市","Jusho":"https://www.city.ashikaga.tochigi.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.7302778,36.38138889]},"properties":{"Name":"栃木市","Jusho":"https://www.city.tochigi.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.5783333,36.31444444]},"properties":{"Name":"佐野市","Jusho":"https://www.city.sano.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.745,36.56722222]},"properties":{"Name":"鹿沼市","Jusho":"https://www.city.kanuma.tochigi.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.6983333,36.72]},"properties":{"Name":"日光市","Jusho":"https://www.city.nikko.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.8002778,36.31472222]},"properties":{"Name":"小山市","Jusho":"https://www.city.oyama.tochigi.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.0130556,36.44027778]},"properties":{"Name":"真岡市","Jusho":"https://www.city.moka.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.0155556,36.87083333]},"properties":{"Name":"大田原市","Jusho":"https://www.city.ohtawara.tochigi.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.9241667,36.80666667]},"properties":{"Name":"矢板市","Jusho":"https://www.city.yaita.tochigi.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.0461111,36.96166667]},"properties":{"Name":"那須塩原市","Jusho":"http://www.city.nasushiobara.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.9663889,36.68527778]},"properties":{"Name":"さくら市","Jusho":"https://www.city.tochigi-sakura.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.1516667,36.65694444]},"properties":{"Name":"那須烏山市","Jusho":"https://www.city.nasukarasuyama.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.8422222,36.38722222]},"properties":{"Name":"下野市","Jusho":"https://www.city.shimotsuke.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.91,36.43916667]},"properties":{"Name":"上三川町","Jusho":"https://www.town.kaminokawa.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.0930556,36.4675]},"properties":{"Name":"益子町","Jusho":"http://www.town.mashiko.tochigi.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.1875,36.53222222]},"properties":{"Name":"茂木町","Jusho":"https://www.town.motegi.tochigi.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.1022222,36.54333333]},"properties":{"Name":"市貝町","Jusho":"https://www.town.ichikai.tochigi.jp/forms/top/top.aspx"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.0580556,36.54805556]},"properties":{"Name":"芳賀町","Jusho":"https://www.town.tochigi-haga.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.8038889,36.42722222]},"properties":{"Name":"壬生町","Jusho":"http://www.town.mibu.tochigi.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.7408333,36.23305556]},"properties":{"Name":"野木町","Jusho":"http://www.town.nogi.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.8505556,36.7775]},"properties":{"Name":"塩谷町","Jusho":"https://www.town.shioya.tochigi.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.9866667,36.63111111]},"properties":{"Name":"高根沢町","Jusho":"https://www.town.takanezawa.tochigi.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.1211111,37.01972222]},"properties":{"Name":"那須町","Jusho":"https://www.town.nasu.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[140.1713889,36.73833333]},"properties":{"Name":"那珂川町","Jusho":"http://www.town.tochigi-nakagawa.lg.jp/"}}
+]};

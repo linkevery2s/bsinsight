@@ -1,0 +1,19 @@
+﻿var url={"type":"FeatureCollection","name":"kagawa","features":[
+{"type":"Feature","geometry":{"type":"Point","coordinates":[134.0466667,34.34277778]},"properties":{"Name":"高松市","Jusho":"https://www.city.takamatsu.kagawa.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[133.7977778,34.28944444]},"properties":{"Name":"丸亀市","Jusho":"https://www.city.marugame.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[133.8605556,34.31638889]},"properties":{"Name":"坂出市","Jusho":"https://www.city.sakaide.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[133.7872222,34.22833333]},"properties":{"Name":"善通寺市","Jusho":"https://www.city.zentsuji.kagawa.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[133.6616667,34.12722222]},"properties":{"Name":"観音寺市","Jusho":"https://www.city.kanonji.kagawa.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.1722222,34.32527778]},"properties":{"Name":"さぬき市","Jusho":"https://www.city.sanuki.kagawa.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.3588889,34.24388889]},"properties":{"Name":"東かがわ市","Jusho":"https://www.higashikagawa.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[133.715,34.18277777]},"properties":{"Name":"三豊市","Jusho":"https://www.city.mitoyo.lg.jp"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.1858333,34.48611111]},"properties":{"Name":"土庄町","Jusho":"https://www.town.tonosho.kagawa.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.2336111,34.48194444]},"properties":{"Name":"小豆島町","Jusho":"https://www.town.shodoshima.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.1344444,34.26833333]},"properties":{"Name":"三木町","Jusho":"https://www.town.miki.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[133.9955556,34.46]},"properties":{"Name":"直島町","Jusho":"http://www.town.naoshima.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[133.8255556,34.31055556]},"properties":{"Name":"宇多津町","Jusho":"https://www.town.utazu.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[133.9230556,34.24944444]},"properties":{"Name":"綾川町","Jusho":"https://www.town.ayagawa.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[133.8233333,34.19138889]},"properties":{"Name":"琴平町","Jusho":"https://www.town.kotohira.kagawa.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[133.7536111,34.2725]},"properties":{"Name":"多度津町","Jusho":"https://www.town.tadotsu.kagawa.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[133.8413889,34.19222222]},"properties":{"Name":"まんのう町","Jusho":"https://www.town.manno.lg.jp/"}}
+]};

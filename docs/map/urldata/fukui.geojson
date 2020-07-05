@@ -1,0 +1,19 @@
+﻿var url={"type":"FeatureCollection","name":"fukui","features":[
+{"type":"Feature","geometry":{"type":"Point","coordinates":[136.2194444,36.06416667]},"properties":{"Name":"福井市","Jusho":"https://www.city.fukui.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.0555556,35.64527778]},"properties":{"Name":"敦賀市","Jusho":"https://www.city.tsuruga.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.7466667,35.49555556]},"properties":{"Name":"小浜市","Jusho":"https://www1.city.obama.fukui.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.4875,35.98055556]},"properties":{"Name":"大野市","Jusho":"https://www.city.ono.fukui.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.5005556,36.06083333]},"properties":{"Name":"勝山市","Jusho":"https://www.city.katsuyama.fukui.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.1844444,35.95666667]},"properties":{"Name":"鯖江市","Jusho":"https://www.city.sabae.fukui.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.2288889,36.21138889]},"properties":{"Name":"あわら市","Jusho":"http://www.city.awara.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.1691667,35.90333333]},"properties":{"Name":"越前市","Jusho":"https://www.city.echizen.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.2316667,36.16694444]},"properties":{"Name":"坂井市","Jusho":"https://www.city.fukui-sakai.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.2986111,36.09222222]},"properties":{"Name":"永平寺町","Jusho":"https://www.town.eiheiji.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.3441667,35.89027778]},"properties":{"Name":"池田町","Jusho":"https://www.town.ikeda.fukui.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.1944444,35.835]},"properties":{"Name":"南越前町","Jusho":"https://www.town.minamiechizen.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.1297222,35.97416667]},"properties":{"Name":"越前町","Jusho":"https://www.town.echizen.fukui.jp/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.9405556,35.60055556]},"properties":{"Name":"美浜町","Jusho":"http://www.town.mihama.fukui.jp/www/normal_top.jsp"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.5511111,35.49027778]},"properties":{"Name":"高浜町","Jusho":"https://www.town.takahama.fukui.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.6177778,35.48111111]},"properties":{"Name":"おおい町","Jusho":"https://www.town.ohi.fukui.jp/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.9083333,35.54888889]},"properties":{"Name":"若狭町","Jusho":"https://www.town.fukui-wakasa.lg.jp/"}}
+]};

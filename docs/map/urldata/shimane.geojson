@@ -1,0 +1,21 @@
+﻿var url={"type":"FeatureCollection","name":"shimane","features":[
+{"type":"Feature","geometry":{"type":"Point","coordinates":[133.0486111,35.46805556]},"properties":{"Name":"松江市","Jusho":"https://www.city.matsue.shimane.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[132.08,34.89916667]},"properties":{"Name":"浜田市","Jusho":"http://www.city.hamada.shimane.jp/www/toppage/0000000000000/APM03000.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[132.7547222,35.36694444]},"properties":{"Name":"出雲市","Jusho":"http://www.city.izumo.shimane.jp/www/toppage/0000000000000/APM03000.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[131.8427778,34.675]},"properties":{"Name":"益田市","Jusho":"https://www.city.masuda.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[132.4997222,35.19222222]},"properties":{"Name":"大田市","Jusho":"https://www.city.ohda.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[133.2508333,35.43166667]},"properties":{"Name":"安来市","Jusho":"https://www.city.yasugi.shimane.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[132.2211111,35.01138889]},"properties":{"Name":"江津市","Jusho":"https://www.city.gotsu.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[132.9005556,35.28777778]},"properties":{"Name":"雲南市","Jusho":"https://www.city.unnan.shimane.jp/unnan/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[133.0025,35.1975]},"properties":{"Name":"奥出雲町","Jusho":"https://www.town.okuizumo.shimane.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[132.7138889,35]},"properties":{"Name":"飯南町","Jusho":"http://www.iinan.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[132.4952778,34.99416667]},"properties":{"Name":"川本町","Jusho":"http://www.town.shimane-kawamoto.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[132.5911111,35.07666667]},"properties":{"Name":"美郷町","Jusho":"https://www.town.shimane-misato.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[132.4377778,34.89388889]},"properties":{"Name":"邑南町","Jusho":"https://www.town.ohnan.lg.jp/www/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[131.8383333,34.54361111]},"properties":{"Name":"津和野町","Jusho":"http://www.town.tsuwano.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[131.935,34.35361111]},"properties":{"Name":"吉賀町","Jusho":"https://www.town.yoshika.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[133.0969444,36.09666667]},"properties":{"Name":"海士町","Jusho":"http://www.town.ama.shimane.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[132.9944444,36.09333333]},"properties":{"Name":"西ノ島町","Jusho":"http://www.town.nishinoshima.shimane.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[133.0397222,36.01416667]},"properties":{"Name":"知夫村","Jusho":"http://www.vill.chibu.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[133.3219444,36.20916667]},"properties":{"Name":"隠岐の島町","Jusho":"https://www.town.okinoshima.shimane.jp/www/index.html"}}
+]};

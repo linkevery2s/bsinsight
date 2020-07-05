@@ -1,0 +1,21 @@
+﻿var url={"type":"FeatureCollection","name":"shiga","features":[
+{"type":"Feature","geometry":{"type":"Point","coordinates":[135.8547222,35.01777778]},"properties":{"Name":"大津市","Jusho":"https://www.city.otsu.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.2597222,35.27444444]},"properties":{"Name":"彦根市","Jusho":"https://www.city.hikone.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.2755556,35.38138889]},"properties":{"Name":"長浜市","Jusho":"https://www.city.nagahama.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.0980556,35.12833333]},"properties":{"Name":"近江八幡市","Jusho":"https://www.city.omihachiman.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.96,35.01305556]},"properties":{"Name":"草津市","Jusho":"https://www.city.kusatsu.shiga.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.9944444,35.05888889]},"properties":{"Name":"守山市","Jusho":"https://www.city.moriyama.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.9980556,35.02166667]},"properties":{"Name":"栗東市","Jusho":"https://www.city.ritto.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.1672222,34.96611111]},"properties":{"Name":"甲賀市","Jusho":"http://www.city.koka.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.0258333,35.0675]},"properties":{"Name":"野洲市","Jusho":"http://www.city.yasu.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.085,35.00416667]},"properties":{"Name":"湖南市","Jusho":"https://www.city.shiga-konan.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.0355556,35.35277778]},"properties":{"Name":"高島市","Jusho":"http://www.city.takashima.lg.jp/www/toppage/0000000000000/APM03000.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.2077778,35.11277778]},"properties":{"Name":"東近江市","Jusho":"https://www.city.higashiomi.shiga.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.2838889,35.31527778]},"properties":{"Name":"米原市","Jusho":"https://www.city.maibara.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.2461111,35.01805556]},"properties":{"Name":"日野町","Jusho":"http://www.town.shiga-hino.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.1244444,35.06083333]},"properties":{"Name":"竜王町","Jusho":"http://www.town.ryuoh.shiga.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.2125,35.16888889]},"properties":{"Name":"愛荘町","Jusho":"https://www.town.aisho.shiga.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.23,35.20055556]},"properties":{"Name":"豊郷町","Jusho":"https://www.town.toyosato.shiga.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.2613889,35.20416667]},"properties":{"Name":"甲良町","Jusho":"http://www.kouratown.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.2922222,35.22194444]},"properties":{"Name":"多賀町","Jusho":"https://www.town.taga.lg.jp/"}}
+]};

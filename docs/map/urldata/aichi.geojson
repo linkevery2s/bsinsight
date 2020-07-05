@@ -1,0 +1,72 @@
+﻿var url={"type":"FeatureCollection","name":"aichi","features":[
+{"type":"Feature","geometry":{"type":"Point","coordinates":[136.9063889,35.18166667]},"properties":{"Name":"名古屋市","Jusho":"http://www.city.nagoya.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.9463889,35.16638889]},"properties":{"Name":"名古屋市 千種区","Jusho":"http://www.city.nagoya.jp/chikusa/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.9261111,35.17944444]},"properties":{"Name":"名古屋市 東区","Jusho":"http://www.city.nagoya.jp/higashi/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.9116667,35.19416667]},"properties":{"Name":"名古屋市 北区","Jusho":"http://www.city.nagoya.jp/kita/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.89,35.18916666]},"properties":{"Name":"名古屋市 西区","Jusho":"http://www.city.nagoya.jp/nishi/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.8730556,35.16861111]},"properties":{"Name":"名古屋市 中村区","Jusho":"http://www.city.nagoya.jp/nakamura/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.9102778,35.16861111]},"properties":{"Name":"名古屋市 中区","Jusho":"http://www.city.nagoya.jp/naka/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.9341667,35.15027778]},"properties":{"Name":"名古屋市 昭和区","Jusho":"http://www.city.nagoya.jp/showa/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.935,35.13166667]},"properties":{"Name":"名古屋市 瑞穂区","Jusho":"http://www.city.nagoya.jp/mizuho/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.9105556,35.12833333]},"properties":{"Name":"名古屋市 熱田区","Jusho":"http://www.city.nagoya.jp/atsuta/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.855,35.14166667]},"properties":{"Name":"名古屋市 中川区","Jusho":"http://www.city.nagoya.jp/nakagawa/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.8855556,35.10777778]},"properties":{"Name":"名古屋市 港区","Jusho":"http://www.city.nagoya.jp/minato/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.9311111,35.095]},"properties":{"Name":"名古屋市 南区","Jusho":"http://www.city.nagoya.jp/minami/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.9766667,35.20333333]},"properties":{"Name":"名古屋市 守山区","Jusho":"http://www.city.nagoya.jp/moriyama/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.9522222,35.07083333]},"properties":{"Name":"名古屋市 緑区","Jusho":"http://www.city.nagoya.jp/midori/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[137.0102778,35.17583333]},"properties":{"Name":"名古屋市 名東区","Jusho":"http://www.city.nagoya.jp/meito/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.975,35.12277778]},"properties":{"Name":"名古屋市 天白区","Jusho":"http://www.city.nagoya.jp/tempaku/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[137.3913889,34.76916667]},"properties":{"Name":"豊橋市","Jusho":"https://www.city.toyohashi.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[137.1730556,34.95472222]},"properties":{"Name":"岡崎市","Jusho":"https://www.city.okazaki.lg.jp/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.8025,35.30416667]},"properties":{"Name":"一宮市","Jusho":"https://www.city.ichinomiya.aichi.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[137.0841667,35.22333333]},"properties":{"Name":"瀬戸市","Jusho":"http://www.city.seto.aichi.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.9377778,34.8925]},"properties":{"Name":"半田市","Jusho":"https://www.city.handa.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.9722222,35.2475]},"properties":{"Name":"春日井市","Jusho":"https://www.city.kasugai.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[137.3758333,34.82694444]},"properties":{"Name":"豊川市","Jusho":"https://www.city.toyokawa.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.7413889,35.17722222]},"properties":{"Name":"津島市","Jusho":"https://www.city.tsushima.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.9936111,34.88472222]},"properties":{"Name":"碧南市","Jusho":"https://www.city.hekinan.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[137.0025,34.98916667]},"properties":{"Name":"刈谷市","Jusho":"https://www.city.kariya.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[137.1563889,35.08333333]},"properties":{"Name":"豊田市","Jusho":"https://www.city.toyota.aichi.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[137.0802809,34.95861426]},"properties":{"Name":"安城市","Jusho":"https://www.city.anjo.aichi.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[137.0619444,34.86194444]},"properties":{"Name":"西尾市","Jusho":"https://www.city.nishio.aichi.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[137.2197222,34.82638889]},"properties":{"Name":"蒲郡市","Jusho":"https://www.city.gamagori.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.9441667,35.37861111]},"properties":{"Name":"犬山市","Jusho":"https://www.city.inuyama.aichi.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.8325,34.88666667]},"properties":{"Name":"常滑市","Jusho":"http://www.city.tokoname.aichi.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.8708333,35.33222222]},"properties":{"Name":"江南市","Jusho":"https://www.city.konan.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.9122222,35.29111111]},"properties":{"Name":"小牧市","Jusho":"https://www.city.komaki.aichi.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.7802778,35.24805556]},"properties":{"Name":"稲沢市","Jusho":"http://www.city.inazawa.aichi.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[137.4986111,34.89916667]},"properties":{"Name":"新城市","Jusho":"https://www.city.shinshiro.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.9025,35.02305556]},"properties":{"Name":"東海市","Jusho":"http://www.city.tokai.aichi.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.9633333,35.01222222]},"properties":{"Name":"大府市","Jusho":"https://www.city.obu.aichi.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.8647222,34.99666667]},"properties":{"Name":"知多市","Jusho":"https://www.city.chita.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[137.0505556,35.00138889]},"properties":{"Name":"知立市","Jusho":"https://www.city.chiryu.aichi.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[137.0352778,35.21638889]},"properties":{"Name":"尾張旭市","Jusho":"https://www.city.owariasahi.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.9877778,34.9275]},"properties":{"Name":"高浜市","Jusho":"https://www.city.takahama.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.8713889,35.28]},"properties":{"Name":"岩倉市","Jusho":"https://www.city.iwakura.aichi.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[137.0127778,35.05388889]},"properties":{"Name":"豊明市","Jusho":"https://www.city.toyoake.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[137.0394444,35.13194444]},"properties":{"Name":"日進市","Jusho":"https://www.city.nisshin.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[137.2636111,34.66916667]},"properties":{"Name":"田原市","Jusho":"http://www.city.tahara.aichi.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.7283333,35.15277778]},"properties":{"Name":"愛西市","Jusho":"https://www.city.aisai.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.8527778,35.19972222]},"properties":{"Name":"清須市","Jusho":"https://www.city.kiyosu.aichi.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.8661111,35.24555556]},"properties":{"Name":"北名古屋市","Jusho":"https://www.city.kitanagoya.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.7247222,35.11]},"properties":{"Name":"弥富市","Jusho":"https://www.city.yatomi.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[137.0744444,35.08972222]},"properties":{"Name":"みよし市","Jusho":"https://www.city.aichi-miyoshi.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.7836111,35.20055556]},"properties":{"Name":"あま市","Jusho":"https://www.city.ama.aichi.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[137.0486111,35.18416667]},"properties":{"Name":"長久手市","Jusho":"https://www.city.nagakute.lg.jp/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[137.0525,35.09694444]},"properties":{"Name":"東郷町","Jusho":"https://www.town.aichi-togo.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.9122222,35.25083333]},"properties":{"Name":"豊山町","Jusho":"https://www.town.toyoyama.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.9077778,35.3325]},"properties":{"Name":"大口町","Jusho":"https://www.town.oguchi.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.9130556,35.35916667]},"properties":{"Name":"扶桑町","Jusho":"https://www.town.fuso.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.82,35.175]},"properties":{"Name":"大治町","Jusho":"https://www.town.oharu.aichi.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.7869444,35.13222222]},"properties":{"Name":"蟹江町","Jusho":"https://www.town.kanie.aichi.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.7913889,35.07888889]},"properties":{"Name":"飛島村","Jusho":"https://www.vill.tobishima.aichi.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.9155556,34.9325]},"properties":{"Name":"阿久比町","Jusho":"https://www.town.agui.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.9655556,34.97722222]},"properties":{"Name":"東浦町","Jusho":"https://www.town.aichi-higashiura.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.9297222,34.71527778]},"properties":{"Name":"南知多町","Jusho":"https://www.town.minamichita.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.9083333,34.77888889]},"properties":{"Name":"美浜町","Jusho":"https://www.town.aichi-mihama.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[136.915,34.85138889]},"properties":{"Name":"武豊町","Jusho":"https://www.town.taketoyo.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[137.1655556,34.86472222]},"properties":{"Name":"幸田町","Jusho":"https://www.town.kota.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[137.57,35.0975]},"properties":{"Name":"設楽町","Jusho":"http://www.town.shitara.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[137.6977778,35.07694444]},"properties":{"Name":"東栄町","Jusho":"http://www.town.toei.aichi.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[137.7197222,35.14638889]},"properties":{"Name":"豊根村","Jusho":"http://www.vill.toyone.aichi.jp/"}}
+]};

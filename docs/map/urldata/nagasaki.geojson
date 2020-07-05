@@ -1,0 +1,23 @@
+﻿var url={"type":"FeatureCollection","name":"nagasaki","features":[
+{"type":"Feature","geometry":{"type":"Point","coordinates":[129.8777778,32.75027778]},"properties":{"Name":"長崎市","Jusho":"https://www.city.nagasaki.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[129.7155556,33.18]},"properties":{"Name":"佐世保市","Jusho":"https://www.city.sasebo.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.3705556,32.78805556]},"properties":{"Name":"島原市","Jusho":"https://www.city.shimabara.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.0536111,32.84416667]},"properties":{"Name":"諫早市","Jusho":"https://www.city.isahaya.nagasaki.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[129.9583333,32.9]},"properties":{"Name":"大村市","Jusho":"https://www.city.omura.nagasaki.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[129.5538889,33.36805556]},"properties":{"Name":"平戸市","Jusho":"https://www.city.hirado.nagasaki.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[129.7091667,33.34111111]},"properties":{"Name":"松浦市","Jusho":"https://www.city-matsuura.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[129.2875,34.20277778]},"properties":{"Name":"対馬市","Jusho":"http://www.city.tsushima.nagasaki.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[129.6911111,33.75]},"properties":{"Name":"壱岐市","Jusho":"https://www.city.iki.nagasaki.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[128.8408333,32.69555556]},"properties":{"Name":"五島市","Jusho":"https://www.city.goto.nagasaki.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[129.6430556,32.93305556]},"properties":{"Name":"西海市","Jusho":"https://www.city.saikai.nagasaki.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.1875,32.835]},"properties":{"Name":"雲仙市","Jusho":"http://www.city.unzen.nagasaki.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[130.2977778,32.65972222]},"properties":{"Name":"南島原市","Jusho":"https://www.city.minamishimabara.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[129.875,32.82527778]},"properties":{"Name":"長与町","Jusho":"https://webtown.nagayo.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[129.8486111,32.82888889]},"properties":{"Name":"時津町","Jusho":"https://www.town.togitsu.nagasaki.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[129.9172222,33.03694444]},"properties":{"Name":"東彼杵町","Jusho":"http://www.sonogi.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[129.8613889,33.07277778]},"properties":{"Name":"川棚町","Jusho":"https://www.kawatana.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[129.8955556,33.13805556]},"properties":{"Name":"波佐見町","Jusho":"https://www.town.hasami.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[129.0591667,33.19111111]},"properties":{"Name":"小値賀町","Jusho":"http://ojika.net/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[129.6505556,33.23833333]},"properties":{"Name":"佐々町","Jusho":"https://www.sazacho-nagasaki.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[129.0733333,32.98444444]},"properties":{"Name":"新上五島町","Jusho":"https://official.shinkamigoto.net/"}}
+]};

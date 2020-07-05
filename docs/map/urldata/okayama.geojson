@@ -1,0 +1,33 @@
+﻿var url={"type":"FeatureCollection","name":"okayama","features":[
+{"type":"Feature","geometry":{"type":"Point","coordinates":[133.9197222,34.655]},"properties":{"Name":"岡山市","Jusho":"http://www.city.okayama.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[133.9197222,34.655]},"properties":{"Name":"岡山市 北区","Jusho":"http://www.city.okayama.jp/kitaku/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[133.9430556,34.67083333]},"properties":{"Name":"岡山市 中区","Jusho":"http://www.city.okayama.jp/nakaku/soumu/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.0363889,34.65833333]},"properties":{"Name":"岡山市 東区","Jusho":"http://www.city.okayama.jp/higashiku/soumu/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[133.8652778,34.54388889]},"properties":{"Name":"岡山市 南区","Jusho":"http://www.city.okayama.jp/minamiku/soumu/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[133.7719444,34.585]},"properties":{"Name":"倉敷市","Jusho":"https://www.city.kurashiki.okayama.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.0044444,35.06944444]},"properties":{"Name":"津山市","Jusho":"https://www.city.tsuyama.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[133.9458333,34.49194444]},"properties":{"Name":"玉野市","Jusho":"https://www.city.tamano.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[133.5072222,34.50722222]},"properties":{"Name":"笠岡市","Jusho":"https://www.city.kasaoka.okayama.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[133.4638889,34.59777778]},"properties":{"Name":"井原市","Jusho":"http://www.city.ibara.okayama.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[133.7466667,34.67277778]},"properties":{"Name":"総社市","Jusho":"https://www.city.soja.okayama.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[133.6166667,34.79138889]},"properties":{"Name":"高梁市","Jusho":"https://www.city.takahashi.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[133.4702778,34.97722222]},"properties":{"Name":"新見市","Jusho":"https://www.city.niimi.okayama.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.1880556,34.745]},"properties":{"Name":"備前市","Jusho":"https://www.city.bizen.okayama.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.0927778,34.665]},"properties":{"Name":"瀬戸内市","Jusho":"http://www.city.setouchi.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.0188889,34.75527778]},"properties":{"Name":"赤磐市","Jusho":"https://www.city.akaiwa.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[133.7527778,35.07555556]},"properties":{"Name":"真庭市","Jusho":"https://www.city.maniwa.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.1486111,35.00861111]},"properties":{"Name":"美作市","Jusho":"http://www.city.mimasaka.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[133.585,34.52777778]},"properties":{"Name":"浅口市","Jusho":"https://www.city.asakuchi.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.1575,34.80277778]},"properties":{"Name":"和気町","Jusho":"https://www.town.wake.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[133.8283333,34.60055556]},"properties":{"Name":"早島町","Jusho":"http://www.town.hayashima.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[133.5569444,34.51361111]},"properties":{"Name":"里庄町","Jusho":"https://www.town.satosho.okayama.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[133.5872222,34.62777778]},"properties":{"Name":"矢掛町","Jusho":"http://www.town.yakage.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[133.5677778,35.17944444]},"properties":{"Name":"新庄村","Jusho":"http://www.vill.shinjo.okayama.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[133.9330556,35.09194444]},"properties":{"Name":"鏡野町","Jusho":"http://www.town.kagamino.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.1161111,35.04194444]},"properties":{"Name":"勝央町","Jusho":"http://www.town.shoo.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.1775,35.12305556]},"properties":{"Name":"奈義町","Jusho":"https://www.town.nagi.okayama.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.3363889,35.17138889]},"properties":{"Name":"西粟倉村","Jusho":"http://www.vill.nishiawakura.okayama.jp/wp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[133.9608333,34.92916667]},"properties":{"Name":"久米南町","Jusho":"https://www.town.kumenan.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[133.9583333,34.99777778]},"properties":{"Name":"美咲町","Jusho":"https://www.town.misaki.okayama.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[133.6938889,34.8625]},"properties":{"Name":"吉備中央町","Jusho":"https://www.town.kibichuo.lg.jp/"}}
+]};

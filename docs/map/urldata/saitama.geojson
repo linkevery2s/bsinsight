@@ -1,0 +1,75 @@
+﻿var url={"type":"FeatureCollection","name":"saitama","features":[
+{"type":"Feature","geometry":{"type":"Point","coordinates":[139.6452778,35.86166667]},"properties":{"Name":"さいたま市","Jusho":"https://www.city.saitama.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.5797222,35.925]},"properties":{"Name":"さいたま市 西区","Jusho":"https://www.city.saitama.jp/nishi/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.62,35.93083333]},"properties":{"Name":"さいたま市 北区","Jusho":"https://www.city.saitama.jp/kita/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.6286111,35.90611111]},"properties":{"Name":"さいたま市 大宮区","Jusho":"https://www.city.saitama.jp/omiya/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.6544444,35.93527778]},"properties":{"Name":"さいたま市 見沼区","Jusho":"https://www.city.saitama.jp/minuma/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.6261111,35.88388889]},"properties":{"Name":"さいたま市 中央区","Jusho":"https://www.city.saitama.jp/chuo/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.6094444,35.85694444]},"properties":{"Name":"さいたま市 桜区","Jusho":"https://www.city.saitama.jp/sakura/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.6452778,35.86166667]},"properties":{"Name":"さいたま市 浦和区","Jusho":"https://www.city.saitama.jp/urawa/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.6480556,35.84638889]},"properties":{"Name":"さいたま市 南区","Jusho":"https://www.city.saitama.jp/minami/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.6838889,35.87111111]},"properties":{"Name":"さいたま市 緑区","Jusho":"https://www.city.saitama.jp/midori/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.6941694,35.94972146]},"properties":{"Name":"さいたま市 岩槻区","Jusho":"https://www.city.saitama.jp/iwatsuki/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.4858333,35.925]},"properties":{"Name":"川越市","Jusho":"https://www.city.kawagoe.saitama.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.3886111,36.14722222]},"properties":{"Name":"熊谷市","Jusho":"https://www.city.kumagaya.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.7241667,35.80777778]},"properties":{"Name":"川口市","Jusho":"https://www.city.kawaguchi.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.4558333,36.13888889]},"properties":{"Name":"行田市","Jusho":"https://www.city.gyoda.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.0855556,35.99166667]},"properties":{"Name":"秩父市","Jusho":"http://www.city.chichibu.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.4688889,35.79944444]},"properties":{"Name":"所沢市","Jusho":"https://www.city.tokorozawa.saitama.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.3277778,35.85583333]},"properties":{"Name":"飯能市","Jusho":"https://www.city.hanno.lg.jp"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.6019444,36.13138889]},"properties":{"Name":"加須市","Jusho":"https://www.city.kazo.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.1902778,36.24388889]},"properties":{"Name":"本庄市","Jusho":"http://www.city.honjo.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.4,36.04222222]},"properties":{"Name":"東松山市","Jusho":"http://www.city.higashimatsuyama.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.7525,35.97527778]},"properties":{"Name":"春日部市","Jusho":"https://www.city.kasukabe.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.4122222,35.85305556]},"properties":{"Name":"狭山市","Jusho":"https://www.city.sayama.saitama.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.5486111,36.17277778]},"properties":{"Name":"羽生市","Jusho":"https://www.city.hanyu.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.5222222,36.06583333]},"properties":{"Name":"鴻巣市","Jusho":"http://www.city.kounosu.saitama.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.2813889,36.1975]},"properties":{"Name":"深谷市","Jusho":"http://www.city.fukaya.saitama.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.5933333,35.9775]},"properties":{"Name":"上尾市","Jusho":"https://www.city.ageo.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.8055556,35.82555556]},"properties":{"Name":"草加市","Jusho":"http://www.city.soka.saitama.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.7908333,35.89111111]},"properties":{"Name":"越谷市","Jusho":"https://www.city.koshigaya.saitama.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.6794444,35.82555556]},"properties":{"Name":"蕨市","Jusho":"https://www.city.warabi.saitama.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.6777778,35.8175]},"properties":{"Name":"戸田市","Jusho":"https://www.city.toda.saitama.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.3911111,35.83583333]},"properties":{"Name":"入間市","Jusho":"http://www.city.iruma.saitama.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.5936111,35.79722222]},"properties":{"Name":"朝霞市","Jusho":"https://www.city.asaka.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.5802778,35.83666667]},"properties":{"Name":"志木市","Jusho":"http://www.city.shiki.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.6058333,35.78138889]},"properties":{"Name":"和光市","Jusho":"http://www.city.wako.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.5652778,35.79333333]},"properties":{"Name":"新座市","Jusho":"https://www.city.niiza.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.5583333,36.00277778]},"properties":{"Name":"桶川市","Jusho":"https://www.city.okegawa.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.6669444,36.06222222]},"properties":{"Name":"久喜市","Jusho":"https://www.city.kuki.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.5302778,36.02722222]},"properties":{"Name":"北本市","Jusho":"http://www.city.kitamoto.saitama.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.8391667,35.82277778]},"properties":{"Name":"八潮市","Jusho":"https://www.city.yashio.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.5491667,35.85666667]},"properties":{"Name":"富士見市","Jusho":"https://www.city.fujimi.saitama.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.8725,35.83027778]},"properties":{"Name":"三郷市","Jusho":"http://www.city.misato.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.6622222,35.99416667]},"properties":{"Name":"蓮田市","Jusho":"https://www.city.hasuda.saitama.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.4030556,35.95722222]},"properties":{"Name":"坂戸市","Jusho":"https://www.city.sakado.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.7258333,36.07805556]},"properties":{"Name":"幸手市","Jusho":"https://www.city.satte.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.3930556,35.93444444]},"properties":{"Name":"鶴ヶ島市","Jusho":"https://www.city.tsurugashima.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.3391667,35.90777778]},"properties":{"Name":"日高市","Jusho":"https://www.city.hidaka.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.8413889,35.89111111]},"properties":{"Name":"吉川市","Jusho":"https://www.city.yoshikawa.saitama.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.5197222,35.87944444]},"properties":{"Name":"ふじみ野市","Jusho":"https://www.city.fujimino.saitama.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.6769444,36.01888889]},"properties":{"Name":"白岡市","Jusho":"http://www.city.shiraoka.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.6238889,36]},"properties":{"Name":"伊奈町","Jusho":"https://www.town.saitama-ina.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.5266667,35.82833333]},"properties":{"Name":"三芳町","Jusho":"https://www.town.saitama-miyoshi.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.3161111,35.94166667]},"properties":{"Name":"毛呂山町","Jusho":"http://www.town.moroyama.saitama.jp/www/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.2941667,35.96444444]},"properties":{"Name":"越生町","Jusho":"http://www.town.ogose.saitama.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.3608333,36.06611111]},"properties":{"Name":"滑川町","Jusho":"http://www.town.namegawa.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.3202778,36.05666667]},"properties":{"Name":"嵐山町","Jusho":"https://www.town.ranzan.saitama.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.2619444,36.05666667]},"properties":{"Name":"小川町","Jusho":"https://www.town.ogawa.saitama.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.4816667,35.98138889]},"properties":{"Name":"川島町","Jusho":"https://www.town.kawajima.saitama.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.4538889,36.04]},"properties":{"Name":"吉見町","Jusho":"http://www.town.yoshimi.saitama.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.3341667,35.98166667]},"properties":{"Name":"鳩山町","Jusho":"http://www.town.hatoyama.saitama.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.2969444,36.00861111]},"properties":{"Name":"ときがわ町","Jusho":"https://www.town.tokigawa.lg.jp/forms/top/top.aspx"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.1002778,35.98722222]},"properties":{"Name":"横瀬町","Jusho":"https://www.town.yokoze.saitama.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.0988889,36.07083333]},"properties":{"Name":"皆野町","Jusho":"https://www.town.minano.saitama.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.11,36.11472222]},"properties":{"Name":"長瀞町","Jusho":"http://www.town.nagatoro.saitama.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.0086111,36.01722222]},"properties":{"Name":"小鹿野町","Jusho":"https://www.town.ogano.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.1947222,36.05805556]},"properties":{"Name":"東秩父村","Jusho":"https://www.vill.higashichichibu.saitama.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.1813889,36.17722222]},"properties":{"Name":"美里町","Jusho":"http://www.town.saitama-misato.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.1019444,36.21388889]},"properties":{"Name":"神川町","Jusho":"https://www.town.kamikawa.saitama.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.1447222,36.25194444]},"properties":{"Name":"上里町","Jusho":"http://www.town.kamisato.saitama.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.1930556,36.11833333]},"properties":{"Name":"寄居町","Jusho":"https://www.town.yorii.saitama.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.7227778,36.0225]},"properties":{"Name":"宮代町","Jusho":"https://www.town.miyashiro.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.7366667,36.02555556]},"properties":{"Name":"杉戸町","Jusho":"https://www.town.sugito.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[139.8152778,35.92583333]},"properties":{"Name":"松伏町","Jusho":"http://www.town.matsubushi.lg.jp/"}}
+]};

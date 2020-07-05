@@ -1,0 +1,33 @@
+﻿var url={"type":"FeatureCollection","name":"hiroshima","features":[
+{"type":"Feature","geometry":{"type":"Point","coordinates":[132.4552778,34.38527778]},"properties":{"Name":"広島市","Jusho":"https://www.city.hiroshima.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[132.4552778,34.38611111]},"properties":{"Name":"広島市 中区","Jusho":"https://www.city.hiroshima.lg.jp/site/nakaku/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[132.4827778,34.39527778]},"properties":{"Name":"広島市 東区","Jusho":"https://www.city.hiroshima.lg.jp/site/higashiku/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[132.4691667,34.38]},"properties":{"Name":"広島市 南区","Jusho":"https://www.city.hiroshima.lg.jp/site/minamiku/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[132.4344444,34.39388889]},"properties":{"Name":"広島市 西区","Jusho":"https://www.city.hiroshima.lg.jp/site/nishiku/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[132.4716667,34.45194444]},"properties":{"Name":"広島市 安佐南区","Jusho":"https://www.city.hiroshima.lg.jp/site/asaminamiku/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[132.5077778,34.51833333]},"properties":{"Name":"広島市 安佐北区","Jusho":"https://www.city.hiroshima.lg.jp/site/asakitaku/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[132.5255556,34.37166667]},"properties":{"Name":"広島市 安芸区","Jusho":"https://www.city.hiroshima.lg.jp/site/akiku/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[132.3608333,34.36444444]},"properties":{"Name":"広島市 佐伯区","Jusho":"https://www.city.hiroshima.lg.jp/site/saekiku/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[132.5658333,34.24916667]},"properties":{"Name":"呉市","Jusho":"https://www.city.kure.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[132.9069444,34.34166667]},"properties":{"Name":"竹原市","Jusho":"https://www.city.takehara.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[133.0786111,34.3975]},"properties":{"Name":"三原市","Jusho":"https://www.city.mihara.hiroshima.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[133.205,34.40888889]},"properties":{"Name":"尾道市","Jusho":"https://www.city.onomichi.hiroshima.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[133.3625,34.48583333]},"properties":{"Name":"福山市","Jusho":"https://www.city.fukuyama.hiroshima.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[133.2363889,34.56833333]},"properties":{"Name":"府中市","Jusho":"https://www.city.fuchu.hiroshima.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[132.8516667,34.80583333]},"properties":{"Name":"三次市","Jusho":"https://www.city.miyoshi.hiroshima.jp/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[133.0166667,34.85777778]},"properties":{"Name":"庄原市","Jusho":"https://www.city.shobara.hiroshima.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[132.2222222,34.23805556]},"properties":{"Name":"大竹市","Jusho":"http://www.city.otake.hiroshima.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[132.7436111,34.42694444]},"properties":{"Name":"東広島市","Jusho":"http://www.city.higashihiroshima.hiroshima.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[132.3316667,34.34861111]},"properties":{"Name":"廿日市市","Jusho":"https://www.city.hatsukaichi.hiroshima.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[132.7038889,34.66638889]},"properties":{"Name":"安芸高田市","Jusho":"https://www.akitakata.jp/ja/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[132.4441667,34.22277778]},"properties":{"Name":"江田島市","Jusho":"https://www.city.etajima.hiroshima.jp/cms/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[132.5044444,34.3925]},"properties":{"Name":"府中町","Jusho":"https://www.town.fuchu.hiroshima.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[132.5361111,34.37222222]},"properties":{"Name":"海田町","Jusho":"https://www.town.kaita.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[132.5844444,34.33583333]},"properties":{"Name":"熊野町","Jusho":"http://www.town.kumano.hiroshima.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[132.5138889,34.34138889]},"properties":{"Name":"坂町","Jusho":"http://www.town.saka.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[132.2269444,34.57666667]},"properties":{"Name":"安芸太田町","Jusho":"http://www.akiota.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[132.5383333,34.67444444]},"properties":{"Name":"北広島町","Jusho":"https://www.town.kitahiroshima.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[132.9152778,34.26972222]},"properties":{"Name":"大崎上島町","Jusho":"https://www.town.osakikamijima.hiroshima.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[133.0566667,34.58666667]},"properties":{"Name":"世羅町","Jusho":"http://www.town.sera.hiroshima.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[133.2477778,34.70361111]},"properties":{"Name":"神石高原町","Jusho":"http://www.jinsekigun.jp/"}}
+]};

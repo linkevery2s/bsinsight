@@ -1,0 +1,21 @@
+﻿var url={"type":"FeatureCollection","name":"yamaguchi","features":[
+{"type":"Feature","geometry":{"type":"Point","coordinates":[130.9413889,33.95777778]},"properties":{"Name":"下関市","Jusho":"http://www.city.shimonoseki.lg.jp/www/toppage/0000000000000/APM03000.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[131.2466667,33.95166667]},"properties":{"Name":"宇部市","Jusho":"https://www.city.ube.yamaguchi.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[131.4738889,34.17833333]},"properties":{"Name":"山口市","Jusho":"https://www.city.yamaguchi.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[131.3991667,34.40805556]},"properties":{"Name":"萩市","Jusho":"https://www.city.hagi.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[131.5627778,34.05194444]},"properties":{"Name":"防府市","Jusho":"https://www.city.hofu.yamaguchi.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[131.8702778,34.015]},"properties":{"Name":"下松市","Jusho":"https://www.city.kudamatsu.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[132.2197222,34.16694444]},"properties":{"Name":"岩国市","Jusho":"https://www.city.iwakuni.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[131.9422222,33.96166667]},"properties":{"Name":"光市","Jusho":"https://www.city.hikari.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[131.1822222,34.37111111]},"properties":{"Name":"長門市","Jusho":"https://www.city.nagato.yamaguchi.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[132.1016667,33.96388889]},"properties":{"Name":"柳井市","Jusho":"https://www.city-yanai.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[131.2058333,34.16666667]},"properties":{"Name":"美祢市","Jusho":"http://www2.city.mine.lg.jp/www/toppage/0000000000000/APM03000.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[131.8061111,34.05527778]},"properties":{"Name":"周南市","Jusho":"https://www.city.shunan.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[131.1819444,34.00333333]},"properties":{"Name":"山陽小野田市","Jusho":"https://www.city.sanyo-onoda.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[132.1952778,33.9275]},"properties":{"Name":"周防大島町","Jusho":"https://www.town.suo-oshima.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[132.2202778,34.20222222]},"properties":{"Name":"和木町","Jusho":"http://www.town.waki.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[132.1108333,33.83083333]},"properties":{"Name":"上関町","Jusho":"https://www.town.kaminoseki.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[132.0413889,33.95472222]},"properties":{"Name":"田布施町","Jusho":"https://www.town.tabuse.lg.jp/www/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[132.0733333,33.93805556]},"properties":{"Name":"平生町","Jusho":"http://www.town.hirao.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[131.4711111,34.50333333]},"properties":{"Name":"阿武町","Jusho":"http://www.town.abu.lg.jp/"}}
+]};

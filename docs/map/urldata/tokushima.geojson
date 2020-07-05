@@ -1,0 +1,26 @@
+﻿var url={"type":"FeatureCollection","name":"tokushima","features":[
+{"type":"Feature","geometry":{"type":"Point","coordinates":[134.5547222,34.07027778]},"properties":{"Name":"徳島市","Jusho":"https://www.city.tokushima.tokushima.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.6088889,34.1725]},"properties":{"Name":"鳴門市","Jusho":"https://www.city.naruto.tokushima.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.5905556,34.00472222]},"properties":{"Name":"小松島市","Jusho":"https://www.city.komatsushima.tokushima.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.6594444,33.92166667]},"properties":{"Name":"阿南市","Jusho":"https://www.city.anan.tokushima.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.3586111,34.06638889]},"properties":{"Name":"吉野川市","Jusho":"https://www.city.yoshinogawa.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.2358333,34.08222222]},"properties":{"Name":"阿波市","Jusho":"https://www.city.awa.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.17,34.05333333]},"properties":{"Name":"美馬市","Jusho":"http://www.city.mima.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[133.8072222,34.02583333]},"properties":{"Name":"三好市","Jusho":"https://www.miyoshi.i-tokushima.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.5113889,33.93138889]},"properties":{"Name":"勝浦町","Jusho":"http://www.town.katsuura.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.4019444,33.88888889]},"properties":{"Name":"上勝町","Jusho":"http://www.kamikatsu.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.4533333,33.99305556]},"properties":{"Name":"佐那河内村","Jusho":"http://www.vill.sanagochi.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.4405556,34.07472222]},"properties":{"Name":"石井町","Jusho":"https://www.town.ishii.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.3505556,33.96722222]},"properties":{"Name":"神山町","Jusho":"https://www.town.kamiyama.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.4958333,33.85722222]},"properties":{"Name":"那賀町","Jusho":"http://www.town.tokushima-naka.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.4208333,33.66833333]},"properties":{"Name":"牟岐町","Jusho":"https://www.town.tokushima-mugi.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.5355556,33.73472222]},"properties":{"Name":"美波町","Jusho":"https://www.town.minami.tokushima.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.3519444,33.60194444]},"properties":{"Name":"海陽町","Jusho":"https://www.town.kaiyo.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.5802778,34.13388889]},"properties":{"Name":"松茂町","Jusho":"https://www.town.matsushige.tokushima.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.5469444,34.12555556]},"properties":{"Name":"北島町","Jusho":"https://www.town.kitajima.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.495,34.12666667]},"properties":{"Name":"藍住町","Jusho":"https://www.town.aizumi.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.4625,34.14416667]},"properties":{"Name":"板野町","Jusho":"http://www.town.itano.tokushima.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.405,34.12138889]},"properties":{"Name":"上板町","Jusho":"https://www.townkamiita.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[134.0641667,34.03722222]},"properties":{"Name":"つるぎ町","Jusho":"https://www.town.tokushima-tsurugi.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[133.9369444,34.03666667]},"properties":{"Name":"東みよし町","Jusho":"https://www.town.higashimiyoshi.lg.jp/"}}
+]};

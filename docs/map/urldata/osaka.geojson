@@ -1,0 +1,76 @@
+﻿var url={"type":"FeatureCollection","name":"osaka","features":[
+{"type":"Feature","geometry":{"type":"Point","coordinates":[135.5022222,34.69388889]},"properties":{"Name":"大阪市","Jusho":"https://www.city.osaka.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.5280556,34.70138889]},"properties":{"Name":"大阪市 都島区","Jusho":"https://www.city.osaka.lg.jp/miyakojima/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.4722222,34.69222222]},"properties":{"Name":"大阪市 福島区","Jusho":"https://www.city.osaka.lg.jp/fukushima/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.4522222,34.68305556]},"properties":{"Name":"大阪市 此花区","Jusho":"https://www.city.osaka.lg.jp/konohana/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.4861111,34.67638889]},"properties":{"Name":"大阪市 西区","Jusho":"https://www.city.osaka.lg.jp/nishi/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.4608333,34.66388889]},"properties":{"Name":"大阪市 港区","Jusho":"https://www.city.osaka.lg.jp/minato/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.4727778,34.65027778]},"properties":{"Name":"大阪市 大正区","Jusho":"https://www.city.osaka.lg.jp/taisho/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.5194444,34.65777778]},"properties":{"Name":"大阪市 天王寺区","Jusho":"https://www.city.osaka.lg.jp/tennoji/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.4997222,34.65944444]},"properties":{"Name":"大阪市 浪速区","Jusho":"https://www.city.osaka.lg.jp/naniwa/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.4561111,34.71138889]},"properties":{"Name":"大阪市 西淀川区","Jusho":"https://www.city.osaka.lg.jp/nishiyodogawa/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.5294444,34.74111111]},"properties":{"Name":"大阪市 東淀川区","Jusho":"https://www.city.osaka.lg.jp/higashiyodogawa/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.5411111,34.67]},"properties":{"Name":"大阪市 東成区","Jusho":"https://www.city.osaka.lg.jp/higashinari/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.5344444,34.65361111]},"properties":{"Name":"大阪市 生野区","Jusho":"https://www.city.osaka.lg.jp/ikuno/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.5441667,34.72138889]},"properties":{"Name":"大阪市 旭区","Jusho":"https://www.city.osaka.lg.jp/asahi/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.5461111,34.70194444]},"properties":{"Name":"大阪市 城東区","Jusho":"https://www.city.osaka.lg.jp/joto/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.5186111,34.63861111]},"properties":{"Name":"大阪市 阿倍野区","Jusho":"https://www.city.osaka.lg.jp/abeno/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.5005556,34.60361111]},"properties":{"Name":"大阪市 住吉区","Jusho":"https://www.city.osaka.lg.jp/sumiyoshi/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.5269444,34.62194444]},"properties":{"Name":"大阪市 東住吉区","Jusho":"https://www.city.osaka.lg.jp/higashisumiyoshi/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.4944444,34.635]},"properties":{"Name":"大阪市 西成区","Jusho":"https://www.city.osaka.lg.jp/nishinari/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.4866667,34.72111111]},"properties":{"Name":"大阪市 淀川区","Jusho":"https://www.city.osaka.lg.jp/yodogawa/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.5741667,34.70444444]},"properties":{"Name":"大阪市 鶴見区","Jusho":"https://www.city.osaka.lg.jp/tsurumi/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.4827778,34.60944444]},"properties":{"Name":"大阪市 住之江区","Jusho":"https://www.city.osaka.lg.jp/suminoe/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.5461111,34.62111111]},"properties":{"Name":"大阪市 平野区","Jusho":"https://www.city.osaka.lg.jp/hirano/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.51,34.70555556]},"properties":{"Name":"大阪市 北区","Jusho":"https://www.city.osaka.lg.jp/kita/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.5097222,34.68111111]},"properties":{"Name":"大阪市 中央区","Jusho":"https://www.city.osaka.lg.jp/chuo/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.4830556,34.57333333]},"properties":{"Name":"堺市","Jusho":"https://www.city.sakai.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.4830556,34.57333333]},"properties":{"Name":"堺市 堺区","Jusho":"https://www.city.sakai.lg.jp/sakai/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.4988889,34.52833333]},"properties":{"Name":"堺市 中区","Jusho":"https://www.city.sakai.lg.jp/naka/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.5363889,34.53805556]},"properties":{"Name":"堺市 東区","Jusho":"https://www.city.sakai.lg.jp/higashi/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.4638889,34.535]},"properties":{"Name":"堺市 西区","Jusho":"https://www.city.sakai.lg.jp/nishi/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.4902778,34.48638889]},"properties":{"Name":"堺市 南区","Jusho":"https://www.city.sakai.lg.jp/minami/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.5172222,34.56555556]},"properties":{"Name":"堺市 北区","Jusho":"https://www.city.sakai.lg.jp/kita/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.5608333,34.53861111]},"properties":{"Name":"堺市 美原区","Jusho":"https://www.city.sakai.lg.jp/mihara/index.html"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.3711111,34.46027778]},"properties":{"Name":"岸和田市","Jusho":"https://www.city.kishiwada.osaka.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.47,34.78138889]},"properties":{"Name":"豊中市","Jusho":"https://www.city.toyonaka.osaka.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.4286111,34.82166667]},"properties":{"Name":"池田市","Jusho":"http://www.city.ikeda.osaka.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.5169444,34.75944444]},"properties":{"Name":"吹田市","Jusho":"https://www.city.suita.osaka.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.4102778,34.50444444]},"properties":{"Name":"泉大津市","Jusho":"https://www.city.izumiotsu.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.6172222,34.84611111]},"properties":{"Name":"高槻市","Jusho":"http://www.city.takatsuki.osaka.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.3586111,34.43777778]},"properties":{"Name":"貝塚市","Jusho":"https://www.city.kaizuka.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.5641667,34.7375]},"properties":{"Name":"守口市","Jusho":"http://www.city.moriguchi.osaka.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.6508333,34.81444444]},"properties":{"Name":"枚方市","Jusho":"https://www.city.hirakata.osaka.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.5686111,34.81638889]},"properties":{"Name":"茨木市","Jusho":"https://www.city.ibaraki.osaka.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.6008333,34.62694444]},"properties":{"Name":"八尾市","Jusho":"https://www.city.yao.osaka.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.3275,34.40666667]},"properties":{"Name":"泉佐野市","Jusho":"https://www.city.izumisano.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.5972222,34.49916667]},"properties":{"Name":"富田林市","Jusho":"https://www.city.tondabayashi.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.6280556,34.76611111]},"properties":{"Name":"寝屋川市","Jusho":"https://www.city.neyagawa.osaka.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.5641667,34.45833333]},"properties":{"Name":"河内長野市","Jusho":"https://www.city.kawachinagano.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.5516667,34.57805556]},"properties":{"Name":"松原市","Jusho":"https://www.city.matsubara.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.6233333,34.71194444]},"properties":{"Name":"大東市","Jusho":"http://www.city.daito.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.4236111,34.48361111]},"properties":{"Name":"和泉市","Jusho":"https://www.city.osaka-izumi.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.4705556,34.82694444]},"properties":{"Name":"箕面市","Jusho":"https://www.city.minoh.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.6286111,34.57916667]},"properties":{"Name":"柏原市","Jusho":"http://www.city.kashiwara.osaka.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.6061111,34.55777778]},"properties":{"Name":"羽曳野市","Jusho":"https://www.city.habikino.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.5869444,34.73916667]},"properties":{"Name":"門真市","Jusho":"https://www.city.kadoma.osaka.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.5622222,34.77722222]},"properties":{"Name":"摂津市","Jusho":"https://www.city.settsu.osaka.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.4422222,34.52055556]},"properties":{"Name":"高石市","Jusho":"http://www.city.takaishi.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.5975,34.57472222]},"properties":{"Name":"藤井寺市","Jusho":"https://www.city.fujiidera.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.6008333,34.67944444]},"properties":{"Name":"東大阪市","Jusho":"https://www.city.higashiosaka.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.2736111,34.36583333]},"properties":{"Name":"泉南市","Jusho":"http://www.city.sennan.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.6394444,34.74]},"properties":{"Name":"四條畷市","Jusho":"https://www.city.shijonawate.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.68,34.78805556]},"properties":{"Name":"交野市","Jusho":"https://www.city.katano.osaka.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.5555556,34.50361111]},"properties":{"Name":"大阪狭山市","Jusho":"http://www.city.osakasayama.osaka.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.2397222,34.35944444]},"properties":{"Name":"阪南市","Jusho":"https://www.city.hannan.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.6627778,34.88388889]},"properties":{"Name":"島本町","Jusho":"http://www.shimamotocho.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.4941667,34.91888889]},"properties":{"Name":"豊能町","Jusho":"http://www.town.toyono.osaka.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.4141667,34.9725]},"properties":{"Name":"能勢町","Jusho":"https://www.town.nose.osaka.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.4011111,34.48694444]},"properties":{"Name":"忠岡町","Jusho":"https://www.town.tadaoka.osaka.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.3561111,34.40138889]},"properties":{"Name":"熊取町","Jusho":"https://www.town.kumatori.lg.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.2911111,34.39361111]},"properties":{"Name":"田尻町","Jusho":"http://www.town.tajiri.osaka.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.1422222,34.31694444]},"properties":{"Name":"岬町","Jusho":"https://www.town.misaki.osaka.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.6480556,34.51861111]},"properties":{"Name":"太子町","Jusho":"https://www.town.taishi.osaka.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.6297222,34.49166667]},"properties":{"Name":"河南町","Jusho":"http://www.town.kanan.osaka.jp/"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[135.6225,34.46444444]},"properties":{"Name":"千早赤阪村","Jusho":"https://www.vill.chihayaakasaka.osaka.jp/"}}
+]};
