@@ -2,7 +2,7 @@ var map;var p;var zoom;var hash;var url;var number;var marker; var markers = [];
 var todou = new Array(47);var markers = new Array(47); var ido; var keido;var para; var par;var back_b;var url_hash;
 var qr_code; var qr_url;var url_data;
 
-var lastup = "2020年07月15日";
+var lastup = "2020年08月22日";
 
 	function start(x, y, z){
 		map = L.map('map',{zoomControl: false});
