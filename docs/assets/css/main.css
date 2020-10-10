@@ -3230,6 +3230,7 @@ h3.soku::after {
   left: -3px;
   bottom: 100%;
   padding: 1px 7px;
+  border-radius: 5px 5px 0 0;
   content: "\f06e　開発者の視点";/*タブの文字*/
   letter-spacing: 0.05em;/*字間*/
 }

@@ -28,7 +28,6 @@
 	<link rel="stylesheet" href="assets/css/doseki.css" />
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
     <link rel="shortcut icon" href="images/apple-touch-icon.png">
-
     <link rel="manifest" href="./manifest.json">
     <script>
     if ('serviceWorker' in navigator) {
@@ -2652,7 +2651,7 @@ https://tanganrss.com/rsstxt/regist.php?key=d1d05697abb3c1c54dac73c0b86dde57
 								<div id ="smap"></div>
 								<div id="data_result"></div>
 								<div id = "points_data"></div>
-								
+
 								<hr />
 								<i class="fa fa-book" aria-hidden="true"></i> 以下の資料をもとに仁志が加工・編集して作成しました。<br>
 
@@ -2745,30 +2744,19 @@ https://tanganrss.com/rsstxt/regist.php?key=d1d05697abb3c1c54dac73c0b86dde57
 <script>
 
 $(function() {
-    var topBtn = $('#page_top');
-    topBtn.hide();
+    var topBtn = $('#page_top');topBtn.hide();
 
     $(window).scroll(function () {
-
-        if ($(window).scrollTop() > 500) {
-
-            topBtn.fadeIn();
-
-        } else {
-            topBtn.fadeOut();
+        if ($(window).scrollTop() > 500) {topBtn.fadeIn();} else {topBtn.fadeOut();
         }
     });
 
-    topBtn.click(function () {
-        $('body,html').animate({scrollTop:$("#main").offset().top}, 1000);
-        return false;
-    });
+    topBtn.click(function () {$('body,html').animate({scrollTop:$("#main").offset().top}, 1000);return false;});
 });
 
 </script>
 
 <script type="text/javascript" src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5e75f78d57b08a5c"></script>
-
 
 </body>
 </html>
