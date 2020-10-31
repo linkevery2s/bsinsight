@@ -1554,7 +1554,7 @@ ul.alt li:before {
 			position: relative;
 			width: 40rem;
 			max-width: 100%;
-			background-color: rgba(42 ,71 ,89 , 0.95);
+			background-color: rgba(24, 27, 57, 0.8);
 			border-radius: 4px;
 			opacity: 0;
 		}
