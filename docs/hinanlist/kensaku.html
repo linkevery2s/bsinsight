@@ -36,7 +36,6 @@ function search(){
 function todou(){
 	$(document).ready(function () {
    		$.getJSON("https://linkevery2s.github.io/bsinsight/index.json", function(data){
-   			alert("a");
         	for(var i in data){
         		if(data[i].content.indexOf(kensaku) != -1) {
         		$("#output").append("<li class='link'>"+ data[i].content);
