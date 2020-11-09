@@ -36,9 +36,10 @@ function search(){
 function todou(){
 	$(document).ready(function () {
    		$.getJSON("https://linkevery2s.github.io/bsinsight/index.json", function(data){
+   			alert("a");
         	for(var i in data){
         		if(data[i].content.indexOf(kensaku) != -1) {
-        		$("#output").append("<li class='link'>" + data[i].title + "<br>" + data[i].content + "<br>利用できる災害種別は、<span class='saig'>" + data[i].url + "</span></li>");
+        		$("#output").append("<li class='link'>"+ data[i].content);
         		}
         	}
     	});
