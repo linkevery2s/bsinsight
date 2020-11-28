@@ -1815,4 +1815,5 @@
 ,{"type":"Feature","geometry":{"type":"Point","coordinates":[129.08247472131,32.892703296828]},"properties":{"Name":"浜串生活館","Jusho":"長崎県南松浦郡新上五島町岩瀬浦郷754番地7","kouzui":"×","gake":"×","takashio":"○","jishin":"×","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}}
 ,{"type":"Feature","geometry":{"type":"Point","coordinates":[129.059138,32.843449]},"properties":{"Name":"奈良尾体育館","Jusho":"長崎県南松浦郡新上五島町奈良尾郷711番地7","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"×","kazan":"×"}}
 ,{"type":"Feature","geometry":{"type":"Point","coordinates":[129.06329,32.839915]},"properties":{"Name":"奈良尾総合体育館","Jusho":"長崎県南松浦郡新上五島町奈良尾郷473番地3","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"×","kaji":"×","naisui":"○","kazan":"×"}}
+,{"type":"Feature","geometry":{"type":"Point","coordinates":[129.075839617173,32.8778083078263]},"properties":{"Name":"清和園","Jusho":"長崎県南松浦郡新上五島町岩瀬浦郷596番地3","kouzui":"○","gake":"○","takashio":"○","jishin":"○","tsunami":"○","kaji":"×","naisui":"○","kazan":"×"}}
 ]};
