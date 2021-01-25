@@ -3299,6 +3299,7 @@ dd b{
 
 #result a{
 	color: #99FFCC;
+	text-align: left;
 }
 
 #searchbox input{
