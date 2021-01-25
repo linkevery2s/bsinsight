@@ -15,7 +15,7 @@
 		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline;
-		font-family: "Hiragino Kaku Gothic OriN","Meiryo",sans-serif;
+		font-family: "Meiryo","Hiragino Kaku Gothic OriN",sans-serif;
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -995,9 +995,9 @@ ul.alt li:before {
 		display: inline-block;
 		font-size: 0.8rem;
 		font-weight: 300;
-		height: 2.75rem;
+		height: 3rem;
 		letter-spacing: 0.2rem;
-		line-height: 2.75rem;
+		line-height: 3rem;
 		outline: 0;
 		padding: 0 1.25rem 0 1.35rem;
 		text-align: center;
@@ -1076,7 +1076,7 @@ ul.alt li:before {
 	}
 
 		#col1{
-		background-color: #4169e1;		
+		background-color: #007bbb;
 		}
 		#col1:hover {
 			background-color: rgba(255, 255, 255, 0.075);
@@ -1086,7 +1086,7 @@ ul.alt li:before {
 		}
 
 		#col2{
-		background-color: #00a968;
+		background-color: #007b43;
 		}
 		#col2:hover {
 			background-color: rgba(255, 255, 255, 0.075);
@@ -1096,7 +1096,7 @@ ul.alt li:before {
 		}
 
 		#col3{
-		background-color: #ff6347;
+		background-color: #bb5548;
 		}
 		#col3:hover {
 			background-color: rgba(255, 255, 255, 0.075);
@@ -1554,7 +1554,7 @@ ul.alt li:before {
 			position: relative;
 			width: 40rem;
 			max-width: 100%;
-			background-color: rgba(42 ,71 ,89 , 0.95);
+			background-color: rgba(24, 27, 57, 0.8);
 			border-radius: 4px;
 			opacity: 0;
 		}
@@ -1578,6 +1578,8 @@ ul.alt li:before {
 				text-indent: 4rem;
 				overflow: hidden;
 				white-space: nowrap;
+				z-index: 10;
+				background-color: rgba(24, 27, 57, 0.8);
 			}
 
 				#main article .close:before {
@@ -1597,6 +1599,7 @@ ul.alt li:before {
 					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='20px' height='20px' viewBox='0 0 20 20' zoomAndPan='disable'%3E%3Cstyle%3Eline %7B stroke: %23ffffff%3B stroke-width: 1%3B %7D%3C/style%3E%3Cline x1='2' y1='2' x2='18' y2='18' /%3E%3Cline x1='18' y1='2' x2='2' y2='18' /%3E%3C/svg%3E");
 					background-size: 20px 20px;
 					background-repeat: no-repeat;
+					
 				}
 
 				#main article .close:hover:before {
@@ -1606,7 +1609,7 @@ ul.alt li:before {
 				#main article .close:active:before {
 					background-color: rgba(255, 255, 255, 0.175);
 				}
-
+				
 		@media screen and (max-width: 736px) {
 
 			#main article {
@@ -2471,6 +2474,8 @@ ul.alt li:before {
 				overflow: hidden;
 				white-space: nowrap;
 				border-bottom: none !important;
+				z-index: 10;
+				background-color: rgba(24, 27, 57, 0.8);
 }
 
 .sns a{border-bottom: none !important;}
@@ -2572,7 +2577,7 @@ ul.alt li:before {
 				}
 
 .fa-book{
-	color: #58FA82;
+	color: #ee7800;
 }
 
 .fa-arrow-circle-right{
@@ -2675,7 +2680,7 @@ h2.major::before {
   z-index: 2;
   width: 18px;
   height: 18px;
-  background: #FF4500;
+  background: #F83929;
   opacity: 0.8;
 }
 h2.major::after {
@@ -2683,7 +2688,7 @@ h2.major::after {
   left: .7em;
   width: 13px;
   height: 13px;
-  background: rgba(210, 210, 210, .5);
+  background: rgba(224, 235, 175, .7);
 }
 
 h2.ti{
@@ -2915,7 +2920,7 @@ h2.mochi::after {
   content: '';
   width: 12px;
   height: 12px;
-  background-color: #FFFF00;
+  background-color: #ffec47;
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
 }
@@ -2924,11 +2929,11 @@ h3.point{
 position: relative;
 padding-left: 35px;
 line-height: 1.4;
-background-color: #08088A;
+background-color: #0086CC;
 padding-top: .5em;
 padding-bottom: .5em;
-border-top: 2px solid #F7FE2E;
-border-bottom: 2px solid #F7FE2E;
+border-top: 2px solid #FED300;
+border-bottom: 2px solid #FED300;
 }
 h3.point:before{ font-family: "FontAwesome";
 content: "\f1b3";
@@ -2944,11 +2949,11 @@ h3.cap{
 position: relative;
 padding-left: 35px;
 line-height: 1.4;
-background-color: #08088A;
+background-color: #005baa;
 padding-top: .5em;
 padding-bottom: .5em;
-border-top: 2px solid #FF00FF;
-border-bottom: 2px solid #FF00FF;
+border-top: 2px solid #E86B79;
+border-bottom: 2px solid #E86B79;
 }
 h3.cap:before{ font-family: "FontAwesome";
 content: "\f19d";
@@ -2962,36 +2967,29 @@ color: #fff;
 
 #kokub{
     font-family: HuiFontP109;
-    color: #fff;
-    background-color: #114400;
-    margin: 10px 0 10px 0;
-    padding: 15px;
-    padding-top: 10px;
-    padding-left: 20px;
-    border: 9px solid #a60;
-    border-radius: 3px;
-    box-shadow: 2px 2px 4px #666, 2px 2px 2px #111 inset;
-    text-shadow: 0px 0px 2px #000;
-    line-height: 1.9;
+    background-color: #006e54;
+    border: 2px solid #fff;
+    box-shadow: 0 0 0 2px #006e54;
+    margin: 2em 0;
+    padding-left: 2em;
 }
 
 h2.gaku {
 position: relative;
 color: #ffffff;
 display: inline-block;
-border-bottom: 1px solid #FFFFFF;
+border-bottom: 2px dotted #FFFFFF;
 left: 15px;
 margin-bottom: 20px;
 }
 h2.gaku:before {
 content: "";
 position: absolute;
-background: #0000cd;
+background: #e7609e;
 width: 50px;
 height: 50px;
 border-radius: 50%;
 top: 50%;
-/* border: dashed 1px white; */
 left: -15px;
 -moz-transform: translateY(-50%);
 -webkit-transform: translateY(-50%);
@@ -3016,7 +3014,7 @@ z-index: -1;
 	cursor: pointer;
 	display: inline-block;
 	border-radius: 10%;
-	border: solid 1px #ffffff;
+	/*border: solid 1px #ffffff;*/
 	width: 80px;
 	text-align: center;
 	margin: 0 5px 0 5px;
@@ -3042,8 +3040,24 @@ z-index: -1;
 	background-color: rgba(255, 255, 255, 0.075);
 }
 
-#wi_soku{
-	border: solid 2px #FFFF00;
+#cont1{
+	border: solid 3px #98D98E;
+}
+
+#cont2{
+	border: solid 3px #E2041B;
+}
+
+#cont3{
+	border: solid 3px #FFD900;
+}
+
+#cont4{
+	border: solid 3px #FFFFFF;
+}
+
+#cont5{
+	border: solid 3px #674196;
 }
 
 .wind2{
@@ -3194,7 +3208,7 @@ h3.soku{
 position: relative;
 padding: .5em .5em .1em 1.7em;
 display: inline-block;
-border-bottom: 1px solid #FFFF00;
+border-bottom: 1px solid #ffec47;
 }
 h3.soku::after {
   position: absolute;
@@ -3216,7 +3230,7 @@ h3.soku::after {
   position: relative;
   margin-top: 2em;
   border-radius: 0 10px 10px 10px;
-  background: #FFF;
+  background: #fdeff2;
   color: #000;
 }
 
@@ -3522,3 +3536,95 @@ height: 1000px;
 #kisyou_no a{
 	border: none;
 }
+
+.hal img{
+	width: 50%;
+	border-radius: 50%;
+}
+
+	.last::before{
+		font-family: "FontAwesome";
+		font-weight: bold;
+		content: "\f18c\f18c\f18c";
+		color: #3eb370;
+	}
+	
+/*.alink::after{
+		font-family: "FontAwesome";
+		font-weight: bold;
+		content: " \f24d";
+		border: none;
+}*/
+
+.history_menu{
+  color: #000;
+  background: #FED2AE;
+  box-shadow: 0px 0px 0px 10px #FED2AE;/*線の外側*/
+  border: dashed 2px #B168A8;/*破線*/
+  border-radius: 3px;
+  margin-left: 10px;/*はみ出ないように調整*/
+  margin-right: 10px;/*はみ出ないように調整*/
+  padding: 0.5em 0.5em 0.5em 2em;
+
+}
+
+/* 背景デザイン */
+/*#intro, #search{
+	background: linear-gradient(to right, rgba(24, 27, 57, 0), rgba(24, 27, 57, 0)), url(../../images/back/1.png) repeat-y right 1px top;
+	background-size: 1.2em;
+	z-index: 5;
+}
+
+#manual{
+	background: linear-gradient(to right, rgba(24, 27, 57, 0), rgba(24, 27, 57, 0)), url(../../images/back/2.png) repeat-y right 1px top;
+	background-size: 1.2em;
+	z-index: 5;
+}
+
+#refuge{
+	background: linear-gradient(to right, rgba(24, 27, 57, 0), rgba(24, 27, 57, 0)), url(../../images/back/3.png) repeat-y right 1px top;
+	background-size: 1.2em;
+	z-index: 5;
+}
+
+#manabu{
+	background: linear-gradient(to right, rgba(24, 27, 57, 0), rgba(24, 27, 57, 0)), url(../../images/back/4.png) repeat-y right 1px top;
+	background-size: 1.2em;
+	z-index: 5;
+}
+
+*/
+
+article {
+	background: linear-gradient(to right, rgba(24, 27, 57, 0), rgba(24, 27, 57, 0)), url(../../images/back/5.png) repeat-y right top;
+	background-size: 1.2em;
+	z-index: 5;
+}
+
+/*
+#soutei{
+	background: linear-gradient(to right, rgba(24, 27, 57, 0), rgba(24, 27, 57, 0)), url(../../images/back/6.png) repeat-y right 1px top;
+	background-size: 1.2em;
+	z-index: 5;
+}
+
+#type{
+	background: linear-gradient(to right, rgba(24, 27, 57, 0), rgba(24, 27, 57, 0)), url(../../images/back/7.png) repeat-y right 1px top;
+	background-size: 1.2em;
+	z-index: 5;
+}
+
+#need{
+	background: linear-gradient(to right, rgba(24, 27, 57, 0), rgba(24, 27, 57, 0)), url(../../images/back/8.png) repeat-y right 1px top;
+	background-size: 1.2em;
+	z-index: 5;
+}
+
+#mochidashi{
+	background: linear-gradient(to right, rgba(24, 27, 57, 0), rgba(24, 27, 57, 0)), url(../../images/back/9.png) repeat-y right 1px top;
+	background-size: 1.2em;
+	z-index: 5;
+}
+
+*/
+

@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
 <meta charset="utf-8"/>
-<title>警報・注意報地図</title>
+<title>避難マップ</title>
 <meta name="format-detection" content="telephone=no"/>
 <script src="https://fukuno.jig.jp/fukuno.js"></script>
 <script src="js/jquery.min.js"></script>
@@ -129,8 +129,8 @@ const makeJapanHTML = function() {
 var prefmap = Array(47);
 
 function map_dis(x){
-	prefmap = [0, "1", "2/5", "2/6", "2/7", "2/8", "2/9", "2/10", "3/11", "3/12", "3/13", "3/14", "3/15", "3/16", "3/17", "4/18", "4/19", "4/20", "4/21", "3/22", "3/23", "5/24", "5/25", "5/26", "5/27", "6/28", "6/29", "6/30", "6/31", "6/32", "6/33", "7/34", "7/35", "7/36", "7/37", "7/38", "8/39", "8/40", "8/41", "8/42", "9/43", "9/44", "9/45", "9/46", "9/47", "9/48", "9/49", "9/49" ];
-	open( 'https://tenki.jp/forecast/' + prefmap[x] , "_blank" ) ;
+	prefmap = [0, "hokkaido", "aomori", "iwate", "miyagi", "akita", "yamagata", "fukushima", "ibaraki", "tochigi", "gunma", "saitama", "tiba", "tokyo", "kanagawa", "nigata", "toyama", "ishikawa", "fukui", "yamanashi", "nagano", "gifu", "shizuoka", "aichi", "mie", "shiga", "kyoto", "osaka", "hyogo", "nara", "wakayama", "tottori", "shimane", "okayama", "hiroshima", "yamaguchi", "tokushima", "kagawa", "ehime", "kochi", "fukuoka", "saga", "nagasaki", "kumamoto", "oita", "miyazaki", "kagoshima", "okinawa" ];
+	open( prefmap[x] + ".html" , "_blank" ) ;
 
 
 

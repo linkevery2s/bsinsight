@@ -180,3 +180,60 @@ function ty(){
 	else{
 	}
 }
+
+function kozui_tsunamimap_select(){
+
+	if(document.getElementById("demo-category2").value == "1"){
+		default_kozui_tsunamimap();
+	}
+	else if(document.getElementById("demo-category2").value == "2"){
+		document.getElementById("kozui_tsunamimap").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="bousai/kaoku_hanran.html"></iframe>';
+	}
+	else if(document.getElementById("demo-category2").value == "3"){
+		document.getElementById("kozui_tsunamimap").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="bousai/kaoku_kawagan.html"></iframe>';
+	}
+	else if(document.getElementById("demo-category2").value == "4"){
+		document.getElementById("kozui_tsunamimap").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="bousai/tunamimap.html"></iframe>';
+	}
+	else{}
+
+}
+
+
+function dosekimap_select(){
+
+	if(document.getElementById("demo-category3").value == "1"){
+		default_dosya_map();
+	}
+	else if(document.getElementById("demo-category3").value == "2"){
+		document.getElementById("dosya_map").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="bousai/keisyamap.html"></iframe>';
+	}
+	else if(document.getElementById("demo-category3").value == "3"){
+		document.getElementById("dosya_map").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="bousai/jisuberimap.html"></iframe>';
+	}
+	else if(document.getElementById("demo-category3").value == "4"){
+		document.getElementById("dosya_map").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="bousai/kiken_keiryu.html"></iframe>';
+	}
+	else if(document.getElementById("demo-category3").value == "5"){
+		document.getElementById("dosya_map").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="bousai/kiken_keisya.html"></iframe>';
+	}
+	else if(document.getElementById("demo-category3").value == "6"){
+		document.getElementById("dosya_map").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="bousai/kiken_jisuberi.html"></iframe>';
+	}
+	else if(document.getElementById("demo-category3").value == "7"){
+		document.getElementById("dosya_map").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="bousai/kiken_nadare.html"></iframe>';
+	}
+	else{}
+}
+
+function default_kozui_tsunamimap(){
+	
+	document.getElementById("kozui_tsunamimap").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="bousai/shinsuikeizokumap.html"></iframe>';
+	
+}
+
+function default_dosya_map(){
+	
+	document.getElementById("dosya_map").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="bousai/dosekimap.html"></iframe>';
+	
+}
