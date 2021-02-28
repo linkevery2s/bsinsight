@@ -1813,15 +1813,13 @@
 						<br><br>
 						<h3 class="point">気象庁</h3>
 							<ul class="actions">
-								<li><span class="button" target="_blank" onclick="rader_now()"><i class="fa fa-arrow-circle-up"></i> 更新</span></li>
+								<li><a href="https://www.jma.go.jp/bosai/nowc/#zoom:5/lat:35.012002/lon:135.000000/colordepth:normal/elements:hrpns" target="_blank" class="button"><i class="fa fa-cloud"></i> 気象庁ナウキャスト</a></li>
 							</ul>
-						<span id ="kisyou_no"><div id = "rader_now2"></div></span>
-						<p>※気象庁の更新に合わせて、画像を取得していますので、時々、通信に失敗する場合があります。少し時間をおいて、更新ボタンより、情報を更新すると画像が表示されると思います。</p>
+
 						<h3 class="point">台風情報</h3>
-						<span id="kisyou_no">
-						下の画像をタップすると、気象庁のウェブサイトに遷移します。<br>
-						<a href="https://www.jma.go.jp/jp/typh/" target="_blank"><img src="https://www.jma.go.jp/jp/typh/images/wide/all-00.png" width="100%" alt="台風情報" onerror="this.src='https://www.jma.go.jp/jp/typh/img/no-typhoon.png'"/></a>
-						</span>
+							<ul class="actions">
+								<li><a href="https://www.jma.go.jp/bosai/map.html#5/34.5/137/&elem=root&typhoon=all&contents=typhoon" target="_blank" class="button"><i class="fa fa-cloud"></i> 台風情報</a></li>
+							</ul>
 
 					<hr />
 					<h2 class="ti">天気予報</h2>
@@ -1836,8 +1834,10 @@
 
 					<hr />
 					<h2 class="ti">警報・注意報</h2>
-					<p>都道府県を選択すると、警報・注意報が表示されます。さらに、画像をクリックすると、気象庁のウェブサイトに遷移します。</p>
-					<iframe src="japan.html" id = "kisyou"></iframe>
+					
+							<ul class="actions">
+								<li><a href="https://www.jma.go.jp/bosai/map.html#5/34.5/137/&elem=all&contents=warning" target="_blank" class="button"><i class="fa fa-info-circle"></i> 警報・注意報</a></li>
+							</ul>
 									<p>「気象警報・注意報発表状況」（<a href="https://www.jma.go.jp/jma/index.html" class="alink" target="_blank">気象庁ウェブサイト</a>より）</p>
 									<div class="box2">
 									<table><tr><td>
