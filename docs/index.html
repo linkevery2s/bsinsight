@@ -23,6 +23,7 @@
 
 	<link rel="stylesheet" href="assets/css/font-awesome.min.css" />
 	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="assets/css/add.css" />
 	<link rel="stylesheet" href="assets/css/maplist.css" />
 	<link rel="stylesheet" href="assets/css/refuge.css" />
 	<link rel="stylesheet" href="assets/css/doseki.css" />
@@ -2535,7 +2536,7 @@ https://tanganrss.com/rsstxt/regist.php?key=d1d05697abb3c1c54dac73c0b86dde57
 									
 									<h3 class = "soku">キーワード検索</h3>
 										<blockquote>
-										トップ画面の下部には、キーワード検索があります。災害について、知りたい内容を入力することで、アプリ内の検索ができます。
+										トップ画面には、検索ボタンがあります。防災について、知りたい内容を入力することで、アプリ内の検索ができます。
 										
 										</blockquote>
 
@@ -2547,20 +2548,16 @@ https://tanganrss.com/rsstxt/regist.php?key=d1d05697abb3c1c54dac73c0b86dde57
 								<ul class="icons">
 								<span class = "wordkensaku">
 									<form name="form1" id="form1" action="">
-								<input type="text" name="text1" id="q" onkeyup="do_find(this.value);" onkeydown="key(event.keyCode);" onkeypress="enter();" autocomplete="off" placeholder="キーワード検索">
-									<span class="exp" onclick="search_exp();"><i class="icon fa-search fa-1x"></i></span>
+								<input type="text" name="text1" id="text" autocomplete="off" placeholder="キーワード検索">
+									<span class="exp" onclick="search2();"><i class="icon fa-search fa-1x"></i></span>
 								</span>
 							</ul>
-								
-								<div id="searchbox">
-								<span id="stat"></span>
-								<center><div id="navi"></div></center>
-								<div id="result"></div>
-								<script src ='https://linkevery2s.github.io/bsinsight/index.json' charset="utf-8"></script>
+
+	<ul id ="output"></ul>
+
 
 								<hr class="last" />
-								<i class="fa fa-book" aria-hidden="true"></i> 本機能搭載にあたりまして、以下の出典を参照しました。<br>
-								・<a href="https://rs.luminousspice.com/hugo-site-search/" class="alink" target="_blank">Hugo に全文検索を取り付けた</a>、the Right Stuff
+
 							</article>
 
 							<article id ="sokuho">
@@ -2645,8 +2642,7 @@ https://tanganrss.com/rsstxt/regist.php?key=d1d05697abb3c1c54dac73c0b86dde57
 <script type="text/javascript" src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
 <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 
-<script type="text/javascript" src="assets/js/search1.js"></script>
-<script type="text/javascript" src="assets/js/search2.js"></script>
+<script type="text/javascript" src="assets/js/search.js"></script>
 <script type="text/javascript" src="assets/js/sinsui.js"></script>
 <script type="text/javascript" src="assets/js/hinanlist.js"></script>
 <script type="text/javascript" src="assets/js/rader.js"></script>

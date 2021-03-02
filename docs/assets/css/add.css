@@ -1,0 +1,32 @@
+.lin{
+	list-style: none;
+	border-width: 1px 0 0 0;
+	padding: 5px;
+	display: block;
+}
+
+.lin:last-child{
+	/*最後のリンクに下線を付ける*/
+	border-bottom-width: 2px;
+}
+
+#output{
+	display: none;
+	margin-top: 10px;
+	height: 350px;
+	overflow-y: scroll;
+}
+
+#iro{
+	color: #ff0000;
+}
+
+.setu{
+	margin-top: 5px;
+	padding-left: 20px;
+}
+
+.lin a{
+	color: #99FFCC;
+	font-weight: bold;
+}
