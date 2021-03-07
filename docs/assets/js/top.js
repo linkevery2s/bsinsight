@@ -193,6 +193,9 @@ function kozui_tsunamimap_select(){
 		document.getElementById("kozui_tsunamimap").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="bousai/kaoku_kawagan.html"></iframe>';
 	}
 	else if(document.getElementById("demo-category2").value == "4"){
+		document.getElementById("kozui_tsunamimap").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="bousai/takashiomap.html"></iframe>';
+	}
+	else if(document.getElementById("demo-category2").value == "5"){
 		document.getElementById("kozui_tsunamimap").innerHTML = '<iframe width="100%" height="500" scrolling="no" frameborder="no" src="bousai/tunamimap.html"></iframe>';
 	}
 	else{}
