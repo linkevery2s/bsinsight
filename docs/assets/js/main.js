@@ -649,7 +649,7 @@ function ktsearch(){
 
 		}
 		else{
-		document.getElementById('data_result').innerHTML = "速報はありません。" ;
+		document.getElementById('data_result').innerHTML = "調査中です。" ;
 		document.getElementById('points_data').innerHTML = "";
 		exit;
 		}
