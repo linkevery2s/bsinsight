@@ -21,7 +21,7 @@ if(num > limit){
 return false;
 }
     var div_element = document.createElement("div");
-    div_element.innerHTML = '<textarea name="contents" rows="2" style="border:0; width:100%; font-size: 120%;">・</textarea><br>';
+    div_element.innerHTML = '<textarea name="contents" rows="2" style="border:0; width:100%; font-size: 120%;">・持っていくものを記入</textarea><br>';
     var parent_object = document.getElementById("piyo");
     parent_object.appendChild(div_element);
 }
@@ -64,7 +64,7 @@ return false;
 
 	<div id="targetImgDiv2" style="width: 500px; cursor: move;padding: 10px;">
 	気づいたこと・危険個所<br>
-	<textarea style="border:0; width: 100%; height: 50px;" name="bikou"></textarea>
+	<textarea style="border:0; width: 100%; height: 50px;" name="bikou">気づいたことを記入する</textarea>
 	</div>
 
 	<div id="piyo" class="targetImgDiv3" style="width: 500px; cursor: move;">
