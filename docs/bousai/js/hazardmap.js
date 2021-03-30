@@ -84,25 +84,7 @@ var map = L.map('map_canvas', {center: [37.619, 138.466], zoom: 5,layers: [tiri,
 
 }
 
-/* 高潮浸水想定区域 */
-
-function takashio_ini(){
-
-var tiri = L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
-		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
-	});
-
-var test = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/03_hightide_l2_shinsuishin_data/{z}/{x}/{y}.png', {
-    opacity: 0.8
-    });
-
-//地図を生成（初期表示の中心座標，ズームレベル，レイヤなどをオプションで設定）
-var map = L.map('map_canvas', {center: [37.619, 138.466], zoom: 5,layers: [tiri, test]});
-
-}
-
-
-/* 津波浸水想定 */
+/* 津波想定区域 */
 
 function tunami_ini(){
 
