@@ -2,8 +2,6 @@
 
 function init() {
 
-alert('aaa');
-
     // リサイズ適用
     $("#targetImgDiv1").resizable();
 
