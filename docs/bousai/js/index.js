@@ -8,18 +8,27 @@ function init() {
     // 移動適用
 $('#targetImgDiv1').draggable();
 
+}
+
+function notice(){
+
 // リサイズ適用
     $("#targetImgDiv2").resizable();
  
     // 移動適用
     $('#targetImgDiv2').draggable();
 
-    $("#targetImgDiv3").resizable();
+}
+
+function notice2(){
+
+    $(".targetImgDiv3").resizable();
  
     // 移動適用
-    $('#targetImgDiv3').draggable();
+    $('.targetImgDiv3').draggable();
 
 }
+
  
 
 function kaijo(){
@@ -29,5 +38,14 @@ function kaijo(){
  
     // 移動適用
     $('#targetImgDiv2').draggable('disable');
+
+}
+
+function kaijo2(){
+
+    $(".targetImgDiv3").resizable('disable');
+ 
+    // 移動適用
+    $('.targetImgDiv3').draggable('disable');
 
 }
