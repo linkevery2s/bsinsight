@@ -1,6 +1,9 @@
 
 
 function init() {
+
+alert('aaa');
+
     // リサイズ適用
     $("#targetImgDiv1").resizable();
 
@@ -17,8 +20,6 @@ $('#targetImgDiv1').draggable();
  
     // 移動適用
     $('#targetImgDiv3').draggable();
-
-alert('aaa');
 
 }
  
