@@ -54,7 +54,6 @@ return false;
 	<h1><textarea style="font-size:0.8em; border:0; width: 90%;" name="title" rows="1">タイトルを入力</textarea></h1>
 	<div class="comment">
 	<button type="button" onclick="print(); return false;"><i class="fa fa-print" aria-hidden="true"></i>  印　刷</button>
-		<button onclick="add();" class="text_button"><i class="fa fa-list-ul" aria-hidden="true"></i>  リスト追加</button>
 	</div>
 	
 	<div id="targetImgDiv1" style="width: 500px; height: 500px; cursor: move;">
@@ -68,9 +67,7 @@ return false;
 	</div>
 
 	<div id="piyo" class="targetImgDiv3" style="width: 500px; cursor: move;">
-	非常時持ち出しリスト
-	</div>
-
+	非常時持ち出しリスト <button onclick="add();" class="text_button"><i class="fa fa-list-ul" aria-hidden="true"></i>  リスト追加</button>
 	</div>
 
 	<script src="js/index.js"></script>
