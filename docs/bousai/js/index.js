@@ -18,6 +18,8 @@ $('#targetImgDiv1').draggable();
     // 移動適用
     $('#targetImgDiv3').draggable();
 
+alert('aaa');
+
 }
  
 
