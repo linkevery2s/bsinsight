@@ -46,13 +46,32 @@ return false;
   display:none;
 }
 
+input[type="submit"],
+input[type="button"] {
+  border-radius: 10%;
+  -webkit-box-sizing: content-box;
+  -webkit-appearance: button;
+  appearance: button;
+  border: none;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+input[type="submit"]::-webkit-search-decoration,
+input[type="button"]::-webkit-search-decoration {
+  display: none;
+}
+input[type="submit"]::focus,
+input[type="button"]::focus {
+  outline-offset: -2px;
+}
+
 	</style>
 	</head>
   <body onload="map_ini()">
-	<span style="float: right;" class="text_button"><button type="button" onclick="location.href = '../index.html#guide'">戻　る</button></span>
+	<span style="float: right;" class="text_button"><input type="button" value ="戻　る" onclick="location.href = '../index.html#guide'"></span>
 	<h1><textarea style="font-size:0.8em; border:0; width: 90%;" name="title" rows="1">タイトルを入力</textarea></h1>
 	<div class="comment">
-	<button type="button" onclick="print(); return false;"><i class="fa fa-print" aria-hidden="true"></i>  印　刷</button> <button onclick="notice();" class="text_button">移動・サイズ変更</button> <button onclick="kaijo();" class="text_button">移動・サイズ変更解除</button>
+	<input type="button" value ="移動・サイズ変更" onclick="print(); return false;"><i class="fa fa-print" aria-hidden="true"></i><button onclick="notice();" class="text_button"> <input type="button" value ="移動・サイズ変更解除" onclick="kaijo();" class="text_button">
 
 	</div>
 	
