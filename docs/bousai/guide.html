@@ -52,7 +52,7 @@ return false;
 	<span style="float: right;" class="text_button"><button type="button" onclick="location.href = '../index.html#guide'">戻　る</button></span>
 	<h1><textarea style="font-size:0.8em; border:0; width: 90%;" name="title" rows="1">タイトルを入力</textarea></h1>
 	<div class="comment">
-	<button type="button" onclick="print(); return false;"><i class="fa fa-print" aria-hidden="true"></i>  印　刷</button>
+	<button type="button" onclick="print(); return false;"><i class="fa fa-print" aria-hidden="true"></i>  印　刷</button> <button onclick="notice();" class="text_button">移動・サイズ変更</button> <button onclick="kaijo();" class="text_button">移動・サイズ変更解除</button>
 
 	</div>
 	
@@ -62,12 +62,12 @@ return false;
 	</div>
 
 	<div id="targetImgDiv2" style="width: 500px; cursor: move;padding: 10px;">
-	気づいたこと・危険個所 <button onclick="notice();" class="text_button">移動・サイズ変更</button> <button onclick="kaijo();" class="text_button">移動・サイズ変更解除</button> <br>
+	気づいたこと・危険個所<br>
 	<textarea style="border:0; width: 100%; height: 50px;" name="title">気づいたことを記入する</textarea>
 	</div>
 
 	<div id="piyo" class="targetImgDiv3" style="width: 500px; cursor: move;">
-	非常時持ち出しリスト <button onclick="add();" class="text_button"><i class="fa fa-list-ul" aria-hidden="true"></i>  リスト追加</button> <button onclick="notice2();" class="text_button">移動・サイズ変更</button> <button onclick="kaijo2();" class="text_button">移動・サイズ変更解除</button>
+	非常時持ち出しリスト <button onclick="add();" class="text_button"><i class="fa fa-list-ul" aria-hidden="true"></i>  リスト追加</button>
 	</div>
 
 	<script src="js/index.js"></script>
