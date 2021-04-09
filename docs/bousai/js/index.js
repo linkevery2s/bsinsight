@@ -30,3 +30,14 @@ function notice2(){
     $('#targetImgDiv3').draggable();
 
 }
+
+
+function kaijo(){
+
+    // リサイズ適用
+    $("#targetImgDiv2").resizable('disable');
+ 
+    // 移動適用
+    $('#targetImgDiv2').draggable('disable');
+
+}
