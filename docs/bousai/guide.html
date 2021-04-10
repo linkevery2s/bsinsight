@@ -65,13 +65,17 @@ input[type="button"]::focus {
   outline-offset: -2px;
 }
 
+#button2{
+	display: none;
+}
+
 	</style>
 	</head>
-  <body onload="map_ini()">
-	<span style="float: right;" class="text_button"><input type="button" value ="戻　る" onclick="location.href = '../index.html#guide'"></span>
+  <body onload="ini()">
+	<span style="float: right;" class="text_button"><input type="button" value ="印　刷" onclick="print(); return false;"> <input type="button" value ="戻　る" onclick="location.href = '../index.html#guide'"></span>
 	<h1><textarea style="font-size:0.8em; border:0; width: 90%;" name="title" rows="1">タイトルを入力</textarea></h1>
 	<div class="comment">
-	<input type="button" value ="印　刷" onclick="print(); return false;"><input type="button" value ="移動・サイズ変更" onclick="notice();" class="text_button"> <input type="button" value ="移動・サイズ変更解除" onclick="kaijo();" class="text_button">
+	<input type="button" id ="button1" value ="移動・サイズ変更" onclick="notice();" class="text_button"><input type="button" id="button2" value ="移動・サイズ変更解除" onclick="kaijo();" class="text_button">
 
 	</div>
 	

@@ -1,3 +1,7 @@
+function ini(){
+document.getElementById("button2").style.display = "none";
+}
+
 
 function notice(){
 
@@ -35,7 +39,8 @@ $('#targetImgDiv1').draggable('enable');
     // 移動適用
     $('.targetImgDiv3').draggable('enable');
 
-
+document.getElementById("button1").style.display = "none";
+document.getElementById("button2").style.display = "block";
 
 }
 
@@ -60,5 +65,8 @@ $('#targetImgDiv1').draggable('disable');
  
     // 移動適用
     $('.targetImgDiv3').draggable('disable');
+
+document.getElementById("button1").style.display = "block";
+document.getElementById("button2").style.display = "none";
 
 }
