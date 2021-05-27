@@ -3053,10 +3053,14 @@ z-index: -1;
 }
 
 #cont4{
-	border: solid 3px #FFFFFF;
+	border: solid 3px #d3381c;
 }
 
 #cont5{
+	border: solid 3px #2ca9e1;
+}
+
+#cont6{
 	border: solid 3px #674196;
 }
 
