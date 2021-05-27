@@ -6,9 +6,9 @@ var lastup = "2021年05月03日";
 
 	function start(x, y, z){
 		map = L.map('map',{zoomControl: false});
-		L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  		attribution: '&copy; <a href="http://osm.org/copyright" target="_blank">OpenStreetMap</a> contributors<br>最終更新日：' + lastup
-  		}).addTo(map);
+		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
+		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a><br>最終更新日：' + lastup
+	}).addTo(map);
 		hash = new L.Hash(map);
 		L.control.zoom({position: 'topright'}).addTo(map);
 		gps_button = L.easyButton('fa-location-arrow', function(){ GPS();}, {position: 'topright'}).addTo( map );
