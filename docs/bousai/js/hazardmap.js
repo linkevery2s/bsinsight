@@ -7,12 +7,34 @@ var tiri = L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/{z}/{
 		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
 	});
 
-var test = new L.tileLayer('https://tile.geospatial.jp/nankaitrough/sindobunpu/{z}/{x}/{y}.png', {
-    opacity: 1
+var tiri2 = L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
+		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>'
+	});
+
+//var baseMaps = {"全表示": tiri, "震度７": tiri2};
+
+var test1 = new L.tileLayer('https://tile.geospatial.jp/nankaitrough/sindobunpu/{z}/{x}/{y}.png', {
+    opacity: 0.8
     });
 
+var test2 = new L.tileLayer('https://tile.geospatial.jp/nankaitrough/sindobunpu/{z}/{x}/{y}.png', {
+    opacity: 0.8
+    });
+
+var layer1 = L.layerGroup([tiri, test1]);
+
+var layer2 = L.layerGroup([tiri2, test2]);
+
+var baseMaps = {"衛星写真": layer1, "淡色地図": layer2};
+
 //地図を生成（初期表示の中心座標，ズームレベル，レイヤなどをオプションで設定）
-var map = L.map('map_canvas', {center: [34.791, 135.893], zoom: 5,layers: [tiri, test]});
+var map = L.map('map_canvas', {center: [34.791, 135.893], zoom: 8, layers: layer1 });
+
+
+
+L.control.layers(baseMaps).addTo(map);
+
+
 
 }
 
