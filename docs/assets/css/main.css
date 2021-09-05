@@ -2460,7 +2460,7 @@ ul.alt li:before {
 #ke .close{display:none !important;}
 #ke_s .close{display:none !important;}
 
-#type .close, #where .close, #need .close, #guide .close, #tokei .close, #mochidashi .close, #anpi .close, #lisai .close, #help .close, #bsword .close, #mochidashi .close, #calender .close, #nextb .close, #bsword_w .close, #ssar .close, #help .close, #medical .close, #kt .close{display:none !important;}
+#type .close, #where .close, #need .close, #guide .close, #tokei .close, #mochidashi .close, #anpi .close, #lisai .close, #help .close, #bsword .close, #mochidashi .close, #calender .close, #nextb .close, #bsword_w .close, #ssar .close, #help .close, #medical .close, #kt .close, #dam .close{display:none !important;}
 
 .link{
 				display: block;
