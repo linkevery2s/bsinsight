@@ -115,7 +115,7 @@ var tiri = L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.pn
 	});
 
 var test = new L.tileLayer('https://disaportaldata.gsi.go.jp/raster/04_tsunami_newlegend_data/{z}/{x}/{y}.png', {
-    opacity: 0.8
+    opacity: 0.9
     });
 
 //地図を生成（初期表示の中心座標，ズームレベル，レイヤなどをオプションで設定）
