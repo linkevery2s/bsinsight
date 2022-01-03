@@ -2,7 +2,7 @@ var map;var p;var zoom;var hash;var url;var number;var marker; var markers = [];
 var todou = new Array(47);var markers = new Array(47); var ido; var keido;var para; var par;var back_b;var url_hash;
 var qr_code; var qr_url;var url_data;
 
-var lastup = "2021年10月20日";
+var lastup = "2022年01月03日";
 
 	function start(x, y, z){
 		map = L.map('map',{zoomControl: false});
@@ -16,7 +16,7 @@ var lastup = "2021年10月20日";
 		qr_code = L.easyButton('fa-qrcode', function(){qr();}, {position: 'topright'}).addTo(map);
 		url_hash = location.hash;
 		if(url_hash === ""){map.setView([x, y], z);}
-		
+
 	}
 
 function map_ini2() {
@@ -376,7 +376,7 @@ function GPS(){
 	if (navigator.geolocation) {
        navigator.geolocation.getCurrentPosition(gps_get,gps_error);
      } else {
-       alert("エラーが発生したので、現在地を取得できませんでした。");      
+       alert("エラーが発生したので、現在地を取得できませんでした。");
      }
 }
 
@@ -435,7 +435,7 @@ function geo_k(feature, layer) {
     if (feature.properties && feature.properties.Name) {
         popup = "名称：" + feature.properties.Name;
     }
-    
+
     if (feature.properties && feature.properties.Jusho){
     	popup += '<br>住所：' + feature.properties.Jusho;
     }
@@ -471,7 +471,7 @@ function geo_k(feature, layer) {
     if (feature.properties && feature.properties.kazan){
     	popup += '　火山：<span id = "pop_moji">' + feature.properties.kazan + '</span>';
     }
-		
+
     layer.bindPopup(popup);
 }
 
@@ -480,7 +480,7 @@ function geo_url(feature, layer) {
     if (feature.properties && feature.properties.Name) {
         popup = feature.properties.Name;
     }
-    
+
     if (feature.properties && feature.properties.Jusho){
     	popup += '<br><a href="' + feature.properties.Jusho + '" target="_blank">ウェブサイト</a>' ;
     }
@@ -563,11 +563,11 @@ function geo_m(feature, layer) {
     if (feature.properties && feature.properties.Name) {
         popup = "名称：" + feature.properties.Name;
     }
-    
+
     if (feature.properties && feature.properties.Jusho){
     	popup += '<br>住所：' + feature.properties.Jusho;
     }
-    
+
     if (feature.properties && feature.properties.kouzui){
     	popup += '<br>洪水：<span id = "pop_moji">' + feature.properties.kouzui + '</span>';
     }
@@ -613,11 +613,11 @@ function qr(){
 
 	jQuery('#qrcode').qrcode({
 		text: qr_url
-	});	
-	
+	});
+
 	$("#fulloverlay").slideToggle(500);
 	$("#qr_c").slideToggle(500);
-	
+
 }
 
 var a = 0; var way1; var way2;
@@ -639,7 +639,7 @@ way1 = L.Routing.control({
 way1.onAdd(map);
 
  a = 1;
- 
+
  way2.onRemove(map);
 
 }
