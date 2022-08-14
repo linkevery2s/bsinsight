@@ -537,7 +537,7 @@
 		color: rgba(255, 255, 255, 0.8) !important;
 		opacity: 1.0;
 	}
-	
+
 	:-moz-placeholder {
 		color: rgba(255, 255, 255, 0.8) !important;
 		opacity: 1.0;
@@ -614,7 +614,6 @@
 			-webkit-pointer-events: none;
 			-ms-pointer-events: none;
 			pointer-events: none;
-			background-image: url("../../images/overlay.png");
 			background-color: rgba(19, 21, 25, 0.5);
 			border-radius: 4px;
 			content: '';
@@ -765,7 +764,7 @@ ul.alt li:before {
 					text-align: center;
 					width: 3rem;
 				}
-				
+
 				ul#icons_manual li a{
 					background-color: #009900;
 				}
@@ -777,7 +776,7 @@ ul.alt li:before {
 				ul#icons_manual li a:active{
 					background-color: rgba(255, 255, 255, 0.175);
 				}
-				
+
 					ul.icons li a:hover {
 						background-color: rgba(255, 255, 255, 0.075);
 					}
@@ -1359,7 +1358,7 @@ ul.alt li:before {
 				padding-left: 0;
 				border-left: solid 1px #ffffff;
 			}
-			
+
 				#header nav ul li:first-child {
 					border-left: 0;
 				}
@@ -1599,7 +1598,7 @@ ul.alt li:before {
 					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='20px' height='20px' viewBox='0 0 20 20' zoomAndPan='disable'%3E%3Cstyle%3Eline %7B stroke: %23ffffff%3B stroke-width: 1%3B %7D%3C/style%3E%3Cline x1='2' y1='2' x2='18' y2='18' /%3E%3Cline x1='18' y1='2' x2='2' y2='18' /%3E%3C/svg%3E");
 					background-size: 20px 20px;
 					background-repeat: no-repeat;
-					
+
 				}
 
 				#main article .close:hover:before {
@@ -1609,7 +1608,7 @@ ul.alt li:before {
 				#main article .close:active:before {
 					background-color: rgba(255, 255, 255, 0.175);
 				}
-				
+
 		@media screen and (max-width: 736px) {
 
 			#main article {
@@ -1683,7 +1682,7 @@ ul.alt li:before {
         background:black;
         color: #00FF00;
         font-family:courier;
-    }    
+    }
     blink1{
         display:inline;
 
@@ -1698,7 +1697,7 @@ ul.alt li:before {
         background:black;
         color: #00FF00;
         font-family:courier;
-    }    
+    }
     blink2{
         display:inline;
 
@@ -1713,7 +1712,7 @@ ul.alt li:before {
         background:black;
         color: #00FF00;
         font-family:courier;
-    }    
+    }
     blink3{
         display:inline;
 
@@ -1728,7 +1727,7 @@ ul.alt li:before {
         background:black;
         color: #00FF00;
         font-family:courier;
-    }    
+    }
     blink4{
         display:inline;
 
@@ -1743,7 +1742,7 @@ ul.alt li:before {
         background:black;
         color: #00FF00;
         font-family:courier;
-    }    
+    }
     blink5{
         display:inline;
 
@@ -1758,7 +1757,7 @@ ul.alt li:before {
         background:black;
         color: #00FF00;
         font-family:courier;
-    }    
+    }
     blink6{
         display:inline;
 
@@ -1773,7 +1772,7 @@ ul.alt li:before {
         background:black;
         color: #00FF00;
         font-family:courier;
-    }    
+    }
     blink7{
         display:inline;
 
@@ -1788,7 +1787,7 @@ ul.alt li:before {
         background:black;
         color: #00FF00;
         font-family:courier;
-    }    
+    }
     blink8{
         display:inline;
 
@@ -1803,7 +1802,7 @@ ul.alt li:before {
         background:black;
         color: #00FF00;
         font-family:courier;
-    }    
+    }
     blink9{
         display:inline;
 
@@ -1818,7 +1817,7 @@ ul.alt li:before {
         background:black;
         color: #00FF00;
         font-family:courier;
-    }    
+    }
     blink10{
         display:inline;
 
@@ -1833,7 +1832,7 @@ ul.alt li:before {
         background:black;
         color: #00FF00;
         font-family:courier;
-    }    
+    }
     blink11{
         display:inline;
 
@@ -1848,7 +1847,7 @@ ul.alt li:before {
         background:black;
         color: #00FF00;
         font-family:courier;
-    }    
+    }
     blink12{
         display:inline;
 
@@ -1863,7 +1862,7 @@ ul.alt li:before {
         background:black;
         color: #00FF00;
         font-family:courier;
-    }    
+    }
     blink13{
         display:inline;
 
@@ -1878,7 +1877,7 @@ ul.alt li:before {
         background:black;
         color: #00FF00;
         font-family:courier;
-    }    
+    }
     blink14{
         display:inline;
 
@@ -1893,7 +1892,7 @@ ul.alt li:before {
         background:black;
         color: #00FF00;
         font-family:courier;
-    }    
+    }
     blink15{
         display:inline;
 
@@ -1908,7 +1907,7 @@ ul.alt li:before {
         background:black;
         color: #00FF00;
         font-family:courier;
-    }    
+    }
     blink16{
         display:inline;
 
@@ -1923,7 +1922,7 @@ ul.alt li:before {
         background:black;
         color: #00FF00;
         font-family:courier;
-    }    
+    }
     blink17{
         display:inline;
 
@@ -1938,7 +1937,7 @@ ul.alt li:before {
         background:black;
         color: #00FF00;
         font-family:courier;
-    }    
+    }
     blink18{
         display:inline;
 
@@ -1953,7 +1952,7 @@ ul.alt li:before {
         background:black;
         color: #00FF00;
         font-family:courier;
-    }    
+    }
     blink19{
         display:inline;
 
@@ -1968,7 +1967,7 @@ ul.alt li:before {
         background:black;
         color: #00FF00;
         font-family:courier;
-    }    
+    }
     blink20{
         display:inline;
 
@@ -1983,7 +1982,7 @@ ul.alt li:before {
         background:black;
         color: #00FF00;
         font-family:courier;
-    }    
+    }
     blink21{
         display:inline;
 
@@ -1998,7 +1997,7 @@ ul.alt li:before {
         background:black;
         color: #00FF00;
         font-family:courier;
-    }    
+    }
     blink22{
         display:inline;
 
@@ -2013,7 +2012,7 @@ ul.alt li:before {
         background:black;
         color: #00FF00;
         font-family:courier;
-    }    
+    }
     blink23{
         display:inline;
 
@@ -2028,7 +2027,7 @@ ul.alt li:before {
         background:black;
         color: #00FF00;
         font-family:courier;
-    }    
+    }
     blink24{
         display:inline;
 
@@ -2043,7 +2042,7 @@ ul.alt li:before {
         background:black;
         color: #00FF00;
         font-family:courier;
-    }    
+    }
     blink25{
         display:inline;
 
@@ -2058,7 +2057,7 @@ ul.alt li:before {
         background:black;
         color: #00FF00;
         font-family:courier;
-    }    
+    }
     blink26{
         display:inline;
 
@@ -2073,7 +2072,7 @@ ul.alt li:before {
         background:black;
         color: #00FF00;
         font-family:courier;
-    }    
+    }
     blink27{
         display:inline;
 
@@ -2088,7 +2087,7 @@ ul.alt li:before {
         background:black;
         color: #00FF00;
         font-family:courier;
-    }    
+    }
     blink28{
         display:inline;
 
@@ -2103,7 +2102,7 @@ ul.alt li:before {
         background:black;
         color: #00FF00;
         font-family:courier;
-    }    
+    }
     blink29{
         display:inline;
 
@@ -2118,7 +2117,7 @@ ul.alt li:before {
         background:black;
         color: #00FF00;
         font-family:courier;
-    }    
+    }
     blink30{
         display:inline;
 
@@ -2133,7 +2132,7 @@ ul.alt li:before {
         background:black;
         color: #00FF00;
         font-family:courier;
-    }    
+    }
     blink31{
         display:inline;
 
@@ -2148,7 +2147,7 @@ ul.alt li:before {
         background:black;
         color: #00FF00;
         font-family:courier;
-    }    
+    }
     blink32{
         display:inline;
 
@@ -2163,7 +2162,7 @@ ul.alt li:before {
         background:black;
         color: #00FF00;
         font-family:courier;
-    }    
+    }
     blink33{
         display:inline;
 
@@ -2178,7 +2177,7 @@ ul.alt li:before {
         background:black;
         color: #00FF00;
         font-family:courier;
-    }    
+    }
     blink34{
         display:inline;
 
@@ -2193,7 +2192,7 @@ ul.alt li:before {
         background:black;
         color: #00FF00;
         font-family:courier;
-    }    
+    }
     blink35{
         display:inline;
 
@@ -2208,7 +2207,7 @@ ul.alt li:before {
         background:black;
         color: #00FF00;
         font-family:courier;
-    }    
+    }
     blink36{
         display:inline;
 
@@ -2223,7 +2222,7 @@ ul.alt li:before {
         background:black;
         color: #00FF00;
         font-family:courier;
-    }    
+    }
     blink37{
         display:inline;
 
@@ -2238,7 +2237,7 @@ ul.alt li:before {
         background:black;
         color: #00FF00;
         font-family:courier;
-    }    
+    }
     blink38{
         display:inline;
 
@@ -2253,7 +2252,7 @@ ul.alt li:before {
         background:black;
         color: #00FF00;
         font-family:courier;
-    }    
+    }
     blink39{
         display:inline;
 
@@ -2268,7 +2267,7 @@ ul.alt li:before {
         background:black;
         color: #00FF00;
         font-family:courier;
-    }    
+    }
     blink40{
         display:inline;
 
@@ -2283,7 +2282,7 @@ ul.alt li:before {
         background:black;
         color: #00FF00;
         font-family:courier;
-    }    
+    }
     blink41{
         display:inline;
 
@@ -2298,7 +2297,7 @@ ul.alt li:before {
         background:black;
         color: #00FF00;
         font-family:courier;
-    }    
+    }
     blink42{
         display:inline;
 
@@ -2313,7 +2312,7 @@ ul.alt li:before {
         background:black;
         color: #00FF00;
         font-family:courier;
-    }    
+    }
     blink43{
         display:inline;
 
@@ -2328,7 +2327,7 @@ ul.alt li:before {
         background:black;
         color: #00FF00;
         font-family:courier;
-    }    
+    }
     blink44{
         display:inline;
 
@@ -2343,7 +2342,7 @@ ul.alt li:before {
         background:black;
         color: #00FF00;
         font-family:courier;
-    }    
+    }
     blink45{
         display:inline;
 
@@ -2358,7 +2357,7 @@ ul.alt li:before {
         background:black;
         color: #00FF00;
         font-family:courier;
-    }    
+    }
     blink46{
         display:inline;
 
@@ -2373,7 +2372,7 @@ ul.alt li:before {
         background:black;
         color: #00FF00;
         font-family:courier;
-    }    
+    }
     blink47{
         display:inline;
 
@@ -2608,7 +2607,7 @@ ul.alt li:before {
    overflow: hidden;
    text-overflow: ellipsis;
    //width: 100%;
-   //white-space: nowrap; 
+   //white-space: nowrap;
 }
 
 #feed li:last-child{
@@ -2659,7 +2658,7 @@ ul.alt li:before {
 
 #share_b{
 	cursor: pointer;
-}	
+}
 
 
 h2.major{
@@ -2737,14 +2736,14 @@ margin-bottom: 15px;
     right:-10px;
 }
 
-@media (max-width: 767px) { 
-#map{width: 525px !important;} 
+@media (max-width: 767px) {
+#map{width: 525px !important;}
 #tempif{width: 525px !important;}
 #kisyou{height: 600px !important;}
 #tenki_ui{height: 320px ! important;}
 
 }
-@media (max-width: 480px) { 
+@media (max-width: 480px) {
 #map{width: 303px !important;}
 #tempif{width: 303px !important;}
 #kisyou{height: 600px !important;}
@@ -3146,15 +3145,15 @@ z-index: -1;
 	margin-top: 10px;
 	padding: 0;
 }
- 
+
 	.word-w:nth-child(even) {
-    
+
 	}
-	
+
 	.word-w:nth-child(odd) {
     	background-color: rgba(255, 255, 255, 0.1);
 	}
- 
+
 .word-w {
 	border-bottom: solid 1px #ffffff;
 	padding:  10px;
@@ -3167,7 +3166,7 @@ z-index: -1;
 	.link-w:last-child{
 		/*最後のリンクに下線を付ける*/
 		border-bottom-width: 1px;
-	
+
 	}
 
 .word{display: inline-block;}
@@ -3430,7 +3429,7 @@ h3.soku::after {
     font-weight: bold;
 }
 .sbox p {
-    margin: 0; 
+    margin: 0;
     padding: 10px 0 10px 0;
 }
 
@@ -3491,7 +3490,7 @@ height: 1000px;
 		content: "\f18c\f18c\f18c";
 		color: #3eb370;
 	}
-	
+
 /*.alink::after{
 		font-family: "FontAwesome";
 		font-weight: bold;
@@ -3570,4 +3569,3 @@ article {
 }
 
 */
-
