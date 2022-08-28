@@ -4,14 +4,16 @@ function windy_ame(){
 
 }
 
-/* 気象庁 
-function k_ame(){
-	document.getElementById('rader_now2').innerHTML = '<iframe width="100%" height="650" src="https://www.jma.go.jp/bosai/nowc/#zoom:5/lat:38.131704/lon:136.908335/colordepth:normal/elements:hrpns" frameborder="0" id="yout"></iframe>';
+/* 気象庁 */
+function ks_ame(){
+	document.getElementById('rader_now').innerHTML = '<iframe width="100%" height="650" src="krader/index.html" frameborder="0" id="yout"></iframe>';
 
-}*/
+}
 
 function rader(){
 
 windy_ame();
+
+ks_ame();
 
 }
