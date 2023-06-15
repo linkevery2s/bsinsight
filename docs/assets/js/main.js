@@ -639,7 +639,7 @@ function ktsearch(){
 		else{
 		document.getElementById('data_result').innerHTML = "情報収集中です。" ;
 		document.getElementById('points_data').innerHTML = "";
-		exit;
+
 		}
 
     }
