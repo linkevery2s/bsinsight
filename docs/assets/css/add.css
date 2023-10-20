@@ -32,5 +32,5 @@
 }
 
 @media screen and (min-width: 768px) {
-	br{display: none;}
+	#menu_button br{display: none;}
 } 
