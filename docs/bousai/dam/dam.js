@@ -3,7 +3,7 @@ var map;var p;var zoom;var hash;var todou = new Array(47);
 	function start(x, y, z){
 		map = L.map('map');
 		L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
-		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a><br>国土数値情報：<a href="https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-W01.html">ダムデータ</a>'
+		attribution: '&copy; <a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>国土数値情報：<a href="https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-W01.html">ダムデータ</a>'
 	}).addTo(map);
 		map.setView([x, y], z);
 		

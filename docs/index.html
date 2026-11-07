@@ -1725,20 +1725,27 @@
 				<article id="refuge">
 					<h2 class="major">避難情報</h2>
 
-					<h2 class="ti">指定緊急避難場所</h2>
+					<h2 class="ti">指定緊急避難場所・指定避難所</h2>
 					<h3 class="point">地図から調べる</h3>
 					<p>都道府県を選択すると地図画面に移動します。</p>
 
 					<iframe width="100%" height="400" src="map/index.html" frameborder="0" id="tenki_ui"></iframe>
 
-					<h3 class="point">リストから調べる</h3>
+					<!--<h3 class="point">リストから調べる</h3>
 					<p>検索フォームに都道府県、市町村、町字を入力し絞込み検索ができます。</p>
 
-					<iframe src="hinanlist/index.html" width="100%" height="500px" frameborder="yes" scrolling="yes"></iframe>
+					<iframe src="hinanlist/index.html" width="100%" height="500px" frameborder="yes" scrolling="yes"></iframe>-->
 
 					<hr>
-					※一部の自治体では、データ未整理のため、掲載されておりません。最新の情報は、自治体の公式サイトなどでもご確認ください。<br><br>
-					参考：<a href="https://hinan.gsi.go.jp/hinanjocjp/hinanbasho/koukaidate.html" target="_blank">指定緊急避難場所データ　市町村別公開日・最終更新日</a>
+					<!--※一部の自治体では、データ未整理のため、掲載されておりません。最新の情報は、自治体の公式サイトなどでもご確認ください。<br><br>-->
+					参考：<a href="https://www.gsi.go.jp/bousaichiri/hinanbasho.html" target="_blank">指定緊急避難場所・指定避難所データ</a>
+
+					<div class="box1">
+						<span>指定避難所<br>
+							指定避難所は、災害の危険がなくなるまでの一時的な避難施設です。</span>
+					</div>
+
+					<br>
 
 					<div class="box1">
 						<span>指定緊急避難場所<br>
@@ -1851,7 +1858,6 @@
 
 					<hr class="last" />
 					<i class="fa fa-book" aria-hidden="true"></i> 以下の資料をもとに仁志が加工・編集して作成しました。<br>
-					・地理院タイル（<span id="url_a"><a href="http://maps.gsi.go.jp/development/ichiran.html" class="alink" target="_blank">http://maps.gsi.go.jp/development/ichiran.html</a></span>）、指定緊急避難場所データ<br>
 					・<a href="http://www.bousai.go.jp/kyoiku/zukigo/index.html" target="_blank">避難場所等の図記号の標準化の取組</a>、内閣府<br>
 					・<a href="https://www.geospatial.jp/ckan/dataset/1101" class="alink">通行止め情報</a>、G空間情報センター<br>
 					・<a href="https://github.com/code4fukui/localgovjp" class="alink">日本の地方自治体一覧オープンデータ</a><br>
@@ -1871,12 +1877,12 @@
 
 
 					<br><br>
-					<h3 class="point">Ｗｉｎｄｙ</h3>
+					<!--<h3 class="point">Ｗｉｎｄｙ</h3>
 					<ul class="actions">
 						<li><span class="button" target="_blank" onclick="windy_ame()"><i class="fa fa-arrow-circle-up"></i> 更新</span></li>
 					</ul>
 					<div id="rader_now1"></div>
-					<br><br>
+					<br><br>-->
 
 					<h3 class="point">台風情報</h3>
 					<ul class="actions">
@@ -2563,6 +2569,8 @@
 					</p>
 					<h2 class="major">更新情報</h2>
 					<p>
+						2026.11.07 避難情報更新、LeafletのCDN変更<br><br>
+						2026.11.06 気象庁の雨雲レーダーの倍率調整<br><br>
 						2025.02.08 気象庁の雨雲レーダーが表示されないバグを修正<br><br>
 						2024.12.09 不要なスクリプトを削除、整理<br><br>
 						2024.11.19 インストール方法画像追加<br><br>

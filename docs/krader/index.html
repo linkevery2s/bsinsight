@@ -12,8 +12,8 @@
 	<meta name="twitter:description" content='気象庁の雨雲レーダーの情報を取得しました。' />
 	<meta name="author" content="仁志">
 	<meta name="keywords" content="防災,災害対策,雨雲レーダー,降水ナウキャスト">
-	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
-	<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+	<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
 	<script type='module'>
 		onload = async () => {
@@ -45,11 +45,13 @@
 			});
 
 			const map = L.map('map', {
-				center: [34.624, 135.341],
+				center: [37.300, 137.800],
 				maxZoom: 14,
-				minZoom: 8,
+				minZoom: 3,
 				zoomControl: false,
-				zoom: 8,
+				zoom: 3,
+				zoomSnap: 2,
+				zoomDelta: 2,
 				layers: [tiri, ame_layer]
 			});
 
